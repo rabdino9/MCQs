@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tayari</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --secondary: #06b6d4;
+            --accent: #8b5cf6;
+            --background: #f0f9ff;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        
+        .perspective-container {
+            perspective: 1000px;
+        }
+        
+        .card-3d {
+            background-color: var(--card-bg);
+            border-radius: 1rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+        }
+        
+        .card-3d:hover {
+            transform: translateY(-5px) rotateX(2deg);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.06);
+        }
+        
+        .category-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .btn-3d {
+            position: relative;
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+            transform: translateZ(0);
+        }
+        
+        .btn-3d:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: inherit;
+            border-radius: inherit;
+            transform: translateZ(-5px);
+            filter: blur(5px);
+            opacity: 0.5;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-3d:hover {
+            transform: translateY(-3px) translateZ(0);
+        }
+        
+        .btn-3d:hover:before {
+            opacity: 0.7;
+            filter: blur(7px);
+        }
+        
+        .btn-3d:active {
+            transform: translateY(0) translateZ(0);
+        }
+        
+        .option-btn {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .option-btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: all 0.5s;
+        }
+        
+        .option-btn:hover:before {
+            left: 100%;
+        }
+        
+        .emoji-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07));
+            transform-style: preserve-3d;
+            transition: transform 0.3s;
+        }
+        
+        .category-card:hover .emoji-icon {
+            transform: rotateY(10deg) scale(1.1);
+        }
+        
+        .page-transition {
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .input-3d {
+            transition: all 0.3s;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .input-3d:focus {
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05), 0 0 0 3px rgba(79, 70, 229, 0.2);
+        }
+        
+        .shimmer {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .shimmer::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                to bottom right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.1) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(30deg);
+            animation: shimmerEffect 3s infinite;
+        }
+        
+        @keyframes shimmerEffect {
+            0% { transform: translateX(-100%) rotate(30deg); }
+            100% { transform: translateX(100%) rotate(30deg); }
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .admin-section {
+            transition: all 0.3s ease;
+        }
+        
+        .result-icon {
+            font-size: 1.5rem;
+        }
+
+        /* Navigation tabs */
+        .tab-active {
+            color: var(--primary);
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        /* Toast notifications */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            background-color: #10b981;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transform: translateX(150%);
+            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            z-index: 100;
+        }
+        
+        .toast.show {
+            transform: translateX(0);
+        }
+        
+        /* Category emoji mapping */
+        .emoji-selector {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .emoji-item {
+            cursor: pointer;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 5px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        
+        .emoji-item:hover {
+            background-color: #f1f5f9;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div id="app" class="px-4 py-6 max-w-md mx-auto">
+        <!-- Header -->
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-bold mb-2 shimmer">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-cyan-500">Digital Tayari</span>
+            </h1>
+            <p class="text-gray-600">Test your knowledge with interactive quizzes</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="flex justify-center mb-8">
+            <button id="showHomeBtn" class="tab-active mx-2 px-4 py-2 text-lg font-medium transition-all">Home</button>
+            <button id="showAdminBtn" class="mx-2 px-4 py-2 text-lg font-medium transition-all">Admin Panel</button>
+        </nav>
+
+        <!-- Toast Notification -->
+        <div id="toast" class="toast">
+            <span id="toastMessage"></span>
+        </div>
+
+        <!-- Home Screen -->
+        <div id="homeScreen" class="page-transition">
+            <div id="categoriesList" class="grid grid-cols-2 gap-4"></div>
+            <div id="subcategoriesList" class="hidden grid grid-cols-2 gap-4 mt-4"></div>
+            <div id="quizContainer" class="hidden">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 id="quizTitle" class="text-xl font-bold"></h2>
+                    <span id="questionCounter" class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm"></span>
+                </div>
+                <div id="questionContainer" class="card-3d p-5 mb-4"></div>
+                <div id="optionsContainer" class="space-y-3"></div>
+                <div class="mt-6 flex justify-between">
+                    <button id="prevQuestionBtn" class="hidden btn-3d bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg">Previous</button>
+                    <button id="nextQuestionBtn" class="btn-3d bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg ml-auto">Next</button>
+                </div>
+            </div>
+            <div id="quizResultContainer" class="hidden">
+                <div class="card-3d p-6 text-center">
+                    <h2 class="text-2xl font-bold mb-4">Quiz Results</h2>
+                    <div class="text-5xl mb-4">🏆</div>
+                    <p class="text-xl mb-2">Your Score:</p>
+                    <p id="resultScore" class="text-4xl font-bold text-indigo-600 mb-6"></p>
+                    <button id="viewAnswersBtn" class="btn-3d bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg mb-4">View Answers</button>
+                    <button id="backToHomeBtn" class="btn-3d bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg">Back to Home</button>
+                </div>
+            </div>
+            <div id="answersContainer" class="hidden space-y-6 mt-6">
+                <h2 class="text-2xl font-bold mb-4">Answer Review</h2>
+                <div id="questionAnswersList"></div>
+                <button id="backToResultsBtn" class="btn-3d bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-2 rounded-lg mt-4">Back to Results</button>
+            </div>
+        </div>
+
+        <!-- Admin Screen -->
+        <div id="adminScreen" class="hidden">
+            <!-- Admin Login -->
+            <div id="adminLogin" class="card-3d p-6 text-center">
+                <h2 class="text-2xl font-bold mb-6">Admin Login</h2>
+                <div class="mb-4">
+                    <input type="password" id="adminPassword" placeholder="Enter admin password" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+                <button id="adminLoginBtn" class="btn-3d w-full bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-lg">Login</button>
+                <p class="mt-2 text-sm text-gray-500">(Default password: )</p>
+            </div>
+
+            <!-- Admin Panel -->
+            <div id="adminPanel" class="hidden">
+                <div class="mb-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-2xl font-bold">Admin Panel</h2>
+                        <button id="adminLogoutBtn" class="px-4 py-1 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm">Logout</button>
+                    </div>
+                    
+                    <!-- Admin Navigation -->
+                    <div class="flex border-b border-gray-200 mb-6">
+                        <button class="admin-tab tab-active py-2 px-4" data-tab="categories">Categories</button>
+                        <button class="admin-tab py-2 px-4" data-tab="subcategories">Subcategories</button>
+                        <button class="admin-tab py-2 px-4" data-tab="questions">Questions</button>
+                    </div>
+                    
+                    <!-- Categories Section -->
+                    <div id="categoriesSection" class="admin-section">
+                        <div class="card-3d p-5 mb-6">
+                            <h3 class="text-lg font-semibold mb-4">Add Category</h3>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="categoryName">Category Name:</label>
+                                <input type="text" id="categoryName" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2">Select Emoji Icon:</label>
+                                <div class="flex items-center mb-2">
+                                    <div id="selectedEmoji" class="text-3xl mr-3">📚</div>
+                                    <button id="changeEmojiBtn" class="px-3 py-1 bg-gray-200 hover:bg-gray-300 rounded-lg text-sm">Change</button>
+                                </div>
+                                <div id="emojiSelector" class="emoji-selector hidden">
+                                    <div class="emoji-item">📚</div>
+                                    <div class="emoji-item">🧪</div>
+                                    <div class="emoji-item">🧮</div>
+                                    <div class="emoji-item">🌍</div>
+                                    <div class="emoji-item">🧠</div>
+                                    <div class="emoji-item">💻</div>
+                                    <div class="emoji-item">🔬</div>
+                                    <div class="emoji-item">🎨</div>
+                                    <div class="emoji-item">🏛️</div>
+                                    <div class="emoji-item">📊</div>
+                                    <div class="emoji-item">🎭</div>
+                                    <div class="emoji-item">🎵</div>
+                                    <div class="emoji-item">⚽</div>
+                                    <div class="emoji-item">🏀</div>
+                                    <div class="emoji-item">🎲</div>
+                                    <div class="emoji-item">🚀</div>
+                                    <div class="emoji-item">🌟</div>
+                                    <div class="emoji-item">🌱</div>
+                                    <div class="emoji-item">🐬</div>
+                                    <div class="emoji-item">🦁</div>
+                                </div>
+                            </div>
+                            
+                            <button id="addCategoryBtn" class="btn-3d w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg">Add Category</button>
+                        </div>
+                        
+                        <h3 class="text-lg font-semibold mb-4">Manage Categories</h3>
+                        <div id="adminCategoriesList" class="space-y-3"></div>
+                    </div>
+                    
+                    <!-- Subcategories Section -->
+                    <div id="subcategoriesSection" class="admin-section hidden">
+                        <div class="card-3d p-5 mb-6">
+                            <h3 class="text-lg font-semibold mb-4">Add Subcategory</h3>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="subCategoryCategory">Select Category:</label>
+                                <select id="subCategoryCategory" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="subCategoryName">Subcategory Name:</label>
+                                <input type="text" id="subCategoryName" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            </div>
+                            <button id="addSubCategoryBtn" class="btn-3d w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg">Add Subcategory</button>
+                        </div>
+                        
+                        <h3 class="text-lg font-semibold mb-4">Manage Subcategories</h3>
+                        <div id="adminSubcategoriesList" class="space-y-3"></div>
+                    </div>
+                    
+                    <!-- Questions Section -->
+                    <div id="questionsSection" class="admin-section hidden">
+                        <div class="card-3d p-5 mb-6">
+                            <h3 class="text-lg font-semibold mb-4">Add Question</h3>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="questionCategory">Select Category:</label>
+                                <select id="questionCategory" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="questionSubCategory">Select Subcategory:</label>
+                                <select id="questionSubCategory" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></select>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="questionText">Question:</label>
+                                <textarea id="questionText" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 h-24"></textarea>
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2">Options:</label>
+                                <div class="space-y-3">
+                                    <div class="flex items-center">
+                                        <input type="radio" name="correctOption" id="correctOption0" value="0" class="mr-2">
+                                        <input type="text" id="option0" placeholder="Option 1" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input type="radio" name="correctOption" id="correctOption1" value="1" class="mr-2">
+                                        <input type="text" id="option1" placeholder="Option 2" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input type="radio" name="correctOption" id="correctOption2" value="2" class="mr-2">
+                                        <input type="text" id="option2" placeholder="Option 3" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                    </div>
+                                    <div class="flex items-center">
+                                        <input type="radio" name="correctOption" id="correctOption3" value="3" class="mr-2">
+                                        <input type="text" id="option3" placeholder="Option 4" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                    </div>
+                                </div>
+                            </div>
+                            <button id="addQuestionBtn" class="btn-3d w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg">Add Question</button>
+                        </div>
+                        
+                        <h3 class="text-lg font-semibold mb-4">Manage Questions</h3>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="filterQuestionCategory">Filter by Category:</label>
+                            <select id="filterQuestionCategory" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-2"></select>
+                            <select id="filterQuestionSubCategory" class="input-3d w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></select>
+                        </div>
+                        <div id="adminQuestionsList" class="space-y-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data model
+        let categories = [];
+        let subcategories = [];
+        let questions = [];
+
+        // App state
+        let currentCategory = null;
+        let currentSubcategory = null;
+        let currentQuiz = [];
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+        let selectedEmoji = "📚";
+
+        // DOM Elements
+        const homeScreen = document.getElementById('homeScreen');
+        const adminScreen = document.getElementById('adminScreen');
+        const adminLogin = document.getElementById('adminLogin');
+        const adminPanel = document.getElementById('adminPanel');
+        const showHomeBtn = document.getElementById('showHomeBtn');
+        const showAdminBtn = document.getElementById('showAdminBtn');
+        const categoriesList = document.getElementById('categoriesList');
+        const subcategoriesList = document.getElementById('subcategoriesList');
+        const quizContainer = document.getElementById('quizContainer');
+        const questionContainer = document.getElementById('questionContainer');
+        const optionsContainer = document.getElementById('optionsContainer');
+        const quizTitle = document.getElementById('quizTitle');
+        const questionCounter = document.getElementById('questionCounter');
+        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+        const prevQuestionBtn = document.getElementById('prevQuestionBtn');
+        const quizResultContainer = document.getElementById('quizResultContainer');
+        const resultScore = document.getElementById('resultScore');
+        const viewAnswersBtn = document.getElementById('viewAnswersBtn');
+        const backToHomeBtn = document.getElementById('backToHomeBtn');
+        const answersContainer = document.getElementById('answersContainer');
+        const questionAnswersList = document.getElementById('questionAnswersList');
+        const backToResultsBtn = document.getElementById('backToResultsBtn');
+        
+        // Admin elements
+        const adminLoginBtn = document.getElementById('adminLoginBtn');
+        const adminPassword = document.getElementById('adminPassword');
+        const adminLogoutBtn = document.getElementById('adminLogoutBtn');
+        const categoryName = document.getElementById('categoryName');
+        const subCategoryCategory = document.getElementById('subCategoryCategory');
+        const subCategoryName = document.getElementById('subCategoryName');
+        const questionCategory = document.getElementById('questionCategory');
+        const questionSubCategory = document.getElementById('questionSubCategory');
+        const questionText = document.getElementById('questionText');
+        const option0 = document.getElementById('option0');
+        const option1 = document.getElementById('option1');
+        const option2 = document.getElementById('option2');
+        const option3 = document.getElementById('option3');
+        const addCategoryBtn = document.getElementById('addCategoryBtn');
+        const addSubCategoryBtn = document.getElementById('addSubCategoryBtn');
+        const addQuestionBtn = document.getElementById('addQuestionBtn');
+        const adminCategoriesList = document.getElementById('adminCategoriesList');
+        const adminSubcategoriesList = document.getElementById('adminSubcategoriesList');
+        const adminQuestionsList = document.getElementById('adminQuestionsList');
+        const filterQuestionCategory = document.getElementById('filterQuestionCategory');
+        const filterQuestionSubCategory = document.getElementById('filterQuestionSubCategory');
+        
+        // Admin tabs
+        const adminTabs = document.querySelectorAll('.admin-tab');
+        const categoriesSection = document.getElementById('categoriesSection');
+        const subcategoriesSection = document.getElementById('subcategoriesSection');
+        const questionsSection = document.getElementById('questionsSection');
+        
+        // Emoji selector
+        const changeEmojiBtn = document.getElementById('changeEmojiBtn');
+        const emojiSelector = document.getElementById('emojiSelector');
+        const selectedEmojiElement = document.getElementById('selectedEmoji');
+        const emojiItems = document.querySelectorAll('.emoji-item');
+
+        // Toast notification
+        const toast = document.getElementById('toast');
+        const toastMessage = document.getElementById('toastMessage');
+        
+        // Initialize app
+        function initApp() {
+            loadData();
+            setupEventListeners();
+            renderCategories();
+            updateAdminCategories();
+            updateAdminSubcategories();
+            updateAdminQuestions();
+            filterQuestionsByCategory();
+        }
+        
+        // Load data from localStorage
+        function loadData() {
+            const storedCategories = localStorage.getItem('mcqCategories');
+            const storedSubcategories = localStorage.getItem('mcqSubcategories');
+            const storedQuestions = localStorage.getItem('mcqQuestions');
+            
+            categories = storedCategories ? JSON.parse(storedCategories) : [];
+            subcategories = storedSubcategories ? JSON.parse(storedSubcategories) : [];
+            questions = storedQuestions ? JSON.parse(storedQuestions) : [];
+        }
+        
+        // Save data to localStorage
+        function saveData() {
+            localStorage.setItem('mcqCategories', JSON.stringify(categories));
+            localStorage.setItem('mcqSubcategories', JSON.stringify(subcategories));
+            localStorage.setItem('mcqQuestions', JSON.stringify(questions));
+        }
+        
+        // Setup event listeners
+        function setupEventListeners() {
+            // Navigation
+            showHomeBtn.addEventListener('click', () => showScreen('home'));
+            showAdminBtn.addEventListener('click', () => showScreen('admin'));
+            
+            // Admin login
+            adminLoginBtn.addEventListener('click', handleAdminLogin);
+            adminLogoutBtn.addEventListener('click', handleAdminLogout);
+            
+            // Admin actions
+            addCategoryBtn.addEventListener('click', handleAddCategory);
+            addSubCategoryBtn.addEventListener('click', handleAddSubcategory);
+            addQuestionBtn.addEventListener('click', handleAddQuestion);
+            
+            // Admin dropdowns
+            questionCategory.addEventListener('change', updateSubcategoriesDropdown);
+            filterQuestionCategory.addEventListener('change', updateFilterSubcategories);
+            
+            // Quiz navigation
+            nextQuestionBtn.addEventListener('click', handleNextQuestion);
+            prevQuestionBtn.addEventListener('click', handlePrevQuestion);
+            viewAnswersBtn.addEventListener('click', showAnswers);
+            backToHomeBtn.addEventListener('click', resetQuiz);
+            backToResultsBtn.addEventListener('click', () => {
+                answersContainer.classList.add('hidden');
+                quizResultContainer.classList.remove('hidden');
+            });
+            
+            // Admin tabs
+            adminTabs.forEach(tab => {
+                tab.addEventListener('click', () => switchAdminTab(tab.dataset.tab));
+            });
+            
+            // Emoji selector
+            changeEmojiBtn.addEventListener('click', toggleEmojiSelector);
+            emojiItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    selectedEmoji = item.textContent;
+                    selectedEmojiElement.textContent = selectedEmoji;
+                    emojiSelector.classList.add('hidden');
+                });
+            });
+            
+            // Filter questions
+            filterQuestionCategory.addEventListener('change', filterQuestionsByCategory);
+            filterQuestionSubCategory.addEventListener('change', filterQuestionsBySubcategory);
+        }
+        
+        // Toggle emoji selector
+        function toggleEmojiSelector() {
+            emojiSelector.classList.toggle('hidden');
+        }
+        
+        // Show toast notification
+        function showToast(message, type = 'success') {
+            toastMessage.textContent = message;
+            
+            if (type === 'success') {
+                toast.style.backgroundColor = '#10b981';
+            } else {
+                toast.style.backgroundColor = '#ef4444';
+            }
+            
+            toast.classList.add('show');
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Switch between admin tabs
+        function switchAdminTab(tabName) {
+            adminTabs.forEach(tab => {
+                if (tab.dataset.tab === tabName) {
+                    tab.classList.add('tab-active');
+                } else {
+                    tab.classList.remove('tab-active');
+                }
+            });
+            
+            categoriesSection.classList.add('hidden');
+            subcategoriesSection.classList.add('hidden');
+            questionsSection.classList.add('hidden');
+            
+            if (tabName === 'categories') {
+                categoriesSection.classList.remove('hidden');
+            } else if (tabName === 'subcategories') {
+                subcategoriesSection.classList.remove('hidden');
+            } else if (tabName === 'questions') {
+                questionsSection.classList.remove('hidden');
+            }
+        }
+        
+        // Show screen (home or admin)
+        function showScreen(screen) {
+            if (screen === 'home') {
+                homeScreen.classList.remove('hidden');
+                adminScreen.classList.add('hidden');
+                showHomeBtn.classList.add('tab-active');
+                showAdminBtn.classList.remove('tab-active');
+                renderCategories();
+            } else {
+                homeScreen.classList.add('hidden');
+                adminScreen.classList.remove('hidden');
+                adminLogin.classList.remove('hidden');
+                adminPanel.classList.add('hidden');
+                showHomeBtn.classList.remove('tab-active');
+                showAdminBtn.classList.add('tab-active');
+                adminPassword.value = '';
+            }
+        }
+        
+        // Handle admin login
+        function handleAdminLogin() {
+            const password = adminPassword.value;
+            
+            if (password === 'Magsi4music') {
+                adminLogin.classList.add('hidden');
+                adminPanel.classList.remove('hidden');
+                updateAdminCategories();
+                updateAdminSubcategories();
+                updateAdminQuestions();
+            } else {
+                showToast('Incorrect password!', 'error');
+            }
+        }
+        
+        // Handle admin logout
+        function handleAdminLogout() {
+            adminLogin.classList.remove('hidden');
+            adminPanel.classList.add('hidden');
+        }
+        
+        // Render categories on home screen
+        function renderCategories() {
+            categoriesList.innerHTML = '';
+            subcategoriesList.classList.add('hidden');
+            quizContainer.classList.add('hidden');
+            
+            if (categories.length === 0) {
+                categoriesList.innerHTML = `<div class="col-span-2 card-3d p-6 text-center">
+                    <p class="text-gray-500">No categories available. Add categories in the admin panel.</p>
+                </div>`;
+                return;
+            }
+            
+            categories.forEach(category => {
+                const categoryCard = document.createElement('div');
+                categoryCard.className = 'category-card card-3d p-6 text-center cursor-pointer perspective-container';
+                categoryCard.innerHTML = `
+                    <div class="emoji-icon">${category.emoji || '📚'}</div>
+                    <h3 class="font-semibold text-lg">${category.name}</h3>
+                `;
+                
+                categoryCard.addEventListener('click', () => {
+                    currentCategory = category;
+                    renderSubcategories(category.id);
+                });
+                
+                categoriesList.appendChild(categoryCard);
+            });
+        }
+        
+        // Render subcategories for a category
+        function renderSubcategories(categoryId) {
+            const categorySubcategories = subcategories.filter(sub => sub.categoryId === categoryId);
+            subcategoriesList.innerHTML = '';
+            
+            if (categorySubcategories.length === 0) {
+                subcategoriesList.innerHTML = `<div class="col-span-2 card-3d p-6 text-center">
+                    <p class="text-gray-500">No subcategories available for this category.</p>
+                </div>`;
+            } else {
+                categorySubcategories.forEach(subcategory => {
+                    const subcategoryCard = document.createElement('div');
+                    subcategoryCard.className = 'category-card card-3d p-6 text-center cursor-pointer';
+                    subcategoryCard.innerHTML = `
+                        <h3 class="font-semibold text-lg">${subcategory.name}</h3>
+                    `;
+                    
+                    subcategoryCard.addEventListener('click', () => {
+                        startQuiz(categoryId, subcategory.id);
+                    });
+                    
+                    subcategoriesList.appendChild(subcategoryCard);
+                });
+            }
+            
+            // Show back button
+            const backButton = document.createElement('div');
+            backButton.className = 'col-span-2 mt-4 text-center';
+            backButton.innerHTML = `
+                <button class="btn-3d px-6 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg">
+                    Back to Categories
+                </button>
+            `;
+            backButton.querySelector('button').addEventListener('click', renderCategories);
+            subcategoriesList.appendChild(backButton);
+            
+            categoriesList.classList.add('hidden');
+            subcategoriesList.classList.remove('hidden');
+        }
+        
+        // Start a quiz for a category and subcategory
+        function startQuiz(categoryId, subcategoryId) {
+            const quizQuestions = questions.filter(q => q.categoryId === categoryId && q.subcategoryId === subcategoryId);
+            
+            if (quizQuestions.length === 0) {
+                showToast('No questions available for this quiz!', 'error');
+                return;
+            }
+            
+            currentQuiz = quizQuestions;
+            currentQuestionIndex = 0;
+            userAnswers = Array(currentQuiz.length).fill(null);
+            
+            const category = categories.find(c => c.id === categoryId);
+            const subcategory = subcategories.find(s => s.id === subcategoryId);
+            
+            quizTitle.textContent = `${category.name} - ${subcategory.name}`;
+            currentCategory = category;
+            currentSubcategory = subcategory;
+            
+            subcategoriesList.classList.add('hidden');
+            quizContainer.classList.remove('hidden');
+            
+            renderQuestion();
+        }
+        
+        // Render current question
+        function renderQuestion() {
+            const question = currentQuiz[currentQuestionIndex];
+            questionCounter.textContent = `${currentQuestionIndex + 1}/${currentQuiz.length}`;
+            
+            questionContainer.innerHTML = `
+                <p class="text-lg">${question.text}</p>
+            `;
+            
+            optionsContainer.innerHTML = '';
+            question.options.forEach((option, index) => {
+                const optionBtn = document.createElement('button');
+                optionBtn.className = 'option-btn w-full text-left p-4 rounded-lg border border-gray-300 hover:bg-gray-100 transition-all';
+                
+                // If user already answered this question
+                if (userAnswers[currentQuestionIndex] === index) {
+                    optionBtn.classList.add('bg-indigo-100', 'border-indigo-500');
+                }
+                
+                optionBtn.textContent = option;
+                
+                optionBtn.addEventListener('click', () => {
+                    // Clear all selections
+                    optionsContainer.querySelectorAll('button').forEach(btn => {
+                        btn.classList.remove('bg-indigo-100', 'border-indigo-500');
+                    });
+                    
+                    // Select this option
+                    optionBtn.classList.add('bg-indigo-100', 'border-indigo-500');
+                    userAnswers[currentQuestionIndex] = index;
+                });
+                
+                optionsContainer.appendChild(optionBtn);
+            });
+            
+            // Update navigation buttons
+            if (currentQuestionIndex === 0) {
+                prevQuestionBtn.classList.add('hidden');
+            } else {
+                prevQuestionBtn.classList.remove('hidden');
+            }
+            
+            if (currentQuestionIndex === currentQuiz.length - 1) {
+                nextQuestionBtn.textContent = 'Finish Quiz';
+            } else {
+                nextQuestionBtn.textContent = 'Next';
+            }
+        }
+        
+        // Handle next question button
+        function handleNextQuestion() {
+            if (currentQuestionIndex === currentQuiz.length - 1) {
+                finishQuiz();
+            } else {
+                currentQuestionIndex++;
+                renderQuestion();
+            }
+        }
+        
+        // Handle previous question button
+        function handlePrevQuestion() {
+            currentQuestionIndex--;
+            renderQuestion();
+        }
+        
+        // Finish quiz and show results
+        function finishQuiz() {
+            let correctAnswers = 0;
+            
+            currentQuiz.forEach((question, index) => {
+                if (userAnswers[index] === question.correctOption) {
+                    correctAnswers++;
+                }
+            });
+            
+            const score = Math.round((correctAnswers / currentQuiz.length) * 100);
+            resultScore.textContent = `${score}% (${correctAnswers}/${currentQuiz.length})`;
+            
+            quizContainer.classList.add('hidden');
+            quizResultContainer.classList.remove('hidden');
+        }
+        
+        // Show answers review
+        function showAnswers() {
+            quizResultContainer.classList.add('hidden');
+            answersContainer.classList.remove('hidden');
+            
+            questionAnswersList.innerHTML = '';
+            
+            currentQuiz.forEach((question, index) => {
+                const userAnswer = userAnswers[index];
+                const isCorrect = userAnswer === question.correctOption;
+                
+                const questionElement = document.createElement('div');
+                questionElement.className = 'card-3d p-4 mb-4';
+                
+                questionElement.innerHTML = `
+                    <p class="font-semibold mb-2">${index + 1}. ${question.text}</p>
+                    <div class="pl-4">
+                        ${question.options.map((option, i) => `
+                            <div class="mb-1 flex items-center ${i === question.correctOption ? 'text-green-600 font-semibold' : ''} ${i === userAnswer && i !== question.correctOption ? 'text-red-600 line-through' : ''}">
+                                ${i === question.correctOption ? '<span class="result-icon mr-1">✅</span>' : ''}
+                                ${i === userAnswer && i !== question.correctOption ? '<span class="result-icon mr-1">❌</span>' : ''}
+                                ${option}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                questionAnswersList.appendChild(questionElement);
+            });
+        }
+        
+        // Reset quiz and go back to home
+        function resetQuiz() {
+            currentQuiz = [];
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            
+            quizResultContainer.classList.add('hidden');
+            answersContainer.classList.add('hidden');
+            categoriesList.classList.remove('hidden');
+            
+            renderCategories();
+        }
+        
+        // Handle adding a new category
+        function handleAddCategory() {
+            const name = categoryName.value.trim();
+            
+            if (!name) {
+                showToast('Please enter a category name!', 'error');
+                return;
+            }
+            
+            const newCategory = {
+                id: Date.now().toString(),
+                name,
+                emoji: selectedEmoji
+            };
+            
+            categories.push(newCategory);
+            saveData();
+            
+            categoryName.value = '';
+            selectedEmoji = "📚";
+            selectedEmojiElement.textContent = selectedEmoji;
+            
+            updateAdminCategories();
+            showToast('Category added successfully!');
+        }
+        
+        // Handle adding a new subcategory
+        function handleAddSubcategory() {
+            const categoryId = subCategoryCategory.value;
+            const name = subCategoryName.value.trim();
+            
+            if (!categoryId) {
+                showToast('Please select a category!', 'error');
+                return;
+            }
+            
+            if (!name) {
+                showToast('Please enter a subcategory name!', 'error');
+                return;
+            }
+            
+            const newSubcategory = {
+                id: Date.now().toString(),
+                categoryId,
+                name
+            };
+            
+            subcategories.push(newSubcategory);
+            saveData();
+            
+            subCategoryName.value = '';
+            
+            updateAdminSubcategories();
+            showToast('Subcategory added successfully!');
+        }
+        
+        // Handle adding a new question
+        function handleAddQuestion() {
+            const categoryId = questionCategory.value;
+            const subcategoryId = questionSubCategory.value;
+            const text = questionText.value.trim();
+            const options = [
+                option0.value.trim(),
+                option1.value.trim(),
+                option2.value.trim(),
+                option3.value.trim()
+            ];
+            
+            // Get the selected correct option
+            let correctOption = null;
+            document.querySelectorAll('input[name="correctOption"]').forEach((radio, index) => {
+                if (radio.checked) {
+                    correctOption = parseInt(radio.value);
+                }
+            });
+            
+            if (!categoryId) {
+                showToast('Please select a category!', 'error');
+                return;
+            }
+            
+            if (!subcategoryId) {
+                showToast('Please select a subcategory!', 'error');
+                return;
+            }
+            
+            if (!text) {
+                showToast('Please enter a question!', 'error');
+                return;
+            }
+            
+            if (options.some(opt => !opt)) {
+                showToast('Please fill in all options!', 'error');
+                return;
+            }
+            
+            if (correctOption === null) {
+                showToast('Please select a correct option!', 'error');
+                return;
+            }
+            
+            const newQuestion = {
+                id: Date.now().toString(),
+                categoryId,
+                subcategoryId,
+                text,
+                options,
+                correctOption
+            };
+            
+            questions.push(newQuestion);
+            saveData();
+            
+            questionText.value = '';
+            option0.value = '';
+            option1.value = '';
+            option2.value = '';
+            option3.value = '';
+            document.querySelectorAll('input[name="correctOption"]').forEach(radio => {
+                radio.checked = false;
+            });
+            
+            updateAdminQuestions();
+            showToast('Question added successfully!');
+        }
+        
+        // Update categories list in admin panel
+        function updateAdminCategories() {
+            adminCategoriesList.innerHTML = '';
+            
+            if (categories.length === 0) {
+                adminCategoriesList.innerHTML = `<p class="text-gray-500">No categories available.</p>`;
+            } else {
+                categories.forEach(category => {
+                    const categoryElement = document.createElement('div');
+                    categoryElement.className = 'card-3d p-4 flex justify-between items-center';
+                    categoryElement.innerHTML = `
+                        <div class="flex items-center">
+                            <div class="mr-3 text-xl">${category.emoji || '📚'}</div>
+                            <span>${category.name}</span>
+                        </div>
+                        <button class="delete-category text-red-600 hover:text-red-800" data-id="${category.id}">Delete</button>
+                    `;
+                    
+                    adminCategoriesList.appendChild(categoryElement);
+                });
+                
+                // Add event listeners to delete buttons
+                document.querySelectorAll('.delete-category').forEach(btn => {
+                    btn.addEventListener('click', () => deleteCategory(btn.dataset.id));
+                });
+            }
+            
+            // Update category dropdowns
+            updateCategoryDropdowns();
+        }
+        
+        // Update subcategories list in admin panel
+        function updateAdminSubcategories() {
+            adminSubcategoriesList.innerHTML = '';
+            
+            if (subcategories.length === 0) {
+                adminSubcategoriesList.innerHTML = `<p class="text-gray-500">No subcategories available.</p>`;
+            } else {
+                subcategories.forEach(subcategory => {
+                    const category = categories.find(c => c.id === subcategory.categoryId);
+                    const categoryName = category ? category.name : 'Unknown Category';
+                    
+                    const subcategoryElement = document.createElement('div');
+                    subcategoryElement.className = 'card-3d p-4 flex justify-between items-center';
+                    subcategoryElement.innerHTML = `
+                        <div>
+                            <span class="text-gray-500 text-sm">${categoryName} &gt;</span>
+                            <span>${subcategory.name}</span>
+                        </div>
+                        <button class="delete-subcategory text-red-600 hover:text-red-800" data-id="${subcategory.id}">Delete</button>
+                    `;
+                    
+                    adminSubcategoriesList.appendChild(subcategoryElement);
+                });
+                
+                // Add event listeners to delete buttons
+                document.querySelectorAll('.delete-subcategory').forEach(btn => {
+                    btn.addEventListener('click', () => deleteSubcategory(btn.dataset.id));
+                });
+            }
+        }
+        
+        // Update questions list in admin panel
+        function updateAdminQuestions() {
+            adminQuestionsList.innerHTML = '';
+            
+            const filteredQuestions = getFilteredQuestions();
+            
+            if (filteredQuestions.length === 0) {
+                adminQuestionsList.innerHTML = `<p class="text-gray-500">No questions available for selected filters.</p>`;
+            } else {
+                filteredQuestions.forEach(question => {
+                    const category = categories.find(c => c.id === question.categoryId);
+                    const subcategory = subcategories.find(s => s.id === question.subcategoryId);
+                    
+                    const categoryName = category ? category.name : 'Unknown Category';
+                    const subcategoryName = subcategory ? subcategory.name : 'Unknown Subcategory';
+                    
+                    const questionElement = document.createElement('div');
+                    questionElement.className = 'card-3d p-4';
+                    questionElement.innerHTML = `
+                        <div class="flex justify-between mb-2">
+                            <div>
+                                <span class="text-gray-500 text-sm">${categoryName} &gt; ${subcategoryName}</span>
+                            </div>
+                            <button class="delete-question text-red-600 hover:text-red-800" data-id="${question.id}">Delete</button>
+                        </div>
+                        <p class="font-semibold mb-2">${question.text}</p>
+                        <div class="pl-4">
+                            ${question.options.map((option, i) => `
+                                <div class="mb-1 ${i === question.correctOption ? 'text-green-600 font-semibold' : ''}">
+                                    ${i === question.correctOption ? '✓ ' : ''}${option}
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                    
+                    adminQuestionsList.appendChild(questionElement);
+                });
+                
+                // Add event listeners to delete buttons
+                document.querySelectorAll('.delete-question').forEach(btn => {
+                    btn.addEventListener('click', () => deleteQuestion(btn.dataset.id));
+                });
+            }
+        }
+        
+        // Get filtered questions based on selected category and subcategory
+        function getFilteredQuestions() {
+            const categoryId = filterQuestionCategory.value;
+            const subcategoryId = filterQuestionSubCategory.value;
+            
+            if (!categoryId) {
+                return questions;
+            }
+            
+            if (!subcategoryId) {
+                return questions.filter(q => q.categoryId === categoryId);
+            }
+            
+            return questions.filter(q => q.categoryId === categoryId && q.subcategoryId === subcategoryId);
+        }
+        
+        // Filter questions by category
+        function filterQuestionsByCategory() {
+            updateFilterSubcategories();
+            updateAdminQuestions();
+        }
+        
+        // Filter questions by subcategory
+        function filterQuestionsBySubcategory() {
+            updateAdminQuestions();
+        }
+        
+        // Update subcategories dropdown based on selected category
+        function updateSubcategoriesDropdown() {
+            const categoryId = questionCategory.value;
+            
+            questionSubCategory.innerHTML = '<option value="">Select Subcategory</option>';
+            
+            if (categoryId) {
+                const categorySubcategories = subcategories.filter(sub => sub.categoryId === categoryId);
+                
+                categorySubcategories.forEach(subcategory => {
+                    const option = document.createElement('option');
+                    option.value = subcategory.id;
+                    option.textContent = subcategory.name;
+                    questionSubCategory.appendChild(option);
+                });
+            }
+        }
+        
+        // Update filter subcategories dropdown based on selected category
+        function updateFilterSubcategories() {
+            const categoryId = filterQuestionCategory.value;
+            
+            filterQuestionSubCategory.innerHTML = '<option value="">All Subcategories</option>';
+            
+            if (categoryId) {
+                const categorySubcategories = subcategories.filter(sub => sub.categoryId === categoryId);
+                
+                categorySubcategories.forEach(subcategory => {
+                    const option = document.createElement('option');
+                    option.value = subcategory.id;
+                    option.textContent = subcategory.name;
+                    filterQuestionSubCategory.appendChild(option);
+                });
+            }
+        }
+        
+        // Update all category dropdowns
+        function updateCategoryDropdowns() {
+            // Category dropdown for subcategories
+            subCategoryCategory.innerHTML = '<option value="">Select Category</option>';
+            
+            // Category dropdown for questions
+            questionCategory.innerHTML = '<option value="">Select Category</option>';
+            
+            // Category dropdown for filtering questions
+            filterQuestionCategory.innerHTML = '<option value="">All Categories</option>';
+            
+            categories.forEach(category => {
+                // For subcategories
+                const subCategoryOption = document.createElement('option');
+                subCategoryOption.value = category.id;
+                subCategoryOption.textContent = category.name;
+                subCategoryCategory.appendChild(subCategoryOption);
+                
+                // For questions
+                const questionCategoryOption = document.createElement('option');
+                questionCategoryOption.value = category.id;
+                questionCategoryOption.textContent = category.name;
+                questionCategory.appendChild(questionCategoryOption);
+                
+                // For filtering questions
+                const filterOption = document.createElement('option');
+                filterOption.value = category.id;
+                filterOption.textContent = category.name;
+                filterQuestionCategory.appendChild(filterOption);
+            });
+        }
+        
+        // Delete a category
+        function deleteCategory(categoryId) {
+            if (confirm('Are you sure you want to delete this category? This will also delete all associated subcategories and questions.')) {
+                categories = categories.filter(category => category.id !== categoryId);
+                subcategories = subcategories.filter(subcategory => subcategory.categoryId !== categoryId);
+                questions = questions.filter(question => question.categoryId !== categoryId);
+                
+                saveData();
+                updateAdminCategories();
+                updateAdminSubcategories();
+                updateAdminQuestions();
+                
+                showToast('Category deleted successfully!');
+            }
+        }
+        
+        // Delete a subcategory
+        function deleteSubcategory(subcategoryId) {
+            if (confirm('Are you sure you want to delete this subcategory? This will also delete all associated questions.')) {
+                subcategories = subcategories.filter(subcategory => subcategory.id !== subcategoryId);
+                questions = questions.filter(question => question.subcategoryId !== subcategoryId);
+                
+                saveData();
+                updateAdminSubcategories();
+                updateAdminQuestions();
+                
+                showToast('Subcategory deleted successfully!');
+            }
+        }
+        
+        // Delete a question
+        function deleteQuestion(questionId) {
+            if (confirm('Are you sure you want to delete this question?')) {
+                questions = questions.filter(question => question.id !== questionId);
+                
+                saveData();
+                updateAdminQuestions();
+                
+                showToast('Question deleted successfully!');
+            }
+        }
+        
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
