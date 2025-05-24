@@ -3,561 +3,556 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCQ Platform - Category Navigation Hub</title>
-    
-    <!-- CSS Libraries -->
+    <title>MCQ Study Hub - Enhanced Learning Platform</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            overflow-x: hidden;
-            position: relative;
         }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 40% 80%, rgba(120, 198, 121, 0.3) 0%, transparent 50%);
-            z-index: -1;
-            animation: float 20s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            33% { transform: translateY(-10px) rotate(1deg); }
-            66% { transform: translateY(5px) rotate(-1deg); }
-        }
-
-        .search-container {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 20px;
-            box-shadow: 
-                0 20px 60px rgba(0, 0, 0, 0.15),
-                0 8px 30px rgba(0, 0, 0, 0.1),
-                inset 0 1px 0 rgba(255, 255, 255, 0.6);
-            transform: translateZ(0);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .search-container:hover {
-            transform: translateY(-5px) scale(1.02);
-            box-shadow: 
-                0 30px 80px rgba(0, 0, 0, 0.2),
-                0 15px 50px rgba(0, 0, 0, 0.15),
-                inset 0 1px 0 rgba(255, 255, 255, 0.8);
-        }
-
-        .search-input {
-            border: none;
-            background: transparent;
-            outline: none;
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: #333;
-            width: 100%;
-        }
-
-        .search-input::placeholder {
-            color: #666;
-            font-weight: 400;
-        }
-
-        .search-btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            border-radius: 15px;
-            color: white;
+        
+        .theme-transition {
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
-
-        .search-btn:hover {
-            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+        
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-card: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --border-color: #475569;
+            --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.4);
+        }
+        
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+        
+        .bg-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+        }
+        
+        .bg-card:hover {
+            box-shadow: var(--hover-shadow);
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
         }
-
-        .hero-title {
-            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            font-weight: 800;
-            letter-spacing: -0.02em;
+        
+        .hero-section {
+            background: var(--accent-gradient);
+            padding: 2rem 0;
+            min-height: 200px;
         }
-
-        .hero-subtitle {
-            color: rgba(255, 255, 255, 0.9);
-            font-weight: 400;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .category-card {
-            position: relative;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(20px);
-            border-radius: 25px;
-            padding: 2.5rem;
-            text-decoration: none;
-            color: inherit;
-            overflow: hidden;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 
-                0 20px 60px rgba(0, 0, 0, 0.1),
-                0 8px 30px rgba(0, 0, 0, 0.05),
-                inset 0 1px 0 rgba(255, 255, 255, 0.6);
-            transform-style: preserve-3d;
-        }
-
-        .category-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 5px;
-            background: var(--gradient);
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-            transform-origin: left;
-        }
-
-        .category-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .category-card:hover {
-            transform: translateY(-15px) rotateX(5deg) rotateY(5deg) scale(1.03);
-            box-shadow: 
-                0 40px 100px rgba(0, 0, 0, 0.2),
-                0 20px 60px rgba(0, 0, 0, 0.1),
-                inset 0 1px 0 rgba(255, 255, 255, 0.8);
-        }
-
-        .category-icon {
-            width: 80px;
-            height: 80px;
-            border-radius: 20px;
+        
+        .section-title {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.5rem;
-            color: white;
-            margin-bottom: 1.5rem;
-            background: var(--gradient);
-            box-shadow: 
-                0 15px 35px rgba(0, 0, 0, 0.2),
-                0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            transform-style: preserve-3d;
+            gap: 0.5rem;
         }
-
-        .category-card:hover .category-icon {
-            transform: translateZ(20px) rotateY(10deg);
-            box-shadow: 
-                0 25px 50px rgba(0, 0, 0, 0.3),
-                0 10px 25px rgba(0, 0, 0, 0.15);
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
         }
-
-        .category-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #333;
-            margin-bottom: 0.75rem;
+        
+        .category-card {
+            background-color: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 12px;
+            cursor: pointer;
             transition: all 0.3s ease;
         }
-
-        .category-description {
-            color: #666;
-            line-height: 1.6;
-            font-weight: 400;
-            transition: all 0.3s ease;
+        
+        .category-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--hover-shadow);
         }
-
-        .category-card:hover .category-title {
-            color: #111;
-            transform: translateZ(10px);
-        }
-
-        .category-card:hover .category-description {
-            color: #444;
-            transform: translateZ(5px);
-        }
-
-        .programming {
-            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .science {
-            --gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-        }
-
-        .history {
-            --gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-        }
-
-        .sports {
-            --gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-        }
-
-        .mathematics {
-            --gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-        }
-
-        .literature {
-            --gradient: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-        }
-
-        .floating-elements {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            pointer-events: none;
-            z-index: -1;
-        }
-
-        .floating-elements::before,
-        .floating-elements::after {
-            content: '';
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background: rgba(255, 255, 255, 0.1);
+        
+        .category-icon {
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
-            animation: floating 15s infinite ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
         }
-
-        .floating-elements::before {
-            top: 10%;
-            left: 10%;
-            animation-delay: 0s;
+        
+        .math-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .physics-icon { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .chemistry-icon { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .biology-icon { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .zoology-icon { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .botany-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .computer-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .language-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .gk-icon { background: linear-gradient(135deg, #a8caba 0%, #5d4e75 100%); }
+        .current-icon { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
+        .geography-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .history-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .science-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .pak-icon { background: linear-gradient(135deg, #06beb6 0%, #48b1bf 100%); }
+        .islamic-icon { background: linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%); }
+        .everyday-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .law-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .nts-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .psc-icon { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .police-icon { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .teaching-icon { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .lecturer-icon { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .clerk-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .bank-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .customs-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .admin-icon { background: linear-gradient(135deg, #a8caba 0%, #5d4e75 100%); }
+        .iq-icon { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
+        .logical-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .mental-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .data-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .verbal-icon { background: linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%); }
+        
+        .theme-toggle {
+            width: 60px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
-
-        .floating-elements::after {
-            bottom: 10%;
-            right: 10%;
-            animation-delay: 7s;
+        
+        .theme-toggle-ball {
+            width: 26px;
+            height: 26px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
         }
-
-        @keyframes floating {
-            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
-            50% { transform: translateY(-30px) rotate(180deg); opacity: 0.8; }
+        
+        [data-theme="dark"] .theme-toggle-ball {
+            transform: translateX(30px);
+            background: #1e293b;
+            color: #fbbf24;
         }
-
-        .stats-container {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(15px);
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 2rem;
-            margin-top: 3rem;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        
+        .navbar {
+            background: var(--accent-gradient);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
-
-        .stat-item {
-            text-align: center;
-            color: white;
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 800;
-            display: block;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        @media (max-width: 768px) {
-            .category-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-            
-            .category-card {
-                padding: 2rem;
-                margin: 0 1rem;
-            }
-            
-            .hero-title {
-                font-size: 2.5rem;
-            }
-            
-            .search-container {
-                margin: 0 1rem;
-            }
-        }
-
-        .pulse-animation {
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
         }
     </style>
 </head>
-<body>
-    <div class="floating-elements"></div>
-    
-    <!-- Header Section -->
-    <div class="container-fluid py-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
-                <!-- Search Section -->
-                <div class="search-container p-4 mb-5">
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-search text-muted me-3" style="font-size: 1.2rem;"></i>
-                        <input type="text" class="search-input flex-grow-1 px-2" placeholder="Search entire website..." id="searchInput">
-                        <button class="search-btn px-4 py-2 ms-3" onclick="performSearch()">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
+<body class="theme-transition" data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                        <i class="fas fa-book text-white text-lg"></i>
+                    </div>
+                    <h1 class="text-white text-xl font-bold">MCQ Study Hub</h1>
+                </div>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="theme-toggle-ball">
+                        <i class="fas fa-sun text-yellow-500"></i>
                     </div>
                 </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Smaller -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h2 class="text-white text-2xl font-bold mb-2">Your Complete Learning Platform</h2>
+            <p class="text-white text-opacity-90 max-w-2xl mx-auto">
+                Master every subject with our comprehensive collection of Multiple Choice Questions
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container py-8">
+        <!-- Academic Subjects -->
+        <section class="mb-12">
+            <h2 class="section-title">
+                <i class="fas fa-graduation-cap text-2xl"></i>
+                Academic Subjects
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card">
+                    <div class="category-icon math-icon">
+                        <i class="fas fa-calculator text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Mathematics</h3>
+                    <p class="text-sm opacity-75">Algebra, Calculus, Geometry</p>
+                </div>
                 
-                <!-- Hero Section -->
-                <div class="text-center mb-5">
-                    <h1 class="hero-title display-3 mb-4">Learning Categories</h1>
-                    <p class="hero-subtitle lead mb-4">Explore our comprehensive collection of multiple choice questions across various subjects</p>
+                <div class="category-card bg-card">
+                    <div class="category-icon physics-icon">
+                        <i class="fas fa-atom text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Physics</h3>
+                    <p class="text-sm opacity-75">Mechanics, Thermodynamics</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon chemistry-icon">
+                        <i class="fas fa-flask text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Chemistry</h3>
+                    <p class="text-sm opacity-75">Organic, Inorganic, Physical</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon biology-icon">
+                        <i class="fas fa-dna text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Biology</h3>
+                    <p class="text-sm opacity-75">Cell Biology, Genetics</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon zoology-icon">
+                        <i class="fas fa-paw text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Zoology</h3>
+                    <p class="text-sm opacity-75">Animal Kingdom Studies</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon botany-icon">
+                        <i class="fas fa-leaf text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Botany</h3>
+                    <p class="text-sm opacity-75">Plant Science & Biology</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon computer-icon">
+                        <i class="fas fa-laptop-code text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Computer Science</h3>
+                    <p class="text-sm opacity-75">Programming, Algorithms</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon language-icon">
+                        <i class="fas fa-language text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Languages</h3>
+                    <p class="text-sm opacity-75">English, Urdu Literature</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- Categories Section -->
-    <div class="container-fluid px-4 pb-5">
-        <div class="category-grid">
-            <!-- Programming Category -->
-            <a href="programming.html" class="category-card programming">
-                <div class="category-icon">
-                    <i class="fas fa-code"></i>
+        <!-- General Knowledge & Awareness -->
+        <section class="mb-12">
+            <h2 class="section-title">
+                <i class="fas fa-globe text-2xl"></i>
+                General Knowledge & Awareness
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card">
+                    <div class="category-icon gk-icon">
+                        <i class="fas fa-brain text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">General Knowledge</h3>
+                    <p class="text-sm opacity-75">World Facts & Information</p>
                 </div>
-                <h3 class="category-title">Programming</h3>
-                <p class="category-description">Master coding concepts with questions on JavaScript, Python, Java, and more programming languages and frameworks.</p>
-            </a>
-
-            <!-- Science Category -->
-            <a href="science.html" class="category-card science">
-                <div class="category-icon">
-                    <i class="fas fa-flask"></i>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon current-icon">
+                        <i class="fas fa-newspaper text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Current Affairs</h3>
+                    <p class="text-sm opacity-75">Latest News & Events</p>
                 </div>
-                <h3 class="category-title">Science</h3>
-                <p class="category-description">Explore physics, chemistry, biology, and earth sciences through comprehensive multiple choice questions.</p>
-            </a>
-
-            <!-- History Category -->
-            <a href="history.html" class="category-card history">
-                <div class="category-icon">
-                    <i class="fas fa-landmark"></i>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon geography-icon">
+                        <i class="fas fa-map-marked-alt text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">World Geography</h3>
+                    <p class="text-sm opacity-75">Countries, Capitals, Features</p>
                 </div>
-                <h3 class="category-title">History</h3>
-                <p class="category-description">Journey through time with questions covering ancient civilizations, world wars, and modern history.</p>
-            </a>
-
-            <!-- Sports Category -->
-            <a href="sports.html" class="category-card sports">
-                <div class="category-icon">
-                    <i class="fas fa-trophy"></i>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon history-icon">
+                        <i class="fas fa-landmark text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">World History</h3>
+                    <p class="text-sm opacity-75">Historical Events & Figures</p>
                 </div>
-                <h3 class="category-title">Sports</h3>
-                <p class="category-description">Test your knowledge of various sports, athletes, records, and sporting events from around the world.</p>
-            </a>
-
-            <!-- Mathematics Category -->
-            <a href="mathematics.html" class="category-card mathematics">
-                <div class="category-icon">
-                    <i class="fas fa-calculator"></i>
-                </div>
-                <h3 class="category-title">Mathematics</h3>
-                <p class="category-description">Challenge yourself with algebra, geometry, calculus, and advanced mathematical concepts and problem-solving.</p>
-            </a>
-
-            <!-- Literature Category -->
-            <a href="literature.html" class="category-card literature">
-                <div class="category-icon">
-                    <i class="fas fa-book"></i>
-                </div>
-                <h3 class="category-title">Literature</h3>
-                <p class="category-description">Dive into classic and modern literature, poetry, famous authors, and literary analysis questions.</p>
-            </a>
-        </div>
-
-        <!-- Statistics Section -->
-        <div class="stats-container">
-            <div class="row">
-                <div class="col-md-3 col-6 stat-item">
-                    <span class="stat-number">500+</span>
-                    <span class="stat-label">Questions</span>
-                </div>
-                <div class="col-md-3 col-6 stat-item">
-                    <span class="stat-number">6</span>
-                    <span class="stat-label">Categories</span>
-                </div>
-                <div class="col-md-3 col-6 stat-item">
-                    <span class="stat-number">50+</span>
-                    <span class="stat-label">Topics</span>
-                </div>
-                <div class="col-md-3 col-6 stat-item">
-                    <span class="stat-number">1000+</span>
-                    <span class="stat-label">Users</span>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon science-icon">
+                        <i class="fas fa-microscope text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Science & Technology</h3>
+                    <p class="text-sm opacity-75">Latest Scientific Advances</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+        <!-- Pakistan Specific -->
+        <section class="mb-12">
+            <h2 class="section-title">
+                <i class="fas fa-flag text-2xl"></i>
+                Pakistan Specific
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card">
+                    <div class="category-icon pak-icon">
+                        <i class="fas fa-map text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Pakistan Studies</h3>
+                    <p class="text-sm opacity-75">History, Geography, Culture</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon islamic-icon">
+                        <i class="fas fa-moon text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Islamic Studies</h3>
+                    <p class="text-sm opacity-75">Islamic History & Teachings</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon everyday-icon">
+                        <i class="fas fa-lightbulb text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Everyday Science</h3>
+                    <p class="text-sm opacity-75">Practical Science Knowledge</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon law-icon">
+                        <i class="fas fa-balance-scale text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Constitution & Law</h3>
+                    <p class="text-sm opacity-75">Legal System & Rights</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Job-Oriented Categories -->
+        <section class="mb-12">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase text-2xl"></i>
+                Job-Oriented Categories
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card">
+                    <div class="category-icon nts-icon">
+                        <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">NTS Past Papers</h3>
+                    <p class="text-sm opacity-75">Previous Test Papers</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon psc-icon">
+                        <i class="fas fa-building text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">PPSC/FPSC/PSC</h3>
+                    <p class="text-sm opacity-75">Public Service Commission</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon police-icon">
+                        <i class="fas fa-shield-alt text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Police Jobs</h3>
+                    <p class="text-sm opacity-75">Law Enforcement Tests</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon teaching-icon">
+                        <i class="fas fa-chalkboard-teacher text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Teaching Jobs</h3>
+                    <p class="text-sm opacity-75">Educator Assessments</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon lecturer-icon">
+                        <i class="fas fa-university text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Lecturer MCQs</h3>
+                    <p class="text-sm opacity-75">Higher Education Posts</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon clerk-icon">
+                        <i class="fas fa-clipboard text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Clerk Preparation</h3>
+                    <p class="text-sm opacity-75">Administrative Positions</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon bank-icon">
+                        <i class="fas fa-piggy-bank text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Bank Jobs</h3>
+                    <p class="text-sm opacity-75">Banking Sector Tests</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon customs-icon">
+                        <i class="fas fa-search text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Customs/FIA/NAB</h3>
+                    <p class="text-sm opacity-75">Investigation Agencies</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon admin-icon">
+                        <i class="fas fa-users-cog text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Public Administration</h3>
+                    <p class="text-sm opacity-75">Management & Governance</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Testing & Aptitude -->
+        <section class="mb-12">
+            <h2 class="section-title">
+                <i class="fas fa-puzzle-piece text-2xl"></i>
+                Skill Testing & Aptitude
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card">
+                    <div class="category-icon iq-icon">
+                        <i class="fas fa-brain text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">IQ/Analytical</h3>
+                    <p class="text-sm opacity-75">Intelligence & Analysis</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon logical-icon">
+                        <i class="fas fa-sitemap text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Logical Reasoning</h3>
+                    <p class="text-sm opacity-75">Logic & Problem Solving</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon mental-icon">
+                        <i class="fas fa-calculator text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Mental Math</h3>
+                    <p class="text-sm opacity-75">Quick Calculations</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon data-icon">
+                        <i class="fas fa-chart-bar text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Data Interpretation</h3>
+                    <p class="text-sm opacity-75">Charts & Graphs Analysis</p>
+                </div>
+                
+                <div class="category-card bg-card">
+                    <div class="category-icon verbal-icon">
+                        <i class="fas fa-comments text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Verbal Reasoning</h3>
+                    <p class="text-sm opacity-75">Language & Communication</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete Learning Journey -->
+        <section class="text-center py-8">
+            <h2 class="text-2xl font-bold mb-4">🎯 Complete Your Learning Journey</h2>
+            <p class="text-lg opacity-80">Choose your category and start practicing MCQs today!</p>
+        </section>
+    </main>
+
     <script>
-        // Search functionality
-        function performSearch() {
-            const searchTerm = document.getElementById('searchInput').value.trim();
-            if (searchTerm) {
-                // Create a Google site search URL for your website
-                // Replace 'yourwebsite.com' with your actual domain
-                const searchUrl = `https://www.google.com/search?q=site:yourwebsite.com ${encodeURIComponent(searchTerm)}`;
-                window.open(searchUrl, '_blank');
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update toggle icon
+            const toggleBall = document.querySelector('.theme-toggle-ball i');
+            if (newTheme === 'dark') {
+                toggleBall.className = 'fas fa-moon text-yellow-400';
+            } else {
+                toggleBall.className = 'fas fa-sun text-yellow-500';
             }
         }
-
-        // Handle Enter key in search input
-        document.getElementById('searchInput').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                performSearch();
+        
+        // Load saved theme
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.body.setAttribute('data-theme', savedTheme);
+            
+            const toggleBall = document.querySelector('.theme-toggle-ball i');
+            if (savedTheme === 'dark') {
+                toggleBall.className = 'fas fa-moon text-yellow-400';
             }
         });
-
-        // Add dynamic hover effects
+        
+        // Add hover effects to category cards
         document.querySelectorAll('.category-card').forEach(card => {
             card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-15px) rotateX(5deg) rotateY(5deg) scale(1.03)';
+                this.style.transform = 'translateY(-4px)';
             });
             
             card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) rotateX(0) rotateY(0) scale(1)';
+                this.style.transform = 'translateY(0)';
             });
-        });
-
-        // Add loading animation to search button
-        function showSearchLoading() {
-            const searchBtn = document.querySelector('.search-btn');
-            const originalContent = searchBtn.innerHTML;
-            searchBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
-            
-            setTimeout(() => {
-                searchBtn.innerHTML = originalContent;
-            }, 1000);
-        }
-
-        // Enhanced search with loading animation
-        function performSearch() {
-            const searchTerm = document.getElementById('searchInput').value.trim();
-            if (searchTerm) {
-                showSearchLoading();
-                
-                // Create a Google site search URL for your website
-                setTimeout(() => {
-                    const searchUrl = `https://www.google.com/search?q=site:yourwebsite.com ${encodeURIComponent(searchTerm)}`;
-                    window.open(searchUrl, '_blank');
-                }, 500);
-            }
-        }
-
-        // Animate stats on scroll
-        function animateStats() {
-            const statsContainer = document.querySelector('.stats-container');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const statNumbers = entry.target.querySelectorAll('.stat-number');
-                        statNumbers.forEach(stat => {
-                            const finalValue = stat.textContent;
-                            const numericValue = parseInt(finalValue.replace(/\D/g, ''));
-                            let currentValue = 0;
-                            const increment = numericValue / 50;
-                            
-                            const counter = setInterval(() => {
-                                currentValue += increment;
-                                if (currentValue >= numericValue) {
-                                    stat.textContent = finalValue;
-                                    clearInterval(counter);
-                                } else {
-                                    stat.textContent = Math.floor(currentValue) + (finalValue.includes('+') ? '+' : '');
-                                }
-                            }, 30);
-                        });
-                        observer.unobserve(entry.target);
-                    }
-                });
-            });
-            
-            observer.observe(statsContainer);
-        }
-
-        // Initialize animations when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            animateStats();
-            
-            // Add stagger animation to category cards
-            const cards = document.querySelectorAll('.category-card');
-            cards.forEach((card, index) => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(50px)';
-                
-                setTimeout(() => {
-                    card.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-                    card.style.opacity = '1';
-                    card.style.transform = 'translateY(0)';
-                }, index * 100);
-            });
-        });
-
-        // Add parallax effect to floating elements
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const parallax = document.querySelector('.floating-elements');
-            const speed = scrolled * 0.5;
-            parallax.style.transform = `translateY(${speed}px)`;
         });
     </script>
 </body>
