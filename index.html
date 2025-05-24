@@ -3,472 +3,562 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Tayari</title>
+    <title>MCQ Platform - Category Navigation Hub</title>
+    
+    <!-- CSS Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f4f8;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .header {
-            background-color: #6c5ce7;
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(120, 198, 121, 0.3) 0%, transparent 50%);
+            z-index: -1;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-10px) rotate(1deg); }
+            66% { transform: translateY(5px) rotate(-1deg); }
+        }
+
+        .search-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.15),
+                0 8px 30px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transform: translateZ(0);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .search-container:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 
+                0 30px 80px rgba(0, 0, 0, 0.2),
+                0 15px 50px rgba(0, 0, 0, 0.15),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+
+        .search-input {
+            border: none;
+            background: transparent;
+            outline: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #333;
+            width: 100%;
+        }
+
+        .search-input::placeholder {
+            color: #666;
+            font-weight: 400;
+        }
+
+        .search-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 15px;
+            color: white;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .search-btn:hover {
+            background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .hero-title {
+            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category-card {
+            position: relative;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 2.5rem;
+            text-decoration: none;
+            color: inherit;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 20px 60px rgba(0, 0, 0, 0.1),
+                0 8px 30px rgba(0, 0, 0, 0.05),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+            transform-style: preserve-3d;
+        }
+
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: var(--gradient);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+            transform-origin: left;
+        }
+
+        .category-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .category-card:hover {
+            transform: translateY(-15px) rotateX(5deg) rotateY(5deg) scale(1.03);
+            box-shadow: 
+                0 40px 100px rgba(0, 0, 0, 0.2),
+                0 20px 60px rgba(0, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+
+        .category-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1.5rem;
+            background: var(--gradient);
+            box-shadow: 
+                0 15px 35px rgba(0, 0, 0, 0.2),
+                0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+        }
+
+        .category-card:hover .category-icon {
+            transform: translateZ(20px) rotateY(10deg);
+            box-shadow: 
+                0 25px 50px rgba(0, 0, 0, 0.3),
+                0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 0.75rem;
+            transition: all 0.3s ease;
+        }
+
+        .category-description {
+            color: #666;
+            line-height: 1.6;
+            font-weight: 400;
+            transition: all 0.3s ease;
+        }
+
+        .category-card:hover .category-title {
+            color: #111;
+            transform: translateZ(10px);
+        }
+
+        .category-card:hover .category-description {
+            color: #444;
+            transform: translateZ(5px);
+        }
+
+        .programming {
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .science {
+            --gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .history {
+            --gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .sports {
+            --gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .mathematics {
+            --gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+
+        .literature {
+            --gradient: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+
+        .floating-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .floating-elements::before,
+        .floating-elements::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: floating 15s infinite ease-in-out;
+        }
+
+        .floating-elements::before {
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-elements::after {
+            bottom: 10%;
+            right: 10%;
+            animation-delay: 7s;
+        }
+
+        @keyframes floating {
+            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
+            50% { transform: translateY(-30px) rotate(180deg); opacity: 0.8; }
+        }
+
+        .stats-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            margin-top: 3rem;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-item {
+            text-align: center;
             color: white;
         }
-        .nav-item.active {
-            border-bottom: 3px solid #6c5ce7;
-            font-weight: bold;
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            display: block;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
-        .emoji-picker {
-            display: grid;
-            grid-template-columns: repeat(8, 1fr);
-            gap: 10px;
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
-        .emoji-item {
-            cursor: pointer;
-            font-size: 1.5rem;
-            padding: 8px;
-            border-radius: 5px;
-            text-align: center;
+
+        @media (max-width: 768px) {
+            .category-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .category-card {
+                padding: 2rem;
+                margin: 0 1rem;
+            }
+            
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .search-container {
+                margin: 0 1rem;
+            }
         }
-        .emoji-item:hover {
-            background-color: #e2e8f0;
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
         }
-        .selected-emoji {
-            background-color: #cbd5e0;
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="header py-4 px-6 flex justify-between items-center">
-        <h1 class="text-2xl font-bold">Digital Tayari</h1>
-        <div class="flex items-center">
-            <button id="adminButton" class="text-white">
-                <i class="fas fa-user-shield text-xl"></i>
-            </button>
+<body>
+    <div class="floating-elements"></div>
+    
+    <!-- Header Section -->
+    <div class="container-fluid py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <!-- Search Section -->
+                <div class="search-container p-4 mb-5">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-search text-muted me-3" style="font-size: 1.2rem;"></i>
+                        <input type="text" class="search-input flex-grow-1 px-2" placeholder="Search entire website..." id="searchInput">
+                        <button class="search-btn px-4 py-2 ms-3" onclick="performSearch()">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Hero Section -->
+                <div class="text-center mb-5">
+                    <h1 class="hero-title display-3 mb-4">Learning Categories</h1>
+                    <p class="hero-subtitle lead mb-4">Explore our comprehensive collection of multiple choice questions across various subjects</p>
+                </div>
+            </div>
         </div>
-    </header>
-
-    <!-- Tagline -->
-    <div class="text-center py-4 bg-gray-100">
-        <p class="text-gray-700">Test your knowledge with interactive quizzes</p>
     </div>
 
-    <!-- Navigation -->
-    <nav class="bg-white shadow-md">
-        <div class="container mx-auto">
-            <ul class="flex">
-                <li class="nav-item active">
-                    <a href="#" class="block px-6 py-3 text-gray-700 hover:bg-gray-100" id="homeLink">Home</a>
-                </li>
-                <!-- Admin Panel link removed from here as requested -->
-            </ul>
+    <!-- Categories Section -->
+    <div class="container-fluid px-4 pb-5">
+        <div class="category-grid">
+            <!-- Programming Category -->
+            <a href="programming.html" class="category-card programming">
+                <div class="category-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="category-title">Programming</h3>
+                <p class="category-description">Master coding concepts with questions on JavaScript, Python, Java, and more programming languages and frameworks.</p>
+            </a>
+
+            <!-- Science Category -->
+            <a href="science.html" class="category-card science">
+                <div class="category-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3 class="category-title">Science</h3>
+                <p class="category-description">Explore physics, chemistry, biology, and earth sciences through comprehensive multiple choice questions.</p>
+            </a>
+
+            <!-- History Category -->
+            <a href="history.html" class="category-card history">
+                <div class="category-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h3 class="category-title">History</h3>
+                <p class="category-description">Journey through time with questions covering ancient civilizations, world wars, and modern history.</p>
+            </a>
+
+            <!-- Sports Category -->
+            <a href="sports.html" class="category-card sports">
+                <div class="category-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3 class="category-title">Sports</h3>
+                <p class="category-description">Test your knowledge of various sports, athletes, records, and sporting events from around the world.</p>
+            </a>
+
+            <!-- Mathematics Category -->
+            <a href="mathematics.html" class="category-card mathematics">
+                <div class="category-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3 class="category-title">Mathematics</h3>
+                <p class="category-description">Challenge yourself with algebra, geometry, calculus, and advanced mathematical concepts and problem-solving.</p>
+            </a>
+
+            <!-- Literature Category -->
+            <a href="literature.html" class="category-card literature">
+                <div class="category-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3 class="category-title">Literature</h3>
+                <p class="category-description">Dive into classic and modern literature, poetry, famous authors, and literary analysis questions.</p>
+            </a>
         </div>
-    </nav>
 
-    <!-- Main Content Area -->
-    <main class="flex-grow container mx-auto p-6">
-        <!-- Home View -->
-        <div id="homeView" class="bg-white rounded-lg shadow-md p-8 mb-6">
-            <div id="categories-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <p class="col-span-full text-center text-gray-600 py-8">No categories available. Add categories in the admin panel.</p>
-            </div>
-        </div>
-
-        <!-- Admin Login View (Hidden by default) -->
-        <div id="adminLoginView" class="bg-white rounded-lg shadow-md p-8 mb-6 hidden">
-            <h2 class="text-2xl font-bold mb-6 text-center">Admin Login</h2>
-            <form id="adminLoginForm" class="max-w-md mx-auto">
-                <div class="mb-4">
-                    <label for="password" class="block text-gray-700 mb-2">Password</label>
-                    <input type="password" id="password" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                    <p class="text-sm text-gray-500 mt-1">(Use Admin password:)</p>
+        <!-- Statistics Section -->
+        <div class="stats-container">
+            <div class="row">
+                <div class="col-md-3 col-6 stat-item">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Questions</span>
                 </div>
-                <button type="submit" class="w-full bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">Login</button>
-            </form>
-        </div>
-
-        <!-- Admin Panel View (Hidden by default) -->
-        <div id="adminPanelView" class="hidden">
-            <!-- Admin Tabs -->
-            <div class="bg-white rounded-lg shadow-md mb-6">
-                <div class="border-b">
-                    <ul class="flex flex-wrap -mb-px">
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="addCategory">Add Category</a>
-                        </li>
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="manageCategories">Manage Categories</a>
-                        </li>
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="addSubcategory">Add Subcategory</a>
-                        </li>
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="manageSubcategories">Manage Subcategories</a>
-                        </li>
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="addQuestion">Add Question</a>
-                        </li>
-                        <li class="mr-2">
-                            <a href="#" class="admin-tab inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300" data-target="manageQuestions">Manage Questions</a>
-                        </li>
-                    </ul>
+                <div class="col-md-3 col-6 stat-item">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Categories</span>
                 </div>
-            </div>
-
-            <!-- Admin Content Areas -->
-            <div class="bg-white rounded-lg shadow-md p-8">
-                <!-- Add Category -->
-                <div id="addCategory" class="admin-content">
-                    <h3 class="text-xl font-bold mb-6">Add Category</h3>
-                    <form id="addCategoryForm" class="max-w-md">
-                        <div class="mb-4">
-                            <label for="categoryName" class="block text-gray-700 mb-2">Category Name</label>
-                            <input type="text" id="categoryName" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 mb-2">Emoji Icon</label>
-                            <div class="mb-2">
-                                <span id="selectedEmoji" class="text-2xl inline-block border rounded-lg p-2 min-w-[50px] text-center">🏛️</span>
-                            </div>
-                            <div class="emoji-picker border rounded-lg p-4">
-                                <div class="emoji-item" data-emoji="📚">📚</div>
-                                <div class="emoji-item" data-emoji="🧮">🧮</div>
-                                <div class="emoji-item" data-emoji="🔬">🔬</div>
-                                <div class="emoji-item" data-emoji="🌍">🌍</div>
-                                <div class="emoji-item" data-emoji="🏛️">🏛️</div>
-                                <div class="emoji-item" data-emoji="⚖️">⚖️</div>
-                                <div class="emoji-item" data-emoji="💻">💻</div>
-                                <div class="emoji-item" data-emoji="🎭">🎭</div>
-                                <div class="emoji-item" data-emoji="🎨">🎨</div>
-                                <div class="emoji-item" data-emoji="🏺">🏺</div>
-                                <div class="emoji-item" data-emoji="🧠">🧠</div>
-                                <div class="emoji-item" data-emoji="🌿">🌿</div>
-                                <div class="emoji-item" data-emoji="🧪">🧪</div>
-                                <div class="emoji-item" data-emoji="🧬">🧬</div>
-                                <div class="emoji-item" data-emoji="🔭">🔭</div>
-                                <div class="emoji-item" data-emoji="📊">📊</div>
-                            </div>
-                        </div>
-                        <button type="submit" class="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">Add Category</button>
-                    </form>
+                <div class="col-md-3 col-6 stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Topics</span>
                 </div>
-
-                <!-- Manage Categories -->
-                <div id="manageCategories" class="admin-content hidden">
-                    <h3 class="text-xl font-bold mb-6">Manage Categories</h3>
-                    <div id="categoriesList" class="grid grid-cols-1 gap-4">
-                        <p class="text-gray-600">No categories added yet.</p>
-                    </div>
-                </div>
-
-                <!-- Add Subcategory -->
-                <div id="addSubcategory" class="admin-content hidden">
-                    <h3 class="text-xl font-bold mb-6">Add Subcategory</h3>
-                    <form id="addSubcategoryForm" class="max-w-md">
-                        <div class="mb-4">
-                            <label for="categorySelect" class="block text-gray-700 mb-2">Select Category</label>
-                            <select id="categorySelect" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                                <option value="">-- Select a category --</option>
-                            </select>
-                        </div>
-                        <div class="mb-6">
-                            <label for="subcategoryName" class="block text-gray-700 mb-2">Subcategory Name</label>
-                            <input type="text" id="subcategoryName" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                        </div>
-                        <button type="submit" class="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">Add Subcategory</button>
-                    </form>
-                </div>
-
-                <!-- Manage Subcategories -->
-                <div id="manageSubcategories" class="admin-content hidden">
-                    <h3 class="text-xl font-bold mb-6">Manage Subcategories</h3>
-                    <div id="subcategoriesList" class="grid grid-cols-1 gap-4">
-                        <p class="text-gray-600">No subcategories added yet.</p>
-                    </div>
-                </div>
-
-                <!-- Add Question -->
-                <div id="addQuestion" class="admin-content hidden">
-                    <h3 class="text-xl font-bold mb-6">Add Question</h3>
-                    <form id="addQuestionForm" class="max-w-md">
-                        <div class="mb-4">
-                            <label for="questionCategorySelect" class="block text-gray-700 mb-2">Select Category</label>
-                            <select id="questionCategorySelect" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                                <option value="">-- Select a category --</option>
-                            </select>
-                        </div>
-                        <div class="mb-4">
-                            <label for="questionSubcategorySelect" class="block text-gray-700 mb-2">Select Subcategory</label>
-                            <select id="questionSubcategorySelect" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                                <option value="">-- Select a subcategory --</option>
-                            </select>
-                        </div>
-                        <div class="mb-4">
-                            <label for="questionText" class="block text-gray-700 mb-2">Question</label>
-                            <textarea id="questionText" rows="3" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
-                        </div>
-                        <div class="mb-6">
-                            <label class="block text-gray-700 mb-2">Options</label>
-                            <div id="optionsContainer">
-                                <div class="option-group mb-2 flex items-center">
-                                    <input type="radio" name="correctOption" class="mr-2">
-                                    <input type="text" class="option-input flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Option 1">
-                                </div>
-                                <div class="option-group mb-2 flex items-center">
-                                    <input type="radio" name="correctOption" class="mr-2">
-                                    <input type="text" class="option-input flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Option 2">
-                                </div>
-                                <div class="option-group mb-2 flex items-center">
-                                    <input type="radio" name="correctOption" class="mr-2">
-                                    <input type="text" class="option-input flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Option 3">
-                                </div>
-                                <div class="option-group mb-2 flex items-center">
-                                    <input type="radio" name="correctOption" class="mr-2">
-                                    <input type="text" class="option-input flex-grow px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Option 4">
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200">Add Question</button>
-                    </form>
-                </div>
-
-                <!-- Manage Questions -->
-                <div id="manageQuestions" class="admin-content hidden">
-                    <h3 class="text-xl font-bold mb-6">Manage Questions</h3>
-                    <div class="mb-4">
-                        <label for="filterCategory" class="block text-gray-700 mb-2">Filter by Category</label>
-                        <select id="filterCategory" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
-                            <option value="">All Categories</option>
-                        </select>
-                    </div>
-                    <div id="questionsList" class="grid grid-cols-1 gap-4">
-                        <p class="text-gray-600">No questions added yet.</p>
-                    </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Users</span>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
-    <!-- Footer -->
-    <footer class="py-4 text-center text-gray-600 bg-gray-100">
-        <p>Digital Tayari</p>
-        
-    </footer>
-
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script>
-        // DOM Elements
-        const adminButton = document.getElementById('adminButton');
-        const homeLink = document.getElementById('homeLink');
-        const homeView = document.getElementById('homeView');
-        const adminLoginView = document.getElementById('adminLoginView');
-        const adminPanelView = document.getElementById('adminPanelView');
-        const adminLoginForm = document.getElementById('adminLoginForm');
-        const adminTabs = document.querySelectorAll('.admin-tab');
-        const adminContents = document.querySelectorAll('.admin-content');
-        const emojiItems = document.querySelectorAll('.emoji-item');
-        const selectedEmoji = document.getElementById('selectedEmoji');
+        // Search functionality
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.trim();
+            if (searchTerm) {
+                // Create a Google site search URL for your website
+                // Replace 'yourwebsite.com' with your actual domain
+                const searchUrl = `https://www.google.com/search?q=site:yourwebsite.com ${encodeURIComponent(searchTerm)}`;
+                window.open(searchUrl, '_blank');
+            }
+        }
 
-        // App State
-        const state = {
-            categories: [],
-            subcategories: [],
-            questions: [],
-            isLoggedIn: false,
-            currentTab: 'addCategory'
-        };
-
-        // Event Listeners
-        adminButton.addEventListener('click', () => {
-            if (state.isLoggedIn) {
-                showView(adminPanelView);
-                showAdminContent(state.currentTab);
-            } else {
-                showView(adminLoginView);
+        // Handle Enter key in search input
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                performSearch();
             }
         });
 
-        homeLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            showView(homeView);
-        });
-
-        adminLoginForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const password = document.getElementById('password').value;
-            // In a real app, you would verify this with a server
-            if (password === 'Magsi4music') {
-                state.isLoggedIn = true;
-                showView(adminPanelView);
-                showAdminContent(state.currentTab);
-            } else {
-                alert('Incorrect password!');
-            }
-        });
-
-        adminTabs.forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                e.preventDefault();
-                const target = tab.dataset.target;
-                state.currentTab = target;
-                showAdminContent(target);
+        // Add dynamic hover effects
+        document.querySelectorAll('.category-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-15px) rotateX(5deg) rotateY(5deg) scale(1.03)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) rotateX(0) rotateY(0) scale(1)';
             });
         });
 
-        emojiItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const emoji = item.dataset.emoji;
-                selectedEmoji.textContent = emoji;
+        // Add loading animation to search button
+        function showSearchLoading() {
+            const searchBtn = document.querySelector('.search-btn');
+            const originalContent = searchBtn.innerHTML;
+            searchBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            
+            setTimeout(() => {
+                searchBtn.innerHTML = originalContent;
+            }, 1000);
+        }
+
+        // Enhanced search with loading animation
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.trim();
+            if (searchTerm) {
+                showSearchLoading();
                 
-                // Remove selected class from all emojis
-                emojiItems.forEach(i => i.classList.remove('selected-emoji'));
-                // Add selected class to the clicked emoji
-                item.classList.add('selected-emoji');
+                // Create a Google site search URL for your website
+                setTimeout(() => {
+                    const searchUrl = `https://www.google.com/search?q=site:yourwebsite.com ${encodeURIComponent(searchTerm)}`;
+                    window.open(searchUrl, '_blank');
+                }, 500);
+            }
+        }
+
+        // Animate stats on scroll
+        function animateStats() {
+            const statsContainer = document.querySelector('.stats-container');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const statNumbers = entry.target.querySelectorAll('.stat-number');
+                        statNumbers.forEach(stat => {
+                            const finalValue = stat.textContent;
+                            const numericValue = parseInt(finalValue.replace(/\D/g, ''));
+                            let currentValue = 0;
+                            const increment = numericValue / 50;
+                            
+                            const counter = setInterval(() => {
+                                currentValue += increment;
+                                if (currentValue >= numericValue) {
+                                    stat.textContent = finalValue;
+                                    clearInterval(counter);
+                                } else {
+                                    stat.textContent = Math.floor(currentValue) + (finalValue.includes('+') ? '+' : '');
+                                }
+                            }, 30);
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+            
+            observer.observe(statsContainer);
+        }
+
+        // Initialize animations when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            animateStats();
+            
+            // Add stagger animation to category cards
+            const cards = document.querySelectorAll('.category-card');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(50px)';
+                
+                setTimeout(() => {
+                    card.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
             });
         });
 
-        // Add category form submission
-        document.getElementById('addCategoryForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            const categoryName = document.getElementById('categoryName').value;
-            const emoji = selectedEmoji.textContent;
-            
-            if (categoryName.trim() === '') {
-                alert('Please enter a category name');
-                return;
-            }
-            
-            // Add to state
-            const newCategory = {
-                id: Date.now(),
-                name: categoryName,
-                emoji: emoji
-            };
-            
-            state.categories.push(newCategory);
-            
-            // Update UI
-            document.getElementById('categoryName').value = '';
-            updateCategoriesUI();
-            alert('Category added successfully');
+        // Add parallax effect to floating elements
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.floating-elements');
+            const speed = scrolled * 0.5;
+            parallax.style.transform = `translateY(${speed}px)`;
         });
-
-        // Functions
-        function showView(viewToShow) {
-            // Hide all views
-            homeView.classList.add('hidden');
-            adminLoginView.classList.add('hidden');
-            adminPanelView.classList.add('hidden');
-            
-            // Show the requested view
-            viewToShow.classList.remove('hidden');
-        }
-
-        function showAdminContent(contentId) {
-            // Update tabs
-            adminTabs.forEach(tab => {
-                if (tab.dataset.target === contentId) {
-                    tab.classList.add('text-purple-600', 'border-purple-600');
-                } else {
-                    tab.classList.remove('text-purple-600', 'border-purple-600');
-                }
-            });
-            
-            // Update content areas
-            adminContents.forEach(content => {
-                if (content.id === contentId) {
-                    content.classList.remove('hidden');
-                } else {
-                    content.classList.add('hidden');
-                }
-            });
-        }
-
-        function updateCategoriesUI() {
-            // Update categories list in manage categories
-            const categoriesList = document.getElementById('categoriesList');
-            if (state.categories.length === 0) {
-                categoriesList.innerHTML = '<p class="text-gray-600">No categories added yet.</p>';
-            } else {
-                categoriesList.innerHTML = state.categories.map(category => `
-                    <div class="category-item bg-gray-100 p-4 rounded-lg flex justify-between items-center">
-                        <div class="flex items-center">
-                            <span class="text-2xl mr-3">${category.emoji}</span>
-                            <span>${category.name}</span>
-                        </div>
-                        <div>
-                            <button class="text-blue-600 hover:text-blue-800 mr-2" onclick="editCategory(${category.id})">Edit</button>
-                            <button class="text-red-600 hover:text-red-800" onclick="deleteCategory(${category.id})">Delete</button>
-                        </div>
-                    </div>
-                `).join('');
-            }
-            
-            // Update category selects
-            const categorySelects = [
-                document.getElementById('categorySelect'),
-                document.getElementById('questionCategorySelect'),
-                document.getElementById('filterCategory')
-            ];
-            
-            categorySelects.forEach(select => {
-                if (select) {
-                    const defaultOption = select.querySelector('option');
-                    select.innerHTML = '';
-                    select.appendChild(defaultOption);
-                    
-                    state.categories.forEach(category => {
-                        const option = document.createElement('option');
-                        option.value = category.id;
-                        option.textContent = `${category.emoji} ${category.name}`;
-                        select.appendChild(option);
-                    });
-                }
-            });
-            
-            // Update home view
-            const categoriesContainer = document.getElementById('categories-container');
-            if (state.categories.length === 0) {
-                categoriesContainer.innerHTML = '<p class="col-span-full text-center text-gray-600 py-8">No categories available. Add categories in the admin panel.</p>';
-            } else {
-                categoriesContainer.innerHTML = state.categories.map(category => `
-                    <div class="category-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 cursor-pointer text-center">
-                        <div class="category-emoji text-5xl mb-4">${category.emoji}</div>
-                        <h3 class="font-bold text-lg">${category.name}</h3>
-                    </div>
-                `).join('');
-            }
-        }
-
-        // Initialize the app on load
-        document.addEventListener('DOMContentLoaded', () => {
-            // Set the first emoji as selected
-            if (emojiItems.length > 0) {
-                emojiItems[0].classList.add('selected-emoji');
-                selectedEmoji.textContent = emojiItems[0].dataset.emoji;
-            }
-        });
-
-        // Helper functions for managing categories
-        window.editCategory = function(categoryId) {
-            const category = state.categories.find(c => c.id === categoryId);
-            if (category) {
-                // Open edit dialog or form
-                const newName = prompt('Enter new category name:', category.name);
-                if (newName && newName.trim() !== '') {
-                    category.name = newName;
-                    updateCategoriesUI();
-                }
-            }
-        }
-
-        window.deleteCategory = function(categoryId) {
-            if (confirm('Are you sure you want to delete this category?')) {
-                state.categories = state.categories.filter(c => c.id !== categoryId);
-                updateCategoriesUI();
-            }
-        }
     </script>
 </body>
 </html>
