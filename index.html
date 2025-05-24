@@ -26,6 +26,8 @@
             --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
             --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+            --footer-bg: #2d3748;
+            --footer-text: #e2e8f0;
         }
         
         [data-theme="dark"] {
@@ -38,6 +40,8 @@
             --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
             --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.4);
+            --footer-bg: #0f172a;
+            --footer-text: #cbd5e1;
         }
         
         body {
@@ -87,22 +91,40 @@
             border-radius: 12px;
             cursor: pointer;
             transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: left 0.5s;
+        }
+        
+        .category-card:hover::before {
+            left: 100%;
         }
         
         .category-card:hover {
-            transform: translateY(-2px);
+            transform: translateY(-4px);
             box-shadow: var(--hover-shadow);
         }
         
         .category-icon {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 1rem;
             font-size: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
         
         .math-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
@@ -181,6 +203,150 @@
             margin: 0 auto;
             padding: 0 1rem;
         }
+        
+        /* Footer Styles */
+        .footer {
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 3rem 0 1rem;
+            margin-top: 4rem;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-links a {
+            color: var(--footer-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 0.25rem 0;
+        }
+        
+        .footer-links a:hover {
+            color: #90cdf4;
+            transform: translateX(4px);
+            transition: all 0.3s ease;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--footer-text);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #90cdf4;
+            color: #1a202c;
+            transform: translateY(-2px);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 2rem;
+            padding-top: 1rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+        
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-brand-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: var(--accent-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        .footer-description {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .scroll-to-top:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+        
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .social-links {
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 <body class="theme-transition" data-theme="light">
@@ -190,9 +356,9 @@
             <div class="flex justify-between items-center">
                 <div class="flex items-center space-x-3">
                     <div class="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
-                        <i class="fas fa-book text-white text-lg"></i>
+                        <i class="fas fa-graduation-cap text-white text-lg"></i>
                     </div>
-                    <h1 class="text-white text-xl font-bold">MCQ Study Hub</h1>
+                    <h1 class="text-white text-xl font-bold">Educational Portal</h1>
                 </div>
                 <div class="theme-toggle" onclick="toggleTheme()">
                     <div class="theme-toggle-ball">
@@ -203,7 +369,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section - Smaller -->
+    <!-- Hero Section -->
     <section class="hero-section">
         <div class="container text-center">
             <h2 class="text-white text-2xl font-bold mb-2">Your Complete Learning Platform</h2>
@@ -216,13 +382,13 @@
     <!-- Main Content -->
     <main class="container py-8">
         <!-- Academic Subjects -->
-        <section class="mb-12">
+        <section class="mb-12" id="academic-subjects">
             <h2 class="section-title">
                 <i class="fas fa-graduation-cap text-2xl"></i>
                 Academic Subjects
             </h2>
             <div class="category-grid">
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('mathematics')">
                     <div class="category-icon math-icon">
                         <i class="fas fa-calculator text-white"></i>
                     </div>
@@ -230,7 +396,7 @@
                     <p class="text-sm opacity-75">Algebra, Calculus, Geometry</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('physics')">
                     <div class="category-icon physics-icon">
                         <i class="fas fa-atom text-white"></i>
                     </div>
@@ -238,7 +404,7 @@
                     <p class="text-sm opacity-75">Mechanics, Thermodynamics</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('chemistry')">
                     <div class="category-icon chemistry-icon">
                         <i class="fas fa-flask text-white"></i>
                     </div>
@@ -246,7 +412,7 @@
                     <p class="text-sm opacity-75">Organic, Inorganic, Physical</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('biology')">
                     <div class="category-icon biology-icon">
                         <i class="fas fa-dna text-white"></i>
                     </div>
@@ -254,7 +420,7 @@
                     <p class="text-sm opacity-75">Cell Biology, Genetics</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('zoology')">
                     <div class="category-icon zoology-icon">
                         <i class="fas fa-paw text-white"></i>
                     </div>
@@ -262,7 +428,7 @@
                     <p class="text-sm opacity-75">Animal Kingdom Studies</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('botany')">
                     <div class="category-icon botany-icon">
                         <i class="fas fa-leaf text-white"></i>
                     </div>
@@ -270,7 +436,7 @@
                     <p class="text-sm opacity-75">Plant Science & Biology</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('computer-science')">
                     <div class="category-icon computer-icon">
                         <i class="fas fa-laptop-code text-white"></i>
                     </div>
@@ -278,7 +444,7 @@
                     <p class="text-sm opacity-75">Programming, Algorithms</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('languages')">
                     <div class="category-icon language-icon">
                         <i class="fas fa-language text-white"></i>
                     </div>
@@ -289,13 +455,13 @@
         </section>
 
         <!-- General Knowledge & Awareness -->
-        <section class="mb-12">
+        <section class="mb-12" id="general-knowledge">
             <h2 class="section-title">
                 <i class="fas fa-globe text-2xl"></i>
                 General Knowledge & Awareness
             </h2>
             <div class="category-grid">
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('general-knowledge')">
                     <div class="category-icon gk-icon">
                         <i class="fas fa-brain text-white"></i>
                     </div>
@@ -303,7 +469,7 @@
                     <p class="text-sm opacity-75">World Facts & Information</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('current-affairs')">
                     <div class="category-icon current-icon">
                         <i class="fas fa-newspaper text-white"></i>
                     </div>
@@ -311,7 +477,7 @@
                     <p class="text-sm opacity-75">Latest News & Events</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('world-geography')">
                     <div class="category-icon geography-icon">
                         <i class="fas fa-map-marked-alt text-white"></i>
                     </div>
@@ -319,7 +485,7 @@
                     <p class="text-sm opacity-75">Countries, Capitals, Features</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('world-history')">
                     <div class="category-icon history-icon">
                         <i class="fas fa-landmark text-white"></i>
                     </div>
@@ -327,7 +493,7 @@
                     <p class="text-sm opacity-75">Historical Events & Figures</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('science-technology')">
                     <div class="category-icon science-icon">
                         <i class="fas fa-microscope text-white"></i>
                     </div>
@@ -338,13 +504,13 @@
         </section>
 
         <!-- Pakistan Specific -->
-        <section class="mb-12">
+        <section class="mb-12" id="pakistan-specific">
             <h2 class="section-title">
                 <i class="fas fa-flag text-2xl"></i>
                 Pakistan Specific
             </h2>
             <div class="category-grid">
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('pakistan-studies')">
                     <div class="category-icon pak-icon">
                         <i class="fas fa-map text-white"></i>
                     </div>
@@ -352,7 +518,7 @@
                     <p class="text-sm opacity-75">History, Geography, Culture</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('islamic-studies')">
                     <div class="category-icon islamic-icon">
                         <i class="fas fa-moon text-white"></i>
                     </div>
@@ -360,7 +526,7 @@
                     <p class="text-sm opacity-75">Islamic History & Teachings</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('everyday-science')">
                     <div class="category-icon everyday-icon">
                         <i class="fas fa-lightbulb text-white"></i>
                     </div>
@@ -368,7 +534,7 @@
                     <p class="text-sm opacity-75">Practical Science Knowledge</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('constitution-law')">
                     <div class="category-icon law-icon">
                         <i class="fas fa-balance-scale text-white"></i>
                     </div>
@@ -379,13 +545,13 @@
         </section>
 
         <!-- Job-Oriented Categories -->
-        <section class="mb-12">
+        <section class="mb-12" id="job-preparation">
             <h2 class="section-title">
                 <i class="fas fa-briefcase text-2xl"></i>
                 Job-Oriented Categories
             </h2>
             <div class="category-grid">
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('nts-past-papers')">
                     <div class="category-icon nts-icon">
                         <i class="fas fa-file-alt text-white"></i>
                     </div>
@@ -393,7 +559,7 @@
                     <p class="text-sm opacity-75">Previous Test Papers</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('ppsc-fpsc-psc')">
                     <div class="category-icon psc-icon">
                         <i class="fas fa-building text-white"></i>
                     </div>
@@ -401,7 +567,7 @@
                     <p class="text-sm opacity-75">Public Service Commission</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('police-jobs')">
                     <div class="category-icon police-icon">
                         <i class="fas fa-shield-alt text-white"></i>
                     </div>
@@ -409,7 +575,7 @@
                     <p class="text-sm opacity-75">Law Enforcement Tests</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('teaching-jobs')">
                     <div class="category-icon teaching-icon">
                         <i class="fas fa-chalkboard-teacher text-white"></i>
                     </div>
@@ -417,7 +583,7 @@
                     <p class="text-sm opacity-75">Educator Assessments</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('lecturer-mcqs')">
                     <div class="category-icon lecturer-icon">
                         <i class="fas fa-university text-white"></i>
                     </div>
@@ -425,7 +591,7 @@
                     <p class="text-sm opacity-75">Higher Education Posts</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('clerk-preparation')">
                     <div class="category-icon clerk-icon">
                         <i class="fas fa-clipboard text-white"></i>
                     </div>
@@ -433,7 +599,7 @@
                     <p class="text-sm opacity-75">Administrative Positions</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('bank-jobs')">
                     <div class="category-icon bank-icon">
                         <i class="fas fa-piggy-bank text-white"></i>
                     </div>
@@ -441,7 +607,7 @@
                     <p class="text-sm opacity-75">Banking Sector Tests</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('customs-fia-nab')">
                     <div class="category-icon customs-icon">
                         <i class="fas fa-search text-white"></i>
                     </div>
@@ -449,7 +615,7 @@
                     <p class="text-sm opacity-75">Investigation Agencies</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('public-administration')">
                     <div class="category-icon admin-icon">
                         <i class="fas fa-users-cog text-white"></i>
                     </div>
@@ -460,13 +626,13 @@
         </section>
 
         <!-- Skill Testing & Aptitude -->
-        <section class="mb-12">
+        <section class="mb-12" id="skill-testing">
             <h2 class="section-title">
                 <i class="fas fa-puzzle-piece text-2xl"></i>
                 Skill Testing & Aptitude
             </h2>
             <div class="category-grid">
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('iq-analytical')">
                     <div class="category-icon iq-icon">
                         <i class="fas fa-brain text-white"></i>
                     </div>
@@ -474,7 +640,7 @@
                     <p class="text-sm opacity-75">Intelligence & Analysis</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('logical-reasoning')">
                     <div class="category-icon logical-icon">
                         <i class="fas fa-sitemap text-white"></i>
                     </div>
@@ -482,7 +648,7 @@
                     <p class="text-sm opacity-75">Logic & Problem Solving</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('mental-math')">
                     <div class="category-icon mental-icon">
                         <i class="fas fa-calculator text-white"></i>
                     </div>
@@ -490,7 +656,7 @@
                     <p class="text-sm opacity-75">Quick Calculations</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('data-interpretation')">
                     <div class="category-icon data-icon">
                         <i class="fas fa-chart-bar text-white"></i>
                     </div>
@@ -498,7 +664,7 @@
                     <p class="text-sm opacity-75">Charts & Graphs Analysis</p>
                 </div>
                 
-                <div class="category-card bg-card">
+                <div class="category-card bg-card" onclick="navigateToCategory('verbal-reasoning')">
                     <div class="category-icon verbal-icon">
                         <i class="fas fa-comments text-white"></i>
                     </div>
@@ -514,6 +680,74 @@
             <p class="text-lg opacity-80">Choose your category and start practicing MCQs today!</p>
         </section>
     </main>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 footer-grid">
+                <!-- Educational Portal Brand -->
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="footer-brand-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Educational Portal</h3>
+                    </div>
+                    <p class="footer-description">
+                        Comprehensive learning resources and test preparation for students and professionals.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-link"></i> Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#academic-subjects">Academic Subjects</a></li>
+                        <li><a href="#general-knowledge">General Knowledge</a></li>
+                        <li><a href="#job-preparation">Job Preparation</a></li>
+                        <li><a href="#skill-testing">Skill Testing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-book"></i> Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showComingSoon('MCQ Practice')">MCQ Practice</a></li>
+                        <li><a href="#" onclick="showComingSoon('Past Papers')">Past Papers</a></li>
+                        <li><a href="#" onclick="showComingSoon('Study Materials')">Study Materials</a></li>
+                        <li><a href="#" onclick="showComingSoon('Test Preparation')">Test Preparation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect With Us -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-users"></i> Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showComingSoon('Contact Form')">Contact Us</a></li>
+                        <li><a href="#" onclick="showComingSoon('Support')">Help & Support</a></li>
+                        <li><a href="#" onclick="showComingSoon('Community')">Join Community</a></li>
+                        <li><a href="#" onclick="showComingSoon('Newsletter')">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Educational Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 
     <script>
         function toggleTheme() {
@@ -544,14 +778,64 @@
             }
         });
         
-        // Add hover effects to category cards
+        // Navigation function for categories
+        function navigateToCategory(category) {
+            // Add a visual feedback
+            event.currentTarget.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.currentTarget.style.transform = '';
+            }, 150);
+            
+            // Show coming soon message for now
+            showComingSoon(category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()));
+        }
+        
+        // Show coming soon alert
+        function showComingSoon(section) {
+            const message = `${section} section is coming soon! 🚀\n\nWe're working hard to bring you comprehensive MCQs and study materials for this category.`;
+            alert(message);
+        }
+        
+        // Scroll to top functionality
+        window.addEventListener('scroll', function() {
+            const scrollToTop = document.getElementById('scrollToTop');
+            if (window.pageYOffset > 300) {
+                scrollToTop.classList.add('visible');
+            } else {
+                scrollToTop.classList.remove('visible');
+            }
+        });
+        
+        document.getElementById('scrollToTop').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Enhanced hover effects for category cards
         document.querySelectorAll('.category-card').forEach(card => {
             card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-4px)';
+                this.style.transform = 'translateY(-6px) scale(1.02)';
             });
             
             card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0)';
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+        
+        // Smooth scrolling for footer links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             });
         });
     </script>
