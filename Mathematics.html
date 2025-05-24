@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics - Academic Subjects</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .theme-transition {
+            transition: all 0.3s ease;
+        }
+        
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-card: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+            --footer-bg: #2d3748;
+            --footer-text: #e2e8f0;
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --border-color: #475569;
+            --accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            --hover-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.4);
+            --footer-bg: #0f172a;
+            --footer-text: #cbd5e1;
+        }
+        
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+        
+        .bg-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--card-shadow);
+        }
+        
+        .bg-card:hover {
+            box-shadow: var(--hover-shadow);
+            transform: translateY(-2px);
+        }
+        
+        .hero-section {
+            background: var(--accent-gradient);
+            padding: 2rem 0;
+            min-height: 200px;
+        }
+        
+        .section-title {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        .category-card {
+            background-color: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: left 0.5s;
+        }
+        
+        .category-card:hover::before {
+            left: 100%;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--hover-shadow);
+        }
+        
+        .category-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .algebra-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .calculus-icon { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .geometry-icon { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .statistics-icon { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .trigonometry-icon { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .number-theory-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .discrete-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .linear-algebra-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .differential-icon { background: linear-gradient(135deg, #a8caba 0%, #5d4e75 100%); }
+        .analysis-icon { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
+        .abstract-icon { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+        .topology-icon { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+        .probability-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .optimization-icon { background: linear-gradient(135deg, #48c6ef 0%, #6f86d6 100%); }
+        .numerical-icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        
+        .theme-toggle {
+            width: 60px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .theme-toggle-ball {
+            width: 26px;
+            height: 26px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+        
+        [data-theme="dark"] .theme-toggle-ball {
+            transform: translateX(30px);
+            background: #1e293b;
+            color: #fbbf24;
+        }
+        
+        .navbar {
+            background: var(--accent-gradient);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .navigation-buttons {
+            background-color: var(--bg-secondary);
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .nav-btn {
+            background: var(--accent-gradient);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            color: white;
+        }
+        
+        /* Footer Styles */
+        .footer {
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
+            padding: 3rem 0 1rem;
+            margin-top: 4rem;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-links a {
+            color: var(--footer-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 0.25rem 0;
+        }
+        
+        .footer-links a:hover {
+            color: #90cdf4;
+            transform: translateX(4px);
+            transition: all 0.3s ease;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--footer-text);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background: #90cdf4;
+            color: #1a202c;
+            transform: translateY(-2px);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 2rem;
+            padding-top: 1rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+        }
+        
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-brand-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background: var(--accent-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        .footer-description {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .scroll-to-top:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+        
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .social-links {
+                justify-content: center;
+            }
+            
+            .navigation-buttons .container {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .navigation-buttons .flex {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body class="theme-transition" data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white text-lg"></i>
+                    </div>
+                    <h1 class="text-white text-xl font-bold">Educational Portal</h1>
+                </div>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="theme-toggle-ball">
+                        <i class="fas fa-sun text-yellow-500"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons">
+        <div class="container">
+            <div class="flex gap-4">
+                <a href="javascript:history.back()" class="nav-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    Back
+                </a>
+                <a href="index.html" class="nav-btn">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h2 class="text-white text-2xl font-bold mb-2">Mathematics Learning Hub</h2>
+            <p class="text-white text-opacity-90 max-w-2xl mx-auto">
+                Master mathematical concepts with our comprehensive collection of topics and practice questions
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container py-8">
+        <!-- Core Mathematics -->
+        <section class="mb-12" id="core-mathematics">
+            <h2 class="section-title">
+                <i class="fas fa-calculator text-2xl"></i>
+                Core Mathematics
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card" onclick="navigateToSubject('algebra')">
+                    <div class="category-icon algebra-icon">
+                        <i class="fas fa-square-root-alt text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Algebra</h3>
+                    <p class="text-sm opacity-75">Linear Equations, Quadratic Equations, Polynomials</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('calculus')">
+                    <div class="category-icon calculus-icon">
+                        <i class="fas fa-chart-line text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Calculus</h3>
+                    <p class="text-sm opacity-75">Differential Calculus, Integral Calculus, Limits</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('geometry')">
+                    <div class="category-icon geometry-icon">
+                        <i class="fas fa-shapes text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Geometry</h3>
+                    <p class="text-sm opacity-75">Euclidean Geometry, Coordinate Geometry, Solid Geometry</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Mathematics -->
+        <section class="mb-12" id="advanced-mathematics">
+            <h2 class="section-title">
+                <i class="fas fa-brain text-2xl"></i>
+                Advanced Mathematics
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card" onclick="navigateToSubject('statistics')">
+                    <div class="category-icon statistics-icon">
+                        <i class="fas fa-chart-bar text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Statistics</h3>
+                    <p class="text-sm opacity-75">Descriptive Statistics, Probability, Data Analysis</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('trigonometry')">
+                    <div class="category-icon trigonometry-icon">
+                        <i class="fas fa-wave-square text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Trigonometry</h3>
+                    <p class="text-sm opacity-75">Sin, Cos, Tan Functions, Identities, Applications</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('number-theory')">
+                    <div class="category-icon number-theory-icon">
+                        <i class="fas fa-hashtag text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Number Theory</h3>
+                    <p class="text-sm opacity-75">Prime Numbers, Divisibility, Modular Arithmetic</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('probability')">
+                    <div class="category-icon probability-icon">
+                        <i class="fas fa-dice text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Probability</h3>
+                    <p class="text-sm opacity-75">Probability Theory, Random Variables, Distributions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applied Mathematics -->
+        <section class="mb-12" id="applied-mathematics">
+            <h2 class="section-title">
+                <i class="fas fa-cogs text-2xl"></i>
+                Applied Mathematics
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card" onclick="navigateToSubject('discrete-mathematics')">
+                    <div class="category-icon discrete-icon">
+                        <i class="fas fa-project-diagram text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Discrete Mathematics</h3>
+                    <p class="text-sm opacity-75">Set Theory, Logic, Graph Theory, Combinatorics</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('linear-algebra')">
+                    <div class="category-icon linear-algebra-icon">
+                        <i class="fas fa-th text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Linear Algebra</h3>
+                    <p class="text-sm opacity-75">Matrices, Vectors, Eigenvalues, Vector Spaces</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('differential-equations')">
+                    <div class="category-icon differential-icon">
+                        <i class="fas fa-function text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Differential Equations</h3>
+                    <p class="text-sm opacity-75">Ordinary DE, Partial DE, Solutions & Applications</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('numerical-methods')">
+                    <div class="category-icon numerical-icon">
+                        <i class="fas fa-calculator text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Numerical Methods</h3>
+                    <p class="text-sm opacity-75">Numerical Analysis, Computational Mathematics</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialized Mathematics -->
+        <section class="mb-12" id="specialized-mathematics">
+            <h2 class="section-title">
+                <i class="fas fa-microscope text-2xl"></i>
+                Specialized Mathematics
+            </h2>
+            <div class="category-grid">
+                <div class="category-card bg-card" onclick="navigateToSubject('mathematical-analysis')">
+                    <div class="category-icon analysis-icon">
+                        <i class="fas fa-search-plus text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Mathematical Analysis</h3>
+                    <p class="text-sm opacity-75">Real Analysis, Complex Analysis, Functional Analysis</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('abstract-algebra')">
+                    <div class="category-icon abstract-icon">
+                        <i class="fas fa-cube text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Abstract Algebra</h3>
+                    <p class="text-sm opacity-75">Groups, Rings, Fields, Algebraic Structures</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('topology')">
+                    <div class="category-icon topology-icon">
+                        <i class="fas fa-network-wired text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Topology</h3>
+                    <p class="text-sm opacity-75">Point-Set Topology, Algebraic Topology</p>
+                </div>
+                
+                <div class="category-card bg-card" onclick="navigateToSubject('optimization')">
+                    <div class="category-icon optimization-icon">
+                        <i class="fas fa-bullseye text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Optimization</h3>
+                    <p class="text-sm opacity-75">Linear Programming, Nonlinear Optimization</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Complete Learning Journey -->
+        <section class="text-center py-8">
+            <h2 class="text-2xl font-bold mb-4">🎯 Master Mathematics Today</h2>
+            <p class="text-lg opacity-80">Choose your mathematics topic and start practicing MCQs!</p>
+        </section>
+    </main>
+
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 footer-grid">
+                <!-- Educational Portal Brand -->
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="footer-brand-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Educational Portal</h3>
+                    </div>
+                    <p class="footer-description">
+                        Comprehensive learning resources and test preparation for students and professionals.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-link"></i> Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#core-mathematics">Core Mathematics</a></li>
+                        <li><a href="#advanced-mathematics">Advanced Mathematics</a></li>
+                        <li><a href="#applied-mathematics">Applied Mathematics</a></li>
+                        <li><a href="#specialized-mathematics">Specialized Mathematics</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-book"></i> Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showComingSoon('MCQ Practice')">MCQ Practice</a></li>
+                        <li><a href="#" onclick="showComingSoon('Past Papers')">Past Papers</a></li>
+                        <li><a href="#" onclick="showComingSoon('Study Materials')">Study Materials</a></li>
+                        <li><a href="#" onclick="showComingSoon('Test Preparation')">Test Preparation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect With Us -->
+                <div class="footer-section">
+                    <h3><i class="fas fa-users"></i> Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" onclick="showComingSoon('Contact Form')">Contact Us</a></li>
+                        <li><a href="#" onclick="showComingSoon('Support')">Help & Support</a></li>
+                        <li><a href="#" onclick="showComingSoon('Community')">Join Community</a></li>
+                        <li><a href="#" onclick="showComingSoon('Newsletter')">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Educational Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update toggle icon
+            const toggleBall = document.querySelector('.theme-toggle-ball i');
+            if (newTheme === 'dark') {
+                toggleBall.className = 'fas fa-moon text-yellow-400';
+            } else {
+                toggleBall.className = 'fas fa-sun text-yellow-500';
+            }
+        }
+        
+        // Load saved theme
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.body.setAttribute('data-theme', savedTheme);
+            
+            const toggleBall = document.querySelector('.theme-toggle-ball i');
+            if (savedTheme === 'dark') {
+                toggleBall.className = 'fas fa-moon text-yellow-400';
+            }
+        });
+        
+        // Navigation function for mathematics subjects
+        function navigateToSubject(subject) {
+            // Add a visual feedback
+            event.currentTarget.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                event.currentTarget.style.transform = '';
+            }, 150);
+            
+            // Show coming soon message for now
+            showComingSoon(subject.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()));
+        }
+        
+        // Show coming soon alert
+        function showComingSoon(section) {
+            const message = `${section} section is coming soon! 🚀\n\nWe're working hard to bring you comprehensive MCQs and study materials for this mathematics topic.`;
+            alert(message);
+        }
+        
+        // Scroll to top functionality
+        window.addEventListener('scroll', function() {
+            const scrollToTop = document.getElementById('scrollToTop');
+            if (window.pageYOffset > 300) {
+                scrollToTop.classList.add('visible');
+            } else {
+                scrollToTop.classList.remove('visible');
+            }
+        });
+        
+        document.getElementById('scrollToTop').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Enhanced hover effects for category cards
+        document.querySelectorAll('.category-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-6px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+        
+        // Smooth scrolling for footer links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
