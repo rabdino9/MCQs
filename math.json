@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Math MCQs",
+    "description": "Practice Algebra, Geometry, and Calculus questions",
+    "keywords": "math, mcqs, quiz"
+  },
+  "subcategories": [
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "questions": [
+        {
+          "q": "Solve: 2x + 4 = 10",
+          "options": ["x = 2", "x = 3", "x = 4"],
+          "a": 1,
+          "ex": "Subtract 4 from both sides and divide by 2"
+        },
+        {
+          "q": "What is (x + 3)(x - 3)?",
+          "options": ["x^2 + 9", "x^2 - 9", "x^2 - 6"],
+          "a": 1,
+          "ex": "This is a difference of squares"
+        }
+      ]
+    }
+  ]
+}
