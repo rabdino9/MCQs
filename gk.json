@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "General Knowledge MCQs",
+    "description": "Improve your general knowledge",
+    "keywords": "gk, trivia, knowledge"
+  },
+  "subcategories": [
+    {
+      "id": "world",
+      "title": "World Facts",
+      "questions": [
+        {
+          "q": "What is the capital of Australia?",
+          "options": ["Sydney", "Canberra", "Melbourne"],
+          "a": 1,
+          "ex": "Canberra is the capital, not Sydney"
+        }
+      ]
+    }
+  ]
+}
