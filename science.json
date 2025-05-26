@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Science MCQs",
+    "description": "Test your science knowledge in Physics and Biology",
+    "keywords": "science, physics, biology"
+  },
+  "subcategories": [
+    {
+      "id": "physics",
+      "title": "Physics",
+      "questions": [
+        {
+          "q": "What is the unit of force?",
+          "options": ["Newton", "Watt", "Joule"],
+          "a": 0,
+          "ex": "Force is measured in Newtons (N)"
+        }
+      ]
+    }
+  ]
+}
