@@ -1,0 +1,17 @@
+[
+  {
+    "id": "math",
+    "title": "Mathematics",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+  },
+  {
+    "id": "science",
+    "title": "Science",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2907/2907253.png"
+  },
+  {
+    "id": "gk",
+    "title": "General Knowledge",
+    "icon": "https://cdn-icons-png.flaticon.com/512/599/599502.png"
+  }
+]
