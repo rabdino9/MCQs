@@ -20,8 +20,10 @@ export default async function HomePage() {
       <div className="container mx-auto py-8 px-4 text-center">
         <AlertTriangle className="h-16 w-16 text-destructive mx-auto mb-4" />
         <h1 className="text-3xl font-bold mb-4 text-destructive">Error Loading Categories</h1>
-        <p className="text-muted-foreground">
-          We encountered a critical issue loading the learning categories. Please try refreshing the page, or contact support if the problem persists.
+        <p className="text-muted-foreground max-w-md mx-auto">
+          We encountered a critical issue loading the learning categories.
+          Please check your server logs for more specific error messages.
+          If the problem persists, try refreshing the page or contact support.
         </p>
       </div>
     );
