@@ -16,11 +16,12 @@ import { useToast } from "@/hooks/use-toast";
 
 interface QuizClientProps {
   questions: Question[];
-  categoryName: string;
-  subcategoryName: string;
+  categoryName: string; // Display name of the category
+  subcategoryName: string; // Display name/title of the subcategory
+  subcategoryId: string; // ID of the subcategory (used for hint topic)
 }
 
-export function QuizClient({ questions, categoryName, subcategoryName }: QuizClientProps) {
+export function QuizClient({ questions, categoryName, subcategoryName, subcategoryId }: QuizClientProps) {
   const router = useRouter();
   const { toast } = useToast();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -63,13 +64,13 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
         userAnswer: selectedAnswers[idx],
         correctAnswer: q.correctAnswer,
         explanation: q.explanation,
-        furtherReadingLink: q.furtherReadingLink,
+        furtherReadingLink: q.furtherReadingLink, // This will be undefined if not present
         isCorrect: selectedAnswers[idx] === q.correctAnswer
       }));
       sessionStorage.setItem('quizResults', JSON.stringify(userAnswersForStorage));
       sessionStorage.setItem('quizScore', JSON.stringify({score, totalQuestions}));
       
-      router.push(`/results?category=${encodeURIComponent(categoryName)}&subcategory=${encodeURIComponent(subcategoryName)}`);
+      router.push(`/results?category=${encodeURIComponent(categoryName)}&subcategory=${encodeURIComponent(subcategoryName)}`); // Use display name for query params
     }
   };
 
@@ -85,7 +86,7 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
         question: currentQuestion.questionText,
         answerChoices: currentQuestion.options,
         userAnswer: selectedAnswers[currentQuestionIndex] || undefined,
-        topic: subcategoryName,
+        topic: subcategoryId, // Use subcategory ID as the topic for the AI
       });
       const newHints = [...hints];
       newHints[currentQuestionIndex] = hintData.hint;
@@ -110,7 +111,7 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
 
   if (!isMounted) {
     return (
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center min-h-[calc(100vh-8rem)]">
         <Loader2 className="h-12 w-12 animate-spin text-primary" />
       </div>
     );
@@ -119,7 +120,7 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
   if (!currentQuestion) {
      return (
       <div className="container mx-auto py-8 px-4 text-center">
-        <p>No questions found for this quiz.</p>
+        <p>No questions found for this quiz. This might happen if the data structure is incorrect or the file is empty.</p>
         <Button onClick={() => router.push('/')} className="mt-4">Back to Home</Button>
       </div>
     );
@@ -131,7 +132,7 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
     <div className="container mx-auto py-8 px-4 flex flex-col items-center min-h-[calc(100vh-8rem)]">
       <Card className="w-full max-w-2xl shadow-2xl">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold text-center text-primary">{subcategoryName} Quiz</CardTitle>
+          <CardTitle className="text-2xl font-bold text-center text-primary">{subcategoryName} Quiz</CardTitle> {/* Use display name */}
           <CardDescription className="text-center">
             Question {currentQuestionIndex + 1} of {totalQuestions}
           </CardDescription>
@@ -207,6 +208,13 @@ export function QuizClient({ questions, categoryName, subcategoryName }: QuizCli
               <AlertDescription>
                 {feedback[currentQuestionIndex] === 'correct' ? "Great job!" : `The correct answer is: ${currentQuestion.correctAnswer}.`}
                 <p className="mt-2 text-sm">{currentQuestion.explanation}</p>
+                 {currentQuestion.furtherReadingLink && (
+                  <p className="mt-2">
+                    <a href={currentQuestion.furtherReadingLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      Learn more
+                    </a>
+                  </p>
+                )}
               </AlertDescription>
             </Alert>
           )}

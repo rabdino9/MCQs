@@ -7,16 +7,17 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 
-export const revalidate = 3600; // Revalidate data every hour, could be 0 for dev
+export const revalidate = 0; // Revalidate data on each request
 
 interface CategoryPageProps {
   params: {
-    categoryName: string; // This is actually category.title from the route
+    categoryName: string; // This is category.title from the route
   };
 }
 
 export async function generateMetadata({ params }: CategoryPageProps) {
   const categoryTitle = decodeURIComponent(params.categoryName);
+  // Potentially fetch category here to get its actual title if it differs from param or for subcategory count for SEO
   return {
     title: `${categoryTitle} Subcategories | Digital Tayari`,
   };
@@ -24,8 +25,7 @@ export async function generateMetadata({ params }: CategoryPageProps) {
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const categoryTitle = decodeURIComponent(params.categoryName);
-  // getCategoryByName will now fetch subcategories if subcategoriesUrl is present
-  const category = await getCategoryByName(categoryTitle);
+  const category = await getCategoryByName(categoryTitle); // This will fetch subcategories if subcategoriesUrl is present
 
   if (!category) {
     return (
@@ -41,6 +41,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     );
   }
 
+  // Initial check if subcategories might be loading
+  const isLoadingSubcategories = category.subcategoriesUrl && category.subcategories === undefined;
+
   return (
     <div className="container mx-auto py-8 px-4">
       <Button asChild variant="outline" className="mb-8">
@@ -54,15 +57,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <p className="text-lg text-muted-foreground text-center mb-10">
         Choose a subcategory to start learning.
       </p>
-      {/* 
-        The skeleton loading might briefly show if subcategories are being fetched by getCategoryByName.
-        If category.subcategories is fetched and ends up empty, this skeleton might not be ideal.
-        A more refined loading state might be needed if subcategory fetching is slow.
-        For now, this relies on category.subcategories being populated (or genuinely empty).
-      */}
-      {(!category.subcategories || category.subcategories.length === 0) && category.subcategoriesUrl && (
-        // Show skeleton only if subcategories are expected (subcategoriesUrl exists) but not yet loaded or empty after fetch attempt
-        // This is a basic loading indicator; a more robust one would involve Suspense if getCategoryByName was a component
+      
+      {isLoadingSubcategories && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[...Array(3)].map((_, index) => (
             <div key={index} className="flex flex-col space-y-3 p-4 border rounded-lg shadow animate-pulse">
@@ -74,32 +70,25 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           ))}
         </div>
       )}
+
        {category.subcategories && category.subcategories.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {category.subcategories.map((subcategory) => (
             <SubcategoryCard
-              key={subcategory.subcategoryName}
-              categoryName={category.title} // Pass the category title
-              name={subcategory.subcategoryName}
-              Icon={getIconForSubcategory(subcategory.subcategoryName)} // Icons are still from local map
+              key={subcategory.id}
+              categoryName={category.title} 
+              subcategoryId={subcategory.id}
+              subcategoryTitle={subcategory.title}
+              Icon={getIconForSubcategory(subcategory.title)} // Use subcategory title for icon mapping for now
               questionCount={subcategory.questions?.length || 0}
             />
           ))}
         </div>
-      ) : (
-         (!category.subcategoriesUrl) && (
+      ) : !isLoadingSubcategories && ( // Only show "no subcategories" if not loading
           <p className="text-center text-muted-foreground mt-6">
-            No subcategories are available for {category.title} at the moment.
+            {category.subcategoriesUrl ? `Could not load subcategories for ${category.title}, or none are defined.` : `No subcategories are available for ${category.title} at the moment.`}
           </p>
-         )
       )}
-       {/* Message if subcategoriesUrl existed but fetch resulted in empty or error */}
-       {category.subcategoriesUrl && (!category.subcategories || category.subcategories.length === 0) && (
-         <p className="text-center text-muted-foreground mt-6">
-            Could not load subcategories for {category.title}, or none are defined.
-          </p>
-       )}
     </div>
   );
 }
-
