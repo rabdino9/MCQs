@@ -1,16 +1,21 @@
 
 import { fetchCategories } from '@/lib/data';
 import { CategoryCard } from '@/components/CategoryCard';
-// getIconForCategory is removed as icons will come from JSON
 import { AlertTriangle, FolderSearch } from 'lucide-react';
+import type { FetchedCategoryDetail, Category as AppCategory } from '@/lib/types'; // Import FetchedCategoryDetail and rename Category to avoid conflict
 
 export const revalidate = 3600; // Revalidate data every hour
 
-export default async function HomePage() {
-  const categories = await fetchCategories();
+// Extend Category type for internal use in this component to store the fetched count
+interface CategoryWithDisplayCount extends AppCategory {
+  displaySubcategoryCount: number;
+}
 
-  if (!categories || !Array.isArray(categories)) {
-    console.error("HomePage: categories data is critically invalid or undefined. Expected array, got:", categories);
+export default async function HomePage() {
+  const baseCategories = await fetchCategories();
+
+  if (!baseCategories || !Array.isArray(baseCategories)) {
+    console.error("HomePage: categories data is critically invalid or undefined. Expected array, got:", baseCategories);
     return (
       <div className="container mx-auto py-8 px-4 text-center">
         <AlertTriangle className="h-16 w-16 text-destructive mx-auto mb-4" />
@@ -22,13 +27,42 @@ export default async function HomePage() {
     );
   }
 
+  // Enhance categories with actual subcategory counts by fetching from subcategoriesUrl
+  const categoriesWithDisplayCounts: CategoryWithDisplayCount[] = await Promise.all(
+    baseCategories.map(async (category) => {
+      let count = 0;
+      if (category.subcategoriesUrl) {
+        try {
+          // Fetch the specific category's JSON to count its subcategories
+          const subcategoriesResponse = await fetch(category.subcategoriesUrl, { cache: 'no-store' }); // 'no-store' ensures fresh count
+          if (subcategoriesResponse.ok) {
+            const fetchedDetail: FetchedCategoryDetail = await subcategoriesResponse.json();
+            if (fetchedDetail && typeof fetchedDetail.subcategories === 'object' && fetchedDetail.subcategories !== null) {
+              count = Object.keys(fetchedDetail.subcategories).length;
+            } else {
+              console.warn(`Subcategory data for ${category.title} from ${category.subcategoriesUrl} was not in the expected format or empty when fetching for count.`);
+            }
+          } else {
+            console.warn(`Failed to fetch subcategories from ${category.subcategoriesUrl} for count calculation: ${subcategoriesResponse.statusText}`);
+          }
+        } catch (e) {
+          console.error(`Error fetching or parsing subcategory count for ${category.title} from ${category.subcategoriesUrl}:`, e);
+        }
+      } else if (category.subcategories && Array.isArray(category.subcategories)) {
+        // Fallback if subcategories are already part of the category object (e.g. cached, though less likely here)
+        count = category.subcategories.length;
+      }
+      return { ...category, displaySubcategoryCount: count };
+    })
+  );
+
   return (
     <div className="container mx-auto py-8 px-4">
       <h1 className="text-4xl font-bold text-center mb-12 text-primary">
         Explore Learning Categories
       </h1>
       
-      {categories.length === 0 ? (
+      {categoriesWithDisplayCounts.length === 0 ? (
         <div className="text-center py-10">
           <FolderSearch className="h-20 w-20 text-muted-foreground mx-auto mb-6" />
           <h2 className="text-2xl font-semibold mb-3">No Learning Categories Found</h2>
@@ -40,12 +74,12 @@ export default async function HomePage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {categories.map((category) => (
+          {categoriesWithDisplayCounts.map((category) => (
             <CategoryCard
-              key={category.id} // Use category.id as key
-              name={category.title} // Use category.title for display name
-              iconUrl={category.icon} // Pass icon URL
-              subcategoryCount={category.subcategories?.length || 0} 
+              key={category.id} 
+              name={category.title} 
+              iconUrl={category.icon} 
+              subcategoryCount={category.displaySubcategoryCount} // Use the fetched count
               description={`Learn about various topics in ${category.title}.`}
             />
           ))}
