@@ -13,8 +13,10 @@ export interface Subcategory {
 }
 
 export interface Category {
-  categoryName: string;
-  subcategories: Subcategory[];
+  id: string;         // Changed from categoryName for ID
+  title: string;      // This will be used as the display name
+  icon: string;       // This is expected to be an image URL
+  subcategories?: Subcategory[]; // Kept optional for potential downstream compatibility
 }
 
 export interface UserAnswer {

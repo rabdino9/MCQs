@@ -1,17 +1,16 @@
 
 import { fetchCategories } from '@/lib/data';
 import { CategoryCard } from '@/components/CategoryCard';
-import { getIconForCategory } from '@/components/Icons';
-import { AlertTriangle, FolderSearch } from 'lucide-react'; // Added FolderSearch and AlertTriangle
+// getIconForCategory is removed as icons will come from JSON
+import { AlertTriangle, FolderSearch } from 'lucide-react';
 
 export const revalidate = 3600; // Revalidate data every hour
 
 export default async function HomePage() {
   const categories = await fetchCategories();
 
-  // Defensive check in case fetchCategories unexpectedly returns something other than an array
   if (!categories || !Array.isArray(categories)) {
-    console.error("HomePage: categories data is critically invalid. Expected array, got:", categories);
+    console.error("HomePage: categories data is critically invalid or undefined. Expected array, got:", categories);
     return (
       <div className="container mx-auto py-8 px-4 text-center">
         <AlertTriangle className="h-16 w-16 text-destructive mx-auto mb-4" />
@@ -35,6 +34,7 @@ export default async function HomePage() {
           <h2 className="text-2xl font-semibold mb-3">No Learning Categories Found</h2>
           <p className="text-muted-foreground max-w-md mx-auto">
             It looks like there are no learning categories available at the moment. 
+            This could be because the data source is empty or there was an issue fetching the data.
             Please check back later.
           </p>
         </div>
@@ -42,11 +42,11 @@ export default async function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((category) => (
             <CategoryCard
-              key={category.categoryName}
-              name={category.categoryName}
-              Icon={getIconForCategory(category.categoryName)}
+              key={category.id} // Use category.id as key
+              name={category.title} // Use category.title for display name
+              iconUrl={category.icon} // Pass icon URL
               subcategoryCount={category.subcategories?.length || 0} 
-              description={`Learn about various topics in ${category.categoryName}.`}
+              description={`Learn about various topics in ${category.title}.`}
             />
           ))}
         </div>
