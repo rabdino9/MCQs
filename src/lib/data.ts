@@ -5,23 +5,18 @@ import { CATEGORIES_JSON_URL } from './constants';
 let allCategoriesCache: Category[] | null = null;
 
 async function fetchAllData(): Promise<Category[]> {
-  // Check cache first. If it's already a valid array, return it.
   if (allCategoriesCache && Array.isArray(allCategoriesCache)) {
+    // If cache exists and is a valid array, return it.
+    // This allows getCategoryByName to populate subcategories into the cached objects.
     return allCategoriesCache;
-  }
-  // If cache exists but is not an array (e.g., due to a previous error or bad state),
-  // reset it to force re-fetch.
-  if (allCategoriesCache !== null && !Array.isArray(allCategoriesCache)) {
-      console.warn("allCategoriesCache was not an array, resetting for re-fetch.");
-      allCategoriesCache = null;
   }
 
   try {
     const response = await fetch(CATEGORIES_JSON_URL);
 
     if (!response.ok) {
-      console.error(`Failed to fetch categories: ${response.statusText} (status: ${response.status})`);
-      allCategoriesCache = []; // Set cache to empty array on HTTP error
+      console.error(`Failed to fetch main categories: ${response.statusText} (status: ${response.status})`);
+      allCategoriesCache = []; 
       return [];
     }
     
@@ -29,48 +24,81 @@ async function fetchAllData(): Promise<Category[]> {
     try {
       parsedData = await response.json();
     } catch (jsonError) {
-      console.error("Error parsing JSON data:", jsonError);
-      allCategoriesCache = []; // Set cache to empty array on JSON parsing error
+      console.error("Error parsing main categories JSON data:", jsonError);
+      allCategoriesCache = []; 
       return [];
     }
 
     if (Array.isArray(parsedData)) {
-      // At this point, we assume parsedData is Category[] based on the structure.
-      // For a more robust solution, one might validate each item in parsedData
-      // against the Category schema, but this addresses the immediate undefined issue.
       allCategoriesCache = parsedData as Category[];
+      // Ensure subcategories are initially undefined or empty so they can be loaded on demand
+      allCategoriesCache.forEach(cat => {
+        if (cat.subcategoriesUrl && !cat.subcategories) {
+          cat.subcategories = []; // Initialize as empty, to be filled by getCategoryByName
+        }
+      });
     } else {
-      console.error("Fetched data is not an array. Received type:", typeof parsedData, "Data:", parsedData);
-      allCategoriesCache = []; // Default to empty array if data is not an array
+      console.error("Fetched main categories data is not an array. Received type:", typeof parsedData, "Data:", parsedData);
+      allCategoriesCache = [];
     }
     return allCategoriesCache;
-  } catch (fetchError) { // Catching errors from fetch() itself or other unexpected errors during the process
+  } catch (fetchError) {
     console.error("Generic error in fetchAllData process:", fetchError);
-    allCategoriesCache = []; // Ensure cache is an empty array on any caught error
+    allCategoriesCache = [];
     return []; 
   }
 }
 
 export async function fetchCategories(): Promise<Category[]> {
-  // fetchAllData is now designed to always return an array.
   return await fetchAllData();
 }
 
-export async function getCategoryByName(categoryName: string): Promise<Category | undefined> {
-  const categories = await fetchAllData(); // Should be an array
-  return categories.find(cat => cat.categoryName === categoryName);
+export async function getCategoryByName(categoryTitle: string): Promise<Category | undefined> {
+  const categories = await fetchAllData();
+  const category = categories.find(cat => cat.title === categoryTitle);
+
+  if (category && category.subcategoriesUrl && (!category.subcategories || category.subcategories.length === 0)) {
+    // If subcategoriesUrl exists and subcategories are not loaded (or empty array was placeholder)
+    try {
+      console.log(`Fetching subcategories for ${category.title} from ${category.subcategoriesUrl}`);
+      const subcategoriesResponse = await fetch(category.subcategoriesUrl);
+      if (!subcategoriesResponse.ok) {
+        console.error(`Failed to fetch subcategories for ${category.title}: ${subcategoriesResponse.statusText}`);
+        category.subcategories = []; // Set to empty on error
+        return category;
+      }
+      const subcategoriesData: Subcategory[] = await subcategoriesResponse.json();
+      if (Array.isArray(subcategoriesData)) {
+        category.subcategories = subcategoriesData;
+         // Update cache: find the category in allCategoriesCache and update its subcategories
+        if (allCategoriesCache) {
+            const cachedCategoryIndex = allCategoriesCache.findIndex(c => c.id === category.id);
+            if (cachedCategoryIndex !== -1) {
+                allCategoriesCache[cachedCategoryIndex].subcategories = subcategoriesData;
+            }
+        }
+      } else {
+        console.error(`Subcategory data for ${category.title} is not an array.`);
+        category.subcategories = [];
+      }
+    } catch (error) {
+      console.error(`Error fetching or parsing subcategories for ${category.title}:`, error);
+      category.subcategories = []; // Set to empty on error
+    }
+  }
+  return category;
 }
 
-export async function getSubcategoryByName(categoryName: string, subcategoryName: string): Promise<Subcategory | undefined> {
-  const category = await getCategoryByName(categoryName);
+export async function getSubcategoryByName(categoryTitle: string, subcategoryName: string): Promise<Subcategory | undefined> {
+  const category = await getCategoryByName(categoryTitle); // This will now load subcategories if needed
   if (category && Array.isArray(category.subcategories)) {
     return category.subcategories.find(sub => sub.subcategoryName === subcategoryName);
   }
   return undefined;
 }
 
-export async function getQuestionsForSubcategory(categoryName: string, subcategoryName: string): Promise<Question[]> {
-  const subcategory = await getSubcategoryByName(categoryName, subcategoryName);
+export async function getQuestionsForSubcategory(categoryTitle: string, subcategoryName: string): Promise<Question[]> {
+  const subcategory = await getSubcategoryByName(categoryTitle, subcategoryName);
   if (subcategory && Array.isArray(subcategory.questions)) {
     return subcategory.questions;
   }

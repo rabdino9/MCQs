@@ -16,6 +16,7 @@ export interface Category {
   id: string;         // Changed from categoryName for ID
   title: string;      // This will be used as the display name
   icon: string;       // This is expected to be an image URL
+  subcategoriesUrl?: string; // URL to fetch subcategories
   subcategories?: Subcategory[]; // Kept optional for potential downstream compatibility
 }
 
