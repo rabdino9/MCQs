@@ -27,6 +27,10 @@ export default async function HomePage() {
     );
   }
 
+  if (baseCategories.length === 0) {
+    console.warn("HomePage: fetchCategories returned an empty array. This will result in the 'No Learning Categories Found' message. Please check the data source (CATEGORIES_JSON_URL) or review earlier fetch/parse errors in the server logs.");
+  }
+
   // Enhance categories with actual subcategory counts by fetching from subcategoriesUrl
   const categoriesWithDisplayCounts: CategoryWithDisplayCount[] = await Promise.all(
     baseCategories.map(async (category) => {
@@ -49,7 +53,7 @@ export default async function HomePage() {
           console.error(`Error fetching or parsing subcategory count for ${category.title} from ${category.subcategoriesUrl}:`, e);
         }
       } else if (category.subcategories && Array.isArray(category.subcategories)) {
-        // Fallback if subcategories are already part of the category object (e.g. cached, though less likely here)
+        // Fallback if subcategories are already part of the category object
         count = category.subcategories.length;
       }
       return { ...category, displaySubcategoryCount: count };
@@ -69,7 +73,7 @@ export default async function HomePage() {
           <p className="text-muted-foreground max-w-md mx-auto">
             It looks like there are no learning categories available at the moment. 
             This could be because the data source is empty or there was an issue fetching the data.
-            Please check back later.
+            Please check your server logs for more specific error messages if this issue persists.
           </p>
         </div>
       ) : (
