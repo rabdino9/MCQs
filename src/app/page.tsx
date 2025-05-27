@@ -28,7 +28,7 @@ export default async function HomePage() {
   }
 
   if (baseCategories.length === 0) {
-    console.warn("HomePage: fetchCategories returned an empty array. This will result in the 'No Learning Categories Found' message. Please check the data source (CATEGORIES_JSON_URL) or review earlier fetch/parse errors in the server logs.");
+    console.warn("HomePage: fetchCategories returned an empty array. This will result in the 'No Learning Categories Found' message. Please check the data source (CATEGORIES_JSON_URL) for content and validity (e.g., ensure it's valid JSON, check for issues like trailing commas). Also, review server logs for specific fetch/parse errors.");
   }
 
   // Enhance categories with actual subcategory counts by fetching from subcategoriesUrl
