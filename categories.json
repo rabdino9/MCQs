@@ -2,31 +2,31 @@
   {
     "id": "math",
     "title": "Mathematics",
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+    "icon": "🧮",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/math.json"
   },
   {
     "id": "physics",
     "title": "Physics",
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+    "icon": "⚛️",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/physics.json"
   },
   {
     "id": "chemistry",
     "title": "Chemistry",
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+    "icon": "🧪",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/chemistry.json"
   },
   {
     "id": "biology",
     "title": "Biology",
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+    "icon": "🧬",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/biology.json"
   },
   {
     "id": "computer-science",
     "title": "Computer Science",
-    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png",
+    "icon": "💻",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/computer-science.json"
   }
 ]
