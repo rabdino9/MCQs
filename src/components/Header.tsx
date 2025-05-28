@@ -1,18 +1,19 @@
 
 import Link from 'next/link';
-import { BookHeart, Search as SearchIcon } from 'lucide-react';
+import { Search as SearchIcon } from 'lucide-react'; // Removed BookHeart
 import { Input } from '@/components/ui/input';
-// Removed Button and Tooltip imports as they are no longer used for the AI suggestion icon
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-primary text-primary-foreground shadow-lg">
       <div className="container flex h-16 items-center justify-between gap-4 px-4 md:px-6">
-        <Link href="/" className="flex items-center space-x-2">
-          <BookHeart className="h-8 w-8" />
-          <span role="img" aria-label="AI Suggestion" className="text-2xl sm:text-3xl">🧠</span>
-          <span className="text-xl font-bold sm:text-2xl">Digital Tayari</span>
-        </Link>
+        {/* Updated branding section */}
+        <div className="flex items-center">
+          <Link href="/" aria-label="Go to homepage">
+            <span role="img" aria-label="Digital Tayari logo" className="text-2xl sm:text-3xl">🧠</span>
+          </Link>
+          <span className="ml-2 text-xl font-bold sm:text-2xl">Digital Tayari</span>
+        </div>
         
         <div className="flex items-center gap-3 sm:gap-4">
           <div className="relative flex-shrink max-w-xs sm:max-w-sm md:max-w-md">
@@ -23,7 +24,6 @@ export function Header() {
               className="h-9 w-full rounded-md border-transparent bg-primary-foreground pl-10 pr-3 text-sm text-primary placeholder-primary/60 focus:border-transparent focus:ring-1 focus:ring-background/70"
             />
           </div>
-          {/* Removed the separate AI Suggestion button and tooltip */}
         </div>
       </div>
     </header>
