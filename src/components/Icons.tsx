@@ -43,14 +43,20 @@ const categoryIconMap: { [key: string]: LucideIcon } = {
   "Islamic Studies": BookMarked,
 };
 
-export function getIconForCategory(categoryName: string): LucideIcon {
-  return categoryIconMap[categoryName] || Icons.default;
+export function getIconForCategory(categoryName?: string): LucideIcon {
+  if (categoryName && categoryIconMap[categoryName]) {
+    return categoryIconMap[categoryName];
+  }
+  return Icons.default;
 }
 
 // For subcategories, we can use a generic approach or expand this map
-export function getIconForSubcategory(subcategoryName: string): LucideIcon {
-  // Simple example: could be more sophisticated
-  if (subcategoryName.toLowerCase().includes("world")) return Globe;
-  if (subcategoryName.toLowerCase().includes("computer")) return Cpu;
-  return Layers;
+export function getIconForSubcategory(subcategoryName?: string): LucideIcon {
+  if (subcategoryName) {
+    const lowerName = subcategoryName.toLowerCase();
+    if (lowerName.includes("world")) return Globe;
+    if (lowerName.includes("computer")) return Cpu;
+    // Add more specific checks for other keywords if needed
+  }
+  return Layers; // Default icon if no specific match or if subcategoryName is undefined/empty
 }

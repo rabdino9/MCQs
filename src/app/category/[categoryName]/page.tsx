@@ -1,5 +1,5 @@
 
-import { getCategoryByName } from '@/lib/data';
+import { getCategoryByName, fetchCategories } from '@/lib/data';
 import { SubcategoryCard } from '@/components/SubcategoryCard';
 import { getIconForSubcategory } from '@/components/Icons';
 import { Button } from '@/components/ui/button';
@@ -13,17 +13,47 @@ interface CategoryPageProps {
   };
 }
 
+export async function generateStaticParams() {
+  const categories = await fetchCategories();
+  if (!categories) return [];
+  return categories.map((category) => ({
+    categoryName: encodeURIComponent(category.title),
+  }));
+}
+
 export async function generateMetadata({ params }: CategoryPageProps) {
-  const categoryTitle = decodeURIComponent(params.categoryName);
-  // Potentially fetch category here to get its actual title if it differs from param or for subcategory count for SEO
+  let categoryTitle = "Category";
+  try {
+    categoryTitle = decodeURIComponent(params.categoryName);
+  } catch (e) {
+    console.error("Error decoding categoryName for metadata:", params.categoryName, e);
+    // Use a fallback or handle appropriately
+  }
   return {
     title: `${categoryTitle} Subcategories | Digital Tayari`,
   };
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  const categoryTitle = decodeURIComponent(params.categoryName);
-  const category = await getCategoryByName(categoryTitle); // This will fetch subcategories if subcategoriesUrl is present
+  let categoryTitle = "";
+  try {
+    categoryTitle = decodeURIComponent(params.categoryName);
+  } catch (e) {
+    console.error("Error decoding categoryName:", params.categoryName, e);
+    return (
+      <div className="container mx-auto py-8 px-4 text-center">
+        <h1 className="text-3xl font-bold mb-4">Invalid Category URL</h1>
+        <p className="mb-8">The category name in the URL is malformed.</p>
+        <Button asChild>
+          <Link href="/">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Categories
+          </Link>
+        </Button>
+      </div>
+    );
+  }
+  
+  const category = await getCategoryByName(categoryTitle);
 
   if (!category) {
     return (
@@ -39,7 +69,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     );
   }
 
-  // Initial check if subcategories might be loading
   const isLoadingSubcategories = category.subcategoriesUrl && category.subcategories === undefined;
 
   return (
@@ -56,7 +85,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         Choose a subcategory to start learning.
       </p>
       
-      {isLoadingSubcategories && (
+      {isLoadingSubcategories && !category.subcategories && ( // Show skeleton only if subcategories are not yet loaded
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[...Array(3)].map((_, index) => (
             <div key={index} className="flex flex-col space-y-3 p-4 border rounded-lg shadow animate-pulse">
@@ -77,12 +106,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               categoryName={category.title} 
               subcategoryId={subcategory.id}
               subcategoryTitle={subcategory.title}
-              Icon={getIconForSubcategory(subcategory.title)} // Use subcategory title for icon mapping for now
+              Icon={getIconForSubcategory(subcategory.title)}
               questionCount={subcategory.questions?.length || 0}
             />
           ))}
         </div>
-      ) : !isLoadingSubcategories && ( // Only show "no subcategories" if not loading
+      ) : !isLoadingSubcategories && (
           <p className="text-center text-muted-foreground mt-6">
             {category.subcategoriesUrl ? `Could not load subcategories for ${category.title}, or none are defined.` : `No subcategories are available for ${category.title} at the moment.`}
           </p>
