@@ -8,40 +8,77 @@ import { ArrowRight } from 'lucide-react';
 interface CategoryCardProps {
   name: string; // This will be category.title
   description?: string;
-  iconUrl: string; // Changed from Icon component to URL
+  iconUrl: string; // Can be an image URL or an emoji string
   subcategoryCount: number;
 }
 
 export function CategoryCard({ name, description, iconUrl, subcategoryCount }: CategoryCardProps) {
-  const href = `/category/${encodeURIComponent(name)}`; // Name here is category.title
+  const href = `/category/${encodeURIComponent(name)}`;
 
-  let displayIconUrl = iconUrl;
-  let isPlaceholder = false;
-  try {
-    // Attempt to construct a URL to validate it.
-    // This also checks if it's an absolute URL.
-    new URL(iconUrl);
-    if (!iconUrl.startsWith('http://') && !iconUrl.startsWith('https://')) {
-      throw new Error('Not an absolute URL');
+  let iconDisplayElement: React.ReactNode;
+
+  let isPotentialUrl = false;
+  if (iconUrl && (iconUrl.startsWith('http://') || iconUrl.startsWith('https://'))) {
+    try {
+      new URL(iconUrl); // Validate if it's a well-formed URL
+      isPotentialUrl = true;
+    } catch (_) {
+      // Not a valid URL structure, will be handled by emoji/placeholder logic
+      isPotentialUrl = false;
     }
-  } catch (_) {
-    // If iconUrl is empty, malformed, or not absolute, use a placeholder.
-    displayIconUrl = `https://placehold.co/40x40.png`;
-    isPlaceholder = true;
-    console.warn(`Invalid or non-absolute iconUrl provided for category "${name}": "${iconUrl}". Using placeholder.`);
+  }
+
+  if (isPotentialUrl) {
+    // It's a potential image URL
+    iconDisplayElement = (
+      <Image
+        src={iconUrl}
+        alt={`${name} icon`}
+        width={40}
+        height={40}
+        className="rounded-md object-contain" // Added object-contain
+        onError={(e) => {
+          // If image fails to load, replace with a placeholder
+          (e.target as HTMLImageElement).src = 'https://placehold.co/40x40.png';
+          (e.target as HTMLImageElement).alt = 'Placeholder icon';
+           // Add data-ai-hint for the placeholder
+          (e.target as HTMLImageElement).dataset.aiHint = 'placeholder icon';
+          console.warn(`Image from "${iconUrl}" failed to load for category "${name}". Displaying placeholder.`);
+        }}
+      />
+    );
+  } else if (iconUrl && iconUrl.trim() !== '') {
+    // Not an HTTP/HTTPS URL, but a non-empty string: treat as emoji/text
+    iconDisplayElement = (
+      <span className="flex items-center justify-center w-10 h-10 text-3xl" role="img" aria-label={`${name} icon`}>
+        {iconUrl}
+      </span>
+    );
+  } else {
+    // Fallback: iconUrl is empty, or was a malformed non-http URL
+    iconDisplayElement = (
+      <Image
+        src="https://placehold.co/40x40.png"
+        alt="Placeholder icon"
+        width={40}
+        height={40}
+        className="rounded-md"
+        data-ai-hint="placeholder icon"
+      />
+    );
+    if (iconUrl) { // Log only if iconUrl was present but invalid
+        console.warn(`Invalid iconUrl ("${iconUrl}") for category "${name}". Using placeholder image.`);
+    } else {
+        console.warn(`Empty iconUrl for category "${name}". Using placeholder image.`);
+    }
   }
 
   return (
     <Card className="flex flex-col h-full transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       <CardHeader className="flex flex-row items-center space-x-4 pb-2">
-        <Image 
-          src={displayIconUrl} 
-          alt={isPlaceholder ? 'Placeholder icon' : `${name} icon`}
-          width={40} 
-          height={40} 
-          className="rounded-md"
-          data-ai-hint={isPlaceholder ? "placeholder icon" : "category icon"}
-        />
+        <div className="w-10 h-10 flex items-center justify-center"> {/* Ensure consistent sizing for emoji or image */}
+          {iconDisplayElement}
+        </div>
         <div>
           <CardTitle className="text-xl font-semibold">{name}</CardTitle>
           {description && <CardDescription className="text-sm">{description}</CardDescription>}
@@ -62,3 +99,5 @@ export function CategoryCard({ name, description, iconUrl, subcategoryCount }: C
     </Card>
   );
 }
+
+    
