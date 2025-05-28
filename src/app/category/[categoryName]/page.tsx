@@ -7,8 +7,6 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 
-export const revalidate = 0; // Revalidate data on each request
-
 interface CategoryPageProps {
   params: {
     categoryName: string; // This is category.title from the route

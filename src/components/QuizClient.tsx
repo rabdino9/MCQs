@@ -2,7 +2,7 @@
 "use client";
 
 import type { Question } from '@/lib/types';
-import { generatePersonalizedHint } from '@/ai/flows/generate-personalized-hint';
+// import { generatePersonalizedHint } from '@/ai/flows/generate-personalized-hint'; // Removed
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
@@ -10,25 +10,25 @@ import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Progress } from '@/components/ui/progress';
-import { CheckCircle, XCircle, Lightbulb, Loader2, Info } from 'lucide-react';
+import { CheckCircle, XCircle, Loader2 } from 'lucide-react'; // Removed Lightbulb, Info
 import { useRouter } from 'next/navigation';
-import { useToast } from "@/hooks/use-toast";
+// import { useToast } from "@/hooks/use-toast"; // Removed if only for hints
 
 interface QuizClientProps {
   questions: Question[];
   categoryName: string; // Display name of the category
   subcategoryName: string; // Display name/title of the subcategory
-  subcategoryId: string; // ID of the subcategory (used for hint topic)
+  subcategoryId: string; // ID of the subcategory (used for hint topic - now unused for hints)
 }
 
 export function QuizClient({ questions, categoryName, subcategoryName, subcategoryId }: QuizClientProps) {
   const router = useRouter();
-  const { toast } = useToast();
+  // const { toast } = useToast(); // Removed
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<Array<string | null>>(Array(questions.length).fill(null));
   const [feedback, setFeedback] = useState<Array<'correct' | 'incorrect' | null>>(Array(questions.length).fill(null));
-  const [hints, setHints] = useState<Array<string | null>>(Array(questions.length).fill(null));
-  const [hintLoading, setHintLoading] = useState<Array<boolean>>(Array(questions.length).fill(false));
+  // const [hints, setHints] = useState<Array<string | null>>(Array(questions.length).fill(null)); // Removed
+  // const [hintLoading, setHintLoading] = useState<Array<boolean>>(Array(questions.length).fill(false)); // Removed
   const [score, setScore] = useState(0);
   const [isMounted, setIsMounted] = useState(false);
 
@@ -64,50 +64,17 @@ export function QuizClient({ questions, categoryName, subcategoryName, subcatego
         userAnswer: selectedAnswers[idx],
         correctAnswer: q.correctAnswer,
         explanation: q.explanation,
-        furtherReadingLink: q.furtherReadingLink, // This will be undefined if not present
+        furtherReadingLink: q.furtherReadingLink,
         isCorrect: selectedAnswers[idx] === q.correctAnswer
       }));
       sessionStorage.setItem('quizResults', JSON.stringify(userAnswersForStorage));
       sessionStorage.setItem('quizScore', JSON.stringify({score, totalQuestions}));
       
-      router.push(`/results?category=${encodeURIComponent(categoryName)}&subcategory=${encodeURIComponent(subcategoryName)}`); // Use display name for query params
+      router.push(`/results?category=${encodeURIComponent(categoryName)}&subcategory=${encodeURIComponent(subcategoryName)}`);
     }
   };
 
-  const handleGetHint = async () => {
-    if (hintLoading[currentQuestionIndex] || hints[currentQuestionIndex]) return;
-
-    const newHintLoading = [...hintLoading];
-    newHintLoading[currentQuestionIndex] = true;
-    setHintLoading(newHintLoading);
-
-    try {
-      const hintData = await generatePersonalizedHint({
-        question: currentQuestion.questionText,
-        answerChoices: currentQuestion.options,
-        userAnswer: selectedAnswers[currentQuestionIndex] || undefined,
-        topic: subcategoryId, // Use subcategory ID as the topic for the AI
-      });
-      const newHints = [...hints];
-      newHints[currentQuestionIndex] = hintData.hint;
-      setHints(newHints);
-      toast({
-        title: "Hint Generated!",
-        description: "A hint is now available for this question.",
-      });
-    } catch (error) {
-      console.error("Error generating hint:", error);
-      toast({
-        title: "Error",
-        description: "Could not generate a hint at this time.",
-        variant: "destructive",
-      });
-    } finally {
-      const finalHintLoading = [...hintLoading];
-      finalHintLoading[currentQuestionIndex] = false;
-      setHintLoading(finalHintLoading);
-    }
-  };
+  // handleGetHint function removed
 
   if (!isMounted) {
     return (
@@ -132,7 +99,7 @@ export function QuizClient({ questions, categoryName, subcategoryName, subcatego
     <div className="container mx-auto py-8 px-4 flex flex-col items-center min-h-[calc(100vh-8rem)]">
       <Card className="w-full max-w-2xl shadow-2xl">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold text-center text-primary">{subcategoryName} Quiz</CardTitle> {/* Use display name */}
+          <CardTitle className="text-2xl font-bold text-center text-primary">{subcategoryName} Quiz</CardTitle>
           <CardDescription className="text-center">
             Question {currentQuestionIndex + 1} of {totalQuestions}
           </CardDescription>
@@ -175,29 +142,7 @@ export function QuizClient({ questions, categoryName, subcategoryName, subcatego
             ))}
           </RadioGroup>
 
-          {feedback[currentQuestionIndex] === 'incorrect' && !hints[currentQuestionIndex] && (
-            <Button
-              onClick={handleGetHint}
-              variant="outline"
-              className="mt-6 w-full group border-accent text-accent hover:text-accent-foreground hover:bg-accent"
-              disabled={hintLoading[currentQuestionIndex]}
-            >
-              {hintLoading[currentQuestionIndex] ? (
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              ) : (
-                <Lightbulb className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-              )}
-              Get a Hint
-            </Button>
-          )}
-
-          {hints[currentQuestionIndex] && (
-            <Alert variant="default" className="mt-6 bg-yellow-100 border-yellow-400 text-yellow-700">
-              <Info className="h-5 w-5 text-yellow-600" />
-              <AlertTitle className="font-semibold text-yellow-800">Hint</AlertTitle>
-              <AlertDescription className="text-yellow-700">{hints[currentQuestionIndex]}</AlertDescription>
-            </Alert>
-          )}
+          {/* Hint button and hint display logic removed */}
           
           {feedback[currentQuestionIndex] && (
              <Alert variant={feedback[currentQuestionIndex] === 'correct' ? "default" : "destructive"} className={`mt-6 ${feedback[currentQuestionIndex] === 'correct' ? 'bg-green-50 border-green-500 text-green-700' : 'bg-red-50 border-red-500 text-red-700'}`}>

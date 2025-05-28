@@ -1,9 +1,8 @@
 
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export', // Added for static export
+  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -11,7 +10,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    unoptimized: true, // Required for static export if not using a custom loader
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -27,6 +26,8 @@ const nextConfig: NextConfig = {
       }
     ],
   },
+  basePath: '/MCQs',
+  assetPrefix: '/MCQs',
 };
 
 export default nextConfig;

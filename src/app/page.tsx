@@ -4,7 +4,7 @@ import { CategoryCard } from '@/components/CategoryCard';
 import { AlertTriangle, FolderSearch } from 'lucide-react';
 import type { FetchedCategoryDetail, Category as AppCategory } from '@/lib/types'; // Import FetchedCategoryDetail and rename Category to avoid conflict
 
-export const revalidate = 3600; // Revalidate data every hour
+// export const revalidate = 3600; // Revalidate data every hour
 
 // Extend Category type for internal use in this component to store the fetched count
 interface CategoryWithDisplayCount extends AppCategory {
@@ -34,31 +34,10 @@ export default async function HomePage() {
   }
 
   // Enhance categories with actual subcategory counts by fetching from subcategoriesUrl
-  const categoriesWithDisplayCounts: CategoryWithDisplayCount[] = await Promise.all(
-    baseCategories.map(async (category) => {
-      let count = 0;
-      if (category.subcategoriesUrl) {
-        try {
-          // Fetch the specific category's JSON to count its subcategories
-          const subcategoriesResponse = await fetch(category.subcategoriesUrl, { cache: 'no-store' }); // 'no-store' ensures fresh count
-          if (subcategoriesResponse.ok) {
-            const fetchedDetail: FetchedCategoryDetail = await subcategoriesResponse.json();
-            if (fetchedDetail && typeof fetchedDetail.subcategories === 'object' && fetchedDetail.subcategories !== null) {
-              count = Object.keys(fetchedDetail.subcategories).length;
-            } else {
-              console.warn(`Subcategory data for ${category.title} from ${category.subcategoriesUrl} was not in the expected format or empty when fetching for count.`);
-            }
-          } else {
-            console.warn(`Failed to fetch subcategories from ${category.subcategoriesUrl} for count calculation: ${subcategoriesResponse.statusText}`);
-          }
-        } catch (e) {
-          console.error(`Error fetching or parsing subcategory count for ${category.title} from ${category.subcategoriesUrl}:`, e);
-        }
-      } else if (category.subcategories && Array.isArray(category.subcategories)) {
-        // Fallback if subcategories are already part of the category object
-        count = category.subcategories.length;
-      }
-      return { ...category, displaySubcategoryCount: count };
+  const categoriesWithDisplayCounts: CategoryWithDisplayCount[] = baseCategories.map(category => {
+    // Assume subcategories are always present and count them directly from the initial fetch
+    const count = category.subcategories && Array.isArray(category.subcategories) ? category.subcategories.length : 0;
+    return { ...category, displaySubcategoryCount: count }; // Use the count from the initial data
     })
   );
 

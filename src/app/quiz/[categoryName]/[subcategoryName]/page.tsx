@@ -6,8 +6,7 @@ import Link from 'next/link';
 import { ArrowLeft, AlertTriangle } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 
-export const revalidate = 0; // No caching for quiz page, always fetch fresh
-
+// export const revalidate = 0; // No caching for quiz page, always fetch fresh
 interface QuizPageProps {
   params: {
     categoryName: string; // This is category.title
@@ -18,7 +17,7 @@ interface QuizPageProps {
 export async function generateMetadata({ params }: QuizPageProps) {
   const categoryName = decodeURIComponent(params.categoryName);
   const subcategoryId = decodeURIComponent(params.subcategoryName);
-  const subcategory = await getSubcategoryById(categoryName, subcategoryId); // Fetch subcategory for its title
+  const subcategory = getSubcategoryById(categoryName, subcategoryId); // Fetch subcategory for its title
   const displaySubcategoryName = subcategory ? subcategory.title : subcategoryId;
 
   return {
@@ -30,8 +29,8 @@ export default async function QuizPage({ params }: QuizPageProps) {
   const categoryName = decodeURIComponent(params.categoryName);
   const subcategoryId = decodeURIComponent(params.subcategoryName); // This is the ID
 
-  const questions = await getQuestionsForSubcategory(categoryName, subcategoryId);
-  const subcategory = await getSubcategoryById(categoryName, subcategoryId); // Fetch again or pass from generateMetadata if possible
+  const questions = getQuestionsForSubcategory(categoryName, subcategoryId);
+  const subcategory = getSubcategoryById(categoryName, subcategoryId); // Fetch again or pass from generateMetadata if possible
   
   const displaySubcategoryTitle = subcategory ? subcategory.title : subcategoryId;
 
