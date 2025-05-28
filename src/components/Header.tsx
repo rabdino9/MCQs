@@ -1,17 +1,15 @@
 
 import Link from 'next/link';
-import { Search as SearchIcon } from 'lucide-react'; // Removed BookHeart
+import { Search as SearchIcon } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-primary text-primary-foreground shadow-lg">
       <div className="container flex h-16 items-center justify-between gap-4 px-4 md:px-6">
-        {/* Updated branding section */}
+        {/* Branding section with non-clickable emoji and app name */}
         <div className="flex items-center">
-          <Link href="/" aria-label="Go to homepage">
-            <span role="img" aria-label="Digital Tayari logo" className="text-2xl sm:text-3xl">🧠</span>
-          </Link>
+          <span role="img" aria-label="Digital Tayari logo" className="text-2xl sm:text-3xl">🧠</span>
           <span className="ml-2 text-xl font-bold sm:text-2xl">Digital Tayari</span>
         </div>
         
