@@ -1,27 +1,28 @@
 
 export interface Question {
-  questionText: string; // from q
+  questionText: string;
   options: string[];
-  correctAnswer: string; // from options[a]
-  explanation: string; // from ex
-  furtherReadingLink?: string; // Made optional
+  correctAnswer: string;
+  explanation: string;
+  furtherReadingLink?: string;
 }
 
 export interface Subcategory {
-  id: string; // e.g., "algebra", "geometry" (from the key in the subcategories object)
-  title: string; // e.g., "Algebra", "Geometry" (from subcategory.title in JSON)
+  id: string; // e.g., "algebra"
+  title: string; // e.g., "Algebra"
   questions: Question[];
 }
 
 export interface Category {
-  id: string;
+  id: string; // e.g., "math", used to find <id>.json for subcategories
   title: string;
-  icon: string; // Expected to be an image URL
-  subcategoriesUrl?: string; // URL to fetch subcategories JSON
-  subcategories?: Subcategory[]; // This will be populated from subcategoriesUrl
+  icon: string;
+  subcategoriesUrl?: string; // Optional, not primary for fetching if local files are used by id
+  subcategories?: Subcategory[]; // Populated from local <id>.json
 }
 
-// This interface represents the structure of the JSON file fetched from subcategoriesUrl
+// This interface represents the structure of individual <category-id>.json files
+// (e.g., public/data/math.json)
 export interface FetchedCategoryDetail {
   meta?: {
     title?: string;
@@ -41,7 +42,6 @@ export interface FetchedCategoryDetail {
     };
   };
 }
-
 
 export interface UserAnswer {
   questionIndex: number;

@@ -7,57 +7,69 @@ import { ArrowLeft, AlertTriangle } from 'lucide-react';
 
 interface QuizPageProps {
   params: {
-    categoryName: string; 
-    subcategoryName: string; // This is subcategory.id
+    categoryName: string;    
+    subcategoryName: string; 
   };
 }
 
 export async function generateStaticParams() {
-  const categories = await fetchCategories();
-  if (!categories) return [];
-
-  const params = [];
-  for (const category of categories) {
-    // Need to fetch subcategories for this category
-    const detailedCategory = await getCategoryByName(category.title); 
-    if (detailedCategory && detailedCategory.subcategories) {
-      for (const subcategory of detailedCategory.subcategories) {
-        params.push({
-          categoryName: encodeURIComponent(category.title),
-          subcategoryName: encodeURIComponent(subcategory.id),
-        });
-      }
-    }
+  const categories = await fetchCategories(); 
+  if (!categories || categories.length === 0) {
+    console.warn("generateStaticParams for QuizPage: No categories found. Check public/data/categories.json.");
+    return [];
   }
-  return params;
+
+  const paramsPromises = categories.map(async (category) => {
+    if (!category.title) {
+      console.warn("generateStaticParams for QuizPage: Category found with no title during subcategory fetch:", category);
+      return [];
+    }
+    const detailedCategory = await getCategoryByName(category.title); 
+    if (detailedCategory && detailedCategory.subcategories && detailedCategory.subcategories.length > 0) {
+      return detailedCategory.subcategories.map((subcategory) => {
+        if (!subcategory.id) {
+          console.warn("generateStaticParams for QuizPage: Subcategory found with no id:", subcategory, "under category:", category.title);
+          return null;
+        }
+        return {
+          categoryName: encodeURIComponent(category.title),
+          subcategoryName: encodeURIComponent(subcategory.id), 
+        };
+      }).filter(param => param !== null);
+    }
+    return [];
+  });
+
+  const allParamsNested = await Promise.all(paramsPromises);
+  return allParamsNested.flat(); 
 }
 
 export async function generateMetadata({ params }: QuizPageProps) {
-  let categoryName = "Category";
-  let subcategoryId = "Subcategory";
-  let displaySubcategoryName = "Quiz";
+  let categoryTitle = "Category";
+  let subcategoryId = "Subcategory"; 
+  let displaySubcategoryTitle = "Quiz";
 
   try {
-    categoryName = decodeURIComponent(params.categoryName);
+    categoryTitle = decodeURIComponent(params.categoryName);
     subcategoryId = decodeURIComponent(params.subcategoryName);
-    const subcategory = await getSubcategoryById(categoryName, subcategoryId);
-    displaySubcategoryName = subcategory ? subcategory.title : subcategoryId;
+    const subcategory = await getSubcategoryById(categoryTitle, subcategoryId);
+    displaySubcategoryTitle = subcategory ? subcategory.title : subcategoryId; 
   } catch (e) {
-    console.error("Error decoding params for metadata:", params, e);
+    console.error("Error decoding params for metadata in QuizPage:", params, e);
   }
   
   return {
-    title: `${displaySubcategoryName} Quiz | ${categoryName} | Digital Tayari`,
+    title: `${displaySubcategoryTitle} Quiz | ${categoryTitle} | Digital Tayari`,
   };
 }
 
 export default async function QuizPage({ params }: QuizPageProps) {
-  let categoryName = "";
-  let subcategoryId = "";
+  let categoryTitle = "";
+  let subcategoryId = ""; 
 
   try {
-    categoryName = decodeURIComponent(params.categoryName);
-    subcategoryId = decodeURIComponent(params.subcategoryName); // This is the ID
+    categoryTitle = decodeURIComponent(params.categoryName);
+    subcategoryId = decodeURIComponent(params.subcategoryName);
   } catch (e) {
     console.error("Error decoding params for QuizPage:", params, e);
     return (
@@ -76,22 +88,27 @@ export default async function QuizPage({ params }: QuizPageProps) {
     );
   }
 
-  const questions = await getQuestionsForSubcategory(categoryName, subcategoryId);
-  const subcategory = await getSubcategoryById(categoryName, subcategoryId); 
+  const questions = await getQuestionsForSubcategory(categoryTitle, subcategoryId);
+  const subcategory = await getSubcategoryById(categoryTitle, subcategoryId); 
   
-  const displaySubcategoryTitle = subcategory ? subcategory.title : subcategoryId;
+  const displaySubcategoryTitle = subcategory ? subcategory.title : subcategoryId; 
 
   if (!questions || questions.length === 0) {
+    let originalCategoryId = "";
+    const tempCategory = await getCategoryByName(categoryTitle); // To get the original category ID for the error message
+    if (tempCategory) originalCategoryId = tempCategory.id;
+
     return (
       <div className="container mx-auto py-8 px-4 text-center flex flex-col items-center justify-center min-h-[calc(100vh-8rem)]">
         <AlertTriangle className="h-16 w-16 text-destructive mb-4" />
         <h1 className="text-3xl font-bold mb-4 text-destructive">No Questions Available</h1>
         <p className="mb-8 text-muted-foreground">
-          Sorry, there are no questions for the "{displaySubcategoryTitle}" quiz in "{categoryName}" category at the moment.
+          Sorry, there are no questions for the "{displaySubcategoryTitle}" quiz in "{categoryTitle}" category.
+          This might be because 'public/data/${originalCategoryId}.json' is missing, empty, the subcategory "${subcategoryId}" is not defined within it, or it has no questions.
         </p>
         <div className="space-x-4">
           <Button asChild variant="outline">
-            <Link href={`/category/${encodeURIComponent(categoryName)}`}>
+            <Link href={`/category/${encodeURIComponent(categoryTitle)}`}>
               <ArrowLeft className="mr-2 h-4 w-4" /> Back to Subcategories
             </Link>
           </Button>
@@ -105,5 +122,5 @@ export default async function QuizPage({ params }: QuizPageProps) {
     );
   }
 
-  return <QuizClient questions={questions} categoryName={categoryName} subcategoryName={displaySubcategoryTitle} subcategoryId={subcategoryId} />;
+  return <QuizClient questions={questions} categoryName={categoryTitle} subcategoryName={displaySubcategoryTitle} subcategoryId={subcategoryId} />;
 }
