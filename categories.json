@@ -25,7 +25,7 @@
   },
   {
     "id": "computer-science",
-    "title": "Computer%20Science",
+    "title": "Computer%2520Science",
     "icon": "💻",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/computer-science.json"
   }
