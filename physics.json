@@ -1,1 +1,19 @@
+{
+  "meta": {
+    "category": "Physics"
+  },
+  "subcategories": [
+    {
+      "id": 0,
+      "name": "Kinematics",
+      "questions": [
+        {
+          "question": "What is the unit of acceleration?",
+          "options": ["m/s", "m", "m/s²", "km/h"],
+          "answer": "m/s²"
+        }
+      ]
+    }
+  ]
+}
 
