@@ -1,1 +1,19 @@
+{
+  "meta": {
+    "category": "Computer Science"
+  },
+  "subcategories": [
+    {
+      "id": 0,
+      "name": "Programming Basics",
+      "questions": [
+        {
+          "question": "Which of these is a programming language?",
+          "options": ["HTML", "Python", "HTTP", "CSS"],
+          "answer": "Python"
+        }
+      ]
+    }
+  ]
+}
 
