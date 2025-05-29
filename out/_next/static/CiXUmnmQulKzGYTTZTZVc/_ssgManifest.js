@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcategory\u002F[categoryName]","\u002Fquiz\u002F[categoryName]\u002F[subcategoryName]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
