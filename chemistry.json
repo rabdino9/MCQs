@@ -1,1 +1,19 @@
+{
+  "meta": {
+    "category": "Chemistry"
+  },
+  "subcategories": [
+    {
+      "id": 0,
+      "name": "Periodic Table",
+      "questions": [
+        {
+          "question": "What is the atomic number of Hydrogen?",
+          "options": ["1", "2", "8", "10"],
+          "answer": "1"
+        }
+      ]
+    }
+  ]
+}
 
