@@ -1,1 +1,19 @@
+{
+  "meta": {
+    "category": "Biology"
+  },
+  "subcategories": [
+    {
+      "id": 0,
+      "name": "Cell Biology",
+      "questions": [
+        {
+          "question": "What is the powerhouse of the cell?",
+          "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+          "answer": "Mitochondria"
+        }
+      ]
+    }
+  ]
+}
 
