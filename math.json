@@ -2284,6 +2284,1686 @@
           "ex": "This is a Pythagorean identity: 1 + tan²(θ) = sec²(θ), so sec²(θ) - tan²(θ) = 1."
         }
       ]
+    },
+     {
+      "id": "coordinate_geometry",
+      "title": "Coordinate Geometry",
+      "questions": [
+        {
+          "q": "What are the coordinates of the origin in a Cartesian coordinate system?",
+          "options": [
+            "(1, 1)",
+            "(0, 0)",
+            "(1, 0)",
+            "(0, 1)"
+          ],
+          "a": 1,
+          "ex": "The origin is the point where the x-axis and y-axis intersect, which is at (0, 0)."
+        },
+        {
+          "q": "A point is in the second quadrant. What are the signs of its coordinates?",
+          "options": [
+            "(+, +)",
+            "(-, +)",
+            "(-, -)",
+            "(+, -)"
+          ],
+          "a": 1,
+          "ex": "In the second quadrant, the x-coordinate is negative and the y-coordinate is positive."
+        },
+        {
+          "q": "What is the distance between the points (1, 2) and (4, 6)?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "a": 2,
+          "ex": "Distance = √((x₂-x₁)² + (y₂-y₁)²). So, √((4-1)² + (6-2)²) = √(3² + 4²) = √(9 + 16) = √25 = 5."
+        },
+        {
+          "q": "What is the slope of the line passing through the points (2, 3) and (4, 7)?",
+          "options": [
+            "1",
+            "2",
+            "0.5",
+            "-2"
+          ],
+          "a": 1,
+          "ex": "Slope (m) = (y₂-y₁)/(x₂-x₁). So, (7-3)/(4-2) = 4/2 = 2."
+        },
+        {
+          "q": "What is the equation of a line with slope 3 and y-intercept 2?",
+          "options": [
+            "y = 2x + 3",
+            "y = 3x + 2",
+            "y = 3x - 2",
+            "y = -3x + 2"
+          ],
+          "a": 1,
+          "ex": "The slope-intercept form is y = mx + c, where m is the slope and c is the y-intercept. So, y = 3x + 2."
+        },
+        {
+          "q": "What is the midpoint of the line segment connecting (0, 0) and (6, 8)?",
+          "options": [
+            "(3, 4)",
+            "(6, 8)",
+            "(0, 0)",
+            "(3, 0)"
+          ],
+          "a": 0,
+          "ex": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2). So, ((0+6)/2, (0+8)/2) = (3, 4)."
+        },
+        {
+          "q": "What is the slope of a horizontal line?",
+          "options": [
+            "1",
+            "0",
+            "Undefined",
+            "-1"
+          ],
+          "a": 1,
+          "ex": "A horizontal line has a slope of 0 because the y-coordinate does not change."
+        },
+        {
+          "q": "What is the slope of a vertical line?",
+          "options": [
+            "1",
+            "0",
+            "Undefined",
+            "-1"
+          ],
+          "a": 2,
+          "ex": "A vertical line has an undefined slope because the x-coordinate does not change, leading to division by zero in the slope formula."
+        },
+        {
+          "q": "The point (a, b) lies on the x-axis. What is the value of b?",
+          "options": [
+            "a",
+            "0",
+            "1",
+            "Cannot be determined"
+          ],
+          "a": 1,
+          "ex": "Any point on the x-axis has a y-coordinate of 0."
+        },
+        {
+          "q": "The point (a, b) lies on the y-axis. What is the value of a?",
+          "options": [
+            "b",
+            "0",
+            "1",
+            "Cannot be determined"
+          ],
+          "a": 1,
+          "ex": "Any point on the y-axis has an x-coordinate of 0."
+        },
+        {
+          "q": "What is the equation of the x-axis?",
+          "options": [
+            "x = 0",
+            "y = 0",
+            "x = y",
+            "y = 1"
+          ],
+          "a": 1,
+          "ex": "The equation of the x-axis is y = 0, as all points on it have a y-coordinate of 0."
+        },
+        {
+          "q": "What is the equation of the y-axis?",
+          "options": [
+            "x = 0",
+            "y = 0",
+            "x = y",
+            "x = 1"
+          ],
+          "a": 0,
+          "ex": "The equation of the y-axis is x = 0, as all points on it have an x-coordinate of 0."
+        },
+        {
+          "q": "Two lines are parallel. What is true about their slopes?",
+          "options": [
+            "Their slopes are equal.",
+            "The product of their slopes is -1.",
+            "Their slopes are negative reciprocals.",
+            "One slope is 0 and the other is undefined."
+          ],
+          "a": 0,
+          "ex": "Parallel lines have equal slopes."
+        },
+        {
+          "q": "Two lines are perpendicular (and neither is vertical). What is true about their slopes m₁ and m₂?",
+          "options": [
+            "m₁ = m₂",
+            "m₁ × m₂ = -1",
+            "m₁ × m₂ = 1",
+            "m₁ + m₂ = 0"
+          ],
+          "a": 1,
+          "ex": "For perpendicular lines, the product of their slopes is -1 (i.e., they are negative reciprocals)."
+        },
+        {
+          "q": "What is the distance of the point (3, 4) from the origin?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "a": 2,
+          "ex": "Distance from origin = √(x² + y²). So, √(3² + 4²) = √(9 + 16) = √25 = 5."
+        },
+        {
+          "q": "The line y = 2x + 5 intersects the y-axis at what point?",
+          "options": [
+            "(0, 2)",
+            "(0, 5)",
+            "(2.5, 0)",
+            "(5, 0)"
+          ],
+          "a": 1,
+          "ex": "The y-intercept is the point where x=0. So, y = 2(0) + 5 = 5. The point is (0, 5)."
+        },
+        {
+          "q": "The line y = -x + 3 intersects the x-axis at what point?",
+          "options": [
+            "(0, 3)",
+            "(3, 0)",
+            "(-3, 0)",
+            "(0, -3)"
+          ],
+          "a": 1,
+          "ex": "The x-intercept is the point where y=0. So, 0 = -x + 3 => x = 3. The point is (3, 0)."
+        },
+        {
+          "q": "What is the slope of the line 2x + 3y = 6?",
+          "options": [
+            "2/3",
+            "-2/3",
+            "3/2",
+            "-3/2"
+          ],
+          "a": 1,
+          "ex": "Rewrite in slope-intercept form (y = mx + c): 3y = -2x + 6 => y = (-2/3)x + 2. The slope is -2/3."
+        },
+        {
+          "q": "A point (-2, -5) is in which quadrant?",
+          "options": [
+            "First",
+            "Second",
+            "Third",
+            "Fourth"
+          ],
+          "a": 2,
+          "ex": "In the third quadrant, both x and y coordinates are negative."
+        },
+        {
+          "q": "What is the equation of a circle with center (0,0) and radius r?",
+          "options": [
+            "x² + y² = r",
+            "x + y = r²",
+            "x² + y² = r²",
+            "(x-r)² + (y-r)² = 0"
+          ],
+          "a": 2,
+          "ex": "The standard equation of a circle centered at the origin is x² + y² = r²."
+        },
+        {
+          "q": "What is the radius of the circle x² + y² = 16?",
+          "options": [
+            "16",
+            "8",
+            "4",
+            "256"
+          ],
+          "a": 2,
+          "ex": "Comparing with x² + y² = r², we have r² = 16, so r = √16 = 4."
+        },
+        {
+          "q": "The points (1,1), (1,5), and (4,1) are vertices of what type of triangle?",
+          "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+          ],
+          "a": 3,
+          "ex": "The side between (1,1) and (1,5) is vertical. The side between (1,1) and (4,1) is horizontal. Thus, these two sides are perpendicular, forming a right angle."
+        },
+        {
+          "q": "What is the area of a triangle with vertices (0,0), (4,0), and (0,3)?",
+          "options": [
+            "3 sq units",
+            "4 sq units",
+            "6 sq units",
+            "12 sq units"
+          ],
+          "a": 2,
+          "ex": "This is a right-angled triangle with base 4 and height 3. Area = 0.5 × base × height = 0.5 × 4 × 3 = 6 sq units."
+        },
+        {
+          "q": "The line segment joining A(x₁, y₁) and B(x₂, y₂) is divided by a point P(x, y) in the ratio m:n. What is the formula for x?",
+          "options": [
+            "(mx₂ + nx₁)/(m + n)",
+            "(mx₁ + nx₂)/(m + n)",
+            "(my₂ + ny₁)/(m + n)",
+            "(mx₂ - nx₁)/(m - n)"
+          ],
+          "a": 0,
+          "ex": "This is the section formula for the x-coordinate: x = (mx₂ + nx₁)/(m + n)."
+        },
+        {
+          "q": "What is the slope of the line perpendicular to y = 3x - 1?",
+          "options": [
+            "3",
+            "-3",
+            "1/3",
+            "-1/3"
+          ],
+          "a": 3,
+          "ex": "The slope of the given line is 3. The slope of a perpendicular line is the negative reciprocal, which is -1/3."
+        },
+        {
+          "q": "Which of these points lies on the line y = x + 2?",
+          "options": [
+            "(1, 2)",
+            "(2, 3)",
+            "(0, 2)",
+            "(3, 4)"
+          ],
+          "a": 2,
+          "ex": "Substitute the coordinates into the equation. For (0,2): 2 = 0 + 2, which is true."
+        },
+        {
+          "q": "What is the y-intercept of the line 4x - 2y = 8?",
+          "options": [
+            "8",
+            "4",
+            "-4",
+            "2"
+          ],
+          "a": 2,
+          "ex": "To find the y-intercept, set x = 0: 4(0) - 2y = 8 => -2y = 8 => y = -4."
+        },
+        {
+          "q": "The distance between (0,y) and (0,5) is 3 units. What is a possible value of y?",
+          "options": [
+            "0",
+            "2",
+            "3",
+            "5"
+          ],
+          "a": 1,
+          "ex": "Distance = |y - 5|. So, |y - 5| = 3. This means y - 5 = 3 or y - 5 = -3. So y = 8 or y = 2. A possible value is 2."
+        },
+        {
+          "q": "What is the equation of a line passing through (1,1) with slope 1?",
+          "options": [
+            "y = x",
+            "y = x + 1",
+            "y = x - 1",
+            "y = 1"
+          ],
+          "a": 0,
+          "ex": "Using point-slope form y - y₁ = m(x - x₁): y - 1 = 1(x - 1) => y - 1 = x - 1 => y = x."
+        },
+        {
+          "q": "A line passes through (2,5) and is parallel to the x-axis. What is its equation?",
+          "options": [
+            "x = 2",
+            "y = 2",
+            "x = 5",
+            "y = 5"
+          ],
+          "a": 3,
+          "ex": "A line parallel to the x-axis is horizontal and has the form y = constant. Since it passes through (2,5), the constant is 5. So, y = 5."
+        }
+      ]
+    },
+    {
+      "id": "statistics_probability",
+      "title": "Statistics and Probability",
+      "questions": [
+        {
+          "q": "What is the mean of the numbers 2, 4, 6, 8, 10?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "a": 2,
+          "ex": "Mean = (Sum of numbers) / (Count of numbers) = (2+4+6+8+10)/5 = 30/5 = 6."
+        },
+        {
+          "q": "What is the median of the numbers 1, 3, 3, 6, 7, 8, 9?",
+          "options": [
+            "3",
+            "6",
+            "4.5",
+            "7"
+          ],
+          "a": 1,
+          "ex": "The numbers are already sorted. The median is the middle value, which is 6."
+        },
+        {
+          "q": "What is the mode of the numbers 2, 2, 3, 4, 4, 4, 5?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "a": 2,
+          "ex": "The mode is the number that appears most frequently, which is 4."
+        },
+        {
+          "q": "What is the range of the data set: 10, 15, 9, 25, 12?",
+          "options": [
+            "9",
+            "15",
+            "16",
+            "25"
+          ],
+          "a": 2,
+          "ex": "Range = Maximum value - Minimum value = 25 - 9 = 16."
+        },
+        {
+          "q": "A coin is tossed. What is the probability of getting a head?",
+          "options": [
+            "0",
+            "0.25",
+            "0.5",
+            "1"
+          ],
+          "a": 2,
+          "ex": "There are 2 possible outcomes (Head, Tail), and 1 favorable outcome (Head). P(Head) = 1/2 = 0.5."
+        },
+        {
+          "q": "A standard die is rolled. What is the probability of rolling a 3?",
+          "options": [
+            "1/2",
+            "1/3",
+            "1/6",
+            "1"
+          ],
+          "a": 2,
+          "ex": "There are 6 possible outcomes (1, 2, 3, 4, 5, 6), and 1 favorable outcome (3). P(3) = 1/6."
+        },
+        {
+          "q": "If P(A) = 0.4, what is P(not A)?",
+          "options": [
+            "0",
+            "0.4",
+            "0.6",
+            "1"
+          ],
+          "a": 2,
+          "ex": "P(not A) = 1 - P(A) = 1 - 0.4 = 0.6."
+        },
+        {
+          "q": "A bag contains 3 red balls and 2 blue balls. What is the probability of picking a red ball?",
+          "options": [
+            "2/5",
+            "3/5",
+            "1/2",
+            "3/2"
+          ],
+          "a": 1,
+          "ex": "Total balls = 3 + 2 = 5. Number of red balls = 3. P(Red) = 3/5."
+        },
+        {
+          "q": "What is the probability of an event that is certain to happen?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "Cannot be determined"
+          ],
+          "a": 2,
+          "ex": "The probability of a certain event is 1."
+        },
+        {
+          "q": "What is the probability of an impossible event?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "-1"
+          ],
+          "a": 0,
+          "ex": "The probability of an impossible event is 0."
+        },
+        {
+          "q": "The median of 10, 20, 30, x, 50 is 35. What is x, assuming numbers are in order?",
+          "options": [
+            "30",
+            "35",
+            "40",
+            "25"
+          ],
+          "a": 1,
+          "ex": "Since there are 5 numbers, the median is the 3rd number, which is 30. If the median is 35, then x must be 35 if the numbers are 10, 20, x, 30, 50 or 10, 20, 30, x, 50. If the median is the middle value of the ordered set, and the set is 10, 20, 30, x, 50, the median is 30. If the set is 10, 20, x, 30, 50 and median is 35, then x must be 35."
+        },
+        {
+          "q": "What is the sum of probabilities of all possible outcomes of an experiment?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "Varies"
+          ],
+          "a": 2,
+          "ex": "The sum of probabilities of all elementary events of an experiment is 1."
+        },
+        {
+          "q": "A card is drawn from a standard deck of 52 cards. What is the probability of drawing an Ace?",
+          "options": [
+            "1/52",
+            "2/52",
+            "4/52",
+            "13/52"
+          ],
+          "a": 2,
+          "ex": "There are 4 Aces in a deck of 52 cards. P(Ace) = 4/52 = 1/13."
+        },
+        {
+          "q": "Two coins are tossed. What is the probability of getting two heads?",
+          "options": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "3/4"
+          ],
+          "a": 0,
+          "ex": "Possible outcomes: HH, HT, TH, TT (4 outcomes). Favorable outcome: HH (1 outcome). P(HH) = 1/4."
+        },
+        {
+          "q": "The mean of 5 numbers is 10. If four of the numbers are 7, 8, 12, 13, what is the fifth number?",
+          "options": [
+            "10",
+            "15",
+            "5",
+            "20"
+          ],
+          "a": 0,
+          "ex": "Sum of 5 numbers = Mean × 5 = 10 × 5 = 50. Sum of four numbers = 7+8+12+13 = 40. Fifth number = 50 - 40 = 10."
+        },
+        {
+          "q": "A die is rolled. What is the probability of getting an even number?",
+          "options": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "a": 2,
+          "ex": "Even numbers are 2, 4, 6 (3 favorable outcomes). Total outcomes = 6. P(Even) = 3/6 = 1/2."
+        },
+        {
+          "q": "Which measure of central tendency is most affected by extreme values?",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+          ],
+          "a": 0,
+          "ex": "The mean is most affected by outliers or extreme values because it uses all values in its calculation."
+        },
+        {
+          "q": "If events A and B are mutually exclusive, what is P(A and B)?",
+          "options": [
+            "P(A) + P(B)",
+            "P(A) × P(B)",
+            "0",
+            "1"
+          ],
+          "a": 2,
+          "ex": "Mutually exclusive events cannot occur at the same time, so the probability of both occurring is 0."
+        },
+        {
+          "q": "What is the median of the data: 5, 2, 8, 2, 9, 4?",
+          "options": [
+            "2",
+            "4",
+            "4.5",
+            "5"
+          ],
+          "a": 2,
+          "ex": "First, sort the data: 2, 2, 4, 5, 8, 9. Since there are 6 numbers (even), the median is the average of the two middle numbers: (4+5)/2 = 4.5."
+        },
+        {
+          "q": "A spinner has 4 equal sectors colored red, blue, green, and yellow. What is the probability of landing on blue?",
+          "options": [
+            "1/4",
+            "1/3",
+            "1/2",
+            "1"
+          ],
+          "a": 0,
+          "ex": "There are 4 equally likely outcomes. P(Blue) = 1/4."
+        },
+        {
+          "q": "The probability of rain tomorrow is 0.7. What is the probability that it will not rain?",
+          "options": [
+            "0",
+            "0.3",
+            "0.7",
+            "1"
+          ],
+          "a": 1,
+          "ex": "P(not rain) = 1 - P(rain) = 1 - 0.7 = 0.3."
+        },
+        {
+          "q": "In a class of 30 students, 18 are girls. What is the probability that a randomly selected student is a boy?",
+          "options": [
+            "18/30",
+            "12/30",
+            "12/18",
+            "18/12"
+          ],
+          "a": 1,
+          "ex": "Number of boys = 30 - 18 = 12. P(Boy) = 12/30 = 2/5."
+        },
+        {
+          "q": "What does 'P(A|B)' represent?",
+          "options": [
+            "Probability of A and B",
+            "Probability of A or B",
+            "Probability of A given B has occurred",
+            "Probability of B given A has occurred"
+          ],
+          "a": 2,
+          "ex": "P(A|B) represents the conditional probability of event A occurring, given that event B has already occurred."
+        },
+        {
+          "q": "If two events A and B are independent, then P(A and B) = ?",
+          "options": [
+            "P(A) + P(B)",
+            "P(A) × P(B)",
+            "P(A) / P(B)",
+            "P(B) / P(A)"
+          ],
+          "a": 1,
+          "ex": "For independent events, the probability of both occurring is the product of their individual probabilities: P(A and B) = P(A) × P(B)."
+        },
+        {
+          "q": "The mode of a dataset is the value that:",
+          "options": [
+            "Is in the middle",
+            "Is the average",
+            "Occurs most frequently",
+            "Is the difference between max and min"
+          ],
+          "a": 2,
+          "ex": "The mode is the value that appears most often in a dataset."
+        },
+        {
+          "q": "A survey of 100 people found 60 like coffee and 40 like tea. 20 like both. How many like only coffee?",
+          "options": [
+            "20",
+            "40",
+            "60",
+            "80"
+          ],
+          "a": 1,
+          "ex": "Number who like only coffee = (Number who like coffee) - (Number who like both) = 60 - 20 = 40."
+        },
+        {
+          "q": "What is the range of probabilities for any event?",
+          "options": [
+            "0 to 1 inclusive",
+            "-1 to 1 inclusive",
+            "0 to infinity",
+            "Greater than 1"
+          ],
+          "a": 0,
+          "ex": "The probability of any event P(E) must satisfy 0 ≤ P(E) ≤ 1."
+        },
+        {
+          "q": "A fair six-sided die is rolled twice. What is the probability of rolling a 6 on the first roll and a 6 on the second roll?",
+          "options": [
+            "1/6",
+            "2/6",
+            "1/12",
+            "1/36"
+          ],
+          "a": 3,
+          "ex": "The rolls are independent. P(6 on first) = 1/6. P(6 on second) = 1/6. P(6 and 6) = (1/6) × (1/6) = 1/36."
+        },
+        {
+          "q": "The average score of 20 students is 75. If a student scoring 95 is added, what is the new average?",
+          "options": [
+            "75",
+            "76",
+            "80",
+            "85"
+          ],
+          "a": 1,
+          "ex": "Original total score = 20 × 75 = 1500. New total score = 1500 + 95 = 1595. New number of students = 21. New average = 1595 / 21 ≈ 75.95, which is closest to 76."
+        },
+        {
+          "q": "From a group of 5 men and 3 women, one person is selected at random. What is the probability that the selected person is a woman?",
+          "options": [
+            "3/5",
+            "5/8",
+            "3/8",
+            "1/3"
+          ],
+          "a": 2,
+          "ex": "Total people = 5 + 3 = 8. Number of women = 3. P(Woman) = 3/8."
+        }
+      ]
+    },
+     {
+      "id": "logic_set_theory",
+      "title": "Logic and Set Theory",
+      "questions": [
+        {
+          "q": "If P is 'It is raining' and Q is 'The ground is wet', what does P → Q represent?",
+          "options": [
+            "It is raining and the ground is wet.",
+            "It is raining or the ground is wet.",
+            "If it is raining, then the ground is wet.",
+            "It is not raining."
+          ],
+          "a": 2,
+          "ex": "P → Q represents a conditional statement: 'If P, then Q'."
+        },
+        {
+          "q": "What is the negation of the statement 'All cats are black'?",
+          "options": [
+            "No cats are black.",
+            "All cats are not black.",
+            "Some cats are not black.",
+            "Some cats are black."
+          ],
+          "a": 2,
+          "ex": "The negation of 'All A are B' is 'Some A are not B'."
+        },
+        {
+          "q": "Let A = {1, 2, 3} and B = {3, 4, 5}. What is A ∪ B (A union B)?",
+          "options": [
+            "{3}",
+            "{1, 2, 3, 4, 5}",
+            "{1, 2, 4, 5}",
+            "{1, 2, 3, 3, 4, 5}"
+          ],
+          "a": 1,
+          "ex": "The union of two sets contains all elements that are in A, or in B, or in both."
+        },
+        {
+          "q": "Let A = {1, 2, 3} and B = {3, 4, 5}. What is A ∩ B (A intersection B)?",
+          "options": [
+            "{3}",
+            "{1, 2, 3, 4, 5}",
+            "{1, 2, 4, 5}",
+            "{}"
+          ],
+          "a": 0,
+          "ex": "The intersection of two sets contains all elements that are common to both A and B."
+        },
+        {
+          "q": "What is the empty set, denoted by {} or ∅?",
+          "options": [
+            "A set with one element, zero.",
+            "A set with no elements.",
+            "A set containing all possible elements.",
+            "A set with an infinite number of elements."
+          ],
+          "a": 1,
+          "ex": "The empty set is a set that has no elements."
+        },
+        {
+          "q": "If a statement is 'P and Q' (P ∧ Q), when is this statement true?",
+          "options": [
+            "Only when P is true.",
+            "Only when Q is true.",
+            "When both P and Q are true.",
+            "When either P or Q is true."
+          ],
+          "a": 2,
+          "ex": "The conjunction 'P and Q' is true if and only if both P and Q are true."
+        },
+        {
+          "q": "If a statement is 'P or Q' (P ∨ Q), when is this statement false?",
+          "options": [
+            "Only when P is false.",
+            "Only when Q is false.",
+            "When both P and Q are false.",
+            "When P is true and Q is false."
+          ],
+          "a": 2,
+          "ex": "The disjunction 'P or Q' is false if and only if both P and Q are false."
+        },
+        {
+          "q": "What is the contrapositive of the statement 'If P, then Q' (P → Q)?",
+          "options": [
+            "If Q, then P.",
+            "If not P, then not Q.",
+            "If not Q, then not P.",
+            "P and not Q."
+          ],
+          "a": 2,
+          "ex": "The contrapositive of P → Q is (not Q) → (not P)."
+        },
+        {
+          "q": "Let U = {1, 2, 3, 4, 5} be the universal set and A = {1, 3}. What is A' (the complement of A)?",
+          "options": [
+            "{1, 3}",
+            "{2, 4, 5}",
+            "{1, 2, 3, 4, 5}",
+            "{}"
+          ],
+          "a": 1,
+          "ex": "The complement of A contains all elements in U that are not in A."
+        },
+        {
+          "q": "How many subsets does a set with 3 elements have?",
+          "options": [
+            "3",
+            "6",
+            "8",
+            "9"
+          ],
+          "a": 2,
+          "ex": "A set with n elements has 2ⁿ subsets. So, for n=3, there are 2³ = 8 subsets."
+        },
+        {
+          "q": "Which of the following is an example of a tautology?",
+          "options": [
+            "P ∧ (¬P)",
+            "P ∨ (¬P)",
+            "P → (¬P)",
+            "(¬P) → P"
+          ],
+          "a": 1,
+          "ex": "A tautology is a statement that is always true. P ∨ (¬P) (P or not P) is always true."
+        },
+        {
+          "q": "Which of the following is an example of a contradiction?",
+          "options": [
+            "P ∧ (¬P)",
+            "P ∨ (¬P)",
+            "P → P",
+            "P ↔ P"
+          ],
+          "a": 0,
+          "ex": "A contradiction is a statement that is always false. P ∧ (¬P) (P and not P) is always false."
+        },
+        {
+          "q": "What does A ⊆ B mean?",
+          "options": [
+            "A is a proper subset of B.",
+            "A is a superset of B.",
+            "A is a subset of B (A could be equal to B).",
+            "A and B are disjoint sets."
+          ],
+          "a": 2,
+          "ex": "A ⊆ B means that A is a subset of B, which includes the possibility that A = B."
+        },
+        {
+          "q": "If A = {a, b} and B = {1, 2}, what is the Cartesian product A × B?",
+          "options": [
+            "{(a,1), (a,2), (b,1), (b,2)}",
+            "{(1,a), (1,b), (2,a), (2,b)}",
+            "{(a,b), (1,2)}",
+            "{(a,1), (b,2)}"
+          ],
+          "a": 0,
+          "ex": "The Cartesian product A × B is the set of all ordered pairs (x, y) where x ∈ A and y ∈ B."
+        },
+        {
+          "q": "What is De Morgan's Law for sets?",
+          "options": [
+            "(A ∪ B)' = A' ∪ B'",
+            "(A ∩ B)' = A' ∩ B'",
+            "(A ∪ B)' = A' ∩ B'",
+            "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)"
+          ],
+          "a": 2,
+          "ex": "One of De Morgan's Laws states that (A ∪ B)' = A' ∩ B'. The other is (A ∩ B)' = A' ∪ B'."
+        },
+        {
+          "q": "A statement 'P if and only if Q' (P ↔ Q) is true when?",
+          "options": [
+            "P and Q have the same truth value.",
+            "P is true and Q is false.",
+            "P is false and Q is true.",
+            "P and Q are both false."
+          ],
+          "a": 0,
+          "ex": "The biconditional P ↔ Q is true if P and Q are both true, or if P and Q are both false."
+        },
+        {
+          "q": "What is the power set of A = {x, y}?",
+          "options": [
+            "{{x}, {y}}",
+            "{{}, {x}, {y}}",
+            "{{}, {x}, {y}, {x, y}}",
+            "{{x, y}}"
+          ],
+          "a": 2,
+          "ex": "The power set of A is the set of all subsets of A, including the empty set and A itself."
+        },
+        {
+          "q": "The statement 'If it is sunny, I will go to the beach.' What is the converse?",
+          "options": [
+            "If I go to the beach, then it is sunny.",
+            "If it is not sunny, I will not go to the beach.",
+            "If I do not go to the beach, then it is not sunny.",
+            "It is sunny and I go to the beach."
+          ],
+          "a": 0,
+          "ex": "The converse of 'If P, then Q' is 'If Q, then P'."
+        },
+        {
+          "q": "The statement 'If it is sunny, I will go to the beach.' What is the inverse?",
+          "options": [
+            "If I go to the beach, then it is sunny.",
+            "If it is not sunny, I will not go to the beach.",
+            "If I do not go to the beach, then it is not sunny.",
+            "It is not sunny or I go to the beach."
+          ],
+          "a": 1,
+          "ex": "The inverse of 'If P, then Q' is 'If not P, then not Q'."
+        },
+        {
+          "q": "Let A = {multiples of 3 less than 10} and B = {even numbers less than 10}. What is A - B (A difference B)?",
+          "options": [
+            "{3, 9}",
+            "{6}",
+            "{2, 4, 8}",
+            "{3, 6, 9}"
+          ],
+          "a": 0,
+          "ex": "A = {3, 6, 9}. B = {2, 4, 6, 8}. A - B contains elements in A but not in B. So, A - B = {3, 9}."
+        },
+        {
+          "q": "Which symbol represents 'for all' or 'for every'?",
+          "options": [
+            "∃",
+            "∀",
+            "∈",
+            "∴"
+          ],
+          "a": 1,
+          "ex": "The universal quantifier ∀ means 'for all' or 'for every'."
+        },
+        {
+          "q": "Which symbol represents 'there exists'?",
+          "options": [
+            "∃",
+            "∀",
+            "∈",
+            "∴"
+          ],
+          "a": 0,
+          "ex": "The existential quantifier ∃ means 'there exists'."
+        },
+        {
+          "q": "If n(A) = 5 and n(B) = 3, and n(A ∩ B) = 2, what is n(A ∪ B)?",
+          "options": [
+            "5",
+            "6",
+            "8",
+            "10"
+          ],
+          "a": 1,
+          "ex": "Using the formula n(A ∪ B) = n(A) + n(B) - n(A ∩ B) = 5 + 3 - 2 = 6."
+        },
+        {
+          "q": "A set S is a proper subset of T (S ⊂ T) if:",
+          "options": [
+            "S ⊆ T and S ≠ T",
+            "S = T",
+            "T ⊆ S",
+            "S ∩ T = ∅"
+          ],
+          "a": 0,
+          "ex": "S is a proper subset of T if all elements of S are in T, but S is not equal to T (T has at least one element not in S)."
+        },
+        {
+          "q": "What is the truth value of 'If 2+2=5, then the sky is green'?",
+          "options": [
+            "True",
+            "False",
+            "Cannot be determined",
+            "Neither true nor false"
+          ],
+          "a": 0,
+          "ex": "A conditional statement P → Q is false only when P is true and Q is false. Here, P ('2+2=5') is false, so the entire statement is true, regardless of Q's truth value."
+        },
+        {
+          "q": "Two sets A and B are disjoint if:",
+          "options": [
+            "A ∪ B = ∅",
+            "A ∩ B = ∅",
+            "A ⊆ B",
+            "B ⊆ A"
+          ],
+          "a": 1,
+          "ex": "Two sets are disjoint if their intersection is the empty set, meaning they have no elements in common."
+        },
+        {
+          "q": "The argument form 'If P then Q. P. Therefore Q.' is called:",
+          "options": [
+            "Modus Tollens",
+            "Modus Ponens",
+            "Hypothetical Syllogism",
+            "Disjunctive Syllogism"
+          ],
+          "a": 1,
+          "ex": "This is Modus Ponens, a valid form of deductive argument."
+        },
+        {
+          "q": "The argument form 'If P then Q. Not Q. Therefore not P.' is called:",
+          "options": [
+            "Modus Tollens",
+            "Modus Ponens",
+            "Affirming the Consequent",
+            "Denying the Antecedent"
+          ],
+          "a": 0,
+          "ex": "This is Modus Tollens, a valid form of deductive argument."
+        },
+        {
+          "q": "What is the cardinality of the set A = {letters in the word 'APPLE'}?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "2"
+          ],
+          "a": 1,
+          "ex": "The distinct letters in 'APPLE' are A, P, L, E. So the cardinality is 4."
+        },
+        {
+          "q": "If A is the set of prime numbers and B is the set of even numbers, what is A ∩ B?",
+          "options": [
+            "∅",
+            "{2}",
+            "{All even prime numbers}",
+            "{All prime numbers}"
+          ],
+          "a": 1,
+          "ex": "The only even prime number is 2. So, A ∩ B = {2}."
+        }
+      ]
+    },
+    {
+      "id": "calculus_basic",
+      "title": "Calculus (Basic)",
+      "questions": [
+        {
+          "q": "What is the derivative of f(x) = x²?",
+          "options": [
+            "x",
+            "2x",
+            "x³/3",
+            "2"
+          ],
+          "a": 1,
+          "ex": "Using the power rule, d/dx (xⁿ) = nxⁿ⁻¹, so d/dx (x²) = 2x²⁻¹ = 2x."
+        },
+        {
+          "q": "What is the derivative of a constant function, f(x) = c?",
+          "options": [
+            "c",
+            "0",
+            "1",
+            "x"
+          ],
+          "a": 1,
+          "ex": "The derivative of a constant is always 0, as the rate of change is zero."
+        },
+        {
+          "q": "What does the first derivative of a function represent geometrically?",
+          "options": [
+            "The area under the curve.",
+            "The slope of the tangent line to the curve at a point.",
+            "The concavity of the curve.",
+            "The points of inflection."
+          ],
+          "a": 1,
+          "ex": "The first derivative f'(x) gives the slope of the tangent line to the graph of f(x) at any point x."
+        },
+        {
+          "q": "What is the integral of f(x) = 2x dx?",
+          "options": [
+            "x² + C",
+            "2x² + C",
+            "x + C",
+            "2 + C"
+          ],
+          "a": 0,
+          "ex": "Using the power rule for integration, ∫xⁿ dx = (xⁿ⁺¹)/(n+1) + C. So, ∫2x dx = 2(x²/2) + C = x² + C."
+        },
+        {
+          "q": "What is the limit of f(x) = x + 2 as x approaches 3?",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "Undefined"
+          ],
+          "a": 2,
+          "ex": "lim (x→3) (x + 2) = 3 + 2 = 5."
+        },
+        {
+          "q": "What is the derivative of f(x) = sin(x)?",
+          "options": [
+            "cos(x)",
+            "-sin(x)",
+            "-cos(x)",
+            "tan(x)"
+          ],
+          "a": 0,
+          "ex": "The derivative of sin(x) is cos(x)."
+        },
+        {
+          "q": "What is the derivative of f(x) = eˣ?",
+          "options": [
+            "eˣ",
+            "xeˣ⁻¹",
+            "ln(x)",
+            "0"
+          ],
+          "a": 0,
+          "ex": "The exponential function eˣ is its own derivative."
+        },
+        {
+          "q": "If f'(x) > 0 on an interval, what can be said about f(x) on that interval?",
+          "options": [
+            "f(x) is decreasing.",
+            "f(x) is increasing.",
+            "f(x) is constant.",
+            "f(x) has a local maximum."
+          ],
+          "a": 1,
+          "ex": "If the first derivative is positive, the function is increasing."
+        },
+        {
+          "q": "What is the integral of f(x) = 1 dx?",
+          "options": [
+            "x + C",
+            "1 + C",
+            "0 + C",
+            "ln|x| + C"
+          ],
+          "a": 0,
+          "ex": "The integral of 1 with respect to x is x + C."
+        },
+        {
+          "q": "What is the chain rule for derivatives if y = f(g(x))?",
+          "options": [
+            "y' = f'(g(x))",
+            "y' = f'(x)g'(x)",
+            "y' = f'(g(x))g'(x)",
+            "y' = f(g'(x))"
+          ],
+          "a": 2,
+          "ex": "The chain rule states that dy/dx = dy/du × du/dx, or y' = f'(g(x))g'(x)."
+        },
+        {
+          "q": "What is the derivative of f(x) = cos(x)?",
+          "options": [
+            "sin(x)",
+            "-sin(x)",
+            "-cos(x)",
+            "tan(x)"
+          ],
+          "a": 1,
+          "ex": "The derivative of cos(x) is -sin(x)."
+        },
+        {
+          "q": "What is the definite integral ∫₀¹ x dx?",
+          "options": [
+            "0",
+            "1/2",
+            "1",
+            "2"
+          ],
+          "a": 1,
+          "ex": "∫x dx = x²/2. So, [x²/2] from 0 to 1 = (1²/2) - (0²/2) = 1/2."
+        },
+        {
+          "q": "What is the derivative of f(x) = ln(x)?",
+          "options": [
+            "1/x",
+            "x",
+            "eˣ",
+            "ln(x)"
+          ],
+          "a": 0,
+          "ex": "The derivative of ln(x) is 1/x for x > 0."
+        },
+        {
+          "q": "If f''(x) > 0 on an interval, what can be said about the concavity of f(x)?",
+          "options": [
+            "Concave down",
+            "Concave up",
+            "No concavity (straight line)",
+            "Has an inflection point"
+          ],
+          "a": 1,
+          "ex": "If the second derivative is positive, the function is concave up (holds water)."
+        },
+        {
+          "q": "What is the product rule for derivatives if y = u(x)v(x)?",
+          "options": [
+            "y' = u'v'",
+            "y' = u'v + uv'",
+            "y' = u'v - uv'",
+            "y' = (u'v - uv')/v²"
+          ],
+          "a": 1,
+          "ex": "The product rule is (uv)' = u'v + uv'."
+        },
+        {
+          "q": "What is the integral of f(x) = eˣ dx?",
+          "options": [
+            "eˣ + C",
+            "xeˣ + C",
+            "ln|x| + C",
+            "1/x + C"
+          ],
+          "a": 0,
+          "ex": "The integral of eˣ is eˣ + C."
+        },
+        {
+          "q": "A critical point of a function f(x) occurs where f'(x) is:?",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero or undefined",
+            "Always zero"
+          ],
+          "a": 2,
+          "ex": "Critical points are points where the first derivative is zero or undefined."
+        },
+        {
+          "q": "What is the derivative of f(x) = 5x³ - 2x + 7?",
+          "options": [
+            "15x² - 2",
+            "5x² - 2",
+            "3x² - 2x",
+            "15x²"
+          ],
+          "a": 0,
+          "ex": "d/dx(5x³) = 15x². d/dx(-2x) = -2. d/dx(7) = 0. So, f'(x) = 15x² - 2."
+        },
+        {
+          "q": "The Fundamental Theorem of Calculus links which two concepts?",
+          "options": [
+            "Limits and continuity",
+            "Derivatives and integrals",
+            "Algebra and geometry",
+            "Trigonometry and logarithms"
+          ],
+          "a": 1,
+          "ex": "The Fundamental Theorem of Calculus establishes the relationship between differentiation and integration."
+        },
+        {
+          "q": "What is the limit of f(x) = (sin x)/x as x approaches 0?",
+          "options": [
+            "0",
+            "1",
+            "∞",
+            "Undefined"
+          ],
+          "a": 1,
+          "ex": "This is a standard limit in calculus: lim (x→0) (sin x)/x = 1."
+        },
+        {
+          "q": "What is the integral of f(x) = cos(x) dx?",
+          "options": [
+            "sin(x) + C",
+            "-sin(x) + C",
+            "cos(x) + C",
+            "-cos(x) + C"
+          ],
+          "a": 0,
+          "ex": "The integral of cos(x) is sin(x) + C."
+        },
+        {
+          "q": "If a function has a local maximum at x=c, what is true about f'(c) (assuming f is differentiable)?",
+          "options": [
+            "f'(c) > 0",
+            "f'(c) < 0",
+            "f'(c) = 0",
+            "f'(c) is undefined"
+          ],
+          "a": 2,
+          "ex": "At a local maximum or minimum of a differentiable function, the first derivative is zero (Fermat's Theorem)."
+        },
+        {
+          "q": "What is the derivative of f(x) = tan(x)?",
+          "options": [
+            "sec²(x)",
+            "cot(x)",
+            "-sec²(x)",
+            "sin(x)cos(x)"
+          ],
+          "a": 0,
+          "ex": "The derivative of tan(x) is sec²(x)."
+        },
+        {
+          "q": "The area under the curve of y = f(x) from x=a to x=b is given by:?",
+          "options": [
+            "f(b) - f(a)",
+            "f'(b) - f'(a)",
+            "∫ₐᵇ f(x) dx",
+            "The average value of f(x)"
+          ],
+          "a": 2,
+          "ex": "The definite integral ∫ₐᵇ f(x) dx represents the area under the curve of f(x) from a to b."
+        },
+        {
+          "q": "What is the derivative of f(x) = xⁿ using the power rule?",
+          "options": [
+            "nxⁿ",
+            "nxⁿ⁻¹",
+            "xⁿ⁺¹ / (n+1)",
+            "n!x"
+          ],
+          "a": 1,
+          "ex": "The power rule states that d/dx (xⁿ) = nxⁿ⁻¹."
+        },
+        {
+          "q": "What is the limit of f(x) = 1/x as x approaches ∞?",
+          "options": [
+            "0",
+            "1",
+            "∞",
+            "Undefined"
+          ],
+          "a": 0,
+          "ex": "As x becomes very large, 1/x becomes very small, approaching 0."
+        },
+        {
+          "q": "What is the quotient rule for derivatives if y = u(x)/v(x)?",
+          "options": [
+            "y' = u'v' / v²",
+            "y' = (u'v - uv') / v²",
+            "y' = (uv' - u'v) / v²",
+            "y' = u'v + uv'"
+          ],
+          "a": 1,
+          "ex": "The quotient rule is (u/v)' = (u'v - uv') / v²."
+        },
+        {
+          "q": "An inflection point occurs where the _______ changes.",
+          "options": [
+            "Slope",
+            "Concavity",
+            "Value of the function",
+            "Rate of change of slope"
+          ],
+          "a": 1,
+          "ex": "An inflection point is a point on a curve at which the concavity changes (from concave up to concave down, or vice versa). This often occurs where f''(x) = 0 or is undefined."
+        },
+        {
+          "q": "What is the integral of f(x) = 1/x dx?",
+          "options": [
+            "ln|x| + C",
+            "-1/x² + C",
+            "x + C",
+            "eˣ + C"
+          ],
+          "a": 0,
+          "ex": "The integral of 1/x is ln|x| + C."
+        },
+        {
+          "q": "If f(x) is continuous on [a,b] and differentiable on (a,b), and f(a)=f(b), then there exists some c in (a,b) such that f'(c)=0. This is known as:?",
+          "options": [
+            "Mean Value Theorem",
+            "Intermediate Value Theorem",
+            "Rolle's Theorem",
+            "Extreme Value Theorem"
+          ],
+          "a": 2,
+          "ex": "This is the statement of Rolle's Theorem, a special case of the Mean Value Theorem."
+        }
+      ]
+    },
+    {
+      "id": "problem_solving_reasoning",
+      "title": "Problem Solving and Mathematical Reasoning",
+      "questions": [
+        {
+          "q": "A train travels at 60 km/h for 2 hours and then at 80 km/h for 1 hour. What is the average speed of the train for the entire journey?",
+          "options": [
+            "65 km/h",
+            "66.67 km/h",
+            "70 km/h",
+            "72 km/h"
+          ],
+          "a": 1,
+          "ex": "Distance1 = 60*2 = 120 km. Distance2 = 80*1 = 80 km. Total distance = 120+80 = 200 km. Total time = 2+1 = 3 hours. Average speed = Total distance / Total time = 200/3 = 66.67 km/h."
+        },
+        {
+          "q": "If 5 apples cost $2.50, how much do 12 apples cost?",
+          "options": [
+            "$5.00",
+            "$6.00",
+            "$6.50",
+            "$7.20"
+          ],
+          "a": 1,
+          "ex": "Cost per apple = $2.50 / 5 = $0.50. Cost of 12 apples = 12 * $0.50 = $6.00."
+        },
+        {
+          "q": "A recipe calls for 2 cups of flour to make 24 cookies. How many cups of flour are needed to make 36 cookies?",
+          "options": [
+            "2.5 cups",
+            "3 cups",
+            "3.5 cups",
+            "4 cups"
+          ],
+          "a": 1,
+          "ex": "Flour per cookie = 2 cups / 24 cookies = 1/12 cup/cookie. For 36 cookies, flour needed = 36 * (1/12) = 3 cups."
+        },
+        {
+          "q": "The sum of two numbers is 25 and their difference is 5. What are the numbers?",
+          "options": [
+            "10 and 15",
+            "12 and 13",
+            "9 and 16",
+            "11 and 14"
+          ],
+          "a": 0,
+          "ex": "Let the numbers be x and y. x+y=25, x-y=5. Adding the equations: 2x=30 => x=15. Then 15+y=25 => y=10. The numbers are 10 and 15."
+        },
+        {
+          "q": "A car's price was reduced by 20% to $16,000. What was the original price?",
+          "options": [
+            "$19,200",
+            "$20,000",
+            "$21,000",
+            "$18,000"
+          ],
+          "a": 1,
+          "ex": "If reduced by 20%, the current price is 80% of the original. Let original price be P. 0.80 * P = $16,000. P = $16,000 / 0.80 = $20,000."
+        },
+        {
+          "q": "What is the next number in the sequence: 2, 5, 10, 17, 26, ...?",
+          "options": [
+            "35",
+            "37",
+            "39",
+            "41"
+          ],
+          "a": 1,
+          "ex": "The differences between terms are 3, 5, 7, 9. The next difference will be 11. So, 26 + 11 = 37. (Alternatively, n² + 1: 1²+1=2, 2²+1=5, 3²+1=10, ... 6²+1=37)."
+        },
+        {
+          "q": "If a person can paint a house in 6 days, and another person can paint the same house in 3 days, how long will it take if they work together?",
+          "options": [
+            "1 day",
+            "2 days",
+            "2.5 days",
+            "4.5 days"
+          ],
+          "a": 1,
+          "ex": "Person 1's rate = 1/6 house/day. Person 2's rate = 1/3 house/day. Together, rate = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 house/day. Time = 1 / (1/2) = 2 days."
+        },
+        {
+          "q": "A rectangular garden is 12 meters long and 5 meters wide. A fence is to be built around it. What is the length of the fence required?",
+          "options": [
+            "17 meters",
+            "34 meters",
+            "60 meters",
+            "24 meters"
+          ],
+          "a": 1,
+          "ex": "The length of the fence is the perimeter of the rectangle. Perimeter = 2 * (length + width) = 2 * (12 + 5) = 2 * 17 = 34 meters."
+        },
+        {
+          "q": "Three consecutive integers add up to 51. What is the smallest of these integers?",
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "a": 1,
+          "ex": "Let the integers be x, x+1, x+2. x + (x+1) + (x+2) = 51 => 3x + 3 = 51 => 3x = 48 => x = 16. The smallest is 16."
+        },
+        {
+          "q": "A shopkeeper buys an item for $80 and sells it for $100. What is the percentage profit?",
+          "options": [
+            "20%",
+            "25%",
+            "15%",
+            "30%"
+          ],
+          "a": 1,
+          "ex": "Profit = Selling Price - Cost Price = $100 - $80 = $20. Percentage Profit = (Profit / Cost Price) * 100 = ($20 / $80) * 100 = (1/4) * 100 = 25%."
+        },
+        {
+          "q": "If Tom is twice as old as Jerry, and the sum of their ages is 36, how old is Tom?",
+          "options": [
+            "12 years",
+            "18 years",
+            "24 years",
+            "30 years"
+          ],
+          "a": 2,
+          "ex": "Let Jerry's age be J. Tom's age is T = 2J. T + J = 36 => 2J + J = 36 => 3J = 36 => J = 12. Tom's age = 2 * 12 = 24 years."
+        },
+        {
+          "q": "A bag contains 5 red, 3 blue, and 2 green marbles. If one marble is picked at random, what is the probability it is NOT blue?",
+          "options": [
+            "3/10",
+            "7/10",
+            "2/10",
+            "5/10"
+          ],
+          "a": 1,
+          "ex": "Total marbles = 5+3+2 = 10. Number of non-blue marbles = 5 (red) + 2 (green) = 7. P(not blue) = 7/10."
+        },
+        {
+          "q": "The area of a square is 49 cm². What is the length of its diagonal?",
+          "options": [
+            "7 cm",
+            "7√2 cm",
+            "14 cm",
+            "9.8 cm"
+          ],
+          "a": 1,
+          "ex": "Area = side². So, side² = 49 => side = 7 cm. Diagonal d = side * √2 = 7√2 cm."
+        },
+        {
+          "q": "A number is increased by 10% and then decreased by 10%. The final number is:",
+          "options": [
+            "The same as the original number",
+            "1% less than the original number",
+            "1% more than the original number",
+            "0.1% less than the original number"
+          ],
+          "a": 1,
+          "ex": "Let the number be x. Increased by 10%: 1.1x. Decreased by 10%: 1.1x * 0.9 = 0.99x. This is 1% less than x."
+        },
+        {
+          "q": "If x/3 = y/4 = z/5, and x+y+z = 60, what is the value of x?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "25"
+          ],
+          "a": 1,
+          "ex": "Let x/3 = y/4 = z/5 = k. Then x=3k, y=4k, z=5k. 3k+4k+5k = 60 => 12k = 60 => k=5. So, x = 3*5 = 15."
+        },
+        {
+          "q": "A clock shows 3:00. What is the angle between the hour and minute hands?",
+          "options": [
+            "0°",
+            "30°",
+            "60°",
+            "90°"
+          ],
+          "a": 3,
+          "ex": "At 3:00, the minute hand is at 12 and the hour hand is at 3. The angle between each number on a clock is 360°/12 = 30°. The hands are 3 numbers apart, so 3 * 30° = 90°."
+        },
+        {
+          "q": "A farmer has some chickens and rabbits. There are 35 heads and 94 legs. How many chickens are there?",
+          "options": [
+            "15 chickens",
+            "20 chickens",
+            "23 chickens",
+            "12 chickens"
+          ],
+          "a": 2,
+          "ex": "Let c be chickens (2 legs) and r be rabbits (4 legs). c+r=35. 2c+4r=94. From first, r=35-c. Substitute: 2c+4(35-c)=94 => 2c+140-4c=94 => -2c = -46 => c=23."
+        },
+        {
+          "q": "What is the sum of the first 10 positive odd integers?",
+          "options": [
+            "50",
+            "55",
+            "100",
+            "110"
+          ],
+          "a": 2,
+          "ex": "The first 10 positive odd integers are 1, 3, 5, ..., 19. The sum of the first n odd integers is n². So, 10² = 100."
+        },
+        {
+          "q": "If today is Monday, what day of the week will it be 100 days from now?",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "a": 1,
+          "ex": "100 days = 14 weeks and 2 days (100 mod 7 = 2). So, it will be Monday + 2 days = Wednesday."
+        },
+        {
+          "q": "A tank can be filled by pipe A in 4 hours and by pipe B in 6 hours. How long will it take to fill the tank if both pipes are open?",
+          "options": [
+            "2 hours",
+            "2.4 hours",
+            "3 hours",
+            "5 hours"
+          ],
+          "a": 1,
+          "ex": "Rate of A = 1/4 tank/hr. Rate of B = 1/6 tank/hr. Combined rate = 1/4 + 1/6 = 3/12 + 2/12 = 5/12 tank/hr. Time = 1 / (5/12) = 12/5 = 2.4 hours."
+        },
+        {
+          "q": "The average of three numbers is 15. If two of the numbers are 10 and 20, what is the third number?",
+          "options": [
+            "5",
+            "15",
+            "25",
+            "10"
+          ],
+          "a": 1,
+          "ex": "Sum of three numbers = Average * 3 = 15 * 3 = 45. Sum of two numbers = 10 + 20 = 30. Third number = 45 - 30 = 15."
+        },
+        {
+          "q": "A man walks 3 km East and then 4 km North. How far is he from his starting point?",
+          "options": [
+            "3 km",
+            "4 km",
+            "5 km",
+            "7 km"
+          ],
+          "a": 2,
+          "ex": "This forms a right-angled triangle. By Pythagorean theorem, distance² = 3² + 4² = 9 + 16 = 25. Distance = √25 = 5 km."
+        },
+        {
+          "q": "If 3^x = 81, what is x?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "9"
+          ],
+          "a": 2,
+          "ex": "81 = 3 * 3 * 3 * 3 = 3⁴. So, x = 4."
+        },
+        {
+          "q": "A pizza is cut into 8 equal slices. If John eats 3 slices, what fraction of the pizza is left?",
+          "options": [
+            "3/8",
+            "5/8",
+            "1/2",
+            "3/5"
+          ],
+          "a": 1,
+          "ex": "Slices left = 8 - 3 = 5. Fraction left = 5/8."
+        },
+        {
+          "q": "The product of two consecutive even integers is 48. What are the integers?",
+          "options": [
+            "4 and 6",
+            "6 and 8",
+            "8 and 10",
+            "2 and 24"
+          ],
+          "a": 1,
+          "ex": "Let the integers be x and x+2. x(x+2) = 48. By inspection, 6 * 8 = 48. So the integers are 6 and 8."
+        },
+        {
+          "q": "A bookshelf holds 25 books. If 40% of the books are fiction, how many non-fiction books are there?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "5"
+          ],
+          "a": 1,
+          "ex": "Number of fiction books = 40% of 25 = 0.40 * 25 = 10. Number of non-fiction books = 25 - 10 = 15."
+        },
+        {
+          "q": "If a = 2, b = 3, c = -1, what is the value of a² + bc - c²?",
+          "options": [
+            "0",
+            "1",
+            "-1",
+            "2"
+          ],
+          "a": 0,
+          "ex": "a² + bc - c² = (2)² + (3)(-1) - (-1)² = 4 - 3 - 1 = 0."
+        },
+        {
+          "q": "A meeting starts at 9:45 AM and ends at 11:20 AM. How long did the meeting last?",
+          "options": [
+            "1 hour 25 minutes",
+            "1 hour 35 minutes",
+            "1 hour 45 minutes",
+            "2 hours 5 minutes"
+          ],
+          "a": 1,
+          "ex": "From 9:45 AM to 10:45 AM is 1 hour. From 10:45 AM to 11:20 AM is 35 minutes. Total = 1 hour 35 minutes."
+        },
+        {
+          "q": "The ratio of boys to girls in a class is 3:2. If there are 18 boys, how many girls are there?",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "15"
+          ],
+          "a": 2,
+          "ex": "Let the ratio be 3x : 2x. 3x = 18 => x = 6. Number of girls = 2x = 2 * 6 = 12."
+        },
+        {
+          "q": "What is 15% of 200?",
+          "options": [
+            "15",
+            "20",
+            "30",
+            "40"
+          ],
+          "a": 2,
+          "ex": "15% of 200 = (15/100) * 200 = 15 * 2 = 30."
+        }
+      ]
     }
   ]
 }
