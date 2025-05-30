@@ -310,6 +310,1981 @@
           "ex": "1 + 1 = 2"
         }
       ]
+    },
+     {
+      "id": "arithmetic_operations",
+      "title": "Arithmetic Operations (Addition, Subtraction, Multiplication, Division)",
+      "questions": [
+        {
+          "q": "What is 58 + 97?",
+          "options": ["145", "155", "165", "154"],
+          "a": 1,
+          "ex": "58 + 97 = 155. Simple addition."
+        },
+        {
+          "q": "Calculate 144 ÷ 12.",
+          "options": ["10", "11", "12", "14"],
+          "a": 2,
+          "ex": "144 divided by 12 is 12."
+        },
+        {
+          "q": "What is 25 × 7?",
+          "options": ["150", "175", "125", "200"],
+          "a": 1,
+          "ex": "25 multiplied by 7 equals 175."
+        },
+        {
+          "q": "Subtract 67 from 103.",
+          "options": ["36", "33", "46", "26"],
+          "a": 0,
+          "ex": "103 - 67 = 36."
+        },
+        {
+          "q": "What is the result of (15 + 5) × 3?",
+          "options": ["45", "30", "60", "50"],
+          "a": 2,
+          "ex": "First, calculate the sum in the parenthesis: 15 + 5 = 20. Then multiply by 3: 20 × 3 = 60."
+        },
+        {
+          "q": "If you have 24 apples and give away 9, how many do you have left?",
+          "options": ["13", "14", "15", "16"],
+          "a": 2,
+          "ex": "24 - 9 = 15 apples left."
+        },
+        {
+          "q": "A bus travels 60 km in 1 hour. How far does it travel in 3.5 hours?",
+          "options": ["180 km", "200 km", "210 km", "240 km"],
+          "a": 2,
+          "ex": "Distance = Speed × Time. 60 km/h × 3.5 h = 210 km."
+        },
+        {
+          "q": "What is 9 × 8 + 5?",
+          "options": ["77", "117", "72", "47"],
+          "a": 0,
+          "ex": "Follow order of operations (PEMDAS/BODMAS): 9 × 8 = 72, then 72 + 5 = 77."
+        },
+        {
+          "q": "Divide 100 by 4 and then add 15.",
+          "options": ["25", "30", "35", "40"],
+          "a": 3,
+          "ex": "100 ÷ 4 = 25. Then 25 + 15 = 40."
+        },
+        {
+          "q": "What is 121 - 34?",
+          "options": ["77", "87", "97", "83"],
+          "a": 1,
+          "ex": "121 - 34 = 87."
+        },
+        {
+          "q": "Multiply 15 by 6.",
+          "options": ["70", "80", "90", "100"],
+          "a": 2,
+          "ex": "15 × 6 = 90."
+        },
+        {
+          "q": "What is 72 ÷ 9?",
+          "options": ["6", "7", "8", "9"],
+          "a": 2,
+          "ex": "72 divided by 9 is 8."
+        },
+        {
+          "q": "Calculate (18 - 6) × 5.",
+          "options": ["50", "60", "70", "90"],
+          "a": 1,
+          "ex": "18 - 6 = 12. Then 12 × 5 = 60."
+        },
+        {
+          "q": "Add 3.5 and 2.75.",
+          "options": ["5.25", "6.00", "6.25", "5.75"],
+          "a": 2,
+          "ex": "3.50 + 2.75 = 6.25."
+        },
+        {
+          "q": "What is 1000 - 345?",
+          "options": ["655", "665", "755", "765"],
+          "a": 0,
+          "ex": "1000 - 345 = 655."
+        },
+        {
+          "q": "If a dozen eggs cost $3, how much does one egg cost?",
+          "options": ["$0.20", "$0.25", "$0.30", "$0.35"],
+          "a": 1,
+          "ex": "A dozen is 12. $3 ÷ 12 = $0.25 per egg."
+        },
+        {
+          "q": "What is 13 × 13?",
+          "options": ["159", "169", "179", "189"],
+          "a": 1,
+          "ex": "13 × 13 = 169."
+        },
+        {
+          "q": "Subtract 0.75 from 2.",
+          "options": ["1.00", "1.25", "1.50", "0.25"],
+          "a": 1,
+          "ex": "2.00 - 0.75 = 1.25."
+        },
+        {
+          "q": "What is 5 + 5 × 5 - 5 ÷ 5?",
+          "options": ["5", "10", "29", "25"],
+          "a": 2,
+          "ex": "Order of operations: 5 × 5 = 25; 5 ÷ 5 = 1. Then 5 + 25 - 1 = 30 - 1 = 29."
+        },
+        {
+          "q": "If you buy 3 shirts for $15 each, what is the total cost?",
+          "options": ["$30", "$40", "$45", "$50"],
+          "a": 2,
+          "ex": "3 shirts × $15/shirt = $45."
+        },
+        {
+          "q": "What is 99 + 101?",
+          "options": ["199", "200", "201", "210"],
+          "a": 1,
+          "ex": "99 + 101 = 200."
+        },
+        {
+          "q": "Divide 75 by 3.",
+          "options": ["20", "22", "25", "30"],
+          "a": 2,
+          "ex": "75 ÷ 3 = 25."
+        },
+        {
+          "q": "What is 11 × 12?",
+          "options": ["121", "122", "132", "142"],
+          "a": 2,
+          "ex": "11 × 12 = 132."
+        },
+        {
+          "q": "Subtract 56 from 200.",
+          "options": ["134", "144", "154", "146"],
+          "a": 1,
+          "ex": "200 - 56 = 144."
+        },
+        {
+          "q": "What is (50 ÷ 10) + (3 × 7)?",
+          "options": ["26", "12", "35", "50"],
+          "a": 0,
+          "ex": "50 ÷ 10 = 5. 3 × 7 = 21. 5 + 21 = 26."
+        },
+        {
+          "q": "If a car travels 300 miles on 10 gallons of gas, what is its miles per gallon (MPG)?",
+          "options": ["20 MPG", "25 MPG", "30 MPG", "35 MPG"],
+          "a": 2,
+          "ex": "300 miles ÷ 10 gallons = 30 MPG."
+        },
+        {
+          "q": "What is 4 × 5 × 6?",
+          "options": ["60", "90", "120", "150"],
+          "a": 2,
+          "ex": "4 × 5 = 20. 20 × 6 = 120."
+        },
+        {
+          "q": "Add 12.3 + 4.56 + 0.123.",
+          "options": ["16.883", "16.983", "17.083", "17.123"],
+          "a": 1,
+          "ex": "Align decimal points: 12.300 + 4.560 + 0.123 = 16.983."
+        },
+        {
+          "q": "What is 200 ÷ 8?",
+          "options": ["20", "24", "25", "30"],
+          "a": 2,
+          "ex": "200 ÷ 8 = 25."
+        },
+        {
+          "q": "Subtract 19 from 5 times 8.",
+          "options": ["21", "31", "40", "59"],
+          "a": 0,
+          "ex": "5 times 8 is 40. 40 - 19 = 21."
+        }
+      ]
+    },
+    {
+      "id": "factors_and_multiples",
+      "title": "Factors and Multiples",
+      "questions": [
+        {
+          "q": "Which of the following is a factor of 48?",
+          "options": ["5", "7", "6", "11"],
+          "a": 2,
+          "ex": "A factor divides a number completely. 48 ÷ 6 = 8. So, 6 is a factor of 48."
+        },
+        {
+          "q": "What is the least common multiple (LCM) of 9 and 12?",
+          "options": ["18", "24", "36", "108"],
+          "a": 2,
+          "ex": "Multiples of 9: 9, 18, 27, 36, 45... Multiples of 12: 12, 24, 36, 48... The LCM is 36."
+        },
+        {
+          "q": "Which of these numbers is a prime factor of 70?",
+          "options": ["4", "10", "7", "14"],
+          "a": 2,
+          "ex": "The prime factors of 70 are 2, 5, and 7. Among the options, 7 is a prime factor."
+        },
+        {
+          "q": "What is the greatest common factor (GCF) of 24 and 36?",
+          "options": ["4", "6", "8", "12"],
+          "a": 3,
+          "ex": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The GCF is 12."
+        },
+        {
+          "q": "Which of the following is a multiple of 11?",
+          "options": ["23", "33", "45", "54"],
+          "a": 1,
+          "ex": "A multiple of a number is the result of multiplying that number by an integer. 11 × 3 = 33."
+        },
+        {
+          "q": "List all factors of 18.",
+          "options": ["1, 2, 3, 6, 9, 18", "1, 2, 4, 9, 18", "1, 3, 6, 18", "2, 3, 6, 9"],
+          "a": 0,
+          "ex": "The factors of 18 are numbers that divide 18 without a remainder: 1, 2, 3, 6, 9, 18."
+        },
+        {
+          "q": "What are the first five multiples of 7?",
+          "options": ["7, 14, 21, 28, 30", "7, 14, 21, 28, 35", "7, 15, 22, 29, 36", "1, 7, 14, 21, 28"],
+          "a": 1,
+          "ex": "Multiples are found by multiplying the number by 1, 2, 3, ... So, 7×1=7, 7×2=14, 7×3=21, 7×4=28, 7×5=35."
+        },
+        {
+          "q": "Is 51 a prime number or a composite number?",
+          "options": ["Prime", "Composite", "Neither", "Both"],
+          "a": 1,
+          "ex": "51 is composite because it has factors other than 1 and itself (e.g., 3 × 17 = 51)."
+        },
+        {
+          "q": "Find the GCF of 15, 30, and 45.",
+          "options": ["5", "10", "15", "30"],
+          "a": 2,
+          "ex": "Factors of 15: 1, 3, 5, 15. Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30. Factors of 45: 1, 3, 5, 9, 15, 45. GCF is 15."
+        },
+        {
+          "q": "Find the LCM of 4, 5, and 6.",
+          "options": ["20", "30", "60", "120"],
+          "a": 2,
+          "ex": "LCM(4,5,6) = LCM(2^2, 5, 2×3) = 2^2 × 3 × 5 = 4 × 3 × 5 = 60."
+        },
+        {
+          "q": "Which number is a factor of every number?",
+          "options": ["0", "1", "2", "The number itself"],
+          "a": 1,
+          "ex": "1 is a factor of every number because any number divided by 1 is the number itself."
+        },
+        {
+          "q": "Which of these is NOT a factor of 60?",
+          "options": ["4", "5", "8", "12"],
+          "a": 2,
+          "ex": "60 is not divisible by 8 without a remainder (60 ÷ 8 = 7 with remainder 4)."
+        },
+        {
+          "q": "What is the smallest multiple of 15 that is greater than 100?",
+          "options": ["100", "105", "110", "115"],
+          "a": 1,
+          "ex": "Multiples of 15: ..., 90, 105, 120... The smallest multiple greater than 100 is 105 (15 × 7)."
+        },
+        {
+          "q": "The number 2 is the only even ____ number.",
+          "options": ["composite", "factor", "multiple", "prime"],
+          "a": 3,
+          "ex": "2 is the only even prime number. All other even numbers are divisible by 2."
+        },
+        {
+          "q": "How many factors does a prime number have?",
+          "options": ["1", "2", "3", "Infinitely many"],
+          "a": 1,
+          "ex": "A prime number has exactly two distinct positive divisors: 1 and itself."
+        },
+        {
+          "q": "Find the prime factorization of 56.",
+          "options": ["2 × 2 × 14", "2 × 2 × 2 × 7", "4 × 2 × 7", "8 × 7"],
+          "a": 1,
+          "ex": "56 = 2 × 28 = 2 × 2 × 14 = 2 × 2 × 2 × 7 = 2^3 × 7."
+        },
+        {
+          "q": "If a number is a multiple of 6, it must also be a multiple of:?",
+          "options": ["9", "12", "3", "4"],
+          "a": 2,
+          "ex": "Since 6 = 2 × 3, any multiple of 6 is also a multiple of its factors, 2 and 3."
+        },
+        {
+          "q": "What is the GCF of 17 and 23?",
+          "options": ["1", "17", "23", "391"],
+          "a": 0,
+          "ex": "17 and 23 are both prime numbers. The GCF of two distinct prime numbers is always 1."
+        },
+        {
+          "q": "What is the LCM of 7 and 11?",
+          "options": ["1", "7", "11", "77"],
+          "a": 3,
+          "ex": "Since 7 and 11 are prime numbers, their LCM is their product: 7 × 11 = 77."
+        },
+        {
+          "q": "Which of the following is a common factor of 20 and 50?",
+          "options": ["4", "10", "15", "25"],
+          "a": 1,
+          "ex": "Factors of 20: 1, 2, 4, 5, 10, 20. Factors of 50: 1, 2, 5, 10, 25, 50. 10 is a common factor."
+        },
+        {
+          "q": "A number that has more than two factors is called a ____ number.",
+          "options": ["prime", "even", "odd", "composite"],
+          "a": 3,
+          "ex": "A composite number is a positive integer that has at least one divisor other than 1 and itself."
+        },
+        {
+          "q": "What is the largest factor of any non-zero number?",
+          "options": ["1", "0", "The number itself", "Half the number"],
+          "a": 2,
+          "ex": "The largest factor of any non-zero number is the number itself."
+        },
+        {
+          "q": "Find a number that is a multiple of 5 and a factor of 60.",
+          "options": ["10", "25", "35", "50"],
+          "a": 0,
+          "ex": "Multiples of 5: 5, 10, 15, 20... Factors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60. 10 is both."
+        },
+        {
+          "q": "The GCF of two numbers is 6 and their LCM is 72. If one number is 18, what is the other?",
+          "options": ["12", "24", "30", "36"],
+          "a": 1,
+          "ex": "For any two positive integers a and b, GCF(a,b) × LCM(a,b) = a × b. So, 6 × 72 = 18 × x. 432 = 18x. x = 432/18 = 24."
+        },
+        {
+          "q": "Which of these is a multiple of 4 but not a multiple of 8?",
+          "options": ["16", "20", "24", "32"],
+          "a": 1,
+          "ex": "20 is 4 × 5 (multiple of 4). 20 is not divisible by 8."
+        },
+        {
+          "q": "What are the common factors of 12 and 16?",
+          "options": ["1, 2, 3, 4", "1, 2, 4", "1, 2, 4, 8", "1, 4"],
+          "a": 1,
+          "ex": "Factors of 12: 1, 2, 3, 4, 6, 12. Factors of 16: 1, 2, 4, 8, 16. Common factors are 1, 2, 4."
+        },
+        {
+          "q": "The product of two numbers is 60. Their GCF is 2. What is their LCM?",
+          "options": ["15", "20", "30", "60"],
+          "a": 2,
+          "ex": "Product of numbers = GCF × LCM. So, 60 = 2 × LCM. LCM = 60/2 = 30."
+        },
+        {
+          "q": "Which is the smallest prime number?",
+          "options": ["0", "1", "2", "3"],
+          "a": 2,
+          "ex": "The smallest prime number is 2. It is the only even prime number."
+        },
+        {
+          "q": "If a number is divisible by 2 and 3, it must be divisible by:?",
+          "options": ["4", "5", "6", "9"],
+          "a": 2,
+          "ex": "If a number is divisible by two co-prime numbers, it is divisible by their product. LCM(2,3)=6."
+        },
+        {
+          "q": "How many prime numbers are there between 1 and 20?",
+          "options": ["6", "7", "8", "9"],
+          "a": 2,
+          "ex": "Prime numbers between 1 and 20 are: 2, 3, 5, 7, 11, 13, 17, 19. There are 8 of them."
+        }
+      ]
+    },
+    {
+      "id": "fractions_and_decimals",
+      "title": "Fractions and Decimals",
+      "questions": [
+        {
+          "q": "Convert the fraction 3/5 to a decimal.",
+          "options": ["0.3", "0.5", "0.6", "0.75"],
+          "a": 2,
+          "ex": "To convert a fraction to a decimal, divide the numerator by the denominator. 3 ÷ 5 = 0.6."
+        },
+        {
+          "q": "What is 0.25 as a fraction in its simplest form?",
+          "options": ["1/4", "25/100", "1/5", "2/8"],
+          "a": 0,
+          "ex": "0.25 can be written as 25/100. Simplifying this fraction by dividing both numerator and denominator by 25 gives 1/4."
+        },
+        {
+          "q": "Calculate 1/2 + 1/4.",
+          "options": ["1/6", "2/6", "3/4", "1/3"],
+          "a": 2,
+          "ex": "To add fractions, find a common denominator. 1/2 is equivalent to 2/4. So, 2/4 + 1/4 = 3/4."
+        },
+        {
+          "q": "Convert 0.8 to a fraction.",
+          "options": ["1/8", "8/100", "4/5", "2/5"],
+          "a": 2,
+          "ex": "0.8 means 8 tenths, which is 8/10. Simplified, this is 4/5."
+        },
+        {
+          "q": "What is 1.5 × 3?",
+          "options": ["3.5", "4.0", "4.5", "5.0"],
+          "a": 2,
+          "ex": "1.5 multiplied by 3 is 4.5."
+        },
+        {
+          "q": "Simplify the fraction 12/18.",
+          "options": ["1/2", "2/3", "3/4", "4/6"],
+          "a": 1,
+          "ex": "Divide both numerator and denominator by their GCF, which is 6. 12÷6=2, 18÷6=3. So, 2/3."
+        },
+        {
+          "q": "Which decimal is equivalent to 3/8?",
+          "options": ["0.3", "0.375", "0.38", "0.83"],
+          "a": 1,
+          "ex": "3 ÷ 8 = 0.375."
+        },
+        {
+          "q": "Subtract 1/3 from 5/6.",
+          "options": ["4/3", "1/2", "2/3", "4/6"],
+          "a": 1,
+          "ex": "Common denominator is 6. 1/3 = 2/6. So, 5/6 - 2/6 = 3/6, which simplifies to 1/2."
+        },
+        {
+          "q": "What is 2/5 as a decimal?",
+          "options": ["0.2", "0.25", "0.4", "0.5"],
+          "a": 2,
+          "ex": "2 ÷ 5 = 0.4."
+        },
+        {
+          "q": "Multiply 3/4 by 2/3.",
+          "options": ["5/7", "6/12", "1/2", "5/12"],
+          "a": 2,
+          "ex": "(3/4) × (2/3) = (3×2)/(4×3) = 6/12, which simplifies to 1/2."
+        },
+        {
+          "q": "Convert 1.75 to an improper fraction.",
+          "options": ["175/100", "7/4", "5/4", "13/4"],
+          "a": 1,
+          "ex": "1.75 = 1 and 3/4. As an improper fraction, (1×4 + 3)/4 = 7/4. Or 175/100 simplified is 7/4."
+        },
+        {
+          "q": "Divide 1/2 by 1/4.",
+          "options": ["1/8", "2", "1/2", "4"],
+          "a": 1,
+          "ex": "To divide by a fraction, multiply by its reciprocal: (1/2) × (4/1) = 4/2 = 2."
+        },
+        {
+          "q": "Which is larger: 0.65 or 2/3?",
+          "options": ["0.65", "2/3", "They are equal", "Cannot determine"],
+          "a": 1,
+          "ex": "2/3 is approximately 0.666... which is greater than 0.65."
+        },
+        {
+          "q": "What is 0.05 as a fraction?",
+          "options": ["1/2", "1/20", "5/10", "1/50"],
+          "a": 1,
+          "ex": "0.05 = 5/100, which simplifies to 1/20."
+        },
+        {
+          "q": "Calculate 2.5 + 0.75 - 1.2.",
+          "options": ["1.05", "2.00", "2.05", "3.00"],
+          "a": 2,
+          "ex": "2.5 + 0.75 = 3.25. Then 3.25 - 1.2 = 2.05."
+        },
+        {
+          "q": "Express 7/2 as a mixed number.",
+          "options": ["2 1/2", "3 1/2", "7.2", "3.0"],
+          "a": 1,
+          "ex": "7 divided by 2 is 3 with a remainder of 1. So, 7/2 = 3 1/2."
+        },
+        {
+          "q": "What is 0.125 × 8?",
+          "options": ["0.8", "1.0", "1.25", "10.0"],
+          "a": 1,
+          "ex": "0.125 × 8 = 1.0. (Since 0.125 is 1/8)"
+        },
+        {
+          "q": "Arrange in ascending order: 0.5, 1/3, 0.25.",
+          "options": ["0.5, 1/3, 0.25", "0.25, 1/3, 0.5", "1/3, 0.25, 0.5", "0.25, 0.5, 1/3"],
+          "a": 1,
+          "ex": "0.25 is 1/4. 1/3 is approx 0.333. So, 0.25 (1/4), 1/3 (0.333...), 0.5."
+        },
+        {
+          "q": "What is 3 ÷ 0.5?",
+          "options": ["1.5", "3.5", "6", "0.15"],
+          "a": 2,
+          "ex": "Dividing by 0.5 is the same as multiplying by 2. So, 3 × 2 = 6."
+        },
+        {
+          "q": "If a pizza is cut into 8 equal slices and you eat 3, what fraction is left?",
+          "options": ["3/8", "5/8", "1/2", "3/5"],
+          "a": 1,
+          "ex": "If 3 slices are eaten out of 8, then 8 - 3 = 5 slices are left. So, 5/8 is left."
+        },
+        {
+          "q": "Convert 2 3/4 to a decimal.",
+          "options": ["2.34", "2.25", "2.75", "2.30"],
+          "a": 2,
+          "ex": "2 3/4 means 2 + 3/4. 3/4 = 0.75. So, 2 + 0.75 = 2.75."
+        },
+        {
+          "q": "What is 1/5 of 100?",
+          "options": ["5", "10", "20", "25"],
+          "a": 2,
+          "ex": "(1/5) × 100 = 100/5 = 20."
+        },
+        {
+          "q": "Simplify 0.75 / 0.25.",
+          "options": ["0.3", "3", "0.03", "30"],
+          "a": 1,
+          "ex": "0.75 / 0.25 is the same as 75 / 25, which is 3."
+        },
+        {
+          "q": "Which fraction is equivalent to 0.12?",
+          "options": ["12/10", "3/25", "1/12", "6/500"],
+          "a": 1,
+          "ex": "0.12 = 12/100. Dividing numerator and denominator by 4 gives 3/25."
+        },
+        {
+          "q": "What is 5/8 - 1/4?",
+          "options": ["1/8", "3/8", "4/8", "1/2"],
+          "a": 1,
+          "ex": "Common denominator is 8. 1/4 = 2/8. So, 5/8 - 2/8 = 3/8."
+        },
+        {
+          "q": "Round 3.14159 to two decimal places.",
+          "options": ["3.10", "3.14", "3.15", "3.13"],
+          "a": 1,
+          "ex": "The third decimal place is 1, which is less than 5, so we round down. 3.14."
+        },
+        {
+          "q": "What is 10 × 0.01?",
+          "options": ["1", "0.1", "0.01", "0.001"],
+          "a": 1,
+          "ex": "10 × 0.01 = 0.1."
+        },
+        {
+          "q": "If 1/3 of a number is 12, what is the number?",
+          "options": ["4", "24", "36", "48"],
+          "a": 2,
+          "ex": "If (1/3)x = 12, then x = 12 × 3 = 36."
+        },
+        {
+          "q": "Convert the decimal 0.007 to a fraction.",
+          "options": ["7/10", "7/100", "7/1000", "7/10000"],
+          "a": 2,
+          "ex": "0.007 has three decimal places, so it is 7/1000."
+        },
+        {
+          "q": "What is 3/10 + 45/100?",
+          "options": ["0.48", "0.75", "48/110", "0.345"],
+          "a": 1,
+          "ex": "3/10 = 30/100. So, 30/100 + 45/100 = 75/100 = 0.75."
+        }
+      ]
+    },
+        {
+      "id": "percentages_and_ratios",
+      "title": "Percentages and Ratios",
+      "questions": [
+        {
+          "q": "What is 25% of 200?",
+          "options": ["25", "50", "75", "100"],
+          "a": 1,
+          "ex": "25% of 200 is (25/100) * 200 = 0.25 * 200 = 50."
+        },
+        {
+          "q": "A recipe calls for 2 cups of flour and 1 cup of sugar. What is the ratio of flour to sugar?",
+          "options": ["1:2", "2:1", "1:1", "2:3"],
+          "a": 1,
+          "ex": "The ratio of flour to sugar is 2 cups to 1 cup, which is 2:1."
+        },
+        {
+          "q": "If a $80 item is discounted by 15%, what is the discount amount?",
+          "options": ["$8", "$10", "$12", "$15"],
+          "a": 2,
+          "ex": "The discount is 15% of $80, which is (15/100) * 80 = $12."
+        },
+        {
+          "q": "The ratio of apples to oranges in a basket is 3:4. If there are 12 apples, how many oranges are there?",
+          "options": ["9", "12", "15", "16"],
+          "a": 3,
+          "ex": "Let the ratio be 3x:4x. If 3x = 12, then x = 4. So, oranges = 4x = 4 * 4 = 16."
+        },
+        {
+          "q": "Express 0.6 as a percentage.",
+          "options": ["6%", "0.6%", "60%", "600%"],
+          "a": 2,
+          "ex": "To express a decimal as a percentage, multiply by 100. So, 0.6 * 100 = 60%."
+        },
+        {
+          "q": "What percentage of 50 is 10?",
+          "options": ["10%", "20%", "25%", "50%"],
+          "a": 1,
+          "ex": "(10/50) * 100% = (1/5) * 100% = 20%."
+        },
+        {
+          "q": "Simplify the ratio 18:24.",
+          "options": ["2:3", "3:4", "4:5", "9:12"],
+          "a": 1,
+          "ex": "Divide both parts of the ratio by their GCF, which is 6. 18÷6=3, 24÷6=4. So, 3:4."
+        },
+        {
+          "q": "A store increases the price of a $200 TV by 5%. What is the new price?",
+          "options": ["$205", "$210", "$215", "$220"],
+          "a": 1,
+          "ex": "Increase = 5% of $200 = (5/100)*200 = $10. New price = $200 + $10 = $210."
+        },
+        {
+          "q": "If 3 out of 5 students are girls, what percentage of students are girls?",
+          "options": ["30%", "40%", "50%", "60%"],
+          "a": 3,
+          "ex": "(3/5) * 100% = 0.6 * 100% = 60%."
+        },
+        {
+          "q": "The ratio of the lengths of two ropes is 7:5. If the shorter rope is 25 meters, how long is the longer rope?",
+          "options": ["30m", "35m", "40m", "42m"],
+          "a": 1,
+          "ex": "Let lengths be 7x and 5x. If 5x = 25m, then x = 5m. Longer rope = 7x = 7*5 = 35m."
+        },
+        {
+          "q": "Convert 125% to a decimal.",
+          "options": ["1.25", "12.5", "0.125", "125.0"],
+          "a": 0,
+          "ex": "To convert a percentage to a decimal, divide by 100. 125/100 = 1.25."
+        },
+        {
+          "q": "A map has a scale of 1:50000. If two towns are 4 cm apart on the map, what is the actual distance?",
+          "options": ["2 km", "20 km", "200 m", "5 km"],
+          "a": 0,
+          "ex": "Actual distance = 4 cm * 50000 = 200000 cm. 200000 cm = 2000 m = 2 km."
+        },
+        {
+          "q": "If you score 45 out of 60 on a test, what is your percentage score?",
+          "options": ["60%", "70%", "75%", "80%"],
+          "a": 2,
+          "ex": "(45/60) * 100% = (3/4) * 100% = 75%."
+        },
+        {
+          "q": "A mixture contains milk and water in the ratio 5:2. If there are 10 liters of water, how much milk is there?",
+          "options": ["15L", "20L", "25L", "30L"],
+          "a": 2,
+          "ex": "Let milk be 5x and water be 2x. If 2x = 10L, then x = 5L. Milk = 5x = 5*5 = 25L."
+        },
+        {
+          "q": "What is 0.5% of 400?",
+          "options": ["2", "20", "0.2", "200"],
+          "a": 0,
+          "ex": "0.5% = 0.005. So, 0.005 * 400 = 2."
+        },
+        {
+          "q": "If the price of an item decreased from $50 to $40, what is the percentage decrease?",
+          "options": ["10%", "15%", "20%", "25%"],
+          "a": 2,
+          "ex": "Decrease = $50 - $40 = $10. Percentage decrease = (10/50) * 100% = 20%."
+        },
+        {
+          "q": "The angles of a triangle are in the ratio 1:2:3. What is the measure of the largest angle?",
+          "options": ["30°", "60°", "90°", "120°"],
+          "a": 2,
+          "ex": "Let angles be x, 2x, 3x. Sum of angles = x + 2x + 3x = 180°. 6x = 180°. x = 30°. Largest angle = 3x = 3*30 = 90°."
+        },
+        {
+          "q": "Convert the fraction 3/20 to a percentage.",
+          "options": ["3%", "10%", "15%", "20%"],
+          "a": 2,
+          "ex": "(3/20) * 100% = 3 * 5% = 15%."
+        },
+        {
+          "q": "A car travels 240 km on 20 liters of petrol. How many km can it travel on 1 liter?",
+          "options": ["10 km/L", "12 km/L", "15 km/L", "20 km/L"],
+          "a": 1,
+          "ex": "240 km / 20 L = 12 km/L."
+        },
+        {
+          "q": "If 60% of a number is 42, what is the number?",
+          "options": ["60", "70", "75", "80"],
+          "a": 1,
+          "ex": "Let the number be x. 0.60 * x = 42. So, x = 42 / 0.60 = 70."
+        },
+        {
+          "q": "The ratio of boys to total students in a class is 2:5. If there are 30 students, how many are boys?",
+          "options": ["6", "10", "12", "18"],
+          "a": 2,
+          "ex": "Boys = (2/5) * 30 = 2 * 6 = 12 boys."
+        },
+        {
+          "q": "What is 150% of 60?",
+          "options": ["75", "90", "100", "150"],
+          "a": 1,
+          "ex": "150% = 1.5. So, 1.5 * 60 = 90."
+        },
+        {
+          "q": "Two numbers are in the ratio 4:5. Their sum is 81. Find the numbers.",
+          "options": ["32, 49", "36, 45", "40, 41", "30, 51"],
+          "a": 1,
+          "ex": "Let numbers be 4x and 5x. 4x + 5x = 81. 9x = 81. x = 9. Numbers are 4*9=36 and 5*9=45."
+        },
+        {
+          "q": "A salary of $5000 is increased by 8%. What is the new salary?",
+          "options": ["$5080", "$5400", "$5500", "$5800"],
+          "a": 1,
+          "ex": "Increase = 8% of $5000 = 0.08 * 5000 = $400. New salary = $5000 + $400 = $5400."
+        },
+        {
+          "q": "Express the ratio 1.5 : 2.5 as a simple whole number ratio.",
+          "options": ["1:2", "3:5", "2:3", "5:3"],
+          "a": 1,
+          "ex": "Multiply both by 10 to get 15:25. Then divide by GCF (5) to get 3:5."
+        },
+        {
+          "q": "If a population of a town increased from 10,000 to 12,000, what is the percentage increase?",
+          "options": ["10%", "15%", "20%", "25%"],
+          "a": 2,
+          "ex": "Increase = 12000 - 10000 = 2000. Percentage increase = (2000/10000) * 100% = 20%."
+        },
+        {
+          "q": "A recipe needs 3 parts flour to 2 parts sugar. If you use 9 cups of flour, how much sugar is needed?",
+          "options": ["4 cups", "5 cups", "6 cups", "7 cups"],
+          "a": 2,
+          "ex": "Ratio flour:sugar = 3:2. If flour is 3x=9, then x=3. Sugar = 2x = 2*3 = 6 cups."
+        },
+        {
+          "q": "What is 33.33...% as a fraction?",
+          "options": ["1/2", "1/3", "1/4", "1/5"],
+          "a": 1,
+          "ex": "33.33...% is equivalent to 1/3."
+        },
+        {
+          "q": "If an investment of $1000 earns 5% simple interest per year, how much interest is earned in 3 years?",
+          "options": ["$50", "$100", "$150", "$200"],
+          "a": 2,
+          "ex": "Interest per year = 5% of $1000 = $50. Interest for 3 years = $50 * 3 = $150."
+        },
+        {
+          "q": "The ratio of width to length of a rectangle is 2:3. If the perimeter is 50 cm, find the length.",
+          "options": ["10cm", "15cm", "20cm", "25cm"],
+          "a": 1,
+          "ex": "Let width=2x, length=3x. Perimeter = 2(2x+3x) = 2(5x) = 10x. 10x = 50cm. x = 5cm. Length = 3x = 15cm."
+        }
+      ]
+    },
+    {
+      "id": "square_roots_and_exponents",
+      "title": "Square Roots and Exponents",
+      "questions": [
+        {
+          "q": "What is the square root of 64?",
+          "options": ["6", "7", "8", "9"],
+          "a": 2,
+          "ex": "The square root of 64 is 8, because 8 * 8 = 64."
+        },
+        {
+          "q": "Calculate 2 to the power of 5 (2^5).",
+          "options": ["10", "16", "25", "32"],
+          "a": 3,
+          "ex": "2^5 means 2 * 2 * 2 * 2 * 2 = 32."
+        },
+        {
+          "q": "What is √121?",
+          "options": ["10", "11", "12", "13"],
+          "a": 1,
+          "ex": "The square root of 121 is 11, as 11 * 11 = 121."
+        },
+        {
+          "q": "Simplify 3^2 × 3^3.",
+          "options": ["3^1", "3^5", "3^6", "9^5"],
+          "a": 1,
+          "ex": "When multiplying powers with the same base, add the exponents: 3^(2+3) = 3^5 = 243."
+        },
+        {
+          "q": "What is 7 squared?",
+          "options": ["14", "21", "49", "343"],
+          "a": 2,
+          "ex": "7 squared (7^2) means 7 * 7 = 49."
+        },
+        {
+          "q": "Find the value of 10^0.",
+          "options": ["0", "1", "10", "Undefined"],
+          "a": 1,
+          "ex": "Any non-zero number raised to the power of 0 is 1."
+        },
+        {
+          "q": "What is the cube root of 27?",
+          "options": ["3", "6", "9", "Not a whole number"],
+          "a": 0,
+          "ex": "The cube root of 27 is 3, because 3 * 3 * 3 = 27."
+        },
+        {
+          "q": "Simplify (4^3)^2.",
+          "options": ["4^1", "4^5", "4^6", "4^9"],
+          "a": 2,
+          "ex": "When raising a power to another power, multiply the exponents: 4^(3*2) = 4^6 = 4096."
+        },
+        {
+          "q": "What is √25 + √36?",
+          "options": ["√61", "11", "30", "61"],
+          "a": 1,
+          "ex": "√25 = 5 and √36 = 6. So, 5 + 6 = 11."
+        },
+        {
+          "q": "Calculate 5^-2.",
+          "options": ["-10", "-25", "1/10", "1/25"],
+          "a": 3,
+          "ex": "A negative exponent means take the reciprocal of the base raised to the positive exponent: 5^-2 = 1/(5^2) = 1/25."
+        },
+        {
+          "q": "What is the square of 1.5?",
+          "options": ["1.25", "2.00", "2.25", "3.00"],
+          "a": 2,
+          "ex": "(1.5)^2 = 1.5 * 1.5 = 2.25."
+        },
+        {
+          "q": "Simplify 7^5 ÷ 7^3.",
+          "options": ["7^2", "7^8", "1^2", "7^15"],
+          "a": 0,
+          "ex": "When dividing powers with the same base, subtract the exponents: 7^(5-3) = 7^2 = 49."
+        },
+        {
+          "q": "What is the value of (-3)^3?",
+          "options": ["9", "-9", "27", "-27"],
+          "a": 3,
+          "ex": "(-3)^3 = (-3) * (-3) * (-3) = 9 * (-3) = -27."
+        },
+        {
+          "q": "Find √0.04.",
+          "options": ["0.02", "0.2", "0.4", "2"],
+          "a": 1,
+          "ex": "√0.04 = 0.2, because 0.2 * 0.2 = 0.04."
+        },
+        {
+          "q": "What is (2/3)^2?",
+          "options": ["2/9", "4/9", "4/6", "4/3"],
+          "a": 1,
+          "ex": "(2/3)^2 = (2^2)/(3^2) = 4/9."
+        },
+        {
+          "q": "If x^2 = 144, what is a possible value of x?",
+          "options": ["10", "12", "14", "72"],
+          "a": 1,
+          "ex": "If x^2 = 144, then x = √144 = 12 (or -12)."
+        },
+        {
+          "q": "What is 1^100?",
+          "options": ["1", "100", "0", "Undefined"],
+          "a": 0,
+          "ex": "1 raised to any power is 1."
+        },
+        {
+          "q": "Simplify √(16 × 9).",
+          "options": ["7", "12", "25", "144"],
+          "a": 1,
+          "ex": "√(16 × 9) = √144 = 12. Alternatively, √16 × √9 = 4 × 3 = 12."
+        },
+        {
+          "q": "What is 2^3 + 3^2?",
+          "options": ["5^5", "12", "17", "25"],
+          "a": 2,
+          "ex": "2^3 = 8 and 3^2 = 9. So, 8 + 9 = 17."
+        },
+        {
+          "q": "The area of a square is 81 cm². What is the length of its side?",
+          "options": ["7 cm", "8 cm", "9 cm", "10 cm"],
+          "a": 2,
+          "ex": "Area of square = side^2. So, side = √Area = √81 = 9 cm."
+        },
+        {
+          "q": "What is (1/2)^-3?",
+          "options": ["1/8", "-1/8", "8", "-8"],
+          "a": 2,
+          "ex": "(1/2)^-3 = (2/1)^3 = 2^3 = 8."
+        },
+        {
+          "q": "Find the value of 4^(3/2).",
+          "options": ["2", "4", "6", "8"],
+          "a": 3,
+          "ex": "4^(3/2) = (√4)^3 = 2^3 = 8."
+        },
+        {
+          "q": "What is the square root of 2 to the nearest whole number?",
+          "options": ["1", "2", "0", "Not possible"],
+          "a": 0,
+          "ex": "√2 is approximately 1.414. The nearest whole number is 1."
+        },
+        {
+          "q": "Simplify (x^5)(x^-2).",
+          "options": ["x^-10", "x^7", "x^3", "x^-7"],
+          "a": 2,
+          "ex": "x^5 * x^-2 = x^(5 + (-2)) = x^(5-2) = x^3."
+        },
+        {
+          "q": "What is 0^5?",
+          "options": ["0", "1", "5", "Undefined"],
+          "a": 0,
+          "ex": "0 raised to any positive power is 0."
+        },
+        {
+          "q": "If 10^x = 1000, what is x?",
+          "options": ["1", "2", "3", "4"],
+          "a": 2,
+          "ex": "1000 = 10 × 10 × 10 = 10^3. So, x = 3."
+        },
+        {
+          "q": "What is the value of (-1)^100?",
+          "options": ["-1", "1", "-100", "100"],
+          "a": 1,
+          "ex": "-1 raised to an even power is 1."
+        },
+        {
+          "q": "Simplify √48.",
+          "options": ["4√3", "3√4", "16√3", "2√12"],
+          "a": 0,
+          "ex": "√48 = √(16 × 3) = √16 × √3 = 4√3."
+        },
+        {
+          "q": "What is 9^(1/2)?",
+          "options": ["1", "3", "4.5", "81"],
+          "a": 1,
+          "ex": "9^(1/2) is the same as √9, which is 3."
+        },
+        {
+          "q": "Calculate (5^0 + 5^1) / 5^1.",
+          "options": ["1/5", "6/5", "1", "2"],
+          "a": 1,
+          "ex": "5^0 = 1, 5^1 = 5. So (1+5)/5 = 6/5."
+        }
+      ]
+    },
+        {
+      "id": "algebraic_expressions",
+      "title": "Algebraic Expressions",
+      "questions": [
+        {
+          "q": "Simplify the expression: 7x - 2x + 5x",
+          "options": ["8x", "10x", "12x", "14x"],
+          "a": 1,
+          "ex": "Combine like terms: (7 - 2 + 5)x = 10x."
+        },
+        {
+          "q": "Evaluate the expression 3a - 2b if a = 5 and b = 3.",
+          "options": ["6", "9", "12", "21"],
+          "a": 1,
+          "ex": "Substitute the values: 3(5) - 2(3) = 15 - 6 = 9."
+        },
+        {
+          "q": "Expand the expression: 4(y - 3).",
+          "options": ["4y - 3", "4y - 7", "4y - 12", "y - 12"],
+          "a": 2,
+          "ex": "Distribute the 4 to both terms inside the parenthesis: 4*y - 4*3 = 4y - 12."
+        },
+        {
+          "q": "What is the coefficient of x in the expression 5y - x + 9?",
+          "options": ["1", "-1", "5", "9"],
+          "a": 1,
+          "ex": "The term with x is -x, which can be written as -1x. So the coefficient is -1."
+        },
+        {
+          "q": "Factorize the expression: 6p + 9q.",
+          "options": ["3(2p + 3q)", "6(p + q)", "9(p + q)", "3(2p + 9q)"],
+          "a": 0,
+          "ex": "The greatest common factor of 6p and 9q is 3. So, 6p + 9q = 3(2p) + 3(3q) = 3(2p + 3q)."
+        },
+        {
+          "q": "Simplify: 2(x + 3) + 3(x - 1)",
+          "options": ["5x + 2", "5x + 3", "5x + 5", "5x + 9"],
+          "a": 1,
+          "ex": "2x + 6 + 3x - 3 = (2x + 3x) + (6 - 3) = 5x + 3."
+        },
+        {
+          "q": "What is the value of x^2 - 2x + 1 when x = 3?",
+          "options": ["2", "3", "4", "5"],
+          "a": 2,
+          "ex": "Substitute x=3: (3)^2 - 2(3) + 1 = 9 - 6 + 1 = 4."
+        },
+        {
+          "q": "Identify the like terms in: 3a + 2b - a + 4b",
+          "options": ["3a, 2b", "3a, -a and 2b, 4b", "2b, -a", "3a, 4b"],
+          "a": 1,
+          "ex": "Like terms have the same variable raised to the same power. So, 3a and -a are like terms, and 2b and 4b are like terms."
+        },
+        {
+          "q": "Subtract (2x + y) from (5x + 3y).",
+          "options": ["3x + 2y", "3x + 4y", "7x + 4y", "-3x - 2y"],
+          "a": 0,
+          "ex": "(5x + 3y) - (2x + y) = 5x + 3y - 2x - y = (5x - 2x) + (3y - y) = 3x + 2y."
+        },
+        {
+          "q": "What is the degree of the polynomial 4x^3 - 2x^2 + 5x - 1?",
+          "options": ["1", "2", "3", "4"],
+          "a": 2,
+          "ex": "The degree of a polynomial is the highest power of the variable. Here it is 3."
+        },
+        {
+          "q": "Simplify: (a + b)(a - b)",
+          "options": ["a^2 + b^2", "a^2 - b^2", "a^2 - 2ab + b^2", "a^2 + 2ab + b^2"],
+          "a": 1,
+          "ex": "This is a difference of squares: (a+b)(a-b) = a^2 - ab + ba - b^2 = a^2 - b^2."
+        },
+        {
+          "q": "If p = -2, what is the value of p^3 + 3p^2?",
+          "options": ["-20", "-4", "4", "20"],
+          "a": 2,
+          "ex": "(-2)^3 + 3(-2)^2 = -8 + 3(4) = -8 + 12 = 4."
+        },
+        {
+          "q": "Expand (x + 5)^2.",
+          "options": ["x^2 + 25", "x^2 + 5x + 25", "x^2 + 10x + 25", "2x + 10"],
+          "a": 2,
+          "ex": "(x+5)^2 = (x+5)(x+5) = x^2 + 5x + 5x + 25 = x^2 + 10x + 25."
+        },
+        {
+          "q": "Factorize x^2 - 9.",
+          "options": ["(x-3)(x-3)", "(x+3)(x+3)", "(x-3)(x+3)", "(x-9)(x+1)"],
+          "a": 2,
+          "ex": "This is a difference of squares: x^2 - 3^2 = (x-3)(x+3)."
+        },
+        {
+          "q": "The sum of two numbers is 15 and their product is 50. If the numbers are x and y, which expression represents their product?",
+          "options": ["x + y", "x - y", "xy", "x/y"],
+          "a": 2,
+          "ex": "The product of x and y is represented by xy."
+        },
+        {
+          "q": "Simplify: (12a^3 b^2) / (4a^2 b)",
+          "options": ["3ab", "3a^5 b^3", "8ab", "3a b^2"],
+          "a": 0,
+          "ex": "(12/4) * (a^3/a^2) * (b^2/b) = 3 * a^(3-2) * b^(2-1) = 3ab."
+        },
+        {
+          "q": "What is the constant term in the expression 2x^2 - 7x + 4?",
+          "options": ["2", "-7", "4", "0"],
+          "a": 2,
+          "ex": "The constant term is the term without a variable, which is 4."
+        },
+        {
+          "q": "If the length of a rectangle is (x+3) and width is (x-2), what is its area?",
+          "options": ["x^2+x-6", "x^2-x-6", "x^2+5x-6", "2x+1"],
+          "a": 0,
+          "ex": "Area = length × width = (x+3)(x-2) = x^2 - 2x + 3x - 6 = x^2 + x - 6."
+        },
+        {
+          "q": "Combine like terms: 5xy + 2x - 3xy + 4x",
+          "options": ["2xy + 6x", "8xy + 6x", "2xy - 2x", "8xy - 2x"],
+          "a": 0,
+          "ex": "(5xy - 3xy) + (2x + 4x) = 2xy + 6x."
+        },
+        {
+          "q": "Factorize completely: 2x^2 - 8",
+          "options": ["2(x^2-4)", "2(x-2)(x+2)", "(2x-4)(x+2)", "2(x-2)^2"],
+          "a": 1,
+          "ex": "First take out common factor 2: 2(x^2-4). Then factor difference of squares: 2(x-2)(x+2)."
+        },
+        {
+          "q": "What is the perimeter of a square with side length (s+1)?",
+          "options": ["s^2+2s+1", "4s+1", "4s+4", "s+4"],
+          "a": 2,
+          "ex": "Perimeter of a square = 4 × side length = 4(s+1) = 4s + 4."
+        },
+        {
+          "q": "Simplify: - (3x - 2y) + (x + y)",
+          "options": ["-2x + 3y", "-2x - y", "4x - y", "-4x + 3y"],
+          "a": 0,
+          "ex": "-3x + 2y + x + y = (-3x + x) + (2y + y) = -2x + 3y."
+        },
+        {
+          "q": "Evaluate a(b+c) when a=2, b=3, c=-1.",
+          "options": ["2", "4", "5", "8"],
+          "a": 1,
+          "ex": "2(3 + (-1)) = 2(3-1) = 2(2) = 4."
+        },
+        {
+          "q": "The expression for '5 less than twice a number x' is:",
+          "options": ["5 - 2x", "2x - 5", "2(x - 5)", "5x - 2"],
+          "a": 1,
+          "ex": "Twice a number x is 2x. 5 less than that is 2x - 5."
+        },
+        {
+          "q": "Factorize y^2 + 7y + 12.",
+          "options": ["(y+2)(y+6)", "(y+3)(y+4)", "(y+1)(y+12)", "(y-3)(y-4)"],
+          "a": 1,
+          "ex": "We need two numbers that multiply to 12 and add to 7. These are 3 and 4. So, (y+3)(y+4)."
+        },
+        {
+          "q": "What is the term for an algebraic expression with only one term?",
+          "options": ["Binomial", "Trinomial", "Monomial", "Polynomial"],
+          "a": 2,
+          "ex": "A monomial is an algebraic expression consisting of one term."
+        },
+        {
+          "q": "Simplify (3x^2y)^3.",
+          "options": ["9x^5y^3", "9x^6y^3", "27x^5y^3", "27x^6y^3"],
+          "a": 3,
+          "ex": "(3x^2y)^3 = 3^3 * (x^2)^3 * y^3 = 27 * x^(2*3) * y^3 = 27x^6y^3."
+        },
+        {
+          "q": "If an item costs 'c' dollars and sales tax is 8%, what is the expression for the total cost?",
+          "options": ["c + 0.08", "c + 0.8c", "c + 0.08c", "0.08c"],
+          "a": 2,
+          "ex": "Sales tax amount is 0.08c. Total cost is original cost plus tax: c + 0.08c or 1.08c."
+        },
+        {
+          "q": "The product of a number and 3, increased by 5, is written as:",
+          "options": ["3n + 5", "3(n + 5)", "5n + 3", "n + 3 + 5"],
+          "a": 0,
+          "ex": "Let the number be n. Product of n and 3 is 3n. Increased by 5 is 3n + 5."
+        },
+        {
+          "q": "Simplify (x+y) - (x-y).",
+          "options": ["0", "2x", "2y", "x^2-y^2"],
+          "a": 2,
+          "ex": "(x+y) - (x-y) = x + y - x + y = (x-x) + (y+y) = 0 + 2y = 2y."
+        }
+      ]
+    },
+    {
+      "id": "linear_equations",
+      "title": "Linear Equations",
+      "questions": [
+        {
+          "q": "Solve for x: x + 5 = 12",
+          "options": ["5", "7", "10", "17"],
+          "a": 1,
+          "ex": "x = 12 - 5 => x = 7."
+        },
+        {
+          "q": "Solve for y: 3y = 21",
+          "options": ["3", "6", "7", "18"],
+          "a": 2,
+          "ex": "y = 21 / 3 => y = 7."
+        },
+        {
+          "q": "Solve for a: a - 7 = -2",
+          "options": ["-9", "-5", "5", "9"],
+          "a": 2,
+          "ex": "a = -2 + 7 => a = 5."
+        },
+        {
+          "q": "Solve for b: b/4 = 6",
+          "options": ["1.5", "10", "20", "24"],
+          "a": 3,
+          "ex": "b = 6 * 4 => b = 24."
+        },
+        {
+          "q": "Solve for x: 2x + 3 = 11",
+          "options": ["3", "4", "5", "7"],
+          "a": 1,
+          "ex": "2x = 11 - 3 => 2x = 8 => x = 8/2 => x = 4."
+        },
+        {
+          "q": "If 5x - 2 = 18, what is x?",
+          "options": ["3", "3.2", "4", "16"],
+          "a": 2,
+          "ex": "5x = 18 + 2 => 5x = 20 => x = 20/5 => x = 4."
+        },
+        {
+          "q": "Solve for z: z/3 + 1 = 5",
+          "options": ["4", "9", "12", "18"],
+          "a": 2,
+          "ex": "z/3 = 5 - 1 => z/3 = 4 => z = 4 * 3 => z = 12."
+        },
+        {
+          "q": "What is the value of p if 4(p - 2) = 16?",
+          "options": ["2", "4", "6", "8"],
+          "a": 2,
+          "ex": "4p - 8 = 16 => 4p = 16 + 8 => 4p = 24 => p = 24/4 => p = 6."
+        },
+        {
+          "q": "Solve for m: 7 - m = 10",
+          "options": ["-17", "-3", "3", "17"],
+          "a": 1,
+          "ex": "-m = 10 - 7 => -m = 3 => m = -3."
+        },
+        {
+          "q": "If (x+1)/2 = 3, find x.",
+          "options": ["2", "4", "5", "7"],
+          "a": 2,
+          "ex": "x+1 = 3 * 2 => x+1 = 6 => x = 6 - 1 => x = 5."
+        },
+        {
+          "q": "Solve for y: 2(y + 4) = 3(y - 1)",
+          "options": ["5", "7", "10", "11"],
+          "a": 3,
+          "ex": "2y + 8 = 3y - 3 => 8 + 3 = 3y - 2y => 11 = y."
+        },
+        {
+          "q": "The sum of a number and 8 is 20. What is the number?",
+          "options": ["10", "12", "28", "160"],
+          "a": 1,
+          "ex": "Let the number be x. x + 8 = 20 => x = 20 - 8 => x = 12."
+        },
+        {
+          "q": "Solve for k: 0.5k = 4",
+          "options": ["2", "4.5", "8", "20"],
+          "a": 2,
+          "ex": "k = 4 / 0.5 => k = 8."
+        },
+        {
+          "q": "If 3x + 2x = 25, what is x?",
+          "options": ["3", "4", "5", "20"],
+          "a": 2,
+          "ex": "5x = 25 => x = 25/5 => x = 5."
+        },
+        {
+          "q": "Solve for x: x/2 = x/3 + 1",
+          "options": ["2", "3", "5", "6"],
+          "a": 3,
+          "ex": "Multiply by 6 (LCM of 2,3): 3x = 2x + 6 => 3x - 2x = 6 => x = 6."
+        },
+        {
+          "q": "Twice a number decreased by 5 is 13. Find the number.",
+          "options": ["4", "8", "9", "18"],
+          "a": 2,
+          "ex": "Let the number be n. 2n - 5 = 13 => 2n = 18 => n = 9."
+        },
+        {
+          "q": "Solve for a: 5a - 9 = 2a + 6",
+          "options": ["3", "5", "7", "15"],
+          "a": 1,
+          "ex": "5a - 2a = 6 + 9 => 3a = 15 => a = 15/3 => a = 5."
+        },
+        {
+          "q": "What value of y makes 10 - 2y = 4 true?",
+          "options": ["2", "3", "6", "7"],
+          "a": 1,
+          "ex": "10 - 4 = 2y => 6 = 2y => y = 6/2 => y = 3."
+        },
+        {
+          "q": "If a number is divided by 4 and then 3 is subtracted, the result is 2. What is the number?",
+          "options": ["12", "16", "20", "24"],
+          "a": 2,
+          "ex": "Let number be x. x/4 - 3 = 2 => x/4 = 5 => x = 20."
+        },
+        {
+          "q": "Solve for x: -3x + 7 = -5",
+          "options": ["-4", "-2/3", "2/3", "4"],
+          "a": 3,
+          "ex": "-3x = -5 - 7 => -3x = -12 => x = -12/-3 => x = 4."
+        },
+        {
+          "q": "The perimeter of a rectangle is 30 cm. If its length is 8 cm, what is its width (w)? (Equation: 2(8+w)=30)",
+          "options": ["7 cm", "14 cm", "15 cm", "22 cm"],
+          "a": 0,
+          "ex": "2(8+w)=30 => 8+w = 15 => w = 15-8 => w = 7 cm."
+        },
+        {
+          "q": "Solve for b: (2b + 5)/3 = 7",
+          "options": ["4", "8", "10", "13"],
+          "a": 1,
+          "ex": "2b + 5 = 7 * 3 => 2b + 5 = 21 => 2b = 16 => b = 8."
+        },
+        {
+          "q": "Three consecutive integers sum to 33. If the smallest is x, the equation is x + (x+1) + (x+2) = 33. What is x?",
+          "options": ["9", "10", "11", "12"],
+          "a": 1,
+          "ex": "3x + 3 = 33 => 3x = 30 => x = 10."
+        },
+        {
+          "q": "Solve for x: 1.5x + 2 = 8",
+          "options": ["3", "4", "5", "6"],
+          "a": 1,
+          "ex": "1.5x = 8 - 2 => 1.5x = 6 => x = 6 / 1.5 => x = 4."
+        },
+        {
+          "q": "If 8 more than twice a number is 22, what is the number?",
+          "options": ["5", "7", "14", "15"],
+          "a": 1,
+          "ex": "Let number be n. 2n + 8 = 22 => 2n = 14 => n = 7."
+        },
+        {
+          "q": "Solve for y: 4y = y + 15",
+          "options": ["3", "5", "7.5", "15"],
+          "a": 1,
+          "ex": "4y - y = 15 => 3y = 15 => y = 5."
+        },
+        {
+          "q": "What is the solution to x - 0.2x = 16?",
+          "options": ["12.8", "18", "20", "80"],
+          "a": 2,
+          "ex": "0.8x = 16 => x = 16 / 0.8 => x = 20."
+        },
+        {
+          "q": "Solve for p: p + p/2 = 9",
+          "options": ["3", "4.5", "6", "18"],
+          "a": 2,
+          "ex": "(2p+p)/2 = 9 => 3p/2 = 9 => 3p = 18 => p = 6."
+        },
+        {
+          "q": "A father is 3 times as old as his son. If the sum of their ages is 48, how old is the son (s)? (Equation: s + 3s = 48)",
+          "options": ["8", "12", "16", "24"],
+          "a": 1,
+          "ex": "4s = 48 => s = 48/4 => s = 12 years old."
+        },
+        {
+          "q": "Solve for x: 5(x - 1) = 3(x + 1)",
+          "options": ["1", "2", "3", "4"],
+          "a": 3,
+          "ex": "5x - 5 = 3x + 3 => 5x - 3x = 3 + 5 => 2x = 8 => x = 4."
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "Geometry",
+      "questions": [
+        {
+          "q": "What is the sum of angles in a triangle?",
+          "options": [
+            "90 degrees",
+            "180 degrees",
+            "360 degrees",
+            "270 degrees"
+          ],
+          "a": 1,
+          "ex": "The sum of the interior angles of a triangle is always 180 degrees."
+        },
+        {
+          "q": "A rectangle has a length of 10 cm and a width of 5 cm. What is its area?",
+          "options": [
+            "15 sq cm",
+            "25 sq cm",
+            "50 sq cm",
+            "100 sq cm"
+          ],
+          "a": 2,
+          "ex": "Area of a rectangle = length × width = 10 cm × 5 cm = 50 sq cm."
+        },
+        {
+          "q": "What is the perimeter of a square with a side length of 7 units?",
+          "options": [
+            "14 units",
+            "21 units",
+            "28 units",
+            "49 units"
+          ],
+          "a": 2,
+          "ex": "Perimeter of a square = 4 × side length = 4 × 7 = 28 units."
+        },
+        {
+          "q": "The radius of a circle is 4 cm. What is its circumference? (Use π ≈ 3.14)",
+          "options": [
+            "12.56 cm",
+            "25.12 cm",
+            "50.24 cm",
+            "6.28 cm"
+          ],
+          "a": 1,
+          "ex": "Circumference of a circle = 2 × π × radius = 2 × 3.14 × 4 cm = 25.12 cm."
+        },
+        {
+          "q": "Which of the following is a property of a parallelogram?",
+          "options": [
+            "All angles are 90 degrees",
+            "All sides are equal",
+            "Opposite sides are parallel",
+            "Diagonals are perpendicular"
+          ],
+          "a": 2,
+          "ex": "A key property of a parallelogram is that its opposite sides are parallel."
+        },
+        {
+          "q": "What is the volume of a cube with an edge length of 3 cm?",
+          "options": [
+            "9 cubic cm",
+            "18 cubic cm",
+            "27 cubic cm",
+            "12 cubic cm"
+          ],
+          "a": 2,
+          "ex": "Volume of a cube = edge × edge × edge = 3 cm × 3 cm × 3 cm = 27 cubic cm."
+        },
+        {
+          "q": "An isosceles triangle has two sides of equal length. If one of the equal sides is 5 cm and the base is 6 cm, what is its perimeter?",
+          "options": [
+            "11 cm",
+            "16 cm",
+            "17 cm",
+            "10 cm"
+          ],
+          "a": 1,
+          "ex": "Perimeter = 5 cm + 5 cm + 6 cm = 16 cm."
+        },
+        {
+          "q": "What is the formula for the area of a triangle?",
+          "options": [
+            "length × width",
+            "π × radius²",
+            "0.5 × base × height",
+            "side × side"
+          ],
+          "a": 2,
+          "ex": "The area of a triangle is calculated as 0.5 × base × height."
+        },
+        {
+          "q": "How many faces does a cuboid have?",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "a": 1,
+          "ex": "A cuboid has 6 faces."
+        },
+        {
+          "q": "If two lines are perpendicular, what is the angle between them?",
+          "options": [
+            "0 degrees",
+            "45 degrees",
+            "90 degrees",
+            "180 degrees"
+          ],
+          "a": 2,
+          "ex": "Perpendicular lines intersect at a 90-degree angle."
+        },
+        {
+          "q": "What is the name of a polygon with 5 sides?",
+          "options": [
+            "Hexagon",
+            "Octagon",
+            "Pentagon",
+            "Quadrilateral"
+          ],
+          "a": 2,
+          "ex": "A polygon with 5 sides is called a pentagon."
+        },
+        {
+          "q": "The diameter of a circle is 10 cm. What is its radius?",
+          "options": [
+            "2.5 cm",
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "a": 1,
+          "ex": "Radius = Diameter / 2 = 10 cm / 2 = 5 cm."
+        },
+        {
+          "q": "Which of these shapes has all sides equal and all angles equal to 90 degrees?",
+          "options": [
+            "Rhombus",
+            "Rectangle",
+            "Square",
+            "Kite"
+          ],
+          "a": 2,
+          "ex": "A square has all sides equal and all angles equal to 90 degrees."
+        },
+        {
+          "q": "What is the area of a circle with radius 'r'?",
+          "options": [
+            "πr",
+            "2πr",
+            "πr²",
+            "(πr)²"
+          ],
+          "a": 2,
+          "ex": "The area of a circle is given by the formula A = πr²."
+        },
+        {
+          "q": "A triangle has angles 30°, 60°, and 90°. What type of triangle is it?",
+          "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+          ],
+          "a": 3,
+          "ex": "A triangle with a 90° angle is a right-angled triangle. Since all angles are different, it's also scalene."
+        },
+        {
+          "q": "How many vertices does a triangular prism have?",
+          "options": [
+            "3",
+            "5",
+            "6",
+            "9"
+          ],
+          "a": 2,
+          "ex": "A triangular prism has 6 vertices (3 on each triangular base)."
+        },
+        {
+          "q": "What is the sum of the exterior angles of any convex polygon?",
+          "options": [
+            "180 degrees",
+            "360 degrees",
+            "(n-2) × 180 degrees",
+            "n × 180 degrees"
+          ],
+          "a": 1,
+          "ex": "The sum of the exterior angles of any convex polygon is always 360 degrees."
+        },
+        {
+          "q": "A cylinder has a radius of 3 cm and a height of 10 cm. What is its volume? (Use π ≈ 3.14)",
+          "options": [
+            "94.2 cubic cm",
+            "188.4 cubic cm",
+            "282.6 cubic cm",
+            "31.4 cubic cm"
+          ],
+          "a": 2,
+          "ex": "Volume of a cylinder = π × radius² × height = 3.14 × (3 cm)² × 10 cm = 282.6 cubic cm."
+        },
+        {
+          "q": "What is the longest chord in a circle called?",
+          "options": [
+            "Radius",
+            "Tangent",
+            "Secant",
+            "Diameter"
+          ],
+          "a": 3,
+          "ex": "The diameter is the longest chord in a circle, passing through the center."
+        },
+        {
+          "q": "If the area of a square is 64 sq units, what is the length of its side?",
+          "options": [
+            "4 units",
+            "8 units",
+            "16 units",
+            "32 units"
+          ],
+          "a": 1,
+          "ex": "Side = √Area = √64 = 8 units."
+        },
+        {
+          "q": "How many edges does a cube have?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "a": 3,
+          "ex": "A cube has 12 edges."
+        },
+        {
+          "q": "A regular hexagon has how many lines of symmetry?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "a": 3,
+          "ex": "A regular hexagon has 6 lines of symmetry."
+        },
+        {
+          "q": "What is the point of intersection of the medians of a triangle called?",
+          "options": [
+            "Orthocenter",
+            "Incenter",
+            "Centroid",
+            "Circumcenter"
+          ],
+          "a": 2,
+          "ex": "The point of intersection of the medians of a triangle is called the centroid."
+        },
+        {
+          "q": "The measure of an angle is 75 degrees. What is the measure of its complementary angle?",
+          "options": [
+            "15 degrees",
+            "25 degrees",
+            "105 degrees",
+            "90 degrees"
+          ],
+          "a": 0,
+          "ex": "Complementary angles add up to 90 degrees. So, 90 - 75 = 15 degrees."
+        },
+        {
+          "q": "What is the shape of the base of a cone?",
+          "options": [
+            "Square",
+            "Triangle",
+            "Circle",
+            "Rectangle"
+          ],
+          "a": 2,
+          "ex": "The base of a cone is a circle."
+        },
+        {
+          "q": "Two angles are supplementary. If one angle is 120 degrees, what is the other angle?",
+          "options": [
+            "30 degrees",
+            "60 degrees",
+            "90 degrees",
+            "240 degrees"
+          ],
+          "a": 1,
+          "ex": "Supplementary angles add up to 180 degrees. So, 180 - 120 = 60 degrees."
+        },
+        {
+          "q": "What is the formula for the surface area of a sphere with radius 'r'?",
+          "options": [
+            "2πr²",
+            "3πr²",
+            "4πr²",
+            "(4/3)πr³"
+          ],
+          "a": 2,
+          "ex": "The surface area of a sphere is given by the formula A = 4πr²."
+        },
+        {
+          "q": "A rhombus has diagonals of length 6 cm and 8 cm. What is its area?",
+          "options": [
+            "14 sq cm",
+            "24 sq cm",
+            "48 sq cm",
+            "7 sq cm"
+          ],
+          "a": 1,
+          "ex": "Area of a rhombus = 0.5 × d1 × d2 = 0.5 × 6 cm × 8 cm = 24 sq cm."
+        },
+        {
+          "q": "How many diagonals does a pentagon have?",
+          "options": [
+            "2",
+            "5",
+            "7",
+            "9"
+          ],
+          "a": 1,
+          "ex": "A pentagon has 5 diagonals. The formula is n(n-3)/2, where n is the number of sides."
+        },
+        {
+          "q": "What is the name for a triangle with all three sides of different lengths?",
+          "options": [
+            "Equilateral",
+            "Isosceles",
+            "Scalene",
+            "Right-angled"
+          ],
+          "a": 2,
+          "ex": "A triangle with all three sides of different lengths is called a scalene triangle."
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "questions": [
+        {
+          "q": "What is sin(30°)?",
+          "options": [
+            "0.5",
+            "√3/2",
+            "1",
+            "0"
+          ],
+          "a": 0,
+          "ex": "sin(30°) = 1/2 = 0.5."
+        },
+        {
+          "q": "What is cos(60°)?",
+          "options": [
+            "0.5",
+            "√3/2",
+            "1",
+            "0"
+          ],
+          "a": 0,
+          "ex": "cos(60°) = 1/2 = 0.5."
+        },
+        {
+          "q": "What is tan(45°)?",
+          "options": [
+            "0",
+            "1",
+            "√3",
+            "undefined"
+          ],
+          "a": 1,
+          "ex": "tan(45°) = 1."
+        },
+        {
+          "q": "If sin(θ) = 3/5, what is cos(θ) if θ is an acute angle?",
+          "options": [
+            "3/5",
+            "4/5",
+            "5/4",
+            "5/3"
+          ],
+          "a": 1,
+          "ex": "Using sin²(θ) + cos²(θ) = 1, (3/5)² + cos²(θ) = 1 => 9/25 + cos²(θ) = 1 => cos²(θ) = 16/25 => cos(θ) = 4/5 (since θ is acute)."
+        },
+        {
+          "q": "What is the value of sin²(θ) + cos²(θ)?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "tan²(θ)"
+          ],
+          "a": 1,
+          "ex": "This is a fundamental trigonometric identity: sin²(θ) + cos²(θ) = 1."
+        },
+        {
+          "q": "What is sec(θ) in terms of cos(θ)?",
+          "options": [
+            "sin(θ)",
+            "1/cos(θ)",
+            "cos(θ)/sin(θ)",
+            "1/sin(θ)"
+          ],
+          "a": 1,
+          "ex": "sec(θ) is the reciprocal of cos(θ), so sec(θ) = 1/cos(θ)."
+        },
+        {
+          "q": "What is cot(θ) in terms of tan(θ)?",
+          "options": [
+            "sin(θ)",
+            "1/cos(θ)",
+            "1/tan(θ)",
+            "tan²(θ)"
+          ],
+          "a": 2,
+          "ex": "cot(θ) is the reciprocal of tan(θ), so cot(θ) = 1/tan(θ)."
+        },
+        {
+          "q": "In a right-angled triangle, the side opposite the right angle is called the?",
+          "options": [
+            "Adjacent",
+            "Opposite",
+            "Hypotenuse",
+            "Base"
+          ],
+          "a": 2,
+          "ex": "The side opposite the right angle in a right-angled triangle is called the hypotenuse."
+        },
+        {
+          "q": "What is sin(90°)?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "undefined"
+          ],
+          "a": 2,
+          "ex": "sin(90°) = 1."
+        },
+        {
+          "q": "What is cos(0°)?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "undefined"
+          ],
+          "a": 2,
+          "ex": "cos(0°) = 1."
+        },
+        {
+          "q": "If tan(θ) = 1, what is θ (for 0° ≤ θ < 90°)?",
+          "options": [
+            "0°",
+            "30°",
+            "45°",
+            "60°"
+          ],
+          "a": 2,
+          "ex": "tan(45°) = 1."
+        },
+        {
+          "q": "What is the range of values for sin(θ)?",
+          "options": [
+            "[-1, 1]",
+            "[0, 1]",
+            "(-∞, ∞)",
+            "[0, ∞)"
+          ],
+          "a": 0,
+          "ex": "The values of sin(θ) range from -1 to 1, inclusive."
+        },
+        {
+          "q": "What is the range of values for cos(θ)?",
+          "options": [
+            "[-1, 1]",
+            "[0, 1]",
+            "(-∞, ∞)",
+            "[0, ∞)"
+          ],
+          "a": 0,
+          "ex": "The values of cos(θ) range from -1 to 1, inclusive."
+        },
+        {
+          "q": "What is tan(θ) equal to?",
+          "options": [
+            "sin(θ)cos(θ)",
+            "sin(θ)/cos(θ)",
+            "cos(θ)/sin(θ)",
+            "1 - sin²(θ)"
+          ],
+          "a": 1,
+          "ex": "tan(θ) = sin(θ)/cos(θ)."
+        },
+        {
+          "q": "What is cosec(θ) in terms of sin(θ)?",
+          "options": [
+            "cos(θ)",
+            "1/sin(θ)",
+            "sin(θ)/cos(θ)",
+            "1/cos(θ)"
+          ],
+          "a": 1,
+          "ex": "cosec(θ) is the reciprocal of sin(θ), so cosec(θ) = 1/sin(θ)."
+        },
+        {
+          "q": "What is sin(0°)?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "-1"
+          ],
+          "a": 0,
+          "ex": "sin(0°) = 0."
+        },
+        {
+          "q": "What is cos(90°)?",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "-1"
+          ],
+          "a": 0,
+          "ex": "cos(90°) = 0."
+        },
+        {
+          "q": "The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. What is the length of the ladder?",
+          "options": [
+            "2.3 m",
+            "4.6 m",
+            "9.2 m",
+            "8.0 m"
+          ],
+          "a": 2,
+          "ex": "cos(60°) = adjacent/hypotenuse = 4.6/L. Since cos(60°) = 0.5, 0.5 = 4.6/L => L = 4.6/0.5 = 9.2 m."
+        },
+        {
+          "q": "What is tan(0°)?",
+          "options": [
+            "0",
+            "1",
+            "undefined",
+            "-1"
+          ],
+          "a": 0,
+          "ex": "tan(0°) = sin(0°)/cos(0°) = 0/1 = 0."
+        },
+        {
+          "q": "What is tan(90°)?",
+          "options": [
+            "0",
+            "1",
+            "undefined",
+            "-1"
+          ],
+          "a": 2,
+          "ex": "tan(90°) = sin(90°)/cos(90°) = 1/0, which is undefined."
+        },
+        {
+          "q": "If cos(θ) = 12/13, what is sin(θ) if θ is an acute angle?",
+          "options": [
+            "5/13",
+            "13/12",
+            "5/12",
+            "12/5"
+          ],
+          "a": 0,
+          "ex": "Using sin²(θ) + cos²(θ) = 1, sin²(θ) + (12/13)² = 1 => sin²(θ) + 144/169 = 1 => sin²(θ) = 25/169 => sin(θ) = 5/13."
+        },
+        {
+          "q": "What is the value of 2sin(30°)cos(30°)?",
+          "options": [
+            "sin(60°)",
+            "cos(60°)",
+            "tan(60°)",
+            "1"
+          ],
+          "a": 0,
+          "ex": "This is the double angle formula for sine: sin(2θ) = 2sin(θ)cos(θ). So, 2sin(30°)cos(30°) = sin(2×30°) = sin(60°). sin(60°) = √3/2."
+        },
+        {
+          "q": "What is sin(A + B)?",
+          "options": [
+            "sinAcosB + cosAsinB",
+            "sinAcosB - cosAsinB",
+            "cosAcosB + sinAsinB",
+            "cosAcosB - sinAsinB"
+          ],
+          "a": 0,
+          "ex": "The sum formula for sine is sin(A + B) = sinAcosB + cosAsinB."
+        },
+        {
+          "q": "What is cos(A - B)?",
+          "options": [
+            "sinAcosB + cosAsinB",
+            "sinAcosB - cosAsinB",
+            "cosAcosB + sinAsinB",
+            "cosAcosB - sinAsinB"
+          ],
+          "a": 2,
+          "ex": "The difference formula for cosine is cos(A - B) = cosAcosB + sinAsinB."
+        },
+        {
+          "q": "Convert 180 degrees to radians.",
+          "options": [
+            "π/2 radians",
+            "π radians",
+            "2π radians",
+            "π/4 radians"
+          ],
+          "a": 1,
+          "ex": "To convert degrees to radians, multiply by π/180. So, 180 × (π/180) = π radians."
+        },
+        {
+          "q": "Convert π/3 radians to degrees.",
+          "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+          ],
+          "a": 2,
+          "ex": "To convert radians to degrees, multiply by 180/π. So, (π/3) × (180/π) = 60°."
+        },
+        {
+          "q": "What is the period of the function y = sin(x)?",
+          "options": [
+            "π/2",
+            "π",
+            "2π",
+            "4π"
+          ],
+          "a": 2,
+          "ex": "The period of y = sin(x) is 2π, meaning the function repeats every 2π interval."
+        },
+        {
+          "q": "What is the period of the function y = tan(x)?",
+          "options": [
+            "π/2",
+            "π",
+            "2π",
+            "4π"
+          ],
+          "a": 1,
+          "ex": "The period of y = tan(x) is π, meaning the function repeats every π interval."
+        },
+        {
+          "q": "If a right triangle has legs of length 3 and 4, what is the length of the hypotenuse?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "2.5"
+          ],
+          "a": 0,
+          "ex": "By Pythagorean theorem, a² + b² = c². So, 3² + 4² = c² => 9 + 16 = c² => 25 = c² => c = 5."
+        },
+        {
+          "q": "What is the value of sec²(θ) - tan²(θ)?",
+          "options": [
+            "0",
+            "1",
+            "-1",
+            "sin²(θ)"
+          ],
+          "a": 1,
+          "ex": "This is a Pythagorean identity: 1 + tan²(θ) = sec²(θ), so sec²(θ) - tan²(θ) = 1."
+        }
+      ]
     }
   ]
 }
+  
