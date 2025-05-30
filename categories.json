@@ -29,7 +29,7 @@
     "icon": "💻",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/computer-science.json"
   },
-   {
+  {
     "id": "english",
     "title": "English",
     "icon": "📘",
@@ -41,7 +41,7 @@
     "icon": "📚",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/urdu.json"
   },
-   {
+  {
     "id": "gk",
     "title": "General Knowledge",
     "icon": "🌐",
