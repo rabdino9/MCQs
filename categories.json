@@ -58,5 +58,113 @@
     "title": "World Geography",
     "icon": "🗺️",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/world-geography.json"
+  },
+  {
+    "id": "pakistan-studies",
+    "title": "Pakistan Studies",
+    "icon": "🇵🇰",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/pakistan-studies.json"
+  },
+  {
+    "id": "islamiat",
+    "title": "Islamic Studies",
+    "icon": "☪️",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/islamiat.json"
+  },
+  {
+    "id": "everyday-science",
+    "title": "Everyday Science",
+    "icon": "🔬",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/everyday-science.json"
+  },
+  {
+    "id": "pak-constitution-law",
+    "title": "Pak Constitution & Law",
+    "icon": "📖",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/pak-constitution-law.json"
+  },
+  {
+    "id": "nts-past-papers",
+    "title": "NTS Past Papers",
+    "icon": "📝",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/nts-past-papers.json"
+  },
+  {
+    "id": "ppsc-fpsc-spsc-bpsc-kppsc",
+    "title": "PPSC / FPSC / SPSC / BPSC / KPPSC",
+    "icon": "🏛️",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/ppsc-fpsc-spsc-bpsc-kppsc.json"
+  },
+  {
+    "id": "police-jobs",
+    "title": "Police Jobs",
+    "icon": "👮",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/police-jobs.json"
+  },
+  {
+    "id": "teaching-jobs",
+    "title": "Teaching Jobs",
+    "icon": "👩‍🏫",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/teaching-jobs.json"
+  },
+  {
+    "id": "lecturer-mcqs",
+    "title": "Lecturer MCQs",
+    "icon": "🎓",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/lecturer-mcqs.json"
+  },
+  {
+    "id": "clerk-jobs",
+    "title": "Clerk Jobs",
+    "icon": "🗃️",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/clerk-jobs.json"
+  },
+  {
+    "id": "bank-jobs",
+    "title": "Bank Jobs",
+    "icon": "🏦",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/bank-jobs.json"
+  },
+  {
+    "id": "fia-asf-nab-customs",
+    "title": "FIA / ASF / NAB / Customs",
+    "icon": "🕵️",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/fia-asf-nab-customs.json"
+  },
+  {
+    "id": "public-administration-management",
+    "title": "Public Administration & Management",
+    "icon": "🧑‍💼",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/public-administration-management.json"
+  },
+  {
+    "id": "iq-analytical-reasoning",
+    "title": "IQ / Analytical Reasoning",
+    "icon": "🧠",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/iq-analytical-reasoning.json"
+  },
+  {
+    "id": "logical-reasoning",
+    "title": "Logical Reasoning",
+    "icon": "🧩",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/logical-reasoning.json"
+  },
+  {
+    "id": "basic-arithmetic",
+    "title": "Basic Arithmetic",
+    "icon": "➗",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/basic-arithmetic.json"
+  },
+  {
+    "id": "data-interpretation",
+    "title": "Data Interpretation",
+    "icon": "📊",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/data-interpretation.json"
+  },
+  {
+    "id": "verbal-nonverbal-reasoning",
+    "title": "Verbal & Non-Verbal Reasoning",
+    "icon": "🔍",
+    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/verbal-nonverbal-reasoning.json"
   }
 ]
