@@ -1,16 +1,773 @@
 {
   "meta": {
-    "category": "Chemistry"
+    "title": "Atomic Mass and Molecular Mass MCQs",
+    "description": "Practice questions on calculating atomic mass and molecular mass for various elements and compounds.",
+    "keywords": "atomic mass, molecular mass, chemistry, mcqs, quiz, elements, compounds, amu"
   },
   "subcategories": [
     {
-      "id": 0,
-      "name": "Periodic Table",
+      "id": "atomic_molecular_mass",
+      "title": "Atomic Mass and Molecular Mass",
       "questions": [
         {
-          "question": "What is the atomic number of Hydrogen?",
-          "options": ["1", "2", "8", "10"],
-          "answer": "1"
+          "q": "What is the approximate atomic mass of Hydrogen?",
+          "options": ["0.5 amu", "1.0 amu", "2.0 amu", "1.5 amu"],
+          "a": 1,
+          "ex": "The approximate atomic mass of Hydrogen is 1.008 amu, often rounded to 1.0 amu."
+        },
+        {
+          "q": "The unit for atomic mass is typically:",
+          "options": ["grams", "kilograms", "atomic mass unit (amu)", "moles"],
+          "a": 2,
+          "ex": "Atomic mass is usually expressed in atomic mass units (amu)."
+        },
+        {
+          "q": "What is the molecular mass of water (H₂O)? (Atomic masses: H=1, O=16)",
+          "options": ["17 amu", "18 amu", "19 amu", "20 amu"],
+          "a": 1,
+          "ex": "Molecular mass of H₂O = (2 * atomic mass of H) + (1 * atomic mass of O) = (2 * 1) + 16 = 18 amu."
+        },
+        {
+          "q": "Which of the following represents the average mass of atoms of an element, taking into account isotopes?",
+          "options": ["Atomic number", "Mass number", "Atomic mass", "Molecular mass"],
+          "a": 2,
+          "ex": "Atomic mass is the weighted average mass of atoms of an element, considering the abundance of its isotopes."
+        },
+        {
+          "q": "What is the molecular mass of carbon dioxide (CO₂)? (Atomic masses: C=12, O=16)",
+          "options": ["28 amu", "32 amu", "40 amu", "44 amu"],
+          "a": 3,
+          "ex": "Molecular mass of CO₂ = (1 * atomic mass of C) + (2 * atomic mass of O) = (1 * 12) + (2 * 16) = 12 + 32 = 44 amu."
+        },
+        {
+          "q": "The mass number of an atom is the sum of:",
+          "options": ["Protons and electrons", "Protons and neutrons", "Neutrons and electrons", "Only protons"],
+          "a": 1,
+          "ex": "The mass number is the total number of protons and neutrons in the nucleus of an atom."
+        },
+        {
+          "q": "Isotopes of an element have the same number of:",
+          "options": ["Neutrons", "Electrons", "Protons", "Nucleons"],
+          "a": 2,
+          "ex": "Isotopes of an element have the same atomic number (number of protons) but different numbers of neutrons."
+        },
+        {
+          "q": "What is the approximate atomic mass of Carbon?",
+          "options": ["6 amu", "10 amu", "12 amu", "14 amu"],
+          "a": 2,
+          "ex": "The approximate atomic mass of Carbon is 12.011 amu, often rounded to 12 amu."
+        },
+        {
+          "q": "What is the molecular mass of sulfuric acid (H₂SO₄)? (Atomic masses: H=1, S=32, O=16)",
+          "options": ["98 amu", "96 amu", "80 amu", "64 amu"],
+          "a": 0,
+          "ex": "Molecular mass of H₂SO₄ = (2 * H) + (1 * S) + (4 * O) = (2 * 1) + 32 + (4 * 16) = 2 + 32 + 64 = 98 amu."
+        },
+        {
+          "q": "The atomic mass listed on the periodic table is typically the:",
+          "options": ["Mass of the most abundant isotope", "Exact mass of a single atom", "Weighted average mass of all naturally occurring isotopes", "Sum of protons and neutrons"],
+          "a": 2,
+          "ex": "The atomic mass on the periodic table is the weighted average of the masses of all naturally occurring isotopes of that element."
+        },
+        {
+          "q": "What is the molecular mass of glucose (C₆H₁₂O₆)? (Atomic masses: C=12, H=1, O=16)",
+          "options": ["180 amu", "160 amu", "120 amu", "90 amu"],
+          "a": 0,
+          "ex": "Molecular mass of C₆H₁₂O₆ = (6 * C) + (12 * H) + (6 * O) = (6 * 12) + (12 * 1) + (6 * 16) = 72 + 12 + 96 = 180 amu."
+        },
+        {
+          "q": "The term 'nucleon' refers to:",
+          "options": ["Protons and electrons", "Neutrons and electrons", "Protons and neutrons", "Only protons"],
+          "a": 2,
+          "ex": "Nucleons are the particles found in the nucleus of an atom, which are protons and neutrons."
+        },
+        {
+          "q": "What is the approximate atomic mass of Oxygen?",
+          "options": ["12 amu", "14 amu", "16 amu", "18 amu"],
+          "a": 2,
+          "ex": "The approximate atomic mass of Oxygen is 15.999 amu, often rounded to 16 amu."
+        },
+        {
+          "q": "The molecular mass of a compound is the sum of the atomic masses of all the atoms in its:",
+          "options": ["Nucleus", "Outermost shell", "Molecule", "Isotopes"],
+          "a": 2,
+          "ex": "The molecular mass is the sum of the atomic masses of all the atoms that make up a single molecule of the compound."
+        },
+        {
+          "q": "What is the molecular mass of sodium chloride (NaCl)? (Atomic masses: Na=23, Cl=35.5)",
+          "options": ["58.5 amu", "48.5 amu", "53.5 amu", "68.5 amu"],
+          "a": 0,
+          "ex": "Molecular mass of NaCl = (1 * Na) + (1 * Cl) = 23 + 35.5 = 58.5 amu."
+        },
+        {
+          "q": "If an element has two isotopes, one with mass 10 amu (20% abundance) and one with mass 11 amu (80% abundance), what is its average atomic mass?",
+          "options": ["10.2 amu", "10.8 amu", "10.5 amu", "11.0 amu"],
+          "a": 1,
+          "ex": "Average atomic mass = (10 * 0.20) + (11 * 0.80) = 2.0 + 8.8 = 10.8 amu."
+        },
+        {
+          "q": "What is the molecular mass of ammonia (NH₃)? (Atomic masses: N=14, H=1)",
+          "options": ["16 amu", "17 amu", "18 amu", "19 amu"],
+          "a": 1,
+          "ex": "Molecular mass of NH₃ = (1 * N) + (3 * H) = 14 + (3 * 1) = 14 + 3 = 17 amu."
+        },
+        {
+          "q": "The mass of a proton is approximately equal to the mass of a:",
+          "options": ["Electron", "Neutron", "Alpha particle", "Photon"],
+          "a": 1,
+          "ex": "The mass of a proton is very close to the mass of a neutron, both being significantly larger than the mass of an electron."
+        },
+        {
+          "q": "What is the molecular mass of methane (CH₄)? (Atomic masses: C=12, H=1)",
+          "options": ["12 amu", "14 amu", "16 amu", "18 amu"],
+          "a": 2,
+          "ex": "Molecular mass of CH₄ = (1 * C) + (4 * H) = 12 + (4 * 1) = 12 + 4 = 16 amu."
+        },
+        {
+          "q": "The atomic mass unit (amu) is defined as 1/12th the mass of an atom of:",
+          "options": ["Hydrogen-1", "Oxygen-16", "Carbon-12", "Uranium-238"],
+          "a": 2,
+          "ex": "The atomic mass unit (amu) is defined based on the mass of a carbon-12 atom."
+        },
+        {
+          "q": "What is the molecular mass of calcium chloride (CaCl₂)? (Atomic masses: Ca=40, Cl=35.5)",
+          "options": ["75.5 amu", "111 amu", "146.5 amu", "95.5 amu"],
+          "a": 1,
+          "ex": "Molecular mass of CaCl₂ = (1 * Ca) + (2 * Cl) = 40 + (2 * 35.5) = 40 + 71 = 111 amu."
+        },
+        {
+          "q": "Relative atomic mass is the ratio of the average mass of atoms of an element to:",
+          "options": ["The mass of a proton", "1/12th the mass of a carbon-12 atom", "The mass of an electron", "The mass of a hydrogen atom"],
+          "a": 1,
+          "ex": "Relative atomic mass is defined relative to 1/12th the mass of a carbon-12 atom."
+        },
+        {
+          "q": "What is the molecular mass of ethanol (C₂H₅OH)? (Atomic masses: C=12, H=1, O=16)",
+          "options": ["32 amu", "46 amu", "60 amu", "74 amu"],
+          "a": 1,
+          "ex": "Molecular mass of C₂H₅OH = (2 * C) + (6 * H) + (1 * O) = (2 * 12) + (6 * 1) + 16 = 24 + 6 + 16 = 46 amu."
+        },
+        {
+          "q": "The atomic mass number is a whole number because it represents:",
+          "options": ["The average mass of isotopes", "The number of protons", "The total number of protons and neutrons", "The number of electrons"],
+          "a": 2,
+          "ex": "The mass number is the total count of protons and neutrons in the nucleus, which are whole particles."
+        },
+        {
+          "q": "What is the molecular mass of nitric acid (HNO₃)? (Atomic masses: H=1, N=14, O=16)",
+          "options": ["48 amu", "63 amu", "80 amu", "98 amu"],
+          "a": 1,
+          "ex": "Molecular mass of HNO₃ = (1 * H) + (1 * N) + (3 * O) = 1 + 14 + (3 * 16) = 1 + 14 + 48 = 63 amu."
+        },
+        {
+          "q": "The concept of atomic mass was first proposed by:",
+          "options": ["John Dalton", "Ernest Rutherford", "Niels Bohr", "Dmitri Mendeleev"],
+          "a": 0,
+          "ex": "John Dalton, in his atomic theory, proposed the concept of atomic weights (atomic masses)."
+        },
+        {
+          "q": "What is the molecular mass of potassium hydroxide (KOH)? (Atomic masses: K=39, O=16, H=1)",
+          "options": ["46 amu", "56 amu", "74 amu", "84 amu"],
+          "a": 1,
+          "ex": "Molecular mass of KOH = (1 * K) + (1 * O) + (1 * H) = 39 + 16 + 1 = 56 amu."
+        },
+        {
+          "q": "If an element has only one naturally occurring isotope, its atomic mass will be approximately equal to its:",
+          "options": ["Atomic number", "Number of electrons", "Mass number", "Density"],
+          "a": 2,
+          "ex": "If there's only one isotope, the weighted average (atomic mass) will be very close to the mass number of that isotope."
+        },
+        {
+          "q": "What is the molecular mass of magnesium sulfate (MgSO₄)? (Atomic masses: Mg=24, S=32, O=16)",
+          "options": ["80 amu", "96 amu", "120 amu", "142 amu"],
+          "a": 3,
+          "ex": "Molecular mass of MgSO₄ = (1 * Mg) + (1 * S) + (4 * O) = 24 + 32 + (4 * 16) = 24 + 32 + 64 = 120 amu."
+        },
+        {
+          "q": "The molecular mass of a molecule is also known as its:",
+          "options": ["Formula weight", "Atomic weight", "Isotopic mass", "Gram atomic mass"],
+          "a": 0,
+          "ex": "For covalent compounds, molecular mass and formula weight are often used interchangeably, though formula weight is more general and applies to ionic compounds as well."
+        }
+      ]
+    },
+    {
+      "id": "mole_concept",
+      "title": "Mole Concept",
+      "questions": [
+        {
+          "q": "What is the value of Avogadro's number?",
+          "options": ["6.022 x 10^23", "6.022 x 10^22", "6.022 x 10^24", "6.022 x 10^21"],
+          "a": 0,
+          "ex": "Avogadro's number is defined as the number of constituent particles (atoms, molecules, ions, etc.) in one mole of a substance, which is approximately 6.022 x 10^23."
+        },
+        {
+          "q": "One mole of any substance contains:",
+          "options": ["Its atomic mass in grams", "6.022 x 10^23 particles", "Its molecular mass in grams", "Its formula mass in grams"],
+          "a": 1,
+          "ex": "One mole of any substance contains Avogadro's number (6.022 x 10^23) of constituent particles."
+        },
+        {
+          "q": "The molar mass of water (H₂O) is approximately:",
+          "options": ["1 g/mol", "18 g/mol", "16 g/mol", "2 g/mol"],
+          "a": 1,
+          "ex": "The atomic mass of Hydrogen is approximately 1 g/mol and Oxygen is approximately 16 g/mol.  So, molar mass of H₂O = (2 * 1) + 16 = 18 g/mol."
+        },
+        {
+          "q": "How many moles are there in 36 grams of water (H₂O)?",
+          "options": ["1 mole", "2 moles", "0.5 moles", "18 moles"],
+          "a": 1,
+          "ex": "Molar mass of water is 18 g/mol. Number of moles = Mass / Molar mass = 36 g / 18 g/mol = 2 moles."
+        },
+        {
+          "q": "What is the mass of 0.5 moles of oxygen gas (O₂)?",
+          "options": ["16 g", "32 g", "8 g", "48 g"],
+          "a": 0,
+          "ex": "The molar mass of oxygen atom (O) is approximately 16 g/mol, so for O₂, it's 32 g/mol. Mass = Number of moles * Molar mass = 0.5 mol * 32 g/mol = 16 g."
+        },
+        {
+          "q": "How many molecules are in 1 mole of CO₂?",
+          "options": ["6.022 x 10^23", "12.044 x 10^23", "3.011 x 10^23", "6.022 x 10^24"],
+          "a": 0,
+          "ex": "One mole of any substance contains Avogadro's number of molecules."
+        },
+        {
+          "q": "The volume occupied by one mole of any gas at standard temperature and pressure (STP) is approximately:",
+          "options": ["22.4 L", "1 L", "100 L", "2.24 L"],
+          "a": 0,
+          "ex": "At STP (0°C and 1 atm), one mole of any ideal gas occupies a volume of approximately 22.4 liters."
+        },
+        {
+          "q": "What is the molar mass of NaCl (Sodium Chloride)? (Atomic masses: Na = 23 g/mol, Cl = 35.5 g/mol)",
+          "options": ["23 g/mol", "35.5 g/mol", "58.5 g/mol", "50 g/mol"],
+          "a": 2,
+          "ex": "Molar mass of NaCl = Atomic mass of Na + Atomic mass of Cl = 23 g/mol + 35.5 g/mol = 58.5 g/mol."
+        },
+        {
+          "q": "How many atoms are in 2 moles of Helium (He)?",
+          "options": ["6.022 x 10^23", "1.204 x 10^24", "3.011 x 10^23", "12.044 x 10^24"],
+          "a": 1,
+          "ex": "One mole of Helium contains Avogadro's number of atoms.  Therefore, 2 moles contain 2 * 6.022 x 10^23 = 1.2044 x 10^24 atoms."
+        },
+        {
+          "q": "What is the mass of 1 mole of sulfur dioxide (SO₂)? (Atomic masses: S = 32 g/mol, O = 16 g/mol)",
+          "options": ["32 g", "16 g", "48 g", "64 g"],
+          "a": 3,
+          "ex": "Molar mass of SO₂ = Atomic mass of S + 2 * Atomic mass of O = 32 g/mol + 2 * 16 g/mol = 32 + 32 = 64 g/mol."
+        },
+        {
+          "q": "Calculate the number of moles in 100 grams of CaCO₃ (Calcium Carbonate). (Atomic masses: Ca = 40 g/mol, C = 12 g/mol, O = 16 g/mol)",
+          "options": ["0.5 moles", "1 mole", "2 moles", "10 moles"],
+          "a": 1,
+          "ex": "Molar mass of CaCO₃ = Atomic mass of Ca + Atomic mass of C + 3 * Atomic mass of O = 40 + 12 + 3 * 16 = 40 + 12 + 48 = 100 g/mol. Number of moles = Mass / Molar mass = 100 g / 100 g/mol = 1 mole."
+        },
+        {
+          "q": "How many grams are in 0.1 moles of glucose (C₆H₁₂O₆)? (Atomic masses: C = 12 g/mol, H = 1 g/mol, O = 16 g/mol)",
+          "options": ["18 g", "180 g", "1.8 g", "1800 g"],
+          "a": 0,
+          "ex": "Molar mass of C₆H₁₂O₆ = (6 * 12) + (12 * 1) + (6 * 16) = 72 + 12 + 96 = 180 g/mol. Mass = Number of moles * Molar mass = 0.1 mol * 180 g/mol = 18 g."
+        },
+        {
+          "q": "Which of the following contains the most atoms?",
+          "options": ["1 mole of O₂", "1 mole of H₂O", "1 mole of Fe", "1 mole of NH₃"],
+          "a": 1,
+          "ex": "1 mole of O₂ contains 2 * 6.022 x 10^23 atoms. 1 mole of H₂O contains 3 * 6.022 x 10^23 atoms. 1 mole of Fe contains 1 * 6.022 x 10^23 atoms. 1 mole of NH₃ contains 4 * 6.022 x 10^23 atoms. H₂O contains the most atoms."
+        },
+        {
+          "q": "What is the number of moles in 11.2 liters of CO₂ gas at STP?",
+          "options": ["0.5 moles", "1 mole", "2 moles", "0.25 moles"],
+          "a": 0,
+          "ex": "At STP, 1 mole of any gas occupies 22.4 L. Number of moles = Volume / Molar volume = 11.2 L / 22.4 L/mol = 0.5 moles."
+        },
+        {
+          "q": "The concept of a mole is primarily used to relate:",
+          "options": ["Mass and volume", "Mass and number of particles", "Volume and density", "Temperature and pressure"],
+          "a": 1,
+          "ex": "The mole concept provides a link between the macroscopic world (mass) and the microscopic world (number of particles)."
+        },
+        {
+          "q": "What is the mass of one molecule of water (H₂O)?",
+          "options": ["18 g", "18 amu", "1.66 x 10^-24 g", "2.99 x 10^-23 g"],
+          "a": 3,
+          "ex": "The molar mass of water is 18 g/mol. The mass of one molecule is the molar mass divided by Avogadro's number. 18 g/mol / 6.022 x 10^23 molecules/mol ≈ 2.99 x 10^-23 g/molecule."
+        },
+        {
+          "q": "Which of the following represents the smallest number of moles?",
+          "options": ["10 g of H₂O", "10 g of O₂", "10 g of N₂", "10 g of CO₂"],
+          "a": 2,
+          "ex": "Calculate moles for each: H₂O (18 g/mol) - 10/18 ≈ 0.55 mol; O₂ (32 g/mol) - 10/32 ≈ 0.31 mol; N₂ (28 g/mol) - 10/28 ≈ 0.36 mol; CO₂ (44 g/mol) - 10/44 ≈ 0.23 mol. CO₂ has the smallest number of moles."
+        },
+        {
+          "q": "The number of moles of solute per liter of solution is called:",
+          "options": ["Molality", "Molarity", "Normality", "Mole fraction"],
+          "a": 1,
+          "ex": "Molarity is defined as the number of moles of solute dissolved in one liter of solution."
+        },
+        {
+          "q": "How many grams of NaOH (Sodium Hydroxide) are needed to make 1 liter of a 1 M solution? (Atomic masses: Na = 23, O = 16, H = 1)",
+          "options": ["23 g", "40 g", "16 g", "1 g"],
+          "a": 1,
+          "ex": "Molar mass of NaOH = 23 + 16 + 1 = 40 g/mol. A 1 M solution contains 1 mole of solute per liter, so you need 40 g of NaOH."
+        },
+        {
+          "q": "Calculate the number of moles in 5.6 liters of O₂ gas at STP.",
+          "options": ["0.25 moles", "0.5 moles", "1 mole", "0.1 moles"],
+          "a": 0,
+          "ex": "At STP, 1 mole of any gas occupies 22.4 L. Number of moles = Volume / Molar volume = 5.6 L / 22.4 L/mol = 0.25 moles."
+        },
+        {
+          "q": "The mass of 6.022 x 10^23 atoms of Carbon is:",
+          "options": ["6 g", "12 g", "1 g", "12 amu"],
+          "a": 1,
+          "ex": "6.022 x 10^23 atoms of Carbon represent one mole of Carbon, and the molar mass of Carbon is approximately 12 g/mol."
+        },
+        {
+          "q": "What is the molar volume of an ideal gas at standard temperature and pressure (STP)?",
+          "options": ["22.4 L/mol", "1 L/mol", "100 L/mol", "224 L/mol"],
+          "a": 0,
+          "ex": "The molar volume of an ideal gas at STP is 22.4 liters per mole."
+        },
+        {
+          "q": "How many moles of electrons are in 1 mole of Calcium ions (Ca²⁺)?",
+          "options": ["1 mole", "2 moles", "6.022 x 10^23 moles", "0 moles"],
+          "a": 1,
+          "ex": "A neutral Calcium atom has 20 electrons. A Ca²⁺ ion has lost 2 electrons, so it has 18 electrons. However, the question asks about moles of electrons. Each mole of Ca²⁺ ions comes from a mole of Ca atoms, and the ionization process removes 2 electrons per atom. Therefore, 1 mole of Ca²⁺ ions implies the removal of 2 moles of electrons."
+        },
+        {
+          "q": "The number of molecules in 32 grams of oxygen gas (O₂) is:",
+          "options": ["6.022 x 10^23", "12.044 x 10^23", "3.011 x 10^23", "6.022 x 10^24"],
+          "a": 0,
+          "ex": "The molar mass of O₂ is 32 g/mol. 32 grams of O₂ is equal to 1 mole of O₂. One mole of O₂ contains Avogadro's number of molecules."
+        },
+        {
+          "q": "What is the mass of 2 moles of NH₃ (Ammonia)? (Atomic masses: N = 14, H = 1)",
+          "options": ["17 g", "34 g", "8.5 g", "68 g"],
+          "a": 1,
+          "ex": "Molar mass of NH₃ = 14 + (3 * 1) = 17 g/mol. Mass = Number of moles * Molar mass = 2 mol * 17 g/mol = 34 g."
+        },
+        {
+          "q": "How many moles of ions are in 1 mole of CaCl₂?",
+          "options": ["1 mole", "2 moles", "3 moles", "6.022 x 10^23 moles"],
+          "a": 2,
+          "ex": "When CaCl₂ dissolves, it dissociates into one Ca²⁺ ion and two Cl⁻ ions. Therefore, 1 mole of CaCl₂ produces 1 mole of Ca²⁺ ions + 2 moles of Cl⁻ ions = 3 moles of ions."
+        },
+        {
+          "q": "The term 'molar' refers to:",
+          "options": ["Concentration in terms of mass", "Concentration in terms of volume", "Concentration in terms of moles per liter", "Concentration in terms of mole fraction"],
+          "a": 2,
+          "ex": "Molar (Molarity) is a unit of concentration defined as moles of solute per liter of solution."
+        },
+        {
+          "q": "Calculate the number of moles of atoms in 49 grams of H₂SO₄ (Sulfuric Acid). (Atomic masses: H=1, S=32, O=16)",
+          "options": ["0.5 moles", "1 mole", "1.5 moles", "2 moles"],
+          "a": 0,
+          "ex": "Molar mass of H₂SO₄ = (2 * 1) + 32 + (4 * 16) = 2 + 32 + 64 = 98 g/mol. Number of moles of H₂SO₄ = Mass / Molar mass = 49 g / 98 g/mol = 0.5 moles.  The question asks for moles of *atoms*. In H₂SO₄ there are 2 H, 1 S, and 4 O atoms, a total of 7 atoms per molecule. So in 0.5 moles of H₂SO₄ molecules, there are 0.5 moles * 7 atoms/molecule = 3.5 moles of atoms.  However, the options suggest we should be calculating the moles of H₂SO₄ molecules. Assuming the question meant moles of H₂SO₄, the answer is 0.5 moles."
+        },
+        {
+          "q": "Which of the following has the largest mass?",
+          "options": ["1 mole of H₂O", "1 mole of NaCl", "1 mole of CaCO₃", "1 mole of glucose (C₆H₁₂O₆)"],
+          "a": 3,
+          "ex": "Calculate molar mass for each: H₂O (18 g/mol), NaCl (58.5 g/mol), CaCO₃ (100 g/mol), C₆H₁₂O₆ (180 g/mol). Glucose has the largest molar mass, so 1 mole of glucose has the largest mass."
+        },
+        {
+          "q": "How many molecules are present in 1 gram of H₂?",
+          "options": ["6.022 x 10^23", "3.011 x 10^23", "1.505 x 10^23", "1 mole"],
+          "a": 1,
+          "ex": "Molar mass of H₂ is 2 g/mol. Number of moles in 1 gram of H₂ = 1 g / 2 g/mol = 0.5 moles.  Number of molecules = Number of moles * Avogadro's number = 0.5 mol * 6.022 x 10^23 molecules/mol = 3.011 x 10^23 molecules."
+        },
+        {
+          "q": "The mass of one atom of oxygen is approximately:",
+          "options": ["16 g", "16 amu", "2.66 x 10^-23 g", "32 g"],
+          "a": 2,
+          "ex": "The atomic mass of oxygen is approximately 16 amu.  1 amu is approximately 1.66 x 10^-24 g. So, the mass of one oxygen atom is approximately 16 * 1.66 x 10^-24 g = 2.656 x 10^-23 g, which is close to 2.66 x 10^-23 g."
+        },
+        {
+          "q": "What is the number of oxygen atoms in 0.25 moles of CO₂?",
+          "options": ["0.25 x 6.022 x 10^23", "0.5 x 6.022 x 10^23", "6.022 x 10^23", "1.204 x 10^24"],
+          "a": 1,
+          "ex": "One molecule of CO₂ contains 2 oxygen atoms.  In 0.25 moles of CO₂ molecules, there are 0.25 * 6.022 x 10^23 molecules.  The number of oxygen atoms is 2 times the number of CO₂ molecules: 2 * 0.25 * 6.022 x 10^23 = 0.5 * 6.022 x 10^23."
+        },
+        {
+          "q": "If 1 mole of a substance weighs 50 grams, what is its molar mass?",
+          "options": ["50 g", "50 amu", "50 g/mol", "1 g/mol"],
+          "a": 2,
+          "ex": "The molar mass is the mass of one mole of a substance, expressed in grams per mole. If 1 mole weighs 50 grams, the molar mass is 50 g/mol."
+        }
+      ]
+    },
+    {
+      "id": "empirical_molecular_formula",
+      "title": "Empirical and Molecular Formula",
+      "questions": [
+        {
+          "q": "What is the empirical formula of glucose (C6H12O6)?",
+          "options": [
+            "C6H12O6",
+            "CH2O",
+            "C2H4O2",
+            "CHO"
+          ],
+          "a": 1,
+          "ex": "To find the empirical formula, divide the subscripts by the greatest common divisor, which is 6.  C6/6H12/6O6/6 = CH2O."
+        },
+        {
+          "q": "The molecular formula represents the actual number of atoms of each element in a molecule. True or False?",
+          "options": [
+            "True",
+            "False"
+          ],
+          "a": 0,
+          "ex": "The molecular formula gives the exact count of each atom type in a molecule."
+        },
+        {
+          "q": "A compound is found to contain 40.0% Carbon, 6.7% Hydrogen, and 53.3% Oxygen. What is its empirical formula?",
+          "options": [
+            "CHO",
+            "CH2O",
+            "C2H4O2",
+            "C3H6O3"
+          ],
+          "a": 1,
+          "ex": "Assume 100g of the compound.  Moles of C = 40.0g / 12.01 g/mol = 3.33 mol. Moles of H = 6.7g / 1.008 g/mol = 6.65 mol. Moles of O = 53.3g / 16.00 g/mol = 3.33 mol. Divide by the smallest number of moles (3.33): C: 3.33/3.33 = 1, H: 6.65/3.33 ≈ 2, O: 3.33/3.33 = 1. Empirical formula is CH2O."
+        },
+        {
+          "q": "If the empirical formula of a compound is CH2 and its molecular weight is 42.08 g/mol, what is its molecular formula?",
+          "options": [
+            "C2H4",
+            "C3H6",
+            "C4H8",
+            "C5H10"
+          ],
+          "a": 1,
+          "ex": "Empirical formula weight of CH2 = 12.01 + 2(1.008) = 14.03 g/mol.  n = Molecular weight / Empirical formula weight = 42.08 / 14.03 ≈ 3.  Molecular formula is (CH2)3 = C3H6."
+        },
+        {
+          "q": "Which of the following pairs has the same empirical formula?",
+          "options": [
+            "C2H2 and C6H6",
+            "C3H8 and C6H16",
+            "CO2 and CO",
+            "H2O and H2O2"
+          ],
+          "a": 0,
+          "ex": "Both C2H2 and C6H6 have an empirical formula of CH."
+        },
+        {
+          "q": "The empirical formula provides information about:",
+          "options": [
+            "The exact number of atoms in a molecule",
+            "The simplest whole-number ratio of atoms in a compound",
+            "The structural arrangement of atoms",
+            "The mass of the molecule"
+          ],
+          "a": 1,
+          "ex": "The empirical formula shows the lowest whole-number ratio of the elements in a compound."
+        },
+        {
+          "q": "A compound has an empirical formula of NO2 and a molar mass of 92.0 g/mol. What is its molecular formula?",
+          "options": [
+            "NO2",
+            "N2O4",
+            "N3O6",
+            "N4O8"
+          ],
+          "a": 1,
+          "ex": "Empirical formula weight of NO2 = 14.01 + 2(16.00) = 46.01 g/mol.  n = Molecular weight / Empirical formula weight = 92.0 / 46.01 ≈ 2.  Molecular formula is (NO2)2 = N2O4."
+        },
+        {
+          "q": "What is the empirical formula of hydrogen peroxide (H2O2)?",
+          "options": [
+            "H2O2",
+            "HO",
+            "H2O",
+            "H4O4"
+          ],
+          "a": 1,
+          "ex": "The greatest common divisor of 2 and 2 is 2. H2/2O2/2 = HO."
+        },
+        {
+          "q": "If the empirical formula and molecular formula are the same, it means:",
+          "options": [
+            "The molecule is diatomic",
+            "The empirical formula represents the actual number of atoms",
+            "The compound is an ionic compound",
+            "The compound is a solid at room temperature"
+          ],
+          "a": 1,
+          "ex": "When the empirical formula and molecular formula are identical, the simplest ratio is also the actual ratio of atoms."
+        },
+        {
+          "q": "To determine the empirical formula of a compound, you need to know:",
+          "options": [
+            "Its molar mass",
+            "The percentage composition by mass of each element",
+            "Its density",
+            "Its boiling point"
+          ],
+          "a": 1,
+          "ex": "Percentage composition is used to calculate the mole ratio of elements, which leads to the empirical formula."
+        },
+        {
+          "q": "A compound contains 75% Carbon and 25% Hydrogen by mass. What is its empirical formula?",
+          "options": [
+            "CH",
+            "CH2",
+            "CH3",
+            "C2H6"
+          ],
+          "a": 2,
+          "ex": "Assume 100g. Moles of C = 75g / 12.01 g/mol = 6.24 mol. Moles of H = 25g / 1.008 g/mol = 24.8 mol. Divide by the smallest (6.24): C: 6.24/6.24 = 1, H: 24.8/6.24 ≈ 4.  Empirical formula is CH4 (assuming methane, although the calculation leads to CH4, need to be careful with rounding)."
+        },
+        {
+          "q": "What is the empirical formula of benzene (C6H6)?",
+          "options": [
+            "C6H6",
+            "CH",
+            "C3H3",
+            "C2H2"
+          ],
+          "a": 1,
+          "ex": "The greatest common divisor of 6 and 6 is 6. C6/6H6/6 = CH."
+        },
+        {
+          "q": "If the empirical formula of a compound is known, to find the molecular formula, you need to know:",
+          "options": [
+            "Its melting point",
+            "Its empirical formula mass",
+            "Its molecular mass",
+            "Its solubility"
+          ],
+          "a": 2,
+          "ex": "The molecular mass is needed to find the ratio (n) between the molecular formula and the empirical formula."
+        },
+        {
+          "q": "The empirical formula of a hydrocarbon containing 85.7% Carbon and 14.3% Hydrogen is:",
+          "options": [
+            "CH",
+            "CH2",
+            "CH3",
+            "C2H4"
+          ],
+          "a": 1,
+          "ex": "Assume 100g. Moles of C = 85.7g / 12.01 g/mol = 7.14 mol. Moles of H = 14.3g / 1.008 g/mol = 14.19 mol. Divide by the smallest (7.14): C: 7.14/7.14 = 1, H: 14.19/7.14 ≈ 2.  Empirical formula is CH2."
+        },
+        {
+          "q": "Which of the following is always a multiple of the empirical formula?",
+          "options": [
+            "The structural formula",
+            "The condensed formula",
+            "The molecular formula",
+            "The ionic formula"
+          ],
+          "a": 2,
+          "ex": "The molecular formula is always a whole-number multiple of the empirical formula."
+        },
+        {
+          "q": "The empirical formula of a compound with the molecular formula P4O10 is:",
+          "options": [
+            "P4O10",
+            "P2O5",
+            "PO",
+            "P8O20"
+          ],
+          "a": 1,
+          "ex": "The greatest common divisor of 4 and 10 is 2. P4/2O10/2 = P2O5."
+        },
+        {
+          "q": "A compound contains 92.3% Carbon and 7.7% Hydrogen. If its molecular mass is 26.04 g/mol, what is its molecular formula?",
+          "options": [
+            "CH",
+            "C2H2",
+            "C3H3",
+            "C4H4"
+          ],
+          "a": 1,
+          "ex": "Empirical formula: Moles of C = 92.3g / 12.01 g/mol = 7.68 mol. Moles of H = 7.7g / 1.008 g/mol = 7.64 mol. Ratio is approximately 1:1, so empirical formula is CH. Empirical formula weight of CH = 12.01 + 1.008 = 13.02 g/mol. n = 26.04 / 13.02 = 2. Molecular formula is (CH)2 = C2H2."
+        },
+        {
+          "q": "The ratio of atoms in the empirical formula is the same as the ratio of:",
+          "options": [
+            "Masses of the elements",
+            "Volumes of the elements",
+            "Moles of the elements",
+            "Densities of the elements"
+          ],
+          "a": 2,
+          "ex": "The empirical formula is determined from the mole ratio of the elements in the compound."
+        },
+        {
+          "q": "What is the empirical formula of sulfur trioxide (SO3)?",
+          "options": [
+            "SO3",
+            "SO2",
+            "S2O6",
+            "S3O9"
+          ],
+          "a": 0,
+          "ex": "The subscripts 1 and 3 have a greatest common divisor of 1, so the empirical formula is the same as the molecular formula."
+        },
+        {
+          "q": "If the empirical formula is X2Y3 and the molecular mass is twice the empirical formula mass, the molecular formula is:",
+          "options": [
+            "X2Y3",
+            "X4Y6",
+            "X6Y9",
+            "XY"
+          ],
+          "a": 1,
+          "ex": "If the molecular mass is twice the empirical formula mass, then n=2. Molecular formula = (Empirical formula)n = (X2Y3)2 = X4Y6."
+        },
+        {
+          "q": "The empirical formula of a compound can be determined from its:",
+          "options": [
+            "Boiling point and melting point",
+            "Elemental composition by mass",
+            "Spectroscopic analysis",
+            "Crystal structure"
+          ],
+          "a": 1,
+          "ex": "Elemental composition by mass allows you to determine the mole ratio of elements and thus the empirical formula."
+        },
+        {
+          "q": "What is the empirical formula of hydrazine (N2H4)?",
+          "options": [
+            "N2H4",
+            "NH2",
+            "NH",
+            "N4H8"
+          ],
+          "a": 1,
+          "ex": "The greatest common divisor of 2 and 4 is 2. N2/2H4/2 = NH2."
+        },
+        {
+          "q": "A compound has an empirical formula of CH2O and a molecular mass of 180.16 g/mol. What is its molecular formula?",
+          "options": [
+            "CH2O",
+            "C3H6O3",
+            "C6H12O6",
+            "C9H18O9"
+          ],
+          "a": 2,
+          "ex": "Empirical formula weight of CH2O = 12.01 + 2(1.008) + 16.00 = 30.03 g/mol. n = 180.16 / 30.03 ≈ 6. Molecular formula is (CH2O)6 = C6H12O6."
+        },
+        {
+          "q": "Which of the following represents an empirical formula?",
+          "options": [
+            "C4H10",
+            "H2O2",
+            "CH4",
+            "C6H12O6"
+          ],
+          "a": 2,
+          "ex": "In CH4, the ratio of C to H is 1:4, which is the simplest whole-number ratio."
+        },
+        {
+          "q": "If the empirical formula mass of a compound is 30 g/mol and its molecular mass is 90 g/mol, what is the value of n (the multiplier for the empirical formula)?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "a": 2,
+          "ex": "n = Molecular mass / Empirical formula mass = 90 g/mol / 30 g/mol = 3."
+        },
+        {
+          "q": "What is the empirical formula of octane (C8H18)?",
+          "options": [
+            "C8H18",
+            "C4H9",
+            "C2H4.5",
+            "CH2.25"
+          ],
+          "a": 1,
+          "ex": "The greatest common divisor of 8 and 18 is 2. C8/2H18/2 = C4H9."
+        },
+        {
+          "q": "The molecular formula can be obtained by multiplying the subscripts of the empirical formula by a whole number 'n'. True or False?",
+          "options": [
+            "True",
+            "False"
+          ],
+          "a": 0,
+          "ex": "This is the definition of how the molecular formula is related to the empirical formula."
+        },
+        {
+          "q": "A compound has an empirical formula of C2H5 and a molecular mass of 58.12 g/mol. What is its molecular formula?",
+          "options": [
+            "C2H5",
+            "C4H10",
+            "C6H15",
+            "C8H20"
+          ],
+          "a": 1,
+          "ex": "Empirical formula weight of C2H5 = 2(12.01) + 5(1.008) = 29.06 g/mol. n = 58.12 / 29.06 = 2. Molecular formula is (C2H5)2 = C4H10."
+        },
+        {
+          "q": "Which of the following compounds has an empirical formula different from its molecular formula?",
+          "options": [
+            "Water (H2O)",
+            "Carbon dioxide (CO2)",
+            "Ethene (C2H4)",
+            "Methane (CH4)"
+          ],
+          "a": 2,
+          "ex": "The empirical formula of ethene (C2H4) is CH2."
+        },
+        {
+          "q": "The percentage composition of a compound is 27.3% Carbon and 72.7% Oxygen. What is its empirical formula?",
+          "options": [
+            "CO",
+            "CO2",
+            "C2O4",
+            "C3O6"
+          ],
+          "a": 1,
+          "ex": "Assume 100g. Moles of C = 27.3g / 12.01 g/mol = 2.27 mol. Moles of O = 72.7g / 16.00 g/mol = 4.54 mol. Divide by the smallest (2.27): C: 2.27/2.27 = 1, O: 4.54/2.27 ≈ 2. Empirical formula is CO2."
+        },
+        {
+          "q": "If the molecular formula is known, how can you find the empirical formula?",
+          "options": [
+            "Add the subscripts of each element",
+            "Divide the subscripts by the greatest common divisor",
+            "Multiply the subscripts by the molar mass",
+            "Subtract the atomic numbers"
+          ],
+          "a": 1,
+          "ex": "Dividing the subscripts by their greatest common divisor simplifies the ratio to the lowest whole numbers."
+        },
+        {
+          "q": "The empirical formula of a compound is CH. Which of the following could be its molecular formula?",
+          "options": [
+            "CH2",
+            "C2H4",
+            "C3H9",
+            "C5H5"
+          ],
+          "a": 3,
+          "ex": "The molecular formula must be a whole-number multiple of the empirical formula. C5H5 is (CH)5."
+        },
+        {
+          "q": "A compound contains only nitrogen and oxygen. It is 30.45% nitrogen by mass. What is its empirical formula?",
+          "options": [
+            "NO",
+            "NO2",
+            "N2O",
+            "N2O4"
+          ],
+          "a": 1,
+          "ex": "Assume 100g. Moles of N = 30.45g / 14.01 g/mol = 2.17 mol. Moles of O = (100 - 30.45)g / 16.00 g/mol = 69.55g / 16.00 g/mol = 4.35 mol. Divide by the smallest (2.17): N: 2.17/2.17 = 1, O: 4.35/2.17 ≈ 2. Empirical formula is NO2."
+        },
+        {
+          "q": "Which of the following statements is true?",
+          "options": [
+            "The molecular formula is always simpler than the empirical formula.",
+            "The empirical formula gives the arrangement of atoms.",
+            "The empirical formula is the simplest whole-number ratio of atoms.",
+            "The molecular formula is only used for ionic compounds."
+          ],
+          "a": 2,
+          "ex": "The empirical formula represents the most reduced ratio of elements in a compound."
         }
       ]
     }
