@@ -1,19 +1,693 @@
 {
   "meta": {
-    "category": "Computer Science"
+    "title": "Computer Science MCQs",
+    "description": "Practice questions on History and Generation of Computers.",
+    "keywords": "computer science, history, generations, vacuum tubes, transistors"
   },
   "subcategories": [
     {
-      "id": 0,
-      "name": "Programming Basics",
+      "id": "history-gen-computers",
+      "title": "History and Generation of Computers",
       "questions": [
         {
-          "question": "Which of these is a programming language?",
-          "options": ["HTML", "Python", "HTTP", "CSS"],
-          "answer": "Python"
+          "q": "Which generation of computers used vacuum tubes?",
+          "options": ["First", "Second", "Third", "Fourth"],
+          "a": 0,
+          "ex": "First-generation computers (1940s–1950s) used vacuum tubes for processing."
+        },
+        {
+          "q": "What technology replaced vacuum tubes in the second generation?",
+          "options": ["Transistors", "Integrated Circuits", "Microprocessors", "Quantum Chips"],
+          "a": 0,
+          "ex": "Transistors (1950s–1960s) were smaller, faster, and more energy-efficient."
+        },
+        {
+          "q": "ENIAC was primarily designed for:",
+          "options": ["Business applications", "Military calculations", "Personal computing", "Gaming"],
+          "a": 1,
+          "ex": "ENIAC (1945) was built to calculate artillery trajectories for the U.S. Army."
+        },
+        {
+          "q": "Which generation introduced integrated circuits (ICs)?",
+          "options": ["First", "Second", "Third", "Fourth"],
+          "a": 2,
+          "ex": "Third-generation computers (1960s–1970s) used ICs, enabling smaller and faster systems."
+        },
+        {
+          "q": "UNIVAC was an example of:",
+          "options": ["First-gen", "Second-gen", "Third-gen", "Fourth-gen"],
+          "a": 0,
+          "ex": "UNIVAC (1951) was a first-gen computer using vacuum tubes."
+        },
+        {
+          "q": "The microprocessor was introduced in which generation?",
+          "options": ["Second", "Third", "Fourth", "Fifth"],
+          "a": 2,
+          "ex": "Fourth-gen (1970s–present) uses microprocessors (VLSI technology)."
+        },
+        {
+          "q": "What was the main limitation of vacuum tubes?",
+          "options": ["High cost", "Large size and heat", "Slow speed", "Limited programming"],
+          "a": 1,
+          "ex": "Vacuum tubes were bulky, consumed high power, and generated excessive heat."
+        },
+        {
+          "q": "Which early computer used punched cards for input?",
+          "options": ["ENIAC", "UNIVAC", "Harvard Mark I", "IBM 1401"],
+          "a": 2,
+          "ex": "Harvard Mark I (1944) used punched paper tape for programming."
+        },
+        {
+          "q": "The term 'bug' in computing originated from:",
+          "options": ["A moth in Harvard Mark II", "A software error in ENIAC", "A transistor failure", "A punched card misalignment"],
+          "a": 0,
+          "ex": "A moth caused a hardware fault in Harvard Mark II (1947), coined as the first 'debugging'."
+        },
+        {
+          "q": "Which generation introduced high-level programming languages like COBOL?",
+          "options": ["First", "Second", "Third", "Fourth"],
+          "a": 1,
+          "ex": "Second-gen (1950s–1960s) saw languages like COBOL and FORTRAN."
+        },
+        {
+          "q": "EDSAC was developed in:",
+          "options": ["USA", "UK", "Germany", "Japan"],
+          "a": 1,
+          "ex": "EDSAC (1949) was the first practical stored-program computer, built in the UK."
+        },
+        {
+          "q": "The IBM 360 series belonged to which generation?",
+          "options": ["First", "Second", "Third", "Fourth"],
+          "a": 2,
+          "ex": "IBM 360 (1964) was a third-gen system using ICs."
+        },
+        {
+          "q": "What characterized fifth-generation computers?",
+          "options": ["Vacuum tubes", "AI and parallel processing", "Microprocessors", "Transistors"],
+          "a": 1,
+          "ex": "Fifth-gen (1980s–present) focuses on AI, ULSI, and quantum computing."
+        },
+        {
+          "q": "Who is considered the 'father of the computer'?",
+          "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Grace Hopper"],
+          "a": 1,
+          "ex": "Babbage designed the Analytical Engine (1837), a precursor to modern computers."
+        },
+        {
+          "q": "The von Neumann architecture is based on:",
+          "options": ["Separate storage for data/instructions", "Stored-program concept", "Analog calculations", "Mechanical parts"],
+          "a": 1,
+          "ex": "Von Neumann's design (1945) stored both data and instructions in memory."
+        },
+        {
+          "q": "Which first-gen computer was binary-based?",
+          "options": ["ENIAC", "UNIVAC", "Z3", "Harvard Mark I"],
+          "a": 2,
+          "ex": "Konrad Zuse's Z3 (1941) was the first binary programmable computer."
+        },
+        {
+          "q": "The first electronic general-purpose computer was:",
+          "options": ["ABC", "ENIAC", "Colossus", "UNIVAC"],
+          "a": 1,
+          "ex": "ENIAC (1945) was the first Turing-complete electronic computer."
+        },
+        {
+          "q": "What was the primary storage in first-gen computers?",
+          "options": ["Magnetic core", "Punched cards", "Hard disks", "SSDs"],
+          "a": 1,
+          "ex": "Punched cards and paper tape were used for input/output and storage."
+        },
+        {
+          "q": "Which company dominated the second-gen computer market?",
+          "options": ["IBM", "Microsoft", "Apple", "Intel"],
+          "a": 0,
+          "ex": "IBM's 7000 series (e.g., 7090) were iconic second-gen systems."
+        },
+        {
+          "q": "The Apple I (1976) belonged to which generation?",
+          "options": ["Second", "Third", "Fourth", "Fifth"],
+          "a": 2,
+          "ex": "Apple I used a microprocessor (MOS 6502), making it fourth-gen."
+        },
+        {
+          "q": "What innovation defined third-gen computers?",
+          "options": ["Operating systems", "Time-sharing", "Both A and B", "None"],
+          "a": 2,
+          "ex": "Third-gen introduced OSes (e.g., UNIX) and time-sharing for multitasking."
+        },
+        {
+          "q": "Which early computer was used for code-breaking in WWII?",
+          "options": ["ENIAC", "Colossus", "UNIVAC", "Harvard Mark I"],
+          "a": 1,
+          "ex": "Colossus (1943) decrypted German messages at Bletchley Park."
+        },
+        {
+          "q": "The Cray-1 supercomputer was:",
+          "options": ["First-gen", "Second-gen", "Third-gen", "Fourth-gen"],
+          "a": 3,
+          "ex": "Cray-1 (1976) was a fourth-gen vector-processing supercomputer."
+        },
+        {
+          "q": "What replaced magnetic core memory in fourth-gen computers?",
+          "options": ["SSDs", "Semiconductor RAM", "Punched cards", "Vacuum tubes"],
+          "a": 1,
+          "ex": "Semiconductor RAM (DRAM/SRAM) became standard in the 1970s."
+        },
+        {
+          "q": "Which generation saw the rise of personal computers?",
+          "options": ["Second", "Third", "Fourth", "Fifth"],
+          "a": 2,
+          "ex": "Fourth-gen (1970s–1980s) brought PCs like Apple II and IBM PC."
+        }
+      ]
+    },
+    {
+      "id": "types-of-computers",
+      "title": "Types of Computers",
+      "questions": [
+        {
+          "q": "Which type of computer is designed for a single user?",
+          "options": ["Mainframe", "Supercomputer", "Personal Computer", "Server"],
+          "a": 2,
+          "ex": "Personal Computers (PCs) are designed for individual use."
+        },
+        {
+          "q": "What is the primary purpose of a supercomputer?",
+          "options": ["Business applications", "Scientific research", "Personal gaming", "Word processing"],
+          "a": 1,
+          "ex": "Supercomputers are used for complex calculations in scientific and engineering fields."
+        },
+        {
+          "q": "Which of these is an example of a mainframe computer?",
+          "options": ["IBM zSeries", "Apple MacBook", "Raspberry Pi", "PlayStation"],
+          "a": 0,
+          "ex": "IBM zSeries are powerful mainframes used for critical enterprise applications."
+        },
+        {
+          "q": "Embedded computers are commonly found in:",
+          "options": ["ATMs", "Laptops", "Tablets", "Desktop PCs"],
+          "a": 0,
+          "ex": "Embedded systems are specialized computers built into larger systems like ATMs or traffic lights."
+        },
+        {
+          "q": "What distinguishes a workstation from a regular PC?",
+          "options": ["Lower cost", "Higher performance", "Smaller size", "No internet connectivity"],
+          "a": 1,
+          "ex": "Workstations offer superior performance for specialized tasks like 3D rendering."
+        },
+        {
+          "q": "Which type of computer is designed to provide services to other computers?",
+          "options": ["Personal Computer", "Server", "Embedded System", "Laptop"],
+          "a": 1,
+          "ex": "Servers provide shared resources or services to client computers."
+        },
+        {
+          "q": "Quantum computers differ from classical computers by using:",
+          "options": ["Transistors", "Vacuum tubes", "Qubits", "Integrated circuits"],
+          "a": 2,
+          "ex": "Quantum computers use quantum bits (qubits) that can exist in superposition states."
+        },
+        {
+          "q": "Which computer type would be most suitable for weather forecasting?",
+          "options": ["Personal Computer", "Tablet", "Supercomputer", "Smartphone"],
+          "a": 2,
+          "ex": "Supercomputers can process massive datasets required for weather modeling."
+        },
+        {
+          "q": "What is a characteristic of a minicomputer?",
+          "options": ["Single-user system", "Fits in the palm of your hand", "Mid-range computing power", "Uses vacuum tubes"],
+          "a": 2,
+          "ex": "Minicomputers are mid-sized systems between mainframes and microcomputers."
+        },
+        {
+          "q": "Which of these is NOT a portable computer?",
+          "options": ["Laptop", "Tablet", "Mainframe", "Smartphone"],
+          "a": 2,
+          "ex": "Mainframes are large, non-portable systems designed for enterprise use."
+        },
+        {
+          "q": "What type of computer would a bank most likely use for transaction processing?",
+          "options": ["Mainframe", "Game console", "Smartwatch", "Calculator"],
+          "a": 0,
+          "ex": "Mainframes handle high-volume transaction processing for banks."
+        },
+        {
+          "q": "Which computer type is designed to be worn on the body?",
+          "options": ["Desktop", "Wearable computer", "Server", "Supercomputer"],
+          "a": 1,
+          "ex": "Wearable computers like smartwatches are designed for personal use on the body."
+        },
+        {
+          "q": "What is the primary advantage of a thin client?",
+          "options": ["High processing power", "Low cost and maintenance", "Large storage capacity", "Independent operation"],
+          "a": 1,
+          "ex": "Thin clients rely on servers for processing, reducing local hardware requirements."
+        },
+        {
+          "q": "Which type of computer is most suitable for airline reservation systems?",
+          "options": ["Mainframe", "PDA", "Calculator", "Game console"],
+          "a": 0,
+          "ex": "Mainframes handle large-scale, real-time transaction systems like airline reservations."
+        },
+        {
+          "q": "What distinguishes a microcomputer from other types?",
+          "options": ["Use of vacuum tubes", "Single-chip processor", "Room-sized footprint", "Only used by governments"],
+          "a": 1,
+          "ex": "Microcomputers are built around a single microprocessor chip."
+        },
+        {
+          "q": "Which computer type would be used for controlling traffic lights?",
+          "options": ["Embedded system", "Supercomputer", "Mainframe", "Workstation"],
+          "a": 0,
+          "ex": "Embedded systems are specialized for control applications like traffic management."
+        },
+        {
+          "q": "What is a characteristic of a server computer?",
+          "options": ["Always portable", "High reliability", "Single-user design", "Low uptime requirements"],
+          "a": 1,
+          "ex": "Servers are built for high reliability and continuous operation."
+        },
+        {
+          "q": "Which of these is an example of a handheld computer?",
+          "options": ["Mainframe", "PDA", "Supercomputer", "Desktop"],
+          "a": 1,
+          "ex": "PDAs (Personal Digital Assistants) are early examples of handheld computers."
+        },
+        {
+          "q": "What type of computer is specifically designed for playing video games?",
+          "options": ["Mainframe", "Game console", "Server", "Thin client"],
+          "a": 1,
+          "ex": "Game consoles are optimized for gaming performance and experience."
+        },
+        {
+          "q": "Which computer type is most likely to use a RISC processor?",
+          "options": ["Mainframe", "Embedded system", "1940s vacuum tube computer", "Abacus"],
+          "a": 1,
+          "ex": "Embedded systems often use RISC processors for efficiency."
+        },
+        {
+          "q": "What is the primary use of a blade server?",
+          "options": ["Personal gaming", "Data center operations", "Portable computing", "Analog calculations"],
+          "a": 1,
+          "ex": "Blade servers are compact systems designed for data center deployment."
+        },
+        {
+          "q": "Which type of computer would be used for computer-aided design (CAD)?",
+          "options": ["Workstation", "Smartphone", "Calculator", "Game console"],
+          "a": 0,
+          "ex": "Workstations provide the power needed for CAD applications."
+        },
+        {
+          "q": "What distinguishes a tablet computer from a laptop?",
+          "options": ["Larger size", "Touchscreen interface", "Higher cost", "More powerful processor"],
+          "a": 1,
+          "ex": "Tablets primarily use touchscreen interfaces rather than keyboards/mice."
+        },
+        {
+          "q": "Which computer type is most energy efficient?",
+          "options": ["Supercomputer", "Mainframe", "Embedded system", "1960s mainframe"],
+          "a": 2,
+          "ex": "Embedded systems are optimized for low power consumption."
+        },
+        {
+          "q": "What is a common feature of all modern personal computers?",
+          "options": ["Use vacuum tubes", "Microprocessor-based", "Room-sized", "Analog technology"],
+          "a": 1,
+          "ex": "All modern PCs are built around microprocessor technology."
+        }
+      ]
+    },
+    {
+      "id": "number-systems",
+      "title": "Number Systems (Binary, Octal, Decimal, Hexadecimal)",
+      "questions": [
+        {
+          "q": "What is the decimal equivalent of binary 1010?",
+          "options": ["8", "10", "12", "14"],
+          "a": 1,
+          "ex": "1010 in binary is 1×2³ + 0×2² + 1×2¹ + 0×2⁰ = 8 + 0 + 2 + 0 = 10 in decimal."
+        },
+        {
+          "q": "The hexadecimal number 'F' represents decimal:",
+          "options": ["15", "16", "31", "10"],
+          "a": 0,
+          "ex": "In hexadecimal, A=10, B=11, ..., F=15."
+        },
+        {
+          "q": "Which number system has a base of 8?",
+          "options": ["Binary", "Octal", "Decimal", "Hexadecimal"],
+          "a": 1,
+          "ex": "Octal system uses base-8 (digits 0-7)."
+        },
+        {
+          "q": "What is the binary equivalent of decimal 15?",
+          "options": ["1110", "1111", "1010", "1100"],
+          "a": 1,
+          "ex": "15 in decimal is 8 + 4 + 2 + 1 = 1111 in binary."
+        },
+        {
+          "q": "How many bits are needed to represent decimal 32?",
+          "options": ["4", "5", "6", "7"],
+          "a": 1,
+          "ex": "2⁵ = 32, so 5 bits are needed (100000 in binary)."
+        },
+        {
+          "q": "The octal number 17 represents decimal:",
+          "options": ["15", "17", "13", "21"],
+          "a": 0,
+          "ex": "Octal 17 = 1×8¹ + 7×8⁰ = 8 + 7 = 15 in decimal."
+        },
+        {
+          "q": "Which of these is NOT a valid hexadecimal digit?",
+          "options": ["A", "F", "G", "9"],
+          "a": 2,
+          "ex": "Hexadecimal uses 0-9 and A-F (where G is invalid)."
+        },
+        {
+          "q": "What is 1101 in binary minus 101 in binary?",
+          "options": ["100", "1000", "1010", "111"],
+          "a": 1,
+          "ex": "1101 (13) - 101 (5) = 1000 (8) in binary."
+        },
+        {
+          "q": "The two's complement representation is used for:",
+          "options": ["Fractional numbers", "Negative numbers", "Hexadecimal conversion", "Octal arithmetic"],
+          "a": 1,
+          "ex": "Two's complement is a method to represent signed (positive/negative) numbers."
+        },
+        {
+          "q": "What is the hexadecimal equivalent of binary 11001100?",
+          "options": ["CC", "FF", "12", "3C"],
+          "a": 0,
+          "ex": "11001100 = CC in hex (split as 1100=C and 1100=C)."
+        },
+        {
+          "q": "Which number system is most commonly used in digital circuits?",
+          "options": ["Decimal", "Binary", "Octal", "Hexadecimal"],
+          "a": 1,
+          "ex": "Binary (base-2) directly represents on/off states in electronics."
+        },
+        {
+          "q": "The BCD (Binary Coded Decimal) representation of decimal 9 is:",
+          "options": ["1000", "1001", "1010", "1100"],
+          "a": 1,
+          "ex": "BCD encodes each decimal digit separately (9 = 1001)."
+        },
+        {
+          "q": "What is the result of binary 101 AND 011?",
+          "options": ["001", "111", "101", "011"],
+          "a": 0,
+          "ex": "Bitwise AND: 1∧0=0, 0∧1=0, 1∧1=1 → 001."
+        },
+        {
+          "q": "The largest 4-bit binary number is:",
+          "options": ["1111", "1000", "1010", "0000"],
+          "a": 0,
+          "ex": "1111 in binary equals 15 in decimal (the maximum 4-bit value)."
+        },
+        {
+          "q": "What is the octal equivalent of hexadecimal 'A'?",
+          "options": ["10", "12", "15", "20"],
+          "a": 1,
+          "ex": "Hex A (decimal 10) = Octal 12 (1×8¹ + 2×8⁰)."
+        },
+        {
+          "q": "Which operation is used to convert decimal to binary?",
+          "options": ["Division by 2", "Multiplication by 2", "Subtraction", "Square root"],
+          "a": 0,
+          "ex": "Repeated division-by-2 with remainders gives binary digits."
+        },
+        {
+          "q": "The binary number 10101.101 equals decimal:",
+          "options": ["21.625", "20.5", "22.75", "19.375"],
+          "a": 0,
+          "ex": "10101 = 16+4+1=21, .101 = 0.5+0.125=0.625 → 21.625."
+        },
+        {
+          "q": "What is the hexadecimal result of 7 + 9?",
+          "options": ["G", "16", "10", "F"],
+          "a": 2,
+          "ex": "7 + 9 = 16 in decimal, which is '10' in hexadecimal."
+        },
+        {
+          "q": "Which is the correct binary fraction for decimal 0.75?",
+          "options": ["0.10", "0.01", "0.11", "0.00"],
+          "a": 2,
+          "ex": "0.75 = 0.5 + 0.25 → 0.11 in binary."
+        },
+        {
+          "q": "The Gray code is used primarily for:",
+          "options": ["Arithmetic operations", "Error correction", "Minimizing bit transitions", "Data compression"],
+          "a": 2,
+          "ex": "Gray code ensures only one bit changes between adjacent numbers."
+        },
+        {
+          "q": "What is the 8-bit two's complement representation of -5?",
+          "options": ["11111010", "11111011", "00000101", "10000101"],
+          "a": 1,
+          "ex": "+5 = 00000101, invert → 11111010, +1 → 11111011."
+        },
+        {
+          "q": "The binary subtraction 1010 - 0101 equals:",
+          "options": ["0101", "0111", "1001", "1101"],
+          "a": 0,
+          "ex": "1010 (10) - 0101 (5) = 0101 (5)."
+        },
+        {
+          "q": "Which number system uses digits 0-7?",
+          "options": ["Binary", "Octal", "Decimal", "Hexadecimal"],
+          "a": 1,
+          "ex": "Octal is base-8 (digits 0-7)."
+        },
+        {
+          "q": "The hexadecimal number '1A3' equals decimal:",
+          "options": ["419", "323", "290", "513"],
+          "a": 0,
+          "ex": "1A3 = 1×256 + 10×16 + 3×1 = 419."
+        },
+        {
+          "q": "What is the binary equivalent of octal 45?",
+          "options": ["100101", "101101", "110101", "100111"],
+          "a": 0,
+          "ex": "Octal 45 → 4=100, 5=101 → 100101."
+        },
+        {
+          "q": "Which of these represents an even number in binary?",
+          "options": ["1101", "1010", "1111", "1001"],
+          "a": 1,
+          "ex": "Even numbers end with 0 in binary (1010 = 10 in decimal)."
+        },
+        {
+          "q": "The 1's complement of binary 1100 is:",
+          "options": ["0011", "1100", "1011", "0100"],
+          "a": 0,
+          "ex": "1's complement flips all bits (1100 → 0011)."
+        },
+        {
+          "q": "What is the result of binary 110 XOR 101?",
+          "options": ["011", "111", "100", "010"],
+          "a": 0,
+          "ex": "Bitwise XOR: 1⊕1=0, 1⊕0=1, 0⊕1=1 → 011."
+        },
+        {
+          "q": "The hexadecimal system is often used in computing because:",
+          "options": ["It matches decimal exactly", "It's more compact than binary", "It has no arithmetic errors", "It's easier for humans than octal"],
+          "a": 1,
+          "ex": "Hex (base-16) concisely represents binary (1 hex digit = 4 binary digits)."
+        },
+        {
+          "q": "What is the decimal value of the binary floating-point 1.1×2³?",
+          "options": ["6", "12", "3.5", "24"],
+          "a": 1,
+          "ex": "1.1 in binary = 1.5 in decimal. 1.5 × 2³ = 12."
+        }
+      ]
+    },
+    {
+      "id": "logic-gates-boolean-algebra",
+      "title": "Logic Gates and Boolean Algebra",
+      "questions": [
+        {
+          "q": "Which logic gate outputs 1 only when all inputs are 1?",
+          "options": ["AND", "OR", "NOT", "XOR"],
+          "a": 0,
+          "ex": "AND gate follows the rule: 1 AND 1 = 1; all other combinations = 0."
+        },
+        {
+          "q": "The Boolean expression for a NOT gate with input A is:",
+          "options": ["A + B", "A · B", "Ā", "A ⊕ B"],
+          "a": 2,
+          "ex": "NOT gate inverts the input (Ā represents NOT A)."
+        },
+        {
+          "q": "What is the output of an XOR gate when both inputs are 1?",
+          "options": ["0", "1", "Undefined", "Same as input"],
+          "a": 0,
+          "ex": "XOR outputs 1 only when inputs differ (1 XOR 1 = 0)."
+        },
+        {
+          "q": "Which gate is called the 'universal gate'?",
+          "options": ["AND", "OR", "NAND", "XOR"],
+          "a": 2,
+          "ex": "NAND (and NOR) gates can construct all other gates."
+        },
+        {
+          "q": "The Boolean expression A + A.B simplifies to:",
+          "options": ["A", "B", "A.B", "A + B"],
+          "a": 0,
+          "ex": "By Absorption Law: A + A.B = A(1 + B) = A."
+        },
+        {
+          "q": "Which gate implements the logical OR operation?",
+          "options": ["AND", "OR", "NAND", "NOR"],
+          "a": 1,
+          "ex": "OR gate outputs 1 if any input is 1."
+        },
+        {
+          "q": "The complement of A.B (A AND B) is:",
+          "options": ["Ā + B̄", "Ā · B̄", "A + B", "A ⊕ B"],
+          "a": 0,
+          "ex": "De Morgan's Law: Complement of A.B = Ā + B̄."
+        },
+        {
+          "q": "A NOR gate is equivalent to:",
+          "options": ["AND followed by NOT", "OR followed by NOT", "XOR followed by NOT", "NAND followed by NOT"],
+          "a": 1,
+          "ex": "NOR = NOT OR (OR gate output inverted)."
+        },
+        {
+          "q": "The Boolean expression for a 2-input NAND gate is:",
+          "options": ["A + B", "A · B", "A ⊕ B", "A · B"],
+          "a": 3,
+          "ex": "NAND = NOT AND (A · B is inverted)."
+        },
+        {
+          "q": "Which law states A + Ā = 1?",
+          "options": ["Identity Law", "Complement Law", "Associative Law", "Distributive Law"],
+          "a": 1,
+          "ex": "Complement Law: A variable OR its complement always equals 1."
+        },
+        {
+          "q": "The number of possible inputs for a 3-input AND gate is:",
+          "options": ["4", "6", "8", "10"],
+          "a": 2,
+          "ex": "2³ = 8 possible combinations (000 to 111)."
+        },
+        {
+          "q": "Which gate is this truth table representing?\nInputs: 00=1, 01=1, 10=1, 11=0",
+          "options": ["AND", "OR", "NAND", "NOR"],
+          "a": 2,
+          "ex": "NAND outputs 0 only when all inputs are 1."
+        },
+        {
+          "q": "The dual of the Boolean expression A + B = B + A is:",
+          "options": ["A · B = B · A", "Ā + B̄ = B̄ + Ā", "A ⊕ B = B ⊕ A", "A + B̄ = B̄ + A"],
+          "a": 0,
+          "ex": "Dual swaps '+' with '.' and 1s with 0s (commutativity holds for both)."
+        },
+        {
+          "q": "Which gate is used to implement binary addition?",
+          "options": ["AND", "OR", "XOR", "NOT"],
+          "a": 2,
+          "ex": "XOR computes sum, AND computes carry in half-adders."
+        },
+        {
+          "q": "The Boolean expression A + Ā.B simplifies to:",
+          "options": ["A", "A + B", "Ā + B", "A.B"],
+          "a": 1,
+          "ex": "A + Ā.B = (A + Ā)(A + B) = 1.(A + B) = A + B."
+        },
+        {
+          "q": "Which of these is NOT a valid Boolean algebra law?",
+          "options": ["A + A = A", "A + 1 = 1", "A + B = B + A", "A + B = A · B"],
+          "a": 3,
+          "ex": "OR (+) and AND (·) are not equivalent operations."
+        },
+        {
+          "q": "A 2-input XOR gate can be built using:",
+          "options": ["4 NAND gates", "2 AND gates", "1 NOR gate", "3 NOT gates"],
+          "a": 0,
+          "ex": "XOR = ((A NAND (A NAND B)) NAND ((B NAND (A NAND B)))."
+        },
+        {
+          "q": "The output of an OR gate with inputs A=0 and B=1 is:",
+          "options": ["0", "1", "Undefined", "Z"],
+          "a": 1,
+          "ex": "OR outputs 1 if any input is 1 (0 OR 1 = 1)."
+        },
+        {
+          "q": "Which theorem converts between sum-of-products and product-of-sums?",
+          "options": ["De Morgan's", "Distributive", "Associative", "Commutative"],
+          "a": 0,
+          "ex": "De Morgan's Theorem: (A+B)' = A'·B' and (A·B)' = A' + B'."
+        },
+        {
+          "q": "The Boolean expression (A + B)(A + C) simplifies to:",
+          "options": ["A + B.C", "A.B + A.C", "A + B + C", "A.B.C"],
+          "a": 0,
+          "ex": "By Distributive Law: (A+B)(A+C) = A + B.C."
+        },
+        {
+          "q": "Which logic family is known for low power consumption?",
+          "options": ["TTL", "CMOS", "ECL", "RTL"],
+          "a": 1,
+          "ex": "CMOS (Complementary Metal-Oxide-Semiconductor) is power-efficient."
+        },
+        {
+          "q": "The Boolean expression A ⊕ A is always:",
+          "options": ["A", "Ā", "0", "1"],
+          "a": 2,
+          "ex": "XOR of a variable with itself is 0 (A ⊕ A = 0)."
+        },
+        {
+          "q": "Which gate is used to detect odd parity?",
+          "options": ["AND", "OR", "XOR", "NOT"],
+          "a": 2,
+          "ex": "XOR outputs 1 for odd numbers of 1s (odd parity)."
+        },
+        {
+          "q": "The Boolean expression A + A.B̄ simplifies to:",
+          "options": ["A", "B", "A + B", "A.B"],
+          "a": 0,
+          "ex": "A + A.B̄ = A(1 + B̄) = A (since 1 + B̄ = 1)."
+        },
+        {
+          "q": "Which IC number represents a quad 2-input AND gate?",
+          "options": ["7400", "7402", "7404", "7408"],
+          "a": 3,
+          "ex": "7408 is a quad 2-input AND gate IC."
+        },
+        {
+          "q": "The Boolean expression (A + B)' is equivalent to:",
+          "options": ["A' + B'", "A' · B'", "A · B", "A ⊕ B"],
+          "a": 1,
+          "ex": "De Morgan's Law: (A + B)' = A' · B'."
+        },
+        {
+          "q": "Which logic gate has an output that is the complement of an AND gate?",
+          "options": ["OR", "NAND", "NOR", "XOR"],
+          "a": 1,
+          "ex": "NAND = NOT AND."
+        },
+        {
+          "q": "The Boolean expression A.B + A.B̄ simplifies to:",
+          "options": ["A", "B", "A + B", "0"],
+          "a": 0,
+          "ex": "A.B + A.B̄ = A(B + B̄) = A(1) = A."
+        },
+        {
+          "q": "Which gate is used to construct a half-adder?",
+          "options": ["AND + OR", "XOR + AND", "NAND + NOR", "NOT + OR"],
+          "a": 1,
+          "ex": "Half-adder: XOR for sum, AND for carry."
+        },
+        {
+          "q": "The Boolean expression A + (A · B) simplifies to:",
+          "options": ["A", "B", "A · B", "A + B"],
+          "a": 0,
+          "ex": "A + (A · B) = A by Absorption Law."
         }
       ]
     }
   ]
 }
-
