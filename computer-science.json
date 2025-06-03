@@ -3786,6 +3786,564 @@
           "ex": "Merging two sorted arrays of total size n requires examining each element once: O(n)."
         }
          ]
+    },
+    {
+      "id": "recursion",
+      "title": "Recursion",
+      "questions": [
+        {
+          "q": "What is the essential component that prevents infinite recursion?",
+          "options": ["Recursive case", "Base case", "Return statement", "Loop condition"],
+          "a": 1,
+          "ex": "Base case provides termination condition for recursion, preventing infinite recursive calls."
+        },
+        {
+          "q": "What happens when a recursive function lacks a proper base case?",
+          "options": ["Compilation error", "Stack overflow", "Infinite loop", "Memory leak"],
+          "a": 1,
+          "ex": "Without base case, recursive calls continue indefinitely until call stack is exhausted, causing stack overflow."
+        },
+        {
+          "q": "What is the space complexity of a recursive function with maximum depth d?",
+          "options": ["O(1)", "O(d)", "O(2^d)", "O(d²)"],
+          "a": 1,
+          "ex": "Each recursive call uses stack space, so maximum depth d requires O(d) space for call stack."
+        },
+        {
+          "q": "What is tail recursion?",
+          "options": ["Recursion at the end of program", "Recursive call is the last operation", "Recursion with multiple base cases", "Recursion using tail pointer"],
+          "a": 1,
+          "ex": "Tail recursion occurs when recursive call is the last operation in the function, allowing optimization."
+        },
+        {
+          "q": "What is the time complexity of calculating factorial using recursion?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Factorial recursion makes n recursive calls: fact(n) → fact(n-1) → ... → fact(1), giving O(n)."
+        },
+        {
+          "q": "Which data structure is implicitly used in recursion?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "a": 1,
+          "ex": "System call stack stores function calls, parameters, and return addresses for recursive functions."
+        },
+        {
+          "q": "What is the base case for calculating factorial of n?",
+          "options": ["n = 0", "n = 1", "n = 0 or n = 1", "n < 0"],
+          "a": 2,
+          "ex": "Factorial base cases: 0! = 1 and 1! = 1, both return 1 to terminate recursion."
+        },
+        {
+          "q": "What is direct recursion?",
+          "options": ["Function calls itself", "Function calls another recursive function", "Recursion with single base case", "Linear recursion"],
+          "a": 0,
+          "ex": "Direct recursion occurs when a function calls itself directly within its own definition."
+        },
+        {
+          "q": "What is indirect recursion?",
+          "options": ["Function calls itself indirectly through other functions", "Recursion with multiple parameters", "Recursion without base case", "Non-linear recursion"],
+          "a": 0,
+          "ex": "Indirect recursion occurs when function A calls function B, which eventually calls function A."
+        },
+        {
+          "q": "What is the time complexity of naive recursive Fibonacci calculation?",
+          "options": ["O(n)", "O(n²)", "O(2^n)", "O(log n)"],
+          "a": 2,
+          "ex": "Naive Fibonacci recursion creates binary tree of calls with exponential growth: O(2^n)."
+        },
+        {
+          "q": "How can we optimize recursive Fibonacci calculation?",
+          "options": ["Use iteration", "Use memoization", "Use dynamic programming", "All of the above"],
+          "a": 3,
+          "ex": "All approaches can optimize Fibonacci: iteration (O(n)), memoization (O(n)), and DP (O(n))."
+        },
+        {
+          "q": "What is the recursive case in binary search?",
+          "options": ["Search entire array", "Search left or right half", "Search both halves", "Return middle element"],
+          "a": 1,
+          "ex": "Binary search recursively searches either left half (if target < mid) or right half (if target > mid)."
+        },
+        {
+          "q": "What is tree recursion?",
+          "options": ["Recursion on trees only", "Function makes multiple recursive calls", "Recursion with tree structure", "Binary recursion"],
+          "a": 1,
+          "ex": "Tree recursion occurs when function makes multiple recursive calls, creating tree-like call structure."
+        },
+        {
+          "q": "What is the advantage of tail recursion?",
+          "options": ["Easier to understand", "Can be optimized to iteration", "Uses less memory", "Both B and C"],
+          "a": 3,
+          "ex": "Tail recursion can be optimized by compilers to iteration, eliminating stack overhead and using less memory."
+        },
+        {
+          "q": "What is the recursive relation for Tower of Hanoi with n disks?",
+          "options": ["T(n) = T(n-1) + 1", "T(n) = 2T(n-1) + 1", "T(n) = T(n-1) + T(n-2)", "T(n) = nT(n-1)"],
+          "a": 1,
+          "ex": "Tower of Hanoi: move n-1 disks, move largest disk, move n-1 disks again: T(n) = 2T(n-1) + 1."
+        },
+        {
+          "q": "What is the minimum number of moves for Tower of Hanoi with n disks?",
+          "options": ["n", "2n", "2^n - 1", "n²"],
+          "a": 2,
+          "ex": "Tower of Hanoi requires minimum 2^n - 1 moves to transfer n disks following the rules."
+        },
+        {
+          "q": "What is memoization in recursive functions?",
+          "options": ["Storing function parameters", "Caching results of function calls", "Optimizing base cases", "Reducing recursive depth"],
+          "a": 1,
+          "ex": "Memoization stores results of expensive function calls to avoid redundant calculations in recursion."
+        },
+        {
+          "q": "Which traversal algorithms use recursion naturally?",
+          "options": ["BFS", "DFS", "Level order", "Iterative deepening"],
+          "a": 1,
+          "ex": "Depth-First Search (DFS) naturally uses recursion to explore deeper levels before backtracking."
+        },
+        {
+          "q": "What is the base case for recursive binary search?",
+          "options": ["Array is empty", "Element found", "low > high", "All of the above"],
+          "a": 3,
+          "ex": "Binary search base cases: element found (return index), low > high (element not found), empty array."
+        },
+        {
+          "q": "What is linear recursion?",
+          "options": ["Recursion in linear time", "Function makes single recursive call", "Recursion on linear data structures", "Iterative recursion"],
+          "a": 1,
+          "ex": "Linear recursion occurs when function makes at most one recursive call, creating linear call sequence."
+        },
+        {
+          "q": "What is the space complexity of recursive factorial calculation?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Recursive factorial creates n stack frames for calls fact(n) to fact(1), requiring O(n) space."
+        },
+        {
+          "q": "What is mutual recursion?",
+          "options": ["Two functions calling each other", "Function calling itself twice", "Recursive functions sharing variables", "Parallel recursion"],
+          "a": 0,
+          "ex": "Mutual recursion occurs when two or more functions call each other recursively."
+        },
+        {
+          "q": "What happens during the 'unwinding' phase of recursion?",
+          "options": ["Making recursive calls", "Returning from recursive calls", "Processing base case", "Stack overflow"],
+          "a": 1,
+          "ex": "Unwinding occurs when base case is reached and control returns through previous recursive calls."
+        },
+        {
+          "q": "What is the recursive definition of GCD using Euclidean algorithm?",
+          "options": ["gcd(a,b) = gcd(b, a%b)", "gcd(a,b) = gcd(a-b, b)", "gcd(a,b) = gcd(a/2, b/2)", "gcd(a,b) = a + b"],
+          "a": 0,
+          "ex": "Euclidean algorithm: gcd(a,b) = gcd(b, a mod b) with base case gcd(a,0) = a."
+        },
+        {
+          "q": "Which problem is NOT typically solved using recursion?",
+          "options": ["Tree traversal", "Factorial calculation", "Linear search", "Divide and conquer algorithms"],
+          "a": 2,
+          "ex": "Linear search is typically implemented iteratively as it doesn't benefit from recursive structure."
+        },
+        {
+          "q": "What is the call stack in recursion?",
+          "options": ["Stack data structure in program", "System stack storing function calls", "User-defined stack", "Stack of parameters"],
+          "a": 1,
+          "ex": "Call stack is system-maintained stack that stores function call information including parameters and return addresses."
+        },
+        {
+          "q": "What is backtracking?",
+          "options": ["Reversing recursion", "Algorithmic technique using recursion", "Error in recursion", "Tail recursion optimization"],
+          "a": 1,
+          "ex": "Backtracking is algorithmic approach that uses recursion to explore solutions and backtracks when path fails."
+        },
+        {
+          "q": "What is the time complexity of recursive merge sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(2^n)"],
+          "a": 1,
+          "ex": "Merge sort recursion: T(n) = 2T(n/2) + O(n), which solves to O(n log n)."
+        },
+        {
+          "q": "What is primitive recursion?",
+          "options": ["Simple recursion", "Recursion with guaranteed termination", "Basic recursive functions", "Elementary recursion"],
+          "a": 1,
+          "ex": "Primitive recursion is class of recursive functions guaranteed to terminate, following specific structural rules."
+        },
+        {
+          "q": "What is the recursive case for calculating power(x, n)?",
+          "options": ["power(x, n-1) * x", "power(x*x, n/2)", "Both A and B are valid", "power(x, n) = x^n"],
+          "a": 2,
+          "ex": "Both approaches work: linear recursion power(x, n-1) * x and efficient power(x*x, n/2) for even n."
+        }
+      ]
+    },
+    {
+      "id": "intro-databases",
+      "title": "Introduction to Databases",
+      "questions": [
+        {
+          "q": "What is a database?",
+          "options": ["Collection of programs", "Collection of related data", "Collection of files", "Collection of applications"],
+          "a": 1,
+          "ex": "Database is an organized collection of related data stored and accessed electronically."
+        },
+        {
+          "q": "What does DBMS stand for?",
+          "options": ["Database Management System", "Data Base Management Software", "Database Manipulation System", "Data Management System"],
+          "a": 0,
+          "ex": "DBMS stands for Database Management System - software that manages database operations."
+        },
+        {
+          "q": "What is the main advantage of using a database over file systems?",
+          "options": ["Faster access", "Data redundancy elimination", "Simpler structure", "Less storage space"],
+          "a": 1,
+          "ex": "Databases eliminate data redundancy by storing each piece of data only once and providing controlled access."
+        },
+        {
+          "q": "What is data redundancy?",
+          "options": ["Data backup", "Duplicate data storage", "Data security", "Data compression"],
+          "a": 1,
+          "ex": "Data redundancy occurs when same data is stored in multiple places, leading to inconsistency and waste."
+        },
+        {
+          "q": "What is data integrity?",
+          "options": ["Data security", "Data accuracy and consistency", "Data backup", "Data compression"],
+          "a": 1,
+          "ex": "Data integrity ensures data accuracy, consistency, and reliability throughout its lifecycle."
+        },
+        {
+          "q": "What is a Database Administrator (DBA)?",
+          "options": ["Database user", "Person who manages database systems", "Database programmer", "Database analyst"],
+          "a": 1,
+          "ex": "DBA is responsible for managing, maintaining, securing, and optimizing database systems."
+        },
+        {
+          "q": "What is metadata?",
+          "options": ["Data about data", "Large data", "Encrypted data", "Compressed data"],
+          "a": 0,
+          "ex": "Metadata is data that describes other data, including structure, constraints, and relationships."
+        },
+        {
+          "q": "What is data independence?",
+          "options": ["Data security", "Ability to change data structure without affecting applications", "Data backup", "Data encryption"],
+          "a": 1,
+          "ex": "Data independence allows changes to data storage or structure without modifying application programs."
+        },
+        {
+          "q": "What are the main components of a DBMS?",
+          "options": ["Hardware only", "Software only", "Hardware, software, data, and users", "Data and applications"],
+          "a": 2,
+          "ex": "DBMS components include hardware, software, data, procedures, and people (users and administrators)."
+        },
+        {
+          "q": "What is concurrent access in databases?",
+          "options": ["Single user access", "Multiple users accessing simultaneously", "Sequential access", "Random access"],
+          "a": 1,
+          "ex": "Concurrent access allows multiple users to access and modify database simultaneously while maintaining consistency."
+        },
+        {
+          "q": "What is data security in databases?",
+          "options": ["Data backup", "Protection against unauthorized access", "Data compression", "Data sorting"],
+          "a": 1,
+          "ex": "Data security involves protecting database from unauthorized access, modification, or destruction."
+        },
+        {
+          "q": "What is the difference between data and information?",
+          "options": ["No difference", "Data is processed information", "Information is processed data", "Data is larger than information"],
+          "a": 2,
+          "ex": "Data consists of raw facts, while information is processed data that provides meaningful insights."
+        },
+        {
+          "q": "What is a database schema?",
+          "options": ["Database data", "Database structure and organization", "Database queries", "Database users"],
+          "a": 1,
+          "ex": "Database schema defines the logical structure, organization, and constraints of database elements."
+        },
+        {
+          "q": "What is data abstraction in databases?",
+          "options": ["Data encryption", "Hiding complex implementation details", "Data compression", "Data sorting"],
+          "a": 1,
+          "ex": "Data abstraction hides complex physical storage details and provides simplified logical view to users."
+        },
+        {
+          "q": "What are the levels of data abstraction?",
+          "options": ["Physical and logical", "Internal, conceptual, and external", "User and system", "Application and database"],
+          "a": 1,
+          "ex": "Three levels: Internal (physical storage), Conceptual (logical structure), External (user views)."
+        },
+        {
+          "q": "What is a database instance?",
+          "options": ["Database structure", "Database at a particular moment", "Database backup", "Database query"],
+          "a": 1,
+          "ex": "Database instance is the actual data stored in database at a specific point in time."
+        },
+        {
+          "q": "What is the primary purpose of a database?",
+          "options": ["Data storage only", "Data processing only", "Efficient data storage, retrieval, and management", "Data display only"],
+          "a": 2,
+          "ex": "Databases provide efficient storage, retrieval, management, and sharing of data with integrity and security."
+        },
+        {
+          "q": "What is data consistency?",
+          "options": ["Data backup", "Data remains accurate across all copies", "Data compression", "Data encryption"],
+          "a": 1,
+          "ex": "Data consistency ensures all copies of data are identical and accurate throughout the system."
+        },
+        {
+          "q": "What is a database transaction?",
+          "options": ["Database query", "Unit of database operations", "Database backup", "Database connection"],
+          "a": 1,
+          "ex": "Transaction is a logical unit of database operations that must be completed entirely or not at all."
+        },
+        {
+          "q": "What is data sharing in databases?",
+          "options": ["Data backup", "Multiple users accessing same data", "Data transfer", "Data duplication"],
+          "a": 1,
+          "ex": "Data sharing allows multiple users and applications to access the same data simultaneously."
+        },
+        {
+          "q": "What is the main disadvantage of file-based systems?",
+          "options": ["Slow access", "Data redundancy and inconsistency", "Complex structure", "High cost"],
+          "a": 1,
+          "ex": "File systems suffer from data redundancy, inconsistency, and difficulty in data sharing and maintenance."
+        },
+        {
+          "q": "What is database recovery?",
+          "options": ["Data backup", "Restoring database after failure", "Data compression", "Data migration"],
+          "a": 1,
+          "ex": "Database recovery involves restoring database to consistent state after system failure or corruption."
+        },
+        {
+          "q": "What is data dictionary?",
+          "options": ["Database queries", "Repository of metadata", "Database backup", "User manual"],
+          "a": 1,
+          "ex": "Data dictionary is centralized repository containing metadata about database structure and constraints."
+        },
+        {
+          "q": "What is database scalability?",
+          "options": ["Database size", "Ability to handle growing workload", "Database speed", "Database security"],
+          "a": 1,
+          "ex": "Scalability refers to database's ability to handle increasing amounts of work or users efficiently."
+        },
+        {
+          "q": "What is the role of database in modern applications?",
+          "options": ["Data storage only", "Central component for data management", "User interface", "Network communication"],
+          "a": 1,
+          "ex": "Databases serve as central component managing data storage, retrieval, and consistency for applications."
+        },
+        {
+          "q": "What is database backup?",
+          "options": ["Data compression", "Copy of database for recovery", "Data encryption", "Data sorting"],
+          "a": 1,
+          "ex": "Database backup is a copy of database data and structure used for recovery in case of failure."
+        },
+        {
+          "q": "What is data mining?",
+          "options": ["Data extraction", "Discovering patterns in large datasets", "Data storage", "Data backup"],
+          "a": 1,
+          "ex": "Data mining involves discovering hidden patterns, relationships, and insights from large datasets."
+        },
+        {
+          "q": "What is database performance?",
+          "options": ["Database size", "Speed and efficiency of operations", "Database security", "Database backup"],
+          "a": 1,
+          "ex": "Database performance measures speed, efficiency, and responsiveness of database operations."
+        },
+        {
+          "q": "What is the main goal of database design?",
+          "options": ["Minimize storage", "Maximize speed", "Minimize redundancy and ensure integrity", "Maximize users"],
+          "a": 2,
+          "ex": "Good database design minimizes redundancy, ensures data integrity, and supports efficient operations."
+        },
+        {
+          "q": "What is database middleware?",
+          "options": ["Database software", "Software connecting applications to databases", "Database hardware", "Database queries"],
+          "a": 1,
+          "ex": "Database middleware provides connectivity and communication layer between applications and database systems."
+        }
+      ]
+    },
+    {
+      "id": "dbms-vs-rdbms",
+      "title": "DBMS vs RDBMS",
+      "questions": [
+        {
+          "q": "What does RDBMS stand for?",
+          "options": ["Relational Database Management System", "Rapid Database Management System", "Remote Database Management System", "Real Database Management System"],
+          "a": 0,
+          "ex": "RDBMS stands for Relational Database Management System, based on relational model."
+        },
+        {
+          "q": "What is the main difference between DBMS and RDBMS?",
+          "options": ["DBMS is faster", "RDBMS stores data in tables with relationships", "DBMS is newer", "No difference"],
+          "a": 1,
+          "ex": "RDBMS organizes data in tables (relations) with defined relationships, while DBMS may use various data models."
+        },
+        {
+          "q": "Which of the following is an example of RDBMS?",
+          "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],
+          "a": 1,
+          "ex": "MySQL is a relational database management system that stores data in tables with relationships."
+        },
+        {
+          "q": "What is a table in RDBMS?",
+          "options": ["Collection of databases", "Collection of rows and columns", "Collection of queries", "Collection of users"],
+          "a": 1,
+          "ex": "Table (relation) in RDBMS is a collection of rows (tuples) and columns (attributes) storing related data."
+        },
+        {
+          "q": "What is normalization in RDBMS?",
+          "options": ["Data backup process", "Process of organizing data to reduce redundancy", "Data encryption", "Data compression"],
+          "a": 1,
+          "ex": "Normalization organizes data in tables to minimize redundancy and dependency issues."
+        },
+        {
+          "q": "Which language is primarily used with RDBMS?",
+          "options": ["Java", "SQL", "Python", "C++"],
+          "a": 1,
+          "ex": "SQL (Structured Query Language) is the standard language for managing and querying relational databases."
+        },
+        {
+          "q": "What is ACID compliance in RDBMS?",
+          "options": ["Database security feature", "Set of properties ensuring reliable transactions", "Data compression technique", "Backup strategy"],
+          "a": 1,
+          "ex": "ACID (Atomicity, Consistency, Isolation, Durability) ensures reliable database transaction processing."
+        },
+        {
+          "q": "Can DBMS handle complex relationships between data?",
+          "options": ["Yes, better than RDBMS", "No, limited capability", "Only simple relationships", "Same as RDBMS"],
+          "a": 1,
+          "ex": "Traditional DBMS has limited capability to handle complex relationships compared to RDBMS."
+        },
+        {
+          "q": "What is a primary key in RDBMS?",
+          "options": ["First column in table", "Unique identifier for table rows", "Most important data", "Table name"],
+          "a": 1,
+          "ex": "Primary key uniquely identifies each row in a table and cannot contain NULL values."
+        },
+        {
+          "q": "Which provides better data integrity?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "Neither"],
+          "a": 1,
+          "ex": "RDBMS provides better data integrity through constraints, referential integrity, and ACID properties."
+        },
+        {
+          "q": "What is a foreign key in RDBMS?",
+          "options": ["Key from another database", "Field that links to primary key of another table", "Encrypted key", "Backup key"],
+          "a": 1,
+          "ex": "Foreign key is a field that creates link between two tables by referencing primary key of another table."
+        },
+        {
+          "q": "Which system is more suitable for complex queries?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS with SQL support is better suited for complex queries involving multiple tables and relationships."
+        },
+        {
+          "q": "What is referential integrity in RDBMS?",
+          "options": ["Data backup", "Ensuring foreign key references valid primary key", "Data encryption", "Data compression"],
+          "a": 1,
+          "ex": "Referential integrity ensures foreign key values always reference existing primary key values."
+        },
+        {
+          "q": "Which is more structured in data organization?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS is more structured with predefined schema, tables, and relationships."
+        },
+        {
+          "q": "What is a relation in RDBMS?",
+          "options": ["Connection between databases", "Table with rows and columns", "Query result", "User relationship"],
+          "a": 1,
+          "ex": "Relation is the formal term for table in RDBMS, consisting of tuples (rows) and attributes (columns)."
+        },
+        {
+          "q": "Which supports better concurrent access?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS typically provides better concurrent access control with sophisticated locking mechanisms."
+        },
+        {
+          "q": "What is the main advantage of RDBMS over DBMS?",
+          "options": ["Faster performance", "Better data relationships and integrity", "Less storage space", "Simpler design"],
+          "a": 1,
+          "ex": "RDBMS provides better data relationships, integrity constraints, and standardized query language (SQL)."
+        },
+        {
+          "q": "Which follows Codd's rules?",
+          "options": ["DBMS", "RDBMS", "Both", "Neither"],
+          "a": 1,
+          "ex": "RDBMS follows Codd's 12 rules that define the relational model for database management."
+        },
+        {
+          "q": "What is data redundancy control better in?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS provides better redundancy control through normalization and referential integrity."
+        },
+        {
+          "q": "Which system requires more storage space?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "Depends on data"],
+          "a": 1,
+          "ex": "RDBMS typically requires more storage due to metadata, indexes, and relationship information."
+        },
+        {
+          "q": "What is schema in RDBMS?",
+          "options": ["Database data", "Database structure definition", "Database queries", "Database users"],
+          "a": 1,
+          "ex": "Schema defines the structure of database including tables, columns, data types, and constraints."
+        },
+        {
+          "q": "Which provides better backup and recovery?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS typically provides more sophisticated backup and recovery mechanisms with transaction logs."
+        },
+        {
+          "q": "What is tuple in RDBMS?",
+          "options": ["Column in table", "Row in table", "Table relationship", "Database connection"],
+          "a": 1,
+          "ex": "Tuple is the formal term for row in RDBMS, representing a single record in a table."
+        },
+        {
+          "q": "Which is more suitable for large-scale applications?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS is generally more suitable for large-scale applications due to better scalability and features."
+        },
+        {
+          "q": "What is attribute in RDBMS?",
+          "options": ["Row in table", "Column in table", "Table name", "Database name"],
+          "a": 1,
+          "ex": "Attribute is the formal term for column in RDBMS, representing a property of the relation."
+        },
+        {
+          "q": "Which provides better security features?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS typically provides more comprehensive security features including user roles and access control."
+        },
+        {
+          "q": "What is domain in RDBMS?",
+          "options": ["Database name", "Set of allowable values for attribute", "Table relationship", "User group"],
+          "a": 1,
+          "ex": "Domain defines the set of allowable values that an attribute can take in RDBMS."
+        },
+        {
+          "q": "Which has better standardization?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS has better standardization with SQL as universal query language and relational model standards."
+        },
+        {
+          "q": "What is cardinality in RDBMS?",
+          "options": ["Number of tables", "Number of rows in table", "Number of columns", "Number of relationships"],
+          "a": 1,
+          "ex": "Cardinality refers to the number of tuples (rows) in a relation (table) in RDBMS."
+        },
+        {
+          "q": "Which is more complex to implement?",
+          "options": ["DBMS", "RDBMS", "Both are equal", "File system"],
+          "a": 1,
+          "ex": "RDBMS is more complex to implement due to relational model, constraints, and additional features."
+        }
+      ]
     }
   ]
 }
