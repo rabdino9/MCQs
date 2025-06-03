@@ -2544,6 +2544,1248 @@
                     "ex": "A very short time quantum increases overhead due to context switching."
                 }
             ]
+        },
+     {
+            "id": "arrays-strings",
+            "title": "Arrays and Strings",
+            "questions": [
+                {
+                    "q": "What is the time complexity of accessing an element in an array by index?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n²)"
+                    ],
+                    "a": 0,
+                    "ex": "Array elements can be accessed directly using their index in constant time O(1)."
+                },
+                {
+                    "q": "In most programming languages, array indexing starts from:",
+                    "options": [
+                        "0",
+                        "1",
+                        "-1",
+                        "Depends on language"
+                    ],
+                    "a": 0,
+                    "ex": "Most modern programming languages like C, Java, Python use 0-based indexing."
+                },
+                {
+                    "q": "What is the maximum number of elements that can be stored in an array of size n?",
+                    "options": [
+                        "n-1",
+                        "n",
+                        "n+1",
+                        "2n"
+                    ],
+                    "a": 1,
+                    "ex": "An array of size n can store exactly n elements, indexed from 0 to n-1."
+                },
+                {
+                    "q": "Which operation is NOT efficient on arrays?",
+                    "options": [
+                        "Random access",
+                        "Insertion at beginning",
+                        "Traversal",
+                        "Binary search on sorted array"
+                    ],
+                    "a": 1,
+                    "ex": "Insertion at the beginning requires shifting all existing elements, making it O(n)."
+                },
+                {
+                    "q": "What is the space complexity of an array storing n integers?",
+                    "options": [
+                        "O(1)",
+                        "O(log n)",
+                        "O(n)",
+                        "O(n²)"
+                    ],
+                    "a": 2,
+                    "ex": "An array storing n elements requires O(n) space proportional to the number of elements."
+                },
+                {
+                    "q": "In a 2D array arr[3][4], what is the total number of elements?",
+                    "options": [
+                        "7",
+                        "12",
+                        "3",
+                        "4"
+                    ],
+                    "a": 1,
+                    "ex": "A 2D array with dimensions 3×4 contains 3 × 4 = 12 elements total."
+                },
+                {
+                    "q": "What happens when you try to access an array element beyond its bounds?",
+                    "options": [
+                        "Returns 0",
+                        "Returns null",
+                        "Undefined behavior/Exception",
+                        "Creates new element"
+                    ],
+                    "a": 2,
+                    "ex": "Accessing out-of-bounds elements causes undefined behavior in C/C++ or exceptions in Java/Python."
+                },
+                {
+                    "q": "Which string operation has O(n) time complexity?",
+                    "options": [
+                        "Length calculation",
+                        "Character access by index",
+                        "String concatenation",
+                        "All of the above"
+                    ],
+                    "a": 2,
+                    "ex": "String concatenation typically requires O(n) time to copy characters to a new string."
+                },
+                {
+                    "q": "In string matching, what is the time complexity of naive pattern searching?",
+                    "options": [
+                        "O(n)",
+                        "O(m)",
+                        "O(nm)",
+                        "O(n+m)"
+                    ],
+                    "a": 2,
+                    "ex": "Naive pattern searching compares pattern of length m with each position in text of length n, giving O(nm)."
+                },
+                {
+                    "q": "What is the difference between mutable and immutable strings?",
+                    "options": [
+                        "No difference",
+                        "Mutable can be changed, immutable cannot",
+                        "Immutable is faster",
+                        "Mutable uses less memory"
+                    ],
+                    "a": 1,
+                    "ex": "Mutable strings can be modified after creation, while immutable strings create new objects for changes."
+                },
+                {
+                    "q": "Which data structure is best for implementing a dynamic array?",
+                    "options": [
+                        "Static array",
+                        "Linked list",
+                        "Vector/ArrayList",
+                        "Stack"
+                    ],
+                    "a": 2,
+                    "ex": "Vector (C++) or ArrayList (Java) provide dynamic resizing capabilities for arrays."
+                },
+                {
+                    "q": "What is the time complexity of finding the length of a null-terminated string?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n²)"
+                    ],
+                    "a": 1,
+                    "ex": "Finding length requires traversing the entire string until null terminator, taking O(n) time."
+                },
+                {
+                    "q": "In row-major order, how are 2D array elements stored in memory?",
+                    "options": [
+                        "Column by column",
+                        "Row by row",
+                        "Diagonally",
+                        "Randomly"
+                    ],
+                    "a": 1,
+                    "ex": "Row-major order stores elements row by row in contiguous memory locations."
+                },
+                {
+                    "q": "What is the maximum number of comparisons needed for linear search in an array of n elements?",
+                    "options": [
+                        "n-1",
+                        "n",
+                        "n+1",
+                        "2n"
+                    ],
+                    "a": 1,
+                    "ex": "In worst case, linear search may need to check all n elements before finding the target."
+                },
+                {
+                    "q": "Which algorithm is used for efficient string pattern matching?",
+                    "options": [
+                        "Bubble sort",
+                        "KMP algorithm",
+                        "Binary search",
+                        "Quick sort"
+                    ],
+                    "a": 1,
+                    "ex": "Knuth-Morris-Pratt (KMP) algorithm provides efficient O(n+m) string pattern matching."
+                },
+                {
+                    "q": "What is a jagged array?",
+                    "options": [
+                        "Array with negative indices",
+                        "2D array with rows of different lengths",
+                        "Circular array",
+                        "Sorted array"
+                    ],
+                    "a": 1,
+                    "ex": "Jagged arrays are 2D arrays where each row can have a different number of columns."
+                },
+                {
+                    "q": "In C/C++, what character marks the end of a string?",
+                    "options": [
+                        "\\0",
+                        "\n",
+                        "EOF",
+                        "Space"
+                    ],
+                    "a": 0,
+                    "ex": "C-style strings are null-terminated, ending with the null character \\0."
+                },
+                {
+                    "q": "What is the time complexity of reversing an array in-place?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n²)"
+                    ],
+                    "a": 1,
+                    "ex": "Reversing requires swapping elements from both ends, visiting each element once: O(n)."
+                },
+                {
+                    "q": "Which operation is most efficient on a sorted array?",
+                    "options": [
+                        "Insertion",
+                        "Deletion",
+                        "Binary search",
+                        "Linear search"
+                    ],
+                    "a": 2,
+                    "ex": "Binary search on sorted arrays has O(log n) complexity, much better than O(n) linear search."
+                },
+                {
+                    "q": "What is string interpolation?",
+                    "options": [
+                        "Sorting strings",
+                        "Embedding variables in strings",
+                        "Reversing strings",
+                        "Comparing strings"
+                    ],
+                    "a": 1,
+                    "ex": "String interpolation allows embedding variable values directly into string literals."
+                },
+                {
+                    "q": "In array rotation, rotating [1,2,3,4,5] left by 2 positions gives:",
+                    "options": [
+                        "[3,4,5,1,2]",
+                        "[4,5,1,2,3]",
+                        "[2,3,4,5,1]",
+                        "[5,1,2,3,4]"
+                    ],
+                    "a": 0,
+                    "ex": "Left rotation by 2 moves first 2 elements to the end: [1,2,3,4,5] → [3,4,5,1,2]."
+                },
+                {
+                    "q": "What is the space complexity of merge sort for arrays?",
+                    "options": [
+                        "O(1)",
+                        "O(log n)",
+                        "O(n)",
+                        "O(n²)"
+                    ],
+                    "a": 2,
+                    "ex": "Merge sort requires O(n) auxiliary space for the temporary arrays during merging."
+                },
+                {
+                    "q": "Which string comparison method is case-insensitive?",
+                    "options": [
+                        "strcmp()",
+                        "strcasecmp()",
+                        "==",
+                        "equals()"
+                    ],
+                    "a": 1,
+                    "ex": "strcasecmp() performs case-insensitive string comparison in C."
+                },
+                {
+                    "q": "What is the advantage of using StringBuilder over String concatenation?",
+                    "options": [
+                        "Uses less memory",
+                        "Faster for multiple concatenations",
+                        "Thread-safe",
+                        "Immutable"
+                    ],
+                    "a": 1,
+                    "ex": "StringBuilder avoids creating multiple intermediate string objects, making it faster for multiple concatenations."
+                },
+                {
+                    "q": "In dynamic arrays, what happens when capacity is exceeded?",
+                    "options": [
+                        "Error occurs",
+                        "Array is resized",
+                        "Oldest elements are removed",
+                        "New elements are ignored"
+                    ],
+                    "a": 1,
+                    "ex": "Dynamic arrays automatically resize (usually doubling capacity) when more space is needed."
+                },
+                {
+                    "q": "What is the time complexity of checking if two strings are anagrams?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(n log n)",
+                        "O(n²)"
+                    ],
+                    "a": 2,
+                    "ex": "One approach is to sort both strings and compare, which takes O(n log n) time."
+                },
+                {
+                    "q": "Which array traversal visits elements in reverse order?",
+                    "options": [
+                        "Forward traversal",
+                        "Backward traversal",
+                        "Random traversal",
+                        "Binary traversal"
+                    ],
+                    "a": 1,
+                    "ex": "Backward traversal starts from the last index and moves toward the first index."
+                },
+                {
+                    "q": "What is a palindrome string?",
+                    "options": [
+                        "String with only alphabets",
+                        "String that reads same forwards and backwards",
+                        "String with even length",
+                        "String with unique characters"
+                    ],
+                    "a": 1,
+                    "ex": "A palindrome reads the same forwards and backwards, like 'radar' or 'level'."
+                },
+                {
+                    "q": "In matrix multiplication, what must be true about dimensions?",
+                    "options": [
+                        "Both matrices must be square",
+                        "Columns of first = Rows of second",
+                        "Both matrices same size",
+                        "No restrictions"
+                    ],
+                    "a": 1,
+                    "ex": "For A×B multiplication, number of columns in A must equal number of rows in B."
+                },
+                {
+                    "q": "What is the Boyer-Moore algorithm used for?",
+                    "options": [
+                        "Sorting arrays",
+                        "String pattern matching",
+                        "Graph traversal",
+                        "Tree balancing"
+                    ],
+                    "a": 1,
+                    "ex": "Boyer-Moore is an efficient string searching algorithm that can skip characters during pattern matching."
+                }
+            ]
+        },
+    {
+      "id": "stacks-queues",
+      "title": "Stacks and Queues",
+      "questions": [
+        {
+          "q": "What principle does a stack follow?",
+          "options": ["FIFO", "LIFO", "Random access", "Priority-based"],
+          "a": 1,
+          "ex": "Stack follows Last In First Out (LIFO) principle where the last element added is the first to be removed."
+        },
+        {
+          "q": "What principle does a queue follow?",
+          "options": ["LIFO", "FIFO", "Random access", "Priority-based"],
+          "a": 1,
+          "ex": "Queue follows First In First Out (FIFO) principle where the first element added is the first to be removed."
+        },
+        {
+          "q": "Which operation adds an element to a stack?",
+          "options": ["Push", "Pop", "Peek", "Enqueue"],
+          "a": 0,
+          "ex": "Push operation adds an element to the top of the stack."
+        },
+        {
+          "q": "Which operation removes an element from a queue?",
+          "options": ["Push", "Pop", "Dequeue", "Peek"],
+          "a": 2,
+          "ex": "Dequeue operation removes an element from the front of the queue."
+        },
+        {
+          "q": "What happens when you try to pop from an empty stack?",
+          "options": ["Returns null", "Returns 0", "Stack underflow", "Creates new element"],
+          "a": 2,
+          "ex": "Attempting to pop from an empty stack results in stack underflow condition."
+        },
+        {
+          "q": "What is the time complexity of push and pop operations in a stack?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 0,
+          "ex": "Both push and pop operations in a stack take constant time O(1)."
+        },
+        {
+          "q": "Which data structure is used to implement function calls?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "a": 1,
+          "ex": "Function call stack uses stack data structure to manage function calls and returns."
+        },
+        {
+          "q": "What is a circular queue?",
+          "options": ["Queue with no end", "Queue where rear connects to front", "Queue with circular elements", "Queue with infinite size"],
+          "a": 1,
+          "ex": "Circular queue treats storage as circular, where rear pointer wraps around to connect with front."
+        },
+        {
+          "q": "Which application commonly uses stacks?",
+          "options": ["BFS traversal", "Expression evaluation", "Process scheduling", "Printer queue"],
+          "a": 1,
+          "ex": "Stacks are used for expression evaluation, particularly for handling operator precedence and parentheses."
+        },
+        {
+          "q": "What is a priority queue?",
+          "options": ["Queue with multiple levels", "Queue where elements have priorities", "Queue with faster operations", "Queue with limited size"],
+          "a": 1,
+          "ex": "Priority queue serves elements based on their priority rather than insertion order."
+        },
+        {
+          "q": "In postfix expression evaluation, which data structure is used?",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "a": 1,
+          "ex": "Stack is used to evaluate postfix expressions by pushing operands and popping for operations."
+        },
+        {
+          "q": "What is a double-ended queue (deque)?",
+          "options": ["Queue with two elements", "Queue allowing insertion/deletion at both ends", "Queue with double capacity", "Queue with two priorities"],
+          "a": 1,
+          "ex": "Deque allows insertion and deletion operations at both front and rear ends."
+        },
+        {
+          "q": "Which traversal algorithm uses a queue?",
+          "options": ["DFS", "BFS", "Preorder", "Postorder"],
+          "a": 1,
+          "ex": "Breadth-First Search (BFS) uses a queue to visit nodes level by level."
+        },
+        {
+          "q": "What is stack overflow?",
+          "options": ["Stack is empty", "Stack exceeds maximum size", "Stack operation fails", "Stack becomes circular"],
+          "a": 1,
+          "ex": "Stack overflow occurs when trying to push elements beyond the stack's maximum capacity."
+        },
+        {
+          "q": "In infix to postfix conversion, which data structure is used?",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "a": 1,
+          "ex": "Stack is used to handle operators and parentheses during infix to postfix conversion."
+        },
+        {
+          "q": "What is the space complexity of a stack with n elements?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "A stack storing n elements requires O(n) space proportional to the number of elements."
+        },
+        {
+          "q": "Which operation checks the top element of a stack without removing it?",
+          "options": ["Push", "Pop", "Peek/Top", "Size"],
+          "a": 2,
+          "ex": "Peek or Top operation returns the top element without removing it from the stack."
+        },
+        {
+          "q": "In a queue implementation using arrays, what indicates an empty queue?",
+          "options": ["Front = Rear", "Front > Rear", "Front = -1", "Rear = -1"],
+          "a": 0,
+          "ex": "When front equals rear, it typically indicates an empty queue in array implementation."
+        },
+        {
+          "q": "What is the main advantage of implementing stack using linked list?",
+          "options": ["Faster operations", "Dynamic size", "Less memory usage", "Random access"],
+          "a": 1,
+          "ex": "Linked list implementation allows dynamic sizing without predefined capacity limits."
+        },
+        {
+          "q": "Which scenario is best suited for using a queue?",
+          "options": ["Undo operations", "Process scheduling", "Expression evaluation", "Function calls"],
+          "a": 1,
+          "ex": "Queues are ideal for process scheduling where first-come-first-served order is maintained."
+        },
+        {
+          "q": "What is the result of the following stack operations: push(1), push(2), pop(), push(3), pop()?",
+          "options": ["Stack contains: 1", "Stack contains: 2", "Stack contains: 3", "Stack is empty"],
+          "a": 0,
+          "ex": "After push(1), push(2), pop() removes 2, push(3), pop() removes 3, leaving only 1 in stack."
+        },
+        {
+          "q": "In a circular queue of size 5, if front=2 and rear=1, how many elements are there?",
+          "options": ["0", "3", "4", "5"],
+          "a": 2,
+          "ex": "In circular queue, when rear < front, elements = (size - front + rear + 1) = 5-2+1+1 = 5, but since rear=1 and front=2, there are 4 elements."
+        },
+        {
+          "q": "Which data structure would you use for implementing browser back button?",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "a": 1,
+          "ex": "Stack is perfect for browser history as the most recently visited page should be accessed first (LIFO)."
+        },
+        {
+          "q": "What is the time complexity of enqueue and dequeue operations in a queue?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 0,
+          "ex": "Both enqueue and dequeue operations in a properly implemented queue take constant time O(1)."
+        },
+        {
+          "q": "In which order will elements be removed from a stack containing [1,2,3,4] (4 on top)?",
+          "options": ["1,2,3,4", "4,3,2,1", "1,3,2,4", "2,4,1,3"],
+          "a": 1,
+          "ex": "Stack follows LIFO, so elements are removed in reverse order of insertion: 4,3,2,1."
+        },
+        {
+          "q": "What is a monotonic stack?",
+          "options": ["Stack with single element", "Stack with elements in monotonic order", "Stack that never changes", "Stack with identical elements"],
+          "a": 1,
+          "ex": "Monotonic stack maintains elements in either increasing or decreasing order."
+        },
+        {
+          "q": "Which application uses queue data structure?",
+          "options": ["Recursion", "Backtracking", "CPU scheduling", "Expression parsing"],
+          "a": 2,
+          "ex": "CPU scheduling algorithms like Round Robin use queues to manage process execution order."
+        },
+        {
+          "q": "What happens in queue overflow?",
+          "options": ["Queue becomes empty", "Queue exceeds capacity", "Queue reverses order", "Queue becomes circular"],
+          "a": 1,
+          "ex": "Queue overflow occurs when trying to enqueue elements beyond the queue's maximum capacity."
+        },
+        {
+          "q": "In balanced parentheses checking, which data structure is most suitable?",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "a": 1,
+          "ex": "Stack is ideal for checking balanced parentheses by pushing opening brackets and popping for closing ones."
+        },
+        {
+          "q": "What is the main disadvantage of array-based queue implementation?",
+          "options": ["Slow operations", "Fixed size", "Complex implementation", "High memory usage"],
+          "a": 1,
+          "ex": "Array-based queues have fixed size limitation and may waste space due to false overflow conditions."
         }
+      ]
+    },
+    {
+      "id": "linked-lists",
+      "title": "Linked Lists",
+      "questions": [
+        {
+          "q": "What is the basic building block of a linked list?",
+          "options": ["Array", "Node", "Pointer", "Index"],
+          "a": 1,
+          "ex": "A node is the basic unit containing data and a reference/pointer to the next node."
+        },
+        {
+          "q": "What is the time complexity of inserting an element at the beginning of a singly linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 0,
+          "ex": "Insertion at the beginning requires only updating the head pointer, taking constant time O(1)."
+        },
+        {
+          "q": "What is the time complexity of searching for an element in a linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 1,
+          "ex": "Searching requires traversing the list from head to find the element, taking O(n) time in worst case."
+        },
+        {
+          "q": "In a singly linked list, each node contains:",
+          "options": ["Only data", "Data and next pointer", "Data and previous pointer", "Data, next and previous pointers"],
+          "a": 1,
+          "ex": "Singly linked list nodes contain data and a pointer/reference to the next node."
+        },
+        {
+          "q": "What is the main advantage of linked lists over arrays?",
+          "options": ["Faster access", "Less memory usage", "Dynamic size", "Better cache performance"],
+          "a": 2,
+          "ex": "Linked lists can grow or shrink during runtime, providing dynamic memory allocation."
+        },
+        {
+          "q": "What does NULL/None pointer in the last node of a linked list signify?",
+          "options": ["Error in list", "End of list", "Beginning of list", "Empty node"],
+          "a": 1,
+          "ex": "NULL pointer in the last node indicates the end of the linked list."
+        },
+        {
+          "q": "In a doubly linked list, each node has:",
+          "options": ["One pointer", "Two pointers", "Three pointers", "No pointers"],
+          "a": 1,
+          "ex": "Doubly linked list nodes have two pointers: one to the next node and one to the previous node."
+        },
+        {
+          "q": "What is the time complexity of deleting the last node in a singly linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 1,
+          "ex": "To delete the last node, we need to traverse to find the second-to-last node, taking O(n) time."
+        },
+        {
+          "q": "Which operation is more efficient in doubly linked list compared to singly linked list?",
+          "options": ["Insertion at beginning", "Deletion of given node", "Searching", "Traversal"],
+          "a": 1,
+          "ex": "Deletion of a given node is O(1) in doubly linked list as we can directly access previous node."
+        },
+        {
+          "q": "What is a circular linked list?",
+          "options": ["List with no nodes", "List where last node points to first", "List with circular data", "List with infinite nodes"],
+          "a": 1,
+          "ex": "In circular linked list, the last node points back to the first node instead of NULL."
+        },
+        {
+          "q": "How do you detect a cycle in a linked list?",
+          "options": ["Linear traversal", "Floyd's cycle detection", "Binary search", "Sorting"],
+          "a": 1,
+          "ex": "Floyd's cycle detection algorithm (tortoise and hare) uses two pointers moving at different speeds."
+        },
+        {
+          "q": "What is the space complexity of a linked list with n nodes?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Each node requires space for data and pointer(s), so total space is O(n) for n nodes."
+        },
+        {
+          "q": "In which scenario would you prefer linked list over array?",
+          "options": ["Random access needed", "Frequent insertions/deletions", "Cache performance important", "Indexing required"],
+          "a": 1,
+          "ex": "Linked lists are better when frequent insertions and deletions are needed at arbitrary positions."
+        },
+        {
+          "q": "What is the head pointer in a linked list?",
+          "options": ["Last node", "First node reference", "Middle node", "Largest element"],
+          "a": 1,
+          "ex": "Head pointer stores the reference/address of the first node in the linked list."
+        },
+        {
+          "q": "How do you reverse a singly linked list?",
+          "options": ["Sort the list", "Use three pointers", "Create new list", "Use recursion only"],
+          "a": 1,
+          "ex": "Reversing requires three pointers (previous, current, next) to change link directions iteratively."
+        },
+        {
+          "q": "What happens when you try to access a node after the tail in a singly linked list?",
+          "options": ["Returns first node", "Returns NULL", "Creates new node", "Throws exception"],
+          "a": 1,
+          "ex": "Following the next pointer of the tail node leads to NULL, indicating end of list."
+        },
+        {
+          "q": "Which traversal is possible in a singly linked list?",
+          "options": ["Forward only", "Backward only", "Both directions", "Random access"],
+          "a": 0,
+          "ex": "Singly linked lists can only be traversed in forward direction from head to tail."
+        },
+        {
+          "q": "What is the time complexity of finding the middle element of a linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 1,
+          "ex": "Finding middle requires traversing the list, which takes O(n) time (can be optimized to single pass)."
+        },
+        {
+          "q": "In a doubly linked list, what does the previous pointer of the first node point to?",
+          "options": ["Last node", "NULL", "Second node", "Itself"],
+          "a": 1,
+          "ex": "The previous pointer of the first node points to NULL, indicating no previous node exists."
+        },
+        {
+          "q": "What is the main disadvantage of linked lists?",
+          "options": ["Dynamic size", "Sequential access only", "Easy insertion", "Memory efficient"],
+          "a": 1,
+          "ex": "Linked lists require sequential access and don't support random access like arrays."
+        },
+        {
+          "q": "How do you merge two sorted linked lists?",
+          "options": ["Concatenate and sort", "Use two pointers", "Convert to arrays", "Use stack"],
+          "a": 1,
+          "ex": "Merging sorted lists uses two pointers to compare elements and build result list in sorted order."
+        },
+        {
+          "q": "What is a self-referential structure?",
+          "options": ["Structure pointing to itself", "Structure with same data type pointer", "Circular structure", "Recursive structure"],
+          "a": 1,
+          "ex": "Self-referential structure contains a pointer to the same structure type, used in linked lists."
+        },
+        {
+          "q": "Which memory allocation is used for linked list nodes?",
+          "options": ["Static", "Dynamic", "Stack", "Register"],
+          "a": 1,
+          "ex": "Linked list nodes are typically allocated dynamically using malloc/new during runtime."
+        },
+        {
+          "q": "What is the time complexity of inserting at a specific position in a linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+          "a": 1,
+          "ex": "To insert at position k, we need to traverse k nodes first, making it O(n) operation."
+        },
+        {
+          "q": "How do you find the nth node from the end in a linked list?",
+          "options": ["Reverse and find nth", "Two-pointer technique", "Use array", "Multiple traversals"],
+          "a": 1,
+          "ex": "Two-pointer technique: move first pointer n steps ahead, then move both until first reaches end."
+        },
+        {
+          "q": "What is the advantage of circular linked list over singly linked list?",
+          "options": ["Faster search", "Can traverse from any node", "Less memory", "Better sorting"],
+          "a": 1,
+          "ex": "Circular linked lists allow traversal of entire list starting from any node."
+        },
+        {
+          "q": "In linked list implementation of stack, where do push and pop operations occur?",
+          "options": ["At tail", "At head", "At middle", "At random position"],
+          "a": 1,
+          "ex": "Stack operations using linked list are performed at the head for O(1) time complexity."
+        },
+        {
+          "q": "What is memory fragmentation in context of linked lists?",
+          "options": ["Nodes not in sequence", "Memory leaks", "Pointer corruption", "Stack overflow"],
+          "a": 0,
+          "ex": "Memory fragmentation occurs when linked list nodes are scattered in memory, affecting cache performance."
+        },
+        {
+          "q": "How do you remove duplicates from an unsorted linked list?",
+          "options": ["Sort first", "Use hash table", "Multiple passes", "Recursive approach"],
+          "a": 1,
+          "ex": "Hash table can track seen elements while traversing, allowing O(n) duplicate removal."
+        },
+        {
+          "q": "What is the Floyd's cycle detection algorithm also known as?",
+          "options": ["Binary search", "Tortoise and Hare", "Divide and conquer", "Greedy approach"],
+          "a": 1,
+          "ex": "Floyd's algorithm is called 'Tortoise and Hare' due to slow and fast pointer movement analogy."
+        }
+      ]
+    },
+    {
+      "id": "trees-graphs",
+      "title": "Trees and Graphs",
+      "questions": [
+        {
+          "q": "What is the maximum number of children a node can have in a binary tree?",
+          "options": ["1", "2", "3", "Unlimited"],
+          "a": 1,
+          "ex": "Binary trees are defined as trees where each node has at most 2 children (left and right)."
+        },
+        {
+          "q": "What is the height of a tree with only one node (root)?",
+          "options": ["0", "1", "-1", "Undefined"],
+          "a": 0,
+          "ex": "Height is defined as the number of edges from root to deepest leaf. Single node has height 0."
+        },
+        {
+          "q": "In a Binary Search Tree (BST), the left subtree contains values:",
+          "options": ["Greater than root", "Less than root", "Equal to root", "Random values"],
+          "a": 1,
+          "ex": "BST property: left subtree contains values less than root, right subtree contains greater values."
+        },
+        {
+          "q": "What is the time complexity of searching in a balanced BST?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 1,
+          "ex": "Balanced BST allows binary search approach, eliminating half the nodes at each step: O(log n)."
+        },
+        {
+          "q": "Which traversal visits nodes in the order: Left, Root, Right?",
+          "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+          "a": 1,
+          "ex": "Inorder traversal visits left subtree, then root, then right subtree."
+        },
+        {
+          "q": "What data structure is used for Level Order traversal of a tree?",
+          "options": ["Stack", "Queue", "Array", "Linked List"],
+          "a": 1,
+          "ex": "Level order traversal uses queue to visit nodes level by level (BFS approach)."
+        },
+        {
+          "q": "In a complete binary tree with n nodes, what is the height?",
+          "options": ["n", "log n", "⌊log₂ n⌋", "⌈log₂(n+1)⌉ - 1"],
+          "a": 3,
+          "ex": "Complete binary tree height is ⌈log₂(n+1)⌉ - 1, where ⌈⌉ is ceiling function."
+        },
+        {
+          "q": "What is a leaf node in a tree?",
+          "options": ["Root node", "Node with no children", "Node with one child", "Node with maximum value"],
+          "a": 1,
+          "ex": "Leaf nodes are terminal nodes that have no children (degree = 0)."
+        },
+        {
+          "q": "Which graph representation is better for dense graphs?",
+          "options": ["Adjacency List", "Adjacency Matrix", "Edge List", "Incidence Matrix"],
+          "a": 1,
+          "ex": "Adjacency matrix is more space-efficient for dense graphs with many edges."
+        },
+        {
+          "q": "What is the space complexity of DFS traversal?",
+          "options": ["O(1)", "O(V)", "O(E)", "O(V + E)"],
+          "a": 1,
+          "ex": "DFS uses stack (recursion or explicit) that can go as deep as V vertices in worst case."
+        },
+        {
+          "q": "In which tree traversal do we get sorted order for a BST?",
+          "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+          "a": 1,
+          "ex": "Inorder traversal of BST visits nodes in ascending sorted order due to BST property."
+        },
+        {
+          "q": "What is a strongly connected graph?",
+          "options": ["Graph with no cycles", "Directed graph where every vertex is reachable from every other", "Graph with minimum edges", "Undirected connected graph"],
+          "a": 1,
+          "ex": "Strongly connected directed graph has a directed path between every pair of vertices."
+        },
+        {
+          "q": "What is the minimum number of edges in a connected graph with V vertices?",
+          "options": ["V", "V-1", "V+1", "V²"],
+          "a": 1,
+          "ex": "A tree is the minimum connected graph, requiring exactly V-1 edges for V vertices."
+        },
+        {
+          "q": "Which algorithm is used to find shortest path in unweighted graphs?",
+          "options": ["DFS", "BFS", "Dijkstra", "Floyd-Warshall"],
+          "a": 1,
+          "ex": "BFS finds shortest path in unweighted graphs by exploring nodes level by level."
+        },
+        {
+          "q": "What is the degree of a vertex in an undirected graph?",
+          "options": ["Number of incoming edges", "Number of outgoing edges", "Number of adjacent vertices", "Number of paths from vertex"],
+          "a": 2,
+          "ex": "Degree is the number of edges incident to the vertex, equal to number of adjacent vertices."
+        },
+        {
+          "q": "In a binary heap, the parent of node at index i is at index:",
+          "options": ["2i", "2i+1", "⌊(i-1)/2⌋", "i-1"],
+          "a": 2,
+          "ex": "In 0-indexed array representation, parent of node at index i is at ⌊(i-1)/2⌋."
+        },
+        {
+          "q": "What is a spanning tree of a graph?",
+          "options": ["Tree with maximum edges", "Subgraph that includes all vertices and is a tree", "Tree with minimum weight", "Complete tree"],
+          "a": 1,
+          "ex": "Spanning tree is a subgraph that includes all vertices and forms a tree (connected, acyclic)."
+        },
+        {
+          "q": "Which traversal is used to detect cycles in directed graphs?",
+          "options": ["BFS", "DFS with coloring", "Level order", "Inorder"],
+          "a": 1,
+          "ex": "DFS with three colors (white, gray, black) can detect back edges indicating cycles in directed graphs."
+        },
+        {
+          "q": "What is the time complexity of inserting a node in a balanced binary tree?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "a": 1,
+          "ex": "Balanced binary tree maintains O(log n) height, so insertion takes O(log n) time."
+        },
+        {
+          "q": "In topological sorting, what type of graph is required?",
+          "options": ["Undirected", "Directed Acyclic Graph (DAG)", "Complete graph", "Bipartite graph"],
+          "a": 1,
+          "ex": "Topological sorting is only possible for Directed Acyclic Graphs (DAGs)."
+        },
+        {
+          "q": "What is the maximum number of nodes at level k in a binary tree?",
+          "options": ["k", "2k", "2^k", "2^(k+1)"],
+          "a": 2,
+          "ex": "At level k (0-indexed), maximum nodes = 2^k. Level 0 has 2^0=1, level 1 has 2^1=2, etc."
+        },
+        {
+          "q": "Which property defines an AVL tree?",
+          "options": ["Complete binary tree", "Height difference of subtrees ≤ 1", "All leaves at same level", "Sorted inorder traversal"],
+          "a": 1,
+          "ex": "AVL tree is a self-balancing BST where height difference between left and right subtrees is at most 1."
+        },
+        {
+          "q": "What is the time complexity of BFS traversal?",
+          "options": ["O(V)", "O(E)", "O(V + E)", "O(V × E)"],
+          "a": 2,
+          "ex": "BFS visits all vertices (V) and explores all edges (E), giving time complexity O(V + E)."
+        },
+        {
+          "q": "In a min-heap, the smallest element is located at:",
+          "options": ["Any leaf", "Root", "Last level", "Middle"],
+          "a": 1,
+          "ex": "Min-heap property ensures the smallest element is always at the root of the tree."
+        },
+        {
+          "q": "What is a bipartite graph?",
+          "options": ["Graph with two components", "Graph whose vertices can be divided into two disjoint sets", "Graph with two types of edges", "Graph with exactly two vertices"],
+          "a": 1,
+          "ex": "Bipartite graph vertices can be colored with two colors such that no adjacent vertices have same color."
+        },
+        {
+          "q": "Which algorithm finds Minimum Spanning Tree?",
+          "options": ["Dijkstra", "BFS", "Kruskal's algorithm", "Topological sort"],
+          "a": 2,
+          "ex": "Kruskal's algorithm (and Prim's algorithm) finds Minimum Spanning Tree by selecting minimum weight edges."
+        },
+        {
+          "q": "What is the postorder traversal sequence for a tree with preorder: A,B,C and inorder: B,A,C?",
+          "options": ["B,C,A", "C,B,A", "A,B,C", "B,A,C"],
+          "a": 0,
+          "ex": "From preorder and inorder, we can construct tree: A is root, B is left child, C is right child. Postorder: B,C,A."
+        },
+        {
+          "q": "What is the space complexity of adjacency matrix representation?",
+          "options": ["O(V)", "O(E)", "O(V²)", "O(V + E)"],
+          "a": 2,
+          "ex": "Adjacency matrix requires V×V space to store connections between all pairs of vertices."
+        },
+        {
+          "q": "In a Red-Black tree, what colors can nodes have?",
+          "options": ["Red only", "Black only", "Red and Black", "Red, Black, and White"],
+          "a": 2,
+          "ex": "Red-Black trees use red and black colors with specific coloring rules to maintain balance."
+        },
+        {
+          "q": "What is the maximum number of edges in a simple undirected graph with V vertices?",
+          "options": ["V", "V-1", "V(V-1)/2", "V²"],
+          "a": 2,
+          "ex": "Complete graph has maximum edges: each vertex connects to V-1 others, giving V(V-1)/2 unique edges."
+        }
+      ]
+    },
+    {
+      "id": "searching-algorithms",
+      "title": "Searching Algorithms (Linear, Binary)",
+      "questions": [
+        {
+          "q": "What is the time complexity of linear search in the worst case?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Linear search may need to check all n elements in worst case when element is at end or not present."
+        },
+        {
+          "q": "What is the prerequisite for binary search?",
+          "options": ["Array should be sorted", "Array should be unsorted", "Array should have unique elements", "Array should be of even size"],
+          "a": 0,
+          "ex": "Binary search requires the array to be sorted to eliminate half the search space at each step."
+        },
+        {
+          "q": "What is the time complexity of binary search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "a": 1,
+          "ex": "Binary search divides search space by half at each step, resulting in O(log n) time complexity."
+        },
+        {
+          "q": "In linear search, what is the best case time complexity?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 0,
+          "ex": "Best case occurs when the target element is found at the first position, taking constant time O(1)."
+        },
+        {
+          "q": "What is the space complexity of iterative binary search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 0,
+          "ex": "Iterative binary search uses only a few variables (low, high, mid), requiring constant space O(1)."
+        },
+        {
+          "q": "In binary search, if the target is smaller than middle element, we search in:",
+          "options": ["Right half", "Left half", "Both halves", "Entire array again"],
+          "a": 1,
+          "ex": "Since array is sorted, if target < middle, it can only be in the left half of current search space."
+        },
+        {
+          "q": "What happens in linear search when the element is not found?",
+          "options": ["Returns first element", "Returns -1 or null", "Throws exception", "Returns middle element"],
+          "a": 1,
+          "ex": "Linear search typically returns -1 or null/None to indicate the element was not found in the array."
+        },
+        {
+          "q": "How many comparisons are needed in binary search for an array of 1000 elements in worst case?",
+          "options": ["10", "⌈log₂ 1000⌉", "1000", "500"],
+          "a": 1,
+          "ex": "Binary search worst case is ⌈log₂ n⌉ comparisons. For 1000 elements: ⌈log₂ 1000⌉ ≈ 10."
+        },
+        {
+          "q": "Which search algorithm is better for unsorted arrays?",
+          "options": ["Binary search", "Linear search", "Both are equal", "Neither works"],
+          "a": 1,
+          "ex": "Binary search requires sorted array, so linear search is the only option for unsorted arrays."
+        },
+        {
+          "q": "What is the average case time complexity of linear search?",
+          "options": ["O(1)", "O(n/2)", "O(n)", "O(log n)"],
+          "a": 2,
+          "ex": "Average case still has O(n) complexity as we expect to find element around middle position (n/2 comparisons)."
+        },
+        {
+          "q": "In binary search, what is the initial value of 'high' pointer for array of size n?",
+          "options": ["n", "n-1", "n/2", "0"],
+          "a": 1,
+          "ex": "For 0-indexed array of size n, valid indices are 0 to n-1, so high is initialized to n-1."
+        },
+        {
+          "q": "What is the space complexity of recursive binary search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 1,
+          "ex": "Recursive binary search uses call stack with maximum depth of log n, requiring O(log n) space."
+        },
+        {
+          "q": "Linear search is also known as:",
+          "options": ["Binary search", "Sequential search", "Random search", "Parallel search"],
+          "a": 1,
+          "ex": "Linear search is called sequential search because it checks elements one by one in sequence."
+        },
+        {
+          "q": "When is linear search preferred over binary search?",
+          "options": ["Array is sorted", "Array is large", "Array is small or unsorted", "Never"],
+          "a": 2,
+          "ex": "Linear search is preferred for small arrays or when array is unsorted and sorting cost is high."
+        },
+        {
+          "q": "What is the termination condition for binary search?",
+          "options": ["low > high", "low = high", "mid = target", "Array is empty"],
+          "a": 0,
+          "ex": "Binary search terminates when low > high, indicating the search space is exhausted."
+        },
+        {
+          "q": "In binary search, how is the middle index calculated?",
+          "options": ["(low + high) / 2", "low + (high - low) / 2", "Both A and B", "high / 2"],
+          "a": 2,
+          "ex": "Both formulas work, but low + (high - low) / 2 prevents integer overflow for large indices."
+        },
+        {
+          "q": "What is the maximum number of elements that can be eliminated in one comparison in binary search?",
+          "options": ["1", "n/2", "n-1", "Depends on array"],
+          "a": 1,
+          "ex": "Binary search eliminates approximately half of the remaining elements in each comparison."
+        },
+        {
+          "q": "Which search is more suitable for linked lists?",
+          "options": ["Binary search", "Linear search", "Both equal", "Neither"],
+          "a": 1,
+          "ex": "Linked lists don't support random access needed for binary search, so linear search is used."
+        },
+        {
+          "q": "What is interpolation search?",
+          "options": ["Modified linear search", "Modified binary search", "Parallel search", "Random search"],
+          "a": 1,
+          "ex": "Interpolation search is an improved binary search that estimates position based on value distribution."
+        },
+        {
+          "q": "In binary search, if array has duplicate elements, which occurrence is typically found?",
+          "options": ["First", "Last", "Any occurrence", "Middle occurrence"],
+          "a": 2,
+          "ex": "Standard binary search finds any occurrence of duplicate elements, not necessarily first or last."
+        },
+        {
+          "q": "What is the time complexity of finding all occurrences of an element using linear search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "To find all occurrences, we must check every element in the array, taking O(n) time."
+        },
+        {
+          "q": "Binary search can be applied to:",
+          "options": ["Only arrays", "Only sorted arrays", "Sorted arrays and other sorted data structures", "Any data structure"],
+          "a": 2,
+          "ex": "Binary search works on any sorted data structure that supports random access (arrays, sorted lists)."
+        },
+        {
+          "q": "What is the lower bound for comparison-based searching in sorted array?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "a": 1,
+          "ex": "Information-theoretic lower bound for comparison-based search in sorted array is Ω(log n)."
+        },
+        {
+          "q": "In exponential search, what is the first step?",
+          "options": ["Binary search", "Find range where element exists", "Linear search", "Sort the array"],
+          "a": 1,
+          "ex": "Exponential search first finds a range [2^i, 2^(i+1)] where element might exist, then applies binary search."
+        },
+        {
+          "q": "What is the advantage of binary search over linear search?",
+          "options": ["Works on unsorted arrays", "Uses less space", "Much faster for large datasets", "Simpler implementation"],
+          "a": 2,
+          "ex": "Binary search is significantly faster (O(log n) vs O(n)) for large sorted datasets."
+        },
+        {
+          "q": "Which search algorithm has better worst-case performance?",
+          "options": ["Linear search", "Binary search", "Both are equal", "Depends on data"],
+          "a": 1,
+          "ex": "Binary search has O(log n) worst-case time compared to O(n) for linear search."
+        },
+        {
+          "q": "What is ternary search?",
+          "options": ["Search in 3 arrays", "Divide array into 3 parts", "Search for 3 elements", "Use 3 pointers"],
+          "a": 1,
+          "ex": "Ternary search divides array into three parts instead of two, comparing with two middle elements."
+        },
+        {
+          "q": "In jump search, what is the optimal jump size for array of size n?",
+          "options": ["n/2", "√n", "log n", "n/3"],
+          "a": 1,
+          "ex": "Jump search uses optimal jump size of √n to balance between jumps and linear search within block."
+        },
+        {
+          "q": "What is the time complexity of jump search?",
+          "options": ["O(√n)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 0,
+          "ex": "Jump search performs √n jumps and √n linear comparisons in worst case, giving O(√n) complexity."
+        },
+        {
+          "q": "Binary search is an example of which algorithm design technique?",
+          "options": ["Greedy", "Dynamic Programming", "Divide and Conquer", "Backtracking"],
+          "a": 2,
+          "ex": "Binary search uses divide and conquer by splitting problem into smaller subproblems recursively."
+        }
+      ]
+    },
+    {
+      "id": "sorting-algorithms",
+      "title": "Sorting Algorithms (Bubble, Merge, Quick)",
+      "questions": [
+        {
+          "q": "What is the time complexity of bubble sort in the worst case?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(2ⁿ)"],
+          "a": 2,
+          "ex": "Bubble sort makes n-1 passes, each comparing up to n-1 elements, resulting in O(n²) worst-case complexity."
+        },
+        {
+          "q": "What is the best case time complexity of bubble sort?",
+          "options": ["O(1)", "O(n)", "O(n log n)", "O(n²)"],
+          "a": 1,
+          "ex": "Best case occurs when array is already sorted, requiring only one pass to verify: O(n)."
+        },
+        {
+          "q": "Which sorting algorithm is stable?",
+          "options": ["Quick sort", "Heap sort", "Merge sort", "Selection sort"],
+          "a": 2,
+          "ex": "Merge sort maintains relative order of equal elements, making it a stable sorting algorithm."
+        },
+        {
+          "q": "What is the space complexity of merge sort?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Merge sort requires O(n) auxiliary space for temporary arrays during the merging process."
+        },
+        {
+          "q": "In quick sort, what is the purpose of the pivot element?",
+          "options": ["To sort the array", "To partition the array", "To find minimum", "To count elements"],
+          "a": 1,
+          "ex": "Pivot partitions array so that elements smaller than pivot are on left, larger ones on right."
+        },
+        {
+          "q": "What is the worst case time complexity of quick sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(2ⁿ)"],
+          "a": 2,
+          "ex": "Worst case occurs when pivot is always smallest/largest element, leading to unbalanced partitions: O(n²)."
+        },
+        {
+          "q": "What is the average case time complexity of quick sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+          "a": 1,
+          "ex": "Average case assumes balanced partitions, leading to O(n log n) time complexity."
+        },
+        {
+          "q": "Which sorting algorithm uses divide and conquer approach?",
+          "options": ["Bubble sort", "Insertion sort", "Merge sort", "Selection sort"],
+          "a": 2,
+          "ex": "Merge sort divides array into halves, sorts them recursively, then merges sorted halves."
+        },
+        {
+          "q": "What is the space complexity of bubble sort?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 0,
+          "ex": "Bubble sort sorts in-place, using only constant extra space for temporary variables: O(1)."
+        },
+        {
+          "q": "In bubble sort, after k passes, what can we guarantee?",
+          "options": ["First k elements are sorted", "Last k elements are in correct position", "Array is partially sorted", "Nothing specific"],
+          "a": 1,
+          "ex": "After k passes, the k largest elements 'bubble up' to their correct positions at the end."
+        },
+        {
+          "q": "What is the time complexity of merge sort in all cases?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "Varies"],
+          "a": 1,
+          "ex": "Merge sort consistently divides array into halves and merges in O(n), giving O(n log n) in all cases."
+        },
+        {
+          "q": "Which pivot selection strategy helps avoid quick sort's worst case?",
+          "options": ["Always first element", "Always last element", "Random element", "Always middle element"],
+          "a": 2,
+          "ex": "Random pivot selection reduces probability of consistently poor partitions, improving average performance."
+        },
+        {
+          "q": "What is an adaptive sorting algorithm?",
+          "options": ["Changes strategy based on input", "Performs better on partially sorted input", "Uses multiple algorithms", "Adapts to memory constraints"],
+          "a": 1,
+          "ex": "Adaptive algorithms like insertion sort perform better when input is already partially sorted."
+        },
+        {
+          "q": "Is bubble sort an adaptive algorithm?",
+          "options": ["Yes", "No", "Sometimes", "Depends on implementation"],
+          "a": 3,
+          "ex": "Standard bubble sort is not adaptive, but optimized version that stops early when no swaps occur is adaptive."
+        },
+        {
+          "q": "What is the recurrence relation for merge sort?",
+          "options": ["T(n) = T(n-1) + O(n)", "T(n) = 2T(n/2) + O(n)", "T(n) = T(n/2) + O(1)", "T(n) = nT(n/2) + O(1)"],
+          "a": 1,
+          "ex": "Merge sort divides into 2 subproblems of size n/2 and merges in O(n): T(n) = 2T(n/2) + O(n)."
+        },
+        {
+          "q": "Which sorting algorithm is NOT comparison-based?",
+          "options": ["Bubble sort", "Merge sort", "Quick sort", "Counting sort"],
+          "a": 3,
+          "ex": "Counting sort uses key values as indices rather than comparing elements directly."
+        },
+        {
+          "q": "What is the minimum number of swaps needed in bubble sort for array [3,2,1]?",
+          "options": ["2", "3", "4", "6"],
+          "a": 1,
+          "ex": "Array [3,2,1]: Pass 1: swap(3,2)→[2,3,1], swap(3,1)→[2,1,3]. Pass 2: swap(2,1)→[1,2,3]. Total: 3 swaps."
+        },
+        {
+          "q": "In quick sort, what is partitioning?",
+          "options": ["Dividing array into equal parts", "Rearranging elements around pivot", "Sorting subarrays", "Finding median"],
+          "a": 1,
+          "ex": "Partitioning rearranges array so elements ≤ pivot are on left, elements > pivot are on right."
+        },
+        {
+          "q": "What is the space complexity of in-place quick sort?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 1,
+          "ex": "In-place quick sort uses recursion stack which can go O(log n) deep in average case."
+        },
+        {
+          "q": "Which algorithm is best for sorting linked lists?",
+          "options": ["Bubble sort", "Quick sort", "Merge sort", "Heap sort"],
+          "a": 2,
+          "ex": "Merge sort works well with linked lists as it doesn't require random access and can merge efficiently."
+        },
+        {
+          "q": "What is the invariant maintained by bubble sort?",
+          "options": ["Array is always sorted", "Largest elements move to end", "Smallest elements move to beginning", "No specific invariant"],
+          "a": 1,
+          "ex": "Bubble sort maintains invariant that after i passes, the i largest elements are in correct positions."
+        },
+        {
+          "q": "What is 3-way partitioning in quick sort?",
+          "options": ["Divide into 3 equal parts", "Handle duplicates efficiently", "Use 3 pivots", "Sort 3 elements"],
+          "a": 1,
+          "ex": "3-way partitioning creates three sections: <pivot, =pivot, >pivot, handling duplicates efficiently."
+        },
+        {
+          "q": "What is the lower bound for comparison-based sorting?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+          "a": 1,
+          "ex": "Information-theoretic lower bound for comparison-based sorting is Ω(n log n)."
+        },
+        {
+          "q": "Which sorting algorithm has the best space complexity?",
+          "options": ["Merge sort", "Quick sort", "Bubble sort", "Heap sort"],
+          "a": 2,
+          "ex": "Bubble sort uses O(1) space as it sorts in-place with only constant extra variables."
+        },
+        {
+          "q": "What is external sorting?",
+          "options": ["Sorting outside main memory", "Sorting external files", "Sorting using external libraries", "Sorting with external help"],
+          "a": 0,
+          "ex": "External sorting handles datasets too large for main memory, using disk storage and merge techniques."
+        },
+        {
+          "q": "In merge sort, what is the merge operation's time complexity?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "a": 2,
+          "ex": "Merging two sorted arrays of total size n requires examining each element once: O(n)."
+        }
+         ]
+    }
   ]
 }
