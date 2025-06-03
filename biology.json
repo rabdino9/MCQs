@@ -4660,6 +4660,2400 @@
           "ex": "Lampreys and hagfish are examples of primitive jawless fish (agnathans)."
         }
       ]
+    },
+    {
+      "id": "photosynthesis_cellular_respiration",
+      "title": "Photosynthesis and Cellular Respiration",
+      "questions": [
+        {
+          "q": "What are the primary reactants (inputs) for photosynthesis?",
+          "options": ["Glucose and Oxygen", "Carbon Dioxide and Water", "ATP and NADPH", "Light and Heat"],
+          "a": 1,
+          "ex": "Plants take in carbon dioxide from the air and water from the soil to carry out photosynthesis."
+        },
+        {
+          "q": "Where does photosynthesis primarily occur in eukaryotic cells?",
+          "options": ["Mitochondria", "Cytoplasm", "Chloroplasts", "Nucleus"],
+          "a": 2,
+          "ex": "Chloroplasts contain chlorophyll and other pigments necessary for capturing light energy."
+        },
+        {
+          "q": "What is the main energy-carrying molecule produced during cellular respiration?",
+          "options": ["Glucose", "Oxygen", "ATP", "Water"],
+          "a": 2,
+          "ex": "ATP (adenosine triphosphate) is the direct energy currency that cells use to power most of their activities."
+        },
+        {
+          "q": "Which of the following is a product (output) of cellular respiration?",
+          "options": ["Glucose and Oxygen", "Carbon Dioxide and Water", "Light energy", "Starch"],
+          "a": 1,
+          "ex": "Cellular respiration breaks down glucose and oxygen to release energy, producing carbon dioxide and water as byproducts."
+        },
+        {
+          "q": "The light-dependent reactions of photosynthesis occur in the:",
+          "options": ["Stroma", "Thylakoid membranes", "Cytoplasm", "Mitochondrial matrix"],
+          "a": 1,
+          "ex": "The thylakoid membranes contain chlorophyll and the electron transport chains for the light reactions."
+        },
+        {
+          "q": "The Calvin cycle (light-independent reactions) of photosynthesis occurs in the:",
+          "options": ["Thylakoid membranes", "Stroma", "Cytoplasm", "Mitochondrial intermembrane space"],
+          "a": 1,
+          "ex": "The stroma is the fluid-filled space within the chloroplast where the Calvin cycle takes place, using ATP and NADPH from the light reactions to fix carbon dioxide."
+        },
+        {
+          "q": "Which stage of cellular respiration occurs in the cytoplasm and does NOT require oxygen?",
+          "options": ["Krebs cycle (Citric Acid Cycle)", "Electron Transport Chain", "Glycolysis", "Oxidative phosphorylation"],
+          "a": 2,
+          "ex": "Glycolysis is the anaerobic breakdown of glucose into pyruvate, occurring in the cytoplasm of all cells."
+        },
+        {
+          "q": "In eukaryotic cells, the Krebs cycle (Citric Acid Cycle) and the electron transport chain occur in the:",
+          "options": ["Cytoplasm", "Chloroplasts", "Mitochondria", "Nucleus"],
+          "a": 2,
+          "ex": "These are the main stages of aerobic respiration, occurring within the inner compartments of the mitochondria."
+        },
+        {
+          "q": "The primary role of oxygen in aerobic cellular respiration is to:",
+          "options": ["Break down glucose directly.", "Act as the final electron acceptor in the electron transport chain.", "Produce carbon dioxide.", "Generate ATP directly."],
+          "a": 1,
+          "ex": "Oxygen accepts electrons and protons at the end of the electron transport chain, forming water and allowing the chain to continue producing ATP."
+        },
+        {
+          "q": "What is the purpose of fermentation in anaerobic conditions?",
+          "options": ["To produce a large amount of ATP.", "To regenerate NAD+ for glycolysis to continue.", "To completely break down glucose to CO2 and H2O.", "To produce oxygen."],
+          "a": 1,
+          "ex": "Fermentation pathways (e.g., lactic acid fermentation, alcoholic fermentation) regenerate NAD+ from NADH, which is essential for glycolysis to continue producing a small amount of ATP in the absence of oxygen."
+        },
+        {
+          "q": "Which of the following is the balanced chemical equation for photosynthesis?",
+          "options": ["C6H12O6 + 6O2 → 6CO2 + 6H2O + Energy", "6CO2 + 6H2O + Light Energy → C6H12O6 + 6O2", "C6H12O6 → 2C2H5OH + 2CO2 + Energy", "H2O → H+ + OH-"],
+          "a": 1,
+          "ex": "This equation shows that carbon dioxide and water, with light energy, are converted into glucose and oxygen."
+        },
+        {
+          "q": "Which of the following is the balanced chemical equation for aerobic cellular respiration?",
+          "options": ["C6H12O6 + 6O2 → 6CO2 + 6H2O + Energy", "6CO2 + 6H2O + Light Energy → C6H12O6 + 6O2", "2H2O2 → 2H2O + O2", "ATP → ADP + Pi + Energy"],
+          "a": 0,
+          "ex": "This equation summarizes the breakdown of glucose in the presence of oxygen to release energy, producing carbon dioxide and water."
+        },
+        {
+          "q": "The energy currency of the cell is:",
+          "options": ["ADP", "AMP", "ATP", "Glucose"],
+          "a": 2,
+          "ex": "ATP is the molecule that directly provides energy for most cellular processes when its terminal phosphate group is hydrolyzed."
+        },
+        {
+          "q": "How do plants obtain the carbon dioxide needed for photosynthesis?",
+          "options": ["From the soil through their roots.", "From the air through stomata on their leaves.", "By breaking down glucose.", "From other organisms."],
+          "a": 1,
+          "ex": "Stomata are small pores on plant leaves that allow for gas exchange."
+        },
+        {
+          "q": "The primary purpose of the electron transport chain in both photosynthesis and cellular respiration is to:",
+          "options": ["Break down glucose.", "Produce water.", "Create a proton (H+) gradient to drive ATP synthesis.", "Generate carbon dioxide."],
+          "a": 2,
+          "ex": "The movement of electrons through a series of protein complexes pumps protons across a membrane, building up a gradient that powers ATP synthase (chemiosmosis)."
+        },
+        {
+          "q": "If oxygen is NOT available to a cell after glycolysis, what process will likely follow in animal cells?",
+          "options": ["Krebs cycle", "Electron Transport Chain", "Lactic acid fermentation", "Alcoholic fermentation"],
+          "a": 2,
+          "ex": "In animal cells, when oxygen is scarce (e.g., during intense exercise), pyruvate is converted to lactate, regenerating NAD+ for glycolysis."
+        },
+        {
+          "q": "Which process generates the most ATP per glucose molecule?",
+          "options": ["Glycolysis", "Krebs cycle", "Electron Transport Chain / Oxidative Phosphorylation", "Fermentation"],
+          "a": 2,
+          "ex": "The electron transport chain, coupled with chemiosmosis, produces the vast majority of ATP (around 30-34 ATP) during aerobic respiration."
+        },
+        {
+          "q": "The stack of thylakoids within a chloroplast is called a(n):",
+          "options": ["Stroma", "Granum (plural: grana)", "Matrix", "Crista"],
+          "a": 1,
+          "ex": "Grana increase the surface area within the chloroplast for the light-dependent reactions."
+        },
+        {
+          "q": "What is the fate of the oxygen gas (O2) produced during photosynthesis?",
+          "options": ["It is used by the plant for cellular respiration.", "It is released into the atmosphere as a byproduct.", "It is stored in the plant for later use.", "It is converted into water."],
+          "a": 1,
+          "ex": "The oxygen released during photosynthesis is vital for the survival of most aerobic organisms on Earth."
+        },
+        {
+          "q": "What is the primary product of the Calvin cycle?",
+          "options": ["Oxygen", "ATP", "NADPH", "Glyceraldehyde-3-phosphate (G3P)"],
+          "a": 3,
+          "ex": "G3P is a three-carbon sugar that can be used to synthesize glucose and other organic molecules."
+        },
+        {
+          "q": "In what form is energy stored in the glucose molecule?",
+          "options": ["Kinetic energy", "Heat energy", "Potential energy in chemical bonds", "Light energy"],
+          "a": 2,
+          "ex": "The chemical bonds within glucose molecules store potential energy that can be released during cellular respiration."
+        }
+      ]
+    },
+    {
+      "id": "immune_system_homeostasis",
+      "title": "Immune System and Homeostasis",
+      "questions": [
+        {
+          "q": "The body's ability to maintain a stable internal environment despite external changes is called:",
+          "options": ["Metabolism", "Reproduction", "Homeostasis", "Evolution"],
+          "a": 2,
+          "ex": "Homeostasis involves a dynamic equilibrium where internal conditions are kept within a narrow range compatible with life (e.g., temperature, pH, blood glucose)."
+        },
+        {
+          "q": "Which of the following is an example of a **negative feedback loop** in the human body?",
+          "options": ["Childbirth contractions", "Blood clotting", "Regulation of blood glucose levels", "Fruit ripening"],
+          "a": 2,
+          "ex": "Negative feedback loops work to counteract a change and return the system to its set point. When blood glucose rises, insulin is released to lower it; when it falls, glucagon is released to raise it."
+        },
+        {
+          "q": "The body's first line of defense against pathogens includes:",
+          "options": ["Antibodies and T cells", "White blood cells", "Skin and mucous membranes", "Lymph nodes and spleen"],
+          "a": 2,
+          "ex": "The skin provides a physical barrier, and mucous membranes (e.g., respiratory, digestive tracts) trap and remove pathogens."
+        },
+        {
+          "q": "Which type of white blood cell produces antibodies to fight specific pathogens?",
+          "options": ["Phagocytes", "Neutrophils", "B lymphocytes (B cells)", "T lymphocytes (T cells)"],
+          "a": 2,
+          "ex": "B cells are part of the adaptive (specific) immune system and are responsible for humoral immunity by producing antibodies."
+        },
+        {
+          "q": "A substance that triggers an immune response is called a(n):",
+          "options": ["Antibiotic", "Vaccine", "Antigen", "Toxin"],
+          "a": 2,
+          "ex": "Antigens are typically proteins or polysaccharides located on the surface of pathogens or other foreign substances that the immune system recognizes."
+        },
+        {
+          "q": "What is the primary function of **T cells** (T lymphocytes) in the immune system?",
+          "options": ["Produce antibodies", "Engulf pathogens through phagocytosis", "Directly kill infected cells or regulate other immune cells", "Produce histamine"],
+          "a": 2,
+          "ex": "T cells are central to cell-mediated immunity. Cytotoxic T cells directly kill infected cells, while helper T cells coordinate the immune response."
+        },
+        {
+          "q": "Fever is an important defense mechanism because it can:",
+          "options": ["Directly kill all bacteria and viruses.", "Speed up metabolic rate and enhance immune cell activity.", "Decrease inflammation.", "Reduce the production of white blood cells."],
+          "a": 1,
+          "ex": "A moderate fever can inhibit pathogen growth and enhance the activity of immune cells, speeding up recovery."
+        },
+        {
+          "q": "The swelling, redness, heat, and pain associated with an injury or infection are characteristic of:",
+          "options": ["An allergic reaction", "An autoimmune disease", "Inflammation", "Immunodeficiency"],
+          "a": 2,
+          "ex": "Inflammation is a protective response involving immune cells and blood vessels to eliminate the initial cause of cell injury, clear out necrotic cells and tissues, and initiate tissue repair."
+        },
+        {
+          "q": "Which of the following describes **active immunity**?",
+          "options": ["Antibodies are transferred from mother to child through breast milk.", "Pre-formed antibodies are injected into an individual.", "The body produces its own antibodies after exposure to an antigen (naturally or via vaccination).", "It provides immediate but short-lived protection."],
+          "a": 2,
+          "ex": "Active immunity provides long-lasting protection as the immune system develops memory cells."
+        },
+        {
+          "q": "Thermoregulation, the maintenance of a stable body temperature, is a key example of homeostasis. Which part of the brain plays a crucial role in this process?",
+          "options": ["Cerebrum", "Cerebellum", "Brainstem", "Hypothalamus"],
+          "a": 3,
+          "ex": "The hypothalamus acts as the body's thermostat, initiating responses like sweating (to cool down) or shivering (to warm up)."
+        },
+        {
+          "q": "Insulin and glucagon are hormones that regulate blood glucose levels. This is an example of how the body maintains:",
+          "options": ["Osmoregulation", "Thermoregulation", "Chemoregulation", "Blood glucose homeostasis"],
+          "a": 3,
+          "ex": "Insulin lowers high blood glucose, and glucagon raises low blood glucose, ensuring a stable energy supply for cells."
+        },
+        {
+          "q": "An autoimmune disease occurs when the immune system:",
+          "options": ["Fails to produce enough antibodies.", "Attacks the body's own healthy cells and tissues.", "Overreacts to harmless substances like pollen.", "Is weakened by an infection."],
+          "a": 1,
+          "ex": "Examples include Type 1 Diabetes, Rheumatoid Arthritis, and Multiple Sclerosis."
+        },
+        {
+          "q": "The kidneys play a vital role in maintaining **osmoregulation** by regulating the balance of:",
+          "options": ["Blood pressure and heart rate.", "Glucose and insulin.", "Water and salts in the blood.", "Oxygen and carbon dioxide levels."],
+          "a": 2,
+          "ex": "The kidneys filter blood, reabsorb necessary substances, and excrete excess water, salts, and waste products to maintain fluid and electrolyte balance."
+        },
+        {
+          "q": "Which of the following is a component of **innate immunity**?",
+          "options": ["Antibody production", "Memory cells", "Phagocytic cells (e.g., macrophages)", "Vaccination"],
+          "a": 2,
+          "ex": "Innate immunity is the body's non-specific, immediate defense system, including physical barriers, phagocytes, natural killer cells, and inflammation."
+        },
+        {
+          "q": "Histamine, released by mast cells during an allergic reaction or inflammation, causes:",
+          "options": ["Blood vessel constriction.", "Increased blood flow and capillary permeability.", "Suppression of immune response.", "Decreased fluid in tissues."],
+          "a": 1,
+          "ex": "Histamine's effects contribute to the redness, swelling, and itching associated with allergies and the inflammatory response, allowing immune cells to reach the site of injury."
+        }
+      ]
+    },
+    {
+      "id": "evolution_natural_selection",
+      "title": "Evolution and Natural Selection",
+      "questions": [
+        {
+          "q": "The process by which organisms that are better adapted to their environment tend to survive and produce more offspring is known as:",
+          "options": ["Genetic drift", "Gene flow", "Natural selection", "Mutation"],
+          "a": 2,
+          "ex": "Natural selection is a key mechanism of evolution, driving adaptation and increasing the frequency of advantageous traits in a population over generations."
+        },
+        {
+          "q": "Which of the following is NOT a core principle of natural selection?",
+          "options": ["Variation within a population", "Inheritance of traits", "Overproduction of offspring", "Acquired traits are passed to offspring"],
+          "a": 3,
+          "ex": "Lamarck's theory of inheritance of acquired characteristics has been disproven. Natural selection acts on heritable variations that exist in a population."
+        },
+        {
+          "q": "Structures that have different functions but are derived from a common ancestral structure (e.g., bat wing and human arm) are called:",
+          "options": ["Analogous structures", "Vestigial structures", "Homologous structures", "Convergent structures"],
+          "a": 2,
+          "ex": "Homologous structures provide evidence of common ancestry."
+        },
+        {
+          "q": "The ultimate source of new genetic variation in a population is:",
+          "options": ["Natural selection", "Genetic drift", "Mutation", "Gene flow"],
+          "a": 2,
+          "ex": "Mutations are random changes in the DNA sequence and are the raw material upon which evolutionary forces act."
+        },
+        {
+          "q": "The formation of new and distinct species in the course of evolution is called:",
+          "options": ["Adaptation", "Extinction", "Speciation", "Coevolution"],
+          "a": 2,
+          "ex": "Speciation typically occurs when populations become reproductively isolated and diverge genetically."
+        },
+        {
+          "q": "Which of the following provides strong evidence for evolution through the study of preserved remains of ancient organisms?",
+          "options": ["Comparative anatomy", "Biogeography", "Molecular biology", "Fossil record"],
+          "a": 3,
+          "ex": "The fossil record shows transitional forms and the sequential appearance of different life forms over geological time."
+        },
+        {
+          "q": "The process where two different species evolve in response to changes in each other is called:",
+          "options": ["Convergent evolution", "Divergent evolution", "Coevolution", "Parallel evolution"],
+          "a": 2,
+          "ex": "Coevolution often occurs in predator-prey relationships, host-parasite interactions, or mutualistic relationships (e.g., flowering plants and pollinators)."
+        },
+        {
+          "q": "Random changes in allele frequencies in a population, especially significant in small populations, is known as:",
+          "options": ["Natural selection", "Gene flow", "Genetic drift", "Mutation"],
+          "a": 2,
+          "ex": "Genetic drift can lead to the loss of genetic variation within a population and the fixation of certain alleles, regardless of their adaptive value."
+        },
+        {
+          "q": "What is meant by 'fitness' in an evolutionary context?",
+          "options": ["Physical strength and speed.", "The ability of an individual to survive and reproduce, passing on its genes.", "The lifespan of an individual.", "The size of an organism."],
+          "a": 1,
+          "ex": "Evolutionary fitness is measured by reproductive success and the contribution of an individual's genes to the next generation's gene pool."
+        },
+        {
+          "q": "The independent evolution of similar features in species of different lineages, resulting from similar environmental pressures, is called:",
+          "options": ["Divergent evolution", "Convergent evolution", "Coevolution", "Adaptive radiation"],
+          "a": 1,
+          "ex": "Convergent evolution leads to analogous structures (e.g., wings of birds and insects) that serve similar functions but have different evolutionary origins."
+        },
+        {
+          "q": "Structures that are remnants of features that served important functions in the organism's ancestors but are now reduced and serve little or no function (e.g., human appendix) are called:",
+          "options": ["Homologous structures", "Analogous structures", "Vestigial structures", "Embryological structures"],
+          "a": 2,
+          "ex": "Vestigial structures provide evidence of evolutionary history and common descent."
+        },
+        {
+          "q": "The movement of alleles between populations (e.g., due to migration of individuals) is called:",
+          "options": ["Genetic drift", "Natural selection", "Gene flow", "Mutation"],
+          "a": 2,
+          "ex": "Gene flow can introduce new alleles into a population or change the frequency of existing ones, affecting genetic variation."
+        },
+        {
+          "q": "The concept that Earth's crust is divided into large plates that move over time, influencing the distribution of species, is part of:",
+          "options": ["Pangea theory", "Continental drift / Plate tectonics", "Mass extinction events", "Punctuated equilibrium"],
+          "a": 1,
+          "ex": "Biogeography, the study of the geographic distribution of species, is strongly supported by the theory of plate tectonics."
+        },
+        {
+          "q": "Which of the following is a primary source of evidence for evolution from **molecular biology**?",
+          "options": ["Comparing bone structures of different animals.", "Observing the distribution of species on different continents.", "Similarities in DNA and amino acid sequences among different species.", "Analyzing the layers of rock strata."],
+          "a": 2,
+          "ex": "The more closely related two species are, the more similar their DNA and protein sequences will be, reflecting their shared ancestry."
+        },
+        {
+          "q": "An **adaptation** is best defined as:",
+          "options": ["A random change in an organism's DNA.", "A trait that allows an organism to survive and reproduce better in its environment.", "The disappearance of a species from Earth.", "The independent evolution of similar traits in different lineages."],
+          "a": 1,
+          "ex": "Adaptations are the result of natural selection acting on heritable variation over many generations."
+        }
+      ]
+    },
+    {
+      "id": "biodiversity_conservation",
+      "title": "Biodiversity and Conservation",
+      "questions": [
+        {
+          "q": "Which of the following best defines **biodiversity**?",
+          "options": ["The total number of species in a given area.", "The variety of life on Earth at all its levels, from genes to ecosystems.", "The number of different ecosystems in a region.", "The abundance of a single dominant species in an area."],
+          "a": 1,
+          "ex": "Biodiversity encompasses genetic diversity (within species), species diversity (number and abundance of species), and ecosystem diversity (variety of habitats and ecological processes)."
+        },
+        {
+          "q": "The complete disappearance of a species from Earth is known as:",
+          "options": ["Speciation", "Extinction", "Adaptation", "Colonization"],
+          "a": 1,
+          "ex": "Extinction is a natural process, but current extinction rates are significantly higher due to human activities."
+        },
+        {
+          "q": "Which of the following is considered the **greatest threat** to biodiversity worldwide?",
+          "options": ["Pollution", "Climate change", "Habitat loss and fragmentation", "Invasive species"],
+          "a": 2,
+          "ex": "Habitat destruction, degradation, and fragmentation directly eliminate the living spaces and resources that species need to survive."
+        },
+        {
+          "q": "An **endangered species** is defined as one that:",
+          "options": ["Is abundant and widespread.", "Is likely to become extinct in the near future throughout all or a significant portion of its range.", "Is only found in zoos.", "Has a rapidly increasing population."],
+          "a": 1,
+          "ex": "Endangered species are at very high risk of extinction in the wild, typically due to significant population decline or habitat reduction."
+        },
+        {
+          "q": "The introduction of non-native species into an ecosystem, which then outcompete native species and disrupt ecological balance, is a threat known as:",
+          "options": ["Overexploitation", "Climate change", "Invasive species", "Pollution"],
+          "a": 2,
+          "ex": "Invasive species can cause significant ecological and economic damage, often lacking natural predators or competitors in their new environment."
+        },
+        {
+          "q": "What is the primary goal of **conservation biology**?",
+          "options": ["To study past extinction events.", "To develop new biotechnologies.", "To understand and preserve biodiversity and its natural resources.", "To increase agricultural yields."],
+          "a": 2,
+          "ex": "Conservation biology is an interdisciplinary field that addresses the maintenance, loss, and restoration of biodiversity."
+        },
+        {
+          "q": "Establishing national parks and wildlife sanctuaries is an example of which type of conservation strategy?",
+          "options": ["Ex-situ conservation", "In-situ conservation", "Genetic engineering", "Bioremediation"],
+          "a": 1,
+          "ex": "In-situ conservation protects species in their natural habitats, allowing them to continue to evolve and interact within their ecosystems."
+        },
+        {
+          "q": "Keeping species in zoos, botanical gardens, or seed banks for preservation is an example of:",
+          "options": ["In-situ conservation", "Ex-situ conservation", "Habitat restoration", "Sustainable use"],
+          "a": 1,
+          "ex": "Ex-situ conservation involves protecting species outside their natural habitats, often as a last resort to prevent extinction or to aid in reintroduction."
+        },
+        {
+          "q": "The long-term changes in global weather patterns due to increased greenhouse gas emissions is a major threat to biodiversity called:",
+          "options": ["Habitat fragmentation", "Overexploitation", "Acid rain", "Climate change"],
+          "a": 3,
+          "ex": "Climate change alters habitats, shifts species ranges, impacts reproductive cycles, and increases the frequency of extreme weather events, threatening species survival."
+        },
+        {
+          "q": "The illegal hunting or capture of wild animals, often for their valuable parts, is known as:",
+          "options": ["Fishing", "Farming", "Poaching", "Ranching"],
+          "a": 2,
+          "ex": "Poaching contributes significantly to the decline of many endangered species."
+        },
+        {
+          "q": "What does 'sustainable development' aim to achieve?",
+          "options": ["Rapid economic growth at any cost.", "Strict environmental protection with no economic activity.", "Meeting the needs of the present without compromising the ability of future generations to meet their own needs.", "Focusing only on technological solutions to environmental problems."],
+          "a": 2,
+          "ex": "Sustainable development seeks a balance between economic progress, social equity, and environmental protection."
+        },
+        {
+          "q": "A 'hotspot' of biodiversity refers to a region that:",
+          "options": ["Experiences frequent volcanic activity.", "Is very cold and has little life.", "Has a high concentration of endemic species and is under significant threat.", "Is a major source of air pollution."],
+          "a": 2,
+          "ex": "Biodiversity hotspots are critical areas for conservation efforts due to their rich biodiversity and high vulnerability."
+        },
+        {
+          "q": "Which of the following human activities directly contributes to acid rain, harming forests and aquatic ecosystems?",
+          "options": ["Excessive irrigation in agriculture.", "Burning fossil fuels (releasing sulfur dioxide and nitrogen oxides).", "Deforestation for timber.", "Overfishing in oceans."],
+          "a": 1,
+          "ex": "Acid rain results from atmospheric pollutants, primarily from the burning of coal and oil, which react with water, oxygen, and other chemicals."
+        },
+        {
+          "q": "The variety of genes within a species, which allows it to adapt to changing environments, is called:",
+          "options": ["Species diversity", "Ecosystem diversity", "Genetic diversity", "Community diversity"],
+          "a": 2,
+          "ex": "High genetic diversity makes a population more resilient to diseases, environmental changes, and other stresses."
+        },
+        {
+          "q": "What is the role of seed banks in conservation?",
+          "options": ["To grow new crops for commercial purposes.", "To store seeds from a wide variety of plant species for long-term preservation.", "To test the viability of new plant hybrids.", "To develop genetically modified organisms."],
+          "a": 1,
+          "ex": "Seed banks are a crucial ex-situ conservation method, providing a genetic safeguard against plant extinctions and a resource for future research or restoration."
+        }
+      ]
+    },
+    {
+      "id": "human_reproduction_development",
+      "title": "Human Reproduction and Development",
+      "questions": [
+        {
+          "q": "Which of the following is the primary male reproductive organ responsible for producing sperm and testosterone?",
+          "options": ["Prostate gland", "Seminal vesicle", "Testis", "Epididymis"],
+          "a": 2,
+          "ex": "The testes are the gonads in males, crucial for both gamete (sperm) production and hormone (testosterone) synthesis."
+        },
+        {
+          "q": "The process of egg formation in females is called:",
+          "options": ["Spermatogenesis", "Ovulation", "Oogenesis", "Menstruation"],
+          "a": 2,
+          "ex": "Oogenesis is the process by which female gametes (ova) are produced in the ovaries."
+        },
+        {
+          "q": "Which female reproductive organ is the site of fertilization?",
+          "options": ["Ovary", "Uterus", "Vagina", "Fallopian tube (Oviduct)"],
+          "a": 3,
+          "ex": "Fertilization typically occurs in the ampulla, the widest section of the fallopian tube, after sperm meet the egg."
+        },
+        {
+          "q": "The shedding of the uterine lining in females that occurs approximately every 28 days if pregnancy does not occur is called:",
+          "options": ["Ovulation", "Fertilization", "Menstruation", "Implantation"],
+          "a": 2,
+          "ex": "Menstruation is the monthly shedding of the uterine lining, which has thickened in preparation for a potential pregnancy."
+        },
+        {
+          "q": "Which hormone is primarily responsible for the development of male secondary sexual characteristics and sperm production?",
+          "options": ["Estrogen", "Progesterone", "Testosterone", "Luteinizing Hormone (LH)"],
+          "a": 2,
+          "ex": "Testosterone is the main male sex hormone, produced largely by the testes."
+        },
+        {
+          "q": "The union of a sperm and an egg to form a zygote is called:",
+          "options": ["Ovulation", "Gametogenesis", "Fertilization", "Implantation"],
+          "a": 2,
+          "ex": "Fertilization marks the beginning of embryonic development."
+        },
+        {
+          "q": "After fertilization, the single-celled zygote undergoes rapid cell division. This process is called:",
+          "options": ["Gastrulation", "Organogenesis", "Cleavage", "Differentiation"],
+          "a": 2,
+          "ex": "Cleavage results in a multicellular embryo (morula, then blastocyst) without significant increase in overall size."
+        },
+        {
+          "q": "Which of the following describes the role of the **placenta** during pregnancy?",
+          "options": ["Produces sperm and egg cells.", "Stores waste products from the mother.", "Facilitates nutrient and gas exchange between mother and fetus.", "Protects the fetus from all diseases."],
+          "a": 2,
+          "ex": "The placenta is a vital organ that connects the developing fetus to the uterine wall, allowing for nutrient uptake, waste elimination, and gas exchange via the mother's blood supply."
+        },
+        {
+          "q": "The stage of human development from the 9th week after fertilization until birth is referred to as a(n):",
+          "options": ["Zygote", "Embryo", "Fetus", "Blastocyst"],
+          "a": 2,
+          "ex": "The embryonic stage focuses on organ formation, while the fetal stage is primarily characterized by growth and maturation of existing organs."
+        },
+        {
+          "q": "Which hormone is responsible for maintaining the uterine lining during pregnancy and preventing uterine contractions?",
+          "options": ["Follicle-Stimulating Hormone (FSH)", "Luteinizing Hormone (LH)", "Estrogen", "Progesterone"],
+          "a": 3,
+          "ex": "Progesterone, initially produced by the corpus luteum and later by the placenta, is crucial for sustaining pregnancy."
+        },
+        {
+          "q": "The process of a fertilized egg implanting itself into the wall of the uterus is called:",
+          "options": ["Ovulation", "Menstruation", "Gastrulation", "Implantation"],
+          "a": 3,
+          "ex": "Successful implantation is essential for the continuation of pregnancy."
+        },
+        {
+          "q": "Which of these events typically occurs during **ovulation**?",
+          "options": ["The uterine lining is shed.", "A sperm fertilizes an egg.", "A mature egg is released from the ovary.", "Implantation of the zygote occurs."],
+          "a": 2,
+          "ex": "Ovulation is the release of a mature ovum from the ovarian follicle, typically mid-menstrual cycle."
+        },
+        {
+          "q": "The male reproductive tube that transports sperm from the epididymis to the ejaculatory duct is the:",
+          "options": ["Urethra", "Seminal vesicle", "Vas deferens", "Bulbourethral gland"],
+          "a": 2,
+          "ex": "The vas deferens carries sperm towards the urethra for ejaculation."
+        },
+        {
+          "q": "Which of the following is a function of the **amniotic fluid** during fetal development?",
+          "options": ["Provides nutrients to the fetus directly.", "Filters waste products from the fetal blood.", "Acts as a protective cushion and allows fetal movement.", "Transports oxygen to the fetus."],
+          "a": 2,
+          "ex": "Amniotic fluid helps maintain a stable temperature, protects against physical trauma, and facilitates muscular and skeletal development."
+        },
+        {
+          "q": "Puberty in males is primarily initiated by the increase in the production of:",
+          "options": ["Estrogen", "Growth hormone", "Testosterone", "Insulin"],
+          "a": 2,
+          "ex": "Testosterone drives the development of male secondary sexual characteristics, including muscle growth, voice deepening, and hair growth."
+        }
+      ]
+    },
+    {
+      "id": "physiology",
+      "title": "Physiology (Human and Animal)",
+      "questions": [
+        {
+          "q": "Which organ system is responsible for breaking down food into nutrients that the body can absorb?",
+          "options": ["Circulatory system", "Respiratory system", "Digestive system", "Excretory system"],
+          "a": 2,
+          "ex": "The digestive system involves organs like the mouth, esophagus, stomach, small intestine, and large intestine."
+        },
+        {
+          "q": "What is the primary function of the **circulatory system**?",
+          "options": ["Gas exchange", "Nutrient absorption", "Transport of oxygen, nutrients, hormones, and waste products", "Filtering blood to remove waste"],
+          "a": 2,
+          "ex": "The circulatory system (cardiovascular system) is a vast network of organs and vessels responsible for the flow of blood, nutrients, oxygen, and hormones throughout the body."
+        },
+        {
+          "q": "Which of the following is the main organ of the **respiratory system** responsible for gas exchange?",
+          "options": ["Heart", "Stomach", "Kidney", "Lungs"],
+          "a": 3,
+          "ex": "The lungs facilitate the exchange of oxygen from the air into the blood and carbon dioxide from the blood into the air."
+        },
+        {
+          "q": "The basic functional unit of the nervous system is the:",
+          "options": ["Nephron", "Alveolus", "Sarcomere", "Neuron"],
+          "a": 3,
+          "ex": "Neurons transmit electrical and chemical signals throughout the body, forming complex communication networks."
+        },
+        {
+          "q": "Which part of the brain is primarily responsible for balance and coordination?",
+          "options": ["Cerebrum", "Cerebellum", "Brainstem", "Hypothalamus"],
+          "a": 1,
+          "ex": "The cerebellum coordinates voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity."
+        },
+        {
+          "q": "What is the primary role of the **kidneys** in the human body?",
+          "options": ["Pump blood", "Produce hormones for digestion", "Filter waste products from the blood and regulate fluid balance", "Store bile"],
+          "a": 2,
+          "ex": "The kidneys are essential organs of the excretory system, maintaining electrolyte balance, regulating blood pressure, and producing urine."
+        },
+        {
+          "q": "The contraction of muscles is primarily powered by which energy molecule?",
+          "options": ["Glucose", "ATP", "Oxygen", "Carbon dioxide"],
+          "a": 1,
+          "ex": "ATP (adenosine triphosphate) is the direct energy source for muscle contraction, allowing myosin heads to bind to actin and perform the power stroke."
+        },
+        {
+          "q": "Which system in the body produces hormones that regulate various bodily functions, including growth, metabolism, and reproduction?",
+          "options": ["Nervous system", "Skeletal system", "Endocrine system", "Lymphatic system"],
+          "a": 2,
+          "ex": "The endocrine system consists of glands (e.g., thyroid, pituitary, adrenal) that secrete hormones directly into the bloodstream."
+        },
+        {
+          "q": "Blood is pumped from the heart to the rest of the body through which type of blood vessel?",
+          "options": ["Veins", "Capillaries", "Arteries", "Lymphatic vessels"],
+          "a": 2,
+          "ex": "Arteries carry oxygenated blood away from the heart, while veins carry deoxygenated blood back to the heart."
+        },
+        {
+          "q": "The process of maintaining a stable internal body temperature is known as:",
+          "options": ["Osmoregulation", "Chemoregulation", "Thermoregulation", "Homeostasis"],
+          "a": 2,
+          "ex": "Thermoregulation is a specific example of homeostasis."
+        },
+        {
+          "q": "Which of the following is an involuntary muscle?",
+          "options": ["Bicep", "Quadricep", "Cardiac muscle (heart muscle)", "Tricep"],
+          "a": 2,
+          "ex": "Cardiac muscle and smooth muscle (e.g., in digestive tract walls) are involuntary, meaning they function without conscious control."
+        },
+        {
+          "q": "The main function of the **large intestine** is to:",
+          "options": ["Absorb nutrients from digested food.", "Break down fats.", "Absorb water and form feces.", "Produce digestive enzymes."],
+          "a": 2,
+          "ex": "The large intestine primarily reabsorbs water and electrolytes from undigested food matter, compacting it into feces for elimination."
+        },
+        {
+          "q": "What is the role of **hemoglobin** in red blood cells?",
+          "options": ["Fight infections", "Clot blood", "Transport oxygen", "Transport carbon dioxide only"],
+          "a": 2,
+          "ex": "Hemoglobin is an iron-containing protein that binds to oxygen in the lungs and releases it to tissues throughout the body."
+        },
+        {
+          "q": "The filtering units of the kidneys are called:",
+          "options": ["Alveoli", "Villi", "Nephrons", "Follicles"],
+          "a": 2,
+          "ex": "Each kidney contains millions of nephrons, which perform the essential functions of filtering blood, reabsorbing necessary substances, and excreting waste."
+        },
+        {
+          "q": "The **hypothalamus** plays a crucial role in:",
+          "options": ["Producing red blood cells.", "Controlling voluntary movements.", "Regulating body temperature, hunger, thirst, and hormone release.", "Processing visual information."],
+          "a": 2,
+          "ex": "The hypothalamus is a small but vital part of the brain that links the nervous system to the endocrine system via the pituitary gland, serving as the body's control center for many homeostatic functions."
+        }
+      ]
+    },
+     {
+      "id": "cellular_respiration_advanced",
+      "title": "Cellular Respiration (Advanced)",
+      "questions": [
+        {
+          "q": "What is the primary goal of cellular respiration?",
+          "options": ["To produce glucose for energy storage.", "To break down glucose to generate ATP.", "To release oxygen into the atmosphere.", "To synthesize proteins from amino acids."],
+          "a": 1,
+          "ex": "Cellular respiration is the metabolic pathway that breaks down glucose and other organic molecules to release energy in the form of ATP, which is the cell's main energy currency."
+        },
+        {
+          "q": "Which of the following stages of cellular respiration occurs in the cytoplasm?",
+          "options": ["Pyruvate oxidation", "Krebs cycle", "Glycolysis", "Electron transport chain"],
+          "a": 2,
+          "ex": "Glycolysis is the initial breakdown of glucose into two molecules of pyruvate, and it occurs in the cytosol of all cells, both prokaryotic and eukaryotic."
+        },
+        {
+          "q": "During glycolysis, one molecule of glucose is broken down into how many molecules of pyruvate?",
+          "options": ["One", "Two", "Three", "Four"],
+          "a": 1,
+          "ex": "Glycolysis is a 10-step pathway that converts one 6-carbon glucose molecule into two 3-carbon pyruvate molecules."
+        },
+        {
+          "q": "What is the net gain of ATP molecules produced directly during glycolysis?",
+          "options": ["0", "2", "4", "32"],
+          "a": 1,
+          "ex": "Glycolysis consumes 2 ATP but produces 4 ATP via substrate-level phosphorylation, for a net gain of 2 ATP."
+        },
+        {
+        "q": "In addition to ATP, what other high-energy molecules are produced during glycolysis?",
+          "options": ["FADH2", "NADPH", "NADH", "GTP"],
+          "a": 2,
+          "ex": "Two molecules of NADH are produced per glucose molecule during glycolysis, which will later donate electrons to the electron transport chain."
+        },
+        {
+          "q": "Where does pyruvate oxidation occur in eukaryotic cells?",
+          "options": ["Cytoplasm", "Outer mitochondrial membrane", "Mitochondrial intermembrane space", "Mitochondrial matrix"],
+          "a": 3,
+          "ex": "After glycolysis, pyruvate molecules are transported into the mitochondrial matrix, where they are converted into acetyl-CoA."
+        },
+        {
+          "q": "What molecule is formed when pyruvate is oxidized and combines with Coenzyme A?",
+          "options": ["Citrate", "Oxaloacetate", "Acetyl-CoA", "Succinate"],
+          "a": 2,
+          "ex": "Pyruvate oxidation is a key transition step that links glycolysis to the Krebs cycle, producing one CO2 and one NADH per pyruvate, along with acetyl-CoA."
+        },
+        {
+          "q": "The Krebs cycle (Citric Acid Cycle) primarily takes place in which cellular location?",
+          "options": ["Cytosol", "Outer mitochondrial membrane", "Mitochondrial matrix", "Inner mitochondrial membrane"],
+          "a": 2,
+          "ex": "The Krebs cycle is a central metabolic hub that completes the oxidation of glucose derivatives."
+        },
+        {
+          "q": "For each turn of the Krebs cycle, how many molecules of ATP (or GTP) are directly produced via substrate-level phosphorylation?",
+          "options": ["0", "1", "2", "4"],
+          "a": 1,
+          "ex": "One molecule of GTP (which is readily converted to ATP) is produced per turn of the cycle. Since two acetyl-CoA enter the cycle per glucose, 2 ATP/GTP are produced per glucose."
+        },
+        {
+          "q": "Besides ATP (or GTP), what other high-energy electron carriers are generated during the Krebs cycle per turn?",
+          "options": ["NADH and NADPH", "FADH2 and ATP", "NADH and FADH2", "ATP and CO2"],
+          "a": 2,
+          "ex": "Each turn of the Krebs cycle produces 3 NADH and 1 FADH2, which will deliver electrons to the electron transport chain for oxidative phosphorylation."
+        },
+        {
+          "q": "The primary role of the electron transport chain in cellular respiration is to:",
+          "options": ["Break down glucose completely.", "Generate ATP directly via substrate-level phosphorylation.", "Create a proton (H+) gradient to drive ATP synthesis.", "Produce carbon dioxide as a waste product."],
+          "a": 2,
+          "ex": "The electron transport chain establishes an electrochemical gradient by pumping protons across the inner mitochondrial membrane, which is then used by ATP synthase."
+        },
+        {
+          "q": "Where is the electron transport chain located in eukaryotic cells?",
+          "options": ["Cytosol", "Mitochondrial matrix", "Inner mitochondrial membrane", "Outer mitochondrial membrane"],
+          "a": 2,
+          "ex": "The protein complexes that make up the electron transport chain are embedded within the inner mitochondrial membrane, which is highly folded to increase surface area (cristae)."
+        },
+        {
+          "q": "What is the final electron acceptor in the electron transport chain during aerobic cellular respiration?",
+          "options": ["Carbon dioxide", "Water", "Oxygen", "Glucose"],
+          "a": 2,
+          "ex": "Oxygen accepts electrons and protons at the end of the electron transport chain, forming water. This is why oxygen is crucial for aerobic respiration."
+        },
+        {
+          "q": "The process of ATP synthesis driven by the flow of protons across a membrane through ATP synthase is called:",
+          "options": ["Substrate-level phosphorylation", "Photophosphorylation", "Chemiosmosis", "Glycolysis"],
+          "a": 2,
+          "ex": "Chemiosmosis is the coupling of the proton gradient to ATP production, a fundamental mechanism in both cellular respiration and photosynthesis."
+        },
+        {
+          "q": "Approximately how many ATP molecules are produced per glucose molecule during aerobic cellular respiration (total yield)?",
+          "options": ["2-4", "10-12", "30-32", "50-60"],
+          "a": 2,
+          "ex": "While the exact number can vary slightly due to factors like NADH shuttle systems, the theoretical maximum is around 30-32 ATP molecules, with the majority coming from oxidative phosphorylation."
+        },
+        {
+          "q": "When oxygen is not available, human muscle cells may perform which type of anaerobic respiration?",
+          "options": ["Alcoholic fermentation", "Lactic acid fermentation", "Glycolysis only", "Krebs cycle"],
+          "a": 1,
+          "ex": "During intense exercise, when oxygen supply is insufficient, muscle cells convert pyruvate to lactate to regenerate NAD+ and allow glycolysis to continue producing a small amount of ATP."
+        },
+        {
+          "q": "What is the main purpose of fermentation (both lactic acid and alcoholic) in anaerobic conditions?",
+          "options": ["To produce more ATP than aerobic respiration.", "To completely oxidize glucose.", "To regenerate NAD+ from NADH so that glycolysis can continue.", "To produce oxygen for the cell."],
+          "a": 2,
+          "ex": "Fermentation does not produce additional ATP itself but allows glycolysis (which produces 2 ATP) to continue by recycling NAD+."
+        },
+        {
+          "q": "Which of the following molecules represents the most reduced form of carbon in the process of cellular respiration?",
+          "options": ["CO2", "Pyruvate", "Glucose", "Acetyl-CoA"],
+          "a": 2,
+          "ex": "Glucose is the most reduced form, meaning it has the most high-energy C-H bonds, which are gradually oxidized (broken down) to release energy throughout cellular respiration."
+        },
+        {
+          "q": "During the electron transport chain, where do the protons (H+) accumulate to create the electrochemical gradient?",
+          "options": ["Mitochondrial matrix", "Cytosol", "Outer mitochondrial membrane", "Mitochondrial intermembrane space"],
+          "a": 3,
+          "ex": "The proton pumps (complexes I, III, and IV) move H+ from the mitochondrial matrix into the intermembrane space, building up a high concentration there."
+        },
+        {
+          "q": "What enzyme directly produces the bulk of ATP during aerobic respiration?",
+          "options": ["Hexokinase", "Phosphofructokinase", "Pyruvate kinase", "ATP synthase"],
+          "a": 3,
+          "ex": "ATP synthase is a molecular machine that uses the energy of the proton gradient to synthesize ATP from ADP and inorganic phosphate."
+        },
+        {
+          "q": "If a cell performs anaerobic respiration, which of the following is NOT produced?",
+          "options": ["ATP", "Pyruvate", "NADH", "FADH2"],
+          "a": 3,
+          "ex": "FADH2 is produced only in the Krebs cycle, which does not occur under anaerobic conditions as it requires oxygen (indirectly, by regenerating NAD+ and FAD via the ETC)."
+        },
+        {
+          "q": "The process of breaking down fats and proteins to enter cellular respiration pathways is called:",
+          "options": ["Anabolism", "Catabolism", "Photosynthesis", "Glycogenesis"],
+          "a": 1,
+          "ex": "Fats (fatty acids and glycerol) and proteins (amino acids) can be broken down into intermediates that enter glycolysis or the Krebs cycle at various points, demonstrating the interconnectedness of metabolic pathways."
+        },
+        {
+          "q": "In which stage of aerobic respiration is carbon dioxide released?",
+          "options": ["Glycolysis and Krebs cycle", "Pyruvate oxidation and Krebs cycle", "Electron transport chain only", "Glycolysis only"],
+          "a": 1,
+          "ex": "CO2 is released during pyruvate oxidation (one per pyruvate) and twice during each turn of the Krebs cycle (two per acetyl-CoA)."
+        },
+        {
+          "q": "The inner mitochondrial membrane is highly folded into structures called:",
+          "options": ["Stroma", "Thylakoids", "Cristae", "Matrix"],
+          "a": 2,
+          "ex": "These folds increase the surface area for the electron transport chain and ATP synthase complexes, maximizing ATP production."
+        },
+        {
+          "q": "What is the role of NADH and FADH2 in aerobic cellular respiration?",
+          "options": ["They are waste products of the reactions.", "They directly produce ATP through substrate-level phosphorylation.", "They carry high-energy electrons to the electron transport chain.", "They serve as structural components of the mitochondria."],
+          "a": 2,
+          "ex": "NADH and FADH2 are crucial electron carriers that deliver electrons to the electron transport chain, where their energy is harvested to produce a large amount of ATP."
+        },
+        {
+          "q": "If a metabolic poison specifically inhibited ATP synthase, what would be the immediate effect on cellular respiration?",
+          "options": ["Increased ATP production.", "Accumulation of a high proton gradient in the intermembrane space.", "Rapid consumption of oxygen.", "Decreased production of NADH."],
+          "a": 1,
+          "ex": "Without ATP synthase, the protons pumped into the intermembrane space would have no way to flow back to the matrix, leading to a build-up of the proton gradient and a halt in ATP production via oxidative phosphorylation."
+        },
+        {
+          "q": "Which of the following accurately describes the relationship between photosynthesis and cellular respiration?",
+          "options": ["They are identical processes.", "They occur in the same organelles.", "The reactants of one are the products of the other, and vice versa.", "One only occurs in plants, the other only in animals."],
+          "a": 2,
+          "ex": "Photosynthesis converts light energy into chemical energy (glucose and oxygen), while cellular respiration breaks down glucose and oxygen to release chemical energy (ATP, CO2, and H2O). They are complementary processes."
+        },
+        {
+          "q": "In lactic acid fermentation, what is the ultimate fate of pyruvate?",
+          "options": ["It enters the Krebs cycle.", "It is converted to ethanol.", "It is converted to lactate.", "It is released as CO2."],
+          "a": 2,
+          "ex": "Pyruvate is reduced to lactate (lactic acid) by NADH, regenerating NAD+ for glycolysis."
+        },
+        {
+          "q": "What is the primary difference in ATP production between aerobic and anaerobic respiration?",
+          "options": ["Anaerobic produces more ATP than aerobic.", "Aerobic produces significantly more ATP than anaerobic.", "Both produce the same amount of ATP.", "ATP is only produced in anaerobic respiration."],
+          "a": 1,
+          "ex": "Aerobic respiration, with the full oxidation of glucose through the Krebs cycle and electron transport chain, yields approximately 15-16 times more ATP per glucose molecule compared to anaerobic respiration (fermentation)."
+        }
+      ]
+    },
+     {
+      "id": "photosynthesis_advanced",
+      "title": "Photosynthesis (Advanced)",
+      "questions": [
+        {
+          "q": "Which of the following is the primary site of photosynthesis in most plants?",
+          "options": ["Root hairs", "Stems", "Leaves", "Flowers"],
+          "a": 2,
+          "ex": "Leaves are specialized organs optimized for light capture and gas exchange, containing numerous chloroplasts in their mesophyll cells."
+        },
+        {
+          "q": "Inside a chloroplast, stacks of thylakoids are called:",
+          "options": ["Stroma", "Grana", "Lumen", "Cristae"],
+          "a": 1,
+          "ex": "A granum (plural: grana) is a stack of interconnected thylakoids. The thylakoid membranes are where the light-dependent reactions occur."
+        },
+        {
+          "q": "The light-dependent reactions of photosynthesis convert light energy into which forms of chemical energy?",
+          "options": ["Glucose and Oxygen", "ATP and NADPH", "ATP and CO2", "NADH and FADH2"],
+          "a": 1,
+          "ex": "Light energy is captured by chlorophyll and used to generate ATP and NADPH, which are then used in the Calvin cycle."
+        },
+        {
+          "q": "Where do the light-dependent reactions take place within the chloroplast?",
+          "options": ["Stroma", "Outer membrane", "Inner membrane", "Thylakoid membranes"],
+          "a": 3,
+          "ex": "The thylakoid membranes contain the photosystems, electron transport chains, and ATP synthase complexes required for the light reactions."
+        },
+        {
+          "q": "What is the primary role of chlorophyll in photosynthesis?",
+          "options": ["To absorb carbon dioxide.", "To catalyze the Calvin cycle.", "To absorb light energy.", "To transport water."],
+          "a": 2,
+          "ex": "Chlorophyll is the main photosynthetic pigment, primarily absorbing blue-violet and red light, and reflecting green light."
+        },
+        {
+          "q": "Which photosystem functions first in the linear electron flow of the light reactions?",
+          "options": ["Photosystem I (PS I)", "Photosystem II (PS II)", "Both simultaneously", "Neither, they are independent"],
+          "a": 1,
+          "ex": "Photosystem II (PS II) is responsible for splitting water and initiating the electron flow, followed by Photosystem I (PS I)."
+        },
+        {
+          "q": "The splitting of water molecules during the light reactions, which releases electrons, protons (H+), and oxygen, is called:",
+          "options": ["Carbon fixation", "Photolysis", "Chemiosmosis", "Oxidative phosphorylation"],
+          "a": 1,
+          "ex": "Photolysis of water provides the electrons to replace those lost from PS II and generates the oxygen gas that we breathe."
+        },
+        {
+          "q": "What is the ultimate fate of the electrons that pass through the electron transport chain in the light reactions?",
+          "options": ["They return to Photosystem II.", "They are released as heat.", "They reduce NADP+ to NADPH.", "They are used to synthesize glucose directly."],
+          "a": 2,
+          "ex": "The electrons are passed from PS II to PS I, and then ultimately used to reduce NADP+ to NADPH, an essential energy carrier for the Calvin cycle."
+        },
+        {
+          "q": "The ATP produced during the light reactions is generated by a process similar to that in cellular respiration, driven by a proton gradient. This process is called:",
+          "options": ["Substrate-level phosphorylation", "Oxidative phosphorylation", "Photophosphorylation", "Fermentation"],
+          "a": 2,
+          "ex": "Photophosphorylation specifically refers to the ATP synthesis driven by light energy in photosynthesis, using chemiosmosis."
+        },
+        {
+          "q": "Where does the Calvin cycle (light-independent reactions) occur within the chloroplast?",
+          "options": ["Thylakoid lumen", "Thylakoid membranes", "Stroma", "Outer chloroplast membrane"],
+          "a": 2,
+          "ex": "The Calvin cycle takes place in the stroma, the fluid-filled space surrounding the thylakoids, where the ATP and NADPH from the light reactions are utilized."
+        },
+        {
+          "q": "What is the enzyme responsible for carbon fixation in the Calvin cycle?",
+          "options": ["ATP synthase", "NADP reductase", "RuBisCO", "Amylase"],
+          "a": 2,
+          "ex": "RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase) catalyzes the crucial first step of the Calvin cycle, incorporating CO2 into an organic molecule."
+        },
+        {
+          "q": "The three phases of the Calvin cycle are:",
+          "options": ["Excitation, electron transport, ATP synthesis", "Glycolysis, Krebs cycle, oxidative phosphorylation", "Carbon fixation, reduction, regeneration of RuBP", "Absorption, reflection, transmission"],
+          "a": 2,
+          "ex": "These three phases ensure that CO2 is converted into sugar and that the CO2 acceptor molecule (RuBP) is replenished."
+        },
+        {
+          "q": "For every three molecules of CO2 fixed in the Calvin cycle, how many molecules of G3P (glyceraldehyde-3-phosphate) are produced?",
+          "options": ["One", "Two", "Three", "Six"],
+          "a": 0,
+          "ex": "For every 3 CO2 molecules fixed, 6 molecules of G3P are formed, but only 1 G3P exits the cycle to be used by the plant; the other 5 are used to regenerate RuBP."
+        },
+        {
+          "q": "Which of the following is NOT a direct product of the light-dependent reactions?",
+          "options": ["ATP", "NADPH", "Oxygen", "Glucose"],
+          "a": 3,
+          "ex": "Glucose (sugar) is the final product of the Calvin cycle, not the light reactions."
+        },
+        {
+          "q": "What happens to the ATP and NADPH produced during the light-dependent reactions?",
+          "options": ["They are released into the atmosphere.", "They are used to power the Calvin cycle.", "They are stored for long-term energy.", "They are transported to the roots for energy."],
+          "a": 1,
+          "ex": "ATP provides the energy and NADPH provides the reducing power (electrons) for the carbon fixation and sugar synthesis steps of the Calvin cycle."
+        },
+        {
+          "q": "Photorespiration is a process that occurs in C3 plants when:",
+          "options": ["CO2 levels are high.", "Light intensity is very low.", "O2 levels are high and CO2 levels are low.", "Temperatures are extremely cold."],
+          "a": 2,
+          "ex": "Under hot, dry conditions, stomata close, O2 builds up, and RuBisCO binds O2 instead of CO2, leading to photorespiration, which consumes ATP and releases CO2 without producing sugar."
+        },
+        {
+          "q": "C4 plants minimize photorespiration by:",
+          "options": ["Closing their stomata during the day.", "Performing the Calvin cycle at night.", "Using an enzyme (PEP carboxylase) that has a high affinity for CO2 in mesophyll cells, and then transporting CO2 to bundle-sheath cells.", "Having larger stomata."],
+          "a": 2,
+          "ex": "C4 plants spatially separate carbon fixation (in mesophyll cells) from the Calvin cycle (in bundle-sheath cells), effectively concentrating CO2 around RuBisCO."
+        },
+        {
+          "q": "CAM plants adapt to arid environments by:",
+          "options": ["Keeping their stomata open all day and night.", "Fixing CO2 at night and performing the Calvin cycle during the day.", "Having no stomata.", "Using only water for carbon fixation."],
+          "a": 1,
+          "ex": "CAM (Crassulacean Acid Metabolism) plants temporally separate carbon fixation (night) and the Calvin cycle (day), allowing them to conserve water by keeping stomata closed during hot, dry daytime hours."
+        },
+        {
+          "q": "Which of the following factors would generally **increase** the rate of photosynthesis?",
+          "options": ["Decreased light intensity", "Decreased CO2 concentration", "Increased temperature (within optimal range)", "Decreased water availability"],
+          "a": 2,
+          "ex": "Within an optimal range, higher light intensity, increased CO2 concentration, and adequate water supply generally lead to higher rates of photosynthesis."
+        },
+        {
+          "q": "The primary sugar produced directly by the Calvin cycle, which can then be converted into glucose or other organic molecules, is:",
+          "options": ["Sucrose", "Starch", "Glyceraldehyde-3-phosphate (G3P)", "Fructose"],
+          "a": 2,
+          "ex": "G3P is a 3-carbon sugar that serves as the immediate product of the Calvin cycle and a building block for larger carbohydrates."
+        },
+        {
+          "q": "In the light reactions, the energy released from the electron transport chain is used to pump protons from the ________ to the ________.",
+          "options": ["Stroma; thylakoid lumen", "Thylakoid lumen; stroma", "Mitochondrial matrix; intermembrane space", "Cytoplasm; chloroplast"],
+          "a": 0,
+          "ex": "This proton gradient across the thylakoid membrane drives ATP synthesis via ATP synthase."
+        },
+        {
+          "q": "What is the role of NADP+ reductase in the light reactions?",
+          "options": ["To split water molecules.", "To produce ATP.", "To reduce NADP+ to NADPH.", "To fix carbon dioxide."],
+          "a": 2,
+          "ex": "NADP+ reductase is the enzyme that catalyzes the final step of the linear electron flow, transferring electrons from ferredoxin to NADP+."
+        },
+        {
+          "q": "Cyclic electron flow in the light reactions produces:",
+          "options": ["ATP only", "NADPH only", "Both ATP and NADPH", "Oxygen only"],
+          "a": 0,
+          "ex": "Cyclic electron flow involves only Photosystem I and recycles electrons, producing extra ATP but no NADPH or O2. It balances ATP and NADPH production to meet the needs of the Calvin cycle."
+        },
+        {
+          "q": "If a plant is exposed to only green light, what would be the likely effect on its photosynthetic rate?",
+          "options": ["It would increase significantly.", "It would remain unchanged.", "It would be very low or negligible.", "It would only produce ATP, not sugar."],
+          "a": 2,
+          "ex": "Chlorophyll primarily reflects green light, meaning it absorbs very little energy from green light for photosynthesis. Red and blue light are absorbed most effectively."
+        },
+        {
+          "q": "The overall purpose of the Calvin cycle is to:",
+          "options": ["Release oxygen.", "Generate ATP and NADPH.", "Convert light energy into chemical energy.", "Synthesize sugar from carbon dioxide."],
+          "a": 3,
+          "ex": "The Calvin cycle uses the ATP and NADPH from the light reactions to convert atmospheric CO2 into glucose (or G3P, which is then used to make glucose)."
+        }
+      ]
+    },
+    {
+      "id": "genetics_inheritance_advanced",
+      "title": "Genetics and Inheritance (Advanced)",
+      "questions": [
+        {
+          "q": "Which of the following best describes a **gene**?",
+          "options": ["A segment of protein that codes for a trait.", "A segment of DNA that codes for a functional product, like a protein or RNA molecule.", "A complete set of chromosomes in an organism.", "A physical characteristic of an organism."],
+          "a": 1,
+          "ex": "A gene is the fundamental unit of heredity, a specific sequence of nucleotides in DNA (or RNA in some viruses) that carries genetic information."
+        },
+        {
+          "q": "An alternative form of a gene is called a(n):",
+          "options": ["Chromosome", "Trait", "Allele", "Locus"],
+          "a": 2,
+          "ex": "Alleles are different versions of the same gene, often resulting in variations in a trait (e.g., alleles for purple or white flower color)."
+        },
+        {
+          "q": "If an organism has two identical alleles for a particular trait, it is described as:",
+          "options": ["Heterozygous", "Homozygous", "Dominant", "Recessive"],
+          "a": 1,
+          "ex": "Homozygous means having two identical alleles (e.g., AA or aa) for a given gene."
+        },
+        {
+          "q": "The observable physical characteristics of an organism, determined by its genotype and environment, is its:",
+          "options": ["Genotype", "Phenotype", "Allele", "Genome"],
+          "a": 1,
+          "ex": "The phenotype is what you can see or measure (e.g., purple flowers), while the genotype is the genetic makeup (e.g., PP or Pp)."
+        },
+        {
+          "q": "In a monohybrid cross between two heterozygous parents (e.g., Pp x Pp), what is the expected phenotypic ratio for a trait exhibiting complete dominance?",
+          "options": ["1:1", "3:1", "1:2:1", "9:3:3:1"],
+          "a": 1,
+          "ex": "For complete dominance, the homozygous dominant (PP) and heterozygous (Pp) individuals express the dominant phenotype, while the homozygous recessive (pp) expresses the recessive phenotype, leading to a 3 dominant : 1 recessive ratio."
+        },
+        {
+          "q": "Which of Mendel's laws states that alleles for different genes segregate independently of each other during gamete formation?",
+          "options": ["Law of Segregation", "Law of Dominance", "Law of Independent Assortment", "Law of Unit Characters"],
+          "a": 2,
+          "ex": "This law applies to genes located on different chromosomes or far apart on the same chromosome."
+        },
+        {
+          "q": "If a red flower and a white flower are crossed, and all offspring are pink, this demonstrates:",
+          "options": ["Complete dominance", "Codominance", "Incomplete dominance", "Multiple alleles"],
+          "a": 2,
+          "ex": "In incomplete dominance, the heterozygous phenotype is an intermediate blend of the two homozygous phenotypes."
+        },
+        {
+          "q": "A cross between an individual with an unknown genotype (showing the dominant phenotype) and a homozygous recessive individual is called a:",
+          "options": ["Monohybrid cross", "Test cross", "Dihybrid cross", "Back cross"],
+          "a": 1,
+          "ex": "A test cross helps determine if the unknown dominant phenotype individual is homozygous dominant or heterozygous based on the offspring's phenotypes."
+        },
+        {
+          "q": "Human blood types (A, B, AB, O) are an example of which inheritance pattern?",
+          "options": ["Sex-linked inheritance", "Incomplete dominance", "Polygenic inheritance", "Multiple alleles and Codominance"],
+          "a": 3,
+          "ex": "There are three alleles (IA, IB, i), demonstrating multiple alleles, and IA and IB are codominant with each other, while both are dominant over i."
+        },
+        {
+          "q": "Traits whose genes are located on the sex chromosomes (e.g., color blindness in humans) exhibit:",
+          "options": ["Polygenic inheritance", "Autosomal inheritance", "Sex-linked inheritance", "Pleiotropy"],
+          "a": 2,
+          "ex": "Sex-linked traits, particularly X-linked traits, show different patterns of inheritance between males and females because males have only one X chromosome."
+        },
+        {
+          "q": "Which of the following is the correct structure of a DNA nucleotide?",
+          "options": ["Sugar, phosphate group, amino acid", "Sugar, phosphate group, nitrogenous base", "Phosphate group, nitrogenous base, protein", "Sugar, amino acid, nitrogenous base"],
+          "a": 1,
+          "ex": "DNA is a polymer of nucleotides, each consisting of a deoxyribose sugar, a phosphate group, and one of four nitrogenous bases (A, T, C, G)."
+        },
+        {
+          "q": "The two strands of a DNA molecule are held together by:",
+          "options": ["Covalent bonds", "Ionic bonds", "Hydrogen bonds between nitrogenous bases", "Peptide bonds"],
+          "a": 2,
+          "ex": "Hydrogen bonds form between complementary base pairs (A-T and G-C), providing stability to the double helix but allowing for unwinding during replication and transcription."
+        },
+        {
+          "q": "According to Chargaff's rules, in a DNA molecule, the amount of adenine (A) is always equal to the amount of:",
+          "options": ["Guanine (G)", "Cytosine (C)", "Thymine (T)", "Uracil (U)"],
+          "a": 2,
+          "ex": "Base pairing dictates that A always pairs with T, and G always pairs with C."
+        },
+        {
+          "q": "The process of synthesizing an RNA molecule from a DNA template is called:",
+          "options": ["Translation", "Replication", "Transcription", "Mutation"],
+          "a": 2,
+          "ex": "Transcription is the first step in gene expression, where genetic information is copied from DNA into RNA."
+        },
+        {
+          "q": "Where does **translation** (protein synthesis) occur in a eukaryotic cell?",
+          "options": ["Nucleus", "Mitochondria", "Ribosomes (in cytoplasm or on ER)", "Chloroplasts"],
+          "a": 2,
+          "ex": "Ribosomes read the mRNA sequence and synthesize proteins, using tRNA to bring the correct amino acids."
+        },
+        {
+          "q": "A change in a single nucleotide base in the DNA sequence is known as a:",
+          "options": ["Chromosomal mutation", "Point mutation", "Deletion", "Translocation"],
+          "a": 1,
+          "ex": "Point mutations can include substitutions, insertions, or deletions of a single base pair, potentially leading to silent, missense, or nonsense mutations."
+        },
+        {
+          "q": "Which type of RNA carries the genetic code from DNA to the ribosome?",
+          "options": ["tRNA (transfer RNA)", "rRNA (ribosomal RNA)", "mRNA (messenger RNA)", "snRNA (small nuclear RNA)"],
+          "a": 2,
+          "ex": "mRNA is synthesized during transcription and carries the instructions for building a protein to the ribosomes."
+        },
+        {
+          "q": "If a segment of DNA is 5'-ATGC-3', the complementary RNA sequence transcribed from it would be:",
+          "options": ["3'-TACG-5'", "3'-UACG-5'", "3'-AUCG-5'", "5'-TAGC-3'"],
+          "a": 1,
+          "ex": "In RNA, adenine (A) pairs with uracil (U), and guanine (G) pairs with cytosine (C). The RNA strand is synthesized antiparallel to the DNA template."
+        },
+        {
+          "q": "The 'central dogma' of molecular biology states that genetic information flows from:",
+          "options": ["RNA to DNA to protein", "Protein to RNA to DNA", "DNA to RNA to protein", "Protein to DNA to RNA"],
+          "a": 2,
+          "ex": "This fundamental concept describes the typical flow of genetic information in biological systems."
+        },
+        {
+          "q": "What is the purpose of **tRNA** during protein synthesis?",
+          "options": ["To form the structure of the ribosome.", "To carry amino acids to the ribosome based on mRNA codons.", "To carry the genetic code from the nucleus.", "To catalyze peptide bond formation."],
+          "a": 1,
+          "ex": "Each tRNA molecule has an anticodon that pairs with a specific mRNA codon and carries the corresponding amino acid."
+        },
+        {
+          "q": "A genetic disorder caused by the presence of an extra copy of chromosome 21 is known as:",
+          "options": ["Cystic Fibrosis", "Huntington's Disease", "Down Syndrome (Trisomy 21)", "Sickle Cell Anemia"],
+          "a": 2,
+          "ex": "Down Syndrome is a chromosomal abnormality resulting from nondisjunction during meiosis."
+        },
+        {
+          "q": "If a trait is **polygenic**, it means it is controlled by:",
+          "options": ["One gene with multiple alleles.", "Multiple genes interacting to produce a single phenotype.", "Genes located only on sex chromosomes.", "A single gene with incomplete dominance."],
+          "a": 1,
+          "ex": "Polygenic traits often show continuous variation in a population (e.g., human height, skin color, intelligence), as multiple genes contribute to the phenotype."
+        },
+        {
+          "q": "The failure of homologous chromosomes or sister chromatids to separate properly during meiosis is called:",
+          "options": ["Crossing over", "Translocation", "Inversion", "Nondisjunction"],
+          "a": 3,
+          "ex": "Nondisjunction leads to gametes with an abnormal number of chromosomes, which can result in conditions like Down Syndrome."
+        },
+        {
+          "q": "Epistasis refers to a genetic interaction where:",
+          "options": ["One gene completely masks or modifies the expression of another gene.", "Two genes produce an intermediate phenotype.", "Alleles for different genes assort independently.", "A single gene affects multiple phenotypic traits."],
+          "a": 0,
+          "ex": "In epistasis, the expression of one gene (epistatic gene) depends on the presence of one or more other genes (hypostatic genes). Example: labrador coat color."
+        },
+        {
+          "q": "Which enzyme is responsible for synthesizing new DNA strands during replication?",
+          "options": ["RNA polymerase", "DNA ligase", "Helicase", "DNA polymerase"],
+          "a": 3,
+          "ex": "DNA polymerase adds nucleotides to the growing DNA strand, following the template strand."
+        },
+        {
+          "q": "The process by which bacterial cells take up foreign DNA from their surroundings is known as:",
+          "options": ["Conjugation", "Transduction", "Transformation", "Binary fission"],
+          "a": 2,
+          "ex": "Transformation is a natural mechanism of genetic exchange in bacteria and is widely used in molecular biology for genetic engineering."
+        },
+        {
+          "q": "A **pedigree chart** is used to:",
+          "options": ["Determine the sex of an offspring.", "Predict the outcome of a genetic cross.", "Trace the inheritance of a genetic trait through generations of a family.", "Map genes onto chromosomes."],
+          "a": 2,
+          "ex": "Pedigree charts are essential tools in human genetics for analyzing inheritance patterns of genetic disorders and predicting risks."
+        }
+      ]
+    },
+    {
+      "id": "ecology_environmental_biology_advanced",
+      "title": "Ecology and Environmental Biology (Advanced)",
+      "questions": [
+        {
+          "q": "Which level of ecological organization includes all the populations of different species living and interacting in a particular area?",
+          "options": ["Organism", "Population", "Community", "Ecosystem"],
+          "a": 2,
+          "ex": "A community consists of all the living organisms (biotic components) in a specific area, interacting with each other."
+        },
+        {
+          "q": "An **ecosystem** is defined as:",
+          "options": ["All living organisms in a particular area.", "A group of individuals of the same species in a specific area.", "All the biotic and abiotic factors interacting in a specific area.", "A major regional terrestrial or aquatic life zone."],
+          "a": 2,
+          "ex": "An ecosystem includes both the living organisms (biotic components) and their non-living physical environment (abiotic components) interacting as a functional unit."
+        },
+        {
+          "q": "The role a species plays in its community, including its use of resources and its interactions with other species, is its:",
+          "options": ["Habitat", "Niche", "Biome", "Territory"],
+          "a": 1,
+          "ex": "The niche describes where a species lives (habitat), what it eats, what eats it, and how it interacts with its environment and other species."
+        },
+        {
+          "q": "In a typical food chain, what do **tertiary consumers** typically feed on?",
+          "options": ["Producers", "Primary consumers", "Secondary consumers", "Decomposers"],
+          "a": 2,
+          "ex": "Tertiary consumers are carnivores that eat other carnivores (secondary consumers). Example: a hawk (tertiary) eating a snake (secondary) that ate a mouse (primary)."
+        },
+        {
+          "q": "Which of the following organisms are considered **producers** in most ecosystems?",
+          "options": ["Fungi", "Animals", "Plants and algae", "Bacteria"],
+          "a": 2,
+          "ex": "Producers (autotrophs) synthesize their own food, primarily through photosynthesis, forming the base of most food webs."
+        },
+        {
+          "q": "Approximately what percentage of energy is transferred from one trophic level to the next in an ecosystem?",
+          "options": ["1%", "10%", "50%", "90%"],
+          "a": 1,
+          "ex": "The '10% rule' states that only about 10% of the energy from one trophic level is typically passed on to the next, with the rest lost as heat during metabolic processes."
+        },
+        {
+          "q": "Which biogeochemical cycle is heavily influenced by the burning of fossil fuels, leading to increased atmospheric CO2 and climate change?",
+          "options": ["Nitrogen cycle", "Water cycle", "Carbon cycle", "Phosphorus cycle"],
+          "a": 2,
+          "ex": "The carbon cycle involves the movement of carbon among the atmosphere, oceans, land, and living organisms. Burning fossil fuels releases stored carbon into the atmosphere as CO2."
+        },
+        {
+          "q": "The maximum population size that a particular environment can sustain indefinitely is known as its:",
+          "options": ["Growth rate", "Biotic potential", "Carrying capacity", "Population density"],
+          "a": 2,
+          "ex": "Carrying capacity (K) is determined by the availability of resources such as food, water, habitat, and the presence of predators or disease."
+        },
+        {
+          "q": "Which type of population growth curve occurs when resources are unlimited, resulting in a J-shaped curve?",
+          "options": ["Logistic growth", "Exponential growth", "Stabilized growth", "Density-dependent growth"],
+          "a": 1,
+          "ex": "Exponential growth occurs when a population grows at a constant rate per capita, leading to rapid increase. This is usually observed in ideal, short-term conditions."
+        },
+        {
+          "q": "An interaction where one species benefits and the other is harmed (e.g., a tick feeding on a dog) is called:",
+          "options": ["Mutualism", "Commensalism", "Parasitism", "Competition"],
+          "a": 2,
+          "ex": "In parasitism, the parasite obtains nourishment from the host, often weakening but usually not immediately killing it."
+        },
+        {
+          "q": "A species whose impact on its community is larger than its biomass or abundance would suggest, often by influencing food webs or physical environment, is a:",
+          "options": ["Pioneer species", "Climax species", "Indicator species", "Keystone species"],
+          "a": 3,
+          "ex": "Examples include sea otters (controlling sea urchin populations) or wolves (controlling deer populations and thus vegetation)."
+        },
+        {
+          "q": "The sequential process of change in the species structure of an ecological community over time, often after a disturbance, is called:",
+          "options": ["Climax community", "Succession", "Adaptation", "Coevolution"],
+          "a": 1,
+          "ex": "Ecological succession can be primary (starting from barren ground) or secondary (after a disturbance in an existing community)."
+        },
+        {
+          "q": "Which of the following biomes is characterized by permafrost, low-growing vegetation, and extremely cold temperatures for most of the year?",
+          "options": ["Desert", "Tropical rainforest", "Tundra", "Savanna"],
+          "a": 2,
+          "ex": "The tundra is the coldest of all biomes, with very short growing seasons and low biodiversity."
+        },
+        {
+          "q": "The process by which pollutants become more concentrated in organisms at higher trophic levels in a food chain is called:",
+          "options": ["Eutrophication", "Bioaccumulation", "Biomagnification", "Acidification"],
+          "a": 2,
+          "ex": "Biomagnification leads to higher concentrations of toxins (e.g., DDT, mercury) in apex predators compared to lower trophic levels."
+        },
+        {
+          "q": "Acid rain is primarily caused by which atmospheric pollutants?",
+          "options": ["Methane and carbon dioxide", "Sulfur dioxide and nitrogen oxides", "CFCs and halons", "Ozone and particulate matter"],
+          "a": 1,
+          "ex": "Sulfur dioxide (from industrial combustion) and nitrogen oxides (from vehicle exhaust) react with water, oxygen, and other chemicals to form sulfuric and nitric acids."
+        },
+        {
+          "q": "The depletion of the ozone layer is primarily caused by:",
+          "options": ["Excess CO2 emissions", "Release of chlorofluorocarbons (CFCs)", "Deforestation", "Ocean acidification"],
+          "a": 1,
+          "ex": "CFCs released into the atmosphere catalyze the destruction of ozone molecules, leading to thinning of the ozone layer which protects Earth from harmful UV radiation."
+        },
+        {
+          "q": "Eutrophication in aquatic ecosystems often results from an excess of which nutrients?",
+          "options": ["Carbon and oxygen", "Nitrogen and phosphorus", "Sodium and chlorine", "Potassium and calcium"],
+          "a": 1,
+          "ex": "Excess nitrogen and phosphorus (often from agricultural runoff and sewage) stimulate algal blooms, which then die and decompose, depleting oxygen and harming aquatic life."
+        },
+        {
+          "q": "Which biome is characterized by high biodiversity, warm temperatures, and abundant rainfall year-round?",
+          "options": ["Temperate deciduous forest", "Coniferous forest (Taiga)", "Tropical rainforest", "Grassland"],
+          "a": 2,
+          "ex": "Tropical rainforests are found near the equator and are known for their incredibly rich biodiversity and complex ecosystems."
+        },
+        {
+          "q": "The growth of a population slows down as it approaches its carrying capacity, resulting in an S-shaped curve. This is known as:",
+          "options": ["Exponential growth", "J-shaped growth", "Logistic growth", "Unlimited growth"],
+          "a": 2,
+          "ex": "Logistic growth models the impact of limiting factors on population growth, leading to a stabilization around the carrying capacity."
+        },
+        {
+          "q": "What is the primary role of **decomposers** (e.g., bacteria and fungi) in an ecosystem?",
+          "options": ["To produce organic matter.", "To consume living organisms.", "To break down dead organic matter and recycle nutrients.", "To regulate atmospheric gases."],
+          "a": 2,
+          "ex": "Decomposers are essential for nutrient cycling, making chemical elements available for reuse by producers."
+        },
+        {
+          "q": "Which of the following is an example of a density-dependent limiting factor for a population?",
+          "options": ["Natural disasters (e.g., flood)", "Temperature extremes", "Competition for resources", "Seasonal changes"],
+          "a": 2,
+          "ex": "Density-dependent factors (e.g., competition, predation, disease) have a greater impact as population density increases. Density-independent factors (e.g., natural disasters) affect populations regardless of density."
+        },
+        {
+          "q": "The conversion of nitrates back into nitrogen gas by bacteria is a crucial step in the nitrogen cycle called:",
+          "options": ["Nitrogen fixation", "Nitrification", "Ammonification", "Denitrification"],
+          "a": 3,
+          "ex": "Denitrification returns nitrogen to the atmosphere, completing the cycle."
+        },
+        {
+          "q": "What is a **biome**?",
+          "options": ["A group of interacting populations.", "All the abiotic factors in an area.", "A large ecological area on Earth with a specific climate and vegetation type.", "The niche of a particular species."],
+          "a": 2,
+          "ex": "Biomes are characterized by distinct plant and animal communities adapted to the regional climate (temperature and precipitation)."
+        },
+        {
+          "q": "Two species trying to use the same limited resource in an ecosystem exhibit:",
+          "options": ["Mutualism", "Commensalism", "Competition (interspecific)", "Predation"],
+          "a": 2,
+          "ex": "Interspecific competition occurs when individuals of different species compete for the same limited resources, potentially leading to competitive exclusion or resource partitioning."
+        },
+        {
+          "q": "Deforestation significantly impacts the global climate by:",
+          "options": ["Increasing oxygen production.", "Reducing carbon dioxide absorption from the atmosphere.", "Increasing cloud cover.", "Decreasing global temperatures."],
+          "a": 1,
+          "ex": "Forests act as carbon sinks, absorbing large amounts of CO2 through photosynthesis. Deforestation releases this stored carbon and reduces future CO2 uptake, contributing to the greenhouse effect."
+        },
+        {
+          "q": "The process of a lake gradually filling with sediments and organic matter, becoming shallower and eventually a terrestrial habitat, is known as:",
+          "options": ["Ocean acidification", "Eutrophication (in its later stages)", "Succession (hydroseral stage)", "Biomagnification"],
+          "a": 2,
+          "ex": "This is a form of ecological succession, specifically called hydroseral succession, where an aquatic ecosystem gradually transitions to a terrestrial one."
+        },
+        {
+          "q": "Which of the following human activities is primarily responsible for the significant increase in atmospheric methane (CH4), a potent greenhouse gas?",
+          "options": ["Use of aerosol sprays.", "Rice cultivation and livestock farming.", "Burning of gasoline in cars.", "Manufacturing of plastics."],
+          "a": 1,
+          "ex": "Methane is produced by anaerobic decomposition, particularly in flooded rice paddies and the digestive systems of ruminant livestock."
+        }
+      ]
+    },
+    {
+      "id": "human_body_systems_advanced",
+      "title": "Human Body Systems (Anatomy and Physiology) (Advanced)",
+      "questions": [
+        {
+          "q": "Which part of the neuron is responsible for transmitting nerve impulses **away** from the cell body?",
+          "options": ["Dendrite", "Axon", "Soma", "Myelin sheath"],
+          "a": 1,
+          "ex": "Dendrites receive impulses, the soma (cell body) processes them, and the axon transmits them to other neurons or effector cells."
+        },
+        {
+          "q": "The rapid depolarization of a neuron's membrane, caused by the influx of Na+ ions, which propagates a nerve impulse, is called a(n):",
+          "options": ["Resting potential", "Synaptic potential", "Action potential", "Refractory period"],
+          "a": 2,
+          "ex": "Action potentials are all-or-nothing electrical signals that allow for rapid and long-distance communication in the nervous system."
+        },
+        {
+          "q": "What is the primary function of the **myelin sheath** surrounding many axons?",
+          "options": ["To provide nutrients to the neuron.", "To produce neurotransmitters.", "To speed up the transmission of nerve impulses.", "To protect the axon from physical damage only."],
+          "a": 2,
+          "ex": "The myelin sheath acts as an electrical insulator, allowing for saltatory conduction (jumping of impulses) and significantly increasing conduction velocity."
+        },
+        {
+          "q": "Which component of the nervous system is responsible for involuntary actions like breathing, heart rate, and digestion?",
+          "options": ["Somatic nervous system", "Central nervous system", "Autonomic nervous system", "Sensory nervous system"],
+          "a": 2,
+          "ex": "The autonomic nervous system is divided into sympathetic (fight-or-flight) and parasympathetic (rest-and-digest) divisions, controlling visceral functions."
+        },
+        {
+          "q": "The pacemaker of the heart, which initiates the electrical impulses for contraction, is the:",
+          "options": ["AV node", "Purkinje fibers", "Bundle of His", "Sinoatrial (SA) node"],
+          "a": 3,
+          "ex": "The SA node generates rhythmic electrical impulses, setting the rate of the heart's contractions."
+        },
+        {
+          "q": "Which type of blood vessel is characterized by thick, muscular walls and carries blood **away** from the heart?",
+          "options": ["Veins", "Capillaries", "Arteries", "Venules"],
+          "a": 2,
+          "ex": "Arteries withstand the high pressure of blood pumped by the heart. Veins carry blood back to the heart, and capillaries are the sites of exchange."
+        },
+        {
+          "q": "What is the primary role of **alveoli** in the respiratory system?",
+          "options": ["Filter inhaled air.", "Produce vocal sounds.", "Site of gas exchange between air and blood.", "Transport oxygen to the tissues."],
+          "a": 2,
+          "ex": "Alveoli are tiny air sacs in the lungs with thin walls, allowing for efficient diffusion of oxygen into the blood and carbon dioxide out of the blood."
+        },
+        {
+          "q": "The muscular contractions that move food through the digestive tract are called:",
+          "options": ["Absorption", "Digestion", "Peristalsis", "Mastication"],
+          "a": 2,
+          "ex": "Peristalsis is a wave-like contraction of smooth muscles that propels food through the esophagus, stomach, and intestines."
+        },
+        {
+          "q": "Which digestive enzyme breaks down **proteins** in the stomach?",
+          "options": ["Amylase", "Lipase", "Pepsin", "Trypsin"],
+          "a": 2,
+          "ex": "Pepsin works optimally in the highly acidic environment of the stomach to begin protein digestion."
+        },
+        {
+          "q": "Where does the majority of nutrient absorption occur in the human digestive system?",
+          "options": ["Stomach", "Large intestine", "Small intestine", "Esophagus"],
+          "a": 2,
+          "ex": "The small intestine has a highly folded surface (villi and microvilli) that greatly increases the surface area for efficient nutrient absorption."
+        },
+        {
+          "q": "The functional unit of the kidney responsible for filtering blood and forming urine is the:",
+          "options": ["Glomerulus", "Renal corpuscle", "Nephron", "Collecting duct"],
+          "a": 2,
+          "ex": "Each kidney contains millions of nephrons, which perform filtration, reabsorption, and secretion to maintain fluid and electrolyte balance."
+        },
+        {
+          "q": "Which hormone, released by the pancreas, **lowers** blood glucose levels?",
+          "options": ["Glucagon", "Cortisol", "Insulin", "Adrenaline"],
+          "a": 2,
+          "ex": "Insulin promotes the uptake of glucose by cells and its conversion to glycogen for storage, thus lowering blood glucose."
+        },
+        {
+          "q": "The primary role of the **thyroid gland** is to regulate:",
+          "options": ["Blood calcium levels.", "Metabolism and energy expenditure.", "Blood glucose levels.", "Stress response."],
+          "a": 1,
+          "ex": "The thyroid gland produces thyroid hormones (T3 and T4) that control the body's metabolic rate, affecting almost every cell."
+        },
+        {
+          "q": "Which type of muscle tissue is found in the walls of internal organs (e.g., intestines, blood vessels) and is involuntary?",
+          "options": ["Skeletal muscle", "Cardiac muscle", "Smooth muscle", "Ligaments"],
+          "a": 2,
+          "ex": "Smooth muscle contractions are responsible for processes like peristalsis, blood pressure regulation, and pupil dilation."
+        },
+        {
+          "q": "The sliding filament model of muscle contraction describes the interaction between which two protein filaments?",
+          "options": ["Collagen and elastin", "Keratin and myosin", "Actin and myosin", "Fibrin and albumin"],
+          "a": 2,
+          "ex": "Myosin heads bind to actin filaments and pull them, shortening the sarcomere and causing muscle contraction."
+        },
+        {
+          "q": "Which component of blood is primarily responsible for oxygen transport?",
+          "options": ["Platelets", "White blood cells", "Plasma", "Red blood cells"],
+          "a": 3,
+          "ex": "Red blood cells contain hemoglobin, which binds to oxygen in the lungs and releases it in tissues."
+        },
+        {
+          "q": "What is the main function of the **lymphatic system**?",
+          "options": ["Transport oxygen to tissues.", "Regulate body temperature.", "Return interstitial fluid to the blood and aid in immune function.", "Produce digestive enzymes."],
+          "a": 2,
+          "ex": "The lymphatic system is a network of vessels, nodes, and organs that drains excess fluid from tissues and houses immune cells."
+        },
+        {
+          "q": "The condition characterized by abnormally high blood pressure is called:",
+          "options": ["Hypotension", "Hypertension", "Anemia", "Arrhythmia"],
+          "a": 1,
+          "ex": "Hypertension places increased strain on the heart and blood vessels, increasing the risk of heart disease, stroke, and kidney failure."
+        },
+        {
+          "q": "Which part of the brain is the control center for consciousness, memory, and voluntary movements?",
+          "options": ["Cerebellum", "Brainstem", "Thalamus", "Cerebrum"],
+          "a": 3,
+          "ex": "The cerebrum is the largest part of the brain, divided into lobes responsible for various higher-level functions."
+        },
+        {
+          "q": "The hormone responsible for the 'fight-or-flight' response, released by the adrenal glands, is:",
+          "options": ["Insulin", "Estrogen", "Adrenaline (Epinephrine)", "Thyroxine"],
+          "a": 2,
+          "ex": "Adrenaline prepares the body for immediate action by increasing heart rate, blood pressure, and diverting blood to muscles."
+        },
+        {
+          "q": "Gastric juice in the stomach contains hydrochloric acid and which enzyme?",
+          "options": ["Amylase", "Lipase", "Pepsin", "Lactase"],
+          "a": 2,
+          "ex": "Hydrochloric acid denatures proteins and activates pepsinogen into pepsin, initiating protein digestion."
+        },
+        {
+          "q": "Which organ produces bile, which aids in fat digestion?",
+          "options": ["Pancreas", "Gallbladder", "Spleen", "Liver"],
+          "a": 3,
+          "ex": "The liver produces bile, which is then stored in the gallbladder and released into the small intestine to emulsify fats."
+        },
+        {
+          "q": "The primary function of the **large intestine** is:",
+          "options": ["Chemical digestion of carbohydrates.", "Absorption of most nutrients.", "Absorption of water and formation of feces.", "Production of digestive enzymes."],
+          "a": 2,
+          "ex": "The large intestine mainly compacts undigested food residue by absorbing water and electrolytes before excretion."
+        },
+        {
+          "q": "Which bone is the longest and strongest in the human body?",
+          "options": ["Radius", "Tibia", "Femur", "Humerus"],
+          "a": 2,
+          "ex": "The femur, or thigh bone, extends from the hip to the knee."
+        },
+        {
+          "q": "What is the role of **T cells** (T lymphocytes) in the immune system?",
+          "options": ["Produce antibodies.", "Phagocytize pathogens.", "Directly kill infected cells or regulate immune responses.", "Secrete histamine."],
+          "a": 2,
+          "ex": "T cells are crucial for cell-mediated immunity; cytotoxic T cells destroy infected or cancerous cells, while helper T cells coordinate the overall immune response."
+        },
+        {
+          "q": "The outermost protective layer of the skin is the:",
+          "options": ["Dermis", "Hypodermis", "Epidermis", "Subcutaneous layer"],
+          "a": 2,
+          "ex": "The epidermis provides a barrier against pathogens, UV radiation, and water loss."
+        },
+        {
+          "q": "Which endocrine gland is often called the 'master gland' because it controls the function of many other endocrine glands?",
+          "options": ["Thyroid gland", "Adrenal gland", "Pituitary gland", "Pancreas"],
+          "a": 2,
+          "ex": "The pituitary gland, located at the base of the brain, secretes hormones that regulate growth, reproduction, and the activity of other endocrine glands."
+        }
+      ]
+    },
+    {
+      "id": "microbiology_biotechnology_advanced",
+      "title": "Microbiology and Biotechnology (Advanced)",
+      "questions": [
+        {
+          "q": "Which of the following characteristics is unique to **prokaryotic cells** compared to eukaryotic cells?",
+          "options": ["Presence of a nucleus", "Membrane-bound organelles", "Circular DNA in the cytoplasm", "Mitochondria for energy production"],
+          "a": 2,
+          "ex": "Prokaryotic cells (like bacteria and archaea) lack a nucleus and other membrane-bound organelles, with their genetic material (usually a single circular chromosome) located in the nucleoid region."
+        },
+        {
+          "q": "Which of the following is NOT a characteristic of **viruses**?",
+          "options": ["Contain genetic material (DNA or RNA).", "Can replicate independently outside a host cell.", "Have a protein coat (capsid).", "Are obligate intracellular parasites."],
+          "a": 1,
+          "ex": "Viruses lack cellular machinery for metabolism and reproduction, requiring a host cell to replicate. They are considered non-living by some definitions."
+        },
+        {
+          "q": "The process by which bacteria reproduce asexually, resulting in two identical daughter cells, is called:",
+          "options": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+          "a": 2,
+          "ex": "Binary fission is a simple, efficient form of asexual reproduction typical of prokaryotes."
+        },
+        {
+          "q": "Small, circular, extrachromosomal DNA molecules found in bacteria, often carrying genes for antibiotic resistance, are called:",
+          "options": ["Chromosomes", "Ribosomes", "Plasmids", "Phages"],
+          "a": 2,
+          "ex": "Plasmids are important tools in biotechnology for gene cloning and transferring genetic material."
+        },
+        {
+          "q": "Which type of microorganism is characterized by having a cell wall made of chitin and being heterotrophic (absorbing nutrients)?",
+          "options": ["Bacteria", "Viruses", "Protists", "Fungi"],
+          "a": 3,
+          "ex": "Fungi include yeasts, molds, and mushrooms, playing crucial roles as decomposers and in various industries."
+        },
+        {
+          "q": "The ability of bacteria to acquire new genetic material from their environment (e.g., from dead bacteria) is known as:",
+          "options": ["Conjugation", "Transduction", "Transformation", "Binary fission"],
+          "a": 2,
+          "ex": "Transformation is one of the mechanisms of horizontal gene transfer in bacteria, along with conjugation (direct transfer) and transduction (via bacteriophages)."
+        },
+        {
+          "q": "What are **restriction enzymes** primarily used for in genetic engineering?",
+          "options": ["To synthesize new DNA strands.", "To cut DNA at specific nucleotide sequences.", "To join DNA fragments together.", "To amplify DNA sequences."],
+          "a": 1,
+          "ex": "Restriction enzymes (or restriction endonucleases) are molecular scissors that recognize and cut DNA at specific palindromic sequences, creating 'sticky ends' or 'blunt ends'."
+        },
+        {
+          "q": "The technique used to make millions of copies of a specific DNA sequence in a short period is called:",
+          "options": ["Gel electrophoresis", "DNA sequencing", "Polymerase Chain Reaction (PCR)", "Gene therapy"],
+          "a": 2,
+          "ex": "PCR is a revolutionary technique essential for DNA fingerprinting, medical diagnostics, and molecular biology research, relying on temperature cycling and Taq polymerase."
+        },
+        {
+          "q": "A bacterial plasmid containing foreign DNA inserted into it is referred to as:",
+          "options": ["Viral DNA", "Recombinant DNA", "Mitochondrial DNA", "Chromosome"],
+          "a": 1,
+          "ex": "Recombinant DNA technology involves combining DNA from different sources to create new genetic combinations."
+        },
+        {
+          "q": "What is the primary application of **gel electrophoresis** in biotechnology?",
+          "options": ["To cut DNA into fragments.", "To separate DNA (or RNA/protein) fragments based on size and charge.", "To amplify DNA sequences.", "To introduce foreign DNA into cells."],
+          "a": 1,
+          "ex": "Gel electrophoresis is used to separate macromolecules, allowing for visualization and analysis of DNA fragments, proteins, etc."
+        },
+        {
+          "q": "Which technique involves directly altering an individual's genes to treat or prevent disease?",
+          "options": ["DNA fingerprinting", "Cloning", "Gene therapy", "PCR"],
+          "a": 2,
+          "ex": "Gene therapy aims to correct genetic defects by inserting, deleting, or altering genes in a patient's cells."
+        },
+        {
+          "q": "The process of creating a genetically identical copy of an organism or a cell is called:",
+          "options": ["Hybridization", "Cloning", "Transgenesis", "Mutation"],
+          "a": 1,
+          "ex": "Reproductive cloning aims to create a new organism, while therapeutic cloning aims to produce embryonic stem cells for medical purposes."
+        },
+        {
+          "q": "The revolutionary gene-editing tool that allows scientists to precisely cut and modify DNA sequences is known as:",
+          "options": ["RNA interference", "CRISPR-Cas9", "Southern blotting", "DNA ligase"],
+          "a": 1,
+          "ex": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats-CRISPR associated protein 9) has revolutionized genetic research and holds great promise for treating genetic diseases."
+        },
+        {
+          "q": "Which of the following is a common method for introducing foreign DNA into plant cells?",
+          "options": ["Bacteriophage infection", "Agrobacterium tumefaciens (Ti plasmid)", "Electroporation of animal cells", "Microinjection into human embryos"],
+          "a": 1,
+          "ex": "Agrobacterium tumefaciens, a bacterium that naturally transfers its plasmid to plant cells, has been engineered to deliver desirable genes into plants."
+        },
+        {
+          "q": "The complete set of an organism's genes and other DNA sequences is called its:",
+          "options": ["Proteome", "Transcriptome", "Genome", "Phenotype"],
+          "a": 2,
+          "ex": "Genomics is the study of whole genomes, including their structure, function, evolution, and mapping."
+        },
+        {
+          "q": "Bioremediation refers to the use of living organisms (e.g., bacteria, fungi) to:",
+          "options": ["Produce new antibiotics.", "Clean up environmental pollutants.", "Generate biofuel.", "Create genetically modified crops."],
+          "a": 1,
+          "ex": "Bioremediation harnesses the metabolic capabilities of microorganisms to degrade or detoxify hazardous substances in soil or water."
+        },
+        {
+          "q": "What is the primary role of a **vector** (e.g., plasmid, virus) in genetic engineering?",
+          "options": ["To cut DNA at specific sites.", "To amplify DNA sequences.", "To carry and deliver foreign DNA into a host cell.", "To separate DNA fragments by size."],
+          "a": 2,
+          "ex": "Vectors act as carriers to introduce desired genes into host cells, where they can be replicated and expressed."
+        },
+        {
+          "q": "Which type of vaccine uses a weakened or attenuated form of the pathogen to stimulate a strong immune response?",
+          "options": ["Killed vaccine", "Subunit vaccine", "Toxoid vaccine", "Live-attenuated vaccine"],
+          "a": 3,
+          "ex": "Live-attenuated vaccines (e.g., MMR, oral polio) often provide long-lasting immunity because they mimic a natural infection."
+        },
+        {
+          "q": "The study of the full set of proteins produced by an organism, reflecting gene expression under specific conditions, is called:",
+          "options": ["Genomics", "Transcriptomics", "Proteomics", "Metabolomics"],
+          "a": 2,
+          "ex": "Proteomics provides insights into cellular function, disease mechanisms, and drug targets, as proteins are the workhorses of the cell."
+        },
+        {
+          "q": "Which of the following is a potential ethical concern associated with genetic engineering?",
+          "options": ["Reduced crop yields.", "Increased biodiversity.", "Unintended ecological consequences of GMOs.", "Decreased effectiveness of antibiotics."],
+          "a": 2,
+          "ex": "Ethical concerns include potential harm to human health, environmental impact (e.g., gene flow to wild relatives, superweeds), and socioeconomic disparities."
+        },
+        {
+          "q": "What is the primary difference between a **bacteriophage** and a typical animal virus?",
+          "options": ["Bacteriophages are larger.", "Bacteriophages infect bacteria.", "Bacteriophages contain RNA instead of DNA.", "Bacteriophages have no protein coat."],
+          "a": 1,
+          "ex": "Bacteriophages are viruses that specifically infect and replicate within bacteria."
+        },
+        {
+          "q": "A disease-causing microorganism is generally referred to as a(n):",
+          "options": ["Antibiotic", "Pathogen", "Vector", "Antigen"],
+          "a": 1,
+          "ex": "Pathogens include bacteria, viruses, fungi, protists, and prions that can cause disease in a host organism."
+        },
+        {
+          "q": "Which of the following describes the mechanism of action for most antibiotics?",
+          "options": ["Targeting host cell ribosomes.", "Disrupting viral replication.", "Interfering with bacterial cell wall synthesis or other unique bacterial processes.", "Boosting the host's immune response."],
+          "a": 2,
+          "ex": "Antibiotics selectively target bacterial structures or metabolic pathways that are absent or significantly different in human cells, minimizing harm to the host."
+        },
+        {
+          "q": "What is the purpose of **DNA ligase** in recombinant DNA technology?",
+          "options": ["To cut DNA at specific sites.", "To separate DNA fragments by size.", "To join DNA fragments by forming phosphodiester bonds.", "To unwind the DNA double helix."],
+          "a": 2,
+          "ex": "DNA ligase acts as 'molecular glue,' covalently linking DNA fragments together, such as when inserting a gene into a plasmid."
+        },
+        {
+          "q": "Which type of fermentation is commonly used in the production of bread and alcoholic beverages?",
+          "options": ["Lactic acid fermentation", "Acetic acid fermentation", "Butyric acid fermentation", "Alcoholic fermentation"],
+          "a": 3,
+          "ex": "Alcoholic fermentation by yeast produces ethanol and carbon dioxide from sugars, which causes bread to rise and produces alcohol in beverages."
+        }
+      ]
+    },
+    {
+      "id": "molecular_biology_gene_regulation_replication_advanced",
+      "title": "Molecular Biology (Gene Regulation and Replication) (Advanced)",
+      "questions": [
+        {
+          "q": "Which enzyme is responsible for unwinding the DNA double helix at the replication fork?",
+          "options": ["DNA polymerase", "DNA ligase", "Helicase", "Primase"],
+          "a": 2,
+          "ex": "Helicase uses ATP to break the hydrogen bonds between complementary base pairs, separating the two DNA strands."
+        },
+        {
+          "q": "DNA replication is described as 'semi-conservative' because:",
+          "options": ["Each new DNA molecule consists of two newly synthesized strands.", "Each new DNA molecule consists of one original strand and one newly synthesized strand.", "DNA is replicated only when needed by the cell.", "The two original DNA strands are conserved as a single unit."],
+          "a": 1,
+          "ex": "The semi-conservative model means that each daughter DNA molecule retains one parental strand and synthesizes one new strand."
+        },
+        {
+          "q": "The enzyme that synthesizes short RNA primers to initiate DNA synthesis is:",
+          "options": ["DNA polymerase I", "DNA ligase", "Primase", "Topoisomerase"],
+          "a": 2,
+          "ex": "DNA polymerase cannot initiate a new strand; it can only add nucleotides to an existing 3'-OH group, hence the need for an RNA primer synthesized by primase."
+        },
+        {
+          "q": "Which strand of DNA is synthesized continuously in the 5' to 3' direction, towards the replication fork?",
+          "options": ["Leading strand", "Lagging strand", "Template strand", "Non-template strand"],
+          "a": 0,
+          "ex": "The leading strand synthesis is straightforward, as DNA polymerase can move continuously in the direction of the unwinding helix."
+        },
+        {
+          "q": "Short segments of DNA synthesized on the lagging strand are called:",
+          "options": ["Telomeres", "Promoters", "Okazaki fragments", "Introns"],
+          "a": 2,
+          "ex": "The lagging strand is synthesized discontinuously in short segments (Okazaki fragments) because DNA polymerase must move away from the replication fork."
+        },
+        {
+          "q": "What is the primary role of **DNA ligase** during DNA replication?",
+          "options": ["To unwind the DNA helix.", "To add new nucleotides to a growing strand.", "To remove RNA primers.", "To join Okazaki fragments together."],
+          "a": 3,
+          "ex": "DNA ligase forms phosphodiester bonds to connect the newly synthesized Okazaki fragments on the lagging strand into a continuous DNA molecule."
+        },
+        {
+          "q": "Which type of DNA repair mechanism corrects errors that are missed by DNA polymerase during replication?",
+          "options": ["Nucleotide excision repair", "Base excision repair", "Mismatch repair", "Direct repair"],
+          "a": 2,
+          "ex": "Mismatch repair enzymes recognize and remove incorrectly paired bases after replication, using methylation patterns to distinguish the old from the new strand."
+        },
+        {
+          "q": "A common DNA repair pathway that removes bulky lesions (like thymine dimers caused by UV light) by excising a segment of the damaged strand is:",
+          "options": ["Mismatch repair", "Nucleotide excision repair (NER)", "Recombinational repair", "Base excision repair"],
+          "a": 1,
+          "ex": "NER is a versatile repair system that can fix a variety of DNA damage, including those caused by UV radiation and certain chemicals."
+        },
+        {
+          "q": "In the **lac operon** of E. coli, the repressor protein binds to the:",
+          "options": ["Promoter", "Operator", "Structural genes", "Inducer"],
+          "a": 1,
+          "ex": "The operator is a DNA sequence located within or downstream of the promoter, serving as the binding site for the repressor protein."
+        },
+        {
+          "q": "The lac operon is an example of an **inducible operon**. This means it is typically:",
+          "options": ["Always on, unless repressed.", "Always off, and can be turned on by an inducer.", "Only active in the presence of glucose.", "Responsible for synthesizing amino acids."],
+          "a": 1,
+          "ex": "The lac operon is induced (turned on) by the presence of lactose, which acts as an inducer by binding to the repressor and preventing its binding to the operator."
+        },
+        {
+          "q": "In the **trp operon** of E. coli, the repressor protein binds to the operator when:",
+          "options": ["Tryptophan levels are low.", "Glucose levels are high.", "Tryptophan levels are high.", "Lactose is present."],
+          "a": 2,
+          "ex": "The trp operon is a repressible operon. Tryptophan acts as a corepressor, binding to the repressor protein and enabling it to bind to the operator, thus shutting down transcription of tryptophan synthesis enzymes."
+        },
+        {
+          "q": "Eukaryotic gene regulation primarily occurs at which level?",
+          "options": ["Only transcriptional level.", "Only translational level.", "Multiple levels, including transcriptional, post-transcriptional, translational, and post-translational.", "Only by operons."],
+          "a": 2,
+          "ex": "Eukaryotic gene regulation is far more complex than prokaryotic, involving chromatin modification, transcription factors, RNA processing, mRNA degradation, and protein modification."
+        },
+        {
+          "q": "Proteins that bind to DNA and either activate or repress gene transcription in eukaryotes are called:",
+          "options": ["Ribosomes", "Histones", "RNA polymerase", "Transcription factors"],
+          "a": 3,
+          "ex": "Transcription factors are essential for regulating gene expression, often interacting with promoter and enhancer regions of DNA."
+        },
+        {
+          "q": "Regions of DNA that are far from a gene's promoter but can enhance or inhibit its transcription are called:",
+          "options": ["Operators", "Introns", "Enhancers and Silencers", "Telomeres"],
+          "a": 2,
+          "ex": "Enhancers activate transcription, while silencers inhibit it. They can be located thousands of base pairs away from the gene they regulate."
+        },
+        {
+          "q": "The modification of histone proteins (e.g., acetylation, methylation) can alter gene expression by changing:",
+          "options": ["The DNA sequence.", "The stability of mRNA.", "Chromatin structure and accessibility to transcription machinery.", "The efficiency of translation."],
+          "a": 2,
+          "ex": "Histone modifications influence how tightly DNA is packed around histones, affecting whether genes are accessible for transcription. This is a key aspect of epigenetics."
+        },
+        {
+          "q": "The addition of methyl groups to cytosine bases in DNA, often leading to gene silencing, is known as:",
+          "options": ["Histone acetylation", "DNA methylation", "RNA interference", "Alternative splicing"],
+          "a": 1,
+          "ex": "DNA methylation is a significant epigenetic mechanism that can stably alter gene expression patterns without changing the underlying DNA sequence."
+        },
+        {
+          "q": "A single primary RNA transcript can be processed in different ways to produce different mRNA molecules, leading to diverse proteins from a single gene. This process is called:",
+          "options": ["RNA interference", "Post-translational modification", "Alternative splicing", "mRNA degradation"],
+          "a": 2,
+          "ex": "Alternative splicing allows a single gene to code for multiple proteins, vastly increasing the protein diversity in eukaryotes."
+        },
+        {
+          "q": "Small non-coding RNA molecules (like miRNAs and siRNAs) that can inhibit gene expression by binding to mRNA and promoting its degradation or inhibiting its translation are involved in:",
+          "options": ["Ribozyme activity", "RNA interference (RNAi)", "DNA repair", "Transcription elongation"],
+          "a": 1,
+          "ex": "RNAi is a powerful mechanism for post-transcriptional gene regulation, used both naturally by cells and as a tool in research."
+        },
+        {
+          "q": "After a protein is synthesized, further modifications like folding, cleavage, or addition of chemical groups, which are necessary for its function, are called:",
+          "options": ["Transcription", "Translation", "Post-translational modifications", "Alternative splicing"],
+          "a": 2,
+          "ex": "These modifications are crucial for a protein to achieve its final active form and cellular localization (e.g., phosphorylation, glycosylation, ubiquitination)."
+        },
+        {
+          "q": "Which type of mutation involves the insertion or deletion of nucleotides not divisible by three, leading to a shift in the reading frame during translation?",
+          "options": ["Point mutation", "Silent mutation", "Missense mutation", "Frameshift mutation"],
+          "a": 3,
+          "ex": "Frameshift mutations typically have severe consequences, leading to completely altered protein sequences downstream of the mutation and often premature stop codons."
+        },
+        {
+          "q": "The enzyme responsible for adding nucleotides to the ends of chromosomes (telomeres) in germ cells and some cancer cells is:",
+          "options": ["DNA ligase", "Telomerase", "DNA polymerase III", "Helicase"],
+          "a": 1,
+          "ex": "Telomerase counteracts the shortening of telomeres that occurs with each round of DNA replication, maintaining chromosome integrity."
+        },
+        {
+          "q": "In DNA replication, the role of **single-strand binding proteins** (SSBs) is to:",
+          "options": ["Unwind the DNA double helix.", "Prevent the separated DNA strands from re-annealing.", "Synthesize RNA primers.", "Join DNA fragments together."],
+          "a": 1,
+          "ex": "SSBs stabilize the unwound DNA template strands, keeping them accessible for DNA polymerase."
+        },
+        {
+          "q": "The segment of a gene that is removed during RNA processing and does not code for protein is an:",
+          "options": ["Exon", "Intron", "Promoter", "Codon"],
+          "a": 1,
+          "ex": "Introns are non-coding regions that are spliced out, while exons are the coding regions that are joined together to form the mature mRNA."
+        },
+        {
+          "q": "Which of the following describes the **positive control** of the lac operon?",
+          "options": ["Binding of the repressor to the operator.", "Transcription when lactose is absent.", "Activation by CAP-cAMP when glucose levels are low.", "Repression by tryptophan."],
+          "a": 2,
+          "ex": "Positive control ensures that the lac operon is only highly expressed when glucose (the preferred energy source) is scarce, in addition to lactose being present."
+        },
+        {
+          "q": "Which component is NOT directly involved in the process of DNA replication?",
+          "options": ["RNA polymerase", "DNA polymerase", "Helicase", "DNA ligase"],
+          "a": 0,
+          "ex": "RNA polymerase is involved in transcription (synthesizing RNA from DNA), not DNA replication. Primase, a type of RNA polymerase, synthesizes the RNA primer for replication, but RNA polymerase *itself* (for transcription) is not directly involved in replicating the DNA strands."
+        },
+        {
+          "q": "Heterochromatin is characterized by:",
+          "options": ["Being transcriptionally active and loosely packed.", "Being transcriptionally inactive and densely packed.", "Consisting mainly of introns.", "Being found only in prokaryotes."],
+          "a": 1,
+          "ex": "Heterochromatin represents highly condensed chromatin that is generally inaccessible for transcription, contributing to gene silencing."
+        }
+      ]
+    },
+     {
+      "id": "plant_biology_physiology_advanced",
+      "title": "Plant Biology / Plant Physiology (Advanced)",
+      "questions": [
+        {
+          "q": "Which tissue system in plants is responsible for transporting water and nutrients throughout the plant body?",
+          "options": ["Dermal tissue system", "Ground tissue system", "Vascular tissue system", "Meristematic tissue system"],
+          "a": 2,
+          "ex": "The vascular tissue system consists of xylem (water and minerals) and phloem (sugars/nutrients)."
+        },
+        {
+          "q": "The primary role of **xylem** in plants is to:",
+          "options": ["Transport sugars from leaves to other parts.", "Anchor the plant to the soil.", "Transport water and dissolved minerals from roots to leaves.", "Store food reserves."],
+          "a": 2,
+          "ex": "Xylem forms a continuous system of tubes from roots to leaves, crucial for water transport via transpiration."
+        },
+        {
+          "q": "The movement of water through the xylem from the roots to the leaves is primarily driven by:",
+          "options": ["Root pressure", "Capillary action", "Transpiration (cohesion-tension theory)", "Osmosis in the phloem"],
+          "a": 2,
+          "ex": "Transpiration, the evaporation of water from leaves, creates a negative pressure (tension) that pulls a continuous column of water up the xylem due to cohesion (water molecules sticking to each other) and adhesion (water sticking to xylem walls)."
+        },
+        {
+          "q": "Which of the following describes the function of **phloem**?",
+          "options": ["Absorbs water from the soil.", "Transports sugars from source (e.g., leaves) to sink (e.g., roots, fruits) areas.", "Provides structural support to the stem.", "Conducts photosynthesis."],
+          "a": 1,
+          "ex": "Phloem transports sucrose and other organic nutrients throughout the plant, following the pressure-flow hypothesis."
+        },
+        {
+          "q": "The increase in the length of a plant (primary growth) is primarily due to the activity of which type of meristem?",
+          "options": ["Vascular cambium", "Cork cambium", "Lateral meristem", "Apical meristem"],
+          "a": 3,
+          "ex": "Apical meristems are located at the tips of roots and shoots and are responsible for primary (lengthwise) growth."
+        },
+        {
+          "q": "Which structure controls the opening and closing of **stomata** on the leaf epidermis?",
+          "options": ["Cuticle", "Epidermal cells", "Guard cells", "Spongy mesophyll"],
+          "a": 2,
+          "ex": "Guard cells regulate gas exchange (CO2 intake for photosynthesis, O2 release) and transpiration by controlling stomatal pore size."
+        },
+        {
+          "q": "The hormone primarily responsible for cell elongation and phototropism (growth towards light) in plants is:",
+          "options": ["Gibberellin", "Cytokinin", "Auxin", "Ethylene"],
+          "a": 2,
+          "ex": "Auxin plays a key role in cell elongation, apical dominance, and the development of adventitious roots."
+        },
+        {
+          "q": "Which plant hormone promotes fruit ripening and is a gas?",
+          "options": ["Abscisic acid", "Ethylene", "Auxin", "Gibberellin"],
+          "a": 1,
+          "ex": "Ethylene is unique among plant hormones as it is a gaseous hormone, also involved in leaf abscission and senescence."
+        },
+        {
+          "q": "A plant hormone that primarily promotes cell division and differentiation, often working in conjunction with auxin, is:",
+          "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid"],
+          "a": 2,
+          "ex": "Cytokinins are involved in tissue culture, breaking bud dormancy, and delaying senescence (aging) of leaves."
+        },
+        {
+          "q": "The response of plants to the relative lengths of day and night, influencing flowering, is called:",
+          "options": ["Phototropism", "Gravitropism", "Thigmotropism", "Photoperiodism"],
+          "a": 3,
+          "ex": "Photoperiodism classifies plants as short-day, long-day, or day-neutral, depending on their flowering requirements based on day/night length."
+        },
+        {
+          "q": "Which pigment is primarily responsible for detecting light quality (red vs. far-red light) and regulating photoperiodism?",
+          "options": ["Chlorophyll", "Carotenoids", "Anthocyanins", "Phytochrome"],
+          "a": 3,
+          "ex": "Phytochrome exists in two interconvertible forms (Pr and Pfr) and acts as a molecular switch, influencing processes like seed germination, shade avoidance, and flowering."
+        },
+        {
+          "q": "The male reproductive part of a flower, consisting of an anther and a filament, is the:",
+          "options": ["Pistil (Carpel)", "Stigma", "Style", "Stamen"],
+          "a": 3,
+          "ex": "The stamen produces pollen, which contains the male gametes."
+        },
+        {
+          "q": "In flowering plants, the process where one sperm fertilizes the egg and another sperm fertilizes the central cell (forming endosperm) is known as:",
+          "options": ["Self-pollination", "Cross-pollination", "Double fertilization", "Germination"],
+          "a": 2,
+          "ex": "Double fertilization is a unique characteristic of angiosperms, resulting in both the embryo and the nutritive endosperm."
+        },
+        {
+          "q": "Which of the following is typically developed from the **ovary** of a flower after fertilization?",
+          "options": ["Seed", "Pollen grain", "Fruit", "Embryo"],
+          "a": 2,
+          "ex": "The ovary ripens into the fruit, which encloses the seeds (developed from the ovules)."
+        },
+        {
+          "q": "The underground portion of a plant responsible for water and mineral absorption and anchorage is the:",
+          "options": ["Stem", "Leaf", "Root", "Flower"],
+          "a": 2,
+          "ex": "Roots have specialized structures like root hairs that increase surface area for efficient absorption."
+        },
+        {
+          "q": "What is the primary function of the **casparian strip** in the endodermis of roots?",
+          "options": ["To facilitate nutrient uptake by root hairs.", "To regulate the movement of water and minerals into the vascular cylinder (stele).", "To produce new root cells.", "To store starch."],
+          "a": 1,
+          "ex": "The Casparian strip is a waxy barrier that forces water and solutes to pass through the cytoplasm of endodermal cells (symplastic route) before entering the xylem, allowing for selective uptake."
+        },
+        {
+          "q": "The development of secondary growth (increase in girth) in woody plants is due to the activity of which lateral meristem?",
+          "options": ["Apical meristem", "Ground meristem", "Vascular cambium", "Procambium"],
+          "a": 2,
+          "ex": "The vascular cambium produces secondary xylem (wood) to the inside and secondary phloem to the outside, contributing to the thickening of stems and roots."
+        },
+        {
+          "q": "Which structure in a seed provides nourishment to the developing embryo?",
+          "options": ["Seed coat", "Radicle", "Cotyledon (and/or Endosperm)", "Plumule"],
+          "a": 2,
+          "ex": "Cotyledons are embryonic leaves that store food, or the endosperm (in monocots) provides stored food reserves."
+        },
+        {
+          "q": "The response of a plant to touch, such as the curling of tendrils around a support, is called:",
+          "options": ["Phototropism", "Gravitropism", "Thigmotropism", "Hydrotropism"],
+          "a": 2,
+          "ex": "Thigmotropism allows plants to respond to physical contact, helping them climb or adapt to their environment."
+        },
+        {
+          "q": "The alternation between a diploid sporophyte generation and a haploid gametophyte generation is characteristic of:",
+          "options": ["Only animals.", "Only fungi.", "All plants and some algae.", "Only prokaryotes."],
+          "a": 2,
+          "ex": "Alternation of generations is a fundamental part of the life cycle of plants, where both the multicellular haploid and diploid stages are present."
+        },
+        {
+          "q": "Which of the following represents the **male gametophyte** in flowering plants?",
+          "options": ["Ovary", "Ovule", "Pollen grain", "Embryo sac"],
+          "a": 2,
+          "ex": "The pollen grain contains the generative cell, which will form the sperm, and the tube cell, which forms the pollen tube."
+        },
+        {
+          "q": "The waxy layer on the epidermis of leaves that reduces water loss is the:",
+          "options": ["Stomata", "Cuticle", "Mesophyll", "Guard cell"],
+          "a": 1,
+          "ex": "The cuticle is a protective layer, especially important for preventing desiccation in terrestrial plants."
+        },
+        {
+          "q": "In a dicot stem, the vascular bundles are typically arranged in:",
+          "options": ["A scattered pattern.", "A ring around the pith.", "The center of the stem.", "An irregular arrangement."],
+          "a": 1,
+          "ex": "Monocot stems have scattered vascular bundles, while dicot stems have them arranged in a distinct ring."
+        },
+        {
+          "q": "Which plant hormone is primarily responsible for inducing seed dormancy and promoting stomatal closure during water stress?",
+          "options": ["Auxin", "Gibberellin", "Cytokinin", "Abscisic acid (ABA)"],
+          "a": 3,
+          "ex": "ABA is a stress hormone that helps plants conserve water and prepares them for adverse conditions."
+        },
+        {
+          "q": "The primary meristem that gives rise to the vascular tissue system (xylem and phloem) is the:",
+          "options": ["Protoderm", "Ground meristem", "Procambium", "Phellogen"],
+          "a": 2,
+          "ex": "The procambium is one of the primary meristems derived from the apical meristem, responsible for developing the vascular tissues."
+        }
+      ]
+    },
+    {
+      "id": "evolution_population_genetics_advanced",
+      "title": "Evolution (Advanced) and Population Genetics",
+      "questions": [
+        {
+          "q": "Which of the following is NOT a fundamental condition for the **Hardy-Weinberg equilibrium** to be maintained in a population?",
+          "options": ["No mutations", "Random mating", "Absence of natural selection", "Small population size"],
+          "a": 3,
+          "ex": "A large population size is required to minimize the effects of genetic drift. The other conditions (no mutation, random mating, no natural selection, no gene flow) ensure allele and genotype frequencies remain constant."
+        },
+        {
+          "q": "In a population in Hardy-Weinberg equilibrium, if the frequency of the recessive allele (q) is 0.3, what is the frequency of the homozygous dominant genotype (p^2)?",
+          "options": ["0.09", "0.49", "0.21", "0.7"],
+          "a": 1,
+          "ex": "If q = 0.3, then p = 1 - q = 1 - 0.3 = 0.7. The frequency of the homozygous dominant genotype (p^2) is 0.7 * 0.7 = 0.49."
+        },
+        {
+          "q": "The random change in allele frequencies from one generation to the next, especially prominent in small populations, is known as:",
+          "options": ["Gene flow", "Natural selection", "Genetic drift", "Mutation"],
+          "a": 2,
+          "ex": "Genetic drift can lead to the loss of alleles or fixation of others purely by chance, reducing genetic variation."
+        },
+        {
+          "q": "Which of the following describes the **founder effect**?",
+          "options": ["A large population undergoes a drastic reduction in size.", "Individuals migrate between populations, introducing new alleles.", "A new population is established by a small number of individuals.", "A sudden, widespread change in environmental conditions."],
+          "a": 2,
+          "ex": "The founder effect is a type of genetic drift where the new population's gene pool differs from the source population due to the small, non-representative sample of founders."
+        },
+        {
+          "q": "The movement of alleles between populations, typically through migration and interbreeding, is called:",
+          "options": ["Genetic drift", "Natural selection", "Gene flow", "Mutation"],
+          "a": 2,
+          "ex": "Gene flow tends to reduce genetic differences between populations, making them more similar."
+        },
+        {
+          "q": "A form of natural selection in which individuals at one end of the phenotypic range survive or reproduce more successfully is called:",
+          "options": ["Stabilizing selection", "Disruptive selection", "Directional selection", "Sexual selection"],
+          "a": 2,
+          "ex": "Directional selection favors one extreme of the phenotypic range, shifting the population's average trait value over time (e.g., increasing beak depth in finches during drought)."
+        },
+        {
+          "q": "The evolution of new species from a common ancestor due to geographic isolation is termed:",
+          "options": ["Sympatric speciation", "Parapatric speciation", "Allopatric speciation", "Peripatric speciation"],
+          "a": 2,
+          "ex": "Allopatric speciation occurs when populations are geographically separated, preventing gene flow and allowing independent evolutionary paths."
+        },
+        {
+          "q": "Which of the following is a **prezygotic reproductive barrier**?",
+          "options": ["Hybrid inviability", "Hybrid sterility", "Gametic isolation", "Hybrid breakdown"],
+          "a": 2,
+          "ex": "Prezygotic barriers prevent mating or hinder fertilization if mating is attempted. Gametic isolation means sperm and eggs are incompatible."
+        },
+        {
+          "q": "The rapid evolution of many diverse species from a single common ancestor when introduced to new environmental opportunities (e.g., Darwin's finches on the Galapagos) is called:",
+          "options": ["Convergent evolution", "Coevolution", "Adaptive radiation", "Punctuated equilibrium"],
+          "a": 2,
+          "ex": "Adaptive radiation often occurs after a major event like a mass extinction or colonization of a new habitat, leading to rapid diversification into new ecological niches."
+        },
+        {
+          "q": "Structures that are derived from a common ancestor but have evolved different functions (e.g., human arm, bat wing, whale flipper) are:",
+          "options": ["Analogous structures", "Vestigial structures", "Homologous structures", "Convergent structures"],
+          "a": 2,
+          "ex": "Homologous structures provide evidence of shared ancestry, despite differences in appearance or function."
+        },
+        {
+          "q": "The presence of the same complex metabolic pathways (e.g., glycolysis) in nearly all living organisms provides strong evidence for:",
+          "options": ["Genetic drift", "Convergent evolution", "A common ancestor", "Sexual selection"],
+          "a": 2,
+          "ex": "This indicates a deep evolutionary connection and suggests that these fundamental processes arose very early in the history of life."
+        },
+        {
+          "q": "Which concept describes the observation that evolutionary change in the fossil record often consists of long periods of stasis interspersed with brief periods of rapid change?",
+          "options": ["Gradualism", "Gene flow", "Punctuated equilibrium", "Adaptive radiation"],
+          "a": 2,
+          "ex": "Punctuated equilibrium, proposed by Eldredge and Gould, contrasts with gradualism, suggesting that most speciation events occur relatively rapidly in geological time."
+        },
+        {
+          "q": "In a population of 100 individuals, if 16 are homozygous recessive (aa), what is the frequency of the recessive allele (q)?",
+          "options": ["0.16", "0.04", "0.4", "0.84"],
+          "a": 2,
+          "ex": "The frequency of the homozygous recessive genotype (q^2) is 16/100 = 0.16. Therefore, q = sqrt(0.16) = 0.4."
+        },
+        {
+          "q": "Natural selection acts directly on a population's:",
+          "options": ["Genotypes", "Alleles", "Phenotypes", "Mutations"],
+          "a": 2,
+          "ex": "Natural selection favors individuals with advantageous phenotypes, leading to a higher survival and reproductive rate for those individuals. The underlying genotypes are then passed on."
+        },
+        {
+          "q": "Which type of selection favors individuals at both extremes of the phenotypic range over intermediate phenotypes?",
+          "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Sexual selection"],
+          "a": 2,
+          "ex": "Disruptive selection can lead to the divergence of a population into two distinct phenotypic groups and may be a precursor to sympatric speciation."
+        },
+        {
+          "q": "The ultimate source of new alleles in a population is:",
+          "options": ["Genetic drift", "Natural selection", "Gene flow", "Mutation"],
+          "a": 3,
+          "ex": "Mutations are random changes in the DNA sequence and are the raw material upon which other evolutionary forces act."
+        },
+        {
+          "q": "When two species evolve in response to changes in each other, such as a predator and its prey, this is called:",
+          "options": ["Convergent evolution", "Coevolution", "Adaptive radiation", "Parallel evolution"],
+          "a": 1,
+          "ex": "Coevolution involves reciprocal evolutionary change in two or more species that exert strong selective pressures on each other."
+        },
+        {
+          "q": "The concept that Earth's crust is divided into plates that move slowly over the mantle, explaining continental drift and the distribution of species, is:",
+          "options": ["Uniformitarianism", "Catastrophism", "Plate tectonics", "Gradualism"],
+          "a": 2,
+          "ex": "Plate tectonics has played a significant role in biogeography and speciation patterns over geological time."
+        },
+        {
+          "q": "The use of molecular data (e.g., DNA or protein sequences) to estimate the time since two species diverged from a common ancestor is known as a:",
+          "options": ["Fossil dating", "Phylogenetic tree", "Molecular clock", "Genetic fingerprint"],
+          "a": 2,
+          "ex": "The molecular clock hypothesis assumes that mutations accumulate in certain genes at a relatively constant rate, allowing for dating of evolutionary events."
+        },
+        {
+          "q": "Which of the following is an example of a **postzygotic reproductive barrier**?",
+          "options": ["Habitat isolation", "Temporal isolation", "Reduced hybrid fertility", "Behavioral isolation"],
+          "a": 2,
+          "ex": "Postzygotic barriers occur after fertilization and include reduced hybrid viability (hybrid offspring don't survive), reduced hybrid fertility (hybrids are sterile), and hybrid breakdown (subsequent generations are inviable or infertile)."
+        },
+        {
+          "q": "The similar body forms of sharks (fish) and dolphins (mammals), both adapted for fast swimming in water, is an example of:",
+          "options": ["Divergent evolution", "Homologous structures", "Coevolution", "Convergent evolution"],
+          "a": 3,
+          "ex": "Convergent evolution occurs when unrelated species evolve similar traits independently due to similar environmental pressures or ecological niches."
+        },
+        {
+          "q": "A species that is able to interbreed and produce fertile offspring is generally defined by the:",
+          "options": ["Ecological species concept", "Phylogenetic species concept", "Morphological species concept", "Biological species concept"],
+          "a": 3,
+          "ex": "The biological species concept defines a species as a group of populations whose members have the potential to interbreed in nature and produce viable, fertile offspring, but do not produce viable, fertile offspring with members of other such groups."
+        },
+        {
+          "q": "If a recessive allele is beneficial, natural selection will cause its frequency to:",
+          "options": ["Increase rapidly, even in heterozygotes.", "Increase slowly if it's rare, as selection only acts on the homozygous recessive phenotype.", "Decrease over time.", "Remain constant due to Hardy-Weinberg equilibrium."],
+          "a": 1,
+          "ex": "Beneficial recessive alleles only confer an advantage when homozygous. Their frequency will increase more slowly than dominant beneficial alleles, as they are hidden in heterozygotes where selection doesn't act on their phenotype."
+        },
+        {
+          "q": "The study of the geographical distribution of species, and how it is influenced by factors like continental drift and dispersal, is called:",
+          "options": ["Ecology", "Paleontology", "Biogeography", "Systematics"],
+          "a": 2,
+          "ex": "Biogeography provides compelling evidence for evolution, explaining why certain species are found in specific regions."
+        },
+        {
+          "q": "Which type of selection maintains genetic variation by favoring intermediate variants and acting against extreme phenotypes?",
+          "options": ["Directional selection", "Disruptive selection", "Stabilizing selection", "Sexual selection"],
+          "a": 2,
+          "ex": "Stabilizing selection reduces phenotypic variation and tends to maintain the status quo, often seen in traits well-adapted to a stable environment (e.g., human birth weight)."
+        }
+      ]
+    },
+    {
+      "id": "immunology_disease_advanced",
+      "title": "Immunology and Disease (Advanced)",
+      "questions": [
+        {
+          "q": "Which of the following is considered a component of **innate (non-specific) immunity**?",
+          "options": ["Antibody production", "Memory B cells", "Inflammation", "Cytotoxic T cell activity"],
+          "a": 2,
+          "ex": "Innate immunity provides immediate, generalized protection and includes physical barriers (skin), phagocytic cells, fever, and the inflammatory response."
+        },
+        {
+          "q": "The process by which phagocytic cells engulf and internalize pathogens or cellular debris is called:",
+          "options": ["Exocytosis", "Pinocytosis", "Phagocytosis", "Receptor-mediated endocytosis"],
+          "a": 2,
+          "ex": "Macrophages and neutrophils are key phagocytic cells of the innate immune system."
+        },
+        {
+          "q": "Which type of immune cell is responsible for producing **antibodies**?",
+          "options": ["Helper T cells", "Cytotoxic T cells", "Plasma B cells", "Natural Killer cells"],
+          "a": 2,
+          "ex": "Plasma B cells are differentiated B lymphocytes that secrete large amounts of antibodies, forming the basis of humoral immunity."
+        },
+        {
+          "q": "Molecules that elicit an adaptive immune response (e.g., proteins or carbohydrates on pathogens) are known as:",
+          "options": ["Antibodies", "Cytokines", "Antigens", "Receptors"],
+          "a": 2,
+          "ex": "Antigens are recognized by specific receptors on B and T lymphocytes, triggering an immune response."
+        },
+        {
+          "q": "Which class of antibody is the first to be produced in a primary immune response and forms a pentamer?",
+          "options": ["IgG", "IgA", "IgM", "IgE"],
+          "a": 2,
+          "ex": "IgM is particularly effective at agglutinating (clumping) pathogens and activating the complement system."
+        },
+        {
+          "q": "The immunity provided by antibodies circulating in the body fluids is called:",
+          "options": ["Cell-mediated immunity", "Innate immunity", "Humoral immunity", "Passive immunity (only when transferred)"],
+          "a": 2,
+          "ex": "Humoral immunity primarily involves B cells and their secreted antibodies, which target pathogens in the extracellular fluid."
+        },
+        {
+          "q": "Which type of T cell directly kills infected body cells or cancer cells?",
+          "options": ["Helper T cells", "Regulatory T cells", "Memory T cells", "Cytotoxic T cells"],
+          "a": 3,
+          "ex": "Cytotoxic T cells recognize and destroy cells displaying foreign antigens on their surface, usually via MHC class I molecules."
+        },
+        {
+          "q": "What is the primary role of **Helper T cells** in the adaptive immune response?",
+          "options": ["To produce antibodies.", "To directly kill infected cells.", "To activate B cells and cytotoxic T cells.", "To phagocytize pathogens."],
+          "a": 2,
+          "ex": "Helper T cells are crucial orchestrators of both humoral and cell-mediated immunity by secreting cytokines that stimulate other immune cells."
+        },
+        {
+          "q": "The ability of the adaptive immune system to respond more quickly and strongly to a pathogen encountered a second time is due to the presence of:",
+          "options": ["Macrophages", "Natural Killer cells", "Memory cells", "Complement proteins"],
+          "a": 2,
+          "ex": "Memory B and T cells persist after the primary response and allow for a much faster and more robust secondary immune response upon re-exposure."
+        },
+        {
+          "q": "Which of the following is an example of **active immunity**?",
+          "options": ["Transfer of maternal antibodies to a fetus.", "Injection of preformed antibodies.", "Vaccination.", "Receiving antivenom after a snake bite."],
+          "a": 2,
+          "ex": "Active immunity involves the body's own immune system producing antibodies and memory cells after exposure to an antigen (either naturally through infection or artificially through vaccination)."
+        },
+        {
+          "q": "Major Histocompatibility Complex (MHC) proteins are critical for:",
+          "options": ["Antibody production by B cells.", "Phagocytosis of pathogens.", "Antigen presentation to T cells.", "Inflammatory response."],
+          "a": 2,
+          "ex": "MHC class I proteins present antigens from inside the cell to cytotoxic T cells, while MHC class II proteins present antigens from outside the cell to helper T cells."
+        },
+        {
+          "q": "An exaggerated or inappropriate immune response to a harmless antigen (allergen) is called a(n):",
+          "options": ["Autoimmune disease", "Immunodeficiency", "Allergy (Hypersensitivity)", "Anaphylaxis (a severe allergic reaction)"],
+          "a": 2,
+          "ex": "Allergies involve the production of IgE antibodies and the release of histamine by mast cells."
+        },
+        {
+          "q": "A disease where the immune system mistakenly attacks the body's own healthy cells is a(n):",
+          "options": ["Infectious disease", "Allergy", "Autoimmune disease", "Immunodeficiency"],
+          "a": 2,
+          "ex": "Examples include Type 1 diabetes, rheumatoid arthritis, and lupus, where the immune system loses self-tolerance."
+        },
+        {
+          "q": "HIV (Human Immunodeficiency Virus) primarily targets and destroys which type of immune cell?",
+          "options": ["Plasma B cells", "Cytotoxic T cells", "Helper T cells (CD4+ T cells)", "Macrophages"],
+          "a": 2,
+          "ex": "The destruction of helper T cells by HIV severely compromises the entire adaptive immune response, leading to AIDS (Acquired Immunodeficiency Syndrome)."
+        },
+        {
+          "q": "Which of the following is a common symptom of the **inflammatory response**?",
+          "options": ["Decreased blood flow", "Lowered body temperature", "Swelling and redness", "Increased clotting time"],
+          "a": 2,
+          "ex": "The inflammatory response is a localized, non-specific reaction to tissue damage or infection, characterized by redness, heat, swelling, and pain, mediated by histamine and other chemicals."
+        },
+        {
+          "q": "Which type of immunity is achieved when antibodies are transferred from one individual to another (e.g., mother to child via placenta)?",
+          "options": ["Active immunity", "Natural active immunity", "Artificial active immunity", "Passive immunity"],
+          "a": 3,
+          "ex": "Passive immunity provides immediate but temporary protection because the recipient's immune system is not actively producing antibodies."
+        },
+        {
+          "q": "The study of the patterns, causes, and effects of health and disease conditions in defined populations is called:",
+          "options": ["Pathology", "Immunology", "Epidemiology", "Microbiology"],
+          "a": 2,
+          "ex": "Epidemiology is crucial for understanding disease outbreaks, identifying risk factors, and developing public health interventions."
+        },
+        {
+          "q": "Herd immunity refers to:",
+          "options": ["Immunity acquired by specific animal species.", "The overall resistance of a population to a pathogen due to a high proportion of immune individuals.", "Immunity passed down through generations.", "The ability of an individual to resist all diseases."],
+          "a": 1,
+          "ex": "Herd immunity protects vulnerable individuals (e.g., infants, immunocompromised) by reducing the likelihood of a pathogen spreading within a population."
+        },
+        {
+          "q": "Which of the following describes how a **live-attenuated vaccine** works?",
+          "options": ["It uses inactivated toxins to stimulate an immune response.", "It contains dead pathogens that still trigger antibody production.", "It uses a weakened form of the pathogen that can replicate but not cause severe disease.", "It contains only fragments of a pathogen's proteins."],
+          "a": 2,
+          "ex": "Live-attenuated vaccines (e.g., MMR, oral polio) induce a strong, long-lasting cellular and humoral immune response because they closely mimic natural infection."
+        },
+        {
+          "q": "The rapid and extensive diversification of a pathogen, often leading to new strains that can evade existing immunity (e.g., influenza virus), is called:",
+          "options": ["Genetic drift", "Antigenic drift", "Antigenic shift", "Mutation"],
+          "a": 1,
+          "ex": "Antigenic drift involves small, gradual changes in viral antigens (e.g., in influenza A and B), requiring new seasonal vaccines. Antigenic shift is a major, abrupt change."
+        },
+        {
+          "q": "Which immune cells are primarily involved in the **first line of defense** against pathogens (e.g., found in skin and mucous membranes)?",
+          "options": ["Lymphocytes", "Phagocytes (e.g., macrophages, neutrophils)", "Plasma cells", "Mast cells"],
+          "a": 1,
+          "ex": "While physical barriers are the very first line, phagocytes are key components of the immediate, non-specific cellular defense, quickly engulfing invaders."
+        },
+        {
+          "q": "The process by which immune cells are attracted to the site of infection or inflammation is called:",
+          "options": ["Apoptosis", "Diapedesis", "Chemotaxis", "Opsonization"],
+          "a": 2,
+          "ex": "Chemotaxis involves the movement of cells in response to chemical signals (chemokines) released by damaged tissues or immune cells."
+        },
+        {
+          "q": "Which of the following is a type of **primary immunodeficiency**?",
+          "options": ["HIV/AIDS", "Autoimmune disease", "Severe Combined Immunodeficiency (SCID)", "Allergic reaction"],
+          "a": 2,
+          "ex": "Primary immunodeficiencies are genetic or developmental defects that impair the immune system from birth. SCID affects both B and T cell development, making individuals highly susceptible to infections."
+        },
+        {
+          "q": "Cytokines are:",
+          "options": ["Proteins on the surface of pathogens.", "Antigen-binding proteins.", "Signaling molecules that regulate immune cell activity.", "Enzymes involved in inflammation."],
+          "a": 2,
+          "ex": "Cytokines (e.g., interleukins, interferons) act as messengers between immune cells, coordinating and amplifying immune responses."
+        },
+        {
+          "q": "The process where antibodies or complement proteins 'coat' a pathogen, making it more easily recognized and phagocytosed by immune cells, is called:",
+          "options": ["Agglutination", "Neutralization", "Opsonization", "Lysis"],
+          "a": 2,
+          "ex": "Opsonization significantly enhances the efficiency of phagocytosis, as phagocytes have receptors for the Fc region of antibodies or complement components."
+        }
+      ]
+    },
+    {
+      "id": "diversity_phylogenetics_advanced",
+      "title": "Diversity of Life and Phylogenetics (Advanced)",
+      "questions": [
+        {
+          "q": "Which of the following taxonomic ranks is the most inclusive (broadest) and contains the most diversity of organisms?",
+          "options": ["Family", "Order", "Class", "Kingdom"],
+          "a": 3,
+          "ex": "The standard hierarchy is Domain > Kingdom > Phylum > Class > Order > Family > Genus > Species."
+        },
+        {
+          "q": "The three domains of life are:",
+          "options": ["Prokaryota, Eukaryota, Archaea", "Bacteria, Protista, Fungi", "Bacteria, Archaea, Eukarya", "Plants, Animals, Fungi"],
+          "a": 2,
+          "ex": "The three-domain system, proposed by Carl Woese, classifies life into Bacteria, Archaea (both prokaryotic), and Eukarya (eukaryotic)."
+        },
+        {
+          "q": "Organisms in the Domain Archaea are characterized by:",
+          "options": ["Being all multicellular.", "Having peptidoglycan in their cell walls.", "Often living in extreme environments and having unique membrane lipids.", "Possessing a nucleus and membrane-bound organelles."],
+          "a": 2,
+          "ex": "Archaea are extremophiles (e.g., thermophiles, halophiles, methanogens) and differ from bacteria in their cell wall composition and membrane structure."
+        },
+        {
+          "q": "Which of the following is NOT a characteristic typically associated with **prokaryotes**?",
+          "options": ["Possession of a circular chromosome.", "Replication by binary fission.", "Presence of mitochondria.", "Small cell size (typically 1-10 µm)."],
+          "a": 2,
+          "ex": "Mitochondria are membrane-bound organelles found only in eukaryotic cells."
+        },
+        {
+          "q": "Which of the following groups of organisms are generally considered **eukaryotes**?",
+          "options": ["Bacteria and Archaea", "Viruses and Prions", "Protists, Fungi, Plants, and Animals", "Only Plants and Animals"],
+          "a": 2,
+          "ex": "Eukaryotes are characterized by having a true nucleus and membrane-bound organelles. Protists, Fungi, Plants, and Animals all belong to the Domain Eukarya."
+        },
+        {
+          "q": "A group of organisms that includes an ancestral species and ALL of its descendants is described as:",
+          "options": ["Polyphyletic", "Paraphyletic", "Monophyletic (Clade)", "Convergent"],
+          "a": 2,
+          "ex": "A monophyletic group (or clade) is a fundamental unit in phylogenetic systematics, indicating a single common ancestor and all its evolutionary offspring."
+        },
+        {
+          "q": "A shared **derived character** (a character unique to a particular clade) is also known as a:",
+          "options": ["Shared ancestral character", "Homoplasy", "Synapomorphy", "Symplesiomorphy"],
+          "a": 2,
+          "ex": "Synapomorphies are crucial for defining monophyletic groups in cladistics. A shared ancestral character (symplesiomorphy) is common to the ancestor and its descendants but also to other groups."
+        },
+        {
+          "q": "The principle that states that the simplest explanation (requiring the fewest evolutionary changes) for observed data is probably the correct one, especially in building phylogenetic trees, is:",
+          "options": ["Maximum likelihood", "Molecular clock", "Maximum parsimony", "Bootstrap analysis"],
+          "a": 2,
+          "ex": "Maximum parsimony (Occam's razor) guides the selection of the phylogenetic tree that requires the fewest evolutionary events (e.g., character changes or mutations)."
+        },
+        {
+          "q": "Which kingdom of Eukarya includes organisms that are typically multicellular, heterotrophic, obtain nutrients by ingestion, and lack cell walls?",
+          "options": ["Protista", "Fungi", "Plantae", "Animalia"],
+          "a": 3,
+          "ex": "These characteristics define the Kingdom Animalia. Fungi are heterotrophic but absorb nutrients and have cell walls of chitin. Plants are autotrophic with cellulose cell walls."
+        },
+        {
+          "q": "The evolutionary process where two unrelated species independently evolve similar traits due to similar environmental pressures is called:",
+          "options": ["Divergent evolution", "Coevolution", "Adaptive radiation", "Convergent evolution"],
+          "a": 3,
+          "ex": "Convergent evolution leads to analogous structures (e.g., wings of birds and insects) which have similar function but different evolutionary origins."
+        },
+        {
+          "q": "In a phylogenetic tree, a branch point (node) represents:",
+          "options": ["An extinct species.", "The most recently evolved species.", "A common ancestor from which lineages diverged.", "A mutation event."],
+          "a": 2,
+          "ex": "Nodes represent speciation events or divergence of two or more taxa from a common ancestor."
+        },
+        {
+          "q": "Which of the following is generally NOT used as a source of data for constructing phylogenetic trees?",
+          "options": ["Morphological characteristics", "Fossil record", "Behavioral traits", "Future evolutionary potential"],
+          "a": 3,
+          "ex": "Phylogenetic trees are built based on observable and measurable characteristics of extant and extinct organisms, not speculative future traits."
+        },
+        {
+          "q": "A group of organisms that includes a common ancestor but **not all** of its descendants is described as:",
+          "options": ["Monophyletic", "Polyphyletic", "Paraphyletic", "Clade"],
+          "a": 2,
+          "ex": "Reptiles (excluding birds) are a classic example of a paraphyletic group."
+        },
+        {
+          "q": "What is the primary role of an **outgroup** in phylogenetic analysis?",
+          "options": ["To serve as the most distantly related species in the tree.", "To root the phylogenetic tree, indicating the direction of evolutionary change.", "To represent a species that has not evolved.", "To provide a complete set of homologous characters."],
+          "a": 1,
+          "ex": "An outgroup is a species or group that is known to have diverged before the lineage of the species being studied (the ingroup), helping to determine which characters are ancestral vs. derived within the ingroup."
+        },
+        {
+          "q": "Molecular phylogenetic methods often use which type of molecule to infer evolutionary relationships?",
+          "options": ["Lipids", "Carbohydrates", "Proteins and Nucleic Acids (DNA/RNA)", "Vitamins"],
+          "a": 2,
+          "ex": "Similarities and differences in the sequences of homologous genes (DNA, RNA) or proteins (amino acid sequences) can reveal evolutionary relatedness."
+        },
+        {
+          "q": "The process of naming and classifying organisms is known as:",
+          "options": ["Phylogeny", "Evolution", "Taxonomy", "Ecology"],
+          "a": 2,
+          "ex": "Taxonomy is the science of classifying organisms, including binomial nomenclature."
+        },
+        {
+          "q": "Which kingdom of Eukarya consists of mostly unicellular organisms that are highly diverse, including algae, protozoa, and slime molds?",
+          "options": ["Fungi", "Plantae", "Animalia", "Protista"],
+          "a": 3,
+          "ex": "Protists are a polyphyletic group, meaning they do not share a single common ancestor to the exclusion of other eukaryotes, and are often considered a 'catch-all' kingdom for eukaryotes that aren't fungi, plants, or animals."
+        },
+        {
+          "q": "Organisms that are characterized by having cell walls made of peptidoglycan belong to the Domain:",
+          "options": ["Archaea", "Eukarya", "Bacteria", "Protista"],
+          "a": 2,
+          "ex": "Peptidoglycan is a unique component of bacterial cell walls, distinguishing them from Archaea (which have pseudopeptidoglycan or other polymers) and Eukarya (which have cellulose, chitin, or no cell wall)."
+        },
+        {
+          "q": "Which of the following is the correct way to write the scientific name for humans using binomial nomenclature?",
+          "options": ["Homo sapiens (Homo in italics, sapiens in italics)", "Homo sapiens (Homo capitalized, sapiens lowercase, both italicized)", "homo sapiens", "Homo Sapiens"],
+          "a": 1,
+          "ex": "Scientific names consist of a capitalized genus and a lowercase species epithet, both italicized (or underlined if handwritten)."
+        },
+        {
+          "q": "A group of organisms that includes a common ancestor and some, but not all, of its descendants (e.g., 'reptiles' without birds) is known as:",
+          "options": ["Monophyletic group", "Polyphyletic group", "Paraphyletic group", "Clade"],
+          "a": 2,
+          "ex": "This question is similar to a previous one to reinforce the definition of paraphyletic group (e.g., Reptiles, if birds are excluded)."
+        },
+        {
+          "q": "The phenomenon where similar features evolve independently in different lineages due to similar environmental pressures (e.g., flight in birds and bats) is:",
+          "options": ["Homology", "Divergent evolution", "Adaptive radiation", "Homoplasy (Convergent Evolution)"],
+          "a": 3,
+          "ex": "Homoplasy refers to character similarity not due to shared ancestry, but rather to convergent evolution or parallel evolution. The wings are analogous structures."
+        },
+        {
+          "q": "When constructing a phylogenetic tree, which type of character is most useful for defining a distinct clade?",
+          "options": ["Shared ancestral characters (symplesiomorphies)", "Shared derived characters (synapomorphies)", "Analogous characters", "Highly variable characters with no clear pattern"],
+          "a": 1,
+          "ex": "Synapomorphies are uniquely shared by members of a clade and their most recent common ancestor, indicating their unique evolutionary lineage."
+        },
+        {
+          "q": "The concept of a 'molecular clock' relies on the assumption that:",
+          "options": ["All genes evolve at the same rate.", "Mutation rates are constant over time and across different lineages for certain genes.", "Only morphological changes can be used for dating.", "All species diverge at the same time."],
+          "a": 1,
+          "ex": "While not perfectly constant, some genes or parts of genes accumulate mutations at a relatively steady rate, allowing them to be used to estimate divergence times."
+        },
+        {
+          "q": "Which Kingdom of Eukarya is characterized by organisms that are multicellular, generally non-motile, autotrophic, and have cell walls made of cellulose?",
+          "options": ["Fungi", "Animalia", "Protista", "Plantae"],
+          "a": 3,
+          "ex": "These are the defining characteristics of the Kingdom Plantae."
+        },
+        {
+          "q": "A phylogenetic tree that shows the evolutionary relationships of a group of organisms based on shared derived characters is called a:",
+          "options": ["Dendrogram", "Cladogram", "Phylogram", "Bar chart"],
+          "a": 1,
+          "ex": "Cladograms are specific types of phylogenetic trees built using cladistics, emphasizing branching patterns based on shared derived characters."
+        }
+      ]
     }
   ]
 }
