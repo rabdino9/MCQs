@@ -688,6 +688,1862 @@
           "ex": "A + (A · B) = A by Absorption Law."
         }
       ]
-    }
+    },
+    {
+      "id": "computer-architecture-organization",
+      "title": "Computer Architecture and Organization",
+      "questions": [
+        {
+          "q": "Which component is considered the 'brain' of the computer?",
+          "options": ["RAM", "Hard Drive", "CPU", "Motherboard"],
+          "a": 2,
+          "ex": "The Central Processing Unit (CPU) executes instructions and performs calculations."
+        },
+        {
+          "q": "What does ALU stand for in the context of CPU?",
+          "options": ["Arithmetic Logic Unit", "Array Logic Unit", "Application Logic Unit", "Advanced Logic Unit"],
+          "a": 0,
+          "ex": "The ALU performs arithmetic and logical operations within the CPU."
+        },
+        {
+          "q": "The control unit (CU) is responsible for:",
+          "options": ["Storing data permanently", "Executing arithmetic operations", "Directing and coordinating operations of the CPU", "Providing power to components"],
+          "a": 2,
+          "ex": "The CU fetches, decodes, executes, and stores results of instructions."
+        },
+        {
+          "q": "Which component connects all parts of the computer and allows them to communicate?",
+          "options": ["CPU", "RAM", "Motherboard", "Power Supply Unit"],
+          "a": 2,
+          "ex": "The motherboard serves as the central communication backbone."
+        },
+        {
+          "q": "What is the primary function of the CPU's registers?",
+          "options": ["Long-term data storage", "Temporary storage for data being processed by the CPU", "Connecting to external devices", "Managing network connections"],
+          "a": 1,
+          "ex": "Registers are small, high-speed storage locations within the CPU used for immediate access to data."
+        },
+        {
+          "q": "The concept of a 'stored program' computer architecture is often attributed to:",
+          "options": ["Charles Babbage", "Alan Turing", "John von Neumann", "Grace Hopper"],
+          "a": 2,
+          "ex": "The von Neumann architecture defines computers that store both program instructions and data in the same memory."
+        },
+        {
+          "q": "Which bus carries the addresses of data or instructions?",
+          "options": ["Data bus", "Control bus", "Address bus", "Power bus"],
+          "a": 2,
+          "ex": "The address bus specifies the location in memory that the CPU wants to access."
+        },
+        {
+          "q": "Which bus carries actual data between components?",
+          "options": ["Data bus", "Control bus", "Address bus", "Instruction bus"],
+          "a": 0,
+          "ex": "The data bus carries the information being transferred (data or instructions)."
+        },
+        {
+          "q": "The clock speed of a CPU is typically measured in:",
+          "options": ["Bytes", "Hertz (Hz)", "Watts", "Volts"],
+          "a": 1,
+          "ex": "Clock speed indicates the number of cycles per second, usually in MHz or GHz."
+        },
+        {
+          "q": "What is the purpose of the Fetch-Decode-Execute cycle?",
+          "options": ["To manage printer operations", "To process instructions in the CPU", "To regulate power supply", "To connect to the internet"],
+          "a": 1,
+          "ex": "This is the fundamental cycle by which a CPU processes instructions."
+        },
+        {
+          "q": "What is 'pipelining' in computer architecture?",
+          "options": ["A method for connecting multiple hard drives", "A technique to allow multiple instructions to be processed concurrently", "A type of network cable", "A way to cool the CPU"],
+          "a": 1,
+          "ex": "Pipelining breaks down instruction execution into stages, allowing multiple instructions to be in different stages of execution simultaneously."
+        },
+        {
+          "q": "CISC (Complex Instruction Set Computer) and RISC (Reduced Instruction Set Computer) refer to different types of:",
+          "options": ["Memory units", "Input/output devices", "Instruction sets", "Network protocols"],
+          "a": 2,
+          "ex": "These are two major approaches to designing the instruction set of a CPU."
+        },
+        {
+          "q": "Which of the following is NOT typically found on a motherboard?",
+          "options": ["CPU socket", "RAM slots", "Expansion slots (PCIe)", "External printer"],
+          "a": 3,
+          "ex": "An external printer is a peripheral device, not an internal component of the motherboard."
+        },
+        {
+          "q": "The BIOS (Basic Input/Output System) is typically stored in:",
+          "options": ["RAM", "CPU registers", "ROM", "Hard drive"],
+          "a": 2,
+          "ex": "BIOS is firmware stored on a ROM chip, essential for booting the computer."
+        },
+        {
+          "q": "What is the purpose of the Northbridge chipset?",
+          "options": ["Managing USB ports", "Controlling slower peripherals like hard drives", "Connecting the CPU to RAM and the graphics card", "Managing network connectivity"],
+          "a": 2,
+          "ex": "The Northbridge (or Memory Controller Hub) handles high-speed communication between the CPU, RAM, and PCIe (graphics card)."
+        },
+        {
+          "q": "What is the purpose of the Southbridge chipset?",
+          "options": ["Connecting the CPU to RAM", "Controlling faster components like the CPU", "Managing slower peripherals like USB, SATA, and audio", "Executing arithmetic operations"],
+          "a": 2,
+          "ex": "The Southbridge (or I/O Controller Hub) manages slower I/O functions and peripherals."
+        },
+        {
+          "q": "What is 'multicore processing'?",
+          "options": ["Using multiple hard drives simultaneously", "A single CPU with multiple processing units (cores)", "Running multiple operating systems at once", "Connecting multiple monitors to a computer"],
+          "a": 1,
+          "ex": "Multicore processors contain two or more independent processing units, or 'cores', on a single chip."
+        },
+        {
+          "q": "The process of starting up a computer is called:",
+          "options": ["Sleeping", "Shutting down", "Booting", "Hibernating"],
+          "a": 2,
+          "ex": "Booting refers to the initial set of operations that a computer system performs when electrical power is switched on."
+        },
+        {
+          "q": "What is the function of the cache memory in a computer system?",
+          "options": ["Permanent storage for all data", "Slow and cheap storage", "High-speed temporary storage for frequently accessed data", "Storing operating system files only"],
+          "a": 2,
+          "ex": "Cache memory acts as a buffer between the CPU and main memory to speed up data access."
+        },
+        {
+          "q": "Which of the following is an example of an expansion slot on a motherboard?",
+          "options": ["CPU socket", "RAM slot", "PCIe slot", "SATA port"],
+          "a": 2,
+          "ex": "PCIe (Peripheral Component Interconnect Express) slots are used for adding expansion cards like graphics cards, sound cards, etc."
+        },
+        {
+          "q": "The instruction register (IR) in the CPU holds:",
+          "options": ["The address of the next instruction", "The instruction currently being executed", "Data values for calculations", "Results of previous operations"],
+          "a": 1,
+          "ex": "The IR stores the instruction fetched from memory before it is decoded and executed."
+        },
+        {
+          "q": "What is the role of the program counter (PC) in the CPU?",
+          "options": ["Stores data from the ALU", "Points to the memory address of the next instruction to be fetched", "Counts the number of programs running", "Stores the current program's name"],
+          "a": 1,
+          "ex": "The PC keeps track of the execution flow by holding the address of the next instruction."
+        },
+        {
+          "q": "Virtual memory is a technique that:",
+          "options": ["Uses physical RAM only", "Uses hard disk space as an extension of RAM", "Is only found in supercomputers", "Replaces the need for RAM entirely"],
+          "a": 1,
+          "ex": "Virtual memory allows a computer to compensate for physical memory shortages by temporarily transferring data from RAM to disk storage."
+        },
+        {
+          "q": "What is the primary function of a power supply unit (PSU)?",
+          "options": ["To store data permanently", "To convert AC power from the wall outlet to DC power for components", "To process graphics", "To connect to external peripherals"],
+          "a": 1,
+          "ex": "The PSU provides stable DC power at various voltages required by different computer components."
+        },
+        {
+          "q": "In a von Neumann architecture, which of the following is true?",
+          "options": ["Instructions and data are stored in separate memories.", "Instructions and data share the same memory space.", "Only instructions are stored in memory.", "Only data is stored in memory."],
+          "a": 1,
+          "ex": "This is a defining characteristic of the von Neumann architecture, leading to the 'von Neumann bottleneck'."
+        },
+        {
+          "q": "What is the purpose of 'overclocking' a CPU?",
+          "options": ["To reduce its power consumption", "To make it run slower for better stability", "To increase its clock speed beyond manufacturer's specifications", "To improve its cooling efficiency"],
+          "a": 2,
+          "ex": "Overclocking aims to gain higher performance at the risk of instability and increased heat."
+        },
+        {
+          "q": "What is the main role of the graphics processing unit (GPU)?",
+          "options": ["Managing network connections", "Handling complex mathematical calculations for general computing", "Accelerating image and video rendering", "Storing long-term data"],
+          "a": 2,
+          "ex": "GPUs are specialized processors optimized for parallel processing, making them ideal for graphics and parallelizable computations."
+        },
+        {
+          "q": "Which type of memory is directly accessible by the CPU and used for active data and instructions?",
+          "options": ["Hard disk drive", "Solid State Drive (SSD)", "RAM", "ROM"],
+          "a": 2,
+          "ex": "RAM (Random Access Memory) is the primary working memory for the CPU."
+        },
+        {
+          "q": "What is the function of a 'heat sink' in a computer?",
+          "options": ["To generate heat for components", "To radiate heat away from components like the CPU", "To store electricity", "To amplify audio signals"],
+          "a": 1,
+          "ex": "Heat sinks, often with fans, are crucial for dissipating heat generated by high-performance components."
+        },
+        {
+          "q": "The concept of 'parallel processing' in computer architecture means:",
+          "options": ["Executing one instruction at a time very quickly.", "Executing multiple instructions or parts of instructions simultaneously.", "Only processing data in a sequential manner.", "Using only one CPU core."],
+          "a": 1,
+          "ex": "Parallel processing involves using multiple processing units or cores to perform computations concurrently."
+        }
+      ]
+    },
+    {
+      "id": "memory-units",
+      "title": "Memory Units (RAM, ROM, Cache, etc.)",
+      "questions": [
+        {
+          "q": "Which type of memory is volatile, meaning its contents are lost when the power is turned off?",
+          "options": ["ROM", "Hard Drive", "RAM", "Flash Memory"],
+          "a": 2,
+          "ex": "RAM (Random Access Memory) requires power to maintain the stored information."
+        },
+        {
+          "q": "What does ROM stand for?",
+          "options": ["Random Only Memory", "Read Only Memory", "Running Output Module", "Real-time Operating Memory"],
+          "a": 1,
+          "ex": "ROM (Read Only Memory) is non-volatile and typically contains firmware that cannot be easily modified."
+        },
+        {
+          "q": "Which memory type is the fastest and closest to the CPU?",
+          "options": ["Hard Drive", "RAM", "Cache Memory", "Solid State Drive"],
+          "a": 2,
+          "ex": "Cache memory (L1, L2, L3) is extremely fast and serves as a buffer between the CPU and main memory."
+        },
+        {
+          "q": "What is the primary function of RAM?",
+          "options": ["To store the operating system permanently", "To provide long-term storage for user files", "To temporarily store data and instructions that the CPU is actively using", "To boot up the computer"],
+          "a": 2,
+          "ex": "RAM is the working memory of the computer, holding programs and data currently in use."
+        },
+        {
+          "q": "Which type of ROM can be erased and reprogrammed using ultraviolet light?",
+          "options": ["PROM", "EPROM", "EEPROM", "Flash Memory"],
+          "a": 1,
+          "ex": "EPROM (Erasable Programmable Read-Only Memory) uses UV light for erasure."
+        },
+        {
+          "q": "What is the difference between SRAM and DRAM?",
+          "options": ["SRAM is slower and cheaper than DRAM.", "DRAM is faster and more expensive than SRAM.", "SRAM uses capacitors and needs refreshing, while DRAM uses latches and does not.", "SRAM uses latches and does not need refreshing, while DRAM uses capacitors and needs refreshing."],
+          "a": 3,
+          "ex": "SRAM (Static RAM) is faster and more expensive, used for cache. DRAM (Dynamic RAM) is slower, cheaper, and used for main memory."
+        },
+        {
+          "q": "Which type of memory is non-volatile and can be electrically erased and reprogrammed?",
+          "options": ["SRAM", "DRAM", "EEPROM", "PROM"],
+          "a": 2,
+          "ex": "EEPROM (Electrically Erasable Programmable Read-Only Memory) allows for electrical erasure and reprogramming."
+        },
+        {
+          "q": "Flash memory is a type of:",
+          "options": ["Volatile RAM", "Non-volatile ROM", "Cache memory", "Magnetic storage"],
+          "a": 1,
+          "ex": "Flash memory is a non-volatile computer memory that can be electrically erased and reprogrammed, commonly used in USB drives and SSDs."
+        },
+        {
+          "q": "What is 'virtual memory'?",
+          "options": ["A type of fast RAM", "Memory stored in the cloud", "Using a portion of the hard drive as an extension of RAM", "Memory that is physically located in the CPU"],
+          "a": 2,
+          "ex": "Virtual memory allows programs to address more memory than is physically installed, using disk space as an overflow."
+        },
+        {
+          "q": "The BIOS is typically stored in which type of memory?",
+          "options": ["RAM", "Cache", "ROM (specifically Flash ROM/EEPROM)", "Hard Drive"],
+          "a": 2,
+          "ex": "The BIOS is firmware, requiring non-volatile storage provided by ROM or Flash ROM."
+        },
+        {
+          "q": "What happens when a computer runs out of physical RAM?",
+          "options": ["It crashes immediately.", "It automatically buys more RAM online.", "It starts using virtual memory (swapping data to disk).", "It speeds up its processing."],
+          "a": 2,
+          "ex": "When physical RAM is full, the operating system uses virtual memory to swap less used data to secondary storage."
+        },
+        {
+          "q": "Which memory level is the smallest but fastest, often integrated directly into the CPU?",
+          "options": ["L3 Cache", "L2 Cache", "L1 Cache", "RAM"],
+          "a": 2,
+          "ex": "L1 cache is the fastest and smallest, providing immediate access to data for the CPU."
+        },
+        {
+          "q": "What is the primary advantage of SSDs (Solid State Drives) over traditional HDDs (Hard Disk Drives)?",
+          "options": ["Lower cost per gigabyte", "Higher storage capacity", "Faster read/write speeds and no moving parts", "Easier data recovery"],
+          "a": 2,
+          "ex": "SSDs use flash memory, providing significantly faster performance and greater durability."
+        },
+        {
+          "q": "Which memory technology stores data by trapping electrons in a floating gate?",
+          "options": ["DRAM", "SRAM", "Magnetic Core Memory", "Flash Memory"],
+          "a": 3,
+          "ex": "This is the fundamental principle behind how flash memory retains data without power."
+        },
+        {
+          "q": "What does RAM's 'random access' mean?",
+          "options": ["Data is stored randomly.", "Any memory location can be accessed directly in the same amount of time.", "Data can only be accessed sequentially.", "It can only store random numbers."],
+          "a": 1,
+          "ex": "Unlike sequential access memory (e.g., tape drives), any byte of RAM can be accessed as quickly as any other byte."
+        },
+        {
+          "q": "Which type of memory is considered main memory?",
+          "options": ["Cache", "Registers", "RAM", "Hard Drive"],
+          "a": 2,
+          "ex": "RAM is the primary or main memory of a computer system."
+        },
+        {
+          "q": "A 'page file' or 'swap file' is associated with which memory concept?",
+          "options": ["ROM", "Cache memory", "Virtual memory", "Flash memory"],
+          "a": 2,
+          "ex": "These terms refer to the space on the hard drive used by the operating system for virtual memory."
+        },
+        {
+          "q": "What is the function of a 'memory controller'?",
+          "options": ["To store data permanently", "To manage the flow of data to and from RAM", "To execute CPU instructions", "To generate random numbers"],
+          "a": 1,
+          "ex": "The memory controller is responsible for handling all requests to RAM."
+        },
+        {
+          "q": "Which type of memory is typically used for firmware in embedded systems?",
+          "options": ["DRAM", "SRAM", "Flash Memory", "Hard Disk Drive"],
+          "a": 2,
+          "ex": "Flash memory's non-volatility and reprogrammability make it ideal for embedded system firmware."
+        },
+        {
+          "q": "If a computer has 8GB of RAM, what does 'GB' stand for?",
+          "options": ["Gigabits", "Gigabytes", "Global Bytes", "General Bits"],
+          "a": 1,
+          "ex": "GB stands for Gigabytes, a unit of digital information storage."
+        },
+        {
+          "q": "Why is cache memory used?",
+          "options": ["To make the computer cheaper", "To provide more permanent storage", "To reduce the speed gap between the CPU and main memory", "To allow for offline data access"],
+          "a": 2,
+          "ex": "Cache memory bridges the speed difference between the very fast CPU and slower main memory."
+        },
+        {
+          "q": "Which of these memory units has the fastest access time?",
+          "options": ["L2 Cache", "L3 Cache", "RAM", "CPU Registers"],
+          "a": 3,
+          "ex": "CPU registers are the fastest memory locations within the CPU itself."
+        },
+        {
+          "q": "What does the term 'non-volatile' mean in relation to memory?",
+          "options": ["It can be easily overwritten.", "It retains its data even when power is removed.", "It is only used for temporary storage.", "It is difficult to access."],
+          "a": 1,
+          "ex": "Non-volatile memory persists its data without continuous power."
+        },
+        {
+          "q": "Which form of memory is commonly found in USB flash drives?",
+          "options": ["DRAM", "SRAM", "Magnetic tape", "Flash Memory"],
+          "a": 3,
+          "ex": "USB drives are a prime example of devices using flash memory."
+        },
+        {
+          "q": "The storage capacity of a hard disk drive (HDD) is typically measured in:",
+          "options": ["Megabits", "Gigabytes or Terabytes", "Kilobytes", "Hertz"],
+          "a": 1,
+          "ex": "HDDs store large amounts of data, usually in the range of gigabytes to terabytes."
+        },
+        {
+          "q": "What is 'memory interleaving'?",
+          "options": ["A method to encrypt memory data.", "A technique to divide memory into banks that can be accessed independently.", "A type of memory error correction.", "A way to reduce the physical size of memory modules."],
+          "a": 1,
+          "ex": "Memory interleaving improves performance by allowing simultaneous access to different memory banks."
+        },
+        {
+          "q": "Which memory technology is used for the very small amount of fast memory on the CPU that stores instructions and data being currently processed?",
+          "options": ["DRAM", "SRAM", "HDD", "Flash"],
+          "a": 1,
+          "ex": "SRAM is used for cache memory due to its speed."
+        },
+        {
+          "q": "What is the purpose of a 'memory management unit' (MMU)?",
+          "options": ["To physically store memory chips.", "To translate virtual addresses to physical addresses.", "To control memory manufacturing.", "To provide power to memory modules."],
+          "a": 1,
+          "ex": "The MMU is a hardware component responsible for memory address translation and protection."
+        },
+        {
+          "q": "Which memory type stores data using magnetic patterns on spinning platters?",
+          "options": ["SSD", "RAM", "CD-ROM", "HDD"],
+          "a": 3,
+          "ex": "Hard Disk Drives (HDDs) use magnetic storage technology."
+        },
+        {
+          "q": "A 'memory stick' or 'USB drive' is an example of a device using which type of memory?",
+          "options": ["DRAM", "Magnetic Tape", "Flash Memory", "ROM"],
+          "a": 2,
+          "ex": "These portable storage devices rely on flash memory."
+        },
+        {
+          "q": "What is the main advantage of using DDR (Double Data Rate) RAM over older SDRAM?",
+          "options": ["It is cheaper.", "It consumes less power.", "It transfers data twice per clock cycle.", "It is non-volatile."],
+          "a": 2,
+          "ex": "DDR RAM significantly increases memory bandwidth by transferring data on both the rising and falling edges of the clock signal."
+        }
+      ]
+    },
+    {
+      "id": "input-output-devices",
+      "title": "Input and Output Devices",
+      "questions": [
+        {
+          "q": "Which of the following is primarily an **input device**?",
+          "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+          "a": 2,
+          "ex": "A keyboard allows users to enter data and commands into a computer."
+        },
+        {
+          "q": "A device that converts digital information from the computer into a human-readable format is called an **output device**. Which of these fits the description?",
+          "options": ["Mouse", "Scanner", "Webcam", "Projector"],
+          "a": 3,
+          "ex": "A projector displays images or video onto a screen or other surface for viewing."
+        },
+        {
+          "q": "Which input device uses a light-sensitive detector to select objects on a display screen?",
+          "options": ["Joystick", "Light Pen", "Touchpad", "Microphone"],
+          "a": 1,
+          "ex": "A light pen is a pointing device that can detect light from a display screen, allowing direct interaction."
+        },
+        {
+          "q": "Which output device produces a hard copy of text or graphics?",
+          "options": ["Monitor", "Plotter", "Speaker", "Projector"],
+          "a": 1,
+          "ex": "A plotter is a specialized printer used to produce high-quality, large-format graphics, such as architectural drawings."
+        },
+        {
+          "q": "A device that captures images or documents and converts them into digital data is a:",
+          "options": ["Digital Camera", "Printer", "Scanner", "Barcode Reader"],
+          "a": 2,
+          "ex": "A scanner digitizes physical documents or images."
+        },
+        {
+          "q": "Which of the following is both an **input and output device**?",
+          "options": ["Keyboard", "Printer", "Touchscreen", "Microphone"],
+          "a": 2,
+          "ex": "A touchscreen allows input through touch and displays output visually."
+        },
+        {
+          "q": "DPI (Dots Per Inch) is a common measurement for the resolution of which device?",
+          "options": ["Keyboard", "Mouse", "Speaker", "Printer"],
+          "a": 3,
+          "ex": "DPI indicates the resolution of a printer or scanner, representing the number of individual dots that can be placed in a line within one inch."
+        },
+        {
+          "q": "Which input device is commonly used for playing video games?",
+          "options": ["Scanner", "Light Pen", "Joystick", "Graphics Tablet"],
+          "a": 2,
+          "ex": "A joystick is a common input device for controlling movement in video games."
+        },
+        {
+          "q": "Optical Character Recognition (OCR) is technology primarily associated with which device?",
+          "options": ["Printer", "Monitor", "Scanner", "Speaker"],
+          "a": 2,
+          "ex": "OCR software works with scanners to convert images of text into actual editable text."
+        },
+        {
+          "q": "Which output device generates sound?",
+          "options": ["Microphone", "Webcam", "Speaker", "Plotter"],
+          "a": 2,
+          "ex": "Speakers convert electrical audio signals into audible sound waves."
+        },
+        {
+          "q": "What is the primary function of a webcam?",
+          "options": ["To print documents", "To capture still images and video for computer input", "To display images on a screen", "To store data permanently"],
+          "a": 1,
+          "ex": "A webcam is an input device used for video conferencing and capturing live video."
+        },
+        {
+          "q": "Which type of printer uses toner to produce images on paper?",
+          "options": ["Inkjet printer", "Dot Matrix printer", "Laser printer", "Thermal printer"],
+          "a": 2,
+          "ex": "Laser printers use a laser beam to create an image on a drum, which then attracts toner particles to form the print."
+        },
+        {
+          "q": "A trackball is an alternative to which input device?",
+          "options": ["Keyboard", "Scanner", "Mouse", "Microphone"],
+          "a": 2,
+          "ex": "A trackball is essentially an upside-down mouse where you move a ball with your thumb, fingers, or palm to control the cursor."
+        },
+        {
+          "q": "MIDI (Musical Instrument Digital Interface) is a standard used with which input/output device?",
+          "options": ["Scanner", "Graphics Tablet", "Digital Camera", "Musical Keyboard"],
+          "a": 3,
+          "ex": "MIDI allows electronic musical instruments and computers to communicate and synchronize."
+        },
+        {
+          "q": "Which display technology uses organic light-emitting diodes for individual pixel illumination?",
+          "options": ["LCD", "CRT", "OLED", "LED"],
+          "a": 2,
+          "ex": "OLED displays offer superior contrast and true blacks as each pixel generates its own light."
+        },
+        {
+          "q": "What is the main function of a graphics tablet (digitizer)?",
+          "options": ["To play games", "To create digital drawings and sketches", "To scan documents", "To print photos"],
+          "a": 1,
+          "ex": "Graphics tablets are used by artists and designers to create digital art with a stylus."
+        },
+        {
+          "q": "VGA, HDMI, and DisplayPort are types of connectors for which device?",
+          "options": ["Keyboard", "Mouse", "Monitor", "Printer"],
+          "a": 2,
+          "ex": "These are common video interfaces used to connect displays to computers."
+        },
+        {
+          "q": "Which input device is typically used for biometric authentication?",
+          "options": ["Touchpad", "Fingerprint Scanner", "Stylus", "Bar code reader"],
+          "a": 1,
+          "ex": "Fingerprint scanners capture unique biometric data for user verification."
+        },
+        {
+          "q": "What is the purpose of haptic feedback in input devices?",
+          "options": ["To provide visual cues", "To provide auditory cues", "To provide tactile feedback (vibrations, force feedback)", "To improve network connectivity"],
+          "a": 2,
+          "ex": "Haptic feedback provides a sense of touch, common in game controllers and touchscreens."
+        },
+        {
+          "q": "Which output device is essential for virtual reality (VR) experiences?",
+          "options": ["Monitor", "VR Headset", "Projector", "Speaker"],
+          "a": 1,
+          "ex": "VR headsets provide immersive visual and auditory output for virtual environments."
+        },
+        {
+          "q": "QR code readers are a type of which category of device?",
+          "options": ["Keyboard", "Pointing device", "Scanner", "Printer"],
+          "a": 2,
+          "ex": "QR code readers scan and interpret the information encoded in QR codes."
+        },
+        {
+          "q": "The refresh rate of a monitor is measured in:",
+          "options": ["DPI", "Pixels", "Hertz (Hz)", "Lumens"],
+          "a": 2,
+          "ex": "Refresh rate (Hz) indicates how many times per second the display updates its image."
+        },
+        {
+          "q": "What is the primary function of a microphone?",
+          "options": ["To output sound", "To input audio (voice, music) into a computer", "To display video", "To store data"],
+          "a": 1,
+          "ex": "A microphone converts sound waves into electrical signals for digital processing."
+        },
+        {
+          "q": "Which of the following is an example of an **audio output device**?",
+          "options": ["Headphones", "Microphone", "Webcam", "Graphics tablet"],
+          "a": 0,
+          "ex": "Headphones allow users to hear audio output from the computer privately."
+        },
+        {
+          "q": "What is the primary difference between a 'soft copy' and a 'hard copy' output?",
+          "options": ["Soft copy is digital, hard copy is physical.", "Soft copy is more expensive, hard copy is cheaper.", "Soft copy is permanent, hard copy is temporary.", "There is no difference."],
+          "a": 0,
+          "ex": "Soft copy is electronic (e.g., on a screen), while hard copy is tangible (e.g., printed on paper)."
+        },
+        {
+          "q": "A KVM switch is a device that allows a user to control multiple computers with a single set of:",
+          "options": ["Printers", "Monitors", "Keyboard, Video, Mouse", "Scanners"],
+          "a": 2,
+          "ex": "KVM stands for Keyboard, Video, Mouse, allowing one set of these peripherals to control multiple computers."
+        },
+        {
+          "q": "Which input device uses a grid of sensors to detect the position of a finger or stylus?",
+          "options": ["Mouse", "Trackball", "Touchpad", "Joystick"],
+          "a": 2,
+          "ex": "Touchpads are commonly found on laptops and use touch to control the cursor."
+        },
+        {
+          "q": "What is the maximum resolution of a display typically measured in?",
+          "options": ["DPI", "Pixels", "Refresh Rate", "Color Depth"],
+          "a": 1,
+          "ex": "Resolution is expressed as the number of horizontal pixels by the number of vertical pixels (e.g., 1920x1080 pixels)."
+        },
+        {
+          "q": "Which type of printer is best suited for printing receipts or labels quickly and quietly?",
+          "options": ["Laser printer", "Inkjet printer", "Dot Matrix printer", "Thermal printer"],
+          "a": 3,
+          "ex": "Thermal printers use heat to produce an image, often found in point-of-sale systems."
+        },
+        {
+          "q": "Voice recognition software works in conjunction with which input device?",
+          "options": ["Speaker", "Microphone", "Webcam", "Headphones"],
+          "a": 1,
+          "ex": "Microphones capture spoken words, which are then processed by voice recognition software."
+        }
+      ]
+    },
+    {
+      "id": "functions-of-operating-systems",
+      "title": "Functions of Operating Systems",
+      "questions": [
+        {
+          "q": "What is the primary role of an Operating System (OS)?",
+          "options": ["To run specific applications like Word Processors", "To manage computer hardware and software resources", "To provide internet connectivity", "To protect the computer from viruses"],
+          "a": 1,
+          "ex": "The OS acts as an intermediary between the user and the computer hardware."
+        },
+        {
+          "q": "Which function of an OS involves allocating CPU time to different processes?",
+          "options": ["Memory Management", "File Management", "Process Management", "Device Management"],
+          "a": 2,
+          "ex": "Process management handles the creation, scheduling, and termination of processes."
+        },
+        {
+          "q": "The OS function that deals with allocating and deallocating memory space for programs is called:",
+          "options": ["CPU Scheduling", "Memory Management", "I/O Management", "Security Management"],
+          "a": 1,
+          "ex": "Memory management ensures efficient use of the computer's main memory."
+        },
+        {
+          "q": "What is the purpose of the 'file system' in an operating system?",
+          "options": ["To manage network connections", "To organize and store files and folders on storage devices", "To display graphics on the screen", "To run applications"],
+          "a": 1,
+          "ex": "The file system provides a logical structure for storing and retrieving data."
+        },
+        {
+          "q": "Which OS function handles requests from applications for hardware resources (like printer or scanner)?",
+          "options": ["Process Management", "File Management", "Device Management", "User Interface Management"],
+          "a": 2,
+          "ex": "Device management controls and coordinates the operation of hardware devices."
+        },
+        {
+          "q": "The user interface (UI) provided by an operating system can be classified into:",
+          "options": ["Graphical User Interface (GUI) and Command Line Interface (CLI)", "Desktop and Mobile", "Server and Client", "Input and Output"],
+          "a": 0,
+          "ex": "GUI uses visual elements, while CLI uses text commands."
+        },
+        {
+          "q": "What is 'multitasking' in an operating system?",
+          "options": ["Running only one program at a time", "Allowing a single CPU to appear to run multiple programs simultaneously", "Having multiple users on the same computer", "Connecting to multiple networks"],
+          "a": 1,
+          "ex": "Multitasking is the ability of an OS to execute multiple tasks (programs) concurrently over a period of time."
+        },
+        {
+          "q": "Which of the following is NOT a core function of an operating system?",
+          "options": ["Error handling", "Network management", "Application software development", "Resource allocation"],
+          "a": 2,
+          "ex": "Application software development is done by programmers using development tools, not a core function of the OS itself."
+        },
+        {
+          "q": "The OS function that ensures system stability and protects different programs from interfering with each other is part of:",
+          "options": ["Security Management", "Error Handling", "Process Synchronization", "All of the above"],
+          "a": 3,
+          "ex": "These aspects contribute to the overall stability and integrity of the system."
+        },
+        {
+          "q": "What does a 'kernel' refer to in an operating system?",
+          "options": ["The user interface layer", "The core component that manages system resources and facilitates interaction between hardware and software", "A type of application software", "A peripheral device"],
+          "a": 1,
+          "ex": "The kernel is the central part of an OS, responsible for managing basic system services."
+        },
+        {
+          "q": "What is the purpose of 'bootstrapping' in an operating system?",
+          "options": ["To shut down the computer safely", "To load the operating system into memory when the computer starts", "To install new applications", "To connect to the internet"],
+          "a": 1,
+          "ex": "Bootstrapping is the process by which a computer starts up and loads its operating system."
+        },
+        {
+          "q": "Which OS function is responsible for ensuring that different processes do not corrupt each other's data?",
+          "options": ["Device Management", "Memory Protection", "File Compression", "User Authentication"],
+          "a": 1,
+          "ex": "Memory protection mechanisms prevent one process from accessing memory allocated to another."
+        },
+        {
+          "q": "What is the primary role of the 'shell' in a command-line interface (CLI) OS?",
+          "options": ["To manage hardware devices", "To interpret and execute user commands", "To store files", "To display graphics"],
+          "a": 1,
+          "ex": "The shell is the command-line interpreter that takes user input and executes corresponding system commands."
+        },
+        {
+          "q": "When an OS performs 'paging' and 'swapping', it is performing part of its:",
+          "options": ["Process Scheduling", "File Management", "Memory Management", "Device Driver Management"],
+          "a": 2,
+          "ex": "Paging and swapping are techniques used in virtual memory management to move data between RAM and secondary storage."
+        },
+        {
+          "q": "What is a 'device driver'?",
+          "options": ["A hardware component of a device", "A type of application software", "A software program that allows the OS to communicate with a specific hardware device", "A utility for cleaning hard drives"],
+          "a": 2,
+          "ex": "Device drivers are crucial for the OS to interact correctly with peripherals."
+        },
+        {
+          "q": "Which OS function typically involves creating, deleting, copying, and renaming files and directories?",
+          "options": ["Process Management", "Memory Management", "File Management", "Security Management"],
+          "a": 2,
+          "ex": "These are common operations within the file system managed by the OS."
+        },
+        {
+          "q": "The ability of an OS to handle multiple users simultaneously is called:",
+          "options": ["Multitasking", "Multiprocessing", "Multi-user", "Real-time processing"],
+          "a": 2,
+          "ex": "A multi-user OS allows several users to access the same system resources at the same time."
+        },
+        {
+          "q": "What is the purpose of the 'scheduler' in an operating system?",
+          "options": ["To schedule meetings for users", "To determine which processes run when and for how long", "To schedule file backups", "To schedule network tasks"],
+          "a": 1,
+          "ex": "The scheduler is a component of the OS that selects which processes should be moved from the ready queue to the running state."
+        },
+        {
+          "q": "Which OS function protects system resources from unauthorized access?",
+          "options": ["Process Management", "File Management", "Security Management", "Performance Monitoring"],
+          "a": 2,
+          "ex": "Security management includes authentication, authorization, and protection against malicious activities."
+        },
+        {
+          "q": "When an application requests a resource from the OS, this is often handled through:",
+          "options": ["Direct hardware access", "System Calls", "User-level functions", "BIOS interrupts"],
+          "a": 1,
+          "ex": "System calls provide an interface between a process and the operating system services."
+        },
+        {
+          "q": "What is 'deadlock' in the context of operating systems?",
+          "options": ["A situation where a program crashes.", "A situation where two or more processes are blocked indefinitely, waiting for each other to release resources.", "A method for speeding up CPU processing.", "A type of virus."],
+          "a": 1,
+          "ex": "Deadlock is a critical issue in concurrent systems where processes get stuck in a circular waiting pattern."
+        },
+        {
+          "q": "Which OS function is responsible for keeping track of the status of processes and resources?",
+          "options": ["Performance Monitoring", "Accounting", "Process Management", "All of the above"],
+          "a": 3,
+          "ex": "The OS continuously monitors and accounts for resource usage and process states."
+        },
+        {
+          "q": "The ability of an OS to manage multiple CPUs in a single system is called:",
+          "options": ["Multitasking", "Multiprocessing", "Multi-user", "Hyper-threading"],
+          "a": 1,
+          "ex": "Multiprocessing refers to the use of two or more central processing units (CPUs) within a single computer system."
+        },
+        {
+          "q": "What is the role of an OS in 'error handling'?",
+          "options": ["To cause system errors.", "To detect and respond to errors, both hardware and software.", "To ignore all errors.", "To only handle application-specific errors."],
+          "a": 1,
+          "ex": "The OS includes mechanisms to detect, diagnose, and recover from various system errors."
+        },
+        {
+          "q": "Which of the following is an example of an operating system?",
+          "options": ["Microsoft Word", "Google Chrome", "Windows", "Adobe Photoshop"],
+          "a": 2,
+          "ex": "Windows is a widely used operating system."
+        },
+        {
+          "q": "What is the main advantage of a Graphical User Interface (GUI) over a Command Line Interface (CLI)?",
+          "options": ["It requires more memory.", "It is faster for experienced users.", "It is more intuitive and user-friendly for beginners.", "It has fewer features."],
+          "a": 2,
+          "ex": "GUIs make computers easier to use for a wider audience due to their visual nature."
+        },
+        {
+          "q": "The concept of 'spooling' (e.g., print spooling) is a feature of which OS function?",
+          "options": ["Memory Management", "File Management", "I/O Management", "Process Management"],
+          "a": 2,
+          "ex": "Spooling manages the flow of data to slow output devices like printers, allowing the CPU to continue with other tasks."
+        },
+        {
+          "q": "Which component of the OS handles communication between processes?",
+          "options": ["File System", "Kernel", "Device Drivers", "User Interface"],
+          "a": 1,
+          "ex": "The kernel provides mechanisms for inter-process communication (IPC)."
+        },
+        {
+          "q": "What is the purpose of 'system calls'?",
+          "options": ["To allow applications to directly access hardware.", "To provide a structured way for applications to request services from the operating system kernel.", "To bypass OS security.", "To manage network traffic."],
+          "a": 1,
+          "ex": "System calls are the interface between user-level programs and the operating system."
+        },
+        {
+          "q": "When a computer is 'booting up', the OS first loads the:",
+          "options": ["Entire OS into RAM", "Bootloader and then the kernel", "All user applications", "Device drivers only"],
+          "a": 1,
+          "ex": "The bootloader is a small program that loads the main part of the OS (kernel) into memory."
+        }
+      ]
+    },
+    {
+      "id": "types-of-operating-systems",
+      "title": "Types of Operating Systems (Batch, Multitasking, Real-Time)",
+      "questions": [
+        {
+          "q": "Which type of operating system processes jobs in a queue without direct user interaction?",
+          "options": ["Real-time OS", "Multitasking OS", "Batch OS", "Distributed OS"],
+          "a": 2,
+          "ex": "Batch operating systems execute similar jobs as a group (batch) without user interaction during processing."
+        },
+        {
+          "q": "Which operating system allows a single user to run multiple programs concurrently?",
+          "options": ["Single-user, single-tasking OS", "Batch OS", "Single-user, multitasking OS", "Real-time OS"],
+          "a": 2,
+          "ex": "Operating systems like Windows or macOS are examples of single-user, multitasking systems."
+        },
+        {
+          "q": "An operating system designed for systems where tasks must be completed within strict time constraints (e.g., industrial control systems) is a:",
+          "options": ["Batch OS", "Network OS", "Real-time OS", "Distributed OS"],
+          "a": 2,
+          "ex": "Real-time operating systems (RTOS) are crucial for applications where timing is critical."
+        },
+        {
+          "q": "Which type of real-time operating system guarantees that critical tasks will be completed within a specified deadline?",
+          "options": ["Soft Real-time OS", "Hard Real-time OS", "Firm Real-time OS", "Distributed Real-time OS"],
+          "a": 1,
+          "ex": "Hard RTOS are used in life-critical systems where missing a deadline can have severe consequences."
+        },
+        {
+          "q": "UNIX and Linux are classic examples of which type of operating system, allowing multiple users to access resources simultaneously?",
+          "options": ["Single-user OS", "Batch OS", "Multi-user OS", "Embedded OS"],
+          "a": 2,
+          "ex": "Multi-user operating systems support concurrent access by multiple users."
+        },
+        {
+          "q": "Which type of operating system spreads the computation over multiple physical processors interconnected by a network?",
+          "options": ["Batch OS", "Real-time OS", "Distributed OS", "Network OS"],
+          "a": 2,
+          "ex": "Distributed operating systems manage a collection of independent computers as a single coherent system."
+        },
+        {
+          "q": "An operating system whose primary function is to manage network resources and allow file and printer sharing is typically a:",
+          "options": ["Distributed OS", "Network OS", "Embedded OS", "Real-time OS"],
+          "a": 1,
+          "ex": "Network Operating Systems (NOS) are designed to support network clients and manage network resources."
+        },
+        {
+          "q": "MS-DOS is an example of which type of operating system?",
+          "options": ["Multi-user, multitasking OS", "Single-user, single-tasking OS", "Real-time OS", "Network OS"],
+          "a": 1,
+          "ex": "MS-DOS allowed only one user to perform one task at a time."
+        },
+        {
+          "q": "Operating systems found in consumer electronics like smart appliances, GPS systems, or medical devices are often classified as:",
+          "options": ["Desktop OS", "Server OS", "Embedded OS", "Supercomputer OS"],
+          "a": 2,
+          "ex": "Embedded operating systems are specialized for specific, often resource-constrained, devices."
+        },
+        {
+          "q": "Which type of OS prioritizes throughput by running jobs in batches, often with minimal CPU idle time?",
+          "options": ["Multitasking OS", "Real-time OS", "Batch OS", "Network OS"],
+          "a": 2,
+          "ex": "Batch systems were designed to maximize CPU utilization by processing jobs continuously."
+        },
+        {
+          "q": "Windows 10, macOS, and Ubuntu Desktop are examples of which type of operating system?",
+          "options": ["Server OS", "Embedded OS", "Desktop OS", "Mainframe OS"],
+          "a": 2,
+          "ex": "These are common operating systems designed for personal computers."
+        },
+        {
+          "q": "Which type of real-time operating system attempts to meet deadlines but does not guarantee them, potentially impacting quality but not causing system failure?",
+          "options": ["Hard Real-time OS", "Soft Real-time OS", "Firm Real-time OS", "Critical Real-time OS"],
+          "a": 1,
+          "ex": "Soft RTOS are used in multimedia systems or scientific applications where missing a deadline might degrade performance but not be catastrophic."
+        },
+        {
+          "q": "What is the primary characteristic of a 'time-sharing' operating system?",
+          "options": ["Allows one user to run multiple tasks.", "Allows multiple users to share computer resources simultaneously by giving each a slice of CPU time.", "Processes jobs in batches without user interaction.", "Dedicated to a single specific task."],
+          "a": 1,
+          "ex": "Time-sharing systems evolved from batch systems to provide interactive computing to multiple users."
+        },
+        {
+          "q": "Which type of OS is best suited for applications like online transaction processing (OLTP) in banking?",
+          "options": ["Batch OS", "Single-user OS", "Multi-user OS", "Embedded OS"],
+          "a": 2,
+          "ex": "Banking systems require simultaneous access and processing for many users, characteristic of multi-user systems."
+        },
+        {
+          "q": "What distinguishes a 'Network OS' from a 'Distributed OS'?",
+          "options": ["Network OS manages local resources; Distributed OS pools resources to appear as one system.", "Network OS is for single users; Distributed OS is for multiple users.", "Network OS uses real-time processing; Distributed OS uses batch processing.", "There is no significant difference."],
+          "a": 0,
+          "ex": "A Network OS manages individual computers and their interactions on a network. A Distributed OS creates the illusion of a single, powerful machine from multiple interconnected computers."
+        },
+        {
+          "q": "An ATM machine typically uses which type of operating system?",
+          "options": ["Desktop OS", "Server OS", "Embedded OS", "Batch OS"],
+          "a": 2,
+          "ex": "ATMs run specialized embedded systems tailored for their specific functions."
+        },
+        {
+          "q": "Which of the following is a characteristic of a 'firm real-time' operating system?",
+          "options": ["Failure to meet deadlines leads to system failure.", "Missing a deadline is acceptable if it's not frequent.", "Missing a deadline results in a loss of value for that specific result, but the system continues.", "It is only used for entertainment systems."],
+          "a": 2,
+          "ex": "Firm RTOS are a middle ground; a missed deadline isn't catastrophic but makes the result useless."
+        },
+        {
+          "q": "Which type of operating system would you expect to find on a supercomputer performing complex simulations?",
+          "options": ["Desktop OS", "Embedded OS", "Distributed OS (or specialized HPC OS)", "Single-user OS"],
+          "a": 2,
+          "ex": "Supercomputers often utilize highly specialized distributed operating systems or High-Performance Computing (HPC) operating systems to manage their massive parallel processing capabilities."
+        },
+        {
+          "q": "The first generation of computers primarily used which type of operating system?",
+          "options": ["Multitasking OS", "Real-time OS", "Batch OS", "Time-sharing OS"],
+          "a": 2,
+          "ex": "Early computers relied on batch processing due to lack of interactive capabilities."
+        },
+        {
+          "q": "Which type of operating system would be most suitable for managing a large database server with many concurrent user requests?",
+          "options": ["Single-user OS", "Batch OS", "Server OS", "Embedded OS"],
+          "a": 2,
+          "ex": "Server OS are optimized for handling multiple requests, network services, and high uptime."
+        },
+        {
+          "q": "What is the primary objective of a 'Real-time OS'?",
+          "options": ["To maximize CPU utilization.", "To ensure timely and predictable response to events.", "To provide a user-friendly graphical interface.", "To minimize memory usage."],
+          "a": 1,
+          "ex": "Timeliness and predictability are paramount for RTOS."
+        },
+        {
+          "q": "An operating system that supports only one user and one task at a time is known as:",
+          "options": ["Multi-user OS", "Multitasking OS", "Single-user, single-tasking OS", "Network OS"],
+          "a": 2,
+          "ex": "This describes the most basic type of operating system."
+        },
+        {
+          "q": "Which of the following describes a 'mobile operating system'?",
+          "options": ["An OS for supercomputers.", "An OS designed for smartphones and tablets.", "An OS exclusively for server management.", "An OS that runs only in batches."],
+          "a": 1,
+          "ex": "Android and iOS are prime examples of mobile operating systems."
+        },
+        {
+          "q": "What is the main characteristic of a 'client-server' operating system model?",
+          "options": ["All processing happens on the client.", "Clients request services from a central server.", "It runs only on a single computer.", "It does not involve a network."],
+          "a": 1,
+          "ex": "In this model, clients send requests (e.g., for files, web pages) to servers, which respond with the requested data."
+        },
+        {
+          "q": "Which type of operating system provides a consistent environment for running applications across different hardware platforms?",
+          "options": ["Batch OS", "Proprietary OS", "Open-source OS", "Portable OS"],
+          "a": 3,
+          "ex": "A portable OS can run on various hardware architectures with minimal or no changes (e.g., Linux)."
+        },
+        {
+          "q": "The concept of 'spooling' (e.g., print spooling) was developed to improve the efficiency of which type of OS?",
+          "options": ["Real-time OS", "Single-user OS", "Batch OS", "Embedded OS"],
+          "a": 2,
+          "ex": "Spooling allowed input/output operations to be done in parallel with CPU operations, improving throughput in batch systems."
+        },
+        {
+          "q": "Which of these is NOT typically a feature of a 'batch operating system'?",
+          "options": ["Lack of direct user interaction.", "Processing similar jobs together.", "Interactive command-line interface.", "High CPU utilization."],
+          "a": 2,
+          "ex": "Batch systems are non-interactive by nature."
+        },
+        {
+          "q": "What is the primary goal of a 'multitasking operating system'?",
+          "options": ["To allow multiple users to log in simultaneously.", "To make the computer appear to perform multiple tasks at the same time.", "To execute tasks only in a predefined order.", "To minimize the number of programs running."],
+          "a": 1,
+          "ex": "Multitasking creates the illusion of parallel execution, enhancing user productivity."
+        },
+        {
+          "q": "Which category would Chrome OS (used on Chromebooks) fall under?",
+          "options": ["Server OS", "Embedded OS", "Desktop OS", "Real-time OS"],
+          "a": 2,
+          "ex": "Chrome OS is designed for personal computing on laptop-style devices."
+        },
+        {
+          "q": "An OS that is designed to be very small, efficient, and typically runs a single, specific application within a device is an example of a:",
+          "options": ["General-purpose OS", "Server OS", "Embedded OS", "Distributed OS"],
+          "a": 2,
+          "ex": "This description perfectly matches the characteristics of an embedded operating system."
+        }
+      ]
+    },
+    {
+      "id": "process-management",
+      "title": "Process Management",
+      "questions": [
+        {
+          "q": "What is a 'process' in the context of an operating system?",
+          "options": ["A program stored on disk.", "A program in execution.", "A collection of files.", "A hardware component."],
+          "a": 1,
+          "ex": "A process is an active instance of a program being executed, including its program counter, registers, and stack."
+        },
+        {
+          "q": "Which state does a process enter when it is waiting for some event to occur (e.g., I/O completion)?",
+          "options": ["New", "Ready", "Running", "Waiting (Blocked)"],
+          "a": 3,
+          "ex": "A process enters the Waiting (or Blocked) state when it cannot proceed until some external event finishes."
+        },
+        {
+          "q": "What is the primary role of the 'scheduler' in process management?",
+          "options": ["To create new processes.", "To allocate memory to processes.", "To select which process should be executed by the CPU.", "To delete terminated processes."],
+          "a": 2,
+          "ex": "The scheduler is responsible for choosing which process from the ready queue gets the CPU next."
+        },
+        {
+          "q": "The rapid switching of the CPU from one process to another to give the illusion of simultaneous execution is called:",
+          "options": ["Multiprocessing", "Multithreading", "Context Switching", "Pipelining"],
+          "a": 2,
+          "ex": "Context switching is the mechanism that allows the OS to save the state of one process and load the state of another."
+        },
+        {
+          "q": "What is a 'thread' in relation to a process?",
+          "options": ["A completely separate program.", "A lightweight process, representing a single sequence of execution within a process.", "A file containing executable code.", "A type of hardware interrupt."],
+          "a": 1,
+          "ex": "Threads share the same memory space and resources of their parent process but have their own execution path."
+        },
+        {
+          "q": "Which of the following is NOT part of a Process Control Block (PCB)?",
+          "options": ["Process State", "Program Counter", "CPU Registers", "The entire program code"],
+          "a": 3,
+          "ex": "The PCB contains information about the process (state, registers, memory limits, etc.) but not the entire executable code itself."
+        },
+        {
+          "q": "When a process finishes its execution, it enters which state?",
+          "options": ["Running", "Ready", "Waiting", "Terminated"],
+          "a": 3,
+          "ex": "The Terminated state signifies that the process has completed its execution and is no longer active."
+        },
+        {
+          "q": "What is 'inter-process communication (IPC)'?",
+          "options": ["Communication between a process and the operating system.", "Communication between processes, allowing them to synchronize and exchange data.", "Communication between hardware devices.", "Communication over a network."],
+          "a": 1,
+          "ex": "IPC mechanisms (like pipes, message queues, shared memory) enable processes to cooperate."
+        },
+        {
+          "q": "Which of the following describes a 'daemon' process?",
+          "options": ["A process that runs only once.", "A background process that runs continuously to perform system-wide tasks.", "A process that requires direct user interaction.", "A process that only handles errors."],
+          "a": 1,
+          "ex": "Daemons typically start at boot time and run silently in the background, providing services."
+        },
+        {
+          "q": "What is the primary cause of 'deadlock' in concurrent processes?",
+          "options": ["Insufficient memory.", "Processes indefinitely waiting for resources held by other waiting processes.", "Too many processes running simultaneously.", "CPU overheating."],
+          "a": 1,
+          "ex": "Deadlock occurs when processes are stuck in a circular dependency for resources."
+        },
+        {
+          "q": "The 'dispatcher' module in the OS is responsible for:",
+          "options": ["Saving the state of the CPU for a process.", "Loading the state of the CPU for a new process.", "Moving control of the CPU to the process selected by the short-term scheduler.", "All of the above."],
+          "a": 3,
+          "ex": "The dispatcher performs the context switch, switching the CPU from one process to another."
+        },
+        {
+          "q": "A 'child process' is created by a 'parent process' using which system call?",
+          "options": ["exit()", "wait()", "fork()", "exec()"],
+          "a": 2,
+          "ex": "The `fork()` system call creates a new process by duplicating the calling process."
+        },
+        {
+          "q": "What is 'process synchronization'?",
+          "options": ["Ensuring all processes run at the same speed.", "Coordinating the execution of multiple processes to ensure data consistency and avoid race conditions.", "Making sure processes access resources randomly.", "Deleting unnecessary processes."],
+          "a": 1,
+          "ex": "Synchronization mechanisms (e.g., semaphores, mutexes) are used to manage access to shared resources."
+        },
+        {
+          "q": "What is a 'race condition' in concurrent programming?",
+          "options": ["When two processes compete for CPU time.", "When the outcome of execution depends on the order of specific events, often leading to incorrect results.", "When a process finishes too quickly.", "When processes communicate too slowly."],
+          "a": 1,
+          "ex": "Race conditions occur when multiple processes access and modify shared data concurrently, and the final result depends on the order of execution."
+        },
+        {
+          "q": "Which of the following is a common approach to prevent deadlock?",
+          "options": ["Allowing processes to hold resources indefinitely.", "Disallowing preemption of resources.", "Implementing resource ordering.", "Ignoring the problem."],
+          "a": 2,
+          "ex": "Resource ordering is a common deadlock prevention strategy where processes request resources in a predefined order."
+        },
+        {
+          "q": "What is the purpose of the 'wait()' system call?",
+          "options": ["To put a process to sleep indefinitely.", "To allow a parent process to wait for its child process to terminate.", "To make a process wait for an I/O operation.", "To wait for a network connection."],
+          "a": 1,
+          "ex": "The `wait()` system call is used by a parent process to suspend its own execution until a child process terminates."
+        },
+        {
+          "q": "The state transition from 'Running' to 'Ready' typically occurs due to:",
+          "options": ["I/O completion", "Process termination", "Time slice expiration (preemption)", "Resource request"],
+          "a": 2,
+          "ex": "In preemptive scheduling, a running process is moved to the ready state if its allotted time slice expires."
+        },
+        {
+          "q": "Which of the following is a mechanism for inter-process communication?",
+          "options": ["Registers", "Cache memory", "Pipes", "System clock"],
+          "a": 2,
+          "ex": "Pipes allow one-way communication between related processes."
+        },
+        {
+          "q": "What is a 'zombie process'?",
+          "options": ["A process that is still running but unresponsive.", "A process that has terminated but its entry still exists in the process table.", "A process that is waiting for an I/O operation.", "A malicious process."],
+          "a": 1,
+          "ex": "A zombie process has finished execution but its parent has not yet called `wait()` to collect its exit status, leaving its PCB in the table."
+        },
+        {
+          "q": "The 'degree of multiprogramming' refers to:",
+          "options": ["The number of CPU cores in a system.", "The number of processes loaded into memory at any given time.", "The number of users logged into the system.", "The speed of context switching."],
+          "a": 1,
+          "ex": "A higher degree of multiprogramming means more processes are residing in RAM, ready to execute."
+        },
+        {
+          "q": "What is a 'mutex' (mutual exclusion) used for?",
+          "options": ["To speed up process creation.", "To ensure that only one process can access a shared resource at a time.", "To prioritize processes.", "To send messages between processes."],
+          "a": 1,
+          "ex": "Mutexes are synchronization primitives that provide exclusive access to a resource."
+        },
+        {
+          "q": "A 'semaphore' is a synchronization tool used to:",
+          "options": ["Schedule processes on the CPU.", "Control access to shared resources to prevent race conditions.", "Manage memory allocation.", "Handle file operations."],
+          "a": 1,
+          "ex": "Semaphores are integer variables used for signaling between processes and controlling access to critical sections."
+        },
+        {
+          "q": "What is the 'critical section problem'?",
+          "options": ["A problem with CPU scheduling.", "A problem related to concurrent access to shared data.", "A problem with insufficient memory.", "A problem with slow I/O devices."],
+          "a": 1,
+          "ex": "The critical section problem deals with ensuring that only one process is executing its critical section (where shared data is accessed) at any given time."
+        },
+        {
+          "q": "Which process state indicates that a process is ready to execute but waiting for the CPU?",
+          "options": ["New", "Running", "Waiting (Blocked)", "Ready"],
+          "a": 3,
+          "ex": "Processes in the Ready state are prepared to run as soon as the CPU becomes available."
+        },
+        {
+          "q": "What happens during a 'fork-exec' sequence?",
+          "options": ["A process executes another process within its own memory space.", "A process duplicates itself, and then the child process replaces its memory space with a new program.", "A process sends a message to another process.", "A process creates a new thread."],
+          "a": 1,
+          "ex": "This is a common pattern in Unix-like systems: `fork` creates a copy, then `exec` loads a new program into the child's memory."
+        },
+        {
+          "q": "Which level of scheduling determines which processes are admitted to the system for processing?",
+          "options": ["Long-term scheduler (Job scheduler)", "Short-term scheduler (CPU scheduler)", "Medium-term scheduler", "Dispatcher"],
+          "a": 0,
+          "ex": "The long-term scheduler controls the degree of multiprogramming."
+        },
+        {
+          "q": "What is the primary benefit of using threads over separate processes?",
+          "options": ["Increased security and isolation.", "Reduced context switching overhead and easier resource sharing.", "Guaranteed real-time performance.", "Simpler debugging."],
+          "a": 1,
+          "ex": "Threads are more lightweight, leading to faster context switching and inherent sharing of process resources."
+        },
+        {
+          "q": "If a process requests a resource that is currently unavailable, it will typically transition to which state?",
+          "options": ["Ready", "Running", "Blocked/Waiting", "Terminated"],
+          "a": 2,
+          "ex": "The process will wait until the resource becomes available."
+        },
+        {
+          "q": "What is the 'orphan process' problem?",
+          "options": ["A process that loses its parent process.", "A process that cannot communicate with other processes.", "A process that runs indefinitely.", "A process that consumes too many resources."],
+          "a": 0,
+          "ex": "An orphan process is a computer process whose parent process has terminated, though it is still running itself."
+        },
+        {
+          "q": "The state transition from 'Waiting' to 'Ready' occurs when:",
+          "options": ["The process requests an I/O operation.", "The CPU becomes idle.", "The event the process was waiting for occurs.", "The process is preempted by the scheduler."],
+          "a": 2,
+          "ex": "Once the awaited event (e.g., I/O completion) takes place, the process becomes eligible to run again."
+        }
+      ]
+    },
+    {
+      "id": "memory-management",
+      "title": "Memory Management",
+      "questions": [
+        {
+          "q": "What is the primary goal of memory management in an operating system?",
+          "options": ["To store all files on the hard drive.", "To allocate and deallocate memory space efficiently and protect processes from each other.", "To speed up CPU clock cycles.", "To connect to external devices."],
+          "a": 1,
+          "ex": "Memory management ensures optimal use of RAM and prevents conflicts between processes."
+        },
+        {
+          "q": "Which memory management technique divides a program into fixed-size blocks called 'pages' and memory into fixed-size blocks called 'frames'?",
+          "options": ["Segmentation", "Paging", "Swapping", "Contiguous Allocation"],
+          "a": 1,
+          "ex": "Paging is a non-contiguous memory allocation scheme that eliminates external fragmentation."
+        },
+        {
+          "q": "What is 'virtual memory'?",
+          "options": ["A type of fast RAM.", "A technique that uses hard disk space to extend physical RAM capacity.", "Memory directly accessible by the CPU.", "Memory that is only used by the operating system."],
+          "a": 1,
+          "ex": "Virtual memory allows programs to address more memory than is physically available by using disk storage as an extension."
+        },
+        {
+          "q": "Which of the following is a problem associated with 'contiguous memory allocation'?",
+          "options": ["Internal fragmentation", "External fragmentation", "Thrashing", "Paging"],
+          "a": 1,
+          "ex": "External fragmentation occurs when there is enough total free space, but it is divided into small, non-contiguous blocks."
+        },
+        {
+          "q": "What is 'internal fragmentation'?",
+          "options": ["Free space outside allocated blocks.", "Unused memory within an allocated block.", "Memory used by the operating system.", "Memory errors."],
+          "a": 1,
+          "ex": "Internal fragmentation happens when memory is allocated in fixed-size blocks, and a process uses only part of a block, leaving the rest unused within the block."
+        },
+        {
+          "q": "The process of moving a complete process from main memory to secondary storage (and vice-versa) is called:",
+          "options": ["Paging", "Segmentation", "Swapping", "Compaction"],
+          "a": 2,
+          "ex": "Swapping allows the OS to bring processes in and out of memory as needed, increasing the degree of multiprogramming."
+        },
+        {
+          "q": "Which component translates virtual addresses into physical addresses?",
+          "options": ["CPU", "RAM", "Memory Management Unit (MMU)", "Hard Drive"],
+          "a": 2,
+          "ex": "The MMU is a hardware component crucial for virtual memory implementation."
+        },
+        {
+          "q": "In paging, what is a 'page fault'?",
+          "options": ["A physical memory error.", "An attempt to access a page that is not currently in physical memory.", "A type of virus.", "A program crash."],
+          "a": 1,
+          "ex": "A page fault triggers the OS to load the required page from secondary storage into a free memory frame."
+        },
+        {
+          "q": "What is 'thrashing' in memory management?",
+          "options": ["Excessive CPU usage.", "A situation where the system spends most of its time swapping pages in and out of memory.", "A rapid increase in disk storage.", "A type of memory defragmentation."],
+          "a": 1,
+          "ex": "Thrashing severely degrades system performance due to high page fault rates and continuous swapping."
+        },
+        {
+          "q": "Which memory allocation strategy allocates the smallest sufficient free memory hole to a process?",
+          "options": ["First Fit", "Best Fit", "Worst Fit", "Next Fit"],
+          "a": 1,
+          "ex": "Best Fit aims to leave the largest possible contiguous block of free memory available."
+        },
+        {
+          "q": "Which memory allocation strategy allocates the first free memory hole that is large enough?",
+          "options": ["First Fit", "Best Fit", "Worst Fit", "Next Fit"],
+          "a": 0,
+          "ex": "First Fit is often simple to implement but can lead to many small, unusable free blocks."
+        },
+        {
+          "q": "Which memory allocation strategy allocates the largest free memory hole to a process?",
+          "options": ["First Fit", "Best Fit", "Worst Fit", "Next Fit"],
+          "a": 2,
+          "ex": "Worst Fit tries to leave a large block for future large requests, but can also lead to more fragmentation."
+        },
+        {
+          "q": "The 'segmentation' memory management technique divides a program into logical units called:",
+          "options": ["Pages", "Frames", "Segments", "Blocks"],
+          "a": 2,
+          "ex": "Segments correspond to logical divisions meaningful to the programmer, such as code, data, stack, or functions."
+        },
+        {
+          "q": "What is the purpose of a 'Translation Lookaside Buffer (TLB)'?",
+          "options": ["To store frequently accessed data.", "To speed up the translation of virtual addresses to physical addresses.", "To manage disk space.", "To store program instructions."],
+          "a": 1,
+          "ex": "The TLB is a small, fast hardware cache that stores recent virtual-to-physical address translations."
+        },
+        {
+          "q": "When using paging, a 'page table' maps:",
+          "options": ["Logical addresses to physical addresses for files.", "Virtual pages to physical frames.", "Process IDs to their memory locations.", "Hard drive sectors to RAM addresses."],
+          "a": 1,
+          "ex": "Each process has its own page table, which the OS uses to manage its memory."
+        },
+        {
+          "q": "What is 'demand paging'?",
+          "options": ["Loading the entire program into memory at once.", "Loading pages into memory only when they are needed.", "Pre-loading all possible pages before execution.", "Only loading the first page of a program."],
+          "a": 1,
+          "ex": "Demand paging is a technique where the OS only loads pages into physical memory as they are accessed, improving efficiency."
+        },
+        {
+          "q": "Which of the following is an advantage of 'virtual memory'?",
+          "options": ["Eliminates the need for physical RAM.", "Allows programs larger than physical memory to run.", "Always faster than physical memory.", "Completely eliminates fragmentation."],
+          "a": 1,
+          "ex": "Virtual memory enables programs to function even if their total size exceeds the available RAM."
+        },
+        {
+          "q": "What is the primary goal of a 'page replacement algorithm'?",
+          "options": ["To decide which page to load into memory.", "To choose which page to swap out of memory when a page fault occurs and no free frames are available.", "To encrypt memory data.", "To defragment memory."],
+          "a": 1,
+          "ex": "Algorithms like FIFO, LRU, Optimal determine which page to remove from RAM to make space for a new one."
+        },
+        {
+          "q": "The 'Least Recently Used (LRU)' page replacement algorithm aims to remove the page that:",
+          "options": ["Has been in memory the longest.", "Will not be used for the longest period of time in the future.", "Was accessed least recently.", "Has been modified the most."],
+          "a": 2,
+          "ex": "LRU attempts to approximate the optimal algorithm by assuming past usage predicts future usage."
+        },
+        {
+          "q": "What is 'compaction' in memory management?",
+          "options": ["Compressing data to save space.", "Shuffling memory contents to gather all free space into one large block.", "Removing unused programs from memory.", "Encrypting memory for security."],
+          "a": 1,
+          "ex": "Compaction is used in contiguous allocation to overcome external fragmentation by moving processes together."
+        },
+        {
+          "q": "Memory protection mechanisms primarily aim to prevent:",
+          "options": ["CPU overheating.", "One process from accessing the memory space of another process.", "Hard drive failure.", "Slow internet connection."],
+          "a": 1,
+          "ex": "Memory protection is crucial for system stability and security in multi-programming environments."
+        },
+        {
+          "q": "Which register is typically used to store the base address of a program segment in memory?",
+          "options": ["Program Counter", "Instruction Register", "Base Register", "Limit Register"],
+          "a": 2,
+          "ex": "Base and Limit registers are used in simple memory protection schemes to define the bounds of a process's memory."
+        },
+        {
+          "q": "What is 'shared memory' in the context of memory management?",
+          "options": ["Memory accessible only by the OS.", "Memory that can be concurrently accessed by multiple independent processes for communication.", "Memory shared by different CPU cores.", "Memory used for virtual machines."],
+          "a": 1,
+          "ex": "Shared memory is a common and efficient inter-process communication mechanism."
+        },
+        {
+          "q": "What is the purpose of 'memory mapping'?",
+          "options": ["To draw a map of the memory layout.", "To associate a file or device with a portion of a process's virtual address space.", "To create new memory chips.", "To test memory for errors."],
+          "a": 1,
+          "ex": "Memory mapping allows files to be treated as if they are directly loaded into a program's memory."
+        },
+        {
+          "q": "The concept of 'locality of reference' is important in the design of:",
+          "options": ["Hard drives", "Printers", "Cache memory and paging algorithms", "Keyboards"],
+          "a": 2,
+          "ex": "Locality of reference (both temporal and spatial) explains why cache memory and demand paging are effective, as programs tend to access data and instructions that are near recently accessed ones."
+        },
+        {
+          "q": "What is 'memory swapping' primarily used for?",
+          "options": ["To increase the speed of memory access.", "To allow more programs to be loaded and run than physically fit in RAM.", "To permanently store data.", "To reduce fragmentation."],
+          "a": 1,
+          "ex": "Swapping temporarily moves entire processes between main memory and secondary storage."
+        },
+        {
+          "q": "Which of the following is true about 'logical addresses'?",
+          "options": ["They are the actual addresses in physical memory.", "They are generated by the CPU and mapped to physical addresses by the MMU.", "They are only used in older systems.", "They are the same as physical addresses."],
+          "a": 1,
+          "ex": "Logical addresses are independent of physical memory locations, providing abstraction."
+        },
+        {
+          "q": "What is the main goal of 'fragmentation' in memory?",
+          "options": ["To improve memory access speed.", "To efficiently allocate memory.", "To waste memory space.", "To simplify memory management."],
+          "a": 2,
+          "ex": "Fragmentation, whether internal or external, results in wasted or unusable memory space."
+        },
+        {
+          "q": "In a paged memory system, what is the 'frame table' used for?",
+          "options": ["To map pages to processes.", "To keep track of which physical memory frames are free or occupied.", "To store all page tables.", "To record page faults."],
+          "a": 1,
+          "ex": "The frame table provides a global view of physical memory allocation."
+        },
+        {
+          "q": "What is the consequence of severe 'thrashing'?",
+          "options": ["Increased CPU performance.", "Reduced disk I/O.", "Very low CPU utilization and significant performance degradation.", "More available memory."],
+          "a": 2,
+          "ex": "Thrashing implies the system is spending too much time moving data between RAM and disk, achieving little useful work."
+        }
+      ]
+    },
+    {
+      "id": "file-system",
+      "title": "File System",
+      "questions": [
+        {
+          "q": "What is the primary purpose of a file system?",
+          "options": ["To manage network connections.", "To organize, store, and retrieve data on storage devices.", "To execute programs.", "To control hardware devices."],
+          "a": 1,
+          "ex": "The file system provides a structured way to manage information on persistent storage."
+        },
+        {
+          "q": "Which of the following is a fundamental operation supported by a file system?",
+          "options": ["Running a program directly.", "Creating a file.", "Debugging software.", "Calculating complex equations."],
+          "a": 1,
+          "ex": "Creating, deleting, reading, and writing are core file operations."
+        },
+        {
+          "q": "What is a 'directory' (or folder) in a file system?",
+          "options": ["A type of file.", "A container that holds files and other directories.", "A hardware component.", "A network address."],
+          "a": 1,
+          "ex": "Directories provide a hierarchical structure for organizing files."
+        },
+        {
+          "q": "What is a 'path' in a file system?",
+          "options": ["The physical location of a file on the disk.", "A unique string that identifies the location of a file or directory in the file system hierarchy.", "The size of a file.", "The content of a file."],
+          "a": 1,
+          "ex": "A path specifies how to navigate through directories to reach a particular file or directory."
+        },
+        {
+          "q": "Which of the following attributes is typically NOT associated with a file?",
+          "options": ["File name", "File size", "CPU type", "Date created/modified"],
+          "a": 2,
+          "ex": "CPU type is a hardware attribute, not a file attribute."
+        },
+        {
+          "q": "What is 'file allocation' in a file system?",
+          "options": ["The process of creating new files.", "The method by which disk space is allocated to files.", "The process of deleting files.", "The way files are displayed to the user."],
+          "a": 1,
+          "ex": "Common allocation methods include contiguous, linked, and indexed allocation."
+        },
+        {
+          "q": "Which file allocation method stores a file in physically adjacent blocks on the disk?",
+          "options": ["Linked Allocation", "Indexed Allocation", "Contiguous Allocation", "FAT (File Allocation Table)"],
+          "a": 2,
+          "ex": "Contiguous allocation offers fast sequential access but suffers from external fragmentation."
+        },
+        {
+          "q": "Which file allocation method uses a table where each entry points to the next block of the file?",
+          "options": ["Contiguous Allocation", "Linked Allocation", "Indexed Allocation", "Direct Allocation"],
+          "a": 1,
+          "ex": "Linked allocation is flexible but can be slow for direct access."
+        },
+        {
+          "q": "Which file allocation method uses an 'index block' or 'inode' to store pointers to all the blocks of a file?",
+          "options": ["Contiguous Allocation", "Linked Allocation", "Indexed Allocation", "Sequential Allocation"],
+          "a": 2,
+          "ex": "Indexed allocation provides both direct and sequential access efficiently, used in systems like Unix/Linux."
+        },
+        {
+          "q": "What is a 'superblock' in some file systems (e.g., ext4, UFS)?",
+          "options": ["A special type of file.", "A block that contains information about the entire file system (e.g., size, number of inodes, free blocks).", "A very large directory.", "A backup of the file system."],
+          "a": 1,
+          "ex": "The superblock is critical for the integrity and organization of the file system."
+        },
+        {
+          "q": "What is the primary role of the 'disk controller' in relation to the file system?",
+          "options": ["To manage files logically.", "To translate logical block addresses from the file system to physical sectors on the disk.", "To display file contents.", "To calculate file sizes."],
+          "a": 1,
+          "ex": "The disk controller handles the low-level communication with the physical disk hardware."
+        },
+        {
+          "q": "What does 'mounting' a file system mean?",
+          "options": ["Physically installing a new hard drive.", "Making a file system accessible at a specific point in the directory tree.", "Encrypting a file system.", "Deleting a file system."],
+          "a": 1,
+          "ex": "Mounting integrates a file system into the existing directory structure."
+        },
+        {
+          "q": "What is 'disk partitioning'?",
+          "options": ["Dividing a disk into one or more logical sections.", "Cleaning a disk of unwanted files.", "Encrypting the entire disk.", "Creating a backup of a disk."],
+          "a": 0,
+          "ex": "Partitioning allows a single physical disk to function as multiple independent logical drives."
+        },
+        {
+          "q": "What is 'defragmentation' of a disk?",
+          "options": ["Removing bad sectors from a disk.", "Rearranging fragmented files to occupy contiguous storage locations.", "Erasing all data from a disk.", "Creating new files on a disk."],
+          "a": 1,
+          "ex": "Defragmentation improves performance by reducing seek time for fragmented files."
+        },
+        {
+          "q": "Which of the following is NOT a common file access method?",
+          "options": ["Sequential Access", "Direct Access", "Indexed Sequential Access", "Random Search Access"],
+          "a": 3,
+          "ex": "Common methods are sequential, direct (or random), and indexed sequential."
+        },
+        {
+          "q": "What is a 'file descriptor'?",
+          "options": ["A description of a file's content.", "An abstract indicator (usually a small integer) used by the operating system to access a file or other I/O resource.", "The name of a file.", "The size of a file."],
+          "a": 1,
+          "ex": "File descriptors are used by programs to refer to open files, network sockets, etc."
+        },
+        {
+          "q": "What is the purpose of 'file permissions' in a file system?",
+          "options": ["To determine the file type.", "To control who can read, write, or execute a file/directory.", "To compress file data.", "To indicate the file's creation date."],
+          "a": 1,
+          "ex": "File permissions are a crucial aspect of operating system security."
+        },
+        {
+          "q": "Which of these is a common file system for Windows operating systems?",
+          "options": ["ext4", "HFS+", "NTFS", "ZFS"],
+          "a": 2,
+          "ex": "NTFS (New Technology File System) is the default file system for Windows."
+        },
+        {
+          "q": "Which of these is a common file system for Linux operating systems?",
+          "options": ["FAT32", "NTFS", "ext4", "APFS"],
+          "a": 2,
+          "ex": "ext4 (fourth extended filesystem) is a widely used journaling file system for Linux."
+        },
+        {
+          "q": "What is a 'journaling file system'?",
+          "options": ["A file system that keeps a log of changes to prevent data corruption during crashes.", "A file system used for writing journals.", "A file system optimized for video editing.", "A file system that does not support large files."],
+          "a": 0,
+          "ex": "Journaling file systems improve data integrity and allow for faster recovery after a system crash."
+        },
+        {
+          "q": "What is the 'root directory' in a hierarchical file system?",
+          "options": ["The largest directory.", "The starting point of the entire file system hierarchy.", "A directory that only contains system files.", "A directory for user homes."],
+          "a": 1,
+          "ex": "The root directory is the top-most directory from which all other directories and files branch out."
+        },
+        {
+          "q": "What is a 'symbolic link' (symlink) or 'soft link'?",
+          "options": ["A copy of a file.", "A pointer to another file or directory.", "A hard drive partition.", "A type of file compression."],
+          "a": 1,
+          "ex": "Symbolic links are special files that refer to other files or directories, acting like shortcuts."
+        },
+        {
+          "q": "Which of the following is true about 'hard links'?",
+          "options": ["They can link to files on different file systems.", "They are essentially different names for the same underlying file data.", "They point to directories.", "They only work on Windows."],
+          "a": 1,
+          "ex": "A hard link is an additional directory entry for a file, pointing to the same inode (data). They can only exist on the same file system."
+        },
+        {
+          "q": "What is 'disk caching' in the context of file systems?",
+          "options": ["Storing files on a network drive.", "Using a portion of RAM to store frequently accessed disk blocks.", "Creating backups of the entire disk.", "Encrypting data on the disk."],
+          "a": 1,
+          "ex": "Disk caching improves performance by reducing the number of slow disk I/O operations."
+        },
+        {
+          "q": "The 'inode' in Unix-like file systems contains information about:",
+          "options": ["The actual content of the file.", "The file name and directory path.", "Metadata about a file (permissions, owner, size, timestamps, data block pointers).", "The user who last accessed the file."],
+          "a": 2,
+          "ex": "An inode is a data structure on a Unix-like file system that stores information about a regular file, directory, or other file system object."
+        },
+        {
+          "q": "What is 'bad sector' on a hard drive?",
+          "options": ["A sector that contains malicious software.", "A sector that cannot be read or written to due to physical damage.", "A sector used for storing temporary files.", "A sector that is currently empty."],
+          "a": 1,
+          "ex": "Bad sectors indicate permanent damage to the disk surface."
+        },
+        {
+          "q": "The 'file control block (FCB)' contains:",
+          "options": ["The actual data of the file.", "File-specific information such as permissions, dates, and pointers to disk blocks.", "User passwords.", "Network configuration settings."],
+          "a": 1,
+          "ex": "The FCB is a data structure maintained by the operating system for each open file."
+        },
+        {
+          "q": "What is the primary role of 'file system utilities' (e.g., `fsck`, `chkdsk`)?",
+          "options": ["To create new files.", "To manage user accounts.", "To check and repair file system inconsistencies.", "To install new software."],
+          "a": 2,
+          "ex": "These utilities are essential for maintaining the health and integrity of a file system."
+        },
+        {
+          "q": "The concept of 'current working directory' allows users to:",
+          "options": ["Access files from anywhere on the system.", "Refer to files within that directory without specifying the full path.", "Only store files in that specific directory.", "Share files over a network."],
+          "a": 1,
+          "ex": "It simplifies file access by providing a default location for commands."
+        },
+        {
+          "q": "What is 'RAID' in the context of disk management?",
+          "options": ["A type of file system for flash drives.", "A technique for combining multiple physical disk drives into one or more logical units for data redundancy and performance improvement.", "A network protocol.", "A type of memory chip."],
+          "a": 1,
+          "ex": "RAID (Redundant Array of Independent Disks) is used to improve data storage reliability and speed."
+        }
+      ]
+    },
+    {
+            "id": "file-system",
+            "title": "File System",
+            "questions": [
+                {
+                    "q": "What is a file system?",
+                    "options": [
+                        "A method to name and store files on a disk",
+                        "A software that controls applications",
+                        "A network protocol",
+                        "An operating system feature for printing"
+                    ],
+                    "a": 0,
+                    "ex": "A file system organizes and stores data in files and directories on a storage device."
+                },
+                {
+                    "q": "Which of the following is a common file system in Windows?",
+                    "options": ["NTFS", "EXT4", "HFS+", "APFS"],
+                    "a": 0,
+                    "ex": "NTFS (New Technology File System) is commonly used in Windows operating systems."
+                },
+                {
+                    "q": "In which file system is journaling used?",
+                    "options": ["FAT32", "NTFS", "exFAT", "FAT16"],
+                    "a": 1,
+                    "ex": "NTFS supports journaling, which helps recover from system crashes."
+                },
+                {
+                    "q": "Which file system is used by macOS?",
+                    "options": ["NTFS", "EXT4", "APFS", "FAT32"],
+                    "a": 2,
+                    "ex": "APFS (Apple File System) is the default file system for macOS."
+                },
+                {
+                    "q": "Which file system supports file permissions and encryption?",
+                    "options": ["FAT32", "EXT2", "NTFS", "exFAT"],
+                    "a": 2,
+                    "ex": "NTFS supports file-level security, encryption, and permissions."
+                },
+                {
+                    "q": "What is the maximum file size supported by FAT32?",
+                    "options": ["2 GB", "4 GB", "8 GB", "16 GB"],
+                    "a": 1,
+                    "ex": "FAT32 has a maximum file size limit of 4 GB."
+                },
+                {
+                    "q": "Which of the following is a Linux file system?",
+                    "options": ["NTFS", "EXT4", "FAT32", "APFS"],
+                    "a": 1,
+                    "ex": "EXT4 is widely used as the default file system for Linux distributions."
+                },
+                {
+                    "q": "Which structure stores metadata about files?",
+                    "options": ["Directory", "File table", "Inode", "Pathname"],
+                    "a": 2,
+                    "ex": "An inode contains metadata such as permissions, timestamps, and file size."
+                },
+                {
+                    "q": "What is the root directory?",
+                    "options": [
+                        "The base of the file system hierarchy",
+                        "The largest file in the system",
+                        "The system boot file",
+                        "A hidden folder in every partition"
+                    ],
+                    "a": 0,
+                    "ex": "The root directory is the topmost directory from which all others stem."
+                },
+                {
+                    "q": "Which of these is not a valid file system?",
+                    "options": ["NTFS", "EXT3", "BTRFS", "TLS"],
+                    "a": 3,
+                    "ex": "TLS is a security protocol, not a file system."
+                },
+                {
+                    "q": "What does 'mounting' a file system mean?",
+                    "options": [
+                        "Scanning the drive for viruses",
+                        "Connecting the file system to the directory structure",
+                        "Formatting the drive",
+                        "Defragmenting the disk"
+                    ],
+                    "a": 1,
+                    "ex": "Mounting makes a file system accessible within the system's directory tree."
+                },
+                {
+                    "q": "What is a directory in a file system?",
+                    "options": [
+                        "A type of file",
+                        "A file that stores other files",
+                        "A compressed file",
+                        "An executable file"
+                    ],
+                    "a": 1,
+                    "ex": "A directory is a container that holds references to other files and directories."
+                },
+                {
+                    "q": "Which file system is best for external drives with cross-platform support?",
+                    "options": ["FAT32", "EXT4", "NTFS", "BTRFS"],
+                    "a": 0,
+                    "ex": "FAT32 is supported by Windows, Linux, and macOS, making it suitable for external drives."
+                },
+                {
+                    "q": "Which command is used in Linux to list files?",
+                    "options": ["ls", "dir", "list", "show"],
+                    "a": 0,
+                    "ex": "'ls' is the command used in Linux to list files in a directory."
+                },
+                {
+                    "q": "What is file fragmentation?",
+                    "options": [
+                        "Files stored in non-contiguous blocks",
+                        "Files deleted from disk",
+                        "Files merged into one",
+                        "Files encrypted for security"
+                    ],
+                    "a": 0,
+                    "ex": "Fragmentation happens when a file is split into pieces scattered across the disk."
+                },
+                {
+                    "q": "What is the purpose of defragmentation?",
+                    "options": [
+                        "To split files",
+                        "To delete old files",
+                        "To improve read/write performance",
+                        "To increase storage capacity"
+                    ],
+                    "a": 2,
+                    "ex": "Defragmentation reorganizes fragmented data to improve performance."
+                },
+                {
+                    "q": "Which system call is used to open a file in C?",
+                    "options": ["fread()", "fopen()", "fclose()", "openfile()"],
+                    "a": 1,
+                    "ex": "'fopen()' is used to open a file and associate a stream with it."
+                },
+                {
+                    "q": "What does the file extension .txt indicate?",
+                    "options": ["Executable file", "Text file", "Compressed file", "Image file"],
+                    "a": 1,
+                    "ex": ".txt files are plain text files that contain readable characters."
+                },
+                {
+                    "q": "What does 'read-only' permission mean?",
+                    "options": [
+                        "The file can be edited",
+                        "The file can be executed",
+                        "The file can only be viewed",
+                        "The file can be deleted"
+                    ],
+                    "a": 2,
+                    "ex": "Read-only permission allows viewing but not editing or deleting the file."
+                },
+                {
+                    "q": "Which is a hierarchical file structure?",
+                    "options": ["Flat", "Tree", "Linear", "Graph"],
+                    "a": 1,
+                    "ex": "Modern file systems use a tree (hierarchical) structure for organizing files."
+                },
+                {
+                    "q": "What happens when you delete a file in most OSes?",
+                    "options": [
+                        "The file is permanently removed",
+                        "The file is moved to a recycle bin or trash",
+                        "The file is encrypted",
+                        "The file is backed up"
+                    ],
+                    "a": 1,
+                    "ex": "Deleted files usually go to a temporary bin from which they can be restored."
+                },
+                {
+                    "q": "What is metadata in a file system?",
+                    "options": [
+                        "The content of the file",
+                        "Data about the file, like size and permissions",
+                        "User data",
+                        "Backup information"
+                    ],
+                    "a": 1,
+                    "ex": "Metadata describes attributes of a file, such as its name, size, and timestamps."
+                },
+                {
+                    "q": "Which command is used to change file permissions in Unix/Linux?",
+                    "options": ["chmod", "chperm", "setperm", "chown"],
+                    "a": 0,
+                    "ex": "'chmod' changes the permission of a file or directory."
+                },
+                {
+                    "q": "What is the function of the 'rm' command in Linux?",
+                    "options": ["Rename a file", "Remove a file", "Move a file", "Read a file"],
+                    "a": 1,
+                    "ex": "'rm' command is used to delete files or directories."
+                },
+                {
+                    "q": "What is the inode table used for?",
+                    "options": [
+                        "Storing user passwords",
+                        "Mapping file names to metadata",
+                        "Controlling RAM usage",
+                        "Storing boot information"
+                    ],
+                    "a": 1,
+                    "ex": "Inode tables contain metadata about files and directories."
+                }
+            ]
+        },
+     {
+            "id": "scheduling-algorithms",
+            "title": "Scheduling Algorithms",
+            "questions": [
+                {
+                    "q": "Which scheduling algorithm executes jobs in the order they arrive?",
+                    "options": ["Shortest Job First", "Round Robin", "First Come First Serve", "Priority Scheduling"],
+                    "a": 2,
+                    "ex": "FCFS processes tasks in the order they are received."
+                },
+                {
+                    "q": "What is the drawback of FCFS scheduling?",
+                    "options": ["Starvation", "Low CPU utilization", "Convoy effect", "Preemption"],
+                    "a": 2,
+                    "ex": "Convoy effect occurs when short processes wait for a long process to finish."
+                },
+                {
+                    "q": "Which scheduling algorithm selects the process with the shortest expected processing time?",
+                    "options": ["Round Robin", "FCFS", "Shortest Job First", "Priority Scheduling"],
+                    "a": 2,
+                    "ex": "SJF reduces the average waiting time for a set of processes."
+                },
+                {
+                    "q": "Round Robin scheduling is most suitable for:",
+                    "options": ["Batch systems", "Real-time systems", "Time-sharing systems", "Embedded systems"],
+                    "a": 2,
+                    "ex": "Round Robin is ideal for time-sharing systems due to its equal time allocation."
+                },
+                {
+                    "q": "Which scheduling algorithm may cause starvation?",
+                    "options": ["Round Robin", "FCFS", "SJF", "None"],
+                    "a": 2,
+                    "ex": "SJF can lead to starvation for longer processes."
+                },
+                {
+                    "q": "Time quantum in Round Robin should be:",
+                    "options": ["Very large", "Zero", "Optimally small", "None"],
+                    "a": 2,
+                    "ex": "A very small quantum increases context switching; too large mimics FCFS."
+                },
+                {
+                    "q": "Which is a preemptive scheduling algorithm?",
+                    "options": ["FCFS", "SJF", "Round Robin", "None"],
+                    "a": 2,
+                    "ex": "Round Robin uses time slices, making it preemptive."
+                },
+                {
+                    "q": "What is the main goal of CPU scheduling?",
+                    "options": ["Minimize CPU usage", "Maximize waiting time", "Maximize throughput", "Minimize job completion"],
+                    "a": 2,
+                    "ex": "CPU scheduling aims to maximize CPU utilization and throughput."
+                },
+                {
+                    "q": "In priority scheduling, a lower number means:",
+                    "options": ["Higher priority", "Lower priority", "No effect", "Random"],
+                    "a": 0,
+                    "ex": "Lower numerical values indicate higher priority."
+                },
+                {
+                    "q": "A scheduling algorithm that allows interruption is called:",
+                    "options": ["Preemptive", "Non-preemptive", "Round Robin", "Static"],
+                    "a": 0,
+                    "ex": "Preemptive algorithms allow tasks to be interrupted."
+                },
+                {
+                    "q": "What causes starvation in priority scheduling?",
+                    "options": ["Equal priority tasks", "High-priority tasks continuously arriving", "Short tasks", "Time slicing"],
+                    "a": 1,
+                    "ex": "If high-priority tasks keep arriving, low-priority ones may never execute."
+                },
+                {
+                    "q": "Aging in priority scheduling is used to:",
+                    "options": ["Reset time quantum", "Avoid deadlock", "Prevent starvation", "Increase CPU load"],
+                    "a": 2,
+                    "ex": "Aging gradually increases the priority of waiting tasks."
+                },
+                {
+                    "q": "Which algorithm is used in most modern operating systems for multitasking?",
+                    "options": ["FCFS", "SJF", "Round Robin", "Multilevel Queue"],
+                    "a": 3,
+                    "ex": "Multilevel queue scheduling is used for handling different process types."
+                },
+                {
+                    "q": "Which is not a non-preemptive scheduling algorithm?",
+                    "options": ["FCFS", "Priority (non-preemptive)", "SJF (non-preemptive)", "Round Robin"],
+                    "a": 3,
+                    "ex": "Round Robin is a preemptive scheduling algorithm."
+                },
+                {
+                    "q": "Which of the following considers priority and arrival time?",
+                    "options": ["FCFS", "SJF", "Priority Scheduling", "Multilevel Queue"],
+                    "a": 3,
+                    "ex": "Multilevel queues manage based on priority and arrival timing."
+                },
+                {
+                    "q": "Which algorithm is best for minimizing average waiting time?",
+                    "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+                    "a": 1,
+                    "ex": "SJF provides the lowest average waiting time under ideal conditions."
+                },
+                {
+                    "q": "Which algorithm works best when process lengths are similar?",
+                    "options": ["SJF", "FCFS", "Round Robin", "Priority"],
+                    "a": 2,
+                    "ex": "Round Robin is more efficient when all processes take similar time."
+                },
+                {
+                    "q": "Which algorithm uses multiple queues for different job types?",
+                    "options": ["FCFS", "Multilevel Queue", "SJF", "Round Robin"],
+                    "a": 1,
+                    "ex": "Multilevel queue scheduling separates jobs by type and priority."
+                },
+                {
+                    "q": "The term 'context switch' is associated with:",
+                    "options": ["Changing process state", "Memory swapping", "Disk I/O", "File system"],
+                    "a": 0,
+                    "ex": "Context switch involves saving and restoring process state."
+                },
+                {
+                    "q": "Which of these algorithms is suitable for real-time systems?",
+                    "options": ["SJF", "FCFS", "Earliest Deadline First", "Round Robin"],
+                    "a": 2,
+                    "ex": "Earliest Deadline First is designed for real-time scheduling."
+                },
+                {
+                    "q": "In multilevel feedback queue scheduling:",
+                    "options": ["All processes start in the same queue", "No process moves between queues", "Processes can move between queues", "Only one queue is active"],
+                    "a": 2,
+                    "ex": "Processes can move to higher or lower priority queues."
+                },
+                {
+                    "q": "Which algorithm favors shorter burst time but allows longer ones to execute eventually?",
+                    "options": ["FCFS", "SJF", "Round Robin", "Multilevel Feedback Queue"],
+                    "a": 3,
+                    "ex": "MLFQ favors short jobs but includes aging to avoid starvation."
+                },
+                {
+                    "q": "Which of these is NOT a CPU scheduling criterion?",
+                    "options": ["CPU utilization", "Throughput", "Latency", "Disk speed"],
+                    "a": 3,
+                    "ex": "Disk speed is related to I/O, not CPU scheduling."
+                },
+                {
+                    "q": "Turnaround time equals:",
+                    "options": ["Waiting time + burst time", "Burst time - arrival time", "Completion time - arrival time", "Waiting time + arrival time"],
+                    "a": 2,
+                    "ex": "Turnaround time is the total time from arrival to completion."
+                },
+                {
+                    "q": "In which case does Round Robin perform poorly?",
+                    "options": ["Uniform process length", "I/O bound processes", "Very short quantum", "Long quantum"],
+                    "a": 2,
+                    "ex": "A very short time quantum increases overhead due to context switching."
+                }
+            ]
+        }
   ]
 }
