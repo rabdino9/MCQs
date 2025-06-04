@@ -3106,6 +3106,672 @@
           "ex": "'To take a rain check' means to politely refuse an invitation or offer but suggest doing it at a later date."
         }
       ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "title": "Phrasal Verbs",
+      "questions": [
+        {
+          "q": "What does the phrasal verb 'look up' mean?",
+          "options": ["To look upwards", "To search for information, typically in a dictionary or online", "To visit someone", "To admire someone"],
+          "a": 1,
+          "ex": "'Look up' is commonly used to search for the meaning of a word or a piece of information."
+        },
+        {
+          "q": "What does the phrasal verb 'turn off' mean?",
+          "options": ["To turn in a different direction", "To activate a device", "To stop a device from working", "To increase the volume"],
+          "a": 2,
+          "ex": "'Turn off' means to switch off an appliance, light, or engine."
+        },
+        {
+          "q": "What does the phrasal verb 'turn on' mean?",
+          "options": ["To turn in a different direction", "To activate a device", "To stop a device from working", "To decrease the volume"],
+          "a": 1,
+          "ex": "'Turn on' means to switch on an appliance, light, or engine."
+        },
+        {
+          "q": "What does the phrasal verb 'give up' mean?",
+          "options": ["To hand something over", "To surrender or stop trying", "To start something new", "To share something"],
+          "a": 1,
+          "ex": "'Give up' means to cease making an effort; admit defeat."
+        },
+        {
+          "q": "What does the phrasal verb 'take off' mean (for an aircraft)?",
+          "options": ["To remove clothing", "To leave the ground and begin to fly", "To cancel a flight", "To land"],
+          "a": 1,
+          "ex": "For aircraft, 'take off' means to become airborne."
+        },
+        {
+          "q": "What does the phrasal verb 'put on' mean?",
+          "options": ["To remove clothing", "To place something down", "To wear clothing or accessories", "To ignite something"],
+          "a": 2,
+          "ex": "'Put on' means to dress oneself in an item of clothing or footwear."
+        },
+        {
+          "q": "What does the phrasal verb 'take off' mean (for clothing)?",
+          "options": ["To leave the ground", "To remove clothing or accessories", "To wear clothing", "To put on clothing"],
+          "a": 1,
+          "ex": "'Take off' means to remove an item of clothing."
+        },
+        {
+          "q": "What does the phrasal verb 'bring up' mean?",
+          "options": ["To carry something upwards", "To mention a topic or introduce it into a conversation", "To educate a child", "Both B and C are possible meanings."],
+          "a": 3,
+          "ex": "'Bring up' can mean to introduce a subject for discussion or to raise and care for a child until they are an adult."
+        },
+        {
+          "q": "What does the phrasal verb 'call off' mean?",
+          "options": ["To shout loudly", "To cancel an event or agreement", "To telephone someone", "To postpone something"],
+          "a": 1,
+          "ex": "'Call off' means to cancel something that has been planned."
+        },
+        {
+          "q": "What does the phrasal verb 'get along with' mean?",
+          "options": ["To travel with someone", "To make progress", "To have a friendly relationship with someone", "To leave quickly"],
+          "a": 2,
+          "ex": "'Get along with' means to have a good relationship with someone."
+        },
+        {
+          "q": "What does the phrasal verb 'look forward to' mean?",
+          "options": ["To look ahead physically", "To anticipate something with pleasure", "To look back at the past", "To look at something with disappointment"],
+          "a": 1,
+          "ex": "'Look forward to' means to feel pleased and excited about something that is going to happen."
+        },
+        {
+          "q": "What does the phrasal verb 'make up' mean?",
+          "options": ["To apply cosmetics", "To invent a story or excuse", "To reconcile after a disagreement", "All of the above are possible meanings."],
+          "a": 3,
+          "ex": "'Make up' has multiple meanings, including applying makeup, inventing something false, and becoming friends again after an argument."
+        },
+        {
+          "q": "What does the phrasal verb 'put off' mean?",
+          "options": ["To remove clothing", "To postpone or delay something", "To extinguish a fire", "To discourage someone"],
+          "a": 1,
+          "ex": "'Put off' means to postpone or arrange for something to take place at a later time."
+        },
+        {
+          "q": "What does the phrasal verb 'set up' mean?",
+          "options": ["To sit down", "To arrange or establish something (e.g., a meeting, a business, equipment)", "To start a journey", "To finish a task"],
+          "a": 1,
+          "ex": "'Set up' means to establish or arrange something for use."
+        },
+        {
+          "q": "What does the phrasal verb 'stand out' mean?",
+          "options": ["To stand outside", "To be easily noticeable because of being different or better", "To blend in with a crowd", "To be hidden"],
+          "a": 1,
+          "ex": "'Stand out' means to be very noticeable or prominent."
+        },
+        {
+          "q": "What does the phrasal verb 'carry on' mean?",
+          "options": ["To carry something on your back", "To continue doing something", "To stop doing something", "To give up"],
+          "a": 1,
+          "ex": "'Carry on' means to continue a particular activity or task."
+        },
+        {
+          "q": "What does the phrasal verb 'come across' mean?",
+          "options": ["To cross a river", "To meet or find something or someone by chance", "To approach someone", "To understand something"],
+          "a": 1,
+          "ex": "'Come across' means to find or meet by chance."
+        },
+        {
+          "q": "What does the phrasal verb 'get over' mean?",
+          "options": ["To climb over something", "To physically cross something", "To recover from an illness or difficult experience", "To avoid a problem"],
+          "a": 2,
+          "ex": "'Get over' means to recover from a difficulty, disappointment, or illness."
+        },
+        {
+          "q": "What does the phrasal verb 'go through' mean?",
+          "options": ["To enter a passage", "To examine something carefully", "To experience a difficult situation", "Both B and C are possible meanings."],
+          "a": 3,
+          "ex": "'Go through' can mean to examine something in detail or to experience a difficult period or situation."
+        },
+        {
+          "q": "What does the phrasal verb 'hand in' mean?",
+          "options": ["To give something using your hand", "To submit something (e.g., homework, a report)", "To receive something", "To keep something"],
+          "a": 1,
+          "ex": "'Hand in' means to submit something, typically an assignment or document."
+        },
+         {
+          "q": "What does the phrasal verb 'break down' mean?",
+          "options": ["To physically break something", "To stop working (for a machine or vehicle)", "To become very upset", "All of the above are possible meanings."],
+          "a": 3,
+          "ex": "'Break down' can mean to fail to function, to become mentally or physically exhausted, or to analyze something in detail."
+        },
+         {
+          "q": "What does the phrasal verb 'look after' mean?",
+          "options": ["To search for something lost", "To look back at someone", "To take care of someone or something", "To investigate something"],
+          "a": 2,
+          "ex": "'Look after' means to take care of or be responsible for someone or something."
+        },
+         {
+          "q": "What does the phrasal verb 'pass away' mean?",
+          "options": ["To pass by a place", "To succeed an exam", "To die (a polite way of saying)", "To fall asleep"],
+          "a": 2,
+          "ex": "'Pass away' is a euphemism for dying."
+        },
+         {
+          "q": "What does the phrasal verb 'point out' mean?",
+          "options": ["To point with your finger", "To draw attention to something or someone", "To ignore something", "To hide something"],
+          "a": 1,
+          "ex": "'Point out' means to direct attention toward someone or something or state a fact or idea."
+        },
+         {
+          "q": "What does the phrasal verb 'run out of' mean?",
+          "options": ["To run outside a building", "To exhaust your supply of something", "To escape from a place", "To finish a race"],
+          "a": 1,
+          "ex": "'Run out of' means to use up one's supply of something."
+        },
+         {
+          "q": "What does the phrasal verb 'show up' mean?",
+          "options": ["To display something prominently", "To fail to appear", "To appear or arrive, especially at a gathering", "To hide"],
+          "a": 2,
+          "ex": "'Show up' means to appear or arrive."
+        },
+         {
+          "q": "What does the phrasal verb 'slow down' mean?",
+          "options": ["To speed up", "To move or operate at a slower speed", "To stop completely", "To increase the pace"],
+          "a": 1,
+          "ex": "'Slow down' means to reduce speed."
+        },
+         {
+          "q": "What does the phrasal verb 'take up' mean?",
+          "options": ["To lift something", "To start a hobby or activity", "To occupy space or time", "Both B and C are possible meanings."],
+          "a": 3,
+          "ex": "'Take up' can mean to begin a new hobby, sport, or activity, or to occupy space or time."
+        },
+         {
+          "q": "What does the phrasal verb 'think over' mean?",
+          "options": ["To think about the past", "To consider something carefully before making a decision", "To think quickly", "To think about the future"],
+          "a": 1,
+          "ex": "'Think over' means to consider something carefully."
+        },
+         {
+          "q": "What does the phrasal verb 'try on' mean?",
+          "options": ["To attempt something difficult", "To test a garment by putting it on to see if it fits and looks good", "To try to persuade someone", "To experiment with something"],
+          "a": 1,
+          "ex": "'Try on' is used when testing clothing or shoes for size and appearance."
+        },
+        {
+          "q": "What does the phrasal verb 'work out' mean?",
+          "options": ["To exercise", "To solve a problem or understand something", "To calculate something", "All of the above are possible meanings."],
+          "a": 3,
+          "ex": "'Work out' has several meanings, including exercising, solving a problem, or calculating something."
+        },
+        {
+          "q": "What does the phrasal verb 'find out' mean?",
+          "options": ["To discover information", "To lose something", "To search for something hidden", "To calculate a value"],
+          "a": 0,
+          "ex": "'Find out' means to discover a fact or piece of information."
+        },
+        {
+          "q": "What does the phrasal verb 'get up' mean?",
+          "options": ["To receive something", "To wake up and leave your bed", "To climb something", "To understand something"],
+          "a": 1,
+          "ex": "'Get up' is commonly used to mean rising from bed after sleeping."
+        },
+        {
+          "q": "What does the phrasal verb 'go on' mean?",
+          "options": ["To leave a place", "To continue doing something", "To stop doing something", "To start something"],
+          "a": 1,
+          "ex": "'Go on' means to continue or proceed."
+        },
+        {
+          "q": "What does the phrasal verb 'keep on' mean?",
+          "options": ["To stop doing something", "To continue doing something repeatedly or persistently", "To keep something safe", "To give up"],
+          "a": 1,
+          "ex": "'Keep on' means to continue without stopping."
+        },
+        {
+          "q": "What does the phrasal verb 'look after' mean?",
+          "options": ["To search for something lost", "To take care of someone or something", "To look back at someone", "To investigate something"],
+          "a": 1,
+          "ex": "'Look after' means to be responsible for or take care of someone or something."
+        }
+      ]
+    },
+    {
+      "id": "homophones-homonyms",
+      "title": "Homophones / Homonyms",
+      "questions": [
+        {
+          "q": "Words that sound the same but have different spellings and meanings are called:",
+          "options": ["Synonyms", "Antonyms", "Homographs", "Homophones"],
+          "a": 3,
+          "ex": "Homophones are words like 'to', 'too', and 'two', which sound identical but have different spellings and meanings."
+        },
+        {
+          "q": "Words that are spelled the same but have different meanings and sometimes different pronunciations are called:",
+          "options": ["Homophones", "Synonyms", "Homographs", "Antonyms"],
+          "a": 2,
+          "ex": "Homographs are words like 'lead' (to guide) and 'lead' (a metal), which are spelled the same but have different meanings and may be pronounced differently."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'I want to buy _____ new book.'",
+          "options": ["to", "too", "two", "to be"],
+          "a": 2,
+          "ex": "'Two' refers to the number 2."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'She went _____ the store.'",
+          "options": ["to", "too", "two", "too much"],
+          "a": 0,
+          "ex": "'To' is a preposition indicating direction."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'This coffee is _____ hot to drink.'",
+          "options": ["to", "too", "two", "enough"],
+          "a": 1,
+          "ex": "'Too' means excessively or more than is desirable."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'Their car is parked over _____.'",
+          "options": ["there", "their", "they're", "their's"],
+          "a": 0,
+          "ex": "'There' is an adverb indicating a place."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: '_____ going to the party.'",
+          "options": ["There", "Their", "They're", "Their's"],
+          "a": 2,
+          "ex": "'They're' is a contraction of 'they are'."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: '_____ house is very big.'",
+          "options": ["There", "Their", "They're", "Their's"],
+          "a": 1,
+          "ex": "'Their' is a possessive determiner, showing ownership."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'I can _____ you hear me?'",
+          "options": ["hear", "here", "hire", "hair"],
+          "a": 0,
+          "ex": "'Hear' means to perceive sound with the ear."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'Please come _____ and sit down.'",
+          "options": ["hear", "here", "hire", "hair"],
+          "a": 1,
+          "ex": "'Here' is an adverb indicating a place."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'He knows the _____ answer.'",
+          "options": ["write", "right", "rite", "wright"],
+          "a": 1,
+          "ex": "'Right' means correct or true."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'Can you _____ a letter?'",
+          "options": ["write", "right", "rite", "wright"],
+          "a": 0,
+          "ex": "'Write' means to compose or produce something written."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'The principal gave a _____ on the school rules.'",
+          "options": ["principal", "principle", "princepal", "principle's"],
+          "a": 0,
+          "ex": "'Principal' refers to the head of a school or institution."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'He has strong moral _____.'",
+          "options": ["principal", "principle", "princepal", "principle's"],
+          "a": 1,
+          "ex": "'Principle' refers to a fundamental truth or belief."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'I saw _____ in the park.'",
+          "options": ["a bear", "a bare", "an bear", "an bare"],
+          "a": 0,
+          "ex": "'Bear' refers to the animal. 'Bare' means exposed or naked."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'Her feet were _____ from the cold.'",
+          "options": ["bear", "bare", "barer", "bears"],
+          "a": 1,
+          "ex": "'Bare' means not clothed or covered."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'We need to buy some fresh _____ for the salad.'",
+          "options": ["lettice", "lettuce", "lettus", "lettis"],
+          "a": 1,
+          "ex": "'Lettuce' is a leafy green vegetable used in salads."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'The ship sailed across the _____.'",
+          "options": ["sea", "see", "cee", "si"],
+          "a": 0,
+          "ex": "'Sea' refers to a large body of saltwater."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'Can you _____ the difference?'",
+          "options": ["sea", "see", "cee", "si"],
+          "a": 1,
+          "ex": "'See' means to perceive with the eyes."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'He needs to _____ his room.'",
+          "options": ["clean", "kleen", "clin", "clene"],
+          "a": 0,
+          "ex": "'Clean' means free from dirt or pollution."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'I received a _____ from my friend.'",
+          "options": ["litter", "letter", "lettar", "liter"],
+          "a": 1,
+          "ex": "'Letter' refers to a written message."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'The knight wore a suit of _____.'",
+          "options": ["steel", "steal", "stele", "stile"],
+          "a": 0,
+          "ex": "'Steel' is a strong metal alloy."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'It is wrong to _____ from others.'",
+          "options": ["steel", "steal", "stele", "stile"],
+          "a": 1,
+          "ex": "'Steal' means to take something belonging to someone else without permission."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'The weather is very cold _____.'",
+          "options": ["to day", "to-day", "today", "todey"],
+          "a": 2,
+          "ex": "'Today' refers to the current day."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'He is a talented _____.'",
+          "options": ["wright", "right", "write", "rite"],
+          "a": 0,
+          "ex": "'Wright' is an archaic term for a person who makes or builds things, especially in combination with another word (e.g., playwright)."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'She wore a beautiful _____ dress.'",
+          "options": ["flour", "flower", "flowr", "flouer"],
+          "a": 1,
+          "ex": "'Flower' refers to the bloom of a plant, often used to describe a pattern on clothing."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'You need _____ to make bread.'",
+          "options": ["flour", "flower", "flowr", "flouer"],
+          "a": 0,
+          "ex": "'Flour' is a powder made from grinding grain, used for baking."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'He ate the _____ apple.'",
+          "options": ["hole", "whole", "holl", "whole'"],
+          "a": 1,
+          "ex": "'Whole' means entire or complete."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'There is a _____ in the wall.'",
+          "options": ["hole", "whole", "holl", "whol"],
+          "a": 0,
+          "ex": "'Hole' refers to an opening or gap."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'He needs _____ to his teacher.'",
+          "options": ["advice", "advise", "advic", "advis"],
+          "a": 0,
+          "ex": "'Advice' is a noun meaning recommendations about what should be done."
+        },
+         {
+          "q": "Choose the correct word to complete the sentence: 'I can _____ you on that matter.'",
+          "options": ["advice", "advise", "advic", "advis"],
+          "a": 1,
+          "ex": "'Advise' is a verb meaning to offer suggestions about the best course of action to someone."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'She felt _____ after hearing the news.'",
+          "options": ["week", "weak", "weeck", "waik"],
+          "a": 1,
+          "ex": "'Weak' means lacking physical strength or energy."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'There are seven days in a _____.'",
+          "options": ["week", "weak", "weeck", "waik"],
+          "a": 0,
+          "ex": "'Week' refers to a period of seven days."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'He wore a _____ suit to the wedding.'",
+          "options": ["new", "knew", "nu", "know"],
+          "a": 0,
+          "ex": "'New' means not existing before; made, introduced, or discovered recently."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'She _____ the answer to the question.'",
+          "options": ["new", "knew", "nu", "know"],
+          "a": 1,
+          "ex": "'Knew' is the past tense of 'know'."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'The knight was known for his _____.'",
+          "options": ["might", "mite", "myte", "might'"],
+          "a": 0,
+          "ex": "'Might' can refer to great power or strength (archaic usage)."
+        },
+        {
+          "q": "Choose the correct word to complete the sentence: 'There was a small _____ on the cheese.'",
+          "options": ["might", "mite", "myte", "might'"],
+          "a": 1,
+          "ex": "'Mite' is a very small arthropod or a very small amount of something."
+        }
+      ]
+    },
+    {
+      "id": "word-formation",
+      "title": "Word Formation",
+      "questions": [
+        {
+          "q": "Which word formation process involves adding prefixes or suffixes to a base word?",
+          "options": ["Compounding", "Conversion", "Affixation", "Blending"],
+          "a": 2,
+          "ex": "Affixation is the most common way to form new words, by adding morphemes like 'un-', '-ness', '-ly' to existing words."
+        },
+        {
+          "q": "What is a 'prefix'?",
+          "options": ["A word added at the end of another word", "A word added at the beginning of another word", "The main part of a word", "A combination of two words"],
+          "a": 1,
+          "ex": "A prefix is an affix placed before the stem of a word. Examples: 'un-' in 'unhappy', 're-' in 'rewrite'."
+        },
+        {
+          "q": "What is a 'suffix'?",
+          "options": ["A word added at the beginning of another word", "A word added at the end of another word", "The main part of a word", "A combination of two words"],
+          "a": 1,
+          "ex": "A suffix is an affix placed after the stem of a word. Examples: '-ness' in 'happiness', '-ly' in 'quickly', '-ing' in 'walking'."
+        },
+        {
+          "q": "What is the base word in 'unbelievable'?",
+          "options": ["un", "believe", "able", "unbelieve"],
+          "a": 1,
+          "ex": "'Believe' is the core word to which the prefix 'un-' and suffix '-able' are added."
+        },
+        {
+          "q": "What word is formed by adding the prefix 're-' to the word 'write'?",
+          "options": ["writing", "rewritten", "rewrite", "writes"],
+          "a": 2,
+          "ex": "'Re-' means again. 'Rewrite' means to write again."
+        },
+        {
+          "q": "What word is formed by adding the suffix '-ness' to the word 'happy'?",
+          "options": ["happily", "happier", "happiness", "unhappy"],
+          "a": 2,
+          "ex": "Adding '-ness' to an adjective forms a noun, indicating a state or quality."
+        },
+        {
+          "q": "What word is formed by adding the suffix '-ly' to the word 'quick'?",
+          "options": ["quicker", "quickness", "quickly", "unquick"],
+          "a": 2,
+          "ex": "Adding '-ly' to an adjective typically forms an adverb."
+        },
+        {
+          "q": "Which word formation process involves combining two or more existing words to create a new word with a new meaning?",
+          "options": ["Affixation", "Conversion", "Compounding", "Derivation"],
+          "a": 2,
+          "ex": "Compounding creates compound words. Examples: 'sun' + 'flower' = 'sunflower', 'black' + 'board' = 'blackboard'."
+        },
+        {
+          "q": "What is the compound word formed from 'sun' and 'flower'?",
+          "options": ["sunnyflower", "sunflowered", "sunflower", "flowersun"],
+          "a": 2,
+          "ex": "Combining 'sun' and 'flower' creates the compound noun 'sunflower'."
+        },
+        {
+          "q": "What is the compound word formed from 'black' and 'board'?",
+          "options": ["blackenedboard", "blackboarding", "blackboard", "boardblack"],
+          "a": 2,
+          "ex": "Combining 'black' and 'board' creates the compound noun 'blackboard'."
+        },
+        {
+          "q": "Which word formation process involves changing the grammatical category of a word without adding any affixes (e.g., using a noun as a verb)?",
+          "options": ["Affixation", "Conversion", "Compounding", "Blending"],
+          "a": 1,
+          "ex": "Conversion (also called zero derivation) changes a word's part of speech. Example: 'email' (noun) used as 'to email' (verb)."
+        },
+        {
+          "q": "In the sentence 'She needs to email the report,' the word 'email' is used as a:",
+          "options": ["Noun", "Adjective", "Verb", "Adverb"],
+          "a": 2,
+          "ex": "Here, 'email' is used as an action word, indicating the act of sending an email."
+        },
+        {
+          "q": "In the sentence 'I sent an email,' the word 'email' is used as a:",
+          "options": ["Noun", "Adjective", "Verb", "Adverb"],
+          "a": 0,
+          "ex": "Here, 'email' refers to the thing being sent."
+        },
+        {
+          "q": "Which word formation process involves combining parts of two or more words to create a new word (e.g., 'smoke' + 'fog' = 'smog')?",
+          "options": ["Affixation", "Conversion", "Compounding", "Blending"],
+          "a": 3,
+          "ex": "Blending creates words by combining parts of existing words, often the beginning of one and the end of another."
+        },
+        {
+          "q": "What word is formed by blending 'smoke' and 'fog'?",
+          "options": ["smokefog", "fogsmo", "smog", "fogsmoke"],
+          "a": 2,
+          "ex": "'Smog' is a blend of 'smoke' and 'fog'."
+        },
+        {
+          "q": "What word is formed by blending 'motor' and 'hotel'?",
+          "options": ["motorhotel", "mototel", "motel", "hotelmotor"],
+          "a": 2,
+          "ex": "'Motel' is a blend of 'motor' and 'hotel'."
+        },
+        {
+          "q": "Which word formation process involves shortening a longer word (e.g., 'advertisement' -> 'ad', 'telephone' -> 'phone')?",
+          "options": ["Compounding", "Conversion", "Clipping", "Blending"],
+          "a": 2,
+          "ex": "Clipping involves reducing a word to one of its syllables or a part of the word."
+        },
+        {
+          "q": "What is the clipped form of 'advertisement'?",
+          "options": ["advertise", "ad", "ment", "advert"],
+          "a": 1,
+          "ex": "'Ad' is a shortened form of 'advertisement'."
+        },
+        {
+          "q": "What is the clipped form of 'telephone'?",
+          "options": ["tele", "phone", "teleph", "on"],
+          "a": 1,
+          "ex": "'Phone' is a shortened form of 'telephone'."
+        },
+        {
+          "q": "Which word formation process involves using the initial letters of a phrase or name to form a new word (e.g., 'NASA' from 'National Aeronautics and Space Administration')?",
+          "options": ["Compounding", "Acronymy", "Blending", "Clipping"],
+          "a": 1,
+          "ex": "Acronyms are formed from the initial letters of words and are pronounced as a single word. Initials are also formed from initial letters but are pronounced letter by letter (e.g., 'FBI')."
+        },
+         {
+          "q": "What is the acronym for 'North Atlantic Treaty Organization'?",
+          "options": ["NATO", "N.A.T.O.", "NATIO", "NORTO"],
+          "a": 0,
+          "ex": "'NATO' is pronounced as a word, making it an acronym."
+        },
+         {
+          "q": "What is the term for initial letters pronounced individually (e.g., 'FBI' from 'Federal Bureau of Investigation')?",
+          "options": ["Acronym", "Blending", "Initials", "Clipping"],
+          "a": 2,
+          "ex": "Initials are pronounced as a series of letters."
+        },
+         {
+          "q": "Which word formation process involves adding affixes that change the grammatical function of a word (e.g., adding '-s' for plural, '-ed' for past tense)?",
+          "options": ["Derivation", "Inflection", "Compounding", "Conversion"],
+          "a": 1,
+          "ex": "Inflectional affixes modify a word to fit grammatical context (tense, number, person, case), but they don't create new words with significantly different meanings or change the word's core category."
+        },
+         {
+          "q": "Which word formation process involves adding affixes that create new words with different meanings or change the word's grammatical category (e.g., 'happy' -> 'unhappy', 'teach' -> 'teacher')?",
+          "options": ["Derivation", "Inflection", "Compounding", "Conversion"],
+          "a": 0,
+          "ex": "Derivational affixes create new words by changing the meaning or part of speech of the base word."
+        },
+         {
+          "q": "In the word 'teachers,' the '-s' at the end is an example of what type of affix?",
+          "options": ["Derivational suffix", "Inflectional suffix", "Prefix", "Root"],
+          "a": 1,
+          "ex": "The '-s' in 'teachers' indicates plural number, which is an inflectional change."
+        },
+         {
+          "q": "In the word 'teacher,' the '-er' at the end is an example of what type of affix?",
+          "options": ["Derivational suffix", "Inflectional suffix", "Prefix", "Root"],
+          "a": 0,
+          "ex": "The '-er' in 'teacher' is a derivational suffix that changes the verb 'teach' into the noun 'teacher'."
+        },
+         {
+          "q": "Which word formation process involves creating a new word by copying a word or part of a word and repeating it (e.g., 'bye-bye', 'fifty-fifty')?",
+          "options": ["Compounding", "Blending", "Reduplication", "Clipping"],
+          "a": 2,
+          "ex": "Reduplication is a less common but distinct word formation process."
+        },
+         {
+          "q": "In the sentence 'The company will downsize its workforce,' the word 'downsize' is formed through which process?",
+          "options": ["Compounding", "Affixation (using a prefix and a base)", "Conversion", "Blending"],
+          "a": 1,
+          "ex": "'Downsize' is formed by adding the prefix 'down-' to the base word 'size'."
+        },
+         {
+          "q": "In the sentence 'He works in a coffee shop,' the word 'coffee shop' is an example of:",
+          "options": ["Affixation", "Conversion", "Compounding", "Blending"],
+          "a": 2,
+          "ex": "'Coffee shop' is a compound noun formed by combining two existing nouns."
+        },
+         {
+          "q": "In the sentence 'She is a runner,' the word 'runner' is formed from 'run' through which process?",
+          "options": ["Compounding", "Conversion", "Affixation (Derivation)", "Blending"],
+          "a": 2,
+          "ex": "Adding the suffix '-er' to the verb 'run' to form the noun 'runner' is an example of derivational affixation."
+        },
+        {
+          "q": "What is the word formation process for 'motel' (motor + hotel)?",
+          "options": ["Compounding", "Conversion", "Blending", "Clipping"],
+          "a": 2,
+          "ex": "'Motel' is formed by combining parts of 'motor' and 'hotel'."
+        },
+        {
+          "q": "What is the word formation process for 'NATO' (North Atlantic Treaty Organization)?",
+          "options": ["Clipping", "Blending", "Compounding", "Acronymy"],
+          "a": 3,
+          "ex": "'NATO' is formed from the initial letters and pronounced as a single word."
+        },
+        {
+          "q": "In the sentence 'They bottled the wine,' the word 'bottled' is formed from 'bottle' through which process?",
+          "options": ["Affixation (Inflection)", "Conversion", "Compounding", "Blending"],
+          "a": 1,
+          "ex": "The noun 'bottle' is used as a verb 'to bottle', and the '-ed' is an inflectional suffix for the past tense. The core process changing the part of speech is conversion."
+        },
+        {
+          "q": "What is the word formation process for 'lab' (laboratory)?",
+          "options": ["Compounding", "Conversion", "Blending", "Clipping"],
+          "a": 3,
+          "ex": "'Lab' is a shortened form of 'laboratory'."
+        },
+        {
+          "q": "What is the word formation process for 'brunch' (breakfast + lunch)?",
+          "options": ["Compounding", "Conversion", "Blending", "Clipping"],
+          "a": 2,
+          "ex": "'Brunch' is a blend of 'breakfast' and 'lunch'."
+        }
+      ]
     }
   ]
 }
