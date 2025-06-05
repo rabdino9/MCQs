@@ -1370,6 +1370,777 @@
                     "ex": "The United Nations High Commissioner for Refugees (UNHCR) is a UN agency mandated to protect and support refugees at the request of a government or the UN itself."
                 }
             ]
+        },
+        {
+            "id": "economic-affairs",
+            "title": "Economic Affairs",
+            "questions": [
+                {
+                    "q": "What does GDP stand for in economics?",
+                    "options": [
+                        "Gross Domestic Product",
+                        "General Development Plan",
+                        "Global Debt Projection",
+                        "Government Domestic Policy"
+                    ],
+                    "a": 0,
+                    "ex": "GDP stands for Gross Domestic Product, which measures the total value of goods and services produced in a country."
+                },
+                {
+                    "q": "Inflation is typically measured by the change in which index?",
+                    "options": [
+                        "Stock Market Index",
+                        "Consumer Price Index (CPI)",
+                        "Purchasing Managers' Index (PMI)",
+                        "Unemployment Rate"
+                    ],
+                    "a": 1,
+                    "ex": "The Consumer Price Index (CPI) is a key measure of inflation, tracking the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services."
+                },
+                {
+                    "q": "What is a recession defined as?",
+                    "options": [
+                        "A period of rapid economic growth",
+                        "A significant decline in economic activity spread across the economy, lasting more than a few months",
+                        "A sudden increase in the stock market",
+                        "A decrease in unemployment"
+                    ],
+                    "a": 1,
+                    "ex": "A recession is generally defined as a significant decline in economic activity that is spread across the economy and lasts for more than a few months."
+                },
+                {
+                    "q": "What is the primary role of a central bank?",
+                    "options": [
+                        "To manage a country's fiscal policy",
+                        "To regulate interest rates and control the money supply",
+                        "To oversee international trade agreements",
+                        "To manage government spending"
+                    ],
+                    "a": 1,
+                    "ex": "Central banks are responsible for monetary policy, which includes managing interest rates and controlling the money supply to influence economic conditions."
+                },
+                {
+                    "q": "What is the term for the total amount of money that a country's government has borrowed?",
+                    "options": [
+                        "Budget deficit",
+                        "National debt",
+                        "Trade deficit",
+                        "Current account balance"
+                    ],
+                    "a": 1,
+                    "ex": "National debt is the accumulated total of a country's government borrowings."
+                },
+                {
+                    "q": "Which organization provides loans to countries for development projects?",
+                    "options": [
+                        "International Monetary Fund (IMF)",
+                        "World Health Organization (WHO)",
+                        "World Trade Organization (WTO)",
+                        "World Bank"
+                    ],
+                    "a": 3,
+                    "ex": "The World Bank is an international financial institution that provides loans and grants to the governments of poorer countries for the purpose of pursuing capital projects."
+                },
+                {
+                    "q": "What is a trade surplus?",
+                    "options": [
+                        "When a country imports more than it exports",
+                        "When a country exports more than it imports",
+                        "When a country's imports equal its exports",
+                        "When a country has a balanced budget"
+                    ],
+                    "a": 1,
+                    "ex": "A trade surplus occurs when the value of a country's exports exceeds the value of its imports."
+                },
+                {
+                    "q": "What is the main goal of monetary policy?",
+                    "options": [
+                        "To increase government revenue",
+                        "To influence the money supply and credit conditions",
+                        "To regulate international trade",
+                        "To create jobs"
+                    ],
+                    "a": 1,
+                    "ex": "Monetary policy, managed by the central bank, aims to influence the money supply and credit conditions to achieve macroeconomic goals like price stability and full employment."
+                },
+                {
+                    "q": "What is fiscal policy primarily concerned with?",
+                    "options": [
+                        "Interest rates and money supply",
+                        "Government spending and taxation",
+                        "International exchange rates",
+                        "Stock market regulations"
+                    ],
+                    "a": 1,
+                    "ex": "Fiscal policy involves the use of government spending and taxation to influence the economy."
+                },
+                {
+                    "q": "What is a common indicator of economic inequality?",
+                    "options": [
+                        "GDP growth rate",
+                        "Unemployment rate",
+                        "Gini coefficient",
+                        "Inflation rate"
+                    ],
+                    "a": 2,
+                    "ex": "The Gini coefficient is a measure of statistical dispersion intended to represent the income inequality or wealth inequality within a nation or any other group of people."
+                },
+                {
+                    "q": "What does FDI stand for in economics?",
+                    "options": [
+                        "Foreign Debt Index",
+                        "Fiscal Deficit Indicator",
+                        "Foreign Direct Investment",
+                        "Free Domestic Income"
+                    ],
+                    "a": 2,
+                    "ex": "FDI stands for Foreign Direct Investment, which is an investment made by a firm or individual in one country into business interests located in another country."
+                },
+                {
+                    "q": "What is the term for a sustained decrease in the general price level of goods and services?",
+                    "options": [
+                        "Inflation",
+                        "Stagflation",
+                        "Deflation",
+                        "Hyperinflation"
+                    ],
+                    "a": 2,
+                    "ex": "Deflation is a decrease in the general price level of goods and services."
+                },
+                {
+                    "q": "Which economic system is characterized by private ownership of the means of production?",
+                    "options": [
+                        "Socialism",
+                        "Communism",
+                        "Capitalism",
+                        "Mercantilism"
+                    ],
+                    "a": 2,
+                    "ex": "Capitalism is an economic system in which private individuals or businesses own capital goods."
+                },
+                {
+                    "q": "What is the term for the value of one currency in terms of another?",
+                    "options": [
+                        "Interest rate",
+                        "Exchange rate",
+                        "Inflation rate",
+                        "GDP per capita"
+                    ],
+                    "a": 1,
+                    "ex": "The exchange rate is the value of one currency for the purpose of conversion to another."
+                },
+                {
+                    "q": "What is the primary function of the International Monetary Fund (IMF)?",
+                    "options": [
+                        "Providing loans for infrastructure projects",
+                        "Promoting international monetary cooperation and financial stability",
+                        "Regulating international trade",
+                        "Providing humanitarian aid"
+                    ],
+                    "a": 1,
+                    "ex": "The IMF's primary aim is to ensure the stability of the international monetary system."
+                },
+                {
+                    "q": "What is the term for the buying and selling of government securities in the open market?",
+                    "options": [
+                        "Reserve requirements",
+                        "Discount rate",
+                        "Open market operations",
+                        "Fiscal stimulus"
+                    ],
+                    "a": 2,
+                    "ex": "Open market operations involve the central bank buying or selling government securities to influence the money supply."
+                },
+                {
+                    "q": "What does OPEC stand for?",
+                    "options": [
+                        "Organization of Petroleum Exporting Countries",
+                        "Organization of European Economic Cooperation",
+                        "Organization for Political and Economic Cooperation",
+                        "Oil Producers and Exporters Cartel"
+                    ],
+                    "a": 0,
+                    "ex": "OPEC is the Organization of the Petroleum Exporting Countries."
+                },
+                {
+                    "q": "What is a budget deficit?",
+                    "options": [
+                        "When government revenue exceeds expenditures",
+                        "When government expenditures exceed revenue",
+                        "When exports exceed imports",
+                        "When imports exceed exports"
+                    ],
+                    "a": 1,
+                    "ex": "A budget deficit occurs when government spending is greater than government revenue in a given period."
+                },
+                {
+                    "q": "What is the term for a tax on imported goods?",
+                    "options": [
+                        "Subsidy",
+                        "Tariff",
+                        "Quota",
+                        "Embargo"
+                    ],
+                    "a": 1,
+                    "ex": "A tariff is a tax imposed by a government on imported goods or services."
+                },
+                {
+                    "q": "What is the main index tracking the performance of the New York Stock Exchange?",
+                    "options": [
+                        "Nikkei 225",
+                        "FTSE 100",
+                        "Dow Jones Industrial Average",
+                        "Shanghai Composite"
+                    ],
+                    "a": 2,
+                    "ex": "The Dow Jones Industrial Average (DJIA) is a stock market index of 30 prominent companies listed on stock exchanges in the United States."
+                },
+                {
+                    "q": "What is the concept of 'opportunity cost' in economics?",
+                    "options": [
+                        "The total cost of production",
+                        "The cost of marketing a product",
+                        "The value of the next best alternative forgone when a choice is made",
+                        "The cost of labor"
+                    ],
+                    "a": 2,
+                    "ex": "Opportunity cost is the value of the next best alternative that you don't choose when you make a decision."
+                },
+                {
+                    "q": "What is a progressive tax system?",
+                    "options": [
+                        "A tax system where everyone pays the same tax rate",
+                        "A tax system where the tax rate decreases as income increases",
+                        "A tax system where the tax rate increases as income increases",
+                        "A tax system based on consumption"
+                    ],
+                    "a": 2,
+                    "ex": "In a progressive tax system, the tax rate increases as the taxable amount increases."
+                },
+                {
+                    "q": "What does the term 'liquidity' refer to in finance?",
+                    "options": [
+                        "The profitability of an investment",
+                        "The ease with which an asset can be converted into cash without affecting its market price",
+                        "The amount of debt a company has",
+                        "The total value of a company's assets"
+                    ],
+                    "a": 1,
+                    "ex": "Liquidity refers to the efficiency or ease with which an asset can be converted into ready cash without affecting its market price."
+                },
+                {
+                    "q": "What is the purpose of a stock exchange?",
+                    "options": [
+                        "To regulate international trade",
+                        "To facilitate the buying and selling of stocks and other securities",
+                        "To set interest rates",
+                        "To manage government debt"
+                    ],
+                    "a": 1,
+                    "ex": "A stock exchange is a market where securities, such as stocks and bonds, are bought and sold."
+                },
+                {
+                    "q": "What is a bond?",
+                    "options": [
+                        "A share of ownership in a company",
+                        "A type of insurance policy",
+                        "A debt instrument where an investor loans money to an entity (typically corporate or governmental) which borrows the funds for a defined period of time at a variable or fixed interest rate",
+                        "A type of mutual fund"
+                    ],
+                    "a": 2,
+                    "ex": "A bond is a fixed income instrument that represents a loan made by an investor to a borrower."
+                },
+                {
+                    "q": "What is a central bank's discount rate?",
+                    "options": [
+                        "The interest rate charged by commercial banks to their best customers",
+                        "The interest rate at which commercial banks can borrow money directly from the central bank",
+                        "The interest rate on government bonds",
+                        "The interest rate on savings accounts"
+                    ],
+                    "a": 1,
+                    "ex": "The discount rate is the interest rate charged to commercial banks and other depository institutions on loans they receive from their regional Federal Reserve Bank's lending facility—the discount window."
+                },
+                {
+                    "q": "What is a key characteristic of a developing economy?",
+                    "options": [
+                        "High GDP per capita",
+                        "Low levels of industrialization and infrastructure",
+                        "A large service sector",
+                        "High levels of technology adoption"
+                    ],
+                    "a": 1,
+                    "ex": "Developing economies typically have lower levels of industrialization, infrastructure, and GDP per capita compared to developed economies."
+                },
+                {
+                    "q": "What does PPP stand for in economics when comparing economies?",
+                    "options": [
+                        "Public-Private Partnership",
+                        "Purchasing Power Parity",
+                        "Production Possibility Frontier",
+                        "Private Property Principles"
+                    ],
+                    "a": 1,
+                    "ex": "PPP stands for Purchasing Power Parity, a theory that states that exchange rates between currencies are in equilibrium when their purchasing power is the same in each of the two countries."
+                },
+                {
+                    "q": "What is a stock market crash?",
+                    "options": [
+                        "A period of steady growth in stock prices",
+                        "A sudden and significant decline in stock prices across a major cross-section of a stock market",
+                        "An increase in interest rates",
+                        "A decrease in unemployment"
+                    ],
+                    "a": 1,
+                    "ex": "A stock market crash is a sudden dramatic decline of stock prices across a major cross-section of a stock market."
+                },
+                {
+                    "q": "What is the term for the process of a government selling state-owned assets to private entities?",
+                    "options": [
+                        "Nationalization",
+                        "Subsidization",
+                        "Privatization",
+                        "Liberalization"
+                    ],
+                    "a": 2,
+                    "ex": "Privatization is the transfer of ownership of property or businesses from a government to a privately owned entity."
+                },
+                 {
+                    "q": "What is the term for a person who organizes and operates a business or businesses, taking on financial risk to do so?",
+                    "options": [
+                        "Employee",
+                        "Manager",
+                        "Economist",
+                        "Entrepreneur"
+                    ],
+                    "a": 3,
+                    "ex": "An entrepreneur is an individual who creates a new business, bearing most of the risks and enjoying most of the rewards."
+                },
+                {
+                    "q": "What is the role of the World Trade Organization (WTO)?",
+                    "options": [
+                        "To provide financial aid to developing countries",
+                        "To regulate international trade and resolve trade disputes",
+                        "To promote global health initiatives",
+                        "To fund scientific research"
+                    ],
+                    "a": 1,
+                    "ex": "The WTO is an international organization that regulates and facilitates international trade."
+                },
+                {
+                    "q": "What is a commodity?",
+                    "options": [
+                        "A type of stock",
+                        "A basic good used in commerce that is interchangeable with other goods of the same type",
+                        "A financial service",
+                        "A government bond"
+                    ],
+                    "a": 1,
+                    "ex": "A commodity is a basic good used in commerce that is interchangeable with other goods of the same type."
+                },
+                {
+                    "q": "What does the term 'stagflation' describe?",
+                    "options": [
+                        "A period of high economic growth and low inflation",
+                        "A period of low economic growth, high unemployment, and high inflation",
+                        "A period of deflation and low unemployment",
+                        "A period of rapid technological advancement"
+                    ],
+                    "a": 1,
+                    "ex": "Stagflation is a situation in which the inflation rate is high, the economic growth rate slows, and unemployment remains steadily high."
+                },
+                {
+                    "q": "What is a stock split?",
+                    "options": [
+                        "When a company issues more shares to current shareholders, increasing the total number of outstanding shares",
+                        "When a company buys back its own shares",
+                        "When a company merges with another company",
+                        "When a company declares bankruptcy"
+                    ],
+                    "a": 0,
+                    "ex": "A stock split occurs when a company increases the number of its outstanding shares by issuing more shares to current shareholders, usually in proportion to their existing holdings."
+                }
+            ]
+        },
+        {
+            "id": "financial-and-banking-news",
+            "title": "Financial & Banking News",
+            "questions": [
+                {
+                    "q": "What is the central bank of Pakistan?",
+                    "options": [
+                        "National Bank of Pakistan",
+                        "State Bank of Pakistan",
+                        "Allied Bank Limited",
+                        "Habib Bank Limited"
+                    ],
+                    "a": 1,
+                    "ex": "The State Bank of Pakistan is the central bank of Pakistan."
+                },
+                {
+                    "q": "What is the primary regulatory body for the banking sector in most countries?",
+                    "options": [
+                        "Ministry of Finance",
+                        "Central Bank",
+                        "Stock Exchange",
+                        "Treasury Department"
+                    ],
+                    "a": 1,
+                    "ex": "The central bank is typically the primary regulatory body for the banking sector, overseeing monetary policy and financial stability."
+                },
+                {
+                    "q": "What does NASDAQ stand for?",
+                    "options": [
+                        "National Association of Securities Dealers Automated Quotations",
+                        "North American Stock and Derivatives Alliance",
+                        "National Automated Stock Administration Department",
+                        "New York Stock and Derivatives Automated Quotes"
+                    ],
+                    "a": 0,
+                    "ex": "NASDAQ stands for National Association of Securities Dealers Automated Quotations."
+                },
+                {
+                    "q": "What is the term for a period of declining stock prices?",
+                    "options": [
+                        "Bull market",
+                        "Bear market",
+                        "Sideways market",
+                        "Boom market"
+                    ],
+                    "a": 1,
+                    "ex": "A bear market is a period in which stock prices are generally declining."
+                },
+                {
+                    "q": "What is a dividend?",
+                    "options": [
+                        "A loan from a bank",
+                        "A payment made by a corporation to its shareholders",
+                        "A type of bond",
+                        "A tax imposed on financial transactions"
+                    ],
+                    "a": 1,
+                    "ex": "A dividend is a distribution of a portion of a company's earnings to its shareholders."
+                },
+                {
+                    "q": "What is the term for a bank's required reserves?",
+                    "options": [
+                        "The amount of money a bank must lend out",
+                        "The percentage of deposits that banks are required to hold in reserve by the central bank",
+                        "The total assets of a bank",
+                        "The amount of money a bank has in its ATMs"
+                    ],
+                    "a": 1,
+                    "ex": "Required reserves are the minimum amount of reserves that a bank must hold against its deposits as mandated by the central bank."
+                },
+                {
+                    "q": "What does LIBOR stand for?",
+                    "options": [
+                        "London Interbank Offered Rate",
+                        "Lower Interest Banking Operations Rate",
+                        "Leading International Banking Offshore Rate",
+                        "Lending Institution Borrowing Overhead Rate"
+                    ],
+                    "a": 0,
+                    "ex": "LIBOR stood for the London Interbank Offered Rate, a benchmark interest rate (though it is being phased out)."
+                },
+                {
+                    "q": "What is a mortgage?",
+                    "options": [
+                        "A type of credit card",
+                        "A loan used to purchase a home or other real estate",
+                        "An investment in stocks",
+                        "A type of insurance"
+                    ],
+                    "a": 1,
+                    "ex": "A mortgage is a loan taken out to buy a house or other real estate."
+                },
+                {
+                    "q": "What is the term for the rate at which a central bank lends money to commercial banks?",
+                    "options": [
+                        "Prime rate",
+                        "Mortgage rate",
+                        "Discount rate",
+                        "Savings rate"
+                    ],
+                    "a": 2,
+                    "ex": "The discount rate is the interest rate charged by the central bank to depository institutions that borrow short-term funds."
+                },
+                {
+                    "q": "What is a credit rating?",
+                    "options": [
+                        "A measure of a person's social status",
+                        "An assessment of the creditworthiness of an individual, company, or government",
+                        "The number of credit cards a person has",
+                        "The interest rate on a loan"
+                    ],
+                    "a": 1,
+                    "ex": "A credit rating is an evaluation of the credit risk of a prospective debtor, predicting their ability to pay back debt."
+                },
+                {
+                    "q": "What is an IPO?",
+                    "options": [
+                        "Initial Public Offering",
+                        "International Payment Order",
+                        "Investment Portfolio Opportunity",
+                        "Internal Profit Optimization"
+                    ],
+                    "a": 0,
+                    "ex": "IPO stands for Initial Public Offering, the process by which a private company can go public by sale of its stock to the general public."
+                },
+                {
+                    "q": "What is the term for a type of investment fund that pools money from many investors to purchase securities?",
+                    "options": [
+                        "Hedge fund",
+                        "Mutual fund",
+                        "Pension fund",
+                        "Private equity fund"
+                    ],
+                    "a": 1,
+                    "ex": "A mutual fund is a type of investment vehicle consisting of a portfolio of stocks, bonds, or other securities."
+                },
+                {
+                    "q": "What is a financial bubble?",
+                    "options": [
+                        "A period of stable economic growth",
+                        "When asset prices rise rapidly and are significantly overvalued, often followed by a sharp decline",
+                        "A government subsidy for a specific industry",
+                        "A decrease in the money supply"
+                    ],
+                    "a": 1,
+                    "ex": "A financial bubble occurs when asset prices are inflated to the point where they do not reflect the underlying value of the asset."
+                },
+                {
+                    "q": "What is cryptocurrency?",
+                    "options": [
+                        "A type of traditional currency issued by a central bank",
+                        "A digital or virtual currency that is secured by cryptography",
+                        "A physical commodity used for trade",
+                        "A form of government bond"
+                    ],
+                    "a": 1,
+                    "ex": "Cryptocurrency is a digital currency in which transactions are verified and records maintained by a decentralized system using cryptography, rather than by a centralized authority."
+                },
+                {
+                    "q": "What is the role of the Securities and Exchange Commission (SEC) in the United States?",
+                    "options": [
+                        "To regulate banks",
+                        "To oversee the stock markets and protect investors",
+                        "To manage the national debt",
+                        "To set interest rates"
+                    ],
+                    "a": 1,
+                    "ex": "The SEC is an independent federal government regulatory agency responsible for protecting investors, maintaining fair and orderly functioning of the securities markets, and facilitating capital formation."
+                },
+                {
+                    "q": "What is a commercial bank primarily involved in?",
+                    "options": [
+                        "Issuing currency",
+                        "Providing loans and accepting deposits from the public",
+                        "Regulating the stock market",
+                        "Managing government finances"
+                    ],
+                    "a": 1,
+                    "ex": "Commercial banks offer services to the general public and to companies, such as current, savings and deposit accounts, and they make loans to individuals and businesses."
+                },
+                {
+                    "q": "What is the term for the amount of interest charged on a loan?",
+                    "options": [
+                        "Principal",
+                        "Duration",
+                        "Interest rate",
+                        "Yield"
+                    ],
+                    "a": 2,
+                    "ex": "The interest rate is the amount of interest due per period, as a proportion of the amount borrowed, deposited or lent (called the principal sum)."
+                },
+                {
+                    "q": "What is a central bank's primary tool for implementing monetary policy?",
+                    "options": [
+                        "Taxation",
+                        "Government spending",
+                        "Open market operations",
+                        "Issuing bonds"
+                    ],
+                    "a": 2,
+                    "ex": "Open market operations (buying and selling government securities) are a primary tool used by central banks to control the money supply and influence interest rates."
+                },
+                {
+                    "q": "What is the term for a situation where a company or individual is unable to repay their debts?",
+                    "options": [
+                        "Profitability",
+                        "Liquidity",
+                        "Insolvency",
+                        "Solvency"
+                    ],
+                    "a": 2,
+                    "ex": "Insolvency is the state of being unable to pay the money owed, by a person or company, on time."
+                },
+                {
+                    "q": "What is the main function of a credit union?",
+                    "options": [
+                        "To provide services only to large corporations",
+                        "To provide banking and financial services to its members, who share a common bond",
+                        "To regulate the stock market",
+                        "To issue government bonds"
+                    ],
+                    "a": 1,
+                    "ex": "A credit union is a member-owned financial cooperative that provides banking and financial services to its members."
+                },
+                {
+                    "q": "What is the term for the potential of an investment to increase in value?",
+                    "options": [
+                        "Risk",
+                        "Return",
+                        "Volatility",
+                        "Diversification"
+                    ],
+                    "a": 1,
+                    "ex": "Return on investment refers to the profit or loss from an investment."
+                },
+                {
+                    "q": "What is the difference between a debit card and a credit card?",
+                    "options": [
+                        "A debit card uses funds directly from a bank account, while a credit card allows borrowing funds up to a limit.",
+                        "A debit card can only be used online, while a credit card can only be used in stores.",
+                        "A debit card earns interest, while a credit card does not.",
+                        "There is no difference between a debit card and a credit card."
+                    ],
+                    "a": 0,
+                    "ex": "A debit card deducts money directly from your bank account, while a credit card allows you to borrow money from the card issuer up to a certain limit."
+                },
+                {
+                    "q": "What is a stock market index?",
+                    "options": [
+                        "A list of all companies traded on a stock exchange",
+                        "A measure of a stock market's performance",
+                        "A type of government bond",
+                        "A regulatory body for financial markets"
+                    ],
+                    "a": 1,
+                    "ex": "A stock market index is a statistical measure of changes in the economy or financial markets."
+                },
+                {
+                    "q": "What is the term for borrowing money to finance an investment, often using the investment itself as collateral?",
+                    "options": [
+                        "Arbitrage",
+                        "Hedging",
+                        "Leverage",
+                        "Diversification"
+                    ],
+                    "a": 2,
+                    "ex": "Leverage is the use of debt (borrowed funds) to increase the potential return of an investment."
+                },
+                {
+                    "q": "What is the primary purpose of a financial audit?",
+                    "options": [
+                        "To promote a company's products",
+                        "To examine a company's financial records and statements to ensure accuracy and compliance with regulations",
+                        "To negotiate business deals",
+                        "To develop new financial products"
+                    ],
+                    "a": 1,
+                    "ex": "A financial audit is an objective examination and evaluation of the financial statements of an organization to make sure that the financial records are a fair and accurate representation of the transactions they claim to represent."
+                },
+                {
+                    "q": "What is blockchain technology most famously associated with?",
+                    "options": [
+                        "Traditional banking systems",
+                        "Credit card processing",
+                        "Cryptocurrencies like Bitcoin",
+                        "Stock market trading"
+                    ],
+                    "a": 2,
+                    "ex": "Blockchain technology is the underlying technology behind many cryptocurrencies, including Bitcoin."
+                },
+                {
+                    "q": "What is a bond yield?",
+                    "options": [
+                        "The face value of a bond",
+                        "The annual interest rate paid on a bond",
+                        "The price at which a bond is traded",
+                        "The maturity date of a bond"
+                    ],
+                    "a": 1,
+                    "ex": "Bond yield is the return an investor realizes on a bond. The most common measure is the annual interest rate paid on the bond."
+                },
+                {
+                    "q": "What is the function of a clearinghouse in financial markets?",
+                    "options": [
+                        "To provide loans to individuals",
+                        "To manage mergers and acquisitions",
+                        "To facilitate and verify financial transactions, reducing risk",
+                        "To regulate interest rates"
+                    ],
+                    "a": 2,
+                    "ex": "A clearinghouse acts as an intermediary between buyers and sellers of financial instruments, ensuring that transactions are completed and reducing the risk of default."
+                },
+                {
+                    "q": "What is the term for a sudden withdrawal of deposits from a bank?",
+                    "options": [
+                        "Bank merger",
+                        "Bank run",
+                        "Bank audit",
+                        "Bank holiday"
+                    ],
+                    "a": 1,
+                    "ex": "A bank run occurs when many clients withdraw their money from a bank, because they believe the bank may cease to function in the near future."
+                },
+                {
+                    "q": "What does SWIFT stand for in the banking sector?",
+                    "options": [
+                        "Securities and Wealth International Financial Transfers",
+                        "Society for Worldwide Interbank Financial Telecommunication",
+                        "Standardized Worldwide Investment and Funding Technology",
+                        "Systematic Wealth Information and Fund Tracking"
+                    ],
+                    "a": 1,
+                    "ex": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) is a global network that facilitates the transfer of messages about financial transactions between banks."
+                },
+                {
+                    "q": "What is a bailout?",
+                    "options": [
+                        "A type of investment strategy",
+                        "An act of giving financial assistance to a failing business or economy to save it from collapse",
+                        "A tax on financial transactions",
+                        "A form of cryptocurrency"
+                    ],
+                    "a": 1,
+                    "ex": "A bailout is the provision of financial assistance to a company or country which would otherwise face bankruptcy or financial hardship."
+                },
+                 {
+                    "q": "What is a central bank's primary goal in managing monetary policy?",
+                    "options": [
+                        "Maximizing government revenue",
+                        "Ensuring price stability and full employment",
+                        "Regulating international trade",
+                        "Minimizing national debt"
+                    ],
+                    "a": 1,
+                    "ex": "The primary goals of most central banks are to maintain price stability (control inflation) and promote full employment."
+                },
+                 {
+                    "q": "What is the term for a market where currencies are traded?",
+                    "options": [
+                        "Stock market",
+                        "Bond market",
+                        "Commodity market",
+                        "Foreign exchange market (Forex)"
+                    ],
+                    "a": 3,
+                    "ex": "The foreign exchange market (Forex) is a global decentralized or over-the-counter market for the trading of currencies."
+                },
+                {
+                    "q": "What is the role of a credit rating agency?",
+                    "options": [
+                        "To issue credit cards",
+                        "To assess the creditworthiness of borrowers and issue credit ratings",
+                        "To regulate banks",
+                        "To manage stock exchanges"
+                    ],
+                    "a": 1,
+                    "ex": "Credit rating agencies assess the creditworthiness of individuals, companies, and governments and provide credit ratings to inform investors of the risk involved in lending to them."
+                }
+            ]
         }
     ]
 }
