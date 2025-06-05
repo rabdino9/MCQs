@@ -1,1 +1,1375 @@
-
+{
+    "meta": {
+        "title": "Current Affairs MCQs",
+        "description": "Multiple choice questions on recent events and developments in Pakistan and around the world.",
+ "keywords": "Current Affairs, Pakistan, International, Politics, Economy, Society, World Events"
+    },
+    "subcategories": [
+        {
+            "id": "pakistan-current-affairs",
+            "title": "Pakistan Current Affairs",
+            "questions": [
+                {
+                    "q": "Who is the current Prime Minister of Pakistan?",
+                    "options": [
+                        "Imran Khan",
+                        "Shehbaz Sharif",
+                        "Nawaz Sharif",
+                        "Bilawal Bhutto Zardari"
+                    ],
+                    "a": 1,
+                    "ex": "As of recent political developments in Pakistan, Shehbaz Sharif is the current Prime Minister."
+                },
+                {
+                    "q": "Who is the current President of Pakistan?",
+                    "options": [
+                        "Arif Alvi",
+                        "Mamnoon Hussain",
+                        "Asif Ali Zardari",
+                        "Pervez Musharraf"
+                    ],
+                    "a": 2,
+                    "ex": "Asif Ali Zardari is the current President of Pakistan."
+                },
+                {
+                    "q": "Which province of Pakistan has the largest population?",
+                    "options": [
+                        "Sindh",
+                        "Khyber Pakhtunkhwa",
+                        "Balochistan",
+                        "Punjab"
+                    ],
+                    "a": 3,
+                    "ex": "Punjab is the most populous province of Pakistan."
+                },
+                {
+                    "q": "What is the national language of Pakistan?",
+                    "options": [
+                        "Punjabi",
+                        "Sindhi",
+                        "Urdu",
+                        "Pashto"
+                    ],
+                    "a": 2,
+                    "ex": "Urdu is the national language of Pakistan."
+                },
+                {
+                    "q": "When did Pakistan gain independence?",
+                    "options": [
+                        "14 August 1947",
+                        "23 March 1940",
+                        "6 September 1965",
+                        "25 December 1876"
+                    ],
+                    "a": 0,
+                    "ex": "Pakistan gained independence on 14 August 1947."
+                },
+                {
+                    "q": "What is the name of Pakistan's parliament?",
+                    "options": [
+                        "Majlis-e-Shoora",
+                        "National Assembly",
+                        "Senate",
+                        "Parliament House"
+                    ],
+                    "a": 0,
+                    "ex": "The Parliament of Pakistan is officially known as Majlis-e-Shoora."
+                },
+                {
+                    "q": "Who was the first Prime Minister of Pakistan?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Liaquat Ali Khan",
+                        "Khawaja Nazimuddin",
+                        "Huseyn Shaheed Suhrawardy"
+                    ],
+                    "a": 1,
+                    "ex": "Liaquat Ali Khan was the first Prime Minister of Pakistan."
+                },
+                {
+                    "q": "What is the largest city in Pakistan by population?",
+                    "options": [
+                        "Lahore",
+                        "Islamabad",
+                        "Faisalabad",
+                        "Karachi"
+                    ],
+                    "a": 3,
+                    "ex": "Karachi is the largest city in Pakistan by population."
+                },
+                {
+                    "q": "What is the current policy stance of the State Bank of Pakistan regarding interest rates?",
+                    "options": [
+                        "Aggressive tightening",
+                        "Easing of rates",
+                        "Maintaining status quo",
+                        "Significant reduction"
+                    ],
+                    "a": 2,
+                    "ex": "Based on recent trends, the State Bank of Pakistan has been primarily focused on maintaining the status quo regarding interest rates to control inflation."
+                },
+                {
+                    "q": "Which sector is the largest contributor to Pakistan's GDP?",
+                    "options": [
+                        "Agriculture",
+                        "Industry",
+                        "Services",
+                        "Construction"
+                    ],
+                    "a": 2,
+                    "ex": "The services sector is the largest contributor to Pakistan's Gross Domestic Product."
+                },
+                {
+                    "q": "What is the name of the border crossing between Pakistan and Afghanistan?",
+                    "options": [
+                        "Wagah Border",
+                        "Torkham Border",
+                        "Khunjerab Pass",
+                        "Ganda Singh Wala"
+                    ],
+                    "a": 1,
+                    "ex": "The Torkham Border is a major crossing point between Pakistan and Afghanistan."
+                },
+                {
+                    "q": "What is the national sport of Pakistan?",
+                    "options": [
+                        "Cricket",
+                        "Hockey",
+                        "Squash",
+                        "Football"
+                    ],
+                    "a": 1,
+                    "ex": "Field Hockey is the national sport of Pakistan."
+                },
+                {
+                    "q": "Which mountain is the second highest in Pakistan?",
+                    "options": [
+                        "K2",
+                        "Nanga Parbat",
+                        "Gasherbrum I",
+                        "Broad Peak"
+                    ],
+                    "a": 1,
+                    "ex": "Nanga Parbat is the second highest mountain in Pakistan after K2."
+                },
+                {
+                    "q": "What is the current status of the China-Pakistan Economic Corridor (CPEC)?",
+                    "options": [
+                        "Completed",
+                        "Under construction and expanding",
+                        "Halted due to funding issues",
+                        "Limited to energy projects only"
+                    ],
+                    "a": 1,
+                    "ex": "CPEC is an ongoing project with various infrastructure and development projects under construction and expansion."
+                },
+                {
+                    "q": "What is the currency of Pakistan?",
+                    "options": [
+                        "Rupee",
+                        "Taka",
+                        "Dinar",
+                        "Dirham"
+                    ],
+                    "a": 0,
+                    "ex": "The currency of Pakistan is the Pakistani Rupee (PKR)."
+                },
+                {
+                    "q": "Which river is the longest in Pakistan?",
+                    "options": [
+                        "Jhelum",
+                        "Chenab",
+                        "Indus",
+                        "Sutlej"
+                    ],
+                    "a": 2,
+                    "ex": "The Indus River is the longest river in Pakistan."
+                },
+                {
+                    "q": "What is the minimum age to vote in Pakistan?",
+                    "options": [
+                        "16",
+                        "18",
+                        "20",
+                        "21"
+                    ],
+                    "a": 1,
+                    "ex": "The minimum voting age in Pakistan is 18 years."
+                },
+                {
+                    "q": "Which Pakistani city is known as the 'City of Gardens'?",
+                    "options": [
+                        "Islamabad",
+                        "Faisalabad",
+                        "Peshawar",
+                        "Lahore"
+                    ],
+                    "a": 3,
+                    "ex": "Lahore is often referred to as the 'City of Gardens'."
+                },
+                {
+                    "q": "What is the name of Pakistan's highest military award?",
+                    "options": [
+                        "Sitara-e-Jurat",
+                        "Hilal-e-Jurat",
+                        "Nishan-e-Haider",
+                        "Tamgha-e-Basalat"
+                    ],
+                    "a": 2,
+                    "ex": "Nishan-e-Haider is the highest military gallantry award in Pakistan."
+                },
+                {
+                    "q": "Which strait separates Pakistan from Oman?",
+                    "options": [
+                        "Strait of Malacca",
+                        "Strait of Hormuz",
+                        "Bab-el-Mandeb",
+                        "Strait of Gibraltar"
+                    ],
+                    "a": 1,
+                    "ex": "The Strait of Hormuz separates the Arabian Peninsula from Iran and is strategically important for Pakistan's maritime trade."
+                },
+                {
+                    "q": "Who designed the national flag of Pakistan?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Allama Muhammad Iqbal",
+                        "Syed Amir-uddin Kidwai",
+                        "Abdul Majeed"
+                    ],
+                    "a": 2,
+                    "ex": "The national flag of Pakistan was designed by Syed Amir-uddin Kidwai."
+                },
+                {
+                    "q": "What is the traditional dress for men in many parts of Pakistan?",
+                    "options": [
+                        "Saree",
+                        "Sherwani",
+                        "Shalwar Kameez",
+                        "Dhoti"
+                    ],
+                    "a": 2,
+                    "ex": "Shalwar Kameez is a widely worn traditional dress for both men and women in Pakistan."
+                },
+                {
+                    "q": "Which pass connects Pakistan and China?",
+                    "options": [
+                        "Khyber Pass",
+                        "Bolan Pass",
+                        "Khunjerab Pass",
+                        "Lowari Pass"
+                    ],
+                    "a": 2,
+                    "ex": "The Khunjerab Pass is the highest paved international border crossing in the world and connects Pakistan and China."
+                },
+                {
+                    "q": "What is the significance of the Resolution of Lahore (Pakistan Resolution)?",
+                    "options": [
+                        "It demanded a separate homeland for Muslims of British India.",
+                        "It called for independence from British rule.",
+                        "It proposed a unified India.",
+                        "It established the first political party."
+                    ],
+                    "a": 0,
+                    "ex": "The Resolution of Lahore, passed in 1940, was a formal political statement by the All-India Muslim League calling for a separate homeland for the Muslims of British India."
+                },
+                {
+                    "q": "Which Pakistani province has the longest coastline?",
+                    "options": [
+                        "Sindh",
+                        "Balochistan",
+                        "Punjab",
+                        "Khyber Pakhtunkhwa"
+                    ],
+                    "a": 1,
+                    "ex": "Balochistan province has the longest coastline in Pakistan."
+                },
+                {
+                    "q": "What is the main judicial body of Pakistan?",
+                    "options": [
+                        "High Court",
+                        "Supreme Court",
+                        "Federal Shariat Court",
+                        "District Court"
+                    ],
+                    "a": 1,
+                    "ex": "The Supreme Court of Pakistan is the apex court in the judicial hierarchy."
+                },
+                {
+                    "q": "What is the current literacy rate in Pakistan (approximate)?",
+                    "options": [
+                        "Below 50%",
+                        "Between 60% and 70%",
+                        "Above 80%",
+                        "Around 40%"
+                    ],
+                    "a": 1,
+                    "ex": "The literacy rate in Pakistan is generally estimated to be between 60% and 70%."
+                },
+                {
+                    "q": "Which Pakistani dam is the largest in terms of water storage capacity?",
+                    "options": [
+                        "Tarbela Dam",
+                        "Mangla Dam",
+                        "Mirani Dam",
+                        "Hub Dam"
+                    ],
+                    "a": 0,
+                    "ex": "Tarbela Dam on the Indus River is the largest earth-filled dam in the world and has the largest water storage capacity in Pakistan."
+                },
+                {
+                    "q": "What is the primary function of the National Accountability Bureau (NAB) in Pakistan?",
+                    "options": [
+                        "Counter-terrorism",
+                        "Economic regulation",
+                        "Anti-corruption",
+                        "Education policy"
+                    ],
+                    "a": 2,
+                    "ex": "The National Accountability Bureau (NAB) is Pakistan's anti-corruption organization."
+                },
+                {
+                    "q": "Which international organization is Pakistan a founding member of?",
+                    "options": [
+                        "European Union",
+                        "ASEAN",
+                        "SAARC",
+                        "NATO"
+                    ],
+                    "a": 2,
+                    "ex": "Pakistan is a founding member of the South Asian Association for Regional Cooperation (SAARC)."
+                }
+            ]
+        },
+        {
+            "id": "international-current-affairs",
+            "title": "International Current Affairs",
+            "questions": [
+                {
+                    "q": "Who is the current Secretary-General of the United Nations?",
+                    "options": [
+                        "Kofi Annan",
+                        "Ban Ki-moon",
+                        "António Guterres",
+                        "Boutros Boutros-Ghali"
+                    ],
+                    "a": 2,
+                    "ex": "António Guterres is the current Secretary-General of the United Nations."
+                },
+                {
+                    "q": "Which country currently holds the presidency of the G20?",
+                    "options": [
+                        "Brazil",
+                        "India",
+                        "Indonesia",
+                        "Argentina"
+                    ],
+                    "a": 0,
+                    "ex": "Brazil holds the G20 presidency in 2024."
+                },
+                {
+                    "q": "What is the name of the current Director-General of the World Health Organization (WHO)?",
+                    "options": [
+                        "Margaret Chan",
+                        "Tedros Adhanom Ghebreyesus",
+                        "Gro Harlem Brundtland",
+                        "Hiroshi Nakajima"
+                    ],
+                    "a": 1,
+                    "ex": "Dr. Tedros Adhanom Ghebreyesus is the current Director-General of the WHO."
+                },
+                {
+                    "q": "Which city hosted the most recent COP (Conference of the Parties) climate summit?",
+                    "options": [
+                        "Glasgow",
+                        "Sharm El Sheikh",
+                        "Dubai",
+                        "Paris"
+                    ],
+                    "a": 2,
+                    "ex": "COP28 was held in Dubai, UAE."
+                },
+                {
+                    "q": "What is the primary focus of the International Monetary Fund (IMF)?",
+                    "options": [
+                        "Promoting international peace",
+                        "Providing military aid",
+                        "Ensuring global monetary stability",
+                        "Facilitating international trade agreements"
+                    ],
+                    "a": 2,
+                    "ex": "The IMF's primary goal is to ensure global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth, and reduce poverty."
+                },
+                {
+                    "q": "Which country recently joined NATO as its newest member?",
+                    "options": [
+                        "Ukraine",
+                        "Sweden",
+                        "Finland",
+                        "Georgia"
+                    ],
+                    "a": 1,
+                    "ex": "Sweden recently became the newest member of NATO."
+                },
+                {
+                    "q": "What is the name of the current President of the European Commission?",
+                    "options": [
+                        "Angela Merkel",
+                        "Emmanuel Macron",
+                        "Ursula von der Leyen",
+                        "Charles Michel"
+                    ],
+                    "a": 2,
+                    "ex": "Ursula von der Leyen is the current President of the European Commission."
+                },
+                {
+                    "q": "Which major international event was significantly impacted by the COVID-19 pandemic in 2020?",
+                    "options": [
+                        "FIFA World Cup",
+                        "Olympic Games",
+                        "G7 Summit",
+                        "World Economic Forum"
+                    ],
+                    "a": 1,
+                    "ex": "The Tokyo 2020 Olympic Games were postponed due to the COVID-19 pandemic."
+                },
+                {
+                    "q": "What is the main objective of the World Trade Organization (WTO)?",
+                    "options": [
+                        "Providing humanitarian aid",
+                        "Regulating global trade",
+                        "Promoting cultural exchange",
+                        "Managing international security"
+                    ],
+                    "a": 1,
+                    "ex": "The WTO is the international organization that regulates and facilitates international trade."
+                },
+                {
+                    "q": "Which country is currently experiencing a major humanitarian crisis due to conflict?",
+                    "options": [
+                        "Canada",
+                        "Switzerland",
+                        "Yemen",
+                        "New Zealand"
+                    ],
+                    "a": 2,
+                    "ex": "Yemen has been experiencing a severe humanitarian crisis for several years due to ongoing conflict."
+                },
+                {
+                    "q": "What is the name of the international agreement aimed at reducing greenhouse gas emissions?",
+                    "options": [
+                        "Kyoto Protocol",
+                        "Montreal Protocol",
+                        "Paris Agreement",
+                        "Vienna Convention"
+                    ],
+                    "a": 2,
+                    "ex": "The Paris Agreement is a legally binding international treaty on climate change."
+                },
+                {
+                    "q": "Which international court deals with genocide, war crimes, and crimes against humanity?",
+                    "options": [
+                        "International Court of Justice",
+                        "European Court of Human Rights",
+                        "International Criminal Court",
+                        "Permanent Court of Arbitration"
+                    ],
+                    "a": 2,
+                    "ex": "The International Criminal Court (ICC) investigates and, where warranted, tries individuals charged with the gravest crimes of concern to the international community."
+                },
+                {
+                    "q": "What is the significance of the Belt and Road Initiative?",
+                    "options": [
+                        "A global environmental protection program",
+                        "A Chinese infrastructure development strategy",
+                        "An international space exploration project",
+                        "A global health initiative"
+                    ],
+                    "a": 1,
+                    "ex": "The Belt and Road Initiative is a global infrastructure development strategy adopted by the Chinese government to invest in more than 150 countries and international organizations."
+                },
+                {
+                    "q": "Which international organization is responsible for global financial stability?",
+                    "options": [
+                        "World Bank",
+                        "International Monetary Fund (IMF)",
+                        "Asian Development Bank",
+                        "New Development Bank"
+                    ],
+                    "a": 1,
+                    "ex": "The International Monetary Fund (IMF) is a key organization for promoting international financial stability."
+                },
+                {
+                    "q": "What is the term for a widespread occurrence of an infectious disease in a community at a particular time?",
+                    "options": [
+                        "Pandemic",
+                        "Epidemic",
+                        "Endemic",
+                        "Outbreak"
+                    ],
+                    "a": 1,
+                    "ex": "An epidemic is a widespread occurrence of an infectious disease in a community at a particular time."
+                },
+                {
+                    "q": "Which country was the host of the most recent Winter Olympic Games?",
+                    "options": [
+                        "South Korea",
+                        "China",
+                        "Russia",
+                        "Canada"
+                    ],
+                    "a": 1,
+                    "ex": "Beijing, China hosted the most recent Winter Olympic Games in 2022."
+                },
+                {
+                    "q": "What is the primary goal of the Sustainable Development Goals (SDGs)?",
+                    "options": [
+                        "To promote military alliances",
+                        "To achieve a better and more sustainable future for all",
+                        "To regulate global currency exchange rates",
+                        "To expand international trade agreements"
+                    ],
+                    "a": 1,
+                    "ex": "The SDGs are a collection of 17 interlinked global goals designed to be a 'blueprint to achieve a better and more sustainable future for all'."
+                },
+                {
+                    "q": "Which international body is responsible for coordinating efforts against terrorism?",
+                    "options": [
+                        "NATO",
+                        "United Nations Counter-Terrorism Centre",
+                        "Interpol",
+                        "World Bank"
+                    ],
+                    "a": 1,
+                    "ex": "The United Nations Counter-Terrorism Centre (UNCCT) plays a significant role in coordinating global counter-terrorism efforts."
+                },
+                {
+                    "q": "What is the name of the current President of the World Bank?",
+                    "options": [
+                        "Jim Yong Kim",
+                        "David Malpass",
+                        "Ajay Banga",
+                        "Kristalina Georgieva"
+                    ],
+                    "a": 2,
+                    "ex": "Ajay Banga is the current President of the World Bank."
+                },
+                {
+                    "q": "Which country has been significantly affected by the ongoing conflict in the Tigray region?",
+                    "options": [
+                        "Kenya",
+                        "Sudan",
+                        "Ethiopia",
+                        "Somalia"
+                    ],
+                    "a": 2,
+                    "ex": "The Tigray region is part of Ethiopia, and the conflict there has caused a major humanitarian crisis."
+                },
+                {
+                    "q": "What is the purpose of the UN Security Council?",
+                    "options": [
+                        "To promote economic development",
+                        "To maintain international peace and security",
+                        "To manage global health emergencies",
+                        "To facilitate international trade"
+                    ],
+                    "a": 1,
+                    "ex": "The UN Security Council has primary responsibility for the maintenance of international peace and security."
+                },
+                {
+                    "q": "Which region has been significantly impacted by the Sahel crisis?",
+                    "options": [
+                        "Southeast Asia",
+                        "The Arctic",
+                        "Sub-Saharan Africa",
+                        "Latin America"
+                    ],
+                    "a": 2,
+                    "ex": "The Sahel region is in Sub-Saharan Africa and faces significant challenges including conflict, poverty, and climate change."
+                },
+                {
+                    "q": "What is the name of the international treaty on the conservation and sustainable use of biodiversity?",
+                    "options": [
+                        "Ramsar Convention",
+                        "CITES",
+                        "Convention on Biological Diversity",
+                        "Bonn Convention"
+                    ],
+                    "a": 2,
+                    "ex": "The Convention on Biological Diversity (CBD) is an international treaty signed at the Earth Summit in Rio de Janeiro in 1992."
+                },
+                {
+                    "q": "Which international organization focuses on nuclear safety and security?",
+                    "options": [
+                        "NATO",
+                        "IAEA",
+                        "UNHCR",
+                        "UNESCO"
+                    ],
+                    "a": 1,
+                    "ex": "The International Atomic Energy Agency (IAEA) is the world's centre for cooperation in the nuclear field."
+                },
+                {
+                    "q": "What is the primary driver of recent global inflation?",
+                    "options": [
+                        "Decreased consumer demand",
+                        "Supply chain disruptions and energy prices",
+                        "Reduced government spending",
+                        "Increased global trade"
+                    ],
+                    "a": 1,
+                    "ex": "Recent global inflation has been largely attributed to supply chain disruptions, increased energy prices, and post-pandemic economic recovery."
+                },
+                {
+                    "q": "Which country is a permanent member of the UN Security Council?",
+                    "options": [
+                        "Germany",
+                        "Japan",
+                        "India",
+                        "France"
+                    ],
+                    "a": 3,
+                    "ex": "France is one of the five permanent members of the UN Security Council."
+                },
+                {
+                    "q": "What is the term for the forced displacement of people from their homes?",
+                    "options": [
+                        "Migration",
+                        "Immigration",
+                        "Refugee crisis",
+                        "Tourism"
+                    ],
+                    "a": 2,
+                    "ex": "A refugee crisis refers to a situation involving the large-scale forced displacement of people."
+                },
+                {
+                    "q": "Which international agreement deals with the law of the sea?",
+                    "options": [
+                        "Geneva Conventions",
+                        "Vienna Convention on the Law of Treaties",
+                        "United Nations Convention on the Law of the Sea (UNCLOS)",
+                        "Kyoto Protocol"
+                    ],
+                    "a": 2,
+                    "ex": "UNCLOS is an international treaty that establishes a legal framework for all marine and maritime activities."
+                },
+                {
+                    "q": "What is the main focus of Amnesty International?",
+                    "options": [
+                        "Environmental protection",
+                        "Human rights",
+                        "Economic development",
+                        "Space exploration"
+                    ],
+                    "a": 1,
+                    "ex": "Amnesty International is a non-governmental organization focused on human rights."
+                },
+                {
+                    "q": "Which country is a key member of the BRICS economic bloc?",
+                    "options": [
+                        "Canada",
+                        "Australia",
+                        "Brazil",
+                        "Mexico"
+                    ],
+                    "a": 2,
+                    "ex": "Brazil is a founding member of the BRICS economic bloc (Brazil, Russia, India, China, and South Africa)."
+                }
+            ]
+        },
+      {
+            "id": "political-affairs-pakistan",
+            "title": "Political Affairs (Pakistan)",
+            "questions": [
+                {
+                    "q": "Who is the current Prime Minister of Pakistan?",
+                    "options": [
+                        "Imran Khan",
+                        "Nawaz Sharif",
+                        "Shehbaz Sharif",
+                        "Asif Ali Zardari"
+                    ],
+                    "a": 2,
+                    "ex": "As of recent times, Shehbaz Sharif has served as the Prime Minister of Pakistan."
+                },
+                {
+                    "q": "What is the upper house of Pakistan's Parliament called?",
+                    "options": [
+                        "National Assembly",
+                        "Senate",
+                        "Provincial Assembly",
+                        "Supreme Court"
+                    ],
+                    "a": 1,
+                    "ex": "The Senate is the upper legislative chamber of the Parliament of Pakistan."
+                },
+                {
+                    "q": "Which political party currently holds the majority in the National Assembly of Pakistan?",
+                    "options": [
+                        "Pakistan Tehreek-e-Insaf (PTI)",
+                        "Pakistan Muslim League (N) (PML-N)",
+                        "Pakistan Peoples Party (PPP)",
+                        "Muttahida Qaumi Movement (MQM)"
+                    ],
+                    "a": 1,
+                    "ex": "The Pakistan Muslim League (N) (PML-N) has held significant power in recent governments."
+                },
+                {
+                    "q": "Who is the current President of Pakistan?",
+                    "options": [
+                        "Arif Alvi",
+                        "Mamnoon Hussain",
+                        "Asif Ali Zardari",
+                        "Bilawal Bhutto Zardari"
+                    ],
+                    "a": 2,
+                    "ex": "Asif Ali Zardari is currently the President of Pakistan."
+                },
+                {
+                    "q": "What is the minimum age to be eligible to vote in Pakistan?",
+                    "options": [
+                        "16",
+                        "18",
+                        "21",
+                        "25"
+                    ],
+                    "a": 1,
+                    "ex": "The minimum voting age in Pakistan is 18 years."
+                },
+                {
+                    "q": "Which provincial assembly is the largest in Pakistan?",
+                    "options": [
+                        "Punjab Assembly",
+                        "Sindh Assembly",
+                        "Khyber Pakhtunkhwa Assembly",
+                        "Balochistan Assembly"
+                    ],
+                    "a": 0,
+                    "ex": "The Punjab Assembly has the highest number of seats among Pakistan's provincial assemblies."
+                },
+                {
+                    "q": "What is the duration of a term for the National Assembly in Pakistan?",
+                    "options": [
+                        "4 years",
+                        "5 years",
+                        "6 years",
+                        "7 years"
+                    ],
+                    "a": 1,
+                    "ex": "A term for the National Assembly of Pakistan is five years."
+                },
+                {
+                    "q": "Who was the first Prime Minister of Pakistan?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Allama Muhammad Iqbal",
+                        "Liaquat Ali Khan",
+                        "Fatima Jinnah"
+                    ],
+                    "a": 2,
+                    "ex": "Liaquat Ali Khan was the first Prime Minister of Pakistan."
+                },
+                {
+                    "q": "What is the head of state in Pakistan called?",
+                    "options": [
+                        "Prime Minister",
+                        "President",
+                        "Chief Justice",
+                        "Speaker of the National Assembly"
+                    ],
+                    "a": 1,
+                    "ex": "The President is the head of state in Pakistan."
+                },
+                {
+                    "q": "What is the supreme judicial body of Pakistan?",
+                    "options": [
+                        "High Court",
+                        "Federal Shariat Court",
+                        "Supreme Court",
+                        "District Court"
+                    ],
+                    "a": 2,
+                    "ex": "The Supreme Court of Pakistan is the apex court in the judicial hierarchy."
+                },
+                {
+                    "q": "Which city serves as the capital of Pakistan?",
+                    "options": [
+                        "Lahore",
+                        "Karachi",
+                        "Islamabad",
+                        "Rawalpindi"
+                    ],
+                    "a": 2,
+                    "ex": "Islamabad is the capital city of Pakistan."
+                },
+                {
+                    "q": "What is the system of government in Pakistan?",
+                    "options": [
+                        "Presidential",
+                        "Parliamentary",
+                        "Monarchy",
+                        "Dictatorship"
+                    ],
+                    "a": 1,
+                    "ex": "Pakistan has a federal parliamentary republic system of government."
+                },
+                {
+                    "q": "What is the total number of seats in the National Assembly of Pakistan (excluding reserved seats)?",
+                    "options": [
+                        "272",
+                        "342",
+                        "446",
+                        "500"
+                    ],
+                    "a": 0,
+                    "ex": "The total number of general seats in the National Assembly is 272."
+                },
+                {
+                    "q": "What is the minimum age to be a member of the National Assembly in Pakistan?",
+                    "options": [
+                        "20",
+                        "25",
+                        "30",
+                        "35"
+                    ],
+                    "a": 1,
+                    "ex": "The minimum age to be a member of the National Assembly is 25 years."
+                },
+                {
+                    "q": "Which constitutional amendment in Pakistan restored the parliamentary system and curtailed presidential powers?",
+                    "options": [
+                        "8th Amendment",
+                        "17th Amendment",
+                        "18th Amendment",
+                        "20th Amendment"
+                    ],
+                    "a": 2,
+                    "ex": "The 18th Amendment to the Constitution of Pakistan significantly curtailed presidential powers and restored the parliamentary system."
+                },
+                {
+                    "q": "Who was the first female Prime Minister of Pakistan?",
+                    "options": [
+                        "Fatima Jinnah",
+                        "Begum Ra'ana Liaquat Ali Khan",
+                        "Benazir Bhutto",
+                        "Shireen Mazari"
+                    ],
+                    "a": 2,
+                    "ex": "Benazir Bhutto was the first female Prime Minister of Pakistan."
+                },
+                {
+                    "q": "What is the name of the treaty that demarcates the border between Pakistan and Afghanistan?",
+                    "options": [
+                        "Radcliffe Line",
+                        "McMahon Line",
+                        "Durand Line",
+                        "Line of Control"
+                    ],
+                    "a": 2,
+                    "ex": "The Durand Line is the 2,670 kilometer border between Afghanistan and Pakistan."
+                },
+                {
+                    "q": "Which year did Pakistan conduct its first successful nuclear tests?",
+                    "options": [
+                        "1974",
+                        "1998",
+                        "2001",
+                        "2008"
+                    ],
+                    "a": 1,
+                    "ex": "Pakistan conducted its first successful nuclear tests (Chagai-I) in 1998."
+                },
+                {
+                    "q": "What is the role of the Election Commission of Pakistan (ECP)?",
+                    "options": [
+                        "To manage the economy",
+                        "To conduct elections",
+                        "To control the military",
+                        "To interpret the constitution"
+                    ],
+                    "a": 1,
+                    "ex": "The Election Commission of Pakistan is an independent, autonomous, permanent and constitutional body responsible for organizing and conducting elections."
+                },
+                {
+                    "q": "Who is the Commander-in-Chief of the Pakistan Armed Forces?",
+                    "options": [
+                        "Prime Minister",
+                        "President",
+                        "Chief of Army Staff",
+                        "Minister of Defence"
+                    ],
+                    "a": 1,
+                    "ex": "The President of Pakistan is the Commander-in-Chief of the Pakistan Armed Forces."
+                },
+                {
+                    "q": "What is the name of Pakistan's intelligence agency?",
+                    "options": [
+                        "RAW",
+                        "ISI",
+                        "CIA",
+                        "Mossad"
+                    ],
+                    "a": 1,
+                    "ex": "The Inter-Services Intelligence (ISI) is the premier intelligence agency of Pakistan."
+                },
+                {
+                    "q": "What is the official name of the Parliament of Pakistan?",
+                    "options": [
+                        "Majlis-e-Shura",
+                        "Parliament House",
+                        "Peoples Assembly",
+                        "National Congress"
+                    ],
+                    "a": 0,
+                    "ex": "The Parliament of Pakistan is officially known as Majlis-e-Shura."
+                },
+                {
+                    "q": "Which bill aims to protect women against harassment in Pakistan?",
+                    "options": [
+                        "Anti-Terrorism Act",
+                        "Protection against Harassment of Women at the Workplace Act",
+                        "Cyber Crime Act",
+                        "Hudood Ordinances"
+                    ],
+                    "a": 1,
+                    "ex": "The Protection against Harassment of Women at the Workplace Act, 2010, is a key law in this regard."
+                },
+                {
+                    "q": "What is the primary function of the National Accountability Bureau (NAB) in Pakistan?",
+                    "options": [
+                        "To promote education",
+                        "To combat corruption",
+                        "To manage foreign policy",
+                        "To oversee defense production"
+                    ],
+                    "a": 1,
+                    "ex": "The National Accountability Bureau (NAB) is Pakistan's autonomous and constitutionally established federal institution responsible to combat corruption and investigate."
+                },
+                {
+                    "q": "What is the role of the Leader of the Opposition in the National Assembly of Pakistan?",
+                    "options": [
+                        "To lead the government",
+                        "To represent the majority party",
+                        "To scrutinize government policies",
+                        "To appoint judges"
+                    ],
+                    "a": 2,
+                    "ex": "The Leader of the Opposition plays a crucial role in scrutinizing government policies and providing an alternative viewpoint."
+                },
+                {
+                    "q": "Which province of Pakistan has the largest area?",
+                    "options": [
+                        "Punjab",
+                        "Sindh",
+                        "Khyber Pakhtunkhwa",
+                        "Balochistan"
+                    ],
+                    "a": 3,
+                    "ex": "Balochistan is the largest province of Pakistan by area."
+                },
+                {
+                    "q": "What is the role of the Attorney General for Pakistan?",
+                    "options": [
+                        "Chief of Army Staff",
+                        "Principal legal advisor to the government",
+                        "Speaker of the National Assembly",
+                        "Chief Election Commissioner"
+                    ],
+                    "a": 1,
+                    "ex": "The Attorney General for Pakistan is the chief legal advisor to the Government of Pakistan."
+                },
+                {
+                    "q": "Which is the longest-serving political party in Pakistan?",
+                    "options": [
+                        "PML-N",
+                        "PTI",
+                        "PPP",
+                        "MQM"
+                    ],
+                    "a": 2,
+                    "ex": "The Pakistan Peoples Party (PPP) has been a prominent political force in Pakistan for a significant period."
+                },
+                {
+                    "q": "What is the primary objective of the China-Pakistan Economic Corridor (CPEC)?",
+                    "options": [
+                        "Military alliance",
+                        "Cultural exchange program",
+                        "Infrastructure development and economic cooperation",
+                        "Space exploration"
+                    ],
+                    "a": 2,
+                    "ex": "CPEC is a collection of infrastructure projects under construction throughout Pakistan, aiming to boost economic growth."
+                },
+                {
+                    "q": "Who was the first military ruler of Pakistan?",
+                    "options": [
+                        "Ayub Khan",
+                        "Yahya Khan",
+                        "Zia-ul-Haq",
+                        "Pervez Musharraf"
+                    ],
+                    "a": 0,
+                    "ex": "Ayub Khan was the first military ruler and second President of Pakistan."
+                },
+                {
+                    "q": "What is the significance of the 23rd March in Pakistan's political history?",
+                    "options": [
+                        "Independence Day",
+                        "Quaid-e-Azam Day",
+                        "Pakistan Resolution Day",
+                        "Defence Day"
+                    ],
+                    "a": 2,
+                    "ex": "23rd March is celebrated as Pakistan Resolution Day, commemorating the adoption of the Lahore Resolution."
+                },
+                {
+                    "q": "What is the current number of administrative units (provinces and territories) in Pakistan?",
+                    "options": [
+                        "4 provinces, 1 territory",
+                        "4 provinces, 2 territories",
+                        "5 provinces, 1 territory",
+                        "5 provinces, 2 territories"
+                    ],
+                    "a": 1,
+                    "ex": "Pakistan consists of four provinces (Punjab, Sindh, Khyber Pakhtunkhwa, Balochistan) and two autonomous territories (Azad Jammu and Kashmir, Gilgit-Baltistan)."
+                }
+            ]
+        },
+        {
+            "id": "political-affairs-international",
+            "title": "Political Affairs (International)",
+            "questions": [
+                {
+                    "q": "Who is the current Secretary-General of the United Nations?",
+                    "options": [
+                        "Ban Ki-moon",
+                        "Kofi Annan",
+                        "António Guterres",
+                        "Boutros Boutros-Ghali"
+                    ],
+                    "a": 2,
+                    "ex": "António Guterres is the current Secretary-General of the United Nations."
+                },
+                {
+                    "q": "Which international organization is responsible for maintaining international peace and security?",
+                    "options": [
+                        "World Health Organization (WHO)",
+                        "International Monetary Fund (IMF)",
+                        "United Nations (UN)",
+                        "World Trade Organization (WTO)"
+                    ],
+                    "a": 2,
+                    "ex": "The United Nations (UN) is the primary international organization dedicated to maintaining international peace and security."
+                },
+                {
+                    "q": "What is the G7?",
+                    "options": [
+                        "A military alliance",
+                        "A group of the world's seven largest developed economies",
+                        "A cultural exchange program",
+                        "A sports governing body"
+                    ],
+                    "a": 1,
+                    "ex": "The G7 is an informal bloc of seven major advanced economies."
+                },
+                {
+                    "q": "Which international treaty aims to combat climate change?",
+                    "options": [
+                        "Kyoto Protocol",
+                        "Geneva Conventions",
+                        "Paris Agreement",
+                        "Treaty of Rome"
+                    ],
+                    "a": 2,
+                    "ex": "The Paris Agreement is a legally binding international treaty on climate change."
+                },
+                {
+                    "q": "What is the primary purpose of NATO?",
+                    "options": [
+                        "Economic cooperation",
+                        "Collective defense",
+                        "Cultural promotion",
+                        "Space exploration"
+                    ],
+                    "a": 1,
+                    "ex": "The North Atlantic Treaty Organization (NATO) is a military alliance based on the principle of collective defense."
+                },
+                {
+                    "q": "Which country is NOT a permanent member of the UN Security Council?",
+                    "options": [
+                        "United States",
+                        "China",
+                        "Germany",
+                        "Russia"
+                    ],
+                    "a": 2,
+                    "ex": "Germany is not a permanent member of the UN Security Council; the permanent members are China, France, Russia, the United Kingdom, and the United States."
+                },
+                {
+                    "q": "What is the official currency of the European Union?",
+                    "options": [
+                        "Pound Sterling",
+                        "Euro",
+                        "Swiss Franc",
+                        "Yen"
+                    ],
+                    "a": 1,
+                    "ex": "The Euro is the official currency of the Eurozone, which consists of 20 member states of the European Union."
+                },
+                {
+                    "q": "Which international court is responsible for prosecuting individuals accused of genocide, war crimes, and crimes against humanity?",
+                    "options": [
+                        "International Court of Justice (ICJ)",
+                        "European Court of Human Rights (ECHR)",
+                        "International Criminal Court (ICC)",
+                        "World Court"
+                    ],
+                    "a": 2,
+                    "ex": "The International Criminal Court (ICC) investigates and, where warranted, tries individuals charged with the gravest crimes of concern to the international community: genocide, war crimes, crimes against humanity and the crime of aggression."
+                },
+                {
+                    "q": "What is the Non-Aligned Movement?",
+                    "options": [
+                        "A military bloc",
+                        "A group of states not formally aligned with or against any major power bloc",
+                        "An economic union",
+                        "A religious organization"
+                    ],
+                    "a": 1,
+                    "ex": "The Non-Aligned Movement is a forum of 120 developing world states that are not formally aligned with or against any major power bloc."
+                },
+                {
+                    "q": "Which agreement established the World Trade Organization (WTO)?",
+                    "options": [
+                        "Treaty of Lisbon",
+                        "Marrakesh Agreement",
+                        "Bretton Woods Agreement",
+                        "Treaty of Versailles"
+                    ],
+                    "a": 1,
+                    "ex": "The World Trade Organization (WTO) was established by the Marrakesh Agreement in 1994."
+                },
+                {
+                    "q": "What is the UN's primary humanitarian aid agency?",
+                    "options": [
+                        "UNICEF",
+                        "UNDP",
+                        "UNHCR",
+                        "OCHA"
+                    ],
+                    "a": 3,
+                    "ex": "The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is the primary UN agency responsible for coordinating humanitarian aid."
+                },
+                {
+                    "q": "Which treaty ended World War I?",
+                    "options": [
+                        "Treaty of Tordesillas",
+                        "Treaty of Paris",
+                        "Treaty of Versailles",
+                        "Treaty of Westphalia"
+                    ],
+                    "a": 2,
+                    "ex": "The Treaty of Versailles, signed in 1919, officially ended World War I."
+                },
+                {
+                    "q": "What is the main focus of the International Labour Organization (ILO)?",
+                    "options": [
+                        "Environmental protection",
+                        "Workers' rights and labor standards",
+                        "Space exploration",
+                        "Global health"
+                    ],
+                    "a": 1,
+                    "ex": "The International Labour Organization (ILO) is a United Nations agency whose mandate is to advance social justice and promote decent work by setting international labour standards."
+                },
+                {
+                    "q": "Which organization is responsible for international financial stability and monetary cooperation?",
+                    "options": [
+                        "World Bank",
+                        "International Monetary Fund (IMF)",
+                        "Asian Development Bank (ADB)",
+                        "European Central Bank (ECB)"
+                    ],
+                    "a": 1,
+                    "ex": "The International Monetary Fund (IMF) is a major financial agency of the United Nations, and an international financial institution."
+                },
+                {
+                    "q": "What is the UN Human Rights Council responsible for?",
+                    "options": [
+                        "Managing UN finances",
+                        "Promoting and protecting human rights",
+                        "Overseeing UN peacekeeping operations",
+                        "Resolving trade disputes"
+                    ],
+                    "a": 1,
+                    "ex": "The UN Human Rights Council is an intergovernmental body within the United Nations system responsible for strengthening the promotion and protection of human rights around the world."
+                },
+                {
+                    "q": "Which international agreement aims to prevent the spread of nuclear weapons?",
+                    "options": [
+                        "Comprehensive Nuclear-Test-Ban Treaty (CTBT)",
+                        "Nuclear Non-Proliferation Treaty (NPT)",
+                        "Strategic Arms Limitation Treaty (SALT)",
+                        "Intermediate-Range Nuclear Forces Treaty (INF Treaty)"
+                    ],
+                    "a": 1,
+                    "ex": "The Nuclear Non-Proliferation Treaty (NPT) is a landmark international treaty whose objective is to prevent the spread of nuclear weapons and weapons technology, to promote cooperation in the peaceful uses of nuclear energy, and to further the goal of achieving nuclear disarmament."
+                },
+                {
+                    "q": "What is the G20?",
+                    "options": [
+                        "A military alliance",
+                        "A forum for international economic cooperation",
+                        "A cultural organization",
+                        "A group of developing countries"
+                    ],
+                    "a": 1,
+                    "ex": "The G20 is an international forum for the governments and central bank governors from 19 countries and the European Union."
+                },
+                {
+                    "q": "Which city is the headquarters of the International Criminal Court (ICC)?",
+                    "options": [
+                        "New York",
+                        "Geneva",
+                        "The Hague",
+                        "London"
+                    ],
+                    "a": 2,
+                    "ex": "The seat of the International Criminal Court (ICC) is in The Hague, Netherlands."
+                },
+                {
+                    "q": "What is the primary goal of the Sustainable Development Goals (SDGs) set by the UN?",
+                    "options": [
+                        "To increase global trade",
+                        "To achieve a better and more sustainable future for all",
+                        "To establish a world government",
+                        "To promote space tourism"
+                    ],
+                    "a": 1,
+                    "ex": "The Sustainable Development Goals (SDGs) are a collection of 17 interlinked global goals designed to be a 'blueprint to achieve a better and more sustainable future for all'."
+                },
+                {
+                    "q": "Which organization is responsible for coordinating public health activities internationally?",
+                    "options": [
+                        "UNICEF",
+                        "WHO",
+                        "UNESCO",
+                        "FAO"
+                    ],
+                    "a": 1,
+                    "ex": "The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health."
+                },
+                {
+                    "q": "What is the term used to describe the removal of trade barriers between countries?",
+                    "options": [
+                        "Protectionism",
+                        "Nationalization",
+                        "Trade liberalization",
+                        "Globalization"
+                    ],
+                    "a": 2,
+                    "ex": "Trade liberalization is the removal or reduction of restrictions or barriers on the free exchange of goods and services between nations."
+                },
+                {
+                    "q": "Which international treaty governs the law of the sea?",
+                    "options": [
+                        "Geneva Conventions",
+                        "Vienna Convention on the Law of Treaties",
+                        "United Nations Convention on the Law of the Sea (UNCLOS)",
+                        "Kyoto Protocol"
+                    ],
+                    "a": 2,
+                    "ex": "The United Nations Convention on the Law of the Sea (UNCLOS) is an international treaty which establishes a legal framework for all marine and maritime activities."
+                },
+                {
+                    "q": "What is the primary function of the International Court of Justice (ICJ)?",
+                    "options": [
+                        "To prosecute individuals for war crimes",
+                        "To settle legal disputes between states",
+                        "To regulate international trade",
+                        "To coordinate humanitarian aid"
+                    ],
+                    "a": 1,
+                    "ex": "The International Court of Justice (ICJ) is the principal judicial organ of the United Nations and settles legal disputes between states."
+                },
+                {
+                    "q": "Which alliance was formed during the Cold War by the Soviet Union and its satellite states?",
+                    "options": [
+                        "NATO",
+                        "SEATO",
+                        "Warsaw Pact",
+                        "CENTO"
+                    ],
+                    "a": 2,
+                    "ex": "The Warsaw Pact was a collective defense treaty signed in Warsaw, Poland, between the Soviet Union and seven Eastern Bloc satellite states of Central and Eastern Europe during the Cold War."
+                },
+                {
+                    "q": "What is the purpose of UN peacekeeping operations?",
+                    "options": [
+                        "To wage war",
+                        "To intervene in internal conflicts unilaterally",
+                        "To help countries navigate the path from conflict to peace",
+                        "To impose sanctions on hostile states"
+                    ],
+                    "a": 2,
+                    "ex": "UN peacekeeping operations help countries navigate the path from conflict to peace. They are guided by three basic principles: consent of the parties, impartiality, and non-use of force, except in self-defense and defense of the mandate."
+                },
+                {
+                    "q": "Which international organization focuses on promoting education, science, and culture?",
+                    "options": [
+                        "WHO",
+                        "UNICEF",
+                        "UNESCO",
+                        "FAO"
+                    ],
+                    "a": 2,
+                    "ex": "The United Nations Educational, Scientific and Cultural Organization (UNESCO) is a specialized agency of the United Nations aimed at promoting world peace and security through international cooperation in education, arts, sciences, and the fostering of mutual understanding."
+                },
+                {
+                    "q": "What is the term for the formal withdrawal of a nation from a union or political body?",
+                    "options": [
+                        "Annexation",
+                        "Secession",
+                        "Federation",
+                        "Coalition"
+                    ],
+                    "a": 1,
+                    "ex": "Secession is the act of withdrawing formally from membership of a federation or body, especially a political state."
+                },
+                {
+                    "q": "Which international agreement aims to reduce emissions of greenhouse gases?",
+                    "options": [
+                        "Montreal Protocol",
+                        "Kyoto Protocol",
+                        "Vienna Convention",
+                        "Basel Convention"
+                    ],
+                    "a": 1,
+                    "ex": "The Kyoto Protocol is an international treaty which extends the 1992 United Nations Framework Convention on Climate Change (UNFCCC) that commits state parties to reduce greenhouse gas emissions."
+                },
+                {
+                    "q": "What is the role of the International Atomic Energy Agency (IAEA)?",
+                    "options": [
+                        "To promote nuclear weapons development",
+                        "To regulate international trade in nuclear materials",
+                        "To promote the peaceful use of nuclear energy and prevent its use for any military purpose",
+                        "To manage nuclear waste disposal"
+                    ],
+                    "a": 2,
+                    "ex": "The International Atomic Energy Agency (IAEA) is the world's centre for cooperation in the nuclear field, promoting the safe, secure and peaceful use of nuclear technology."
+                },
+                {
+                    "q": "Which organization is responsible for protecting refugees worldwide?",
+                    "options": [
+                        "UNDP",
+                        "UNHCR",
+                        "UNICEF",
+                        "OCHA"
+                    ],
+                    "a": 1,
+                    "ex": "The United Nations High Commissioner for Refugees (UNHCR) is a UN agency mandated to protect and support refugees at the request of a government or the UN itself."
+                }
+            ]
+        }
+    ]
+}
