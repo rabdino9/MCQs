@@ -1,1 +1,2381 @@
-
+{
+  "meta": {
+    "title": "Public Administration & Management MCQs",
+    "description": "Practice questions on the fundamentals of Public Administration.",
+    "keywords": "public administration, mcqs, quiz, government, bureaucracy, policy, management"
+  },
+  "subcategories": [
+    {
+      "id": "intro_pa",
+      "title": "Introduction to Public Administration",
+      "questions": [
+        {
+          "q": "Which scholar is often considered the 'father of public administration'?",
+          "options": ["Max Weber", "Woodrow Wilson", "Frederick Taylor", "Henri Fayol"],
+          "a": 1,
+          "ex": "Woodrow Wilson's essay 'The Study of Administration' is widely regarded as a foundational text in the field of public administration."
+        },
+        {
+          "q": "Public administration primarily deals with:",
+          "options": ["Business management", "Non-profit organizations", "Government operations", "Military strategy"],
+          "a": 2,
+          "ex": "Public administration is concerned with the implementation of government policy and the management of public affairs."
+        },
+        {
+          "q": "The politics-administration dichotomy suggests a separation between:",
+          "options": ["Legislature and Judiciary", "Policy formulation and policy implementation", "Federal and state government", "Public and private sector"],
+          "a": 1,
+          "ex": "The politics-administration dichotomy, proposed by Woodrow Wilson, suggests that politics (policy formulation) should be separate from administration (policy implementation)."
+        },
+        {
+          "q": "Which of the following is a key characteristic of bureaucracy according to Max Weber?",
+          "options": ["Informal procedures", "Nepotism", "Hierarchical authority", "Lack of specialization"],
+          "a": 2,
+          "ex": "Hierarchical authority, specialization, and formal rules are key characteristics of bureaucracy in Max Weber's ideal type."
+        },
+        {
+          "q": "The concept of 'span of control' refers to:",
+          "options": ["The geographic area an administrator covers", "The number of subordinates a manager can effectively supervise", "The length of time a policy remains in effect", "The range of services a public agency provides"],
+          "a": 1,
+          "ex": "Span of control in organizational theory refers to the number of subordinates a manager can effectively supervise."
+        },
+        {
+          "q": "POSDCORB is an acronym representing key functions of management, coined by:",
+          "options": ["Luther Gulick and Lyndall Urwick", "Herbert Simon", "Chester Barnard", "Mary Parker Follett"],
+          "a": 0,
+          "ex": "POSDCORB (Planning, Organizing, Staffing, Directing, Coordinating, Reporting, Budgeting) was introduced by Luther Gulick and Lyndall Urwick as a framework for administrative activities."
+        },
+        {
+          "q": "Accountability in public administration means being answerable for:",
+          "options": ["Political endorsements", "Personal wealth", "Actions and decisions", "Public opinion polls"],
+          "a": 2,
+          "ex": "Accountability in public administration is the obligation of officials to be answerable for their actions and decisions to those they serve."
+        },
+        {
+          "q": "Efficiency in public administration is concerned with:",
+          "options": ["Achieving goals regardless of cost", "Using resources to achieve maximum output with minimum input", "Popularity of policies", "Level of public satisfaction"],
+          "a": 1,
+          "ex": "Efficiency focuses on using resources effectively to achieve the desired results with minimal waste."
+        },
+        {
+          "q": "The study of public administration involves aspects of:",
+          "options": ["Only political science", "Only sociology", "Various social sciences", "Only economics"],
+          "a": 2,
+          "ex": "Public administration is an interdisciplinary field drawing from political science, sociology, economics, law, and management."
+        },
+        {
+          "q": "Public policy refers to:",
+          "options": ["Individual opinions on government actions", "Laws, regulations, and actions of government", "Campaign promises of politicians", "Academic theories about governance"],
+          "a": 1,
+          "ex": "Public policy encompasses the decisions, laws, and actions undertaken by governments to address societal issues."
+        },
+        {
+          "q": "Which model of public administration emphasizes efficiency and economy?",
+          "options": ["New Public Management", "Traditional Bureaucracy", "Collaborative Governance", "Public Value Theory"],
+          "a": 0,
+          "ex": "New Public Management (NPM) emphasizes market-oriented reforms, efficiency, and effectiveness in public services."
+        },
+        {
+          "q": "Ethics in public administration deals with:",
+          "options": ["Personal preferences of administrators", "Moral principles and standards of conduct", "Financial profitability of public agencies", "Political party affiliations"],
+          "a": 1,
+          "ex": "Ethics in public administration involves adhering to moral principles and standards in the conduct of public duties."
+        },
+        {
+          "q": "Citizen participation in public administration aims to:",
+          "options": ["Increase administrative burden", "Enhance legitimacy and responsiveness", "Reduce government size", "Limit public access to information"],
+          "a": 1,
+          "ex": "Citizen participation can enhance the legitimacy of decisions and make public services more responsive to community needs."
+        },
+        {
+          "q": "The concept of 'administrative discretion' refers to:",
+          "options": ["Freedom from accountability", "The power of administrators to make choices within legal limits", "Strict adherence to rigid rules", "Ignoring public input"],
+          "a": 1,
+          "ex": "Administrative discretion is the latitude given to administrators to make decisions and apply rules in specific situations."
+        },
+        {
+          "q": "Privatization in the context of public administration means:",
+          "options": ["Increasing government control over industries", "Transferring public services or assets to the private sector", "Nationalizing private companies", "Expanding public employee unions"],
+          "a": 1,
+          "ex": "Privatization involves shifting the provision of goods or services from the public sector to the private sector."
+        },
+        {
+          "q": "The study of organizational behavior in public administration focuses on:",
+          "options": ["Financial accounting", "Individual and group dynamics within public agencies", "Engineering principles", "Marketing strategies"],
+          "a": 1,
+          "ex": "Organizational behavior examines how individuals and groups interact within the context of public organizations."
+        },
+        {
+          "q": "Performance management in public administration is concerned with:",
+          "options": ["Evaluating the efficiency and effectiveness of programs and services", "Political campaigning", "Employee satisfaction only", "Historical research"],
+          "a": 0,
+          "ex": "Performance management involves setting goals, monitoring progress, and evaluating the outcomes of public sector activities."
+        },
+        {
+          "q": "Which of the following is a challenge in public administration?",
+          "options": ["Clear and simple objectives", "Abundant resources", "Political interference", "Unified public opinion"],
+          "a": 2,
+          "ex": "Political interference and pressure can be significant challenges for public administrators in implementing policies effectively."
+        },
+        {
+          "q": "Public budgeting is a process of:",
+          "options": ["Private investment", "Allocating financial resources to government programs and services", "Calculating personal income tax", "Managing corporate finances"],
+          "a": 1,
+          "ex": "Public budgeting involves the planning, allocation, and control of financial resources for government operations."
+        },
+        {
+          "q": "Intergovernmental relations in public administration refers to interactions between:",
+          "options": ["Different branches of the same government", "Government agencies and private companies", "Different levels of government (federal, state, local)", "Public administrators and the media"],
+          "a": 2,
+          "ex": "Intergovernmental relations involve the interactions and relationships between different levels of government within a country."
+        },
+        {
+          "q": "The concept of 'rule of law' in public administration implies that:",
+          "options": ["Administrators are above the law", "Government actions are based on established laws and principles", "Laws are arbitrary and can be changed easily", "Only some citizens are subject to the law"],
+          "a": 1,
+          "ex": "The rule of law means that government officials and citizens are subject to and accountable under the law."
+        },
+        {
+          "q": "Merit system in public administration emphasizes hiring and promotion based on:",
+          "options": ["Political connections", "Personal relationships", "Qualifications and performance", "Seniority only"],
+          "a": 2,
+          "ex": "A merit system focuses on selecting and advancing employees based on their skills, knowledge, and abilities, rather than political patronage."
+        },
+        {
+          "q": "The Pendleton Civil Service Act of 1883 in the United States was a significant reform aimed at reducing:",
+          "options": ["Government spending", "Bureaucratic efficiency", "Political patronage in public employment", "Public accountability"],
+          "a": 2,
+          "ex": "The Pendleton Act established the principle of federal government jobs being awarded on the basis of merit, reducing the spoils system."
+        },
+        {
+          "q": "Transparency in public administration involves:",
+          "options": ["Operating in secrecy", "Making government processes and information accessible to the public", "Restricting access to official documents", "Ignoring public inquiries"],
+          "a": 1,
+          "ex": "Transparency promotes openness and allows the public to see how government decisions are made and resources are used."
+        },
+        {
+          "q": "The concept of 'public interest' in public administration refers to:",
+          "options": ["The interests of a select few", "The collective well-being and common good of society", "The preferences of administrators", "Political party agendas"],
+          "a": 1,
+          "ex": "Serving the public interest is a core value in public administration, focusing on the overall benefit of the community."
+        },
+        {
+          "q": "Public administration differs from private administration primarily in its:",
+          "options": ["Focus on profit maximization", "Goal of serving the public interest", "Hierarchical structure", "Use of technology"],
+          "a": 1,
+          "ex": "While both involve management, public administration's primary goal is to serve the public interest and implement government policy, not to maximize profit."
+        },
+        {
+          "q": "The study of bureaucracy as an organizational form was heavily influenced by:",
+          "options": ["Karl Marx", "Max Weber", "John Maynard Keynes", "Adam Smith"],
+          "a": 1,
+          "ex": "Max Weber provided a seminal analysis of bureaucracy as a rational and efficient organizational structure."
+        },
+        {
+          "q": "Decentralization in public administration involves:",
+          "options": ["Concentrating power at the central level", "Distributing power and responsibility to lower levels of government or administration", "Reducing the size of government", "Increasing administrative rules"],
+          "a": 1,
+          "ex": "Decentralization involves the transfer of authority and responsibility for public functions from central to lower levels of government or administration."
+        },
+        {
+          "q": "The concept of 'administrative law' deals with:",
+          "options": ["Criminal offenses by administrators", "Laws governing the activities of administrative agencies", "International treaties", "Constitutional amendments"],
+          "a": 1,
+          "ex": "Administrative law is the body of law that governs the activities of administrative agencies of government."
+        },
+        {
+          "q": "Evaluation in public administration is used to assess:",
+          "options": ["Political popularity", "The effectiveness and impact of programs and policies", "Employee attendance records", "Media coverage"],
+          "a": 1,
+          "ex": "Program evaluation assesses whether public programs are achieving their intended goals and having the desired impact."
+        },
+        {
+          "q": "The iron triangle in public administration refers to a relationship between:",
+          "options": ["Three branches of government", "Legislative committees, interest groups, and administrative agencies", "Federal, state, and local governments", "Public, private, and non-profit sectors"],
+          "a": 1,
+          "ex": "The iron triangle describes a close, mutually beneficial relationship between a congressional committee, an interest group, and a bureaucratic agency."
+        },
+        {
+          "q": "Public sector ethics often emphasizes values such as:",
+          "options": ["Competitiveness and innovation", "Neutrality, impartiality, and integrity", "Aggressive marketing", "Maximizing shareholder value"],
+          "a": 1,
+          "ex": "Public sector ethics stresses values like neutrality, impartiality, fairness, and integrity in serving the public."
+        },
+        {
+          "q": "The concept of 'stakeholders' in public administration refers to:",
+          "options": ["Only government employees", "Individuals, groups, or organizations that have an interest or are affected by public policies and programs", "Political party leaders only", "Foreign dignitaries"],
+          "a": 1,
+          "ex": "Stakeholders are all parties who have an interest or are affected by the decisions and actions of public administrators and agencies."
+        },
+        {
+          "q": "Implementation of public policy is the process of:",
+          "options": ["Formulating new laws", "Putting government policies into effect", "Debating policy proposals", "Judicial review of laws"],
+          "a": 1,
+          "ex": "Policy implementation is the stage where government policies are translated into action and put into practice by administrative agencies."
+        },
+        {
+          "q": "The concept of 'representative bureaucracy' suggests that the composition of the bureaucracy should reflect the demographics of the population it serves. This is linked to the idea of:",
+          "options": ["Efficiency", "Accountability", "Legitimacy", "Profitability"],
+          "a": 2,
+          "ex": "A representative bureaucracy is seen as more legitimate because it is perceived to better understand and represent the diverse interests of the populace."
+        }
+      ]
+    },
+    {
+      "id": "evolution_approaches",
+      "title": "Evolution and Approaches to Public Administration",
+      "questions": [
+        {
+          "q": "The study of public administration as a distinct field is often attributed to which of the following:",
+          "options": [
+            "Frederick Taylor",
+            "Max Weber",
+            "Woodrow Wilson",
+            "Luther Gulick"
+          ],
+          "a": 2,
+          "ex": "Woodrow Wilson's essay 'The Study of Administration' in 1887 is widely considered a foundational text for establishing public administration as an academic discipline."
+        },
+        {
+          "q": "The Classical Approach to public administration is primarily concerned with:",
+          "options": [
+            "Human behavior in organizations",
+            "Efficiency and effectiveness",
+            "Political context of administration",
+            "Organizational culture"
+          ],
+          "a": 1,
+          "ex": "The Classical Approach, including Scientific Management and Administrative Management, focused on improving efficiency and effectiveness through principles of organization and management."
+        },
+        {
+          "q": "Who is considered the father of Scientific Management?",
+          "options": [
+            "Henri Fayol",
+            "Frederick Taylor",
+            "Chester Barnard",
+            "Herbert Simon"
+          ],
+          "a": 1,
+          "ex": "Frederick Taylor is recognized as the father of Scientific Management, advocating for the application of scientific methods to analyze and improve work processes."
+        },
+        {
+          "q": "The Hawthorne experiments are associated with which approach to public administration?",
+          "options": [
+            "Classical Approach",
+            "Human Relations Approach",
+            "Systems Approach",
+            "Contingency Approach"
+          ],
+          "a": 1,
+          "ex": "The Hawthorne experiments, conducted at the Western Electric Hawthorne Works, were instrumental in the development of the Human Relations Approach, highlighting the importance of social and psychological factors in the workplace."
+        },
+        {
+          "q": "Which approach views an organization as a set of interconnected parts working together to achieve a common goal?",
+          "options": [
+            "Behavioral Approach",
+            "New Public Administration",
+            "Systems Approach",
+            "Public Choice Approach"
+          ],
+          "a": 2,
+          "ex": "The Systems Approach considers an organization as a system composed of interrelated subsystems, interacting with its environment."
+        },
+        {
+          "q": "The concept of 'bounded rationality' is a key idea in the work of:",
+          "options": [
+            "Max Weber",
+            "Abraham Maslow",
+            "Herbert Simon",
+            "Dwight Waldo"
+          ],
+          "a": 2,
+          "ex": "Herbert Simon introduced the concept of bounded rationality, suggesting that decision-makers in organizations have limitations in their ability to process information and make perfectly rational decisions."
+        },
+        {
+          "q": "Which approach emphasizes that there is no single best way to organize or manage, and that the optimal approach depends on the specific situation?",
+          "options": [
+            "Classical Approach",
+            "Human Relations Approach",
+            "Contingency Approach",
+            "New Public Management"
+          ],
+          "a": 2,
+          "ex": "The Contingency Approach argues that effective management practices are contingent upon the specific circumstances and context of the organization."
+        },
+        {
+          "q": "New Public Administration (NPA) emerged in response to criticisms of:",
+          "options": [
+            "The political neutrality of administration",
+            "The focus on efficiency over social equity",
+            "The lack of hierarchical control",
+            "The influence of civil society"
+          ],
+          "a": 1,
+          "ex": "NPA emerged in the late 1960s, advocating for a more socially conscious and responsive public administration, moving beyond a sole focus on efficiency."
+        },
+        {
+          "q": "Who is a prominent figure associated with the Minnowbrook Conferences, which were significant in the development of New Public Administration?",
+          "options": [
+            "Frederick Taylor",
+            "Woodrow Wilson",
+            "Dwight Waldo",
+            "Luther Gulick"
+          ],
+          "a": 2,
+          "ex": "Dwight Waldo played a leading role in organizing the first Minnowbrook Conference in 1968, which is considered a landmark event in the emergence of NPA."
+        },
+        {
+          "q": "The Comparative Public Administration (CPA) approach focuses on:",
+          "options": [
+            "Studying administration within a single country",
+            "Comparing administrative systems across different countries and cultures",
+            "Analyzing the legal framework of administration",
+            "Examining the financial management of public organizations"
+          ],
+          "a": 1,
+          "ex": "CPA involves the cross-cultural and cross-national study of public administration to understand similarities and differences in administrative systems."
+        },
+        {
+          "q": "Which approach borrows concepts and methods from economics to analyze public sector decision-making?",
+          "options": [
+            "Behavioral Approach",
+            "Public Choice Approach",
+            "Systems Approach",
+            "Development Administration"
+          ],
+          "a": 1,
+          "ex": "The Public Choice Approach applies economic principles, such as rational choice and self-interest, to understand the behavior of actors in the public sector."
+        },
+        {
+          "q": "Development Administration is concerned with public administration in the context of:",
+          "options": [
+            "Developed countries",
+            "Developing countries and their socio-economic transformation",
+            "International organizations",
+            "Local government"
+          ],
+          "a": 1,
+          "ex": "Development Administration focuses on the administrative aspects of planned change and socio-economic development in developing nations."
+        },
+        {
+          "q": "The concept of 'prismatic society' is associated with the work of:",
+          "options": [
+            "Max Weber",
+            "Fred Riggs",
+            "Herbert Simon",
+            "Luther Gulick"
+          ],
+          "a": 1,
+          "ex": "Fred Riggs introduced the 'prismatic society' model within Comparative Public Administration to describe the characteristics of administrative systems in transitional societies."
+        },
+        {
+          "q": "Which administrative theorist is known for his concept of 'authority of the situation'?",
+          "options": [
+            "Henri Fayol",
+            "Mary Parker Follett",
+            "Frederick Taylor",
+            "Max Weber"
+          ],
+          "a": 1,
+          "ex": "Mary Parker Follett emphasized the 'authority of the situation' in management, suggesting that authority should derive from knowledge and expertise relevant to the specific problem."
+        },
+        {
+          "q": "The move towards a more client-oriented and market-driven public sector is characteristic of:",
+          "options": [
+            "Classical Approach",
+            "New Public Administration",
+            "New Public Management",
+            "Development Administration"
+          ],
+          "a": 2,
+          "ex": "New Public Management (NPM) emphasizes market-based mechanisms, efficiency, and a focus on results and customer satisfaction in the public sector."
+        },
+        {
+          "q": "Which of the following is NOT a key theme of New Public Management?",
+          "options": [
+            "Emphasis on inputs over outputs",
+            "Increased competition",
+            "Use of performance indicators",
+            "Decentralization"
+          ],
+          "a": 0,
+          "ex": "NPM focuses on outputs and outcomes rather than just inputs, aiming for greater efficiency and accountability."
+        },
+        {
+          "q": "The concept of 'governance' broader than 'government' includes:",
+          "options": [
+            "Only the actions of the state",
+            "The role of civil society and the private sector",
+            "Only economic policies",
+            "Only legislative processes"
+          ],
+          "a": 1,
+          "ex": "Governance is a broader concept that encompasses the interactions and decision-making processes involving not just the government but also civil society organizations and the private sector."
+        },
+        {
+          "q": "Which approach highlights the importance of ethical considerations and social equity in public administration?",
+          "options": [
+            "Classical Approach",
+            "Scientific Management",
+            "New Public Administration",
+            "Public Choice Approach"
+          ],
+          "a": 2,
+          "ex": "New Public Administration placed a strong emphasis on values, ethics, and addressing social inequalities in public service."
+        },
+        {
+          "q": "The 'politics-administration dichotomy' is a concept primarily associated with:",
+          "options": [
+            "Max Weber",
+            "Woodrow Wilson",
+            "Herbert Simon",
+            "Fred Riggs"
+          ],
+          "a": 1,
+          "ex": "Woodrow Wilson argued for a separation between politics (policy-making) and administration (policy implementation), a concept known as the politics-administration dichotomy."
+        },
+        {
+          "q": "Which theory suggests that organizational behavior is influenced by a hierarchy of needs?",
+          "options": [
+            "Scientific Management",
+            "Bureaucratic Theory",
+            "Human Relations Theory",
+            "Decision-Making Theory"
+          ],
+          "a": 2,
+          "ex": "Human Relations Theory, particularly the work of Abraham Maslow and his hierarchy of needs, explored the role of human motivation and satisfaction in organizational performance."
+        },
+        {
+          "q": "The concept of 'administrative man' who makes 'satisficing' decisions is from the work of:",
+          "options": [
+            "Luther Gulick",
+            "Lyndall Urwick",
+            "Herbert Simon",
+            "Chester Barnard"
+          ],
+          "a": 2,
+          "ex": "Herbert Simon proposed the model of the 'administrative man' who makes decisions that are 'satisficing' (good enough) rather than perfectly rational, due to cognitive limitations."
+        },
+        {
+          "q": "Which approach views administration as a network of relationships and interactions?",
+          "options": [
+            "Classical Approach",
+            "Human Relations Approach",
+            "Systems Approach",
+            "New Public Management"
+          ],
+          "a": 2,
+          "ex": "The Systems Approach emphasizes the interconnectedness of various components within and outside the organization, viewing it as a dynamic system."
+        },
+        
+        {
+          "q": "The study of public administration is often considered interdisciplinary, drawing from fields such as:",
+          "options": [
+            "Economics and Sociology",
+            "Political Science and Law",
+            "Management and Psychology",
+            "All of the above"
+          ],
+          "a": 3,
+          "ex": "Public administration is a multidisciplinary field that draws insights from various social sciences, including political science, sociology, economics, law, and management."
+        },
+        {
+          "q": "The shift from 'administration' to 'governance' reflects:",
+          "options": [
+            "A reduced role for the state",
+            "An increased focus on hierarchical control",
+            "A recognition of the complexity of public problem-solving",
+            "A rejection of market-based solutions"
+          ],
+          "a": 2,
+          "ex": "The concept of governance acknowledges that addressing complex public issues requires collaboration and interaction among various actors beyond just the government."
+        },
+        {
+          "q": "Which approach emphasizes the historical and cultural context of administrative systems?",
+          "options": [
+            "Scientific Management",
+            "Public Choice Approach",
+            "Comparative Public Administration",
+            "New Public Management"
+          ],
+          "a": 2,
+          "ex": "Comparative Public Administration examines how historical, cultural, and political factors shape administrative structures and processes in different societies."
+        },
+        {
+          "q": "The concept of 'satisficing' in decision-making means:",
+          "options": [
+            "Finding the optimal solution",
+            "Choosing the first acceptable solution",
+            "Maximizing benefits and minimizing costs",
+            "Ignoring constraints"
+          ],
+          "a": 1,
+          "ex": "'Satisficing,' coined by Herbert Simon, refers to the decision-making strategy of choosing an option that is 'good enough' or satisfactory, rather than searching for the absolute best possible solution."
+        }
+      ]
+    },
+    {
+      "id": "theories_of_administration",
+      "title": "Theories of Administration (Classical, Neo-Classical, Modern)",
+      "questions": [
+        {
+          "q": "Which theory of administration is primarily concerned with improving the efficiency of labor and increasing production through methods like time and motion studies?",
+          "options": [
+            "Neo-Classical Theory",
+            "Modern Theory",
+            "Classical Theory",
+            "Contingency Theory"
+          ],
+          "a": 2,
+          "ex": "Classical theory, particularly Scientific Management, focused on optimizing workflow and efficiency through systematic study of tasks."
+        },
+        {
+          "q": "Who is considered the father of Scientific Management, a key part of Classical Theory?",
+          "options": [
+            "Max Weber",
+            "Henri Fayol",
+            "Frederick Winslow Taylor",
+            "Elton Mayo"
+          ],
+          "a": 2,
+          "ex": "Frederick Winslow Taylor is widely recognized as the father of Scientific Management."
+        },
+        {
+          "q": "Henri Fayol's administrative theory focused on:",
+          "options": [
+            "Individual worker efficiency",
+            "The overall structure and functions of management",
+            "Human relations in the workplace",
+            "Organizational adaptation to environment"
+          ],
+          "a": 1,
+          "ex": "Henri Fayol's work focused on the principles and elements of management applicable to the entire organization."
+        },
+        {
+          "q": "Which theory of administration emphasizes the importance of human and social factors in the workplace?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Modern Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 1,
+          "ex": "Neo-Classical theory, particularly the Human Relations approach, highlighted the significance of human behavior and social interactions."
+        },
+        {
+          "q": "The Hawthorne experiments, conducted by Elton Mayo, are associated with which school of thought?",
+          "options": [
+            "Scientific Management",
+            "Administrative Theory",
+            "Human Relations Movement",
+            "Systems Theory"
+          ],
+          "a": 2,
+          "ex": "The Hawthorne experiments are foundational studies within the Human Relations Movement, a core part of Neo-Classical theory."
+        },
+        {
+          "q": "Which theory views the organization as a complex whole composed of interconnected parts, interacting with its environment?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Systems Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Systems Theory, a key component of Modern Theory, sees the organization as an open system interacting with its external environment."
+        },
+        {
+          "q": "The Contingency Theory of administration suggests that:",
+          "options": [
+            "There is one best way to organize and manage",
+            "Management practices should be adapted to the specific situation or context",
+            "Focus should be solely on human factors",
+            "Efficiency is the only goal of administration"
+          ],
+          "a": 1,
+          "ex": "Contingency Theory posits that effective management depends on matching appropriate approaches to the specific circumstances."
+        },
+        {
+          "q": "Which of the following is NOT a principle associated with Henri Fayol's administrative theory?",
+          "options": [
+            "Unity of Command",
+            "Span of Control",
+            "Time and Motion Study",
+            "Division of Work"
+          ],
+          "a": 2,
+          "ex": "Time and motion studies are associated with Scientific Management (Taylor), not Fayol's administrative principles."
+        },
+        {
+          "q": "Max Weber's theory of bureaucracy is considered part of which administrative theory?",
+          "options": [
+            "Neo-Classical Theory",
+            "Modern Theory",
+            "Classical Theory",
+            "Behavioral Theory"
+          ],
+          "a": 2,
+          "ex": "Max Weber's work on bureaucracy is typically categorized within Classical Theory due to its focus on structure, hierarchy, and formal rules."
+        },
+        {
+          "q": "The concept of 'Maslow's Hierarchy of Needs' is relevant to which administrative theory?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Systems Theory",
+            "Administrative Theory (Fayol)"
+          ],
+          "a": 1,
+          "ex": "Maslow's Hierarchy of Needs is a significant concept in understanding human motivation, which is central to Neo-Classical theories like the Human Relations approach."
+        },
+        {
+          "q": "Which theory emphasizes the quantitative approach to management, using mathematical and statistical methods?",
+          "options": [
+            "Human Relations Theory",
+            "Administrative Theory (Fayol)",
+            "Management Science Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Management Science Theory, part of Modern Theory, applies quantitative techniques to decision-making and problem-solving."
+        },
+        {
+          "q": "The idea that an organization's structure and effectiveness are dependent on its external environment is a core tenet of:",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Contingency Theory",
+            "Scientific Management"
+          ],
+          "a": 2,
+          "ex": "Contingency Theory specifically emphasizes the relationship between the organization and its environment in determining effective practices."
+        },
+        {
+          "q": "Which of the following is a criticism often leveled against Classical Theories of administration?",
+          "options": [
+            "They overly focus on human factors",
+            "They are too flexible and adaptable",
+            "They tend to treat workers as cogs in a machine",
+            "They ignore organizational structure"
+          ],
+          "a": 2,
+          "ex": "Classical theories are often criticized for their mechanistic view of organizations and their neglect of the social and psychological needs of workers."
+        },
+        {
+          "q": "Process reengineering and Total Quality Management (TQM) are concepts that align more closely with which administrative theory?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Modern Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Concepts like process reengineering and TQM reflect the ongoing evolution of management thought, often categorized under Modern Theories, focusing on continuous improvement and adaptability."
+        },
+        {
+          "q": "Which theory suggests that there is no single best way to organize or manage, and that the best approach depends on the specific situation?",
+          "options": [
+            "Classical Theory",
+            "Administrative Theory",
+            "Systems Theory",
+            "Contingency Theory"
+          ],
+          "a": 3,
+          "ex": "Contingency Theory is explicitly based on the principle that effective management is situational."
+        },
+        {
+          "q": "The concept of 'span of control' refers to:",
+          "options": [
+            "The number of subordinates a manager can effectively supervise",
+            "The range of activities an organization performs",
+            "The degree of centralization in an organization",
+            "The level of technical skill required for a job"
+          ],
+          "a": 0,
+          "ex": "Span of control is a principle from Classical and Administrative theories that defines the number of individuals a manager can directly supervise."
+        },
+        {
+          "q": "Which administrative theory brought psychological and sociological insights into the study of organizations?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Management Science Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 1,
+          "ex": "Neo-Classical theory, especially the Human Relations movement, incorporated insights from psychology and sociology to understand organizational behavior."
+        },
+        {
+          "q": "The emphasis on formal rules, hierarchy, and impersonality is characteristic of which theory?",
+          "options": [
+            "Human Relations Theory",
+            "Contingency Theory",
+            "Systems Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 3,
+          "ex": "Bureaucratic Theory, as described by Max Weber, highlights these features as essential for rational and efficient organization."
+        },
+        {
+          "q": "Which administrative theory recognizes the organization as an open system influenced by factors like technology, culture, and economy?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Modern Theory",
+            "Administrative Theory"
+          ],
+          "a": 2,
+          "ex": "Modern Theories, particularly Systems Theory, view the organization as an open system interacting dynamically with its external environment."
+        },
+        {
+          "q": "The concept of 'organizational behavior' emerged most strongly from which administrative theory?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Bureaucratic Theory",
+            "Scientific Management"
+          ],
+          "a": 1,
+          "ex": "Organizational behavior as a field developed significantly from the insights of Neo-Classical theories, which focused on human factors and group dynamics."
+        },
+        {
+          "q": "Which theorist is known for the concept of the 'administrative man', who is not perfectly rational but makes decisions based on bounded rationality?",
+          "options": [
+            "Henri Fayol",
+            "Frederick Winslow Taylor",
+            "Herbert Simon",
+            "Elton Mayo"
+          ],
+          "a": 2,
+          "ex": "Herbert Simon introduced the concept of the 'administrative man' and 'bounded rationality' within the framework of decision-making."
+        },
+        {
+          "q": "The focus on formal structure, command, and control is most evident in which theory?",
+          "options": [
+            "Human Relations Theory",
+            "Systems Theory",
+            "Classical Theory",
+            "Contingency Theory"
+          ],
+          "a": 2,
+          "ex": "Classical theories placed a strong emphasis on establishing clear hierarchies, lines of command, and strict control mechanisms."
+        },
+        {
+          "q": "Which administrative theory views communication as a critical element for effective organizational functioning?",
+          "options": [
+            "Scientific Management",
+            "Bureaucratic Theory",
+            "Human Relations Theory",
+            "Administrative Theory (Fayol)"
+          ],
+          "a": 2,
+          "ex": "Human Relations Theory recognized the vital role of informal communication and social interaction in organizational effectiveness."
+        },
+        {
+          "q": "The idea of 'equilibrium' in organizations, where different forces are balanced, is associated with which theory?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Systems Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Systems Theory often uses the concept of equilibrium to describe the stable state of an organization within its environment."
+        },
+        {
+          "q": "Which administrative theory is concerned with applying scientific methods to analyze and synthesize workflows?",
+          "options": [
+            "Administrative Theory (Fayol)",
+            "Human Relations Theory",
+            "Scientific Management",
+            "Contingency Theory"
+          ],
+          "a": 2,
+          "ex": "Scientific Management, a core part of Classical Theory, specifically focused on the scientific analysis of work processes."
+        },
+        {
+          "q": "The concept of 'synergy', where the whole is greater than the sum of its parts, is relevant to which theory?",
+          "options": [
+            "Classical Theory",
+            "Bureaucratic Theory",
+            "Systems Theory",
+            "Administrative Theory"
+          ],
+          "a": 2,
+          "ex": "Systems Theory often emphasizes the emergent properties and synergy that arise from the interaction of organizational components."
+        },
+        {
+          "q": "Which administrative theory led to increased attention on employee motivation and job satisfaction?",
+          "options": [
+            "Scientific Management",
+            "Administrative Theory (Fayol)",
+            "Neo-Classical Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Neo-Classical theories, particularly the Human Relations approach, shifted focus towards understanding and improving employee motivation and satisfaction."
+        },
+        {
+          "q": "Which of the following is a characteristic of Max Weber's ideal type of bureaucracy?",
+          "options": [
+            "Informal communication channels",
+            "Personal relationships determining appointments",
+            "Clear hierarchy and division of labor",
+            "Emphasis on emotional appeals"
+          ],
+          "a": 2,
+          "ex": "Weber's ideal bureaucracy is characterized by a strict hierarchy and clear division of responsibilities."
+        },
+        {
+          "q": "The idea that organizational effectiveness is contingent upon the external environment is a central theme of:",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Contingency Theory",
+            "Scientific Management"
+          ],
+          "a": 2,
+          "ex": "Contingency Theory's core principle is that the best approach to organizing and managing depends on the external environment."
+        },
+        {
+          "q": "Which administrative theory suggests that organizations are rational systems designed to achieve goals efficiently?",
+          "options": [
+            "Human Relations Theory",
+            "Systems Theory",
+            "Classical Theory",
+            "Contingency Theory"
+          ],
+          "a": 2,
+          "ex": "Classical theories generally viewed organizations as rational systems focused on efficiency and goal attainment."
+        },
+        {
+          "q": "The concept of 'informal organization' as distinct from the formal structure is a contribution of which theory?",
+          "options": [
+            "Classical Theory",
+            "Neo-Classical Theory",
+            "Bureaucratic Theory",
+            "Administrative Theory (Fayol)"
+          ],
+          "a": 1,
+          "ex": "Neo-Classical theory, particularly the Human Relations movement, recognized the existence and importance of the informal organization."
+        },
+        {
+          "q": "Which administrative theory emphasizes the interconnectedness of organizational parts and their interdependence?",
+          "options": [
+            "Classical Theory",
+            "Bureaucratic Theory",
+            "Systems Theory",
+            "Administrative Theory"
+          ],
+          "a": 2,
+          "ex": "Systems Theory views the organization as a system where components interact and influence each other."
+        },
+        {
+          "q": "The principles of 'Unity of Command' and 'Unity of Direction' are associated with:",
+          "options": [
+            "Frederick Winslow Taylor",
+            "Elton Mayo",
+            "Henri Fayol",
+            "Max Weber"
+          ],
+          "a": 2,
+          "ex": "Henri Fayol included Unity of Command and Unity of Direction in his principles of management."
+        },
+        {
+          "q": "Which administrative theory emerged as a reaction to the perceived limitations of the Classical theories in addressing human factors?",
+          "options": [
+            "Modern Theory",
+            "Bureaucratic Theory",
+            "Neo-Classical Theory",
+            "Scientific Management"
+          ],
+          "a": 2,
+          "ex": "Neo-Classical theory developed to address the human and social aspects that were largely overlooked in Classical theories."
+        },
+        {
+          "q": "The application of mathematical models and simulation to solve management problems is a feature of:",
+          "options": [
+            "Human Relations Theory",
+            "Administrative Theory",
+            "Management Science Theory",
+            "Bureaucratic Theory"
+          ],
+          "a": 2,
+          "ex": "Management Science Theory utilizes quantitative methods for decision making and problem-solving."
+        },
+        {
+          "q": "Which administrative theory highlights the importance of adaptability and flexibility in response to environmental changes?",
+          "options": [
+            "Classical Theory",
+            "Bureaucratic Theory",
+            "Contingency Theory",
+            "Scientific Management"
+          ],
+          "a": 2,
+          "ex": "Contingency Theory stresses the need for organizations to adapt their structure and practices to suit the prevailing circumstances and environment."
+        }
+      ]
+    },
+    {
+      "id": "bureaucracy",
+      "title": "Bureaucracy (Weberian Model, Criticism, Reforms)",
+      "questions": [
+        {
+          "q": "Which sociologist is most closely associated with the concept of an ideal type bureaucracy?",
+          "options": [
+            "Émile Durkheim",
+            "Max Weber",
+            "Karl Marx",
+            "Talcott Parsons"
+          ],
+          "a": 1,
+          "ex": "Max Weber developed the concept of the ideal type bureaucracy as a model of rational-legal authority."
+        },
+        {
+          "q": "According to Weber's ideal type, which of the following is a key characteristic of bureaucracy?",
+          "options": [
+            "Informal relationships",
+            "Personal loyalties",
+            "Hierarchical structure",
+            "Arbitrary decision-making"
+          ],
+          "a": 2,
+          "ex": "A hierarchical structure with clear lines of authority is a fundamental characteristic of Weber's ideal type bureaucracy."
+        },
+        {
+          "q": "In Weber's model, what is the basis for authority in a bureaucracy?",
+          "options": [
+            "Tradition",
+            "Charisma",
+            "Rational-legal rules",
+            "Personal connections"
+          ],
+          "a": 2,
+          "ex": "Weber identified rational-legal authority, based on established rules and laws, as the foundation of bureaucratic authority."
+        },
+        {
+          "q": "Which of the following is a potential criticism of bureaucracy?",
+          "options": [
+            "Efficiency",
+            "Flexibility",
+            "Red tape and inefficiency",
+            "Employee empowerment"
+          ],
+          "a": 2,
+          "ex": "Bureaucracy is often criticized for excessive rules, procedures, and paperwork, leading to red tape and inefficiency."
+        },
+        {
+          "q": "What does the term 'pathologies of bureaucracy' refer to?",
+          "options": [
+            "The healthy functioning of bureaucracy",
+            "The dysfunctions and negative consequences of bureaucracy",
+            "The historical development of bureaucracy",
+            "The legal framework governing bureaucracy"
+          ],
+          "a": 1,
+          "ex": "'Pathologies of bureaucracy' describe the negative or dysfunctional aspects that can arise within bureaucratic systems."
+        },
+        {
+          "q": "Which of the following is often seen as a reform aimed at addressing bureaucratic inefficiency?",
+          "options": [
+            "Increasing centralization",
+            "Reducing transparency",
+            "Deregulation and privatization",
+            "More rigid rules"
+          ],
+          "a": 2,
+          "ex": "Deregulation and privatization are often implemented as reforms to reduce bureaucratic control and potentially increase efficiency."
+        },
+        {
+          "q": "What is the role of formal rules and regulations in Weberian bureaucracy?",
+          "options": [
+            "To allow for flexibility and discretion",
+            "To ensure consistency and predictability",
+            "To promote personal relationships",
+            "To hinder decision-making"
+          ],
+          "a": 1,
+          "ex": "Formal rules and regulations are central to Weber's model for ensuring standardized procedures and predictable outcomes."
+        },
+        {
+          "q": "Which of the following is a potential benefit of bureaucracy according to proponents?",
+          "options": [
+            "Favoritism",
+            "Accountability through clear procedures",
+            "Lack of structure",
+            "Rapid adaptation to change"
+          ],
+          "a": 1,
+          "ex": "Clear procedures and record-keeping in a bureaucracy can contribute to greater accountability."
+        },
+        {
+          "q": "What is 'goal displacement' as a criticism of bureaucracy?",
+          "options": [
+            "Achieving organizational goals effectively",
+            "Prioritizing rules and procedures over the organization's main goals",
+            "Setting new and innovative goals",
+            "Ignoring all organizational goals"
+          ],
+          "a": 1,
+          "ex": "Goal displacement occurs when the means (rules and procedures) become more important than the ends (the actual organizational goals)."
+        },
+        {
+          "q": "Which concept is related to the idea that bureaucrats may have their own interests that diverge from public interest?",
+          "options": [
+            "Public service motivation",
+            "Iron triangle",
+            "Principal-agent problem",
+            "Delegation of authority"
+          ],
+          "a": 2,
+          "ex": "The principal-agent problem in the context of bureaucracy suggests that agents (bureaucrats) may not always act in the best interest of the principals (the public or elected officials)."
+        },
+        {
+          "q": "What is 'red tape' commonly associated with in bureaucracy?",
+          "options": [
+            "Efficient communication channels",
+            "Excessive and complex rules and procedures",
+            "Clear lines of authority",
+            "Innovative problem-solving"
+          ],
+          "a": 1,
+          "ex": "Red tape is a common term for the excessive and often unnecessary rules and procedures found in bureaucracies."
+        },
+        {
+          "q": "Which reform movement in public administration sought to apply business principles to government?",
+          "options": [
+            "Traditional Public Administration",
+            "New Public Management (NPM)",
+            "Development Administration",
+            "Good Governance"
+          ],
+          "a": 1,
+          "ex": "New Public Management (NPM) was a reform movement that emphasized market-based principles and efficiency in the public sector."
+        },
+        {
+          "q": "According to Weber, what is the ideal basis for recruitment and promotion in a bureaucracy?",
+          "options": [
+            "Political connections",
+            "Seniority",
+            "Technical competence and merit",
+            "Personal wealth"
+          ],
+          "a": 2,
+          "ex": "Weber advocated for recruitment and promotion based on technical qualifications and merit to ensure efficiency and impartiality."
+        },
+        {
+          "q": "What is the concept of 'impersonality' in Weberian bureaucracy?",
+          "options": [
+            "Treating individuals based on personal feelings",
+            "Applying rules and procedures equally to all cases",
+            "Ignoring the needs of citizens",
+            "Lacking social interaction"
+          ],
+          "a": 1,
+          "ex": "Impersonality means that bureaucratic officials are expected to apply rules and procedures without personal bias or favoritism."
+        },
+        {
+          "q": "Which criticism of bureaucracy focuses on its potential to stifle creativity and innovation?",
+          "options": [
+            "Hierarchical structure",
+            "Formal rules",
+            "Resistance to change",
+            "Specialization"
+          ],
+          "a": 2,
+          "ex": "The rigid adherence to formal rules and established procedures can make bureaucracies resistant to change and stifle creativity."
+        },
+        {
+          "q": "What is 'decentralization' as a potential bureaucratic reform?",
+          "options": [
+            "Increasing power at the central level",
+            "Distributing authority and decision-making to lower levels",
+            "Reducing the number of employees",
+            "Implementing more rigid controls"
+          ],
+          "a": 1,
+          "ex": "Decentralization involves shifting authority and decision-making away from the central authority to regional or local levels."
+        },
+        {
+          "q": "What is a common criticism regarding accountability in bureaucracy?",
+          "options": [
+            "Too much accountability",
+            "Lack of clear lines of accountability",
+            "Bureaucrats are only accountable to themselves",
+            "Accountability is always perfect"
+          ],
+          "a": 1,
+          "ex": "Critics argue that the complex structure of bureaucracy can make it difficult to pinpoint responsibility and ensure accountability."
+        },
+        {
+          "q": "Which of the following is a characteristic of 'pathological bureaucrat' as described by Merton?",
+          "options": [
+            "Flexibility and adaptability",
+            "Rigid adherence to rules even when counterproductive",
+            "Innovation and initiative",
+            "Focus on citizen needs"
+          ],
+          "a": 1,
+          "ex": "Robert Merton described the 'pathological bureaucrat' as someone who over-conforms to rules, leading to dysfunction."
+        },
+        {
+          "q": "What does the concept of 'specialization' mean in the context of bureaucracy?",
+          "options": [
+            "Performing a wide variety of tasks",
+            "Focusing on a narrow range of specific tasks",
+            "Having no specific job duties",
+            "Rotating between different departments frequently"
+          ],
+          "a": 1,
+          "ex": "Specialization in bureaucracy refers to the division of labor where individuals perform specific, defined tasks."
+        },
+        {
+          "q": "Which of the following is a reform aimed at increasing citizen participation in public administration?",
+          "options": [
+            "Reducing transparency",
+            "Centralizing decision-making",
+            "Promoting e-governance and public consultations",
+            "Limiting access to information"
+          ],
+          "a": 2,
+          "ex": "Promoting e-governance and public consultations are ways to increase citizen involvement and participation in administrative processes."
+        },
+        {
+          "q": "What is the concept of 'iron cage' as a potential negative outcome of bureaucracy?",
+          "options": [
+            "Increased freedom and flexibility",
+            "A system of rigid control and impersonality that traps individuals",
+            "A strong and supportive organizational culture",
+            "A flexible and adaptable structure"
+          ],
+          "a": 1,
+          "ex": "Weber used the term 'iron cage' to describe the potential for bureaucracy to create a dehumanizing system of rationalized control."
+        },
+        {
+          "q": "Which of the following is a key element of bureaucratic reform focusing on results?",
+          "options": [
+            "Focus on strict adherence to rules regardless of outcome",
+            "Emphasis on outputs and outcomes rather than just inputs",
+            "Reducing the importance of evaluation",
+            "Ignoring performance metrics"
+          ],
+          "a": 1,
+          "ex": "Performance management and evaluation reforms in bureaucracy focus on measuring and improving the actual results achieved."
+        },
+        {
+          "q": "What is a potential consequence of bureaucratic delay?",
+          "options": [
+            "Increased efficiency",
+            "Citizen frustration and loss of trust",
+            "Faster service delivery",
+            "Reduced workload"
+          ],
+          "a": 1,
+          "ex": "Delays caused by bureaucratic processes can lead to frustration among citizens and erode trust in government."
+        },
+        {
+          "q": "Which type of authority is NOT part of Weber's typology?",
+          "options": [
+            "Traditional authority",
+            "Charismatic authority",
+            "Rational-legal authority",
+            "Emotional authority"
+          ],
+          "a": 3,
+          "ex": "Weber identified traditional, charismatic, and rational-legal authority as the three pure types of legitimate domination."
+        },
+        {
+          "q": "What is 'privatization' in the context of public sector reform?",
+          "options": [
+            "Increasing government control over private companies",
+            "Transferring ownership or management of public services to the private sector",
+            "Creating more government agencies",
+            "Increasing the size of the public workforce"
+          ],
+          "a": 1,
+          "ex": "Privatization involves moving the provision of goods or services from the public sector to the private sector."
+        },
+        {
+          "q": "Which criticism highlights the potential for power to become concentrated in the hands of bureaucrats?",
+          "options": [
+            "Specialization",
+            "Hierarchy",
+            "Bureaucratic power and discretion",
+            "Impersonality"
+          ],
+          "a": 2,
+          "ex": "Critics argue that the expertise and control over information within a bureaucracy can lead to bureaucrats wielding significant power and discretion."
+        },
+        {
+          "q": "What is the primary goal of reforms aimed at improving 'customer service' in public administration?",
+          "options": [
+            "To make processes more complicated",
+            "To increase the burden on citizens",
+            "To improve the quality and responsiveness of services to the public",
+            "To reduce contact with citizens"
+          ],
+          "a": 2,
+          "ex": "Customer service reforms focus on making public services more user-friendly, accessible, and responsive to the needs of citizens."
+        },
+        {
+          "q": "Which of the following is a feature of the ideal type bureaucracy related to record-keeping?",
+          "options": [
+            "Oral communication only",
+            "Detailed written records and files",
+            "Informal note-taking",
+            "No need for documentation"
+          ],
+          "a": 1,
+          "ex": "Systematic record-keeping and the use of files are essential components of Weber's ideal type bureaucracy."
+        },
+        {
+          "q": "What is 'reinventing government' often associated with?",
+          "options": [
+            "Increasing bureaucracy",
+            "Making government more entrepreneurial and responsive",
+            "Returning to traditional administrative methods",
+            "Reducing government size without improving performance"
+          ],
+          "a": 1,
+          "ex": "The 'reinventing government' movement aimed to make government more effective, efficient, and responsive, often drawing on NPM principles."
+        },
+        {
+          "q": "Which criticism of bureaucracy is related to its potential to lead to a lack of empathy?",
+          "options": [
+            "Hierarchy",
+            "Impersonality",
+            "Specialization",
+            "Formal rules"
+          ],
+          "a": 1,
+          "ex": "The emphasis on impersonality in bureaucracy can sometimes lead to a perception that officials lack empathy or understanding of individual circumstances."
+        },
+        {
+          "q": "What does 'debureaucratization' refer to?",
+          "options": [
+            "Increasing the size and complexity of bureaucracy",
+            "Efforts to reduce the extent and negative aspects of bureaucracy",
+            "Strengthening bureaucratic control",
+            "Ignoring administrative procedures"
+          ],
+          "a": 1,
+          "ex": "Debureaucratization involves efforts to make organizations less bureaucratic, often by reducing rules, hierarchy, and impersonality."
+        },
+        {
+          "q": "Which of the following is a characteristic of bureaucratic officials in Weber's model?",
+          "options": [
+            "Personal ownership of their office",
+            "Appointment based on political favors",
+            "Salaried officials with fixed remuneration",
+            "Informal and arbitrary decision-making"
+          ],
+          "a": 2,
+          "ex": "Weber described bureaucratic officials as being salaried, appointed based on qualifications, and not personally owning their positions."
+        },
+        {
+          "q": "What is a potential benefit of specialization in bureaucracy?",
+          "options": [
+            "Lack of expertise",
+            "Increased efficiency and expertise in specific areas",
+            "Confusion and overlap of duties",
+            "Reduced productivity"
+          ],
+          "a": 1,
+          "ex": "Specialization allows individuals to develop expertise in specific tasks, which can lead to increased efficiency."
+        },
+        {
+          "q": "Which reform focuses on improving ethical conduct and reducing corruption in bureaucracy?",
+          "options": [
+            "Increasing red tape",
+            "Promoting transparency and accountability mechanisms",
+            "Reducing oversight",
+            "Ignoring codes of conduct"
+          ],
+          "a": 1,
+          "ex": "Promoting transparency, strengthening accountability mechanisms, and implementing codes of conduct are reforms aimed at improving ethics."
+        },
+        {
+          "q": "What is the 'Peter Principle' a criticism of in bureaucratic promotion?",
+          "options": [
+            "Promoting based on merit",
+            "Promoting individuals until they reach a level of incompetence",
+            "Promoting based on seniority",
+            "Promoting based on political connections"
+          ],
+          "a": 1,
+          "ex": "The Peter Principle suggests that people in a hierarchy are promoted until they reach a level at which they are no longer competent."
+        }
+      ]
+    },
+    {
+      "id": "posdcorb",
+      "title": "Principles of Management (POSDCORB)",
+      "questions": [
+        {
+          "q": "What does the 'P' in POSDCORB stand for?",
+          "options": [
+            "Planning",
+            "Prioritizing",
+            "Policing",
+            "Performing"
+          ],
+          "a": 0,
+          "ex": "In the POSDCORB acronym, 'P' represents Planning."
+        },
+        {
+          "q": "The 'O' in POSDCORB refers to:",
+          "options": [
+            "Observing",
+            "Organizing",
+            "Operating",
+            "Overlooking"
+          ],
+          "a": 1,
+          "ex": "The 'O' in POSDCORB stands for Organizing."
+        },
+        {
+          "q": "Which principle of POSDCORB involves appointing and training personnel?",
+          "options": [
+            "Planning",
+            "Staffing",
+            "Directing",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Staffing involves the recruitment, training, and placement of personnel."
+        },
+        {
+          "q": "According to POSDCORB, 'D' stands for:",
+          "options": [
+            "Delegating",
+            "Developing",
+            "Directing",
+            "Documenting"
+          ],
+          "a": 2,
+          "ex": "The 'D' in POSDCORB represents Directing."
+        },
+        {
+          "q": "The principle of 'Coordinating' in POSDCORB is about:",
+          "options": [
+            "Ensuring uniformity in actions",
+            "Making decisions",
+            "Preparing the budget",
+            "Reporting progress"
+          ],
+          "a": 0,
+          "ex": "Coordinating involves harmonizing and unifying the activities of various parts of the organization."
+        },
+        {
+          "q": "What does the 'R' in POSDCORB signify?",
+          "options": [
+            "Reviewing",
+            "Reporting",
+            "Resolving",
+            "Researching"
+          ],
+          "a": 1,
+          "ex": "The 'R' in POSDCORB stands for Reporting."
+        },
+        {
+          "q": "The 'B' in POSDCORB relates to:",
+          "options": [
+            "Budgeting",
+            "Balancing",
+            "Building",
+            "Benchmarking"
+          ],
+          "a": 0,
+          "ex": "The 'B' in POSDCORB represents Budgeting."
+        },
+        {
+          "q": "POSDCORB was coined by which management theorist?",
+          "options": [
+            "Henri Fayol",
+            "Frederick Taylor",
+            "Luther Gulick and Lyndall Urwick",
+            "Max Weber"
+          ],
+          "a": 2,
+          "ex": "Luther Gulick and Lyndall Urwick coined the acronym POSDCORB."
+        },
+        {
+          "q": "Which principle involves motivating and leading the personnel?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Directing"
+          ],
+          "a": 3,
+          "ex": "Directing involves supervising, motivating, and leading subordinates."
+        },
+        {
+          "q": "The process of laying down a broad outline of things to be done is part of:",
+          "options": [
+            "Organizing",
+            "Staffing",
+            "Planning",
+            "Controlling"
+          ],
+          "a": 2,
+          "ex": "Planning involves deciding in advance what to do, how to do it, and when to do it."
+        },
+        {
+          "q": "Grouping of activities necessary to carry out a plan is covered under:",
+          "options": [
+            "Staffing",
+            "Organizing",
+            "Directing",
+            "Reporting"
+          ],
+          "a": 1,
+          "ex": "Organizing involves establishing the structure of authority and responsibility."
+        },
+        {
+          "q": "Ensuring that everything is being done according to the plan is the essence of which principle?",
+          "options": [
+            "Directing",
+            "Coordinating",
+            "Controlling",
+            "Budgeting"
+          ],
+          "a": 2,
+          "ex": "Controlling involves checking performance against standards."
+        },
+        {
+          "q": "The continuous task of making decisions and embodying them in specific and general orders and instructions is part of:",
+          "options": [
+            "Planning",
+            "Directing",
+            "Reporting",
+            "Budgeting"
+          ],
+          "a": 1,
+          "ex": "Directing includes decision-making and issuing instructions."
+        },
+        {
+          "q": "Keeping those to whom the executive is responsible informed as to what is going on is referred to as:",
+          "options": [
+            "Coordinating",
+            "Reporting",
+            "Budgeting",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Reporting involves keeping superiors and others informed."
+        },
+        {
+          "q": "Fiscal planning, accounting, and control are components of:",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Budgeting",
+            "Controlling"
+          ],
+          "a": 2,
+          "ex": "Budgeting involves fiscal planning and control."
+        },
+        {
+          "q": "Which of the following is NOT a part of the original POSDCORB acronym?",
+          "options": [
+            "Innovating",
+            "Planning",
+            "Organizing",
+            "Staffing"
+          ],
+          "a": 0,
+          "ex": "Innovating was not one of the original principles in the POSDCORB acronym."
+        },
+        {
+          "q": "The principle that focuses on the creation of the formal structure of authority:",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Directing"
+          ],
+          "a": 1,
+          "ex": "Organizing is about building the structure of relationships."
+        },
+        {
+          "q": "Bringing together the activities of the enterprise and securing unity of action is the function of:",
+          "options": [
+            "Directing",
+            "Coordinating",
+            "Reporting",
+            "Budgeting"
+          ],
+          "a": 1,
+          "ex": "Coordinating aims to harmonize different activities."
+        },
+        {
+          "q": "What does the 'S' in POSDCORB represent?",
+          "options": [
+            "Systemizing",
+            "Staffing",
+            "Standardizing",
+            "Supervising"
+          ],
+          "a": 1,
+          "ex": "The 'S' in POSDCORB stands for Staffing."
+        },
+        {
+          "q": "Providing guidance and instruction to subordinates is part of:",
+          "options": [
+            "Organizing",
+            "Staffing",
+            "Directing",
+            "Controlling"
+          ],
+          "a": 2,
+          "ex": "Directing includes issuing commands and providing guidance."
+        },
+        {
+          "q": "The phase of management concerned with future course of action is:",
+          "options": [
+            "Organizing",
+            "Planning",
+            "Controlling",
+            "Reporting"
+          ],
+          "a": 1,
+          "ex": "Planning is futuristic and determines the course of action."
+        },
+        {
+          "q": "Which POSDCORB principle involves delegation of authority?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Directing"
+          ],
+          "a": 1,
+          "ex": "Organizing involves the distribution of authority and responsibility."
+        },
+        {
+          "q": "Getting things done through others is the primary focus of:",
+          "options": [
+            "Staffing",
+            "Directing",
+            "Reporting",
+            "Budgeting"
+          ],
+          "a": 1,
+          "ex": "Directing involves leading and supervising others to achieve goals."
+        },
+        {
+          "q": "The process of measurement and correction of performance in order to make sure that enterprise objectives and plans are being accomplished is:",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Controlling",
+            "Reporting"
+          ],
+          "a": 2,
+          "ex": "Controlling ensures activities conform to standards."
+        },
+        {
+          "q": "Which function involves the preparation of a financial plan?",
+          "options": [
+            "Planning",
+            "Budgeting",
+            "Reporting",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Budgeting is directly related to financial planning."
+        },
+        {
+          "q": "Bringing specialized individuals to work together harmoniously is the goal of:",
+          "options": [
+            "Staffing",
+            "Directing",
+            "Coordinating",
+            "Budgeting"
+          ],
+          "a": 2,
+          "ex": "Coordinating ensures different functions work together effectively."
+        },
+        {
+          "q": "The POSDCORB framework is primarily associated with which school of thought in management?",
+          "options": [
+            "Scientific Management",
+            "Human Relations Movement",
+            "Administrative Management",
+            "Systems Approach"
+          ],
+          "a": 2,
+          "ex": "POSDCORB is a classic framework from the Administrative Management school."
+        },
+        {
+          "q": "Which principle deals with creating positions and defining their duties and responsibilities?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Reporting"
+          ],
+          "a": 1,
+          "ex": "Organizing structures the work and roles within the organization."
+        },
+        {
+          "q": "The function of maintaining records and statistical data falls under:",
+          "options": [
+            "Coordinating",
+            "Reporting",
+            "Budgeting",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Reporting includes keeping records and providing information."
+        },
+        {
+          "q": "The principle of 'Directing' includes:",
+          "options": [
+            "Recruitment and selection",
+            "Decision-making and communication",
+            "Financial planning and analysis",
+            "Performance evaluation"
+          ],
+          "a": 1,
+          "ex": "Directing involves giving instructions and communicating effectively."
+        },
+        {
+          "q": "Which principle aims to prevent deviations from the established plans?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Directing",
+            "Controlling"
+          ],
+          "a": 3,
+          "ex": "Controlling monitors performance to ensure it aligns with the plan."
+        },
+        {
+          "q": "Determining the methods and procedures for performing activities is part of:",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Coordinating"
+          ],
+          "a": 0,
+          "ex": "Planning involves deciding the steps and methods to achieve goals."
+        },
+        {
+          "q": "Assigning tasks and responsibilities to individuals is a key element of:",
+          "options": [
+            "Staffing",
+            "Organizing",
+            "Directing",
+            "Reporting"
+          ],
+          "a": 1,
+          "ex": "Organizing involves the allocation of duties and responsibilities."
+        },
+        {
+          "q": "Motivating employees to perform effectively is a component of:",
+          "options": [
+            "Staffing",
+            "Directing",
+            "Coordinating",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Directing includes motivating and leading the workforce."
+        },
+        {
+          "q": "Which principle focuses on establishing relationships among positions?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Staffing",
+            "Directing"
+          ],
+          "a": 1,
+          "ex": "Organizing defines the structure and relationships within the organization."
+        },
+        {
+          "q": "The continuous process of gathering information on the progress of work is part of:",
+          "options": [
+            "Organizing",
+            "Reporting",
+            "Budgeting",
+            "Controlling"
+          ],
+          "a": 1,
+          "ex": "Reporting involves keeping track of progress and providing updates."
+        },
+        {
+          "q": "Ensuring that resources are utilized efficiently is a goal achieved through which principle?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Budgeting",
+            "Controlling"
+          ],
+          "a": 3,
+          "ex": "Controlling helps in ensuring efficient use of resources by monitoring performance."
+        }
+      ]
+    },
+    {
+      "id": "public_vs_private_administration",
+      "title": "Public vs Private Administration",
+      "questions": [
+        {
+          "q": "Which of the following is generally considered a primary objective of public administration?",
+          "options": [
+            "Profit maximization",
+            "Providing public services",
+            "Gaining market share",
+            "Minimizing costs at all expense"
+          ],
+          "a": 1,
+          "ex": "Public administration's primary objective is to serve the public and provide essential services, unlike private administration which often focuses on profit."
+        },
+        {
+          "q": "Accountability in public administration is primarily towards:",
+          "options": [
+            "Shareholders",
+            "Customers",
+            "The public and elected officials",
+            "Employees"
+          ],
+          "a": 2,
+          "ex": "Public administrators are accountable to the citizens and their representatives, reflecting the public nature of their work."
+        },
+        {
+          "q": "Private administration is generally more focused on:",
+          "options": [
+            "Adherence to strict legal procedures",
+            "Efficiency and profitability",
+            "Ensuring equitable distribution of resources",
+            "Long-term policy formulation"
+          ],
+          "a": 1,
+          "ex": "Private administration in businesses prioritizes efficiency and generating profit for its owners or shareholders."
+        },
+        {
+          "q": "Which sector often operates under less public scrutiny?",
+          "options": [
+            "Public sector",
+            "Private sector",
+            "Non-profit sector",
+            "Government agencies"
+          ],
+          "a": 1,
+          "ex": "Private companies are generally subject to less public scrutiny compared to government bodies and public institutions."
+        },
+        {
+          "q": "Decision-making in public administration is often influenced by:",
+          "options": [
+            "Market demand and competition",
+            "Political considerations and public opinion",
+            "Maximizing return on investment",
+            "Technological innovation"
+          ],
+          "a": 1,
+          "ex": "Political factors and public sentiment play a significant role in shaping decisions within public administration."
+        },
+        {
+          "q": "Hierarchical structure is more commonly and strictly observed in:",
+          "options": [
+            "Start-up companies",
+            "Small businesses",
+            "Public administration",
+            "Modern tech firms"
+          ],
+          "a": 2,
+          "ex": "Public administration systems, particularly large bureaucracies, often adhere to strict hierarchical structures."
+        },
+        {
+          "q": "The primary source of funding for most public administration activities is:",
+          "options": [
+            "Sales revenue",
+            "Investment capital",
+            "Taxes and government revenue",
+            "Donations"
+          ],
+          "a": 2,
+          "ex": "Public administration is primarily funded through taxes collected by the government."
+        },
+        {
+          "q": "Risk-taking and innovation are generally more encouraged in:",
+          "options": [
+            "Government ministries",
+            "Public sector organizations",
+            "Private sector businesses",
+            "Public utilities"
+          ],
+          "a": 2,
+          "ex": "The competitive nature of the private sector often encourages greater risk-taking and innovation for growth."
+        },
+        {
+          "q": "Serving the public interest is a core value of:",
+          "options": [
+            "Private corporations",
+            "Public administration",
+            "Shareholder groups",
+            "Venture capital firms"
+          ],
+          "a": 1,
+          "ex": "Public administration is fundamentally oriented towards serving the collective interests of the public."
+        },
+        {
+          "q": "Which sector is typically more constrained by rules, regulations, and legal procedures?",
+          "options": [
+            "Private sector",
+            "Public sector",
+            "Non-governmental organizations",
+            "Small family businesses"
+          ],
+          "a": 1,
+          "ex": "Public administration operates within a complex framework of laws, regulations, and administrative procedures."
+        },
+        {
+          "q": "Career advancement in public administration is often based on:",
+          "options": [
+            "Networking and personal connections",
+            "Performance reviews and profit generated",
+            "Seniority and merit-based systems",
+            "Aggressive sales targets"
+          ],
+          "a": 2,
+          "ex": "Public sector career progression is often determined by a combination of length of service and demonstrated ability."
+        },
+        {
+          "q": "The concept of 'customer satisfaction' is a primary driver in:",
+          "options": [
+            "Public hospitals",
+            "Tax collection agencies",
+            "Private businesses",
+            "Public schools"
+          ],
+          "a": 2,
+          "ex": "While important, customer satisfaction is a more direct and primary driver in private sector businesses competing for customers."
+        },
+        {
+          "q": "Efficiency in public administration is often measured by:",
+          "options": [
+            "Profit margins",
+            "Stock price",
+            "Effectiveness of service delivery and resource utilization",
+            "Number of products sold"
+          ],
+          "a": 2,
+          "ex": "Efficiency in the public sector is evaluated by how effectively services are delivered and how well public resources are used."
+        },
+        {
+          "q": "Which sector is more likely to experience direct political interference in its operations?",
+          "options": [
+            "Private sector",
+            "Public sector",
+            "Charitable organizations",
+            "Cooperative societies"
+          ],
+          "a": 1,
+          "ex": "Public administration is directly linked to the government and therefore more susceptible to political influences."
+        },
+        {
+          "q": "The concept of 'shareholder value' is central to:",
+          "options": [
+            "Public service organizations",
+            "Government departments",
+            "Private administration",
+            "Regulatory bodies"
+          ],
+          "a": 2,
+          "ex": "Private administration in publicly traded companies focuses on increasing value for its shareholders."
+        },
+        {
+          "q": "Public administration operates under the principle of:",
+          "options": [
+            "Maximizing individual gain",
+            "Public interest and common good",
+            "Monopolistic control",
+            "Aggressive market expansion"
+          ],
+          "a": 1,
+          "ex": "The core principle guiding public administration is the pursuit of the collective welfare and benefit of the public."
+        },
+        {
+          "q": "Risk aversion is often higher in:",
+          "options": [
+            "Venture capital firms",
+            "Start-up businesses",
+            "Public administration",
+            "Private equity funds"
+          ],
+          "a": 2,
+          "ex": "Due to public accountability and potential political ramifications, public administration tends to be more cautious and risk-averse."
+        },
+        {
+          "q": "The focus on equality and fairness is a key characteristic of:",
+          "options": [
+            "Private sector competition",
+            "Public administration",
+            "Profit-driven enterprises",
+            "Exclusive clubs"
+          ],
+          "a": 1,
+          "ex": "Public administration aims to provide services and apply rules fairly and equitably to all citizens."
+        },
+        {
+          "q": "Performance measurement in the private sector often relies on:",
+          "options": [
+            "Citizen feedback surveys",
+            "Social impact assessments",
+            "Financial metrics and market performance",
+            "Compliance with public regulations"
+          ],
+          "a": 2,
+          "ex": "Financial indicators like revenue, profit, and market share are key measures of performance in the private sector."
+        },
+        {
+          "q": "Transparency and public access to information are generally higher in:",
+          "options": [
+            "Private corporations",
+            "Public administration",
+            "Closely held companies",
+            "Hedge funds"
+          ],
+          "a": 1,
+          "ex": "Public administration is generally subject to greater transparency requirements and public access to information laws."
+        },
+        {
+          "q": "Which sector is more likely to deal with 'wicked problems' - complex, ill-defined issues?",
+          "options": [
+            "Small private businesses",
+            "Public administration",
+            "Individual entrepreneurs",
+            "Private consulting firms"
+          ],
+          "a": 1,
+          "ex": "Public administration frequently grapples with complex social and economic problems that are difficult to define and solve."
+        },
+        {
+          "q": "The concept of 'bureaucracy' is most closely associated with:",
+          "options": [
+            "Agile software development teams",
+            "Public administration",
+            "Small and medium-sized enterprises",
+            "Innovation labs"
+          ],
+          "a": 1,
+          "ex": "Bureaucracy, characterized by hierarchical structure and rules, is a prevalent form of organization in public administration."
+        },
+        {
+          "q": "Competition is a defining feature of:",
+          "options": [
+            "Public monopolies",
+            "Government regulatory bodies",
+            "Private sector markets",
+            "Public service commissions"
+          ],
+          "a": 2,
+          "ex": "The private sector is largely driven by competition among businesses for customers and market share."
+        },
+        {
+          "q": "Which sector has a longer-term perspective on planning and policy?",
+          "options": [
+            "Private sector (driven by quarterly results)",
+            "Public sector (focused on societal goals)",
+            "Start-up companies",
+            "Private investment firms"
+          ],
+          "a": 1,
+          "ex": "Public administration often engages in long-term planning to address societal challenges and achieve sustainable development goals."
+        },
+        {
+          "q": "Innovation in public administration is often driven by:",
+          "options": [
+            "Market trends and consumer demand",
+            "Political will and public needs",
+            "Profit opportunities",
+            "Competitive pressure from other firms"
+          ],
+          "a": 1,
+          "ex": "Innovation in the public sector is often spurred by the need to improve public services and address societal demands."
+        },
+        {
+          "q": "The concept of 'red tape' is often used to criticize:",
+          "options": [
+            "Efficient private businesses",
+            "Streamlined administrative processes",
+            "Bureaucratic procedures in public administration",
+            "Innovative private sector practices"
+          ],
+          "a": 2,
+          "ex": "Red tape refers to excessive bureaucracy and complex procedures often found in public administration."
+        },
+        {
+          "q": "Labor relations in public administration are often governed by:",
+          "options": [
+            "Market forces and individual contracts",
+            "Collective bargaining agreements and civil service rules",
+            "Performance-based bonuses",
+            "Direct negotiation with shareholders"
+          ],
+          "a": 1,
+          "ex": "Public sector labor relations are typically formalized through collective bargaining and governed by specific civil service regulations."
+        },
+        {
+          "q": "The primary motive for ethical behavior in public administration is:",
+          "options": [
+            "Avoiding negative publicity",
+            "Maximizing personal gain",
+            "Upholding public trust and serving the common good",
+            "Meeting quarterly financial targets"
+          ],
+          "a": 2,
+          "ex": "Ethics in public administration are crucial for maintaining public trust and ensuring that decisions benefit the entire community."
+        },
+        {
+          "q": "Which sector is more likely to prioritize flexibility and adaptability to changing market conditions?",
+          "options": [
+            "Public administration",
+            "Large government agencies",
+            "Private sector businesses",
+            "Monopolistic public utilities"
+          ],
+          "a": 2,
+          "ex": "Private businesses need to be agile and adapt quickly to changes in market demand and competition."
+        },
+        {
+          "q": "The concept of 'citizen as customer' is sometimes applied to public administration, emphasizing:",
+          "options": [
+            "Generating revenue from citizens",
+            "Providing responsive and quality services to citizens",
+            "Treating citizens as liabilities",
+            "Minimizing interaction with the public"
+          ],
+          "a": 1,
+          "ex": "Viewing citizens as customers highlights the importance of responsiveness, quality, and citizen satisfaction in public service delivery."
+        },
+        {
+          "q": "Public administration often involves dealing with:",
+          "options": [
+            "Homogenous customer groups",
+            "Clear and easily measurable outcomes",
+            "Diverse stakeholders with competing interests",
+            "Simple cause-and-effect relationships"
+          ],
+          "a": 2,
+          "ex": "Public administrators must balance the needs and demands of various groups, including citizens, interest groups, and elected officials."
+        },
+        {
+          "q": "Efficiency in the private sector is often driven by:",
+          "options": [
+            "Political mandates",
+            "Profit motive and competition",
+            "Social equity goals",
+            "Universal service obligations"
+          ],
+          "a": 1,
+          "ex": "The need to minimize costs and maximize profits in a competitive environment drives efficiency in the private sector."
+        },
+        {
+          "q": "Which sector is responsible for enforcing laws and regulations?",
+          "options": [
+            "Private sector",
+            "Public sector",
+            "Non-profit organizations",
+            "Academic institutions"
+          ],
+          "a": 1,
+          "ex": "Government agencies within the public sector are responsible for creating and enforcing laws and regulations."
+        },
+        {
+          "q": "The concept of 'market failure' sometimes justifies the intervention of:",
+          "options": [
+            "Private companies",
+            "Public administration",
+            "Individual investors",
+            "Charitable foundations"
+          ],
+          "a": 1,
+          "ex": "When markets fail to provide certain goods or services efficiently or equitably, public administration may step in."
+        },
+        {
+          "q": "Public administration often involves providing services that are:",
+          "options": [
+            "Exclusive and selective",
+            "Non-excludable and non-rivalrous (public goods)",
+            "Highly individualized",
+            "Designed for profit generation"
+          ],
+          "a": 1,
+          "ex": "Public administration is often involved in providing public goods and services that are available to everyone and do not diminish when consumed by others."
+        },
+        {
+          "q": "Which sector is more likely to prioritize social responsibility alongside financial performance?",
+          "options": [
+            "Purely profit-driven private companies",
+            "Public administration",
+            "Aggressive investment firms",
+            "Competitive private markets"
+          ],
+          "a": 1,
+          "ex": "Public administration has a mandate to consider social well-being and equity in its operations."
+        },
+        {
+          "q": "The use of bureaucratic procedures in public administration is intended to ensure:",
+          "options": [
+            "Speedy decision-making",
+            "Flexibility and adaptability",
+            "Fairness, consistency, and accountability",
+            "Maximizing profitability"
+          ],
+          "a": 2,
+          "ex": "Bureaucratic rules and procedures aim to ensure that public decisions are made fairly, consistently, and are accountable."
+        },
+        {
+          "q": "Which sector is typically more focused on short-term financial results?",
+          "options": [
+            "Public administration",
+            "Government agencies",
+            "Private companies",
+            "Long-term infrastructure projects"
+          ],
+          "a": 2,
+          "ex": "Private companies, especially publicly traded ones, are often pressured to deliver strong financial results in the short term."
+        },
+        {
+          "q": "Public administration plays a crucial role in:",
+          "options": [
+            "Generating private wealth",
+            "Maximizing corporate profits",
+            "Implementing public policy and providing public services",
+            "Minimizing government intervention"
+          ],
+          "a": 2,
+          "ex": "The core function of public administration is to put government policies into practice and deliver services to the public."
+        }
+      ]
+    },
+    {
+      "id": "organizational_structure_design",
+      "title": "Organizational Structure and Design",
+      "questions": [
+        {
+          "q": "Which organizational structure is characterized by a clear hierarchy and a formal chain of command?",
+          "options": ["Flat structure", "Matrix structure", "Hierarchical structure", "Team-based structure"],
+          "a": 2,
+          "ex": "A hierarchical structure follows a pyramid shape with clear levels of authority."
+        },
+        {
+          "q": "Span of control refers to:",
+          "options": ["The number of layers in an organization", "The geographical distribution of employees", "The number of subordinates a manager can effectively supervise", "The complexity of tasks within an organization"],
+          "a": 2,
+          "ex": "Span of control is the number of individuals reporting directly to a manager."
+        },
+        {
+          "q": "Departmentalization by function groups together jobs that perform similar activities. Which of the following is an example?",
+          "options": ["Grouping employees by product line", "Grouping employees by geographical region", "Grouping employees by customer type", "Grouping employees by marketing, finance, and human resources"],
+          "a": 3,
+          "ex": "Functional departmentalization organizes departments based on the tasks or functions they perform."
+        },
+        {
+          "q": "A matrix structure combines elements of which two types of departmentalization?",
+          "options": ["Functional and geographical", "Product and customer", "Functional and product", "Geographical and customer"],
+          "a": 2,
+          "ex": "A matrix structure integrates functional and product (or project) departmentalization."
+        },
+        {
+          "q": "Which of the following is a disadvantage of a tall organizational structure?",
+          "options": ["Increased communication flow", "Faster decision-making", "Reduced administrative costs", "Slower communication flow"],
+          "a": 3,
+          "ex": "Tall structures have many layers, which can slow down communication and decision-making."
+        },
+        {
+          "q": "Centralization of authority means that decision-making power is concentrated at:",
+          "options": ["Lower levels of the organization", "Higher levels of the organization", "Across all levels equally", "Outside the organization"],
+          "a": 1,
+          "ex": "In a centralized structure, key decisions are made by top management."
+        },
+        {
+          "q": "Which type of organizational design is often found in small, entrepreneurial organizations?",
+          "options": ["Divisional structure", "Simple structure", "Bureaucratic structure", "Adhocracy"],
+          "a": 1,
+          "ex": "A simple structure has low departmentalization, wide spans of control, centralized authority, and little formalization."
+        },
+        {
+          "q": "The degree to which jobs within an organization are standardized and the extent to which employee behavior is guided by rules and procedures is known as:",
+          "options": ["Centralization", "Formalization", "Span of control", "Departmentalization"],
+          "a": 1,
+          "ex": "Formalization refers to the level of standardization and rules within an organization."
+        },
+        {
+          "q": "A divisional structure groups employees based on:",
+          "options": ["Function", "Geography or product/service", "Skill set", "Hierarchy level"],
+          "a": 1,
+          "ex": "Divisional structures organize the organization into semi-autonomous units based on products, services, geography, or customer groups."
+        },
+        {
+          "q": "Which organizational structure is best suited for complex and dynamic environments?",
+          "options": ["Simple structure", "Bureaucratic structure", "Matrix structure", "Hierarchical structure"],
+          "a": 2,
+          "ex": "Matrix structures are often used in complex projects where expertise from different functional areas is required."
+        },
+        {
+          "q": "Delayering in an organization involves:",
+          "options": ["Adding more layers of management", "Removing layers of management", "Increasing the span of control", "Decreasing the span of control"],
+          "a": 1,
+          "ex": "Delayering is the process of reducing the number of hierarchical levels in an organization."
+        },
+        {
+          "q": "The process of transferring decision-making authority to lower levels of an organization is called:",
+          "options": ["Centralization", "Formalization", "Decentralization", "Standardization"],
+          "a": 2,
+          "ex": "Decentralization is the delegation of decision-making authority to lower levels."
+        },
+        {
+          "q": "Which of the following is a characteristic of a mechanistic organization?",
+          "options": ["Decentralized decision-making", "Flexible job descriptions", "High formalization", "Organic structure"],
+          "a": 2,
+          "ex": "Mechanistic organizations are characterized by high formalization, centralization, and a clear chain of command."
+        },
+        {
+          "q": "An organic organization is characterized by:",
+          "options": ["Rigid hierarchy", "Low formalization", "Centralized authority", "Specialized tasks"],
+          "a": 1,
+          "ex": "Organic organizations are flexible, adaptable, and have low formalization and decentralized decision-making."
+        },
+        {
+          "q": "Which design principle suggests that each employee should receive orders from only one superior?",
+          "options": ["Span of control", "Unity of command", "Chain of command", "Departmentalization"],
+          "a": 1,
+          "ex": "Unity of command is a principle that states an employee should be accountable to only one supervisor."
+        },
+        {
+          "q": "The principle of 'unity of direction' suggests that:",
+          "options": ["Each employee should have one supervisor", "Activities with the same objective should have one plan and one head", "Work should be divided among employees", "Authority should be equal to responsibility"],
+          "a": 1,
+          "ex": "Unity of direction means that all activities aimed at the same objective should be coordinated under one plan and one manager."
+        },
+        {
+          "q": "Which of the following is a factor that influences organizational structure?",
+          "options": ["Organizational culture", "Technology", "Size of the organization", "All of the above"],
+          "a": 3,
+          "ex": "Organizational structure is influenced by various factors including size, technology, strategy, and environment."
+        },
+        {
+          "q": "A tall organizational structure generally has a ________ span of control.",
+          "options": ["Wide", "Narrow", "Flexible", "Undefined"],
+          "a": 1,
+          "ex": "Tall structures have more layers, which typically results in a narrower span of control for managers."
+        },
+        {
+          "q": "Which type of departmentalization is most suitable for a company operating in different geographic regions?",
+          "options": ["Functional", "Product", "Geographical", "Customer"],
+          "a": 2,
+          "ex": "Geographical departmentalization organizes units based on location."
+        },
+        {
+          "q": "The process of grouping jobs together so that common tasks can be coordinated is called:",
+          "options": ["Centralization", "Decentralization", "Departmentalization", "Formalization"],
+          "a": 2,
+          "ex": "Departmentalization is the process of grouping activities into departments."
+        },
+        {
+          "q": "In a projectized organizational structure, team members are primarily responsible to:",
+          "options": ["Their functional manager", "The project manager", "Top management", "Their subordinates"],
+          "a": 1,
+          "ex": "In a projectized structure, the project manager has full authority over the project team."
+        },
+        {
+          "q": "Which of the following is a characteristic of a flat organizational structure?",
+          "options": ["Many layers of management", "Narrow span of control", "Decentralized decision-making", "High formalization"],
+          "a": 2,
+          "ex": "Flat structures have fewer layers and a wider span of control, leading to more decentralized decision-making."
+        },
+        {
+          "q": "The degree to which decision-making is concentrated at a single point in the organization is:",
+          "options": ["Span of control", "Centralization", "Formalization", "Departmentalization"],
+          "a": 1,
+          "ex": "Centralization refers to the concentration of decision-making authority."
+        },
+        {
+          "q": "What is a potential disadvantage of a functional organizational structure?",
+          "options": ["Lack of specialization", "Poor communication between departments", "Duplication of resources", "Difficulty in supervising employees"],
+          "a": 1,
+          "ex": "Functional structures can lead to silos and poor communication between different functional areas."
+        },
+        {
+          "q": "An adhocracy is an organizational structure that is:",
+          "options": ["Highly formalized and centralized", "Rigid and bureaucratic", "Flexible, adaptable, and innovative", "Based on a strict hierarchy"],
+          "a": 2,
+          "ex": "An adhocracy is a highly flexible and adaptable structure, often used for innovation and problem-solving."
+        },
+        {
+          "q": "Which of the following is a form of departmentalization?",
+          "options": ["Centralization", "Formalization", "Process", "Span of control"],
+          "a": 2,
+          "ex": "Departmentalization can be based on various factors including process, product, customer, function, or geography."
+        },
+        {
+          "q": "The number of people who report directly to a manager is called:",
+          "options": ["Chain of command", "Span of authority", "Span of control", "Unity of command"],
+          "a": 2,
+          "ex": "Span of control is the number of subordinates a manager directly supervises."
+        },
+        {
+          "q": "What is a primary benefit of a divisional structure?",
+          "options": ["Economies of scale", "Increased specialization", "Faster response to market changes", "Strong central control"],
+          "a": 2,
+          "ex": "Divisional structures allow for greater focus on specific products, customers, or regions, leading to faster response times."
+        },
+        {
+          "q": "The formal line of authority that extends from the upper organizational levels to the lowest levels is known as the:",
+          "options": ["Span of control", "Unity of command", "Chain of command", "Departmentalization"],
+          "a": 2,
+          "ex": "The chain of command is the line of authority within an organization."
+        },
+        {
+          "q": "Which of the following is a characteristic of a highly formalized organization?",
+          "options": ["Flexible work processes", "Clear job descriptions and procedures", "Decentralized decision-making", "Emphasis on innovation"],
+          "a": 1,
+          "ex": "High formalization means there are detailed rules, procedures, and job descriptions."
+        },
+        {
+          "q": "A virtual organization is characterized by:",
+          "options": ["Physical colocation of employees", "Heavy reliance on technology to connect dispersed members", "A strict hierarchical structure", "Limited use of external partners"],
+          "a": 1,
+          "ex": "Virtual organizations use technology to link dispersed individuals and organizations."
+        },
+        {
+          "q": "Which of the following is a factor promoting decentralization?",
+          "options": ["Need for tight control", "Large organizational size", "Homogeneous environment", "Lack of competent lower-level managers"],
+          "a": 1,
+          "ex": "Larger organizations often benefit from decentralization to manage complexity."
+        },
+        {
+          "q": "The informal organization refers to:",
+          "options": ["The planned and structured aspects of the organization", "The network of personal and social relationships", "The official reporting lines", "The formal rules and procedures"],
+          "a": 1,
+          "ex": "The informal organization consists of unofficial relationships and interactions among employees."
+        },
+        {
+          "q": "Which type of structure is most likely to be found in a project-oriented company?",
+          "options": ["Functional structure", "Hierarchical structure", "Matrix structure", "Simple structure"],
+          "a": 2,
+          "ex": "Matrix structures are well-suited for project work as they allow for the pooling of resources from different functional areas."
+        },
+        {
+          "q": "What is a disadvantage of decentralization?",
+          "options": ["Slower decision-making", "Reduced creativity", "Lack of control by top management", "Difficulty in adapting to local conditions"],
+          "a": 2,
+          "ex": "Decentralization can lead to a lack of overall control and coordination by top management."
+        },
+        {
+          "q": "The design of an organization's structure should be aligned with its:",
+          "options": ["Competitors' structures", "Industry trends", "Strategy", "All of the above"],
+          "a": 2,
+          "ex": "Organizational structure should support the organization's overall strategy."
+        }
+      ]
+    }
+  ]
+}
