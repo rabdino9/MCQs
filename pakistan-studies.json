@@ -1,1 +1,243 @@
-
+{
+  "meta": {
+    "title": "Pakistan Studies MCQs - Ideology of Pakistan",
+    "description": "Practice questions on the Ideology of Pakistan.",
+    "keywords": "pakistan studies, mcqs, quiz, ideology of pakistan"
+  },
+  "subcategories": [
+    {
+      "id": "ideology_of_pakistan",
+      "title": "Ideology of Pakistan",
+      "questions": [
+        {
+          "q": "What is the fundamental principle behind the Ideology of Pakistan?",
+          "options": ["Secularism", "Nationalism", "Two-Nation Theory", "Socialism"],
+          "a": 2,
+          "ex": "The Two-Nation Theory, which posited that Muslims and Hindus were two separate nations, is the fundamental principle behind the Ideology of Pakistan."
+        },
+        {
+          "q": "Who is considered the philosophical father of the Ideology of Pakistan?",
+          "options": ["Quaid-e-Azam Muhammad Ali Jinnah", "Allama Muhammad Iqbal", "Sir Syed Ahmed Khan", "Maulana Muhammad Ali Jauhar"],
+          "a": 1,
+          "ex": "Allama Muhammad Iqbal, through his Allahabad Address in 1930, articulated the idea of a separate Muslim state in Northwest India, making him the philosophical father of the Ideology of Pakistan."
+        },
+        {
+          "q": "When was the Lahore Resolution (Pakistan Resolution) passed?",
+          "options": ["1930", "1940", "1947", "1949"],
+          "a": 1,
+          "ex": "The Lahore Resolution, which demanded a separate homeland for Muslims, was passed on March 23, 1940."
+        },
+        {
+          "q": "What was the main demand of the Lahore Resolution?",
+          "options": ["Increased Muslim representation in government", "Separate electorates for Muslims", "A separate homeland for Muslims in the Muslim-majority areas", "Independence for unified India"],
+          "a": 2,
+          "ex": "The main demand of the Lahore Resolution was the creation of independent states for Muslims in the Muslim-majority areas of British India."
+        },
+        {
+          "q": "Which of the following is NOT a core element of the Ideology of Pakistan?",
+          "options": ["Islam as a unifying force", "Democratic governance", "Territorial nationalism", "Social justice"],
+          "a": 2,
+          "ex": "The Ideology of Pakistan is primarily based on religious and cultural identity (Two-Nation Theory) rather than solely on territorial nationalism."
+        },
+        {
+          "q": "The Ideology of Pakistan aimed to protect the political, economic, and cultural rights of which community in British India?",
+          "options": ["Hindus", "Muslims", "Sikhs", "All minorities"],
+          "a": 1,
+          "ex": "The primary aim of the Ideology of Pakistan was to safeguard the rights and identity of the Muslim community in British India."
+        },
+        {
+          "q": "Who delivered the famous Allahabad Address in 1930?",
+          "options": ["Quaid-e-Azam Muhammad Ali Jinnah", "Allama Muhammad Iqbal", "Sir Syed Ahmed Khan", "Liaquat Ali Khan"],
+          "a": 1,
+          "ex": "Allama Muhammad Iqbal delivered the Allahabad Address in 1930, outlining the concept of a separate Muslim state."
+        },
+        {
+          "q": "The concept of Two-Nation Theory was based on the idea that Muslims and Hindus were distinct in terms of:",
+          "options": ["Language and dress", "Religion and culture", "Economic status", "Political beliefs"],
+          "a": 1,
+          "ex": "The Two-Nation Theory emphasized the distinct religious and cultural identities of Muslims and Hindus."
+        },
+        {
+          "q": "Sir Syed Ahmed Khan's Aligarh Movement aimed to:",
+          "options": ["Promote Hindu-Muslim unity", "Advocate for a separate Muslim state", "Modernize and educate the Muslim community", "Oppose British rule"],
+          "a": 2,
+          "ex": "Sir Syed Ahmed Khan's Aligarh Movement focused on modern education and social reform for the Muslim community."
+        },
+        {
+          "q": "The Khilafat Movement (1919-1924) played a role in consolidating Muslim identity in India, primarily due to:",
+          "options": ["Support for Indian independence", "Concern over the fate of the Ottoman Caliphate", "Desire for economic reforms", "Demand for separate electorates"],
+          "a": 1,
+          "ex": "The Khilafat Movement united Indian Muslims in support of the Ottoman Caliphate, strengthening their sense of a distinct identity."
+        },
+        {
+          "q": "Which of the following leaders was a strong proponent of Hindu-Muslim unity before the idea of Pakistan gained momentum?",
+          "options": ["Allama Muhammad Iqbal", "Quaid-e-Azam Muhammad Ali Jinnah", "Sardar Vallabhbhai Patel", "Jawaharlal Nehru"],
+          "a": 1,
+          "ex": "Quaid-e-Azam Muhammad Ali Jinnah was initially a staunch advocate for Hindu-Muslim unity before the political landscape changed."
+        },
+        {
+          "q": "The term 'Pakistan' was coined by:",
+          "options": ["Allama Muhammad Iqbal", "Quaid-e-Azam Muhammad Ali Jinnah", "Choudhry Rahmat Ali", "Sir Syed Ahmed Khan"],
+          "a": 2,
+          "ex": "The name 'Pakistan' was coined by Choudhry Rahmat Ali in 1933."
+        },
+        {
+          "q": "The Objective Resolution, passed in 1949, laid down the foundation for:",
+          "options": ["A secular state", "An Islamic state based on democratic principles", "A socialist economy", "A military dictatorship"],
+          "a": 1,
+          "ex": "The Objective Resolution declared that the future constitution of Pakistan would be based on Islamic principles and democratic values."
+        },
+        {
+          "q": "The Ideology of Pakistan emphasizes the importance of:",
+          "options": ["Linguistic diversity", "Economic equality", "Islamic principles and values", "Geographical unity"],
+          "a": 2,
+          "ex": "A key aspect of the Ideology of Pakistan is the adherence to Islamic principles and values in personal and public life."
+        },
+        {
+          "q": "The primary reason for the demand of a separate homeland for Muslims was to:",
+          "options": ["Gain economic superiority", "Escape British rule", "Preserve their religious and cultural identity", "Form a military power"],
+          "a": 2,
+          "ex": "The fear of cultural and religious assimilation under a Hindu-majority government was a primary driver for the demand of a separate Muslim state."
+        },
+        {
+          "q": "Which British policy is often cited as a contributing factor to the rise of Muslim separatism?",
+          "options": ["Divide and Rule policy", "Educational reforms", "Economic liberalization", "Military expansion"],
+          "a": 0,
+          "ex": "The British 'Divide and Rule' policy is often seen as having exacerbated tensions between Hindu and Muslim communities."
+        },
+        {
+          "q": "The Lucknow Pact (1916) was significant because it:",
+          "options": ["Established separate electorates for Muslims", "Called for complete independence from British rule", "United Congress and the Muslim League on a common platform", "Demanded the partition of India"],
+          "a": 2,
+          "ex": "The Lucknow Pact saw the Indian National Congress and the All-India Muslim League agreeing to present a united front for constitutional reforms."
+        },
+        {
+          "q": "Quaid-e-Azam Muhammad Ali Jinnah's Fourteen Points (1929) were a response to:",
+          "options": ["The Simon Commission Report", "The Nehru Report", "The Cripps Mission", "The Government of India Act 1935"],
+          "a": 1,
+          "ex": "Jinnah's Fourteen Points were a set of proposals by the All-India Muslim League as a counter to the constitutional proposals in the Nehru Report."
+        },
+        {
+          "q": "The Ideology of Pakistan views Islam as:",
+          "options": ["Just a religion", "A complete way of life", "A cultural practice", "A political system only"],
+          "a": 1,
+          "ex": "In the context of the Ideology of Pakistan, Islam is considered a comprehensive code of life that guides all aspects of human existence."
+        },
+        {
+          "q": "The concept of a welfare state is also integral to the Ideology of Pakistan, emphasizing:",
+          "options": ["Economic control by the state", "Social justice and provision of basic needs", "Strict adherence to religious rituals", "Military strength"],
+          "a": 1,
+          "ex": "The Ideology of Pakistan includes the concept of a welfare state that ensures social justice and provides for the basic needs of its citizens."
+        },
+        {
+          "q": "Who chaired the session of the All-India Muslim League where the Lahore Resolution was passed?",
+          "options": ["Allama Muhammad Iqbal", "Sir Syed Ahmed Khan", "Quaid-e-Azam Muhammad Ali Jinnah", "Liaquat Ali Khan"],
+          "a": 2,
+          "ex": "Quaid-e-Azam Muhammad Ali Jinnah presided over the 1940 session of the All-India Muslim League in Lahore."
+        },
+        {
+          "q": "The main objective of the Pakistan Movement was:",
+          "options": ["To reform the existing Indian government", "To achieve economic prosperity for Muslims", "To create a separate sovereign state for Muslims", "To strengthen ties with the British Empire"],
+          "a": 2,
+          "ex": "The Pakistan Movement's core objective was the establishment of an independent state for the Muslim population of British India."
+        },
+        {
+          "q": "The demand for Pakistan gained significant momentum after which event?",
+          "options": ["The Sepoy Mutiny of 1857", "The formation of the Indian National Congress", "The provincial elections of 1937", "The Jallianwala Bagh massacre"],
+          "a": 2,
+          "ex": "The performance of the Congress in the 1937 provincial elections and their subsequent policies raised concerns among Muslims, accelerating the demand for Pakistan."
+        },
+        {
+          "q": "The Ideology of Pakistan emphasizes the importance of brotherhood and unity among Muslims, often referred to as:",
+          "options": ["Secularism", "Nationalism", "Millat", "Federalism"],
+          "a": 2,
+          "ex": "The concept of 'Millat' refers to the global community of Muslims and is a key aspect of the Ideology of Pakistan, emphasizing unity."
+        },
+        {
+          "q": "The cultural aspect of the Two-Nation Theory highlighted the differences in:",
+          "options": ["Food and clothing", "Art and architecture", "Religious practices, language, and social customs", "Economic activities"],
+          "a": 2,
+          "ex": "The cultural distinctions between Muslims and Hindus, including religious practices, language (Urdu vs. Hindi), and social customs, were central to the Two-Nation Theory."
+        },
+        {
+          "q": "The Muslim League was founded in 1906 with the primary objective of:",
+          "options": ["Joining the Indian National Congress", "Protecting the political rights of Muslims", "Promoting secular education", "Demanding immediate independence"],
+          "a": 1,
+          "ex": "The All-India Muslim League was formed to safeguard the political rights and interests of Muslims in British India."
+        },
+        {
+          "q": "The 'Idea of Pakistan' was further elaborated and popularized by:",
+          "options": ["Sir Syed Ahmed Khan", "Allama Muhammad Iqbal and Quaid-e-Azam Muhammad Ali Jinnah", "Maulana Abul Kalam Azad", "Mahatma Gandhi"],
+          "a": 1,
+          "ex": "While Sir Syed laid groundwork, Allama Iqbal provided the philosophical vision and Quaid-e-Azam provided the political leadership to realize the Idea of Pakistan."
+        },
+        {
+          "q": "The Ideology of Pakistan aims to create a society based on:",
+          "options": ["Caste system", "Islamic principles of equality and justice", "Strict socialist principles", "Absolute monarchy"],
+          "a": 1,
+          "ex": "The Ideology of Pakistan aspires to build a society founded on the Islamic principles of equality, justice, and brotherhood."
+        },
+        {
+          "q": "Which of the following was a significant concern for Muslims in a united India?",
+          "options": ["Dominance by a Hindu majority in political and social spheres", "Economic backwardness", "Lack of educational opportunities", "Absence of religious freedom"],
+          "a": 0,
+          "ex": "The potential for political and social marginalization under a Hindu majority government was a major concern for Muslims."
+        },
+        {
+          "q": "The Ideology of Pakistan serves as a source of:",
+          "options": ["Division and conflict", "National cohesion and identity", "Economic stagnation", "Political instability"],
+          "a": 1,
+          "ex": "The Ideology of Pakistan is intended to provide a common identity and foster national unity among the diverse population of Pakistan."
+        },
+        {
+          "q": "The role of Ulema (religious scholars) in supporting the Pakistan Movement was:",
+          "options": ["Largely insignificant", "Divided, with some supporting and others opposing", "Unanimous in support", "Primarily focused on economic issues"],
+          "a": 1,
+          "ex": "The Ulema's opinions on the Pakistan Movement were divided, with some prominent scholars supporting the idea of Pakistan and others opposing it."
+        },
+        {
+          "q": "The Pakistan Resolution of 1940 was later interpreted to mean a single state of Pakistan, primarily due to:",
+          "options": ["Political expediency", "Geographical realities", "The leadership of Quaid-e-Azam", "Pressure from the British government"],
+          "a": 2,
+          "ex": "Quaid-e-Azam Muhammad Ali Jinnah's strong leadership and vision were instrumental in consolidating the demand for a single state of Pakistan."
+        },
+        {
+          "q": "The Ideology of Pakistan is a dynamic concept that continues to be interpreted and debated, reflecting:",
+          "options": ["A lack of clear goals", "The unchanging nature of its principles", "The evolving socio-political landscape of Pakistan", "Its irrelevance in modern times"],
+          "a": 2,
+          "ex": "The interpretation and application of the Ideology of Pakistan have evolved over time, reflecting the changing socio-political context of the country."
+        },
+        {
+          "q": "The educational reforms introduced by Sir Syed Ahmed Khan were crucial for Muslims because they:",
+          "options": ["Encouraged religious extremism", "Prepared them for opportunities in British India", "Promoted separation from other communities", "Focused solely on traditional Islamic learning"],
+          "a": 1,
+          "ex": "Sir Syed's emphasis on modern education aimed to equip Muslims to compete for jobs and opportunities in the British administration and society."
+        },
+        {
+          "q": "The concept of 'Islamic Democracy' is often associated with the Ideology of Pakistan, meaning:",
+          "options": ["Rule by religious scholars", "A democratic system guided by Islamic principles", "A secular democratic state", "A totalitarian regime"],
+          "a": 1,
+          "ex": "Islamic Democracy, in the context of Pakistan, suggests a democratic framework that operates within the broader principles and values of Islam."
+        },
+        {
+          "q": "The Pakistan Movement was a struggle for:",
+          "options": ["Economic revolution", "Cultural dominance", "Political self-determination for Muslims", "Religious conversion"],
+          "a": 2,
+          "ex": "The core of the Pakistan Movement was the struggle for political self-determination and the right of Muslims to govern themselves in their own state."
+        },
+        {
+          "q": "The fear of marginalization of Urdu language and Muslim culture in a Hindu-majority India was a factor contributing to the Ideology of Pakistan.",
+          "options": ["True", "False"],
+          "a": 0,
+          "ex": "Concerns about the future of Urdu and distinct Muslim cultural practices under a united India were significant factors in the development of the Two-Nation Theory and the Ideology of Pakistan."
+        },
+        {
+          "q": "The Ideology of Pakistan emphasizes the importance of national defense as a means to:",
+          "options": ["Expand territory", "Intimidate neighbors", "Protect sovereignty and territorial integrity", "Promote religious conversion"],
+          "a": 2,
+          "ex": "A strong national defense is considered essential within the Ideology of Pakistan to safeguard the nation's sovereignty and territorial integrity."
+        }
+      ]
+    }
+  ]
+}
