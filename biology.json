@@ -786,6 +786,2286 @@
                     "ex": "Lecithin is a common example of a phospholipid."
                 }
             ]
+        },
+        {
+            "id": "enzymes",
+            "title": "Enzymes",
+            "questions": [
+                {
+                    "q": "What is the primary function of enzymes in biological systems?",
+                    "options": [
+                        "To store genetic information",
+                        "To provide structural support",
+                        "To act as biological catalysts",
+                        "To transport molecules across membranes"
+                    ],
+                    "a": 2,
+                    "ex": "Enzymes are biological catalysts that speed up chemical reactions without being consumed in the process."
+                },
+                {
+                    "q": "The specific region of an enzyme where the substrate binds is called the:",
+                    "options": [
+                        "Allosteric site",
+                        "Regulatory site",
+                        "Active site",
+                        "Binding pocket"
+                    ],
+                    "a": 2,
+                    "ex": "The active site is a specific three-dimensional region on the enzyme that complements the shape and chemical properties of the substrate."
+                },
+                {
+                    "q": "Which model describes enzyme-substrate binding as a perfect fit, like a key in a lock?",
+                    "options": [
+                        "Induced-fit model",
+                        "Lock-and-key model",
+                        "Fluid mosaic model",
+                        "Activation energy model"
+                    ],
+                    "a": 1,
+                    "ex": "The lock-and-key model proposes that the active site of an enzyme has a rigid shape that precisely fits the substrate."
+                },
+                {
+                    "q": "Enzymes are typically what type of organic molecule?",
+                    "options": [
+                        "Carbohydrates",
+                        "Lipids",
+                        "Nucleic Acids",
+                        "Proteins"
+                    ],
+                    "a": 3,
+                    "ex": "The vast majority of enzymes are proteins, although some RNA molecules (ribozymes) also have catalytic activity."
+                },
+                {
+                    "q": "The minimum energy required for a chemical reaction to occur is called the:",
+                    "options": [
+                        "Free energy",
+                        "Activation energy",
+                        "Binding energy",
+                        "Transition state energy"
+                    ],
+                    "a": 1,
+                    "ex": "Activation energy is the energy barrier that must be overcome for a reaction to proceed. Enzymes lower the activation energy."
+                },
+                {
+                    "q": "Which factor can denature an enzyme and reduce its activity?",
+                    "options": [
+                        "Optimal pH",
+                        "Optimal temperature",
+                        "High salt concentration",
+                        "Presence of substrate"
+                    ],
+                    "a": 2,
+                    "ex": "High salt concentrations can disrupt the ionic bonds and hydrogen bonds that maintain the enzyme's three-dimensional structure, leading to denaturation."
+                },
+                {
+                    "q": "In competitive inhibition, the inhibitor molecule binds to the:",
+                    "options": [
+                        "Allosteric site",
+                        "Substrate",
+                        "Active site",
+                        "Enzyme-product complex"
+                    ],
+                    "a": 2,
+                    "ex": "Competitive inhibitors bind to the active site of the enzyme, competing with the substrate for binding."
+                },
+                {
+                    "q": "Non-competitive inhibitors bind to the enzyme at a site different from the active site. This site is called the:",
+                    "options": [
+                        "Substrate-binding site",
+                        "Regulatory site",
+                        "Allosteric site",
+                        "Catalytic site"
+                    ],
+                    "a": 2,
+                    "ex": "Non-competitive inhibitors bind to the allosteric site, causing a conformational change in the enzyme that reduces its activity."
+                },
+                {
+                    "q": "What is the effect of increasing substrate concentration on enzyme activity, assuming enzyme concentration is constant?",
+                    "options": [
+                        "Activity decreases",
+                        "Activity increases linearly",
+                        "Activity increases and then plateaus",
+                        "Activity remains constant"
+                    ],
+                    "a": 2,
+                    "ex": "As substrate concentration increases, the reaction rate increases until all enzyme active sites are saturated with substrate, at which point the rate plateaus."
+                },
+                {
+                    "q": "The maximum rate of an enzyme-catalyzed reaction is referred to as:",
+                    "options": [
+                        "Km",
+                        "Vmax",
+                        "Activation energy",
+                        "Substrate concentration"
+                    ],
+                    "a": 1,
+                    "ex": "Vmax is the maximum reaction velocity when the enzyme is saturated with substrate."
+                },
+                {
+                    "q": "The Michaelis constant (Km) represents:",
+                    "options": [
+                        "The maximum reaction rate",
+                        "The substrate concentration at which the reaction rate is half of Vmax",
+                        "The enzyme concentration",
+                        "The activation energy"
+                    ],
+                    "a": 1,
+                    "ex": "Km is a measure of the affinity of the enzyme for its substrate. A lower Km indicates higher affinity."
+                },
+                {
+                    "q": "Which of the following is a cofactor?",
+                    "options": [
+                        "An enzyme",
+                        "A protein molecule",
+                        "A non-protein chemical compound required for the enzyme's activity",
+                        "A product of the reaction"
+                    ],
+                    "a": 2,
+                    "ex": "Cofactors are non-protein molecules or ions that are required for the proper functioning of many enzymes."
+                },
+                {
+                    "q": "Vitamins are often precursors for:",
+                    "options": [
+                        "Substrates",
+                        "Enzyme inhibitors",
+                        "Coenzymes",
+                        "Products"
+                    ],
+                    "a": 2,
+                    "ex": "Many vitamins serve as precursors for coenzymes, which are organic cofactors that assist enzymes in catalysis."
+                },
+                {
+                    "q": "The regulation of enzyme activity by the binding of a molecule to an allosteric site is called:",
+                    "options": [
+                        "Competitive inhibition",
+                        "Feedback inhibition",
+                        "Allosteric regulation",
+                        "Substrate activation"
+                    ],
+                    "a": 2,
+                    "ex": "Allosteric regulation involves the binding of an effector molecule to an allosteric site, which can either activate or inhibit the enzyme."
+                },
+                {
+                    "q": "In feedback inhibition, the end product of a metabolic pathway inhibits an enzyme early in the pathway. This is a form of:",
+                    "options": [
+                        "Competitive inhibition",
+                        "Non-competitive inhibition",
+                        "Allosteric regulation",
+                        "Irreversible inhibition"
+                    ],
+                    "a": 2,
+                    "ex": "Feedback inhibition is a common mechanism of allosteric regulation where the end product acts as an allosteric inhibitor."
+                },
+                {
+                    "q": "Enzymes increase the rate of a reaction by:",
+                    "options": [
+                        "Increasing the activation energy",
+                        "Decreasing the activation energy",
+                        "Changing the equilibrium of the reaction",
+                        "Consuming the product"
+                    ],
+                    "a": 1,
+                    "ex": "Enzymes lower the activation energy required for a reaction to proceed, thereby increasing the reaction rate."
+                },
+                {
+                    "q": "What happens to an enzyme after it has catalyzed a reaction?",
+                    "options": [
+                        "It is consumed in the reaction",
+                        "It is converted into product",
+                        "It is unchanged and can catalyze further reactions",
+                        "It is degraded"
+                    ],
+                    "a": 2,
+                    "ex": "Enzymes are not consumed or altered during the reaction and can participate in multiple catalytic cycles."
+                },
+                {
+                    "q": "Extremes of pH can affect enzyme activity by:",
+                    "options": [
+                        "Increasing the activation energy",
+                        "Altering the shape of the active site",
+                        "Increasing substrate concentration",
+                        "Converting the enzyme into product"
+                    ],
+                    "a": 1,
+                    "ex": "pH changes can affect the ionization of amino acid residues in the enzyme, which can disrupt the active site structure and reduce activity."
+                },
+                {
+                    "q": "The optimal temperature for most human enzymes is around:",
+                    "options": [
+                        "0°C",
+                        "25°C",
+                        "37°C",
+                        "100°C"
+                    ],
+                    "a": 2,
+                    "ex": "Most enzymes in the human body function optimally at normal body temperature, which is approximately 37°C."
+                },
+                {
+                    "q": "Which of the following is an example of an irreversible inhibitor?",
+                    "options": [
+                        "A molecule that binds covalently to the active site",
+                        "A molecule that competes with the substrate for the active site",
+                        "A molecule that binds to the allosteric site",
+                        "A product of the reaction"
+                    ],
+                    "a": 0,
+                    "ex": "Irreversible inhibitors form strong, often covalent bonds with the enzyme, permanently inactivating it."
+                },
+                {
+                    "q": "Zymogens are inactive precursor forms of enzymes that require activation. This is a form of:",
+                    "options": [
+                        "Allosteric regulation",
+                        "Covalent modification",
+                        "Competitive inhibition",
+                        "Irreversible inhibition"
+                    ],
+                    "a": 1,
+                    "ex": "Zymogens are activated by proteolytic cleavage, a type of covalent modification that reveals the active site."
+                },
+                {
+                    "q": "What is the role of a coenzyme?",
+                    "options": [
+                        "To denature the enzyme",
+                        "To bind to the active site and inhibit the reaction",
+                        "To provide the enzyme with energy",
+                        "To assist the enzyme in catalyzing the reaction"
+                    ],
+                    "a": 3,
+                    "ex": "Coenzymes are organic cofactors that bind to the enzyme and participate in the catalytic reaction, often carrying chemical groups."
+                },
+                {
+                    "q": "Enzyme activity can be regulated by:",
+                    "options": [
+                        "Changing temperature",
+                        "Changing pH",
+                        "Adding activators or inhibitors",
+                        "All of the above"
+                    ],
+                    "a": 3,
+                    "ex": "Enzyme activity is sensitive to various factors including temperature, pH, and the presence of regulatory molecules."
+                },
+                {
+                    "q": "The induced-fit model of enzyme-substrate binding suggests that:",
+                    "options": [
+                        "The active site is rigid and unchanging",
+                        "The substrate and active site have complementary shapes before binding",
+                        "The active site changes shape to fit the substrate upon binding",
+                        "The enzyme is consumed in the reaction"
+                    ],
+                    "a": 2,
+                    "ex": "The induced-fit model proposes that the active site is flexible and changes shape slightly to accommodate the substrate."
+                },
+                {
+                    "q": "Hydrolases are enzymes that catalyze reactions involving the addition of:",
+                    "options": [
+                        "Water",
+                        "Oxygen",
+                        "Carbon dioxide",
+                        "Hydrogen"
+                    ],
+                    "a": 0,
+                    "ex": "Hydrolases catalyze hydrolysis reactions, which involve the breaking of bonds using water."
+                },
+                {
+                    "q": "Which class of enzymes catalyzes oxidation-reduction reactions?",
+                    "options": [
+                        "Transferases",
+                        "Oxidoreductases",
+                        "Lyases",
+                        "Isomerases"
+                    ],
+                    "a": 1,
+                    "ex": "Oxidoreductases catalyze reactions where electrons are transferred between molecules."
+                },
+                {
+                    "q": "Ligases are enzymes that catalyze the formation of new bonds by joining two molecules together, often coupled with the hydrolysis of ATP. This class is also known as:",
+                    "options": [
+                        "Synthetases",
+                        "Kinases",
+                        "Phosphatases",
+                        "Proteases"
+                    ],
+                    "a": 0,
+                    "ex": "Ligases are also called synthetases because they synthesize new molecules by joining two smaller ones."
+                },
+                {
+                    "q": "The specificity of an enzyme for its substrate is primarily determined by the:",
+                    "options": [
+                        "Temperature",
+                        "pH",
+                        "Shape and chemical properties of the active site",
+                        "Concentration of the enzyme"
+                    ],
+                    "a": 2,
+                    "ex": "The unique three-dimensional structure of the active site allows enzymes to bind specifically to their substrates."
+                },
+                {
+                    "q": "Enzyme-catalyzed reactions can be millions of times faster than uncatalyzed reactions because enzymes:",
+                    "options": [
+                        "Increase the free energy change of the reaction",
+                        "Increase the equilibrium constant",
+                        "Lower the activation energy barrier",
+                        "Are consumed in the reaction"
+                    ],
+                    "a": 2,
+                    "ex": "By lowering the activation energy, enzymes significantly increase the rate at which reactions occur."
+                },
+                {
+                    "q": "Many enzymes require metal ions for their activity. These metal ions are examples of:",
+                    "options": [
+                        "Substrates",
+                        "Inhibitors",
+                        "Cofactors",
+                        "Products"
+                    ],
+                    "a": 2,
+                    "ex": "Metal ions that assist enzymes in catalysis are inorganic cofactors."
+                },
+                {
+                    "q": "The rate of an enzyme-catalyzed reaction is affected by:",
+                    "options": [
+                        "Substrate concentration",
+                        "Enzyme concentration",
+                        "Temperature and pH",
+                        "All of the above"
+                    ],
+                    "a": 3,
+                    "ex": "The rate of an enzyme-catalyzed reaction is influenced by the availability of substrate and enzyme, as well as environmental conditions like temperature and pH."
+                },
+                {
+                    "q": "Which of the following is NOT a class of enzymes?",
+                    "options": [
+                        "Hydrolases",
+                        "Transferases",
+                        "Polymerases",
+                        "Synthesizers"
+                    ],
+                    "a": 3,
+                    "ex": "While enzymes are involved in synthesis, 'Synthesizers' is not one of the major internationally recognized classes of enzymes. Polymerases are enzymes that synthesize polymers."
+                },
+                {
+                    "q": "The study of enzyme reaction rates and the factors that influence them is called:",
+                    "options": [
+                        "Thermodynamics",
+                        "Enzyme kinetics",
+                        "Molecular biology",
+                        "Genetics"
+                    ],
+                    "a": 1,
+                    "ex": "Enzyme kinetics is the study of the rates of enzyme-catalyzed reactions and how they are affected by various factors."
+                },
+                {
+                    "q": "When an enzyme is saturated with substrate, the reaction rate is directly proportional to the:",
+                    "options": [
+                        "Substrate concentration",
+                        "Enzyme concentration",
+                        "Km value",
+                        "Activation energy"
+                    ],
+                    "a": 1,
+                    "ex": "At saturating substrate concentrations, the reaction rate is limited only by the enzyme concentration. Increasing enzyme concentration will increase Vmax."
+                }
+            ]
+        },
+        {
+            "id": "cell_division",
+            "title": "Cell Division (Mitosis and Meiosis)",
+            "questions": [
+                {
+                    "q": "Which phase of the cell cycle is characterized by DNA replication?",
+                    "options": [
+                        "G1 phase",
+                        "S phase",
+                        "G2 phase",
+                        "M phase"
+                    ],
+                    "a": 1,
+                    "ex": "DNA replication occurs during the Synthesis (S) phase of the interphase."
+                },
+                {
+                    "q": "In mitosis, sister chromatids separate during which phase?",
+                    "options": [
+                        "Prophase",
+                        "Metaphase",
+                        "Anaphase",
+                        "Telophase"
+                    ],
+                    "a": 2,
+                    "ex": "During Anaphase of mitosis, the sister chromatids are pulled apart to opposite poles of the cell."
+                },
+                {
+                    "q": "Meiosis typically results in the formation of:",
+                    "options": [
+                        "Two diploid cells",
+                        "Four haploid cells",
+                        "Two haploid cells",
+                        "Four diploid cells"
+                    ],
+                    "a": 1,
+                    "ex": "Meiosis is a reduction division that produces four genetically distinct haploid cells (gametes) from a single diploid cell."
+                },
+                {
+                    "q": "Crossing over, a process that increases genetic variation, occurs during:",
+                    "options": [
+                        "Mitosis",
+                        "Meiosis I",
+                        "Meiosis II",
+                        "Interphase"
+                    ],
+                    "a": 1,
+                    "ex": "Crossing over occurs between homologous chromosomes during Prophase I of Meiosis I."
+                },
+                {
+                    "q": "Which of the following is a key difference between mitosis and meiosis?",
+                    "options": [
+                        "Mitosis involves one cell division, while meiosis involves two.",
+                        "Mitosis produces genetically diverse cells, while meiosis produces identical cells.",
+                        "Mitosis occurs in gamete formation, while meiosis occurs in somatic cells.",
+                        "Mitosis results in haploid cells, while meiosis results in diploid cells."
+                    ],
+                    "a": 0,
+                    "ex": "Mitosis involves one round of division, resulting in two genetically identical diploid cells. Meiosis involves two rounds of division, resulting in four genetically distinct haploid cells."
+                },
+                {
+                    "q": "The structure formed by homologous chromosomes paired together during prophase I of meiosis is called a:",
+                    "options": [
+                        "Centromere",
+                        "Spindle fiber",
+                        "Bivalent or Tetrad",
+                        "Kinetochore"
+                    ],
+                    "a": 2,
+                    "ex": "During Prophase I, homologous chromosomes synapse to form a structure called a bivalent or tetrad."
+                },
+                {
+                    "q": "If a diploid organism has 2n = 12 chromosomes, how many chromosomes will be in its gametes after meiosis?",
+                    "options": [
+                        "6",
+                        "12",
+                        "24",
+                        "3"
+                    ],
+                    "a": 0,
+                    "ex": "Meiosis reduces the chromosome number by half. If 2n = 12, then the haploid number (n) is 6."
+                },
+                {
+                    "q": "What is the primary purpose of mitosis in multicellular organisms?",
+                    "options": [
+                        "To produce gametes for sexual reproduction",
+                        "To increase genetic diversity",
+                        "Growth, repair, and asexual reproduction",
+                        "To reduce the chromosome number"
+                    ],
+                    "a": 2,
+                    "ex": "Mitosis is essential for growth, repair of damaged tissues, and in some organisms, asexual reproduction."
+                },
+                {
+                    "q": "During which meiotic phase do homologous chromosomes align at the metaphase plate?",
+                    "options": [
+                        "Metaphase of Mitosis",
+                        "Metaphase I of Meiosis",
+                        "Metaphase II of Meiosis",
+                        "Anaphase I of Meiosis"
+                    ],
+                    "a": 1,
+                    "ex": "In Metaphase I of Meiosis, homologous chromosome pairs align at the metaphase plate."
+                },
+                {
+                    "q": "Independent assortment of chromosomes occurs during which phase of meiosis?",
+                    "options": [
+                        "Prophase I",
+                        "Metaphase I",
+                        "Anaphase II",
+                        "Telophase II"
+                    ],
+                    "a": 1,
+                    "ex": "Independent assortment, the random orientation of homologous pairs at the metaphase plate, occurs during Metaphase I."
+                },
+                {
+                    "q": "Which of the following events is unique to meiosis?",
+                    "options": [
+                        "Sister chromatid separation",
+                        "Spindle formation",
+                        "Synapsis and crossing over",
+                        "Chromosomes condensing"
+                    ],
+                    "a": 2,
+                    "ex": "Synapsis and crossing over between homologous chromosomes are unique events of Prophase I of meiosis."
+                },
+                {
+                    "q": "The two identical copies of a chromosome that are joined together at the centromere are called:",
+                    "options": [
+                        "Homologous chromosomes",
+                        "Sister chromatids",
+                        "Alleles",
+                        "Chromatins"
+                    ],
+                    "a": 1,
+                    "ex": "Sister chromatids are identical copies of a chromosome that are formed during DNA replication and are joined at the centromere."
+                },
+                {
+                    "q": "A cell undergoing mitosis will produce how many daughter cells?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "Four"
+                    ],
+                    "a": 1,
+                    "ex": "Mitosis results in the formation of two daughter cells from a single parent cell."
+                },
+                {
+                    "q": "If a somatic cell has 46 chromosomes, how many chromosomes would be in the gametes of that organism?",
+                    "options": [
+                        "23",
+                        "46",
+                        "92",
+                        "Cannot be determined"
+                    ],
+                    "a": 0,
+                    "ex": "Gametes are haploid, meaning they contain half the number of chromosomes as somatic cells. If 2n=46, then n=23."
+                },
+                {
+                    "q": "The process of cytokinesis involves the division of the:",
+                    "options": [
+                        "Nucleus",
+                        "Cytoplasm",
+                        "Chromosomes",
+                        "Centromere"
+                    ],
+                    "a": 1,
+                    "ex": "Cytokinesis is the division of the cytoplasm and its contents to form two separate daughter cells."
+                },
+                {
+                    "q": "In plant cells, a cell plate forms during cytokinesis to divide the cytoplasm. This is characteristic of:",
+                    "options": [
+                        "Animal cell mitosis",
+                        "Plant cell mitosis",
+                        "Animal cell meiosis",
+                        "Prokaryotic cell division"
+                    ],
+                    "a": 1,
+                    "ex": "Plant cells form a cell plate to divide the cytoplasm during cytokinesis of mitosis and meiosis."
+                },
+                {
+                    "q": "Which of the following events occurs in Meiosis II but not Meiosis I?",
+                    "options": [
+                        "Synapsis",
+                        "Crossing over",
+                        "Separation of homologous chromosomes",
+                        "Separation of sister chromatids"
+                    ],
+                    "a": 3,
+                    "ex": "Separation of sister chromatids occurs in Anaphase II of Meiosis II, similar to Anaphase of Mitosis."
+                },
+                {
+                    "q": "The stage of mitosis where chromosomes are aligned at the equator of the cell is:",
+                    "options": [
+                        "Prophase",
+                        "Metaphase",
+                        "Anaphase",
+                        "Telophase"
+                    ],
+                    "a": 1,
+                    "ex": "Chromosomes align at the metaphase plate during Metaphase."
+                },
+                {
+                    "q": "Reductional division, where the chromosome number is halved, occurs during:",
+                    "options": [
+                        "Mitosis",
+                        "Meiosis I",
+                        "Meiosis II",
+                        "Cytokinesis"
+                    ],
+                    "a": 1,
+                    "ex": "Meiosis I is considered a reductional division because it reduces the number of chromosomes from diploid to haploid."
+                },
+                {
+                    "q": "Which of the following is a result of meiosis?",
+                    "options": [
+                        "Growth of an organism",
+                        "Repair of damaged tissues",
+                        "Formation of gametes",
+                        "Asexual reproduction"
+                    ],
+                    "a": 2,
+                    "ex": "Meiosis is the process that produces gametes (sperm and egg cells) for sexual reproduction."
+                },
+                {
+                    "q": "If an organism has a diploid number of 2n = 8, how many bivalents are formed during Prophase I of meiosis?",
+                    "options": [
+                        "4",
+                        "8",
+                        "16",
+                        "2"
+                    ],
+                    "a": 0,
+                    "ex": "During Prophase I, homologous chromosomes pair up to form bivalents. If 2n=8, there are 4 homologous pairs, so 4 bivalents are formed."
+                },
+                {
+                    "q": "The uncontrolled division of cells can lead to:",
+                    "options": [
+                        "Meiosis",
+                        "Differentiation",
+                        "Apoptosis",
+                        "Cancer"
+                    ],
+                    "a": 3,
+                    "ex": "Cancer is characterized by uncontrolled cell growth and division."
+                },
+                {
+                    "q": "Which phase of mitosis is the reverse of prophase?",
+                    "options": [
+                        "Metaphase",
+                        "Anaphase",
+                        "Telophase",
+                        "Interphase"
+                    ],
+                    "a": 2,
+                    "ex": "Telophase is essentially the reverse of prophase, with the formation of new nuclear envelopes and decondensation of chromosomes."
+                },
+                {
+                    "q": "The spindle fibers attach to what structure on the chromosomes?",
+                    "options": [
+                        "Centromere",
+                        "Telomere",
+                        "Kinetochore",
+                        "Chromatin"
+                    ],
+                    "a": 2,
+                    "ex": "Spindle fibers attach to the kinetochores, protein structures located at the centromere of each chromosome."
+                },
+                {
+                    "q": "What is the ploidy level of the cells produced by mitosis?",
+                    "options": [
+                        "Haploid (n)",
+                        "Diploid (2n)",
+                        "Triploid (3n)",
+                        "Tetraploid (4n)"
+                    ],
+                    "a": 1,
+                    "ex": "Mitosis produces daughter cells that are genetically identical and have the same ploidy level as the parent cell (typically diploid)."
+                },
+                {
+                    "q": "Synapsis, the pairing of homologous chromosomes, occurs during which stage of meiosis?",
+                    "options": [
+                        "Prophase I",
+                        "Metaphase I",
+                        "Prophase II",
+                        "Anaphase II"
+                    ],
+                    "a": 0,
+                    "ex": "Synapsis occurs specifically during Prophase I of Meiosis."
+                },
+                {
+                    "q": "If a cell has 20 chromosomes during G1 phase, how many chromatids will it have during G2 phase?",
+                    "options": [
+                        "10",
+                        "20",
+                        "40",
+                        "80"
+                    ],
+                    "a": 2,
+                    "ex": "During the S phase between G1 and G2, DNA replicates. So, if there are 20 chromosomes (each with one chromatid) in G1, there will be 20 chromosomes (each with two sister chromatids) in G2, totaling 40 chromatids."
+                },
+                {
+                    "q": "Which of the following is NOT a stage of mitosis?",
+                    "options": [
+                        "Prophase",
+                        "Interphase",
+                        "Metaphase",
+                        "Telophase"
+                    ],
+                    "a": 1,
+                    "ex": "Interphase is the period of growth and DNA replication that precedes mitosis, but it is not a stage of mitosis itself."
+                },
+                {
+                    "q": "The separation of homologous chromosomes occurs during:",
+                    "options": [
+                        "Anaphase of Mitosis",
+                        "Anaphase I of Meiosis",
+                        "Anaphase II of Meiosis",
+                        "Telophase of Mitosis"
+                    ],
+                    "a": 1,
+                    "ex": "Homologous chromosomes separate and move to opposite poles during Anaphase I of Meiosis."
+                },
+                {
+                    "q": "What is the genetic makeup of the daughter cells produced by meiosis compared to the parent cell?",
+                    "options": [
+                        "Identical",
+                        "Similar but not identical",
+                        "Completely different",
+                        "Dependent on the organism"
+                    ],
+                    "a": 1,
+                    "ex": "Due to crossing over and independent assortment, the daughter cells produced by meiosis are genetically distinct from each other and from the parent cell."
+                },
+                 {
+                    "q": "Which phase of mitosis is characterized by the breakdown of the nuclear envelope and the formation of spindle fibers?",
+                    "options": [
+                        "Metaphase",
+                        "Anaphase",
+                        "Prophase",
+                        "Telophase"
+                    ],
+                    "a": 2,
+                    "ex": "In Prophase, the nuclear envelope breaks down, and the spindle apparatus begins to form."
+                },
+                {
+                    "q": "The process of oogenesis and spermatogenesis, which produce gametes, involve:",
+                    "options": [
+                        "Mitosis",
+                        "Meiosis",
+                        "Binary Fission",
+                        "Budding"
+                    ],
+                    "a": 1,
+                    "ex": "Gametogenesis (oogenesis and spermatogenesis) relies on meiosis to produce haploid gametes."
+                },
+                {
+                    "q": "How many DNA replications occur during meiosis?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "None"
+                    ],
+                    "a": 0,
+                    "ex": "DNA replication occurs only once, during the S phase of the interphase preceding Meiosis I."
+                }
+            ]
+        },
+        {
+            "id": "biological_molecules",
+            "title": "Biological Molecules",
+            "questions": [
+                {
+                    "q": "Which of the following is the primary energy source for most living organisms?",
+                    "options": [
+                        "Lipids",
+                        "Proteins",
+                        "Nucleic Acids",
+                        "Carbohydrates"
+                    ],
+                    "a": 3,
+                    "ex": "Carbohydrates, particularly glucose, are the main source of energy for cellular respiration."
+                },
+                {
+                    "q": "Amino acids are the monomers of which biological molecule?",
+                    "options": [
+                        "Carbohydrates",
+                        "Lipids",
+                        "Proteins",
+                        "Nucleic Acids"
+                    ],
+                    "a": 2,
+                    "ex": "Proteins are polymers made up of repeating units called amino acids."
+                },
+                {
+                    "q": "Which type of lipid is the main component of cell membranes?",
+                    "options": [
+                        "Triglycerides",
+                        "Phospholipids",
+                        "Steroids",
+                        "Waxes"
+                    ],
+                    "a": 1,
+                    "ex": "Phospholipids form a bilayer that makes up the structural basis of cell membranes."
+                },
+                {
+                    "q": "What is the main function of nucleic acids?",
+                    "options": [
+                        "Energy storage",
+                        "Catalyzing reactions",
+                        "Storing and transmitting genetic information",
+                        "Providing structural support"
+                    ],
+                    "a": 2,
+                    "ex": "Nucleic acids like DNA and RNA store and transmit genetic information."
+                },
+                {
+                    "q": "Glucose and fructose are examples of which type of carbohydrate?",
+                    "options": [
+                        "Polysaccharides",
+                        "Disaccharides",
+                        "Monosaccharides",
+                        "Oligosaccharides"
+                    ],
+                    "a": 2,
+                    "ex": "Monosaccharides are simple sugars, and glucose and fructose are common examples."
+                },
+                {
+                    "q": "Which of the following is a structural polysaccharide found in plant cell walls?",
+                    "options": [
+                        "Starch",
+                        "Glycogen",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 2,
+                    "ex": "Cellulose is a major component of the cell walls of plants, providing structural support."
+                },
+                {
+                    "q": "Denaturation of a protein refers to:",
+                    "options": [
+                        "The formation of peptide bonds",
+                        "The breakdown of amino acids",
+                        "The loss of its three-dimensional structure and function",
+                        "The synthesis of new proteins"
+                    ],
+                    "a": 2,
+                    "ex": "Denaturation is the process where a protein loses its native shape and becomes biologically inactive, often due to factors like heat or pH changes."
+                },
+                {
+                    "q": "Which of the following is a saturated fatty acid?",
+                    "options": [
+                        "Oleic acid",
+                        "Linoleic acid",
+                        "Stearic acid",
+                        "Alpha-linolenic acid"
+                    ],
+                    "a": 2,
+                    "ex": "Saturated fatty acids have no double bonds between carbon atoms in their hydrocarbon chain. Stearic acid is an example."
+                },
+                {
+                    "q": "The building blocks of nucleic acids are called:",
+                    "options": [
+                        "Monosaccharides",
+                        "Amino acids",
+                        "Fatty acids",
+                        "Nucleotides"
+                    ],
+                    "a": 3,
+                    "ex": "Nucleotides are the monomers that link together to form nucleic acid polymers like DNA and RNA."
+                },
+                {
+                    "q": "Which type of bond links amino acids together to form proteins?",
+                    "options": [
+                        "Glycosidic bond",
+                        "Ester bond",
+                        "Peptide bond",
+                        "Phosphodiester bond"
+                    ],
+                    "a": 2,
+                    "ex": "Peptide bonds are covalent bonds that connect amino acids in a polypeptide chain."
+                },
+                {
+                    "q": "What is the primary role of enzymes in biological systems?",
+                    "options": [
+                        "Energy storage",
+                        "Structural support",
+                        "Catalyzing biochemical reactions",
+                        "Storing genetic information"
+                    ],
+                    "a": 2,
+                    "ex": "Most enzymes are proteins that act as biological catalysts, speeding up chemical reactions in the body."
+                },
+                {
+                    "q": "Which polysaccharide is the primary storage form of glucose in animals?",
+                    "options": [
+                        "Starch",
+                        "Glycogen",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 1,
+                    "ex": "Glycogen is stored primarily in the liver and muscles of animals as a readily available energy reserve."
+                },
+                {
+                    "q": "A triglyceride is composed of:",
+                    "options": [
+                        "A glycerol molecule and one fatty acid",
+                        "A glycerol molecule and two fatty acids",
+                        "A glycerol molecule and three fatty acids",
+                        "Three glycerol molecules and one fatty acid"
+                    ],
+                    "a": 2,
+                    "ex": "Triglycerides consist of a glycerol backbone esterified to three fatty acid chains."
+                },
+                {
+                    "q": "Which nitrogenous base is found in RNA but not in DNA?",
+                    "options": [
+                        "Adenine",
+                        "Guanine",
+                        "Cytosine",
+                        "Uracil"
+                    ],
+                    "a": 3,
+                    "ex": "RNA contains uracil instead of thymine, which is found in DNA."
+                },
+                {
+                    "q": "The secondary structure of a protein is formed by:",
+                    "options": [
+                        "The sequence of amino acids",
+                        "Hydrogen bonds between the polypeptide backbone",
+                        "Interactions between R-groups",
+                        "The association of multiple polypeptide chains"
+                    ],
+                    "a": 1,
+                    "ex": "Secondary structure arises from hydrogen bonds between the backbone atoms of the polypeptide chain, forming alpha-helices and beta-sheets."
+                },
+                {
+                    "q": "Which of the following is a disaccharide?",
+                    "options": [
+                        "Glucose",
+                        "Fructose",
+                        "Sucrose",
+                        "Galactose"
+                    ],
+                    "a": 2,
+                    "ex": "Sucrose is a disaccharide composed of glucose and fructose."
+                },
+                {
+                    "q": "Steroids are a type of lipid characterized by a carbon skeleton consisting of how many fused rings?",
+                    "options": [
+                        "Two",
+                        "Three",
+                        "Four",
+                        "Five"
+                    ],
+                    "a": 2,
+                    "ex": "Steroids, like cholesterol and hormones, have a distinctive structure of four fused carbon rings."
+                },
+                {
+                    "q": "Which of the following is not a component of a nucleotide?",
+                    "options": [
+                        "A phosphate group",
+                        "A pentose sugar",
+                        "An amino acid",
+                        "A nitrogenous base"
+                    ],
+                    "a": 2,
+                    "ex": "Nucleotides are composed of a phosphate group, a pentose sugar (deoxyribose or ribose), and a nitrogenous base. Amino acids are the monomers of proteins."
+                },
+                {
+                    "q": "The quaternary structure of a protein refers to:",
+                    "options": [
+                        "The sequence of amino acids",
+                        "The arrangement of alpha-helices and beta-sheets",
+                        "The overall three-dimensional shape of a single polypeptide chain",
+                        "The association of multiple polypeptide chains"
+                    ],
+                    "a": 3,
+                    "ex": "Quaternary structure is formed when two or more polypeptide chains (subunits) associate to form a functional protein."
+                },
+                {
+                    "q": "Which polysaccharide is the primary storage form of glucose in plants?",
+                    "options": [
+                        "Starch",
+                        "Glycogen",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 0,
+                    "ex": "Starch is stored in plant cells as a source of energy."
+                },
+                {
+                    "q": "Fats that are liquid at room temperature are generally classified as:",
+                    "options": [
+                        "Saturated fats",
+                        "Unsaturated fats",
+                        "Trans fats",
+                        "Cholesterol"
+                    ],
+                    "a": 1,
+                    "ex": "Unsaturated fats typically contain double bonds in their fatty acid chains, which causes kinks and prevents them from packing tightly, making them liquid at room temperature."
+                },
+                {
+                    "q": "Which type of RNA carries genetic information from DNA to the ribosome for protein synthesis?",
+                    "options": [
+                        "rRNA (ribosomal RNA)",
+                        "tRNA (transfer RNA)",
+                        "mRNA (messenger RNA)",
+                        "snRNA (small nuclear RNA)"
+                    ],
+                    "a": 2,
+                    "ex": "mRNA molecules are transcribed from DNA and carry the genetic code to the ribosomes for translation into protein."
+                },
+                {
+                    "q": "The unique sequence of amino acids in a polypeptide chain constitutes its:",
+                    "options": [
+                        "Primary structure",
+                        "Secondary structure",
+                        "Tertiary structure",
+                        "Quaternary structure"
+                    ],
+                    "a": 0,
+                    "ex": "The primary structure of a protein is the linear sequence of amino acids, determined by the genetic code."
+                },
+                {
+                    "q": "Which of the following is an example of a complex carbohydrate?",
+                    "options": [
+                        "Glucose",
+                        "Sucrose",
+                        "Fructose",
+                        "Starch"
+                    ],
+                    "a": 3,
+                    "ex": "Starch is a polysaccharide, a complex carbohydrate made up of many glucose units."
+                },
+                {
+                    "q": "The hydrophobic nature of lipids is primarily due to the presence of:",
+                    "options": [
+                        "Phosphate groups",
+                        "Hydroxyl groups",
+                        "Long hydrocarbon chains",
+                        "Carboxyl groups"
+                    ],
+                    "a": 2,
+                    "ex": "The nonpolar, long hydrocarbon chains of fatty acids are responsible for the hydrophobic (water-repelling) property of lipids."
+                },
+                {
+                    "q": "Which bond is found between the sugar and phosphate group in the backbone of a nucleic acid?",
+                    "options": [
+                        "Glycosidic bond",
+                        "Ester bond",
+                        "Peptide bond",
+                        "Phosphodiester bond"
+                    ],
+                    "a": 3,
+                    "ex": "Phosphodiester bonds link the sugar of one nucleotide to the phosphate group of the next nucleotide in the nucleic acid chain."
+                },
+                {
+                    "q": "The specific three-dimensional shape of a single polypeptide chain, including the interactions between R-groups, is its:",
+                    "options": [
+                        "Primary structure",
+                        "Secondary structure",
+                        "Tertiary structure",
+                        "Quaternary structure"
+                    ],
+                    "a": 2,
+                    "ex": "Tertiary structure is the overall folded shape of a single polypeptide chain, determined by interactions between the amino acid side chains (R-groups)."
+                },
+                {
+                    "q": "Chitin, a structural polysaccharide, is a major component of the exoskeletons of arthropods and the cell walls of fungi. What is its repeating monomer?",
+                    "options": [
+                        "Glucose",
+                        "N-acetylglucosamine",
+                        "Galactose",
+                        "Fructose"
+                    ],
+                    "a": 1,
+                    "ex": "Chitin is a polymer of N-acetylglucosamine, a modified sugar."
+                },
+                {
+                    "q": "Which of the following is a function of proteins?",
+                    "options": [
+                        "Energy storage",
+                        "Insulation",
+                        "Transportation of substances",
+                        "Providing genetic information"
+                    ],
+                    "a": 2,
+                    "ex": "Proteins have diverse functions, including transporting molecules across membranes and within the body."
+                },
+                {
+                    "q": "The 'ose' ending often indicates a:",
+                    "options": [
+                        "Lipid",
+                        "Protein",
+                        "Carbohydrate",
+                        "Nucleic acid"
+                    ],
+                    "a": 2,
+                    "ex": "The suffix '-ose' is commonly used to denote sugars and carbohydrates (e.g., glucose, fructose, sucrose)."
+                },
+                {
+                    "q": "Cholesterol is an important steroid that serves as a precursor for the synthesis of:",
+                    "options": [
+                        "Amino acids",
+                        "Fatty acids",
+                        "Steroid hormones",
+                        "Nucleotides"
+                    ],
+                    "a": 2,
+                    "ex": "Cholesterol is a precursor molecule for the synthesis of steroid hormones like testosterone and estrogen, as well as vitamin D."
+                },
+                {
+                    "q": "The process of linking monomers together to form polymers, with the removal of a water molecule, is called:",
+                    "options": [
+                        "Hydrolysis",
+                        "Dehydration synthesis (condensation)",
+                        "Denaturation",
+                        "Replication"
+                    ],
+                    "a": 1,
+                    "ex": "Dehydration synthesis (also known as condensation reaction) joins monomers by forming a covalent bond and releasing a water molecule."
+                },
+                {
+                    "q": "The breakdown of polymers into monomers with the addition of a water molecule is called:",
+                    "options": [
+                        "Hydrolysis",
+                        "Dehydration synthesis (condensation)",
+                        "Denaturation",
+                        "Transcription"
+                    ],
+                    "a": 0,
+                    "ex": "Hydrolysis breaks down polymers by adding a water molecule, which breaks the covalent bond between monomers."
+                },
+                {
+                    "q": "Which of the following is a major function of lipids?",
+                    "options": [
+                        "Catalyzing reactions",
+                        "Long-term energy storage",
+                        "Carrying genetic information",
+                        "Building muscle tissue"
+                    ],
+                    "a": 1,
+                    "ex": "Lipids, particularly triglycerides, are efficient for long-term energy storage due to their high energy density."
+                }
+            ]
+        },
+        {
+            "id": "genetics_heredity",
+            "title": "Genetics and Heredity",
+            "questions": [
+                {
+                    "q": "What is a gene?",
+                    "options": [
+                        "A segment of protein",
+                        "A segment of DNA that codes for a functional product",
+                        "A type of carbohydrate",
+                        "An organelle in the cell"
+                    ],
+                    "a": 1,
+                    "ex": "A gene is a specific sequence of DNA that contains the instructions to make a protein or a functional RNA molecule."
+                },
+                {
+                    "q": "Who is considered the 'father of genetics'?",
+                    "options": [
+                        "Charles Darwin",
+                        "James Watson",
+                        "Francis Crick",
+                        "Gregor Mendel"
+                    ],
+                    "a": 3,
+                    "ex": "Gregor Mendel's experiments with pea plants laid the foundation for modern genetics."
+                },
+                {
+                    "q": "An allele is:",
+                    "options": [
+                        "A type of chromosome",
+                        "A different form of a gene",
+                        "A segment of RNA",
+                        "A protein structure"
+                    ],
+                    "a": 1,
+                    "ex": "Alleles are variations of the same gene, located at the same locus on homologous chromosomes."
+                },
+                {
+                    "q": "What is the genotype of an organism?",
+                    "options": [
+                        "Its observable physical characteristics",
+                        "Its genetic makeup",
+                        "Its habitat",
+                        "Its diet"
+                    ],
+                    "a": 1,
+                    "ex": "The genotype refers to the specific combination of alleles an individual possesses for a particular gene."
+                },
+                {
+                    "q": "What is the phenotype of an organism?",
+                    "options": [
+                        "Its genetic makeup",
+                        "Its observable physical characteristics",
+                        "Its evolutionary history",
+                        "Its geographical origin"
+                    ],
+                    "a": 1,
+                    "ex": "The phenotype is the outward expression of an organism's genotype, its observable traits."
+                },
+                {
+                    "q": "According to Mendel's Law of Segregation, the two alleles for each gene separate during:",
+                    "options": [
+                        "Fertilization",
+                        "Transcription",
+                        "Meiosis",
+                        "Mitosis"
+                    ],
+                    "a": 2,
+                    "ex": "During meiosis, homologous chromosomes separate, ensuring that each gamete receives only one allele for each gene."
+                },
+                {
+                    "q": "A homozygous individual has:",
+                    "options": [
+                        "Two different alleles for a gene",
+                        "Two identical alleles for a gene",
+                        "Only one allele for a gene",
+                        "No alleles for a gene"
+                    ],
+                    "a": 1,
+                    "ex": "A homozygous individual has two copies of the same allele for a specific gene."
+                },
+                {
+                    "q": "A heterozygous individual has:",
+                    "options": [
+                        "Two identical alleles for a gene",
+                        "Two different alleles for a gene",
+                        "Only one allele for a gene",
+                        "No alleles for a gene"
+                    ],
+                    "a": 1,
+                    "ex": "A heterozygous individual has two different alleles for a specific gene."
+                },
+                {
+                    "q": "If a dominant allele is present, it will be expressed in the phenotype. This describes:",
+                    "options": [
+                        "Law of Independent Assortment",
+                        "Law of Segregation",
+                        "Principle of Dominance",
+                        "Principle of Codominance"
+                    ],
+                    "a": 2,
+                    "ex": "The Principle of Dominance states that in a heterozygous individual, the dominant allele masks the expression of the recessive allele."
+                },
+                {
+                    "q": "In a monohybrid cross between two heterozygous parents (e.g., Bb x Bb), what is the expected phenotypic ratio in the offspring?",
+                    "options": [
+                        "1:1",
+                        "3:1",
+                        "1:2:1",
+                        "9:3:3:1"
+                    ],
+                    "a": 1,
+                    "ex": "A cross between two heterozygotes for a single gene typically results in a 3:1 phenotypic ratio of the dominant trait to the recessive trait."
+                },
+                {
+                    "q": "What is a Punnett square used for?",
+                    "options": [
+                        "To calculate the size of chromosomes",
+                        "To predict the possible genotypes and phenotypes of offspring from a cross",
+                        "To sequence DNA",
+                        "To measure enzyme activity"
+                    ],
+                    "a": 1,
+                    "ex": "A Punnett square is a diagram used to predict the probability of genotypes and phenotypes in the offspring of a genetic cross."
+                },
+                {
+                    "q": "Incomplete dominance is a pattern of inheritance where:",
+                    "options": [
+                        "One allele completely masks the other",
+                        "Both alleles are fully expressed",
+                        "The heterozygous phenotype is intermediate between the two homozygous phenotypes",
+                        "Alleles are located on sex chromosomes"
+                    ],
+                    "a": 2,
+                    "ex": "In incomplete dominance, the dominant allele does not completely mask the recessive allele, resulting in a blended phenotype in heterozygotes."
+                },
+                {
+                    "q": "Codominance is a pattern of inheritance where:",
+                    "options": [
+                        "One allele completely masks the other",
+                        "Both alleles are fully expressed in the heterozygous phenotype",
+                        "The heterozygous phenotype is intermediate between the two homozygous phenotypes",
+                        "Alleles are located on sex chromosomes"
+                    ],
+                    "a": 1,
+                    "ex": "In codominance, both alleles are expressed equally in the heterozygous individual, resulting in a phenotype that shows characteristics of both alleles."
+                },
+                {
+                    "q": "Genes located on the same chromosome are called:",
+                    "options": [
+                        "Alleles",
+                        "Homologous genes",
+                        "Linked genes",
+                        "Recessive genes"
+                    ],
+                    "a": 2,
+                    "ex": "Linked genes are genes that are located close together on the same chromosome and tend to be inherited together."
+                },
+                {
+                    "q": "Sex-linked traits are typically carried on which chromosome?",
+                    "options": [
+                        "Autosomes",
+                        "X chromosome",
+                        "Y chromosome",
+                        "Both X and Y chromosomes equally"
+                    ],
+                    "a": 1,
+                    "ex": "Most sex-linked traits are carried on the X chromosome because it is larger and contains more genes than the Y chromosome."
+                },
+                {
+                    "q": "A carrier for a genetic disorder is someone who:",
+                    "options": [
+                        "Has the disorder",
+                        "Does not have the disorder but carries one copy of the recessive allele",
+                        "Has two copies of the recessive allele",
+                        "Has a mutation in their dominant allele"
+                    ],
+                    "a": 1,
+                    "ex": "A carrier is heterozygous for a recessive genetic disorder; they have the allele but do not express the phenotype."
+                },
+                {
+                    "q": "What is a pedigree chart used for?",
+                    "options": [
+                        "To sequence DNA",
+                        "To analyze the inheritance of a trait through several generations of a family",
+                        "To measure the size of a gene",
+                        "To identify mutations"
+                    ],
+                    "a": 1,
+                    "ex": "A pedigree chart is a diagram that shows the occurrence and appearance or phenotypes of a particular gene or organism and its ancestors from one generation to the next."
+                },
+                {
+                    "q": "Epistasis is when:",
+                    "options": [
+                        "One gene affects the expression of another gene",
+                        "Multiple genes contribute to a single trait",
+                        "A single gene affects multiple traits",
+                        "Alleles are codominant"
+                    ],
+                    "a": 0,
+                    "ex": "Epistasis is a type of gene interaction where the phenotype expression of one gene is affected by another gene."
+                },
+                {
+                    "q": "Polygenic inheritance is when:",
+                    "options": [
+                        "One gene affects the expression of another gene",
+                        "Multiple genes contribute to a single trait",
+                        "A single gene affects multiple traits",
+                        "Alleles are codominant"
+                    ],
+                    "a": 1,
+                    "ex": "Polygenic inheritance involves multiple genes that collectively influence a single phenotypic trait, such as height or skin color."
+                },
+                {
+                    "q": "Pleiotropy is when:",
+                    "options": [
+                        "One gene affects the expression of another gene",
+                        "Multiple genes contribute to a single trait",
+                        "A single gene affects multiple traits",
+                        "Alleles are codominant"
+                    ],
+                    "a": 2,
+                    "ex": "Pleiotropy is when a single gene influences two or more seemingly unrelated phenotypic traits."
+                },
+                {
+                    "q": "What is the term for a change in the DNA sequence?",
+                    "options": [
+                        "Recombination",
+                        "Mutation",
+                        "Segregation",
+                        "Assortment"
+                    ],
+                    "a": 1,
+                    "ex": "A mutation is a permanent alteration in the DNA sequence that makes up a gene."
+                },
+                {
+                    "q": "Which of the following is a source of genetic variation?",
+                    "options": [
+                        "Mitosis",
+                        "Binary fission",
+                        "Mutation",
+                        "Transcription"
+                    ],
+                    "a": 2,
+                    "ex": "Mutations introduce new alleles into a population, contributing to genetic variation."
+                },
+                {
+                    "q": "Crossing over occurs during which stage of meiosis?",
+                    "options": [
+                        "Prophase I",
+                        "Metaphase I",
+                        "Anaphase II",
+                        "Telophase II"
+                    ],
+                    "a": 0,
+                    "ex": "Crossing over, the exchange of genetic material between homologous chromosomes, occurs during prophase I of meiosis."
+                },
+                {
+                    "q": "Independent assortment of chromosomes occurs during which stage of meiosis?",
+                    "options": [
+                        "Prophase I",
+                        "Metaphase I",
+                        "Anaphase II",
+                        "Telophase II"
+                    ],
+                    "a": 1,
+                    "ex": "During metaphase I, homologous chromosome pairs align independently at the metaphase plate, leading to independent assortment."
+                },
+                {
+                    "q": "What is the central dogma of molecular biology?",
+                    "options": [
+                        "DNA -> RNA -> Protein",
+                        "Protein -> RNA -> DNA",
+                        "RNA -> DNA -> Protein",
+                        "DNA -> Protein -> RNA"
+                    ],
+                    "a": 0,
+                    "ex": "The central dogma describes the flow of genetic information from DNA to RNA to protein."
+                },
+                {
+                    "q": "Transcription is the process of:",
+                    "options": [
+                        "Synthesizing protein from RNA",
+                        "Synthesizing RNA from DNA",
+                        "Synthesizing DNA from a template",
+                        "Synthesizing carbohydrates"
+                    ],
+                    "a": 1,
+                    "ex": "Transcription is the process where the genetic information in DNA is copied into a messenger RNA (mRNA) molecule."
+                },
+                {
+                    "q": "Translation is the process of:",
+                    "options": [
+                        "Synthesizing protein from RNA",
+                        "Synthesizing RNA from DNA",
+                        "Synthesizing DNA from a template",
+                        "Synthesizing carbohydrates"
+                    ],
+                    "a": 0,
+                    "ex": "Translation is the process where the genetic information in mRNA is used to synthesize a sequence of amino acids, forming a protein."
+                },
+                {
+                    "q": "The human genome project aimed to:",
+                    "options": [
+                        "Sequence the entire human genome",
+                        "Identify all human proteins",
+                        "Develop new antibiotics",
+                        "Study plant genetics"
+                    ],
+                    "a": 0,
+                    "ex": "The Human Genome Project was an international scientific research project with the goal of determining the sequence of chemical base pairs that make up human DNA."
+                },
+                {
+                    "q": "Genetic engineering involves:",
+                    "options": [
+                        "The study of fossils",
+                        "The manipulation of an organism's genes",
+                        "The classification of organisms",
+                        "The study of ecosystems"
+                    ],
+                    "a": 1,
+                    "ex": "Genetic engineering is the deliberate modification of the characteristics of an organism by manipulating its genetic material."
+                },
+                {
+                    "q": "A transgenic organism is an organism that:",
+                    "options": [
+                        "Lives in water",
+                        "Has been genetically modified to contain genes from another species",
+                        "Is resistant to disease",
+                        "Reproduces asexually"
+                    ],
+                    "a": 1,
+                    "ex": "A transgenic organism is an organism whose genome has been altered by the transfer of a gene or genes from another species or breed."
+                },
+                {
+                    "q": "CRISPR-Cas9 is a technology used for:",
+                    "options": [
+                        "Measuring blood pressure",
+                        "Editing genes",
+                        "Identifying bacteria",
+                        "Synthesizing proteins"
+                    ],
+                    "a": 1,
+                    "ex": "CRISPR-Cas9 is a powerful tool used for precisely editing DNA sequences."
+                }
+            ]
+        },
+        {
+            "id": "dna_rna_structure",
+            "title": "DNA and RNA Structure",
+            "questions": [
+                {
+                    "q": "What are the three components of a nucleotide?",
+                    "options": [
+                        "Sugar, phosphate group, fatty acid",
+                        "Nitrogenous base, sugar, phosphate group",
+                        "Amino acid, sugar, phosphate group",
+                        "Nitrogenous base, fatty acid, sugar"
+                    ],
+                    "a": 1,
+                    "ex": "A nucleotide is the basic structural unit of nucleic acids, consisting of a nitrogenous base, a pentose sugar, and a phosphate group."
+                },
+                {
+                    "q": "Which type of bond holds the two strands of DNA together?",
+                    "options": [
+                        "Covalent bond",
+                        "Ionic bond",
+                        "Hydrogen bond",
+                        "Phosphodiester bond"
+                    ],
+                    "a": 2,
+                    "ex": "Hydrogen bonds form between the complementary nitrogenous bases (A with T, and C with G) on opposite strands of the DNA double helix."
+                },
+                {
+                    "q": "In DNA, which nitrogenous base pairs with Adenine (A)?",
+                    "options": [
+                        "Guanine (G)",
+                        "Cytosine (C)",
+                        "Thymine (T)",
+                        "Uracil (U)"
+                    ],
+                    "a": 2,
+                    "ex": "In DNA, Adenine (A) always pairs with Thymine (T) through two hydrogen bonds."
+                },
+                {
+                    "q": "Which of the following is a key structural difference between DNA and RNA?",
+                    "options": [
+                        "DNA is single-stranded, RNA is double-stranded",
+                        "DNA contains deoxyribose sugar, RNA contains ribose sugar",
+                        "DNA contains uracil, RNA contains thymine",
+                        "DNA is found in the cytoplasm, RNA is found in the nucleus"
+                    ],
+                    "a": 1,
+                    "ex": "DNA contains the pentose sugar deoxyribose, while RNA contains ribose. This difference in sugar is a key structural distinction."
+                },
+                {
+                    "q": "Which nitrogenous base is found in RNA but not in DNA?",
+                    "options": [
+                        "Adenine (A)",
+                        "Thymine (T)",
+                        "Cytosine (C)",
+                        "Uracil (U)"
+                    ],
+                    "a": 3,
+                    "ex": "RNA contains Uracil (U) in place of Thymine (T), which is found in DNA."
+                },
+                {
+                    "q": "The backbone of a DNA strand is composed of alternating:",
+                    "options": [
+                        "Nitrogenous bases and sugars",
+                        "Sugars and phosphate groups",
+                        "Nitrogenous bases and phosphate groups",
+                        "Amino acids and sugars"
+                    ],
+                    "a": 1,
+                    "ex": "The sugar-phosphate backbone forms the structural framework of a DNA strand, with phosphodiester bonds linking the sugar of one nucleotide to the phosphate group of the next."
+                },
+                {
+                    "q": "What is the term for the antiparallel orientation of the two strands in a DNA double helix?",
+                    "options": [
+                        "Complementary",
+                        "Parallel",
+                        "Antiparallel",
+                        "Perpendicular"
+                    ],
+                    "a": 2,
+                    "ex": "The two strands of a DNA double helix run in opposite directions, with one strand oriented 5' to 3' and the other 3' to 5'. This is known as antiparallel orientation."
+                },
+                {
+                    "q": "Which type of RNA carries genetic information from DNA to the ribosome?",
+                    "options": [
+                        "Transfer RNA (tRNA)",
+                        "Ribosomal RNA (rRNA)",
+                        "Messenger RNA (mRNA)",
+                        "Small nuclear RNA (snRNA)"
+                    ],
+                    "a": 2,
+                    "ex": "Messenger RNA (mRNA) is transcribed from DNA and carries the genetic code for protein synthesis to the ribosomes."
+                },
+                {
+                    "q": "The process of unwinding the DNA double helix for replication or transcription is performed by which enzyme?",
+                    "options": [
+                        "DNA polymerase",
+                        "RNA polymerase",
+                        "Helicase",
+                        "Ligase"
+                    ],
+                    "a": 2,
+                    "ex": "Helicase is an enzyme that unwinds the DNA double helix by breaking the hydrogen bonds between the base pairs."
+                },
+                {
+                    "q": "Which of the following is NOT a pyrimidine base found in nucleic acids?",
+                    "options": [
+                        "Cytosine",
+                        "Thymine",
+                        "Adenine",
+                        "Uracil"
+                    ],
+                    "a": 2,
+                    "ex": "Adenine is a purine base. Cytosine, Thymine, and Uracil are pyrimidine bases."
+                },
+                {
+                    "q": "How many hydrogen bonds are formed between Adenine (A) and Thymine (T) in DNA?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "Four"
+                    ],
+                    "a": 1,
+                    "ex": "Adenine and Thymine pair through two hydrogen bonds."
+                },
+                {
+                    "q": "How many hydrogen bonds are formed between Guanine (G) and Cytosine (C) in DNA?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "Four"
+                    ],
+                    "a": 2,
+                    "ex": "Guanine and Cytosine pair through three hydrogen bonds."
+                },
+                {
+                    "q": "The specific sequence of nucleotides in a DNA molecule determines the:",
+                    "options": [
+                        "Shape of the cell",
+                        "Type of sugar in the backbone",
+                        "Genetic information",
+                        "Strength of the hydrogen bonds"
+                    ],
+                    "a": 2,
+                    "ex": "The sequence of nitrogenous bases in DNA carries the genetic instructions for building and maintaining an organism."
+                },
+                {
+                    "q": "Which type of RNA is a structural component of ribosomes?",
+                    "options": [
+                        "mRNA",
+                        "tRNA",
+                        "rRNA",
+                        "snRNA"
+                    ],
+                    "a": 2,
+                    "ex": "Ribosomal RNA (rRNA) is a major component of ribosomes, the cellular machinery responsible for protein synthesis."
+                },
+                {
+                    "q": "Transfer RNA (tRNA) is responsible for carrying _____ to the ribosome during protein synthesis.",
+                    "options": [
+                        "Genetic code",
+                        "Energy (ATP)",
+                        "Amino acids",
+                        "Ribosomal subunits"
+                    ],
+                    "a": 2,
+                    "ex": "tRNA molecules carry specific amino acids to the ribosome and match them to the codons on the mRNA during translation."
+                },
+                {
+                    "q": "The process of synthesizing RNA from a DNA template is called:",
+                    "options": [
+                        "Replication",
+                        "Transcription",
+                        "Translation",
+                        "Mutation"
+                    ],
+                    "a": 1,
+                    "ex": "Transcription is the process by which the genetic information encoded in DNA is copied into an RNA molecule."
+                },
+                {
+                    "q": "Which enzyme is primarily responsible for DNA replication?",
+                    "options": [
+                        "RNA polymerase",
+                        "Helicase",
+                        "Ligase",
+                        "DNA polymerase"
+                    ],
+                    "a": 3,
+                    "ex": "DNA polymerase is the enzyme that synthesizes new DNA strands by adding nucleotides to the growing chain during replication."
+                },
+                {
+                    "q": "The relatively stable and double-stranded nature of DNA makes it ideal for:",
+                    "options": [
+                        "Carrying out enzymatic reactions",
+                        "Storing genetic information",
+                        "Transporting amino acids",
+                        "Providing structural support to the cell"
+                    ],
+                    "a": 1,
+                    "ex": "The stable double-helix structure of DNA and its capacity to store information in the sequence of bases make it the ideal molecule for long-term storage of genetic information."
+                },
+                {
+                    "q": "Which end of a DNA strand has a free phosphate group attached to the 5' carbon of the sugar?",
+                    "options": [
+                        "3' end",
+                        "5' end",
+                        "Both ends",
+                        "Neither end"
+                    ],
+                    "a": 1,
+                    "ex": "The 5' end of a DNA strand terminates with a phosphate group attached to the 5' carbon of the deoxyribose sugar."
+                },
+                {
+                    "q": "Which end of a DNA strand has a free hydroxyl group attached to the 3' carbon of the sugar?",
+                    "options": [
+                        "3' end",
+                        "5' end",
+                        "Both ends",
+                        "Neither end"
+                    ],
+                    "a": 0,
+                    "ex": "The 3' end of a DNA strand terminates with a hydroxyl group attached to the 3' carbon of the deoxyribose sugar."
+                },
+                {
+                    "q": "The process of translating the genetic code in mRNA into a protein sequence occurs at the:",
+                    "options": [
+                        "Nucleus",
+                        "Mitochondrion",
+                        "Golgi apparatus",
+                        "Ribosome"
+                    ],
+                    "a": 3,
+                    "ex": "Ribosomes are the site of protein synthesis, where the codons in mRNA are read and translated into a sequence of amino acids."
+                },
+                {
+                    "q": "What is a segment of DNA that codes for a specific protein or functional RNA molecule?",
+                    "options": [
+                        "Chromosome",
+                        "Nucleotide",
+                        "Gene",
+                        "Codon"
+                    ],
+                    "a": 2,
+                    "ex": "A gene is a specific sequence of nucleotides in DNA that contains the instructions for building a protein or functional RNA molecule."
+                },
+                {
+                    "q": "Which of the following describes the shape of a DNA molecule?",
+                    "options": [
+                        "Single helix",
+                        "Triple helix",
+                        "Double helix",
+                        "Linear strand"
+                    ],
+                    "a": 2,
+                    "ex": "DNA typically exists as a double helix, with two antiparallel strands coiled around each other."
+                },
+                {
+                    "q": "The discovery of the structure of DNA is primarily credited to:",
+                    "options": [
+                        "Gregor Mendel",
+                        "Charles Darwin",
+                        "James Watson and Francis Crick",
+                        "Louis Pasteur"
+                    ],
+                    "a": 2,
+                    "ex": "James Watson and Francis Crick, along with contributions from Rosalind Franklin and Maurice Wilkins, are credited with determining the double helix structure of DNA."
+                },
+                {
+                    "q": "Which type of RNA is involved in regulating gene expression?",
+                    "options": [
+                        "mRNA",
+                        "tRNA",
+                        "rRNA",
+                        "Small interfering RNA (siRNA)"
+                    ],
+                    "a": 3,
+                    "ex": "Small interfering RNAs (siRNAs) and other non-coding RNAs are involved in regulating gene expression."
+                },
+                {
+                    "q": "The process of copying a DNA molecule to make another identical DNA molecule is called:",
+                    "options": [
+                        "Transcription",
+                        "Translation",
+                        "Replication",
+                        "Mutation"
+                    ],
+                    "a": 2,
+                    "ex": "DNA replication is the process by which a double-stranded DNA molecule is copied to produce two identical DNA molecules."
+                },
+                {
+                    "q": "What is the term for a three-nucleotide sequence in mRNA that codes for a specific amino acid?",
+                    "options": [
+                        "Gene",
+                        "Codon",
+                        "Anticodon",
+                        "Nucleotide"
+                    ],
+                    "a": 1,
+                    "ex": "A codon is a sequence of three nucleotides in mRNA that specifies a particular amino acid during protein synthesis."
+                },
+                {
+                    "q": "The enzyme that synthesizes RNA during transcription is:",
+                    "options": [
+                        "DNA polymerase",
+                        "Helicase",
+                        "RNA polymerase",
+                        "Ligase"
+                    ],
+                    "a": 2,
+                    "ex": "RNA polymerase is the enzyme responsible for synthesizing RNA molecules from a DNA template during transcription."
+                },
+                {
+                    "q": "Which of the following is NOT a characteristic of RNA?",
+                    "options": [
+                        "Contains uracil",
+                        "Usually single-stranded",
+                        "Contains deoxyribose sugar",
+                        "Involved in protein synthesis"
+                    ],
+                    "a": 2,
+                    "ex": "RNA contains ribose sugar, not deoxyribose sugar, which is found in DNA."
+                },
+                {
+                    "q": "Where is DNA primarily located in a eukaryotic cell?",
+                    "options": [
+                        "Cytoplasm",
+                        "Mitochondria",
+                        "Nucleus",
+                        "Ribosomes"
+                    ],
+                    "a": 2,
+                    "ex": "In eukaryotic cells, the majority of DNA is located within the nucleus."
+                },
+                 {
+                    "q": "Where is RNA primarily synthesized in a eukaryotic cell?",
+                    "options": [
+                        "Cytoplasm",
+                        "Mitochondria",
+                        "Nucleus",
+                        "Ribosomes"
+                    ],
+                    "a": 2,
+                    "ex": "RNA is synthesized in the nucleus through the process of transcription."
+                },
+                {
+                    "q": "The process by which the genetic code is used to synthesize proteins is called:",
+                    "options": [
+                        "Replication",
+                        "Transcription",
+                        "Translation",
+                        "Mutation"
+                    ],
+                    "a": 2,
+                    "ex": "Translation is the process by which the genetic information in mRNA is decoded to synthesize proteins."
+                },
+                {
+                    "q": "The enzyme that joins Okazaki fragments during DNA replication is:",
+                    "options": [
+                        "DNA polymerase",
+                        "RNA polymerase",
+                        "Helicase",
+                        "DNA ligase"
+                    ],
+                    "a": 3,
+                    "ex": "DNA ligase seals the gaps between Okazaki fragments on the lagging strand during DNA replication."
+                },
+                 {
+                    "q": "Which of the following is a purine base?",
+                    "options": [
+                        "Cytosine",
+                        "Thymine",
+                        "Uracil",
+                        "Guanine"
+                    ],
+                    "a": 3,
+                    "ex": "Adenine and Guanine are purine bases, characterized by a double-ring structure."
+                },
+                {
+                    "q": "The sugar in RNA is:",
+                    "options": [
+                        "Deoxyribose",
+                        "Ribose",
+                        "Glucose",
+                        "Fructose"
+                    ],
+                    "a": 1,
+                    "ex": "RNA contains the sugar ribose, which has a hydroxyl group on the 2' carbon."
+                },
+                {
+                    "q": "What is the function of the anticodon on a tRNA molecule?",
+                    "options": [
+                        "To bind to the ribosome",
+                        "To carry an amino acid",
+                        "To pair with a codon on mRNA",
+                        "To bind to DNA"
+                    ],
+                    "a": 2,
+                    "ex": "The anticodon on a tRNA molecule is a three-nucleotide sequence that is complementary to a codon on the mRNA, ensuring the correct amino acid is added to the protein chain."
+                },
+                {
+                    "q": "The central dogma of molecular biology describes the flow of genetic information as:",
+                    "options": [
+                        "Protein -> DNA -> RNA",
+                        "RNA -> DNA -> Protein",
+                        "DNA -> RNA -> Protein",
+                        "DNA -> Protein -> RNA"
+                    ],
+                    "a": 2,
+                    "ex": "The central dogma states that genetic information flows from DNA to RNA through transcription, and from RNA to protein through translation."
+                }
+            ]
+        },
+        {
+            "id": "mendelian_genetics",
+            "title": "Mendelian Genetics",
+            "questions": [
+                {
+                    "q": "Mendel's Law of Segregation states that:",
+                    "options": [
+                        "Alleles for different traits segregate independently.",
+                        "Each individual has two alleles for each gene, and these alleles segregate during gamete formation.",
+                        "One allele is dominant over the other.",
+                        "Traits are inherited from parents to offspring."
+                    ],
+                    "a": 1,
+                    "ex": "The Law of Segregation describes how the two alleles for a gene in a diploid organism separate during meiosis, so each gamete receives only one allele."
+                },
+                {
+                    "q": "In a monohybrid cross between two heterozygous parents (Aa x Aa), what is the expected phenotypic ratio of the offspring?",
+                    "options": [
+                        "1:1",
+                        "1:2:1",
+                        "3:1",
+                        "9:3:3:1"
+                    ],
+                    "a": 2,
+                    "ex": "For a trait with complete dominance, the cross between two heterozygotes (Aa) will produce offspring with genotypes AA, Aa, and aa in a ratio of 1:2:1, resulting in a phenotypic ratio of 3 dominant phenotypes to 1 recessive phenotype."
+                },
+                {
+                    "q": "An organism with two identical alleles for a trait is called:",
+                    "options": [
+                        "Heterozygous",
+                        "Homozygous",
+                        "Dominant",
+                        "Recessive"
+                    ],
+                    "a": 1,
+                    "ex": "Homozygous refers to having two identical alleles for a specific gene (e.g., AA or aa)."
+                },
+                {
+                    "q": "If a trait is recessive, an individual will only express the trait if they are:",
+                    "options": [
+                        "Homozygous dominant",
+                        "Heterozygous",
+                        "Homozygous recessive",
+                        "Either homozygous dominant or heterozygous"
+                    ],
+                    "a": 2,
+                    "ex": "A recessive trait is only expressed when an individual has two copies of the recessive allele (homozygous recessive)."
+                },
+                {
+                    "q": "Mendel's Law of Independent Assortment applies to:",
+                    "options": [
+                        "Genes located on the same chromosome.",
+                        "Genes located on different chromosomes.",
+                        "Alleles of the same gene.",
+                        "Traits controlled by a single gene."
+                    ],
+                    "a": 1,
+                    "ex": "The Law of Independent Assortment states that the alleles of different genes assort independently of one another during gamete formation, provided they are on different chromosomes or far apart on the same chromosome."
+                },
+                {
+                    "q": "The observable characteristics of an organism are referred to as its:",
+                    "options": [
+                        "Genotype",
+                        "Phenotype",
+                        "Allele",
+                        "Locus"
+                    ],
+                    "a": 1,
+                    "ex": "Phenotype is the set of observable characteristics of an organism, resulting from the interaction of its genotype with the environment."
+                },
+                {
+                    "q": "A test cross is performed to determine the genotype of an individual expressing a dominant phenotype. The individual is crossed with a:",
+                    "options": [
+                        "Homozygous dominant individual",
+                        "Heterozygous individual",
+                        "Homozygous recessive individual",
+                        "Another individual expressing the dominant phenotype"
+                    ],
+                    "a": 2,
+                    "ex": "A test cross involves crossing an individual with a dominant phenotype but unknown genotype with a homozygous recessive individual. The offspring's phenotypes reveal the unknown genotype."
+                },
+                {
+                    "q": "If a dihybrid cross between two individuals heterozygous for both traits (AaBb x AaBb) is performed, what is the expected phenotypic ratio?",
+                    "options": [
+                        "1:1:1:1",
+                        "3:1",
+                        "9:3:3:1",
+                        "1:2:1:2:4:2:1:2:1"
+                    ],
+                    "a": 2,
+                    "ex": "For two independently assorting genes with complete dominance, a dihybrid cross between double heterozygotes yields a 9:3:3:1 phenotypic ratio."
+                },
+                {
+                    "q": "The location of a gene on a chromosome is called its:",
+                    "options": [
+                        "Allele",
+                        "Genotype",
+                        "Phenotype",
+                        "Locus"
+                    ],
+                    "a": 3,
+                    "ex": "The specific position of a gene on a chromosome is called its locus."
+                },
+                {
+                    "q": "Which of the following terms describes alternative forms of a gene?",
+                    "options": [
+                        "Genotype",
+                        "Phenotype",
+                        "Alleles",
+                        "Loci"
+                    ],
+                    "a": 2,
+                    "ex": "Alleles are different versions of the same gene."
+                },
+                {
+                    "q": "If a carrier for a recessive genetic disease marries a person who is not a carrier, what is the probability that their child will have the disease?",
+                    "options": [
+                        "0%",
+                        "25%",
+                        "50%",
+                        "75%"
+                    ],
+                    "a": 0,
+                    "ex": "A carrier is heterozygous (e.g., Aa). If they marry a non-carrier (AA), all offspring will be either AA or Aa, none will be aa (have the disease)."
+                },
+                {
+                    "q": "In incomplete dominance, the heterozygous phenotype is:",
+                    "options": [
+                        "Identical to the homozygous dominant phenotype",
+                        "Identical to the homozygous recessive phenotype",
+                        "An intermediate between the homozygous dominant and recessive phenotypes",
+                        "A combination of both homozygous phenotypes"
+                    ],
+                    "a": 2,
+                    "ex": "In incomplete dominance, the heterozygous phenotype is a blend or intermediate of the two homozygous phenotypes."
+                },
+                {
+                    "q": "In codominance, the heterozygous phenotype is:",
+                    "options": [
+                        "Identical to the homozygous dominant phenotype",
+                        "Identical to the homozygous recessive phenotype",
+                        "An intermediate between the homozygous dominant and recessive phenotypes",
+                        "A combination of both homozygous phenotypes, with both alleles expressed"
+                    ],
+                    "a": 3,
+                    "ex": "In codominance, both alleles are expressed equally in the heterozygous phenotype, resulting in a combination of both traits."
+                },
+                {
+                    "q": "A pedigree chart is used to:",
+                    "options": [
+                        "Determine the genetic makeup of an individual.",
+                        "Map the location of genes on a chromosome.",
+                        "Trace the inheritance of a trait through generations of a family.",
+                        "Analyze the frequency of alleles in a population."
+                    ],
+                    "a": 2,
+                    "ex": "A pedigree chart is a diagram that shows the occurrence and appearance or phenotypes of a particular gene or organism and its ancestors from one generation to the next."
+                },
+                {
+                    "q": "If a pure-breeding tall plant (TT) is crossed with a pure-breeding short plant (tt), the genotype of the F1 generation will be:",
+                    "options": [
+                        "TT",
+                        "Tt",
+                        "tt",
+                        "A mix of TT and Tt"
+                    ],
+                    "a": 1,
+                    "ex": "Crossing homozygous dominant (TT) with homozygous recessive (tt) will result in all heterozygous (Tt) offspring in the F1 generation."
+                },
+                {
+                    "q": "If the F1 generation from the previous cross (Tt) is self-pollinated, what is the expected genotypic ratio in the F2 generation?",
+                    "options": [
+                        "1:1",
+                        "1:2:1",
+                        "3:1",
+                        "9:3:3:1"
+                    ],
+                    "a": 1,
+                    "ex": "A cross between two heterozygotes (Tt x Tt) yields a genotypic ratio of 1 TT : 2 Tt : 1 tt."
+                },
+                {
+                    "q": "Which of the following is NOT one of Mendel's laws of inheritance?",
+                    "options": [
+                        "Law of Segregation",
+                        "Law of Independent Assortment",
+                        "Law of Dominance",
+                        "Law of Linkage"
+                    ],
+                    "a": 3,
+                    "ex": "Mendel's laws are Segregation, Independent Assortment, and Dominance. Linkage is a phenomenon where genes on the same chromosome tend to be inherited together, which can deviate from independent assortment."
+                },
+                {
+                    "q": "The concept of 'alleles' explains the existence of:",
+                    "options": [
+                        "Different genes",
+                        "Different forms of the same gene",
+                        "Different chromosomes",
+                        "Different species"
+                    ],
+                    "a": 1,
+                    "ex": "Alleles are alternative forms of a specific gene."
+                },
+                {
+                    "q": "In a cross between a homozygous dominant individual (AA) and a homozygous recessive individual (aa), all offspring will have the genotype:",
+                    "options": [
+                        "AA",
+                        "Aa",
+                        "aa",
+                        "A mix of AA and aa"
+                    ],
+                    "a": 1,
+                    "ex": "Crossing AA with aa results in all offspring being heterozygous (Aa)."
+                },
+                {
+                    "q": "A dihybrid cross involves studying the inheritance of how many traits simultaneously?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "Four"
+                    ],
+                    "a": 1,
+                    "ex": "A dihybrid cross examines the inheritance patterns of two different traits."
+                },
+                {
+                    "q": "If a gene has multiple alleles, like the ABO blood group system, an individual can have at most how many different alleles for that gene?",
+                    "options": [
+                        "One",
+                        "Two",
+                        "Three",
+                        "More than three"
+                    ],
+                    "a": 1,
+                    "ex": "Although a population can have multiple alleles for a gene, a diploid individual can only carry at most two different alleles for any given gene."
+                },
+                {
+                    "q": "In a cross between two heterozygous individuals (Aa), what percentage of the offspring are expected to be carriers of the recessive allele?",
+                    "options": [
+                        "0%",
+                        "25%",
+                        "50%",
+                        "75%"
+                    ],
+                    "a": 2,
+                    "ex": "In an Aa x Aa cross, the genotypes are AA, Aa, and aa in a 1:2:1 ratio. The heterozygotes (Aa) are carriers, representing 50% of the offspring."
+                },
+                {
+                    "q": "If a recessive allele is responsible for a genetic disorder, individuals who are heterozygous for the allele are usually:",
+                    "options": [
+                        "Affected by the disorder",
+                        "Carriers of the disorder but not affected",
+                        "Immune to the disorder",
+                        "More severely affected than homozygous recessive individuals"
+                    ],
+                    "a": 1,
+                    "ex": "For recessive disorders, heterozygotes (carriers) carry one copy of the recessive allele but do not express the disorder themselves because they also have a dominant functional allele."
+                },
+                {
+                    "q": "Which of the following is an example of a phenotype?",
+                    "options": [
+                        "Alleles present for a gene",
+                        "Sequence of nucleotides in DNA",
+                        "Eye color",
+                        "Location of a gene on a chromosome"
+                    ],
+                    "a": 2,
+                    "ex": "Eye color is an observable characteristic and thus a phenotype."
+                },
+                {
+                    "q": "The technique used to determine the probability of different genotypes and phenotypes in offspring from a genetic cross is called:",
+                    "options": [
+                        "Gel electrophoresis",
+                        "PCR",
+                        "Punnett square",
+                        "Chromosomal analysis"
+                    ],
+                    "a": 2,
+                    "ex": "A Punnett square is a diagram used to predict the outcome of a genetic cross by considering all possible combinations of gametes."
+                },
+                {
+                    "q": "If an individual has the genotype Bb, they are considered:",
+                    "options": [
+                        "Homozygous dominant",
+                        "Homozygous recessive",
+                        "Heterozygous",
+                        "Pure-breeding"
+                    ],
+                    "a": 2,
+                    "ex": "Having two different alleles (Bb) for a gene makes an individual heterozygous."
+                },
+                {
+                    "q": "In Mendel's experiments with pea plants, the generation that resulted from crossing two pure-breeding parents was called the:",
+                    "options": [
+                        "P generation",
+                        "F1 generation",
+                        "F2 generation",
+                        "Test cross generation"
+                    ],
+                    "a": 1,
+                    "ex": "The first filial generation (F1) is the offspring resulting from a cross between two parental (P) generation individuals."
+                },
+                {
+                    "q": "If a trait shows complete dominance, the phenotype of a heterozygous individual will be the same as the phenotype of a:",
+                    "options": [
+                        "Homozygous recessive individual",
+                        "Homozygous dominant individual",
+                        "Carrier",
+                        "Individual with incomplete dominance"
+                    ],
+                    "a": 1,
+                    "ex": "In complete dominance, the dominant allele masks the expression of the recessive allele, so the heterozygote has the same phenotype as the homozygous dominant."
+                },
+                {
+                    "q": "Which of the following scenarios would violate Mendel's Law of Independent Assortment?",
+                    "options": [
+                        "Genes for different traits are on different chromosomes.",
+                        "Genes for different traits are located very close together on the same chromosome.",
+                        "Alleles for the same gene segregate during gamete formation.",
+                        "One allele is dominant over another."
+                    ],
+                    "a": 1,
+                    "ex": "Genes located close together on the same chromosome tend to be inherited together (linked), which violates the principle of independent assortment."
+                },
+                {
+                    "q": "If you cross a plant with red flowers (RR) and a plant with white flowers (rr), and the resulting F1 generation has pink flowers, this is an example of:",
+                    "options": [
+                        "Complete dominance",
+                        "Incomplete dominance",
+                        "Codominance",
+                        "Sex-linked inheritance"
+                    ],
+                    "a": 1,
+                    "ex": "The heterozygous phenotype (pink) is an intermediate between the two homozygous phenotypes (red and white), indicating incomplete dominance."
+                },
+                 {
+                    "q": "What is the probability of getting an offspring with the genotype AABB from a cross between AABB and aabb?",
+                    "options": [
+                        "0%",
+                        "25%",
+                        "50%",
+                        "100%"
+                    ],
+                    "a": 0,
+                    "ex": "Crossing AABB and aabb will produce only AaBb offspring. There is no chance of getting AABB."
+                },
+                {
+                    "q": "If a plant with genotype RrYy is self-pollinated, what is the probability of getting an offspring with the genotype RRYY?",
+                    "options": [
+                        "1/16",
+                        "1/8",
+                        "1/4",
+                        "1/2"
+                    ],
+                    "a": 0,
+                    "ex": "The probability of getting RR is 1/4 (from Rr x Rr). The probability of getting YY is 1/4 (from Yy x Yy). The probability of getting RRYY is (1/4) * (1/4) = 1/16."
+                },
+                {
+                    "q": "Which of the following is NOT a factor that can affect phenotypic ratios in real-world crosses?",
+                    "options": [
+                        "Linkage",
+                        "Crossing over",
+                        "Environmental factors",
+                        "Pure-breeding parents"
+                    ],
+                    "a": 3,
+                    "ex": "Pure-breeding parents are a concept used in Mendelian genetics crosses, not a factor that distorts expected ratios in typical real crosses."
+                },
+                {
+                    "q": "If a genetic disorder is inherited in an autosomal dominant pattern, what is the probability that a child will be affected if one parent is heterozygous (Aa) and the other is unaffected (aa)?",
+                    "options": [
+                        "0%",
+                        "25%",
+                        "50%",
+                        "100%"
+                    ],
+                    "a": 2,
+                    "ex": "In an autosomal dominant inheritance, affected individuals have at least one dominant allele. A cross between Aa and aa will produce Aa (affected) and aa (unaffected) offspring in a 1:1 ratio, so there is a 50% chance of an affected child."
+                },
+                 {
+                    "q": "The term 'carrier' is typically used to describe individuals who are heterozygous for which type of genetic disorder?",
+                    "options": [
+                        "Autosomal dominant",
+                        "Autosomal recessive",
+                        "Sex-linked dominant",
+                        "Sex-linked recessive"
+                    ],
+                    "a": 1,
+                    "ex": "Carriers are typically heterozygous individuals who carry a recessive allele for a disorder but do not show the phenotype themselves."
+                }
+            ]
         }
     ]
 }
