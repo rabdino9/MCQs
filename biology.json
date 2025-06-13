@@ -362,6 +362,430 @@
                     "ex": "The cytoskeleton provides structural support and is involved in cell shape and movement."
                 }
             ]
+        },
+        {
+            "id": "biomolecules",
+            "title": "Biomolecules",
+            "questions": [
+                {
+                    "q": "Which of the following is NOT a major class of biomolecules?",
+                    "options": [
+                        "Carbohydrates",
+                        "Vitamins",
+                        "Proteins",
+                        "Nucleic Acids"
+                    ],
+                    "a": 1,
+                    "ex": "While essential for life, vitamins are generally not considered a major class of biomolecules in the same category as carbohydrates, lipids, proteins, and nucleic acids."
+                },
+                {
+                    "q": "The monomer units of carbohydrates are:",
+                    "options": [
+                        "Amino acids",
+                        "Nucleotides",
+                        "Monosaccharides",
+                        "Fatty acids"
+                    ],
+                    "a": 2,
+                    "ex": "Monosaccharides like glucose and fructose are the simple sugar units that combine to form disaccharides and polysaccharides."
+                },
+                {
+                    "q": "Which type of lipid is the primary component of cell membranes?",
+                    "options": [
+                        "Triglycerides",
+                        "Steroids",
+                        "Phospholipids",
+                        "Carotenoids"
+                    ],
+                    "a": 2,
+                    "ex": "Phospholipids form the lipid bilayer that makes up the structural basis of cell membranes."
+                },
+                {
+                    "q": "Proteins are polymers made up of repeating units called:",
+                    "options": [
+                        "Monosaccharides",
+                        "Nucleotides",
+                        "Fatty acids",
+                        "Amino acids"
+                    ],
+                    "a": 3,
+                    "ex": "Amino acids are the building blocks of proteins, linked together by peptide bonds."
+                },
+                {
+                    "q": "Which type of biomolecule is primarily responsible for storing genetic information?",
+                    "options": [
+                        "Carbohydrates",
+                        "Lipids",
+                        "Proteins",
+                        "Nucleic Acids"
+                    ],
+                    "a": 3,
+                    "ex": "Nucleic acids, specifically DNA and RNA, store and transmit genetic information."
+                },
+                {
+                    "q": "The backbone of a DNA molecule is composed of:",
+                    "options": [
+                        "Amino acids and peptide bonds",
+                        "Sugars and phosphate groups",
+                        "Fatty acids and glycerol",
+                        "Nitrogenous bases and hydrogen bonds"
+                    ],
+                    "a": 1,
+                    "ex": "The sugar-phosphate backbone forms the structural framework of a DNA strand."
+                },
+                {
+                    "q": "Which polysaccharide is the main storage form of glucose in plants?",
+                    "options": [
+                        "Glycogen",
+                        "Starch",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 1,
+                    "ex": "Starch is a complex carbohydrate used by plants for energy storage."
+                },
+                {
+                    "q": "Enzymes are a type of biomolecule that primarily functions as:",
+                    "options": [
+                        "Structural support",
+                        "Energy storage",
+                        "Catalysts for biochemical reactions",
+                        "Genetic carriers"
+                    ],
+                    "a": 2,
+                    "ex": "Enzymes are proteins that speed up biological reactions without being consumed in the process."
+                },
+                {
+                    "q": "Which of the following is a saturated fatty acid?",
+                    "options": [
+                        "Oleic acid",
+                        "Linoleic acid",
+                        "Stearic acid",
+                        "Alpha-linolenic acid"
+                    ],
+                    "a": 2,
+                    "ex": "Saturated fatty acids have no double bonds between carbon atoms in their hydrocarbon chains. Stearic acid is an example."
+                },
+                {
+                    "q": "The secondary structure of a protein is formed by:",
+                    "options": [
+                        "The sequence of amino acids",
+                        "Folding of the polypeptide chain into alpha-helices or beta-sheets",
+                        "The overall three-dimensional shape of a single polypeptide",
+                        "The association of multiple polypeptide chains"
+                    ],
+                    "a": 1,
+                    "ex": "Secondary structure is formed by hydrogen bonds between amino acids in the polypeptide backbone, resulting in structures like alpha-helices and beta-sheets."
+                },
+                {
+                    "q": "RNA differs from DNA in that it contains:",
+                    "options": [
+                        "Deoxyribose sugar and thymine",
+                        "Ribose sugar and uracil",
+                        "Deoxyribose sugar and uracil",
+                        "Ribose sugar and thymine"
+                    ],
+                    "a": 1,
+                    "ex": "RNA contains ribose sugar instead of deoxyribose and the nitrogenous base uracil instead of thymine."
+                },
+                {
+                    "q": "Which type of bond links amino acids together in a protein?",
+                    "options": [
+                        "Glycosidic bond",
+                        "Phosphodiester bond",
+                        "Peptide bond",
+                        "Ester bond"
+                    ],
+                    "a": 2,
+                    "ex": "Amino acids are joined by peptide bonds to form polypeptide chains."
+                },
+                {
+                    "q": "The primary function of triglycerides is:",
+                    "options": [
+                        "Structural support",
+                        "Energy storage",
+                        "Hormone signaling",
+                        "Catalysis"
+                    ],
+                    "a": 1,
+                    "ex": "Triglycerides (fats and oils) are a major form of energy storage in organisms."
+                },
+                {
+                    "q": "Which of the following is a monosaccharide?",
+                    "options": [
+                        "Sucrose",
+                        "Lactose",
+                        "Maltose",
+                        "Glucose"
+                    ],
+                    "a": 3,
+                    "ex": "Glucose is a simple sugar and a monomer of many polysaccharides. Sucrose, lactose, and maltose are disaccharides."
+                },
+                {
+                    "q": "The denaturing of a protein involves the disruption of its:",
+                    "options": [
+                        "Primary structure only",
+                        "Primary and secondary structures only",
+                        "Secondary, tertiary, and quaternary structures",
+                        "Only the peptide bonds"
+                    ],
+                    "a": 2,
+                    "ex": "Denaturation disrupts the higher-order structures (secondary, tertiary, and quaternary) of a protein, but typically leaves the primary structure (amino acid sequence) intact."
+                },
+                {
+                    "q": "Which of the following is a function of cholesterol?",
+                    "options": [
+                        "Energy storage",
+                        "Building muscle tissue",
+                        "Component of cell membranes and precursor for steroid hormones",
+                        "Carrying oxygen in the blood"
+                    ],
+                    "a": 2,
+                    "ex": "Cholesterol is an important component of animal cell membranes and serves as a precursor for the synthesis of steroid hormones."
+                },
+                {
+                    "q": "The carbohydrate that provides structural support in the cell walls of plants is:",
+                    "options": [
+                        "Starch",
+                        "Glycogen",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 2,
+                    "ex": "Cellulose is a structural polysaccharide that provides rigidity to plant cell walls."
+                },
+                {
+                    "q": "Which type of nucleic acid is typically single-stranded?",
+                    "options": [
+                        "DNA",
+                        "RNA",
+                        "Both DNA and RNA",
+                        "Neither DNA nor RNA"
+                    ],
+                    "a": 1,
+                    "ex": "RNA molecules are usually single-stranded, whereas DNA is typically double-stranded."
+                },
+                {
+                    "q": "The building blocks of lipids are primarily:",
+                    "options": [
+                        "Monosaccharides",
+                        "Amino acids",
+                        "Fatty acids and glycerol",
+                        "Nucleotides"
+                    ],
+                    "a": 2,
+                    "ex": "Triglycerides, a major type of lipid, are formed from fatty acids and glycerol."
+                },
+                {
+                    "q": "Which of the following is a disaccharide?",
+                    "options": [
+                        "Glucose",
+                        "Fructose",
+                        "Galactose",
+                        "Sucrose"
+                    ],
+                    "a": 3,
+                    "ex": "Sucrose (table sugar) is a disaccharide composed of glucose and fructose."
+                },
+                {
+                    "q": "The primary structure of a protein is determined by:",
+                    "options": [
+                        "Hydrogen bonds",
+                        "Ionic bonds",
+                        "The sequence of amino acids",
+                        "Disulfide bonds"
+                    ],
+                    "a": 2,
+                    "ex": "The primary structure is the linear sequence of amino acids in the polypeptide chain."
+                },
+                {
+                    "q": "Which biomolecule is responsible for forming the waterproof coating on leaves?",
+                    "options": [
+                        "Carbohydrates",
+                        "Lipids (waxes)",
+                        "Proteins",
+                        "Nucleic Acids"
+                    ],
+                    "a": 1,
+                    "ex": "Waxes are a type of lipid that provide a hydrophobic barrier, preventing water loss from plant surfaces."
+                },
+                {
+                    "q": "The energy currency of the cell is:",
+                    "options": [
+                        "Glucose",
+                        "ATP (Adenosine Triphosphate)",
+                        "DNA",
+                        "Proteins"
+                    ],
+                    "a": 1,
+                    "ex": "ATP is the molecule that directly provides energy for most cellular processes."
+                },
+                {
+                    "q": "Which of the following is an essential amino acid?",
+                    "options": [
+                        "Glycine",
+                        "Alanine",
+                        "Leucine",
+                        "Glutamic acid"
+                    ],
+                    "a": 2,
+                    "ex": "Essential amino acids cannot be synthesized by the organism and must be obtained from the diet. Leucine is an example of an essential amino acid."
+                },
+                {
+                    "q": "The function of glycogen in animals is:",
+                    "options": [
+                        "Structural support",
+                        "Short-term energy storage",
+                        "Catalysis",
+                        "Genetic information storage"
+                    ],
+                    "a": 1,
+                    "ex": "Glycogen is the main storage form of glucose in animal cells, particularly in the liver and muscles."
+                },
+                {
+                    "q": "Which type of RNA carries the genetic code from DNA to the ribosome?",
+                    "options": [
+                        "tRNA (transfer RNA)",
+                        "rRNA (ribosomal RNA)",
+                        "mRNA (messenger RNA)",
+                        "snRNA (small nuclear RNA)"
+                    ],
+                    "a": 2,
+                    "ex": "mRNA transcribes the genetic information from DNA and carries it to the ribosomes for protein synthesis."
+                },
+                {
+                    "q": "What is the main function of structural proteins like collagen and keratin?",
+                    "options": [
+                        "Transporting substances",
+                        "Providing support and shape to tissues",
+                        "Catalyzing reactions",
+                        "Storing energy"
+                    ],
+                    "a": 1,
+                    "ex": "Collagen and keratin are fibrous proteins that provide strength and structure to various tissues."
+                },
+                {
+                    "q": "Which of the following is an unsaturated fatty acid?",
+                    "options": [
+                        "Palmitic acid",
+                        "Butyric acid",
+                        "Oleic acid",
+                        "Stearic acid"
+                    ],
+                    "a": 2,
+                    "ex": "Unsaturated fatty acids contain one or more double bonds in their hydrocarbon chains. Oleic acid is an example."
+                },
+                {
+                    "q": "The process by which monomers are joined together to form polymers is called:",
+                    "options": [
+                        "Hydrolysis",
+                        "Dehydration synthesis (condensation)",
+                        "Denaturation",
+                        "Phosphorylation"
+                    ],
+                    "a": 1,
+                    "ex": "Dehydration synthesis removes a water molecule to form a new bond between monomers."
+                },
+                {
+                    "q": "Which of the following is a polysaccharide found in the exoskeletons of insects and the cell walls of fungi?",
+                    "options": [
+                        "Starch",
+                        "Glycogen",
+                        "Cellulose",
+                        "Chitin"
+                    ],
+                    "a": 3,
+                    "ex": "Chitin is a structural polysaccharide composed of modified glucose units."
+                },
+                {
+                    "q": "The specific sequence of nucleotides in a DNA molecule determines the:",
+                    "options": [
+                        "Type of sugar present",
+                        "Number of phosphate groups",
+                        "Primary structure of a protein",
+                        "Type of lipid produced"
+                    ],
+                    "a": 2,
+                    "ex": "The sequence of nitrogenous bases in DNA (the genetic code) dictates the sequence of amino acids in a protein."
+                },
+                {
+                    "q": "Which of the following is a steroid hormone?",
+                    "options": [
+                        "Insulin",
+                        "Testosterone",
+                        "Amylase",
+                        "Hemoglobin"
+                    ],
+                    "a": 1,
+                    "ex": "Steroid hormones like testosterone are a class of lipids derived from cholesterol."
+                },
+                {
+                    "q": "The hydrolysis of a polysaccharide yields:",
+                    "options": [
+                        "Amino acids",
+                        "Fatty acids and glycerol",
+                        "Monosaccharides",
+                        "Nucleotides"
+                    ],
+                    "a": 2,
+                    "ex": "Hydrolysis, the addition of water, breaks down polymers into their monomer units. Polysaccharides break down into monosaccharides."
+                },
+                {
+                    "q": "Which type of protein is involved in transporting substances across cell membranes?",
+                    "options": [
+                        "Enzymes",
+                        "Transport proteins",
+                        "Structural proteins",
+                        "Antibodies"
+                    ],
+                    "a": 1,
+                    "ex": "Transport proteins facilitate the movement of ions and molecules across the cell membrane."
+                },
+                {
+                    "q": "The genetic information in DNA is stored in the sequence of:",
+                    "options": [
+                        "Sugars",
+                        "Phosphate groups",
+                        "Nitrogenous bases",
+                        "Hydrogen bonds"
+                    ],
+                    "a": 2,
+                    "ex": "The order of the nitrogenous bases (Adenine, Guanine, Cytosine, Thymine) constitutes the genetic code."
+                },
+                {
+                    "q": "Which of the following is a complex carbohydrate?",
+                    "options": [
+                        "Glucose",
+                        "Fructose",
+                        "Sucrose",
+                        "Starch"
+                    ],
+                    "a": 3,
+                    "ex": "Starch is a polysaccharide, a complex carbohydrate made up of many glucose units."
+                },
+                {
+                    "q": "The major function of antibodies in the immune system is:",
+                    "options": [
+                        "Transporting oxygen",
+                        "Recognizing and binding to foreign substances (antigens)",
+                        "Catalyzing metabolic reactions",
+                        "Providing structural support"
+                    ],
+                    "a": 1,
+                    "ex": "Antibodies are proteins that specifically bind to antigens to neutralize or mark them for destruction."
+                },
+                {
+                    "q": "Which of the following is a phospholipid?",
+                    "options": [
+                        "Triglyceride",
+                        "Cholesterol",
+                        "Lecithin",
+                        "Steroid"
+                    ],
+                    "a": 2,
+                    "ex": "Lecithin is a common example of a phospholipid."
+                }
+            ]
         }
     ]
 }
