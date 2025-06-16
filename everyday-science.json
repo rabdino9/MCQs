@@ -1,1 +1,195 @@
-
+{
+  "meta": {
+    "title": "Everyday Science MCQs - Introduction to Science and Scientific Methods",
+    "description": "Practice questions on the basics of science and the scientific method.",
+    "keywords": "science, scientific method, quiz, mcqs, introduction to science"
+  },
+  "subcategories": [
+    {
+      "id": "introduction-scientific-methods",
+      "title": "Introduction to Science and Scientific Methods",
+      "questions": [
+        {
+          "q": "What is science primarily based on?",
+          "options": ["Beliefs and opinions", "Observation and experimentation", "Tradition and authority", "Guesses and assumptions"],
+          "a": 1,
+          "ex": "Science relies on empirical evidence gathered through observation and experimentation."
+        },
+        {
+          "q": "Which of the following is the first step in the scientific method?",
+          "options": ["Formulating a hypothesis", "Collecting data", "Making an observation", "Drawing a conclusion"],
+          "a": 2,
+          "ex": "The scientific method begins with making an observation about the natural world."
+        },
+        {
+          "q": "A testable explanation for an observation is called a:",
+          "options": ["Law", "Theory", "Hypothesis", "Principle"],
+          "a": 2,
+          "ex": "A hypothesis is a proposed explanation that can be tested through experimentation."
+        },
+        {
+          "q": "Which step involves analyzing the collected information to determine if the hypothesis is supported?",
+          "options": ["Experimentation", "Observation", "Data analysis", "Conclusion"],
+          "a": 2,
+          "ex": "Data analysis involves interpreting the results of an experiment."
+        },
+        {
+          "q": "A widely accepted explanation of a natural phenomenon, supported by a large body of evidence, is known as a:",
+          "options": ["Hypothesis", "Law", "Theory", "Fact"],
+          "a": 2,
+          "ex": "A scientific theory is a well-substantiated explanation of some aspect of the natural world."
+        },
+        {
+          "q": "Which of these is crucial for a scientific experiment to be considered valid?",
+          "options": ["Having a predetermined outcome", "Being conducted by famous scientists", "Being repeatable by others", "Using expensive equipment"],
+          "a": 2,
+          "ex": "Repeatability is essential for verifying the results of a scientific experiment."
+        },
+        {
+          "q": "What is the purpose of a control group in an experiment?",
+          "options": ["To be exposed to the variable being tested", "To provide a baseline for comparison", "To introduce bias into the experiment", "To make the experiment more complex"],
+          "a": 1,
+          "ex": "The control group does not receive the treatment or variable being tested, allowing for comparison with the experimental group."
+        },
+        {
+          "q": "Quantitative observations involve data that is:",
+          "options": ["Descriptive", "Numerical", "Subjective", "Based on opinions"],
+          "a": 1,
+          "ex": "Quantitative observations are measurements or counts."
+        },
+        {
+          "q": "Qualitative observations involve data that is:",
+          "options": ["Numerical", "Objective", "Descriptive", "Statistical"],
+          "a": 2,
+          "ex": "Qualitative observations describe qualities or characteristics."
+        },
+        {
+          "q": "Which of the following is NOT a characteristic of a good hypothesis?",
+          "options": ["It is testable", "It is falsifiable", "It is a statement of fact", "It is based on observation"],
+          "a": 2,
+          "ex": "A hypothesis is a proposed explanation, not a proven fact."
+        },
+        {
+          "q": "What is the role of peer review in science?",
+          "options": ["To criticize and reject all new findings", "To ensure the quality and validity of research", "To promote the work of individual scientists", "To make scientific findings inaccessible to the public"],
+          "a": 1,
+          "ex": "Peer review by other experts in the field helps maintain the integrity of scientific research."
+        },
+        {
+          "q": "When a hypothesis is repeatedly tested and supported by evidence, it may become a:",
+          "options": ["Guess", "Theory", "Opinion", "Dogma"],
+          "a": 1,
+          "ex": "With sufficient evidence, a hypothesis can develop into a scientific theory."
+        },
+        {
+          "q": "Which of these best describes a scientific law?",
+          "options": ["An explanation of why something happens", "A description of a natural phenomenon", "A tentative explanation", "A belief based on tradition"],
+          "a": 1,
+          "ex": "A scientific law describes a pattern or relationship in nature, often expressed mathematically."
+        },
+        {
+          "q": "The variable that is manipulated or changed by the experimenter is called the:",
+          "options": ["Dependent variable", "Control variable", "Independent variable", "Extraneous variable"],
+          "a": 2,
+          "ex": "The independent variable is the one that is intentionally changed by the researcher."
+        },
+        {
+          "q": "The variable that is measured or observed in response to the independent variable is called the:",
+          "options": ["Independent variable", "Control variable", "Extraneous variable", "Dependent variable"],
+          "a": 3,
+          "ex": "The dependent variable is the outcome that is measured."
+        },
+        {
+          "q": "Which of the following is an example of a quantitative observation?",
+          "options": ["The sky is blue", "The rock is rough", "The temperature is 25 degrees Celsius", "The flower smells sweet"],
+          "a": 2,
+          "ex": "A temperature reading is a numerical measurement."
+        },
+        {
+          "q": "Which of the following is an example of a qualitative observation?",
+          "options": ["The object weighs 10 kilograms", "The liquid has a volume of 50 ml", "The substance is a white powder", "The experiment took 30 minutes"],
+          "a": 2,
+          "ex": "Describing the substance as a white powder is a qualitative observation."
+        },
+        {
+          "q": "Why is it important to record data accurately in a scientific experiment?",
+          "options": ["To make the experiment more interesting", "To ensure the results are reliable", "To finish the experiment quickly", "To impress other scientists"],
+          "a": 1,
+          "ex": "Accurate data collection is crucial for drawing valid conclusions."
+        },
+        {
+          "q": "What is the final step in the scientific method?",
+          "options": ["Formulating a hypothesis", "Analyzing data", "Drawing a conclusion and communicating results", "Conducting an experiment"],
+          "a": 2,
+          "ex": "The final step involves interpreting the data, forming a conclusion, and sharing the findings."
+        },
+        {
+          "q": "Science aims to understand the natural world through:",
+          "options": ["Faith and dogma", "Logical reasoning and evidence", "Superstition and folklore", "Personal opinions and beliefs"],
+          "a": 1,
+          "ex": "Science is based on reason and empirical evidence."
+        },
+        {
+          "q": "A systematic way of studying the natural world is called:",
+          "options": ["Art", "Philosophy", "Religion", "Science"],
+          "a": 3,
+          "ex": "Science provides a structured approach to understanding the universe."
+        },
+        {
+          "q": "What is the purpose of experimentation in science?",
+          "options": ["To prove a hypothesis is true", "To test a hypothesis", "To disprove all existing theories", "To make random discoveries"],
+          "a": 1,
+          "ex": "Experiments are designed to test the validity of a hypothesis."
+        },
+        {
+          "q": "Which of these is a characteristic of scientific knowledge?",
+          "options": ["It is absolute and unchanging", "It is based on authority", "It is tentative and subject to change", "It is based on personal opinions"],
+          "a": 2,
+          "ex": "Scientific knowledge is constantly being refined and updated as new evidence emerges."
+        },
+        {
+          "q": "The process of forming a general conclusion based on specific observations is called:",
+          "options": ["Deduction", "Induction", "Analysis", "Synthesis"],
+          "a": 1,
+          "ex": "Inductive reasoning moves from specific observations to a general conclusion."
+        },
+        {
+          "q": "The process of using a general principle to predict specific outcomes is called:",
+          "options": ["Induction", "Deduction", "Observation", "Experimentation"],
+          "a": 1,
+          "ex": "Deductive reasoning applies a general rule to a specific case."
+        },
+        {
+          "q": "What is the importance of communication in science?",
+          "options": ["To keep findings secret", "To allow for peer review and replication", "To confuse the public", "To promote competition among scientists"],
+          "a": 1,
+          "ex": "Sharing research findings allows other scientists to evaluate and build upon the work."
+        },
+        {
+          "q": "An unexpected result in an experiment can lead to:",
+          "options": ["Ignoring the result", "Changing the data to fit the hypothesis", "Developing a new hypothesis or theory", "Ending the experiment"],
+          "a": 2,
+          "ex": "Anomalous results can be a catalyst for new scientific discoveries."
+        },
+        {
+          "q": "Which of the following is NOT a benefit of using the scientific method?",
+          "options": ["It helps avoid bias", "It provides a structured approach to problem-solving", "It guarantees a successful outcome", "It leads to a deeper understanding of the natural world"],
+          "a": 2,
+          "ex": "The scientific method is a process of inquiry, not a guarantee of success."
+        },
+        {
+          "q": "What is the difference between a scientific theory and a scientific law?",
+          "options": ["A theory is a guess, a law is a proven fact", "A theory explains why something happens, a law describes what happens", "A theory is based on limited evidence, a law is based on extensive evidence", "There is no difference"],
+          "a": 1,
+          "ex": "Theories provide explanations, while laws describe patterns."
+        },
+        {
+          "q": "Ethical considerations in science are important to ensure that:",
+          "options": ["Research is conducted safely and responsibly", "Scientists always get the results they want", "Experiments are expensive and complex", "Only certain people can do science"],
+          "a": 0,
+          "ex": "Ethics in science address moral principles and responsible conduct in research."
+        }
+      ]
+    }
+  ]
+}
