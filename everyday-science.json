@@ -5212,6 +5212,1908 @@
           "ex": "The tilt of the Earth's axis causes different parts of the planet to receive varying amounts of sunlight throughout the year."
         }
       ]
+    },
+    {
+    "id": "environmental-science-pollution",
+    "title": "Environmental Science and Pollution",
+    "questions": [
+        {
+            "q": "What is environmental science?",
+            "options": [
+                "The study of weather patterns",
+                "The study of how humans interact with the environment",
+                "The study of ancient civilizations",
+                "The study of animal behavior"
+            ],
+            "a": 1,
+            "ex": "Environmental science is an interdisciplinary field that examines the complex relationships between living organisms and their surroundings, with a focus on human impact."
+        },
+        {
+            "q": "What is pollution?",
+            "options": [
+                "Natural changes in the environment",
+                "The introduction of harmful substances or products into the environment",
+                "The process of recycling",
+                "The growth of plants"
+            ],
+            "a": 1,
+            "ex": "Pollution can affect air, water, and land."
+        },
+        {
+            "q": "Which of the following is a major source of air pollution?",
+            "options": [
+                "Photosynthesis by plants",
+                "Volcanic eruptions",
+                "Burning fossil fuels",
+                "Evaporation of water"
+            ],
+            "a": 2,
+            "ex": "Burning fossil fuels for energy and transportation releases pollutants like sulfur dioxide and nitrogen oxides."
+        },
+        {
+            "q": "What is the greenhouse effect?",
+            "options": [
+                "A natural process that cools the Earth",
+                "A process where certain gases in the atmosphere trap heat, warming the planet",
+                "A process that creates oxygen",
+                "A process that causes acid rain"
+            ],
+            "a": 1,
+            "ex": "Greenhouse gases contribute to global warming."
+        },
+        {
+            "q": "What is climate change primarily caused by?",
+            "options": [
+                "Natural variations in the Earth's orbit",
+                "Increased volcanic activity",
+                "Human activities, primarily the burning of fossil fuels",
+                "Changes in ocean currents"
+            ],
+            "a": 2,
+            "ex": "Human-induced greenhouse gas emissions are the main driver of current climate change."
+        },
+        {
+            "q": "What is water pollution?",
+            "options": [
+                "The movement of water",
+                "The presence of harmful substances in water bodies",
+                "The process of water purification",
+                "The evaporation of water"
+            ],
+            "a": 1,
+            "ex": "Water pollution can come from industrial discharge, agricultural runoff, and sewage."
+        },
+        {
+            "q": "Which of the following is a major source of water pollution?",
+            "options": [
+                "Rainfall",
+                "Melting ice",
+                "Agricultural runoff containing fertilizers and pesticides",
+                "Natural springs"
+            ],
+            "a": 2,
+            "ex": "Excess nutrients from fertilizers can cause eutrophication in water bodies."
+        },
+        {
+            "q": "What is land pollution?",
+            "options": [
+                "The erosion of soil",
+                "The presence of harmful substances or waste on land",
+                "The growth of forests",
+                "The formation of mountains"
+            ],
+            "a": 1,
+            "ex": "Land pollution is often caused by improper waste disposal and industrial activities."
+        },
+        {
+            "q": "What is deforestation?",
+            "options": [
+                "The growth of new forests",
+                "The process of planting trees",
+                "The clearing of forests for other land uses",
+                "The protection of endangered trees"
+            ],
+            "a": 2,
+            "ex": "Deforestation has significant environmental impacts, including habitat loss and climate change."
+        },
+        {
+            "q": "What is biodiversity?",
+            "options": [
+                "The number of different types of rocks in an area",
+                "The variety of life in a particular habitat or ecosystem",
+                "The amount of pollution in an area",
+                "The total amount of water on Earth"
+            ],
+            "a": 1,
+            "ex": "Biodiversity is essential for healthy and stable ecosystems."
+        },
+        {
+            "q": "What is an ecosystem?",
+            "options": [
+                "A single organism living in an environment",
+                "A community of living organisms interacting with each other and their physical environment",
+                "A type of pollution",
+                "A geological formation"
+            ],
+            "a": 1,
+            "ex": "Ecosystems can range in size from a small pond to a large forest."
+        },
+        {
+            "q": "What is conservation?",
+            "options": [
+                "Using natural resources without regard for the future",
+                "The protection and preservation of natural resources and ecosystems",
+                "The process of converting natural resources into energy",
+                "Building new cities"
+            ],
+            "a": 1,
+            "ex": "Conservation aims to ensure that natural resources are available for future generations."
+        },
+        {
+            "q": "What is sustainability?",
+            "options": [
+                "Using resources as quickly as possible",
+                "Meeting the needs of the present without compromising the ability of future generations to meet their own needs",
+                "Focusing only on economic growth",
+                "Ignoring environmental concerns"
+            ],
+            "a": 1,
+            "ex": "Sustainability involves balancing economic, social, and environmental considerations."
+        },
+        {
+            "q": "What is recycling?",
+            "options": [
+                "Throwing away waste materials",
+                "Burning waste materials to produce energy",
+                "Converting waste materials into new products",
+                "Burying waste materials in landfills"
+            ],
+            "a": 2,
+            "ex": "Recycling helps reduce waste and conserve resources."
+        },
+        {
+            "q": "What is the primary cause of the depletion of the ozone layer?",
+            "options": [
+                "Carbon dioxide emissions",
+                "Methane emissions",
+                "Chlorofluorocarbons (CFCs) and other ozone-depleting substances",
+                "Volcanic eruptions"
+            ],
+            "a": 2,
+            "ex": "CFCs were widely used in refrigerants and aerosols."
+        },
+        {
+            "q": "What is acid rain?",
+            "options": [
+                "Rainfall with a neutral pH",
+                "Rainfall that is more acidic than normal due to air pollutants",
+                "Rainfall that contains dissolved salts",
+                "Rainfall that occurs during a thunderstorm"
+            ],
+            "a": 1,
+            "ex": "Acid rain can damage forests, lakes, and buildings."
+        },
+        {
+            "q": "What is eutrophication?",
+            "options": [
+                "A process of increasing biodiversity in a water body",
+                "The excessive richness of nutrients in a lake or other body of water, frequently due to runoff from the land, which causes a dense growth of plant life and death of animal life from lack of oxygen",
+                "A process of removing pollutants from water",
+                "The formation of ice on a water body"
+            ],
+            "a": 1,
+            "ex": "Eutrophication can lead to algal blooms and oxygen depletion."
+        },
+        {
+            "q": "What is hazardous waste?",
+            "options": [
+                "Any type of garbage",
+                "Waste materials that are harmful to human health or the environment",
+                "Waste that can be easily recycled",
+                "Organic waste"
+            ],
+            "a": 1,
+            "ex": "Hazardous waste requires special handling and disposal."
+        },
+        {
+            "q": "What is the role of decomposers (like bacteria and fungi) in an ecosystem?",
+            "options": [
+                "To produce energy",
+                "To consume living organisms",
+                "To break down dead organic matter",
+                "To produce oxygen"
+            ],
+            "a": 2,
+            "ex": "Decomposers recycle nutrients back into the ecosystem."
+        },
+        {
+            "q": "What is a carbon footprint?",
+            "options": [
+                "The amount of carbon stored in the soil",
+                "The total amount of greenhouse gas emissions caused by an individual, organization, event or product",
+                "The amount of carbon dioxide in the atmosphere",
+                "The use of carbon in industry"
+            ],
+            "a": 1,
+            "ex": "Reducing your carbon footprint helps mitigate climate change."
+        },
+        {
+            "q": "What is renewable energy?",
+            "options": [
+                "Energy that comes from fossil fuels",
+                "Energy that is generated from sources that are naturally replenished on a human timescale",
+                "Energy that is lost during transmission",
+                "Energy that is used once and then discarded"
+            ],
+            "a": 1,
+            "ex": "Examples include solar, wind, and hydro power."
+        },
+        {
+            "q": "What is non-renewable energy?",
+            "options": [
+                "Energy that is generated from sources that are naturally replenished",
+                "Energy that comes from sources that are finite and will eventually be depleted",
+                "Energy that is used efficiently",
+                "Energy that is environmentally friendly"
+            ],
+            "a": 1,
+            "ex": "Examples include coal, oil, and natural gas."
+        },
+        {
+            "q": "What is habitat loss?",
+            "options": [
+                "The increase in the size of a habitat",
+                "The destruction or degradation of an animal's or plant's natural home",
+                "The process of animals migrating to new habitats",
+                "The protection of endangered species"
+            ],
+            "a": 1,
+            "ex": "Habitat loss is a major threat to biodiversity."
+        },
+        {
+            "q": "What is species extinction?",
+            "options": [
+                "The increase in the number of species",
+                "The disappearance of a species from Earth",
+                "The migration of a species to a new area",
+                "The adaptation of a species to a new environment"
+            ],
+            "a": 1,
+            "ex": "Species extinction is a permanent loss of biodiversity."
+        },
+        {
+            "q": "What is sustainable agriculture?",
+            "options": [
+                "Farming methods that deplete natural resources",
+                "Farming practices that aim to protect the environment, public health, human communities, and animal welfare",
+                "Farming that relies heavily on chemical pesticides",
+                "Farming that only grows one type of crop"
+            ],
+            "a": 1,
+            "ex": "Sustainable agriculture focuses on long-term ecological balance and resource conservation."
+        },
+        {
+            "q": "What is ecological footprint?",
+            "options": [
+                "The size of an animal's paw print",
+                "A measure of human demand on nature, the area of land and sea required to support a lifestyle or economy",
+                "The impact of natural disasters on the environment",
+                "The process of recycling"
+            ],
+            "a": 1,
+            "ex": "The ecological footprint indicates how much of the Earth's resources are used by a person or group."
+        },
+        {
+            "q": "What is bioremediation?",
+            "options": [
+                "The use of chemicals to clean up pollution",
+                "The use of living organisms, like bacteria or fungi, to clean up pollution",
+                "The process of burying waste in landfills",
+                "The burning of waste"
+            ],
+            "a": 1,
+            "ex": "Bioremediation is an environmentally friendly approach to cleaning up contaminated sites."
+        },
+        {
+            "q": "What is a landfill?",
+            "options": [
+                "A place where waste is recycled",
+                "A place where waste is burned",
+                "A site for the disposal of waste materials by burial",
+                "A place where hazardous waste is treated"
+            ],
+            "a": 2,
+            "ex": "Landfills are a common method of waste disposal, but they can cause environmental problems."
+        },
+        {
+            "q": "What is the primary goal of environmental regulations?",
+            "options": [
+                "To increase pollution",
+                "To protect human health and the environment",
+                "To promote economic growth at any cost",
+                "To make it difficult for businesses to operate"
+            ],
+            "a": 1,
+            "ex": "Environmental regulations set standards and guidelines to limit pollution and protect natural resources."
+        },
+        {
+            "q": "What is a protected area (like a national park or wildlife reserve)?",
+            "options": [
+                "An area designated for industrial development",
+                "An area set aside to conserve natural and cultural resources",
+                "An area where hunting is encouraged",
+                "An area where pollution is allowed"
+            ],
+            "a": 1,
+            "ex": "Protected areas play a crucial role in biodiversity conservation."
+        }
+    ]
+},
+    {
+    "id": "renewable-non-renewable-resources",
+    "title": "Renewable and Non-Renewable Resources",
+    "questions": [
+        {
+            "q": "What is a natural resource?",
+            "options": [
+                "Anything created by humans",
+                "Materials or substances that occur in nature and can be used for economic gain",
+                "A type of energy",
+                "A manufactured product"
+            ],
+            "a": 1,
+            "ex": "Natural resources are valuable gifts from the Earth."
+        },
+        {
+            "q": "What is a renewable resource?",
+            "options": [
+                "A resource that is finite and will eventually be depleted",
+                "A resource that can be replenished naturally over a relatively short period",
+                "A resource that is only found in specific locations",
+                "A resource that is always available in unlimited quantities"
+            ],
+            "a": 1,
+            "ex": "Renewable resources can be used sustainably."
+        },
+        {
+            "q": "What is a non-renewable resource?",
+            "options": [
+                "A resource that can be replenished naturally",
+                "A resource that is finite and will eventually be depleted",
+                "A resource that is only used once",
+                "A resource that is not valuable"
+            ],
+            "a": 1,
+            "ex": "Non-renewable resources are formed over geological timescales."
+        },
+        {
+            "q": "Which of the following is an example of a renewable energy source?",
+            "options": [
+                "Coal",
+                "Natural gas",
+                "Solar energy",
+                "Oil"
+            ],
+            "a": 2,
+            "ex": "Solar energy comes from sunlight, which is continuously available."
+        },
+        {
+            "q": "Which of the following is an example of a non-renewable energy source?",
+            "options": [
+                "Wind energy",
+                "Hydropower",
+                "Petroleum (oil)",
+                "Geothermal energy"
+            ],
+            "a": 2,
+            "ex": "Petroleum is a fossil fuel formed from ancient organic matter."
+        },
+        {
+            "q": "What are fossil fuels?",
+            "options": [
+                "Rocks and minerals",
+                "Renewable energy sources",
+                "Energy sources formed from the remains of ancient organisms over millions of years",
+                "Clean energy sources"
+            ],
+            "a": 2,
+            "ex": "Coal, oil, and natural gas are common fossil fuels."
+        },
+        {
+            "q": "Which renewable energy source harnesses the power of moving air?",
+            "options": [
+                "Solar energy",
+                "Wind energy",
+                "Hydropower",
+                "Geothermal energy"
+            ],
+            "a": 1,
+            "ex": "Wind turbines convert wind energy into electricity."
+        },
+        {
+            "q": "Which renewable energy source harnesses the energy of moving water?",
+            "options": [
+                "Solar energy",
+                "Wind energy",
+                "Hydropower",
+                "Geothermal energy"
+            ],
+            "a": 2,
+            "ex": "Hydropower typically involves dams that use the flow of water to generate electricity."
+        },
+        {
+            "q": "Which renewable energy source uses heat from within the Earth?",
+            "options": [
+                "Solar energy",
+                "Wind energy",
+                "Hydropower",
+                "Geothermal energy"
+            ],
+            "a": 3,
+            "ex": "Geothermal energy can be used for heating, cooling, and electricity generation."
+        },
+        {
+            "q": "Which renewable energy source uses organic matter (plants and animal waste) to produce energy?",
+            "options": [
+                "Solar energy",
+                "Wind energy",
+                "Biomass energy",
+                "Nuclear energy"
+            ],
+            "a": 2,
+            "ex": "Biomass can be burned directly or converted into biofuels."
+        },
+        {
+            "q": "What is a major environmental impact of using fossil fuels?",
+            "options": [
+                "Reducing air pollution",
+                "Producing clean water",
+                "Contributing to air pollution and climate change",
+                "Increasing biodiversity"
+            ],
+            "a": 2,
+            "ex": "Burning fossil fuels releases greenhouse gases and other pollutants."
+        },
+        {
+            "q": "What is conservation of resources?",
+            "options": [
+                "Using resources as quickly as possible",
+                "Protecting and managing natural resources to ensure their availability for the future",
+                "Converting resources into pollution",
+                "Ignoring the impact of resource use"
+            ],
+            "a": 1,
+            "ex": "Conservation involves reducing waste, recycling, and using resources efficiently."
+        },
+        {
+            "q": "Which of the following is a non-renewable resource that is essential for many industrial processes?",
+            "options": [
+                "Wood",
+                "Water",
+                "Iron ore",
+                "Solar energy"
+            ],
+            "a": 2,
+            "ex": "Iron ore is a mineral that is mined from the Earth."
+        },
+        {
+            "q": "What is uranium used for?",
+            "options": [
+                "As a renewable energy source",
+                "As a fuel in nuclear power plants",
+                "As a building material",
+                "As a source of solar energy"
+            ],
+            "a": 1,
+            "ex": "Uranium is a radioactive element used in nuclear fission."
+        },
+        {
+            "q": "What is the primary advantage of using renewable energy sources?",
+            "options": [
+                "They are cheaper to install than fossil fuel power plants",
+                "They produce greenhouse gas emissions",
+                "They are naturally replenished and have lower environmental impact",
+                "They are less reliable than non-renewable sources"
+            ],
+            "a": 2,
+            "ex": "Renewable energy sources offer a more sustainable alternative to fossil fuels."
+        },
+        {
+            "q": "What is the primary disadvantage of using non-renewable energy sources?",
+            "options": [
+                "They are naturally replenished",
+                "They are expensive to extract",
+                "They are finite and contribute to environmental problems",
+                "They are not very efficient"
+            ],
+            "a": 2,
+            "ex": "The depletion of non-renewable resources and their environmental impacts are major concerns."
+        },
+        {
+            "q": "What is the term for a resource that is replenished at a rate equal to or faster than the rate at which it is consumed?",
+            "options": [
+                "Non-renewable resource",
+                "Finite resource",
+                "Sustainable resource",
+                "Depleted resource"
+            ],
+            "a": 2,
+            "ex": "Sustainable resources can be used without depleting them for future generations."
+        },
+        {
+            "q": "Which of the following is an example of a sustainable practice related to resource use?",
+            "options": [
+                "Throwing away all waste",
+                "Using single-use plastics frequently",
+                "Recycling and reducing consumption",
+                "Burning fossil fuels for all energy needs"
+            ],
+            "a": 2,
+            "ex": "Recycling and reducing consumption minimize the demand for new resources and reduce waste."
+        },
+        {
+            "q": "What is the main component of natural gas?",
+            "options": [
+                "Propane",
+                "Butane",
+                "Methane",
+                "Ethane"
+            ],
+            "a": 2,
+            "ex": "Methane is a greenhouse gas."
+        },
+        {
+            "q": "Which type of non-renewable resource is primarily used for transportation?",
+            "options": [
+                "Coal",
+                "Natural gas",
+                "Petroleum (oil)",
+                "Uranium"
+            ],
+            "a": 2,
+            "ex": "Gasoline and diesel fuels are derived from petroleum."
+        },
+        {
+            "q": "What is the process of capturing sunlight and converting it into electricity?",
+            "options": [
+                "Hydropower",
+                "Wind power",
+                "Geothermal energy",
+                "Photovoltaics (solar power)"
+            ],
+            "a": 3,
+            "ex": "Solar panels use photovoltaic cells to generate electricity."
+        },
+        {
+            "q": "What is the primary challenge associated with using solar and wind energy?",
+            "options": [
+                "They produce a lot of pollution",
+                "They are not naturally replenished",
+                "They are intermittent (dependent on weather conditions)",
+                "They are very expensive to install"
+            ],
+            "a": 2,
+            "ex": "Solar energy is only available when the sun is shining, and wind energy depends on wind speed."
+        },
+        {
+            "q": "What is the main advantage of using hydropower?",
+            "options": [
+                "It produces greenhouse gas emissions",
+                "It is a reliable and clean source of electricity",
+                "It requires a lot of land",
+                "It harms aquatic life"
+            ],
+            "a": 1,
+            "ex": "Hydropower plants do not produce air pollutants."
+        },
+        {
+            "q": "What is the primary disadvantage of building large hydropower dams?",
+            "options": [
+                "They are not very efficient",
+                "They are a non-renewable resource",
+                "They can disrupt ecosystems and displace communities",
+                "They are very quiet"
+            ],
+            "a": 2,
+            "ex": "Large dams can have significant environmental and social impacts."
+        },
+        {
+            "q": "What is biomass?",
+            "options": [
+                "Fossil fuels",
+                "Any living or recently living biological material that can be used as fuel or for industrial production",
+                "A type of metal",
+                "A synthetic material"
+            ],
+            "a": 1,
+            "ex": "Biomass includes wood, crops, and animal waste."
+        },
+        {
+            "q": "What is the process of extracting fossil fuels from the ground?",
+            "options": [
+                "Recycling",
+                "Mining and drilling",
+                "Growing",
+                "Generating"
+            ],
+            "a": 1,
+            "ex": "Mining (for coal) and drilling (for oil and natural gas) are common extraction methods."
+        },
+        {
+            "q": "Which of the following is a renewable resource that is essential for agriculture?",
+            "options": [
+                "Oil",
+                "Natural gas",
+                "Soil",
+                "Coal"
+            ],
+            "a": 2,
+            "ex": "Healthy soil is crucial for growing crops."
+        },
+        {
+            "q": "What is the term for the careful use and management of natural resources?",
+            "options": [
+                "Exploitation",
+                "Wastefulness",
+                "Stewardship",
+                "Consumption"
+            ],
+            "a": 2,
+            "ex": "Stewardship involves taking responsibility for the sustainable use of resources."
+        },
+        {
+            "q": "What is the goal of transitioning from non-renewable to renewable energy sources?",
+            "options": [
+                "To increase air pollution",
+                "To reduce greenhouse gas emissions and promote sustainability",
+                "To make energy more expensive",
+                "To deplete natural resources faster"
+            ],
+            "a": 1,
+            "ex": "Transitioning to renewables is a key strategy for addressing climate change and ensuring long-term energy security."
+        },
+        {
+            "q": "What is a resource depletion?",
+            "options": [
+                "The increase in the availability of a resource",
+                "The consumption of a resource faster than it can be replenished",
+                "The recycling of a resource",
+                "The discovery of new resources"
+            ],
+            "a": 1,
+            "ex": "Resource depletion is a major concern with non-renewable resources."
+        }
+    ]
+},
+    {
+    "id": "earth-solar-system-universe",
+    "title": "Earth, Solar System, and Universe",
+    "questions": [
+        {
+            "q": "Which planet in our solar system is known as the 'Red Planet'?",
+            "options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "a": 1,
+            "ex": "Mars gets its reddish color from iron oxide on its surface."
+        },
+        {
+            "q": "What is the largest planet in our solar system?",
+            "options": [
+                "Earth",
+                "Saturn",
+                "Jupiter",
+                "Neptune"
+            ],
+            "a": 2,
+            "ex": "Jupiter is a gas giant with a mass more than twice that of all the other planets combined."
+        },
+        {
+            "q": "Which celestial body is a natural satellite that orbits the Earth?",
+            "options": [
+                "Sun",
+                "Mars",
+                "Moon",
+                "Venus"
+            ],
+            "a": 2,
+            "ex": "The Moon is Earth's only natural satellite."
+        },
+        {
+            "q": "What is the center of our solar system?",
+            "options": [
+                "Earth",
+                "Moon",
+                "Sun",
+                "Jupiter"
+            ],
+            "a": 2,
+            "ex": "The Sun is a star that provides light and heat to the solar system."
+        },
+        {
+            "q": "What is the force that keeps planets in orbit around the Sun?",
+            "options": [
+                "Magnetism",
+                "Inertia",
+                "Gravity",
+                "Friction"
+            ],
+            "a": 2,
+            "ex": "The Sun's gravity attracts the planets, keeping them in their elliptical orbits."
+        },
+        {
+            "q": "What is a galaxy?",
+            "options": [
+                "A single star",
+                "A large system of stars, stellar remnants, interstellar gas, dust, and dark matter, bound together by gravity",
+                "A planet with moons",
+                "A cloud of gas and dust"
+            ],
+            "a": 1,
+            "ex": "Our solar system is located in the Milky Way galaxy."
+        },
+        {
+            "q": "What is the name of our galaxy?",
+            "options": [
+                "Andromeda",
+                "Triangulum",
+                "Milky Way",
+                "Sombrero"
+            ],
+            "a": 2,
+            "ex": "The Milky Way is a barred spiral galaxy."
+        },
+        {
+            "q": "What are stars?",
+            "options": [
+                "Planets that are far away",
+                "Large, luminous spheres of plasma held together by their own gravity",
+                "Clouds of gas and dust",
+                "Empty spaces in the universe"
+            ],
+            "a": 1,
+            "ex": "Stars generate light and heat through nuclear fusion."
+        },
+        {
+            "q": "What is the study of celestial objects, space, and the physical universe as a whole?",
+            "options": [
+                "Astrology",
+                "Geology",
+                "Meteorology",
+                "Astronomy"
+            ],
+            "a": 3,
+            "ex": "Astronomy is a vast and ancient science."
+        },
+        {
+            "q": "What is a light-year?",
+            "options": [
+                "A unit of time",
+                "A unit of speed",
+                "A unit of distance that light travels in one year",
+                "A unit of temperature"
+            ],
+            "a": 2,
+            "ex": "Light-years are used to measure the vast distances between celestial objects."
+        },
+        {
+            "q": "What is a black hole?",
+            "options": [
+                "A dark planet",
+                "A region in spacetime where gravity is so strong that nothing, including light and other electromagnetic waves, has enough energy to escape its event horizon",
+                "A type of star",
+                "An empty region of space"
+            ],
+            "a": 1,
+            "ex": "Black holes are fascinating and mysterious objects in the universe."
+        },
+        {
+            "q": "What is the Big Bang theory?",
+            "options": [
+                "A theory about the formation of planets",
+                "A theory about the expansion of galaxies",
+                "The prevailing cosmological model for the universe from the earliest known periods through its subsequent large-scale evolution",
+                "A theory about the death of stars"
+            ],
+            "a": 2,
+            "ex": "The Big Bang theory suggests that the universe began in an extremely hot and dense state and has been expanding ever since."
+        },
+        {
+            "q": "What is the outermost planet in our solar system?",
+            "options": [
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "a": 3,
+            "ex": "Neptune is a gas giant and the farthest known planet from the Sun."
+        },
+        {
+            "q": "Which planet is known for its prominent rings?",
+            "options": [
+                "Jupiter",
+                "Uranus",
+                "Neptune",
+                "Saturn"
+            ],
+            "a": 3,
+            "ex": "Saturn's rings are made up of ice particles, rocks, and dust."
+        },
+        {
+            "q": "What is a comet?",
+            "options": [
+                "A small, rocky object in space",
+                "A celestial body made of ice, dust, and rocky material that orbits the Sun",
+                "A type of star",
+                "A moon of a planet"
+            ],
+            "a": 1,
+            "ex": "Comets often have a visible tail when they approach the Sun."
+        },
+        {
+            "q": "What is an asteroid?",
+            "options": [
+                "A celestial body made of ice and dust",
+                "A small, rocky object that orbits the Sun, typically found in the asteroid belt between Mars and Jupiter",
+                "A type of galaxy",
+                "A cloud of gas and dust"
+            ],
+            "a": 1,
+            "ex": "Asteroids are remnants from the formation of the solar system."
+        },
+        {
+            "q": "What is a meteoroid?",
+            "options": [
+                "A streak of light in the sky (shooting star)",
+                "A small rocky or metallic body in outer space",
+                "A meteoroid that has entered the Earth's atmosphere and burned up",
+                "A meteoroid that has landed on the Earth's surface"
+            ],
+            "a": 1,
+            "ex": "Meteoroids are smaller than asteroids."
+        },
+        {
+            "q": "What is a meteor?",
+            "options": [
+                "A small rocky or metallic body in outer space",
+                "A streak of light in the sky caused by a meteoroid burning up in the Earth's atmosphere",
+                "A meteoroid that has landed on the Earth's surface",
+                "A type of star"
+            ],
+            "a": 1,
+            "ex": "Meteors are commonly known as shooting stars."
+        },
+        {
+            "q": "What is a meteorite?",
+            "options": [
+                "A streak of light in the sky",
+                "A small rocky or metallic body in outer space",
+                "A meteoroid that has entered the Earth's atmosphere and burned up",
+                "A meteoroid that has landed on the Earth's surface"
+            ],
+            "a": 3,
+            "ex": "Meteorites can provide valuable information about the early solar system."
+        },
+        {
+            "q": "What is the closest star to Earth (besides the Sun)?",
+            "options": [
+                "Sirius",
+                "Proxima Centauri",
+                "Alpha Centauri",
+                "Polaris"
+            ],
+            "a": 1,
+            "ex": "Proxima Centauri is part of the Alpha Centauri star system."
+        },
+        {
+            "q": "What is a constellation?",
+            "options": [
+                "A single star",
+                "A group of stars that appear to form a pattern or picture in the night sky",
+                "A type of galaxy",
+                "A type of planet"
+            ],
+            "a": 1,
+            "ex": "Constellations are used by astronomers to divide the night sky."
+        },
+        {
+            "q": "What is the observable universe?",
+            "options": [
+                "The entire universe",
+                "The portion of the universe that can be observed from Earth at the present time",
+                "Our solar system",
+                "Our galaxy"
+            ],
+            "a": 1,
+            "ex": "Due to the finite speed of light and the age of the universe, there are parts of the universe that we cannot see."
+        },
+        {
+            "q": "What is cosmology?",
+            "options": [
+                "The study of planets",
+                "The study of galaxies",
+                "The study of the origin, evolution, and structure of the universe",
+                "The study of stars"
+            ],
+            "a": 2,
+            "ex": "Cosmology is a branch of astronomy."
+        },
+        {
+            "q": "What is the approximate age of the universe?",
+            "options": [
+                "4.6 billion years",
+                "10 billion years",
+                "13.8 billion years",
+                "100 billion years"
+            ],
+            "a": 2,
+            "ex": "This is based on observations of the cosmic microwave background radiation and the expansion rate of the universe."
+        },
+        {
+            "q": "What is a nebula?",
+            "options": [
+                "A type of star",
+                "A planet outside our solar system",
+                "A giant cloud of gas and dust in space where new stars can form",
+                "A type of galaxy"
+            ],
+            "a": 2,
+            "ex": "Nebulae are often called 'star nurseries'."
+        },
+        {
+            "q": "What is a supernova?",
+            "options": [
+                "The birth of a star",
+                "The explosion of a star at the end of its life cycle",
+                "The merging of two galaxies",
+                "The formation of a black hole"
+            ],
+            "a": 1,
+            "ex": "Supernovae are incredibly bright and can release vast amounts of energy."
+        },
+        {
+            "q": "What is a pulsar?",
+            "options": [
+                "A type of planet",
+                "A rapidly rotating neutron star that emits beams of electromagnetic radiation",
+                "A type of galaxy",
+                "A cloud of gas and dust"
+            ],
+            "a": 1,
+            "ex": "Pulsars are highly magnetized and rotate at high speeds."
+        },
+        {
+            "q": "What is the event horizon of a black hole?",
+            "options": [
+                "The center of the black hole",
+                "The point of no return around a black hole, beyond which nothing can escape",
+                "A type of star orbiting the black hole",
+                "A cloud of gas surrounding the black hole"
+            ],
+            "a": 1,
+            "ex": "The event horizon is the boundary defining the region from which nothing can escape."
+        },
+        {
+            "q": "What is the cosmic microwave background (CMB) radiation?",
+            "options": [
+                "Radiation from the Sun",
+                "Radiation from distant stars",
+                "Leftover radiation from the Big Bang",
+                "Radiation from black holes"
+            ],
+            "a": 2,
+            "ex": "The CMB is a faint glow of radiation that fills the universe and is considered strong evidence for the Big Bang theory."
+        },
+        {
+            "q": "What is dark matter?",
+            "options": [
+                "Matter that emits light",
+                "Matter that is visible to telescopes",
+                "A hypothetical form of matter that does not interact with electromagnetic radiation, making it invisible to telescopes, but whose presence is inferred from its gravitational effects",
+                "A type of black hole"
+            ],
+            "a": 2,
+            "ex": "Dark matter is thought to make up a significant portion of the universe's mass."
+        }
+    ]
+},
+    {
+    "id": "satellites-space-exploration",
+    "title": "Satellites and Space Exploration",
+    "questions": [
+        {
+            "q": "What is an artificial satellite?",
+            "options": [
+                "A natural satellite like the Moon",
+                "A spacecraft that orbits a celestial body, typically Earth, for various purposes",
+                "A type of telescope",
+                "A rocket used to launch objects into space"
+            ],
+            "a": 1,
+            "ex": "Artificial satellites are human-made objects placed in orbit."
+        },
+        {
+            "q": "What is the primary purpose of many artificial satellites orbiting Earth?",
+            "options": [
+                "To provide entertainment",
+                "For communication, navigation, weather forecasting, and scientific research",
+                "To collect space debris",
+                "To observe distant galaxies"
+            ],
+            "a": 1,
+            "ex": "Satellites play a vital role in modern technology and scientific understanding."
+        },
+        {
+            "q": "What is a geostationary orbit?",
+            "options": [
+                "An orbit that passes over the Earth's poles",
+                "An orbit where a satellite stays above the same point on Earth's surface",
+                "An orbit that is very close to the Earth's surface",
+                "An orbit around the Sun"
+            ],
+            "a": 1,
+            "ex": "Geostationary satellites are used for communication and weather monitoring."
+        },
+        {
+            "q": "What is the name of the first artificial satellite launched into space?",
+            "options": [
+                "Explorer 1",
+                "Vanguard 1",
+                "Sputnik 1",
+                "Telstar 1"
+            ],
+            "a": 2,
+            "ex": "Sputnik 1 was launched by the Soviet Union in 1957, marking the beginning of the Space Age."
+        },
+        {
+            "q": "What is the primary function of a rocket in space exploration?",
+            "options": [
+                "To provide a place for astronauts to live in space",
+                "To launch spacecraft and satellites into space",
+                "To observe distant planets",
+                "To communicate with Earth"
+            ],
+            "a": 1,
+            "ex": "Rockets provide the thrust needed to overcome Earth's gravity."
+        },
+        {
+            "q": "What is the name of the international space station that orbits Earth?",
+            "options": [
+                "Mir",
+                "Skylab",
+                "International Space Station (ISS)",
+                "Tiangong"
+            ],
+            "a": 2,
+            "ex": "The ISS is a collaborative project involving multiple countries, used for scientific research and as a base for future missions."
+        },
+        {
+            "q": "What is the name of the space telescope that has provided us with incredible images of distant galaxies and nebulae?",
+            "options": [
+                "James Webb Space Telescope",
+                "Chandra X-ray Observatory",
+                "Hubble Space Telescope",
+                "Kepler Space Telescope"
+            ],
+            "a": 2,
+            "ex": "The Hubble Space Telescope revolutionized our understanding of the universe."
+        },
+        {
+            "q": "What is a space probe?",
+            "options": [
+                "A spacecraft designed to land on a planet",
+                "A spacecraft that travels through space to explore celestial bodies and transmit data back to Earth",
+                "A telescope in space",
+                "A vehicle for transporting astronauts"
+            ],
+            "a": 1,
+            "ex": "Space probes are often sent to explore planets, moons, asteroids, and comets."
+        },
+        {
+            "q": "What was the first crewed mission to land on the Moon?",
+            "options": [
+                "Apollo 10",
+                "Apollo 11",
+                "Apollo 12",
+                "Apollo 13"
+            ],
+            "a": 1,
+            "ex": "Apollo 11 in 1969 carried Neil Armstrong and Buzz Aldrin to the lunar surface."
+        },
+        {
+            "q": "What is the name of the US space agency?",
+            "options": [
+                "Roscosmos",
+                "ESA (European Space Agency)",
+                "CNSA (China National Space Administration)",
+                "NASA (National Aeronautics and Space Administration)"
+            ],
+            "a": 3,
+            "ex": "NASA is responsible for the US space program."
+        },
+        {
+            "q": "What is the purpose of a space suit?",
+            "options": [
+                "To make astronauts look like superheroes",
+                "To provide astronauts with breathable air, protection from extreme temperatures, and pressure in the vacuum of space",
+                "To allow astronauts to fly in space",
+                "To communicate with Earth"
+            ],
+            "a": 1,
+            "ex": "Space suits are essential for survival during spacewalks and in unpressurized spacecraft."
+        },
+        {
+            "q": "What is a rover?",
+            "options": [
+                "A spacecraft that orbits a planet",
+                "A vehicle designed to explore the surface of a planet or moon",
+                "A type of space telescope",
+                "A vehicle for transporting astronauts"
+            ],
+            "a": 1,
+            "ex": "Rovers like Curiosity and Perseverance have explored the surface of Mars."
+        },
+        {
+            "q": "What is microgravity (or weightlessness) in space?",
+            "options": [
+                "The absence of gravity",
+                "A state where the effects of gravity are greatly reduced, allowing objects to appear weightless",
+                "A type of energy in space",
+                "A force that pushes objects away from the Earth"
+            ],
+            "a": 1,
+            "ex": "In orbit, astronauts and objects are constantly falling towards Earth, but they are also moving sideways at high speed, resulting in a feeling of weightlessness."
+        },
+        {
+            "q": "What is the study of the universe and its origins called?",
+            "options": [
+                "Astronomy",
+                "Astrology",
+                "Cosmology",
+                "Geology"
+            ],
+            "a": 2,
+            "ex": "Cosmology is a branch of astronomy focused on the universe as a whole."
+        },
+        {
+            "q": "What is a spacecraft?",
+            "options": [
+                "A natural satellite",
+                "A vehicle designed to travel in space",
+                "A type of telescope on Earth",
+                "A rocket launcher"
+            ],
+            "a": 1,
+            "ex": "Spacecraft can be crewed or uncrewed."
+        },
+        {
+            "q": "What is the term for traveling beyond Earth's atmosphere?",
+            "options": [
+                "Air travel",
+                "Space exploration",
+                "Deep-sea exploration",
+                "Terrestrial travel"
+            ],
+            "a": 1,
+            "ex": "Space exploration has expanded our knowledge of the cosmos."
+        },
+        {
+            "q": "What is a space station?",
+            "options": [
+                "A type of rocket",
+                "A large spacecraft that remains in orbit around a celestial body and is designed to be a habitable environment for humans",
+                "A type of satellite",
+                "A vehicle for landing on planets"
+            ],
+            "a": 1,
+            "ex": "Space stations provide a platform for long-duration missions and research in space."
+        },
+        {
+            "q": "What is a satellite dish used for?",
+            "options": [
+                "To cook food in space",
+                "To collect solar energy",
+                "To transmit and receive radio waves from satellites",
+                "To observe distant stars"
+            ],
+            "a": 2,
+            "ex": "Satellite dishes are used for communication with satellites, such as for television or internet."
+        },
+        {
+            "q": "What is the concept of a space elevator?",
+            "options": [
+                "A type of rocket",
+                "A hypothetical structure extending from the Earth's surface into space, designed for transporting people and cargo",
+                "A type of space telescope",
+                "A vehicle for exploring asteroids"
+            ],
+            "a": 1,
+            "ex": "A space elevator is a futuristic concept that could revolutionize space travel."
+        },
+        {
+            "q": "What is the primary goal of the search for extraterrestrial intelligence (SETI)?",
+            "options": [
+                "To find new planets",
+                "To search for signs of life beyond Earth",
+                "To send humans to other galaxies",
+                "To build more powerful telescopes"
+            ],
+            "a": 1,
+            "ex": "SETI uses radio telescopes to listen for signals from potential extraterrestrial civilizations."
+        },
+        {
+            "q": "What is a space shuttle?",
+            "options": [
+                "A reusable spacecraft that could transport astronauts and cargo to and from Earth orbit",
+                "A type of rocket",
+                "A satellite for weather forecasting",
+                "A telescope in space"
+            ],
+            "a": 0,
+            "ex": "The Space Shuttle program was a major part of NASA's human spaceflight efforts."
+        },
+        {
+            "q": "What is the Voyager program?",
+            "options": [
+                "A program to send humans to Mars",
+                "A program of uncrewed space probes that explored the outer planets of the solar system",
+                "A program to build a space station",
+                "A program to search for exoplanets"
+            ],
+            "a": 1,
+            "ex": "The Voyager probes provided unprecedented images and data from Jupiter, Saturn, Uranus, and Neptune."
+        },
+        {
+            "q": "What is a launch vehicle?",
+            "options": [
+                "A type of satellite",
+                "A rocket or other system used to propel a spacecraft from a launch site into space",
+                "A vehicle for exploring the surface of a planet",
+                "A space station"
+            ],
+            "a": 1,
+            "ex": "Launch vehicles are essential for getting anything into space."
+        },
+        {
+            "q": "What is orbital velocity?",
+            "options": [
+                "The speed required to escape Earth's gravity",
+                "The speed required for an object to maintain a stable orbit around a celestial body",
+                "The maximum speed of a rocket",
+                "The speed of light"
+            ],
+            "a": 1,
+            "ex": "Orbital velocity depends on the altitude of the orbit."
+        },
+        {
+            "q": "What is escape velocity?",
+            "options": [
+                "The speed required for an object to maintain a stable orbit",
+                "The minimum speed required for an object to escape the gravitational pull of a celestial body",
+                "The speed of light",
+                "The maximum speed of a spacecraft"
+            ],
+            "a": 1,
+            "ex": "Escape velocity is higher for more massive celestial bodies."
+        },
+        {
+            "q": "What is the purpose of a communication satellite?",
+            "options": [
+                "To take pictures of space",
+                "To transmit and receive signals for television, radio, and internet",
+                "To study the Earth's atmosphere",
+                "To explore distant planets"
+            ],
+            "a": 1,
+            "ex": "Communication satellites enable global communication."
+        },
+        {
+            "q": "What is a weather satellite used for?",
+            "options": [
+                "To predict earthquakes",
+                "To monitor weather patterns and provide data for forecasting",
+                "To study ocean currents",
+                "To track animal migration"
+            ],
+            "a": 1,
+            "ex": "Weather satellites provide valuable information for meteorologists."
+        },
+        {
+            "q": "What is a navigation satellite system (like GPS)?",
+            "options": [
+                "A system for guiding ships at sea",
+                "A system of satellites that provide positioning, navigation, and timing information",
+                "A system for communicating with aircraft",
+                "A system for tracking wildlife"
+            ],
+            "a": 1,
+            "ex": "GPS (Global Positioning System) is widely used for navigation."
+        },
+        {
+            "q": "What is the primary challenge of long-duration space travel for humans?",
+            "options": [
+                "Boredom",
+                "Lack of food and water",
+                "The effects of microgravity on the human body and exposure to radiation",
+                "Lack of communication with Earth"
+            ],
+            "a": 2,
+            "ex": "Space presents unique physiological and psychological challenges for astronauts."
+        },
+        {
+            "q": "What is the name of the current program by NASA to return humans to the Moon and eventually send them to Mars?",
+            "options": [
+                "Apollo program",
+                "Space Shuttle program",
+                "Artemis program",
+                "Voyager program"
+            ],
+            "a": 2,
+            "ex": "The Artemis program aims to land the first woman and the next man on the Moon."
+        }
+    ]
+},
+    {
+      "id": "computers-information-technology",
+      "title": "Computers and Information Technology",
+      "questions": [
+        {
+          "q": "What is a computer?",
+          "options": ["A device that only plays games", "An electronic device that stores and processes data according to instructions", "A type of television", "A machine that only prints documents"],
+          "a": 1,
+          "ex": "Computers can perform a wide range of tasks based on programmed instructions."
+        },
+        {
+          "q": "What are the physical parts of a computer system called?",
+          "options": ["Software", "Data", "Hardware", "Programs"],
+          "a": 2,
+          "ex": "Hardware includes the monitor, keyboard, mouse, and internal components."
+        },
+        {
+          "q": "What are the instructions that tell a computer what to do?",
+          "options": ["Hardware", "Data", "Software", "Networks"],
+          "a": 2,
+          "ex": "Software includes operating systems, applications, and programs."
+        },
+        {
+          "q": "What is the central processing unit (CPU)?",
+          "options": ["The computer's screen", "The computer's memory", "The 'brain' of the computer that performs calculations and executes instructions", "The computer's storage device"],
+          "a": 2,
+          "ex": "The CPU is responsible for carrying out most of the processing inside a computer."
+        },
+        {
+          "q": "What is RAM (Random Access Memory)?",
+          "options": ["Long-term storage for files", "Temporary storage that the CPU uses to access data quickly", "The main processing chip", "A type of network connection"],
+          "a": 1,
+          "ex": "RAM is volatile memory, meaning its contents are lost when the computer is turned off."
+        },
+        {
+          "q": "What is a hard drive (or SSD) used for?",
+          "options": ["To process data", "To display images", "To store data and programs permanently", "To connect to the internet"],
+          "a": 2,
+          "ex": "Hard drives and SSDs provide long-term storage for files and operating systems."
+        },
+        {
+          "q": "What is an operating system?",
+          "options": ["A type of application software", "Software that manages computer hardware and provides a platform for other software to run", "A type of programming language", "A piece of hardware"],
+          "a": 1,
+          "ex": "Examples include Windows, macOS, Linux, iOS, and Android."
+        },
+        {
+          "q": "What is an application software?",
+          "options": ["Software that manages computer hardware", "Software designed to perform specific tasks for the user", "A type of operating system", "A programming language"],
+          "a": 1,
+          "ex": "Examples include word processors, web browsers, games, and photo editors."
+        },
+        {
+          "q": "What is the internet?",
+          "options": ["A single computer", "A global network of interconnected computer networks", "A type of software", "A storage device"],
+          "a": 1,
+          "ex": "The internet allows for communication and sharing of information worldwide."
+        },
+        {
+          "q": "What is a web browser?",
+          "options": ["A type of operating system", "A program used to access and view websites on the internet", "A type of hardware", "A search engine"],
+          "a": 1,
+          "ex": "Examples include Chrome, Firefox, Safari, and Edge."
+        },
+        {
+          "q": "What is a search engine?",
+          "options": ["A program used to access websites", "A website or program used to find information on the internet", "A type of social media", "An email client"],
+          "a": 1,
+          "ex": "Examples include Google, Bing, and DuckDuckGo."
+        },
+        {
+          "q": "What is programming?",
+          "options": ["Using a computer to browse the internet", "Writing instructions (code) that a computer can understand and execute", "Designing computer hardware", "Testing computer software"],
+          "a": 1,
+          "ex": "Programming languages are used to create software."
+        },
+        {
+          "q": "What is data?",
+          "options": ["Physical components of a computer", "Raw facts, figures, or information that can be processed by a computer", "Instructions for a computer", "A type of network"],
+          "a": 1,
+          "ex": "Data can be text, numbers, images, audio, or video."
+        },
+        {
+          "q": "What is a computer network?",
+          "options": ["A single computer", "Two or more computers connected together to share resources", "A type of software", "A storage device"],
+          "a": 1,
+          "ex": "Networks allow computers to communicate and share files, printers, and internet access."
+        },
+        {
+          "q": "What is cyber security?",
+          "options": ["Protecting computers from physical damage", "Protecting computer systems and data from theft, damage, or unauthorized access", "Learning how to program", "Designing computer hardware"],
+          "a": 1,
+          "ex": "Cyber security is crucial in today's digital world."
+        },
+        {
+          "q": "What is artificial intelligence (AI)?",
+          "options": ["A type of computer hardware", "The simulation of human intelligence in machines that are programmed to think and learn like humans", "A type of computer game", "A new programming language"],
+          "a": 1,
+          "ex": "AI is being used in various applications, from virtual assistants to self-driving cars."
+        },
+        {
+          "q": "What is a pixel?",
+          "options": ["A type of computer virus", "The smallest unit of a digital image or display", "A type of computer mouse", "A unit of measurement for data storage"],
+          "a": 1,
+          "ex": "Pixels are the tiny dots that make up images on screens."
+        },
+        {
+          "q": "What is resolution in the context of displays?",
+          "options": ["The speed of the computer", "The number of pixels displayed on a screen", "The brightness of the screen", "The size of the screen"],
+          "a": 1,
+          "ex": "Higher resolution means more pixels, resulting in a sharper image."
+        },
+        {
+          "q": "What is a firewall?",
+          "options": ["A device that generates heat", "A security system that monitors and controls incoming and outgoing network traffic", "A type of software that speeds up the internet", "A physical barrier for computers"],
+          "a": 1,
+          "ex": "Firewalls help protect networks from unauthorized access and malicious attacks."
+        },
+        {
+          "q": "What is malware?",
+          "options": ["Software that helps protect your computer", "Malicious software designed to harm or gain unauthorized access to a computer system", "A type of computer game", "A tool for programming"],
+          "a": 1,
+          "ex": "Examples include viruses, worms, and ransomware."
+        },
+        {
+          "q": "What is encryption?",
+          "options": ["Making data publicly available", "Converting data into a secret code to protect it from unauthorized access", "Deleting data from a computer", "Printing data"],
+          "a": 1,
+          "ex": "Encryption is used to secure sensitive information."
+        },
+        {
+          "q": "What is a URL (Uniform Resource Locator)?",
+          "options": ["A type of computer hardware", "The address of a web page on the internet", "A programming language", "A type of network protocol"],
+          "a": 1,
+          "ex": "The URL is what you type in the address bar of a web browser to visit a website."
+        },
+        {
+          "q": "What is cloud computing?",
+          "options": ["Using a computer that is connected to a local network", "Using remote servers hosted on the internet to store, manage, and process data, rather than a local server or a personal computer", "Storing data on a USB drive", "Using a computer that is not connected to the internet"],
+          "a": 1,
+          "ex": "Cloud computing allows users to access software and data from anywhere with an internet connection."
+        },
+        {
+          "q": "What is a database?",
+          "options": ["A type of software", "A structured collection of data, typically stored in a computer system", "A type of network hardware", "A programming language"],
+          "a": 1,
+          "ex": "Databases are used to organize and manage large amounts of information."
+        },
+        {
+          "q": "What is a spreadsheet?",
+          "options": ["A program for creating documents", "A software application for organizing, analyzing, and storing data in a tabular form of rows and columns", "A type of web browser", "A programming language"],
+          "a": 1,
+          "ex": "Spreadsheets are commonly used for calculations and data analysis."
+        },
+        {
+          "q": "What is a presentation software?",
+          "options": ["Software for creating websites", "Software used to create and deliver presentations, often with slides", "Software for editing photos", "Software for playing music"],
+          "a": 1,
+          "ex": "Examples include PowerPoint, Google Slides, and Keynote."
+        },
+        {
+          "q": "What is a programming language?",
+          "options": ["A type of computer hardware", "A set of instructions used to write software programs", "A type of network protocol", "A search engine"],
+          "a": 1,
+          "ex": "Examples include Python, Java, C++, and JavaScript."
+        },
+        {
+          "q": "What is a website?",
+          "options": ["A single web page", "A collection of related web pages and multimedia content hosted on a web server and accessible via the internet", "A type of software", "A search engine"],
+          "a": 1,
+          "ex": "Websites provide information, services, and entertainment online."
+        },
+        {
+          "q": "What is e-commerce?",
+          "options": ["Shopping at a physical store", "Buying and selling of goods and services using the internet", "Sending emails", "Using social media"],
+          "a": 1,
+          "ex": "E-commerce has revolutionized how we shop."
+        },
+        {
+          "q": "What is a gigabyte (GB)?",
+          "options": ["A unit of speed for internet connection", "A unit of measurement for data storage capacity", "A type of computer processor", "A unit of measurement for screen resolution"],
+          "a": 1,
+          "ex": "A gigabyte is approximately one billion bytes of data."
+        }
+      ]
+    },
+    {
+      "id": "inventions-discoveries",
+      "title": "Inventions and Discoveries",
+      "questions": [
+        {
+          "q": "Who invented the light bulb?",
+          "options": ["Nikola Tesla", "Alexander Graham Bell", "Thomas Edison", "Guglielmo Marconi"],
+          "a": 2,
+          "ex": "Thomas Edison is credited with inventing the first practical incandescent light bulb."
+        },
+        {
+          "q": "Who discovered penicillin, the first widely used antibiotic?",
+          "options": ["Louis Pasteur", "Robert Koch", "Alexander Fleming", "Jonas Salk"],
+          "a": 2,
+          "ex": "Alexander Fleming's accidental discovery of penicillin revolutionized medicine."
+        },
+        {
+          "q": "Who is credited with inventing the telephone?",
+          "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+          "a": 2,
+          "ex": "Alexander Graham Bell patented the first practical telephone."
+        },
+        {
+          "q": "Who developed the theory of relativity?",
+          "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
+          "a": 2,
+          "ex": "Albert Einstein's theories of special and general relativity changed our understanding of space, time, and gravity."
+        },
+        {
+          "q": "Who invented the printing press, which revolutionized the spread of information?",
+          "options": ["Leonardo da Vinci", "Johannes Gutenberg", "Galileo Galilei", "Isaac Newton"],
+          "a": 1,
+          "ex": "Johannes Gutenberg's printing press made books and information more accessible."
+        },
+        {
+          "q": "Who discovered gravity, famously inspired by a falling apple?",
+          "options": ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Johannes Kepler"],
+          "a": 2,
+          "ex": "Isaac Newton's law of universal gravitation described the force of attraction between objects with mass."
+        },
+        {
+          "q": "Who is considered the father of modern chemistry?",
+          "options": ["Antoine Lavoisier", "John Dalton", "Dmitri Mendeleev", "Marie Curie"],
+          "a": 0,
+          "ex": "Antoine Lavoisier's work on combustion and the conservation of mass laid the foundation for modern chemistry."
+        },
+        {
+          "q": "Who invented the airplane?",
+          "options": ["Thomas Edison", "Nikola Tesla", "Wright brothers (Orville and Wilbur)", "Alexander Graham Bell"],
+          "a": 2,
+          "ex": "The Wright brothers achieved the first sustained, controlled flight of a powered heavier-than-air aircraft."
+        },
+        {
+          "q": "Who invented the World Wide Web?",
+          "options": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Alan Turing"],
+          "a": 2,
+          "ex": "Tim Berners-Lee developed the protocols and technologies that form the basis of the World Wide Web."
+        },
+        {
+          "q": "Who discovered the structure of DNA (the double helix)?",
+          "options": ["Gregor Mendel", "Charles Darwin", "James Watson and Francis Crick (with contributions from Rosalind Franklin)", "Louis Pasteur"],
+          "a": 2,
+          "ex": "This discovery was a landmark in molecular biology."
+        },
+        {
+          "q": "Who invented the telegraph?",
+          "options": ["Samuel Morse", "Alexander Graham Bell", "Guglielmo Marconi", "Nikola Tesla"],
+          "a": 0,
+          "ex": "Samuel Morse developed the electric telegraph and Morse code."
+        },
+        {
+          "q": "Who invented the radio?",
+          "options": ["Nikola Tesla", "Thomas Edison", "Guglielmo Marconi", "Alexander Graham Bell"],
+          "a": 2,
+          "ex": "Guglielmo Marconi is widely credited with inventing the radio and sending the first wireless transmission across the Atlantic."
+        },
+        {
+          "q": "Who invented the first practical alternating current (AC) electrical system?",
+          "options": ["Thomas Edison", "Michael Faraday", "Nikola Tesla", "James Clerk Maxwell"],
+          "a": 2,
+          "ex": "Nikola Tesla's work on AC systems was crucial for the development of modern power distribution."
+        },
+        {
+          "q": "Who invented the cotton gin, a machine that revolutionized cotton production?",
+          "options": ["Eli Whitney", "Henry Ford", "Robert Fulton", "Cyrus McCormick"],
+          "a": 0,
+          "ex": "The cotton gin mechanized the process of separating cotton fibers from seeds."
+        },
+        {
+          "q": "Who invented the steam engine, which powered the Industrial Revolution?",
+          "options": ["James Watt", "George Stephenson", "Robert Fulton", "Isambard Kingdom Brunel"],
+          "a": 0,
+          "ex": "James Watt's improvements to the steam engine significantly increased its efficiency."
+        },
+        {
+          "q": "Who discovered the laws of planetary motion?",
+          "options": ["Nicolaus Copernicus", "Galileo Galilei", "Tycho Brahe", "Johannes Kepler"],
+          "a": 3,
+          "ex": "Johannes Kepler's laws described the elliptical orbits of planets."
+        },
+        {
+          "q": "Who invented the first practical automobile?",
+          "options": ["Henry Ford", "Karl Benz", "Nikola Tesla", "Thomas Edison"],
+          "a": 1,
+          "ex": "Karl Benz is considered the inventor of the first gasoline-powered automobile."
+        },
+        {
+          "q": "Who invented the polio vaccine?",
+          "options": ["Louis Pasteur", "Alexander Fleming", "Edward Jenner", "Jonas Salk"],
+          "a": 3,
+          "ex": "Jonas Salk developed the first safe and effective polio vaccine."
+        },
+        {
+          "q": "Who discovered the electron?",
+          "options": ["Ernest Rutherford", "Niels Bohr", "J.J. Thomson", "James Chadwick"],
+          "a": 2,
+          "ex": "J.J. Thomson's experiments with cathode rays led to the discovery of the electron."
+        },
+        {
+          "q": "Who invented dynamite?",
+          "options": ["Thomas Edison", "Nikola Tesla", "Alfred Nobel", "Guglielmo Marconi"],
+          "a": 2,
+          "ex": "Alfred Nobel was a Swedish chemist, engineer, and inventor."
+        },
+        {
+          "q": "Who invented the movable type printing press (earlier than Gutenberg, in Korea)?",
+          "options": ["Ts'ai Lun", "Bi Sheng", "Johannes Gutenberg", "Ch'oe Yun-ui"],
+          "a": 3,
+          "ex": "Ch'oe Yun-ui is credited with creating the first metal movable type."
+        },
+        {
+          "q": "Who is considered the father of vaccination?",
+          "options": ["Louis Pasteur", "Robert Koch", "Edward Jenner", "Jonas Salk"],
+          "a": 2,
+          "ex": "Edward Jenner developed the smallpox vaccine using cowpox."
+        },
+        {
+          "q": "Who discovered the nucleus of the atom?",
+          "options": ["J.J. Thomson", "Niels Bohr", "Ernest Rutherford", "James Chadwick"],
+          "a": 2,
+          "ex": "Ernest Rutherford's gold foil experiment led to the nuclear model of the atom."
+        },
+        {
+          "q": "Who invented the first successful steamboat?",
+          "options": ["James Watt", "George Stephenson", "Robert Fulton", "Isambard Kingdom Brunel"],
+          "a": 2,
+          "ex": "Robert Fulton's Clermont is considered the first commercially successful steamboat."
+        },
+        {
+          "q": "Who discovered the neutron?",
+          "options": ["J.J. Thomson", "Ernest Rutherford", "James Chadwick", "Niels Bohr"],
+          "a": 2,
+          "ex": "James Chadwick's discovery of the neutron completed the model of the atom."
+        },
+        {
+          "q": "Who invented the first practical typewriter?",
+          "options": ["Thomas Edison", "Christopher Latham Sholes", "Alexander Graham Bell", "Nikola Tesla"],
+          "a": 1,
+          "ex": "Christopher Latham Sholes is credited with inventing the first commercially successful typewriter."
+        },
+        {
+          "q": "Who is known for their contributions to the development of chemotherapy?",
+          "options": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Paul Ehrlich"],
+          "a": 3,
+          "ex": "Paul Ehrlich is considered the father of chemotherapy for his work on developing drugs to treat diseases."
+        },
+        {
+          "q": "Who invented the barometer?",
+          "options": ["Galileo Galilei", "Isaac Newton", "Evangelista Torricelli", "Blaise Pascal"],
+          "a": 2,
+          "ex": "Evangelista Torricelli invented the mercury barometer."
+        },
+        {
+          "q": "Who is known for their work on the principles of inheritance (genetics)?",
+          "options": ["Charles Darwin", "James Watson and Francis Crick", "Gregor Mendel", "Louis Pasteur"],
+          "a": 2,
+          "ex": "Gregor Mendel's experiments with pea plants established the basic laws of heredity."
+        },
+        {
+          "q": "Who invented the modern refrigeration system?",
+          "options": ["Thomas Edison", "Nikola Tesla", "Carl von Linde", "Clarence Birdseye"],
+          "a": 2,
+          "ex": "Carl von Linde developed the first practical and efficient refrigeration machine."
+        }
+      ]
+    },
+    {
+      "id": "everyday-tools-machines",
+      "title": "Everyday Tools and Machines",
+      "questions": [
+        {
+          "q": "What is a simple machine?",
+          "options": ["A complex electronic device", "A machine with many moving parts", "A basic mechanical device that changes the direction or magnitude of a force", "A tool that only requires electricity to work"],
+          "a": 2,
+          "ex": "Simple machines are the building blocks of more complex machines."
+        },
+        {
+          "q": "Which of the following is a simple machine that uses a pivot point (fulcrum) to multiply force?",
+          "options": ["Pulley", "Inclined plane", "Lever", "Wheel and axle"],
+          "a": 2,
+          "ex": "Examples of levers include seesaws, crowbars, and bottle openers."
+        },
+        {
+          "q": "Which simple machine is a wheel with a rope or chain around it, used to lift or move objects?",
+          "options": ["Lever", "Inclined plane", "Screw", "Pulley"],
+          "a": 3,
+          "ex": "Pulleys can change the direction of a force or provide mechanical advantage."
+        },
+        {
+          "q": "Which simple machine is a sloped surface used to move objects to a higher or lower level with less force?",
+          "options": ["Lever", "Pulley", "Inclined plane", "Wedge"],
+          "a": 2,
+          "ex": "Ramps are common examples of inclined planes."
+        },
+        {
+          "q": "Which simple machine is an inclined plane wrapped around a cylinder or cone, used to fasten things together or lift objects?",
+          "options": ["Wedge", "Screw", "Pulley", "Lever"],
+          "a": 1,
+          "ex": "Screws are used in construction and to hold objects together."
+        },
+        {
+          "q": "Which simple machine is a triangular shaped tool used to separate two objects or portions of an object, or to hold an object in place?",
+          "options": ["Screw", "Lever", "Inclined plane", "Wedge"],
+          "a": 3,
+          "ex": "Examples of wedges include axes, knives, and doorstops."
+        },
+        {
+          "q": "Which simple machine consists of a wheel attached to a smaller axle so that these two parts rotate together in which a force is transferred from one to the other?",
+          "options": ["Pulley", "Lever", "Wheel and axle", "Screw"],
+          "a": 2,
+          "ex": "Examples include doorknobs, steering wheels, and wrenches."
+        },
+        {
+          "q": "What is mechanical advantage?",
+          "options": ["The amount of work done by a machine", "The ratio of the output force to the input force in a machine", "The speed at which a machine works", "The efficiency of a machine"],
+          "a": 1,
+          "ex": "Mechanical advantage allows us to multiply the force we apply."
+        },
+        {
+          "q": "What is the fulcrum of a lever?",
+          "options": ["The point where the force is applied", "The object being moved", "The pivot point around which the lever rotates", "The force exerted by the lever"],
+          "a": 2,
+          "ex": "The position of the fulcrum affects the mechanical advantage of a lever."
+        },
+        {
+          "q": "How does using a simple machine generally affect the amount of force needed to do work?",
+          "options": ["It increases the force needed", "It decreases the force needed", "It does not affect the force needed", "It eliminates the need for force"],
+          "a": 1,
+          "ex": "Simple machines allow us to exert less force over a longer distance to achieve the same amount of work."
+        },
+        {
+          "q": "Which type of lever has the fulcrum between the effort and the load (like a seesaw)?",
+          "options": ["First-class lever", "Second-class lever", "Third-class lever", "Compound lever"],
+          "a": 0,
+          "ex": "In a first-class lever, the direction of the output force is opposite to the direction of the input force."
+        },
+        {
+          "q": "Which type of lever has the load between the fulcrum and the effort (like a wheelbarrow)?",
+          "options": ["First-class lever", "Second-class lever", "Third-class lever", "Compound lever"],
+          "a": 1,
+          "ex": "Second-class levers provide a mechanical advantage greater than 1."
+        },
+        {
+          "q": "Which type of lever has the effort between the fulcrum and the load (like tweezers or fishing rods)?",
+          "options": ["First-class lever", "Second-class lever", "Third-class lever", "Compound lever"],
+          "a": 2,
+          "ex": "Third-class levers have a mechanical advantage less than 1 but allow for increased speed or range of motion."
+        },
+        {
+          "q": "What is a compound machine?",
+          "options": ["A machine with only one simple machine", "A machine made up of two or more simple machines working together", "A machine that requires no effort to operate", "A machine that only produces heat"],
+          "a": 1,
+          "ex": "Most everyday machines are compound machines (e.g., a bicycle uses wheels and axles, levers, and pulleys)."
+        },
+        {
+          "q": "Which simple machine is used to split things apart or lift things?",
+          "options": ["Screw", "Inclined plane", "Pulley", "Wedge"],
+          "a": 3,
+          "ex": "Wedges convert force applied to the blunt end into forces perpendicular to the inclined surfaces."
+        },
+        {
+          "q": "How does an inclined plane reduce the force needed to move an object to a higher elevation?",
+          "options": ["By reducing the distance the object needs to travel", "By increasing the force of gravity", "By increasing the distance over which the force is applied", "By eliminating friction"],
+          "a": 2,
+          "ex": "You apply less force over a longer ramp compared to lifting the object vertically."
+        },
+        {
+          "q": "What is the ideal mechanical advantage of a simple machine?",
+          "options": ["The actual mechanical advantage in a real-world scenario", "The mechanical advantage without considering friction or other inefficiencies", "Always equal to 1", "Always greater than the actual mechanical advantage"],
+          "a": 1,
+          "ex": "The ideal mechanical advantage is a theoretical value."
+        },
+        {
+          "q": "What is the actual mechanical advantage of a simple machine?",
+          "options": ["The theoretical mechanical advantage", "The mechanical advantage considering friction and other inefficiencies", "Always less than the ideal mechanical advantage (in real machines)", "Both B and C"],
+          "a": 3,
+          "ex": "Real machines always have some energy loss due to friction, so the actual mechanical advantage is less than the ideal."
+        },
+        {
+          "q": "What is efficiency of a machine?",
+          "options": ["The amount of force it produces", "The ratio of the output work to the input work, expressed as a percentage", "The speed at which it operates", "The total energy consumed by the machine"],
+          "a": 1,
+          "ex": "Efficiency measures how much of the input work is converted into useful output work."
+        },
+        {
+          "q": "Which tool is an example of a wedge?",
+          "options": ["Screwdriver", "Hammer", "Knife", "Wrench"],
+          "a": 2,
+          "ex": "A knife blade is a wedge used for cutting."
+        },
+        {
+          "q": "Which tool is an example of a lever?",
+          "options": ["Screw", "Pulley", "Crowbar", "Ramp"],
+          "a": 2,
+          "ex": "A crowbar uses a fulcrum to multiply force."
+        },
+        {
+          "q": "Which tool is an example of a wheel and axle?",
+          "options": ["Hammer", "Screwdriver", "Wedge", "Doorknob"],
+          "a": 3,
+          "ex": "A doorknob allows you to apply force to the wheel (the knob) to turn the axle (the spindle)."
+        },
+        {
+          "q": "What is the primary function of a screw?",
+          "options": ["To lift heavy objects", "To split objects apart", "To fasten materials together", "To change the direction of a force"],
+          "a": 2,
+          "ex": "The threads of a screw provide a strong fastening mechanism."
+        },
+        {
+          "q": "What is the primary function of a pulley?",
+          "options": ["To multiply the force of impact", "To change the direction of a force or reduce the effort needed to lift a load", "To hold objects together", "To create a sloped surface"],
+          "a": 1,
+          "ex": "Pulleys are commonly used in construction and lifting systems."
+        },
+        {
+          "q": "What is the primary function of an inclined plane?",
+          "options": ["To split objects apart", "To lift heavy objects vertically", "To move objects to a different elevation with less force", "To fasten materials together"],
+          "a": 2,
+          "ex": "Inclined planes make it easier to move objects up or down."
+        },
+        {
+          "q": "What is the primary function of a wedge?",
+          "options": ["To fasten materials together", "To split or separate objects", "To lift heavy objects", "To change the direction of a force"],
+          "a": 1,
+          "ex": "Wedges are used for tasks like splitting wood or holding doors open."
+        },
+        {
+          "q": "Which of the following is a compound machine?",
+          "options": ["A ramp", "A knife", "A bicycle", "A screw"],
+          "a": 2,
+          "ex": "A bicycle combines several simple machines."
+        },
+        {
+          "q": "What is the work-energy theorem?",
+          "options": ["Work done is equal to the change in an object's potential energy", "Work done is equal to the change in an object's kinetic energy", "Work done is equal to the force applied", "Work done is equal to the distance moved"],
+          "a": 1,
+          "ex": "This theorem relates work and energy."
+        },
+        {
+          "q": "What is friction's effect on the efficiency of a machine?",
+          "options": ["It increases efficiency", "It decreases efficiency", "It has no effect on efficiency", "It increases the output force"],
+          "a": 1,
+          "ex": "Friction converts some of the input energy into heat, reducing the useful output work."
+        },
+        {
+          "q": "What is the primary purpose of lubricating moving parts in a machine?",
+          "options": ["To increase friction", "To reduce friction and wear", "To make the machine heavier", "To change the color of the machine"],
+          "a": 1,
+          "ex": "Lubrication minimizes energy loss due to friction."
+        }
+      ]
     }
   ]
 }
