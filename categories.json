@@ -108,24 +108,6 @@
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/teaching-jobs.json"
   },
   {
-    "id": "lecturer-mcqs",
-    "title": "Lecturer MCQs",
-    "icon": "🎓",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/lecturer-mcqs.json"
-  },
-  {
-    "id": "clerk-jobs",
-    "title": "Clerk Jobs",
-    "icon": "🗃️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/clerk-jobs.json"
-  },
-  {
-    "id": "bank-jobs",
-    "title": "Bank Jobs",
-    "icon": "🏦",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/bank-jobs.json"
-  },
-  {
     "id": "fia-asf-nab-customs",
     "title": "FIA / ASF / NAB / Customs",
     "icon": "🕵️",
@@ -139,15 +121,9 @@
   },
   {
     "id": "iq-analytical-reasoning",
-    "title": "IQ / Analytical Reasoning",
+    "title": "Logical & Analytical Reasoning",
     "icon": "🧠",
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/iq-analytical-reasoning.json"
-  },
-  {
-    "id": "logical-reasoning",
-    "title": "Logical Reasoning",
-    "icon": "🧩",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/logical-reasoning.json"
   },
   {
     "id": "basic-arithmetic",
