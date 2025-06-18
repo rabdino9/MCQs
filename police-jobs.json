@@ -635,6 +635,672 @@
                     "ex": "This requires a step-by-step calculation based on the ratios of earnings. Assuming a 7-day week for daily earning calculation: 5 girls = 4 boys, so 1 boy = 5/4 girls. If a girl earns Rs.400/week, a boy earns (5/4)*400 = Rs.500/week. 2 women = 3 boys, so 1 woman = 3/2 boys. A woman earns (3/2)*500 = Rs.750/week. 6 men = 7 women, so 1 man = 7/6 women. A man earns (7/6)*750 = Rs.875/week. Daily earning for a man (assuming 7 days) = 875/7 = Rs.125/day. The options seem to be based on daily earnings. If a girl earns Rs.400/week, let's assume this is for a certain number of working days. The relationships are given in terms of earning capacity over the same period (implied). Let's calculate daily earnings assuming a 7-day week. Girl's daily earning = 400/7. 4 boys earn as much as 5 girls, so 4 * (Boy's daily earning) = 5 * (400/7). Boy's daily earning = (5/4) * (400/7) = 500/7. 2 women earn as much as 3 boys, so 2 * (Woman's daily earning) = 3 * (500/7). Woman's daily earning = (3/2) * (500/7) = 750/7. 6 men earn as much as 7 women, so 6 * (Man's daily earning) = 7 * (750/7). 6 * (Man's daily earning) = 750. Man's daily earning = 750/6 = Rs. 125.00."
                 }
             ]
+        },
+        {
+            "id": "sindh-police-constable",
+            "title": "Sindh Police Constable Past Paper 2024",
+            "questions": [
+                {
+                    "q": "Fish : Swims, Horse : ?",
+                    "options": [
+                        "Jumps",
+                        "Flies",
+                        "Runs",
+                        "Crawls"
+                    ],
+                    "a": 2,
+                    "ex": "Fish swim, and horses run as their primary mode of movement."
+                },
+                {
+                    "q": "The Antonym of Large is?",
+                    "options": [
+                        "Small",
+                        "Tiny",
+                        "Huge",
+                        "Massive"
+                    ],
+                    "a": 0,
+                    "ex": "The opposite of large is small."
+                },
+                {
+                    "q": "The Synonym of Bad is?",
+                    "options": [
+                        "Happy",
+                        "Unhappy",
+                        "Enjoy",
+                        "Cheer"
+                    ],
+                    "a": 1,
+                    "ex": "Unhappy is a synonym for bad in terms of feeling or situation."
+                },
+                {
+                    "q": "The Synonym of Interest is?",
+                    "options": [
+                        "Like",
+                        "Dislike",
+                        "Hate",
+                        "Bad"
+                    ],
+                    "a": 0,
+                    "ex": "Like is a synonym for interest in terms of having a preference for something."
+                },
+                {
+                    "q": "Singular of Foot is?",
+                    "options": [
+                        "Foots",
+                        "Foots",
+                        "Feet",
+                        "Foot"
+                    ],
+                    "a": 3,
+                    "ex": "Foot is already singular. Feet is the plural."
+                },
+                {
+                    "q": "The Antonym of Complete is?",
+                    "options": [
+                        "Full",
+                        "Incomplete",
+                        "Entire",
+                        "Imperfect"
+                    ],
+                    "a": 1,
+                    "ex": "The opposite of complete is incomplete."
+                },
+                {
+                    "q": "The word Postman is?",
+                    "options": [
+                        "Common gender",
+                        "Feminine gender",
+                        "Neuter gender",
+                        "Masculine gender"
+                    ],
+                    "a": 0,
+                    "ex": "Postman refers to a person regardless of gender, making it a common gender noun (though 'postal worker' is a more modern term)."
+                },
+                {
+                    "q": "The word Girl is?",
+                    "options": [
+                        "Common gender",
+                        "Feminine gender",
+                        "Neuter gender",
+                        "Masculine gender"
+                    ],
+                    "a": 1,
+                    "ex": "Girl is a noun that refers to a female, making it feminine gender."
+                },
+                {
+                    "q": "The word Cleaner is?",
+                    "options": [
+                        "Common gender",
+                        "Feminine gender",
+                        "Neuter gender",
+                        "Masculine gender"
+                    ],
+                    "a": 0,
+                    "ex": "Cleaner refers to a person who cleans, regardless of gender, making it a common gender noun."
+                },
+                {
+                    "q": "The word Chairman is?",
+                    "options": [
+                        "Common gender",
+                        "Feminine gender",
+                        "Neuter gender",
+                        "Masculine gender"
+                    ],
+                    "a": 3,
+                    "ex": "Chairman is a noun that traditionally refers to a male in charge, making it masculine gender (though 'chairperson' or 'chair' are more modern gender-neutral terms)."
+                },
+                {
+                    "q": "18 + 15 is equal to :",
+                    "options": [
+                        "34",
+                        "35",
+                        "33",
+                        "36"
+                    ],
+                    "a": 2,
+                    "ex": "18 + 15 = 33."
+                },
+                {
+                    "q": "1/2 means :",
+                    "options": [
+                        "Full",
+                        "Half",
+                        "Quarter",
+                        "Twice"
+                    ],
+                    "a": 1,
+                    "ex": "1/2 represents half of a whole."
+                },
+                {
+                    "q": "Choose the even number from the below?",
+                    "options": [
+                        "9",
+                        "7",
+                        "3",
+                        "2"
+                    ],
+                    "a": 3,
+                    "ex": "An even number is divisible by 2. Out of the options, only 2 is even."
+                },
+                {
+                    "q": "Choose the odd number from the below?",
+                    "options": [
+                        "6",
+                        "4",
+                        "5",
+                        "2"
+                    ],
+                    "a": 2,
+                    "ex": "An odd number is not divisible by 2. Out of the options, only 5 is odd."
+                },
+                {
+                    "q": "The correct unit for measuring milk is?",
+                    "options": [
+                        "Liter",
+                        "Gram",
+                        "Kilogram",
+                        "Meter"
+                    ],
+                    "a": 0,
+                    "ex": "Milk is a liquid, and liquids are typically measured in liters."
+                },
+                {
+                    "q": "Triangle has ___ sides.",
+                    "options": [
+                        "5",
+                        "3",
+                        "6",
+                        "8"
+                    ],
+                    "a": 1,
+                    "ex": "A triangle is a polygon with three sides."
+                },
+                {
+                    "q": "400 × 6 =",
+                    "options": [
+                        "2500",
+                        "2700",
+                        "2600",
+                        "2400"
+                    ],
+                    "a": 3,
+                    "ex": "400 multiplied by 6 is 2400."
+                },
+                {
+                    "q": "900 × 3 =",
+                    "options": [
+                        "3600",
+                        "2400",
+                        "2700",
+                        "3000"
+                    ],
+                    "a": 2,
+                    "ex": "900 multiplied by 3 is 2700."
+                },
+                {
+                    "q": "1200 × 4 =",
+                    "options": [
+                        "1200",
+                        "2400",
+                        "3600",
+                        "4800"
+                    ],
+                    "a": 3,
+                    "ex": "1200 multiplied by 4 is 4800."
+                },
+                {
+                    "q": "1300 × 5 =",
+                    "options": [
+                        "6000",
+                        "6500",
+                        "7000",
+                        "7500"
+                    ],
+                    "a": 1,
+                    "ex": "1300 multiplied by 5 is 6500."
+                },
+                {
+                    "q": "900 ÷ 3 =",
+                    "options": [
+                        "300",
+                        "400",
+                        "500",
+                        "600"
+                    ],
+                    "a": 0,
+                    "ex": "900 divided by 3 is 300."
+                },
+                {
+                    "q": "1200 ÷ 4 =",
+                    "options": [
+                        "400",
+                        "300",
+                        "500",
+                        "600"
+                    ],
+                    "a": 1,
+                    "ex": "1200 divided by 4 is 300."
+                },
+                {
+                    "q": "1500 ÷ 3 =",
+                    "options": [
+                        "400",
+                        "300",
+                        "500",
+                        "600"
+                    ],
+                    "a": 2,
+                    "ex": "1500 divided by 3 is 500."
+                },
+                {
+                    "q": "2000 ÷ 4 =",
+                    "options": [
+                        "400",
+                        "300",
+                        "600",
+                        "500"
+                    ],
+                    "a": 3,
+                    "ex": "2000 divided by 4 is 500."
+                },
+                {
+                    "q": "3000 ÷ 5 =",
+                    "options": [
+                        "600",
+                        "400",
+                        "300",
+                        "500"
+                    ],
+                    "a": 0,
+                    "ex": "3000 divided by 5 is 600."
+                },
+                {
+                    "q": "Which word does NOT belong with the other? Car, Van, Bike, Potatoes.",
+                    "options": [
+                        "Car",
+                        "Van",
+                        "Bike",
+                        "Potatoes"
+                    ],
+                    "a": 3,
+                    "ex": "Car, Van, and Bike are modes of transport. Potatoes are a type of food."
+                },
+                {
+                    "q": "Which word does NOT belong with the other? Orange, Rose, Jasmine, Tulip :",
+                    "options": [
+                        "Orange",
+                        "Rose",
+                        "Jasmine",
+                        "Tulip"
+                    ],
+                    "a": 0,
+                    "ex": "Rose, Jasmine, and Tulip are types of flowers. Orange is a fruit (or a color)."
+                },
+                {
+                    "q": "Which word does NOT belong with the others? Lion, Elephant, Parrot, Leopard :",
+                    "options": [
+                        "Lion",
+                        "Elephant",
+                        "Parrot",
+                        "Leopard"
+                    ],
+                    "a": 2,
+                    "ex": "Lion, Elephant, and Leopard are mammals. Parrot is a bird."
+                },
+                {
+                    "q": "Which word does NOT belong with the others? Accelerate, Tyre, Engine, Leg :",
+                    "options": [
+                        "Accelerate",
+                        "Tyre",
+                        "Engine",
+                        "Leg"
+                    ],
+                    "a": 0,
+                    "ex": "Tyre, Engine, and Leg are parts of a vehicle (or body part). Accelerate is an action."
+                },
+                {
+                    "q": "Which word does NOT belong with the others? Chair, Spoon, Couch, Table :",
+                    "options": [
+                        "Chair",
+                        "Spoon",
+                        "Couch",
+                        "Table"
+                    ],
+                    "a": 1,
+                    "ex": "Chair, Couch, and Table are pieces of furniture. Spoon is cutlery."
+                },
+                {
+                    "q": "Coffee is taken is a Cup and Rice are taken in :",
+                    "options": [
+                        "Spoon",
+                        "Plate",
+                        "Food",
+                        "Soup"
+                    ],
+                    "a": 1,
+                    "ex": "Coffee is typically consumed from a cup, and rice is typically consumed from a plate."
+                },
+                {
+                    "q": "Arrange the words given below in a meaningful sentence: 1. Key 2. Door 3. Lock 4. Room 5. Switch on :",
+                    "options": [
+                        "1, 2, 3, 4, 5",
+                        "1, 3, 2, 4, 5",
+                        "4, 2, 1, 5, 3",
+                        "5, 1, 2, 4, 3"
+                    ],
+                    "a": 1,
+                    "ex": "The logical order to enter a room is: use the Key (1) to open the Lock (3) on the Door (2) to enter the Room (4), then Switch on (5) the light."
+                },
+                {
+                    "q": "Arrange the words given below in a meaningful sentence: 1. Police 2. Arrest 3. Lockup 4. Thief 5. Stealing :",
+                    "options": [
+                        "3,1,4,5,2",
+                        "4,5,1,2,3",
+                        "1,2,4,3,5",
+                        "3,1,2,4,5"
+                    ],
+                    "a": 1,
+                    "ex": "The logical sequence of events is: A Thief (4) is caught Stealing (5), the Police (1) Arrest (2) them, and they are put in the Lockup (3)."
+                },
+                {
+                    "q": "Arrange the words given below in a meaningful sentence: 1. Student 2. Teacher 3. Classroom 4. Lesson 5. Homework :",
+                    "options": [
+                        "1, 3, 2, 4, 5",
+                        "3,1,2,4,5",
+                        "3,1,4,5,2",
+                        "1,3,4,5,2"
+                    ],
+                    "a": 1,
+                    "ex": "A meaningful sequence is: In the Classroom (3), the Student (1) is taught by the Teacher (2), learns a Lesson (4), and is given Homework (5)."
+                },
+                {
+                    "q": "Arrange the words given below in a meaningful sentence: 1. Constable 2. DSP 3. Assistant Sub Inspector 4. Sub Inspector 5. Inspector :",
+                    "options": [
+                        "2,4,1,5,3",
+                        "1,3,4,5,2",
+                        "3,4,2,5,1",
+                        "2,3,4,5,1"
+                    ],
+                    "a": 1,
+                    "ex": "This sequence represents a possible hierarchy or progression in a police force: Constable (1), Assistant Sub Inspector (3), Sub Inspector (4), Inspector (5), DSP (2)."
+                },
+                {
+                    "q": "How many continents are there in the world?",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "a": 3,
+                    "ex": "There are seven continents: North America, South America, Europe, Asia, Africa, Australia, and Antarctica."
+                },
+                {
+                    "q": "Who was the first man to set foot on the moon?",
+                    "options": [
+                        "N. Armstrong",
+                        "Persie. J",
+                        "A. Gilder",
+                        "J. Black"
+                    ],
+                    "a": 0,
+                    "ex": "Neil Armstrong was the first person to walk on the moon."
+                },
+                {
+                    "q": "How many months in a year have only 29 days?",
+                    "options": [
+                        "3",
+                        "4",
+                        "5",
+                        "1"
+                    ],
+                    "a": 3,
+                    "ex": "Only February has exactly 29 days, and this only happens in a leap year."
+                },
+                {
+                    "q": "Complete the series: 2, 4, 6, 8, :",
+                    "options": [
+                        "12",
+                        "8",
+                        "14",
+                        "10"
+                    ],
+                    "a": 3,
+                    "ex": "This is a series of even numbers increasing by 2 each time. The next number is 8 + 2 = 10."
+                },
+                {
+                    "q": "600 × 3 =",
+                    "options": [
+                        "1800",
+                        "1700",
+                        "1600",
+                        "2000"
+                    ],
+                    "a": 0,
+                    "ex": "600 multiplied by 3 is 1800."
+                },
+                {
+                    "q": "Complete the series: 12, 14, 16 18, :",
+                    "options": [
+                        "26",
+                        "22",
+                        "20",
+                        "24"
+                    ],
+                    "a": 2,
+                    "ex": "This is a series of even numbers increasing by 2 each time. The next number is 18 + 2 = 20."
+                },
+                {
+                    "q": "Complete the series: 11, 13, 15, 17, :",
+                    "options": [
+                        "19",
+                        "23",
+                        "25",
+                        "20"
+                    ],
+                    "a": 0,
+                    "ex": "This is a series of odd numbers increasing by 2 each time. The next number is 17 + 2 = 19."
+                },
+                {
+                    "q": "Complete the series: 3, 5, 7, 9, :",
+                    "options": [
+                        "13",
+                        "11",
+                        "15",
+                        "12"
+                    ],
+                    "a": 1,
+                    "ex": "This is a series of odd numbers increasing by 2 each time. The next number is 9 + 2 = 11."
+                },
+                {
+                    "q": "Complete the series: ABC, DEF, GHI, :",
+                    "options": [
+                        "STU",
+                        "OPQ",
+                        "JKL",
+                        "MNO"
+                    ],
+                    "a": 2,
+                    "ex": "This is a series of consecutive letters of the alphabet in groups of three. After GHI comes JKL."
+                },
+                {
+                    "q": "Complete the series: XYZ, UVW, RST, :",
+                    "options": [
+                        "OPQ",
+                        "IJK",
+                        "LMN",
+                        "FGH"
+                    ],
+                    "a": 0,
+                    "ex": "This is a series of consecutive letters of the alphabet in reverse order in groups of three. Before RST comes OPQ."
+                },
+                {
+                    "q": "Complete the series: 10, 12, 14, 16, :",
+                    "options": [
+                        "17",
+                        "18",
+                        "19",
+                        "29"
+                    ],
+                    "a": 1,
+                    "ex": "This is a series of even numbers increasing by 2 each time. The next number is 16 + 2 = 18."
+                },
+                {
+                    "q": "ھيٺ ڏنل مان ھيڪڙو جي لغوي معني چونڊيو؟",
+                    "options": [
+                        "اڪيلو",
+                        "لافاني",
+                        "آخري",
+                        "پھريون"
+                    ],
+                    "a": 0,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "جوڙون جوڙڻ جو مطلب ڇا آهي؟",
+                    "options": [
+                        "ٻڌڻ ۽ ڇوڙڻ",
+                        "ٺاهڻ ۽ ڊاھڻ",
+                        "حساب ڪتاب ڪرڻ",
+                        "فنا ڪرڻ"
+                    ],
+                    "a": 1,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "مديني منورہ جي معني ڇا آهي؟",
+                    "options": [
+                        "منور جو شھر",
+                        "سلامتي جو شھر",
+                        "مديني جو شھر",
+                        "روشن شھر"
+                    ],
+                    "a": 3,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "حضرت دائود عليہ السلام زرھون ٺاھي ___ ڪندو هو",
+                    "options": [
+                        "تبليغ",
+                        "دعوت",
+                        "سير سفر",
+                        "پيٽ گذر"
+                    ],
+                    "a": 3,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "ڪورڪي ڪم مان مراد ڇا آهي؟",
+                    "options": [
+                        "ڪپڙا اُڻڻ",
+                        "ڪوڙڪيون ڪرڻ",
+                        "ڪورس دلا ٺاهڻ",
+                        "ٿانو ڪورڻ"
+                    ],
+                    "a": 0,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "ھيٺين مان شاعر جو نالو چونڊيو؟",
+                    "options": [
+                        "منظور سخيراڻي",
+                        "محمد خان جوڻيجو",
+                        "تنوير عباسي",
+                        "اديب رضوي"
+                    ],
+                    "a": 2,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "ليٽيل لفظ جو مطلب ڇا آهي؟",
+                    "options": [
+                        "ليپيل",
+                        "سُتل",
+                        "ڊٺل",
+                        "لاٿل"
+                    ],
+                    "a": 1,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "فصلن جي مختلف جسمن جي نون ٻجن جو اچڻ ڇا جي ڪري ممڪن ٿيو آهي؟",
+                    "options": [
+                        "زرعي سائنس",
+                        "ھارين ۽ مزدورن",
+                        "صنعتي ترقي",
+                        "پراڻي زراعت"
+                    ],
+                    "a": 0,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "ھيٺ ڏنل لفظن مان درست لفظ جي چونڊ ڪريو؟",
+                    "options": [
+                        "ڪَنچي",
+                        "قئنچي",
+                        "ڪئنچي",
+                        "قئينچي"
+                    ],
+                    "a": 2,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "وضاحت جي معنيٰ ڇا آهي؟",
+                    "options": [
+                        "بڻ بنياد ٻڌائڻ",
+                        "دعوت ڪرڻ",
+                        "چٽو ڪرڻ",
+                        "ھلائي ڏيکارڻ"
+                    ],
+                    "a": 2,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "تحريڪ ڇا کي چئبو آهي؟",
+                    "options": [
+                        "گڏيل ڪوشش",
+                        "سير تفريح",
+                        "جلسي جلوس",
+                        "ڇڙوڇڙ ٿيڻ"
+                    ],
+                    "a": 0,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "گدري جي ڦار جھڙو چنڊ ڪھڙين تاريخن جو ٿيندو آهي؟",
+                    "options": [
+                        "ستين ۽ اٺين",
+                        "ٽين ۽ چوٿين",
+                        "ويھين ۽ ايڪيهين",
+                        "چوڏھين ۽ پندرهين"
+                    ],
+                    "a": 1,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "ھيٺ ڏنل نشانين مان پوري دم جي نشاني چونڊيو؟",
+                    "options": [
+                        "؛",
+                        ":",
+                        ".",
+                        "٫"
+                    ],
+                    "a": 2,
+                    "ex": "Explanation needed"
+                },
+                {
+                    "q": "پھاڪي جو مطلب ڇا آهي؟",
+                    "options": [
+                        "چوڻي",
+                        "سبق وٺڻ",
+                        "اصطلاح",
+                        "سبق ڏيڻ"
+                    ],
+                    "a": 0,
+                    "ex": "Explanation needed"
+                }
+            ]
         }
     ]
 }
