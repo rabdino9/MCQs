@@ -1,1 +1,1077 @@
-
+{
+    "meta": {
+        "title": "Verbal & Non Verbal Reasoning MCQs",
+        "description": "Practice questions on Data Tables, Bar Graphs, Line Graphs, Pie Charts, and more.",
+        "keywords": "data interpretation, mcqs, quiz, data tables, bar graphs, line graphs, pie charts"
+    },
+    "subcategories": [
+{
+    "id": "logical-sequence-of-words",
+    "title": "Logical Sequence of Words",
+    "questions": [
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Study 2. Job 3. Examination 4. Earn 5. Apply",
+            "options": [
+                "1, 3, 5, 2, 4",
+                "1, 2, 3, 4, 5",
+                "1, 3, 2, 5, 4",
+                "1, 5, 3, 2, 4"
+            ],
+            "a": 0,
+            "ex": "The correct sequence is: Study (1) -> Examination (3) -> Apply (5) -> Job (2) -> Earn (4)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Plant 2. Food 3. Seed 4. Leaf 5. Flower",
+            "options": [
+                "3, 1, 4, 5, 2",
+                "1, 3, 4, 5, 2",
+                "3, 1, 5, 4, 2",
+                "5, 4, 3, 1, 2"
+            ],
+            "a": 0,
+            "ex": "The correct sequence is: Seed (3) -> Plant (1) -> Leaf (4) -> Flower (5) -> Food (2)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Birth 2. Death 3. Funeral 4. Marriage 5. Education",
+            "options": [
+                "1, 5, 4, 2, 3",
+                "1, 3, 4, 5, 2",
+                "2, 3, 4, 5, 1",
+                "1, 4, 5, 2, 3"
+            ],
+            "a": 0,
+            "ex": "The correct sequence representing stages of life is: Birth (1) -> Education (5) -> Marriage (4) -> Death (2) -> Funeral (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Rain 2. Vaporization 3. Clouds 4. Condensation 5. Water",
+            "options": [
+                "5, 2, 3, 4, 1",
+                "2, 3, 4, 1, 5",
+                "5, 3, 2, 1, 4",
+                "1, 3, 4, 2, 5"
+            ],
+            "a": 0,
+            "ex": "The correct sequence of the water cycle is: Water (5) -> Vaporization (2) -> Clouds (3) -> Condensation (4) -> Rain (1)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Letter 2. Word 3. Sentence 4. Phrase 5. Paragraph",
+            "options": [
+                "1, 2, 4, 3, 5",
+                "1, 2, 3, 4, 5",
+                "2, 1, 4, 3, 5",
+                "1, 4, 2, 3, 5"
+            ],
+            "a": 0,
+            "ex": "The correct sequence from smallest to largest unit of text is: Letter (1) -> Word (2) -> Phrase (4) -> Sentence (3) -> Paragraph (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Infant 2. Adult 3. Adolescent 4. Child 5. Old age",
+            "options": [
+                "1, 4, 3, 2, 5",
+                "1, 3, 4, 2, 5",
+                "4, 1, 3, 2, 5",
+                "1, 4, 2, 3, 5"
+            ],
+            "a": 0,
+            "ex": "The correct sequence of human life stages is: Infant (1) -> Child (4) -> Adolescent (3) -> Adult (2) -> Old age (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Weaving 2. Cotton 3. Cloth 4. Thread",
+            "options": [
+                "2, 4, 1, 3",
+                "2, 1, 4, 3",
+                "4, 2, 1, 3",
+                "1, 3, 2, 4"
+            ],
+            "a": 0,
+            "ex": "The correct sequence of cloth production is: Cotton (2) -> Thread (4) -> Weaving (1) -> Cloth (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Site 2. Plan 3. Rent 4. Money 5. Building 6. Construction",
+            "options": [
+                "4, 1, 2, 6, 5, 3",
+                "4, 2, 1, 6, 5, 3",
+                "3, 4, 2, 1, 6, 5",
+                "4, 1, 3, 5, 6, 2"
+            ],
+            "a": 0,
+            "ex": "A logical sequence for acquiring a building could be: Money (4) -> Site (1) -> Plan (2) -> Construction (6) -> Building (5) -> Rent (3) (if renting out). Or if renting for oneself, Money -> Plan -> Site -> Construction -> Building -> Occupy (Rent implies payment). Option A is most logical for building and then renting out."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Probation 2. Interview 3. Selection 4. Appointment 5. Advertisement 6. Application",
+            "options": [
+                "5, 6, 2, 3, 4, 1",
+                "5, 6, 3, 2, 4, 1",
+                "6, 5, 2, 3, 1, 4",
+                "5, 2, 6, 3, 4, 1"
+            ],
+            "a": 0,
+            "ex": "The correct sequence of a recruitment process is: Advertisement (5) -> Application (6) -> Interview (2) -> Selection (3) -> Appointment (4) -> Probation (1)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Income 2. Status 3. Education 4. Well-being 5. Job",
+            "options": [
+                "3, 5, 1, 2, 4",
+                "1, 3, 5, 2, 4",
+                "3, 1, 5, 2, 4",
+                "5, 1, 3, 2, 4"
+            ],
+            "a": 0,
+            "ex": "A common progression is: Education (3) -> Job (5) -> Income (1) -> Status (2) -> Well-being (4)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Tree 2. Wood 3. Paper 4. Book 5. Pulp",
+            "options": [
+                "1, 2, 5, 3, 4",
+                "1, 5, 2, 3, 4",
+                "2, 1, 5, 3, 4",
+                "1, 2, 3, 5, 4"
+            ],
+            "a": 0,
+            "ex": "The process of making a book from a tree: Tree (1) -> Wood (2) -> Pulp (5) -> Paper (3) -> Book (4)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Diagnosis 2. Doctor 3. Sickness 4. Treatment 5. Recovery",
+            "options": [
+                "3, 2, 1, 4, 5",
+                "2, 3, 1, 4, 5",
+                "3, 1, 2, 4, 5",
+                "1, 2, 3, 4, 5"
+            ],
+            "a": 0,
+            "ex": "The typical medical process: Sickness (3) -> Doctor (2) -> Diagnosis (1) -> Treatment (4) -> Recovery (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Gold 2. Iron 3. Sand 4. Platinum 5. Diamond",
+            "options": [
+                "3, 2, 1, 5, 4",
+                "2, 3, 1, 5, 4",
+                "3, 2, 1, 4, 5",
+                "1, 2, 3, 4, 5"
+            ],
+            "a": 0,
+            "ex": "Arranging by approximate value/rarity from less to more valuable: Sand (3) -> Iron (2) -> Gold (1) -> Diamond (5) -> Platinum (4). (Note: Diamond and Platinum values can vary, but this is a common perception)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Reading 2. Composing 3. Writing 4. Printing",
+            "options": [
+                "2, 3, 4, 1",
+                "2, 3, 1, 4",
+                "3, 2, 4, 1",
+                "1, 2, 3, 4"
+            ],
+            "a": 0,
+            "ex": "The process of creating and consuming written material: Composing (2) -> Writing (3) -> Printing (4) -> Reading (1)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Country 2. District 3. State 4. Village 5. Continent",
+            "options": [
+                "4, 2, 3, 1, 5",
+                "5, 1, 3, 2, 4",
+                "4, 2, 1, 3, 5",
+                "1, 3, 2, 4, 5"
+            ],
+            "a": 0,
+            "ex": "Arranging geographical units from smallest to largest: Village (4) -> District (2) -> State (3) -> Country (1) -> Continent (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Shoulder 2. Wrist 3. Elbow 4. Palm 5. Finger",
+            "options": [
+                "1, 3, 2, 4, 5",
+                "5, 4, 2, 3, 1",
+                "1, 2, 3, 4, 5",
+                "3, 4, 5, 1, 2"
+            ],
+            "a": 0,
+            "ex": "Sequence of parts of the arm from top to bottom: Shoulder (1) -> Elbow (3) -> Wrist (2) -> Palm (4) -> Finger (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Foundation 2. Walls 3. Roof 4. Plastering 5. Painting",
+            "options": [
+                "1, 2, 3, 4, 5",
+                "1, 3, 2, 4, 5",
+                "1, 2, 4, 3, 5",
+                "2, 1, 3, 4, 5"
+            ],
+            "a": 0,
+            "ex": "Sequence of house construction: Foundation (1) -> Walls (2) -> Roof (3) -> Plastering (4) -> Painting (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Dough 2. Flour 3. Bread 4. Baking 5. Wheat",
+            "options": [
+                "5, 2, 1, 4, 3",
+                "2, 5, 1, 4, 3",
+                "5, 1, 2, 4, 3",
+                "2, 1, 5, 4, 3"
+            ],
+            "a": 0,
+            "ex": "Process of making bread: Wheat (5) -> Flour (2) -> Dough (1) -> Baking (4) -> Bread (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Result 2. Campaign 3. OATH 4. Polling 5. Nominations",
+            "options": [
+                "5, 2, 4, 1, 3",
+                "2, 5, 4, 1, 3",
+                "5, 4, 2, 1, 3",
+                "1, 2, 3, 4, 5"
+            ],
+            "a": 0,
+            "ex": "Sequence of an election process: Nominations (5) -> Campaign (2) -> Polling (4) -> Result (1) -> Oath (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Yarn 2. Silkworm 3. Saree 4. Silk 5. Cloth",
+            "options": [
+                "2, 4, 1, 5, 3",
+                "2, 1, 4, 5, 3",
+                "1, 2, 4, 5, 3",
+                "2, 4, 5, 1, 3"
+            ],
+            "a": 0,
+            "ex": "Process of making a silk saree: Silkworm (2) -> Silk (4) -> Yarn (1) -> Cloth (5) -> Saree (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Cutting 2. Dish 3. Vegetable 4. Cooking 5. Market",
+            "options": [
+                "5, 3, 1, 4, 2",
+                "3, 5, 1, 4, 2",
+                "5, 1, 3, 4, 2",
+                "1, 3, 5, 4, 2"
+            ],
+            "a": 0,
+            "ex": "Process of preparing a dish: Market (5) -> Vegetable (3) -> Cutting (1) -> Cooking (4) -> Dish (2)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Frog 2. Eagle 3. Grasshopper 4. Snake 5. Grass",
+            "options": [
+                "5, 3, 1, 4, 2",
+                "5, 1, 3, 4, 2",
+                "3, 5, 1, 4, 2",
+                "1, 3, 5, 2, 4"
+            ],
+            "a": 0,
+            "ex": "A food chain sequence: Grass (5) -> Grasshopper (3) -> Frog (1) -> Snake (4) -> Eagle (2)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Presentation 2. Recommendation 3. Arrival 4. Discussion 5. Introduction",
+            "options": [
+                "3, 5, 1, 4, 2",
+                "3, 5, 4, 1, 2",
+                "5, 3, 1, 4, 2",
+                "3, 1, 5, 4, 2"
+            ],
+            "a": 0,
+            "ex": "Sequence of events in a formal meeting or presentation: Arrival (3) -> Introduction (5) -> Presentation (1) -> Discussion (4) -> Recommendation (2)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Index 2. Contents 3. Title 4. Chapters 5. Introduction",
+            "options": [
+                "3, 5, 2, 4, 1",
+                "3, 2, 5, 4, 1",
+                "2, 3, 5, 4, 1",
+                "3, 5, 4, 2, 1"
+            ],
+            "a": 0,
+            "ex": "Typical order of sections in a book: Title (3) -> Introduction (5) -> Contents (2) -> Chapters (4) -> Index (1)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Poverty 2. Population 3. Death 4. Unemployment 5. Disease",
+            "options": [
+                "2, 4, 1, 5, 3",
+                "2, 1, 4, 5, 3",
+                "1, 2, 4, 5, 3",
+                "4, 1, 2, 5, 3"
+            ],
+            "a": 0,
+            "ex": "A possible causal sequence of societal problems: Population (2) -> Unemployment (4) -> Poverty (1) -> Disease (5) -> Death (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Mother 2. Child 3. Milk 4. Cry 5. Smile",
+            "options": [
+                "2, 4, 1, 3, 5",
+                "1, 2, 4, 3, 5",
+                "2, 4, 3, 1, 5",
+                "4, 2, 1, 3, 5"
+            ],
+            "a": 0,
+            "ex": "A common interaction: Child (2) -> Cry (4) -> Mother (1) -> Milk (3) -> Smile (5)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. College 2. Child 3. Salary 4. School 5. Employment",
+            "options": [
+                "2, 4, 1, 5, 3",
+                "2, 1, 4, 5, 3",
+                "4, 1, 5, 3, 2",
+                "1, 4, 5, 3, 2"
+            ],
+            "a": 0,
+            "ex": "Life progression related to education and career: Child (2) -> School (4) -> College (1) -> Employment (5) -> Salary (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Curd 2. Grass 3. Butter 4. Milk 5. Cow",
+            "options": [
+                "2, 5, 4, 1, 3",
+                "5, 2, 4, 1, 3",
+                "2, 5, 1, 4, 3",
+                "5, 2, 1, 4, 3"
+            ],
+            "a": 0,
+            "ex": "Production of dairy products: Grass (2) -> Cow (5) -> Milk (4) -> Curd (1) -> Butter (3)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Travel 2. Destination 3. Payment 4. Berth/Seat reservation 5. Availability of berth/seat for reservation",
+            "options": [
+                "2, 5, 4, 3, 1",
+                "5, 2, 4, 3, 1",
+                "2, 5, 3, 4, 1",
+                "1, 2, 3, 4, 5"
+            ],
+            "a": 0,
+            "ex": "Process of booking travel: Destination (2) -> Availability of berth/seat for reservation (5) -> Berth/Seat reservation (4) -> Payment (3) -> Travel (1)."
+        },
+        {
+            "q": "Arrange the following words in a meaningful sequence: 1. Key 2. Door 3. Lock 4. Room 5. Switch on light",
+            "options": [
+                "1, 3, 2, 4, 5",
+                "1, 2, 3, 4, 5",
+                "3, 1, 2, 4, 5",
+                "4, 2, 3, 1, 5"
+            ],
+            "a": 0,
+            "ex": "Sequence of entering a room: Key (1) -> Lock (3) -> Door (2) -> Room (4) -> Switch on light (5)."
+        }
+    ]
+},
+      {
+  "id": "assertion-and-reason",
+  "title": "Assertion and Reason",
+  "questions": [
+    {
+      "q": "Assertion (A): The sun rises in the east. Reason (R): The earth rotates from west to east.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The Earth's rotation from west to east causes the apparent movement of the sun from east to west, hence the sun rises in the east. So, R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Diamond is very hard. Reason (R): Diamond is made of carbon atoms.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 1,
+      "ex": "Diamond is indeed very hard, and it is made of carbon atoms. However, the reason for its hardness is its specific tetrahedral crystal structure, not just that it's made of carbon (graphite is also carbon but is soft). So, R is true but not the complete or direct explanation for A's hardness in this context."
+    },
+    {
+      "q": "Assertion (A): Boiling point of water increases with increase in pressure. Reason (R): Water boils when its vapor pressure equals the external pressure.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Water boils when its saturated vapor pressure equals the external (atmospheric) pressure. If the external pressure is increased, a higher temperature is needed for the vapor pressure to reach this new external pressure, thus the boiling point increases. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): We feel cooler on a windy day than on a calm day when the temperature is the same. Reason (R): Wind increases the rate of evaporation of sweat from our body.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Evaporation causes cooling. Wind carries away the moist air near the skin, allowing more sweat to evaporate, thus leading to a greater cooling effect. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Iron objects rust in moist air. Reason (R): Rusting is a process of oxidation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Iron reacts with oxygen and water (moist air) to form hydrated iron(III) oxide, which is rust. This chemical reaction is an oxidation process. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): A person feels weightlessness in a satellite. Reason (R): The satellite is not acted upon by gravity.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 2,
+      "ex": "A person feels weightlessness in an orbiting satellite because both the satellite and the person are in a constant state of free fall towards the Earth. Gravity is very much acting on the satellite; it's what keeps it in orbit. So, A is true, but R is false."
+    },
+    {
+      "q": "Assertion (A): Sound waves cannot travel through vacuum. Reason (R): Sound waves are longitudinal waves.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 1,
+      "ex": "Sound waves require a medium (like air, water, solids) to propagate because they are vibrations of particles in the medium. Vacuum has no particles, so sound cannot travel. Sound waves are indeed longitudinal waves (in fluids and gases), but this property itself isn't why they can't travel in vacuum; it's the need for a medium. So, both A and R are true, but R is not the direct explanation for A."
+    },
+    {
+      "q": "Assertion (A): Plants are green in color. Reason (R): Plants contain a pigment called chlorophyll.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Chlorophyll is the green pigment in plants that absorbs light for photosynthesis. It reflects green light, which is why plants appear green. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): A ship made of iron floats in water whereas an iron nail sinks. Reason (R): The density of iron is less than the density of water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 2,
+      "ex": "A ship floats because its overall shape displaces a large volume of water, making its average density (mass of ship / volume displaced) less than water. An iron nail sinks because iron's density is greater than water's density. So, A is true, but R (The density of iron is less than the density of water) is false."
+    },
+    {
+      "q": "Assertion (A): Cooking is faster in a pressure cooker. Reason (R): The high pressure in the cooker raises the boiling point of water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "In a pressure cooker, the trapped steam increases the pressure, which in turn raises the boiling point of water. Food cooks faster at this higher temperature. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Deforestation leads to soil erosion. Reason (R): Tree roots bind the soil particles together.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Tree roots hold the soil together, preventing it from being easily washed or blown away. When trees are removed (deforestation), the soil becomes loose and prone to erosion. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Sky appears blue. Reason (R): Blue light is scattered more than other colors by air molecules.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "This phenomenon is called Rayleigh scattering. Air molecules scatter shorter wavelengths of light (like blue and violet) more effectively than longer wavelengths (like red). Our eyes are more sensitive to blue, so the sky appears blue. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): It is difficult to walk on a slippery surface. Reason (R): Slippery surfaces have very low friction.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "We need friction to push against the ground to walk. Slippery surfaces offer very little friction, making it hard to get a grip and move forward. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Vaccines prevent diseases. Reason (R): Vaccines kill all disease-causing microorganisms in the body.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 2,
+      "ex": "Vaccines work by introducing a harmless form of a pathogen (or its components) to stimulate the immune system to produce antibodies and memory cells. This prepares the body to fight off future infections by that specific pathogen. Vaccines don't typically 'kill all' microorganisms; they enable the immune system. So, A is true, but R is false."
+    },
+    {
+      "q": "Assertion (A): We wear light-colored clothes in summer. Reason (R): Light colors are good reflectors of heat.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Light-colored surfaces reflect most of the light (and heat) that falls on them, while dark colors absorb more. Wearing light colors in summer helps to keep us cool by reflecting solar radiation. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Earthquakes are caused by the movement of tectonic plates. Reason (R): The Earth's crust is made up of several large and small plates.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The Earth's lithosphere is divided into tectonic plates that are constantly moving. Earthquakes occur when these plates slip past each other, releasing energy. R provides the context for A."
+    },
+    {
+      "q": "Assertion (A): A convex mirror is used as a rear-view mirror in vehicles. Reason (R): Convex mirrors form virtual, erect, and diminished images.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Convex mirrors provide a wider field of view and always form virtual, erect, and smaller images of objects. This allows drivers to see a larger area behind them. R correctly explains why A is done."
+    },
+    {
+      "q": "Assertion (A): Carbon dioxide is a greenhouse gas. Reason (R): Carbon dioxide traps heat in the Earth's atmosphere.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Greenhouse gases, like carbon dioxide, absorb and emit infrared radiation (heat), trapping it in the atmosphere and contributing to the greenhouse effect and global warming. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Metals are good conductors of electricity. Reason (R): Metals have free electrons.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The presence of delocalized or free electrons in metals allows them to move easily under an electric field, carrying charge and thus conducting electricity. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): The moon has no atmosphere. Reason (R): The escape velocity on the moon is very low.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The escape velocity is the minimum speed needed for an object (like a gas molecule) to escape from the gravitational influence of a celestial body. The moon's gravity is weak, so its escape velocity is low. Gas molecules, if present, would easily escape into space, hence it has no significant atmosphere. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Osmosis is the movement of water molecules from a region of higher concentration to lower concentration. Reason (R): Osmosis occurs through a semipermeable membrane.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 1,
+      "ex": "Osmosis is specifically the movement of solvent (usually water) molecules across a selectively permeable membrane from a region of higher solvent (lower solute) concentration to a region of lower solvent (higher solute) concentration. While A is generally true in terms of water potential, R is a necessary condition for osmosis. Both are true, but R is a defining characteristic rather than the sole explanation of the direction of movement described in A (which is driven by differences in water potential/solute concentration)."
+    },
+    {
+      "q": "Assertion (A): A rainbow is formed due to dispersion of sunlight by raindrops. Reason (R): Different colors of light bend by different amounts when passing through a prism.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Raindrops act like tiny prisms. When sunlight enters a raindrop, it is refracted and dispersed into its constituent colors because each color (wavelength) is refracted at a slightly different angle. This separation of colors, along with internal reflection, leads to the formation of a rainbow. R explains the dispersion part of A."
+    },
+    {
+      "q": "Assertion (A): Bats can fly in the dark. Reason (R): Bats emit ultrasonic waves.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Bats use echolocation. They emit high-frequency sound waves (ultrasonic) and listen for the echoes bouncing off objects. This allows them to navigate and find prey in complete darkness. R correctly explains how A is possible."
+    },
+    {
+      "q": "Assertion (A): Ice floats on water. Reason (R): Ice is denser than water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 2,
+      "ex": "Ice floats on water because it is less dense than liquid water. This is an unusual property, as most substances are denser in their solid state. So, A is true, but R is false."
+    },
+    {
+      "q": "Assertion (A): When lightning strikes, the sound is heard a little after the flash is seen. Reason (R): The speed of light is much greater than the speed of sound.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Light travels at approximately 3 x 10^8 m/s, while sound travels much slower in air (around 343 m/s at room temperature). Therefore, the light from the flash reaches us almost instantaneously, while the sound (thunder) takes longer. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Food gets cooked faster at high altitudes. Reason (R): Atmospheric pressure is lower at high altitudes.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 3,
+      "ex": "At high altitudes, the atmospheric pressure is lower. This causes water to boil at a lower temperature. Since food cooks due to the heat from boiling water, a lower boiling temperature means food cooks slower, not faster. So, A is false, but R is true."
+    },
+    {
+      "q": "Assertion (A): A compass needle points towards the geographic North-South direction. Reason (R): The Earth behaves as a magnet with its magnetic poles located near its geographic poles.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The Earth has a magnetic field, and a compass needle (which is a small magnet) aligns itself with this field, pointing towards the Earth's magnetic north pole (which is near the geographic North Pole). R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): It is dangerous to stand under a tree during a thunderstorm. Reason (R): Trees attract lightning.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Lightning tends to strike taller objects, and trees are often the tallest objects in an open area. Standing under a tree increases the risk of being struck by lightning or by a side flash. R correctly explains A."
+    },
+    {
+      "q": "Assertion (A): Nuclear fusion is the source of the Sun's energy. Reason (R): In nuclear fusion, lighter nuclei combine to form a heavier nucleus, releasing energy.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "The Sun's energy is produced by nuclear fusion reactions in its core, primarily converting hydrogen into helium. This process involves lighter atomic nuclei fusing to form a heavier nucleus, with a release of a tremendous amount of energy. R correctly describes the process that explains A."
+    },
+    {
+      "q": "Assertion (A): Clothes dry faster on a hot and windy day. Reason (R): The rate of evaporation increases with temperature and wind speed.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true.",
+        "Both A and R are false."
+      ],
+      "a": 0,
+      "ex": "Higher temperatures provide more energy for water molecules to evaporate, and wind carries away the moist air, allowing more evaporation to occur. Both factors increase the rate of evaporation, causing clothes to dry faster. R correctly explains A."
+    }
+  ]
+},
+      {
+  "id": "cause-and-effect",
+  "title": "Cause and Effect",
+  "questions": [
+    {
+      "q": "Statement I: The government has increased the prices of petrol and diesel. Statement II: The sale of electric vehicles has increased significantly in the last quarter.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Increased fuel prices (Statement I) would likely make people consider alternatives like electric vehicles, leading to increased sales (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: There has been a significant drop in the water level of all the lakes supplying water to the city. Statement II: The municipal corporation has appealed to all the citizens to reduce their water consumption by 20%.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A drop in water levels (Statement I) is a problem that would necessitate an appeal for reduced consumption (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: Many students were caught using unfair means during the final examination. Statement II: The school authority has decided to debar all these students from appearing in examinations for the next three years.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Students using unfair means (Statement I) is an offense that would lead to disciplinary action like debarment (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The local cooperative credit society has decided to stop advancing loans to farmers for a temporary period. Statement II: A large number of credit society members have withdrawn a major part of their deposits from the society.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "If many members withdraw their deposits (Statement II), the society would face a shortage of funds, forcing it to stop advancing loans (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The prices of vegetables have increased considerably during the past few weeks. Statement II: The transport operators have gone on an indefinite strike protesting against the hike in diesel prices.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "A transport strike (Statement II) would disrupt the supply of vegetables to the market, leading to a shortage and consequently an increase in prices (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The university has decided to conduct all terminal examinations online this year. Statement II: There has been a consistent rise in COVID-19 cases in the region.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "A rise in COVID-19 cases (Statement II) would make physical examinations risky, prompting the university to conduct them online (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The company has recently announced several new welfare schemes for its employees. Statement II: The company has achieved record profits in the last financial year.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Achieving record profits (Statement II) would provide the company with the resources and motivation to introduce new welfare schemes for its employees (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The meteorological department has issued a warning about heavy rainfall in the next 48 hours. Statement II: Many people have postponed their travel plans.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A warning about heavy rainfall (Statement I) would likely cause people to postpone their travel plans (Statement II) to avoid inconvenience or danger. Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The literacy rate in the district has been increasing for the last four years. Statement II: The district administration has conducted an extensive awareness campaign for education.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "An extensive awareness campaign for education (Statement II) would lead to an increase in the literacy rate (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The performance of most students in the final exams of Class X was excellent. Statement II: Many teachers of Class X left the school before the final exams.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 3,
+      "ex": "Excellent student performance (Statement I) and teachers leaving (Statement II) are unlikely to be directly related as cause and effect. They are more likely effects of different, independent causes (e.g., good teaching methods for I, better job opportunities for II)."
+    },
+    {
+      "q": "Statement I: The city witnessed heavy showers for three consecutive days. Statement II: All schools in the city were closed for two days.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Heavy showers (Statement I) can lead to waterlogging and traffic disruptions, prompting authorities to close schools (Statement II) for safety. Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The airline has suspended all its flights to the country for a week. Statement II: The political situation in the country has deteriorated sharply.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "A deteriorating political situation (Statement II) can create safety concerns and operational difficulties, leading airlines to suspend flights (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The price of gold has been increasing steadily for the past few months. Statement II: Many people are investing in gold as a safe asset.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 4,
+      "ex": "Both increasing gold prices (Statement I) and people investing in gold (Statement II) could be effects of a common cause, such as economic uncertainty or inflation, which makes gold an attractive investment and drives up its demand and price."
+    },
+    {
+      "q": "Statement I: The company's stock price fell sharply after the quarterly results were announced. Statement II: The company reported a significant loss in the last quarter.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Reporting a significant loss (Statement II) is bad news for a company and would typically cause its stock price to fall (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The number of road accidents has increased in the city. Statement II: The city traffic police have launched a special drive to check for drunk driving.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "An increase in road accidents (Statement I) would prompt the traffic police to take measures like a special drive against drunk driving (Statement II) to address the problem. Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The government has banned the import of certain electronic goods. Statement II: The domestic production of similar electronic goods has increased.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Banning imports (Statement I) creates a gap in the market that domestic producers can fill, leading to increased domestic production (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The quality of air in the city has improved significantly. Statement II: The government has implemented strict emission norms for vehicles and industries.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Implementing strict emission norms (Statement II) would reduce pollution, leading to an improvement in air quality (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: Many farmers are opting for organic farming methods. Statement II: There is a growing demand for organic food products in the market.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "A growing demand for organic products (Statement II) would incentivize farmers to adopt organic farming methods (Statement I) to cater to this demand. Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The incidence of water-borne diseases has increased in the area. Statement II: The local civic body has failed to provide safe drinking water.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Failure to provide safe drinking water (Statement II) can lead to contamination and an increase in water-borne diseases (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The sales of winter clothing have gone up. Statement II: The temperature has dropped significantly in the last few days.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "A significant drop in temperature (Statement II) would lead people to buy more winter clothing (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The police resorted to lathi-charge to disperse the unlawful gathering of a large number of people. Statement II: The citizens' forum called a general strike in protest against the police atrocities.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Police lathi-charge (Statement I), perceived as an atrocity, would likely lead to protests like a general strike (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The standard of living of people in the city has improved. Statement II: Many new industries have been set up in the city in the last five years.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Setting up new industries (Statement II) creates employment and economic growth, which in turn improves the standard of living (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The government has decided to increase the import duty on sugar. Statement II: The price of sugar in the domestic market has increased in the recent past.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 4,
+      "ex": "An increase in domestic sugar prices (Statement II) might prompt the government to increase import duty (Statement I) to protect local producers. Conversely, an increase in import duty (Statement I) could also lead to higher domestic prices (Statement II). However, it's also possible both are effects of a common cause like poor domestic harvest or global price rise. Option 4 (effects of some common cause) or even I is cause and II is effect, or II is cause and I is effect are plausible. Given the options, if domestic prices are already high (II), the government might increase import duty (I) to curb cheap imports or raise revenue. Or, if import duty is increased (I), domestic prices (II) will likely rise. Let's consider if II (high domestic price) is a reason for I (increase import duty). This is less direct. More likely, if import duty (I) is increased, it makes imported sugar costlier, allowing domestic prices (II) to rise or stay high. So I could be a cause for II. However, if domestic prices (II) are already high due to, say, low production, the government might increase import duty (I) to protect farmers, but this would further increase prices. A common cause like 'government policy to support domestic sugar industry' could lead to both. Let's re-evaluate. If domestic prices (II) are high, the government might increase import duty (I) to discourage imports and protect local producers, or to raise revenue. This makes II a cause for I. Alternatively, if the government increases import duty (I), it makes imported sugar more expensive, which can lead to an increase in domestic sugar prices (II). This makes I a cause for II. If both are plausible, consider 'effects of some common cause'. A poor domestic harvest (common cause) could lead to high domestic prices (II) AND the government increasing import duty (I) to manage the situation or protect remaining farmers. This seems like a strong possibility for 'common cause'."
+    },
+    {
+      "q": "Statement I: The rate of inflation has increased in the country. Statement II: The central bank has increased the interest rates.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Increased inflation (Statement I) is a problem that central banks typically address by increasing interest rates (Statement II) to curb spending and control prices. Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: There is a shortage of skilled labor in the IT sector. Statement II: Many IT companies are offering attractive salary packages and benefits.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A shortage of skilled labor (Statement I) creates competition among companies to attract and retain talent, leading them to offer attractive packages (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The forest department has launched a massive tree plantation drive. Statement II: The instances of landslides in the hilly areas have reduced.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A massive tree plantation drive (Statement I) helps in soil conservation and stabilization of slopes, which in turn can lead to a reduction in landslides (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The number of tourists visiting the hill station has declined sharply. Statement II: There have been several reports of unhygienic conditions and poor civic amenities in the hill station.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 1,
+      "ex": "Reports of unhygienic conditions and poor amenities (Statement II) would deter tourists, leading to a decline in their numbers (Statement I). Thus, II is the cause and I is its effect."
+    },
+    {
+      "q": "Statement I: The government has announced a new policy to promote renewable energy sources. Statement II: The country's dependence on fossil fuels has decreased.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A new policy promoting renewable energy (Statement I) would lead to increased use of renewables and consequently a decrease in dependence on fossil fuels (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The average global temperature has been rising. Statement II: Many glaciers are melting at an accelerated rate.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "Rising global temperatures (Statement I) cause glaciers to melt faster (Statement II). Thus, I is the cause and II is its effect."
+    },
+    {
+      "q": "Statement I: The company launched a new advertising campaign. Statement II: The sales of the company's products increased significantly.",
+      "options": [
+        "Statement I is the cause and Statement II is its effect.",
+        "Statement II is the cause and Statement I is its effect.",
+        "Both the statements I and II are independent causes.",
+        "Both the statements I and II are effects of independent causes.",
+        "Both the statements I and II are effects of some common cause."
+      ],
+      "a": 0,
+      "ex": "A new advertising campaign (Statement I) is intended to boost sales, and if successful, would lead to increased sales (Statement II). Thus, I is the cause and II is its effect."
+    }
+  ]
+}
+    ]
+}
