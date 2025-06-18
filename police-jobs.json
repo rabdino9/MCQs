@@ -1,1 +1,640 @@
-
+{
+    "meta": {
+        "title": "Police Jobs MCQs",
+        "description": "MCQs from the Punjab Highway Patrolling Police Paper held on 23-06-2024.",
+        "keywords": "punjab highway patrolling police, past paper, mcqs, quiz"
+    },
+    "subcategories": [
+        {
+            "id": "punjab-highway-patrolling-police",
+            "title": "Punjab Highway Patrolling Police Paper held on 23-06-2024",
+            "questions": [
+                {
+                    "q": "نماز خسوف کس موقع پر پڑھی جاتی ہے",
+                    "options": [
+                        "سورج گرہن",
+                        "زلزلہ",
+                        "چاند گرہن",
+                        "بہت بارش"
+                    ],
+                    "a": 2,
+                    "ex": "نماز خسوف چاند گرہن کے موقع پر پڑھی جاتی ہے۔"
+                },
+                {
+                    "q": "Pakistan and china have signed an agreement for ___railway track inl 2019.",
+                    "options": [
+                        "ML-1",
+                        "ML",
+                        "MS-5",
+                        "Pak China Train",
+                        "PC-1"
+                    ],
+                    "a": 0,
+                    "ex": "Pakistan and China signed an agreement for the ML-1 railway track upgrade in 2019."
+                },
+                {
+                    "q": "Dynamite was discovered by Alfred Nobel in 1887 in _______?",
+                    "options": [
+                        "America",
+                        "Spain",
+                        "Sweden",
+                        "None"
+                    ],
+                    "a": 2,
+                    "ex": "Dynamite was discovered by Alfred Nobel in Sweden in 1867, not 1887."
+                },
+                {
+                    "q": "When UNICEF was founded?",
+                    "options": [
+                        "11 December 1948",
+                        "11 December 1947",
+                        "11 December 1946",
+                        "11 December 1945",
+                        "None of these"
+                    ],
+                    "a": 2,
+                    "ex": "UNICEF was founded on 11 December 1946."
+                },
+                {
+                    "q": "What is the capital of Denmark?",
+                    "options": [
+                        "Kuala Lumpur",
+                        "Copenhagen",
+                        "Kabul",
+                        "London",
+                        "None of the above"
+                    ],
+                    "a": 1,
+                    "ex": "The capital of Denmark is Copenhagen."
+                },
+                {
+                    "q": "What is the Capital of Algeria?",
+                    "options": [
+                        "Canberra",
+                        "Nassau",
+                        "Dhaka",
+                        "Algiers"
+                    ],
+                    "a": 3,
+                    "ex": "The capital of Algeria is Algiers."
+                },
+                {
+                    "q": "where is the office of the UN high commissioner for human rights located",
+                    "options": [
+                        "Geneva",
+                        "London",
+                        "Dhaka",
+                        "None"
+                    ],
+                    "a": 0,
+                    "ex": "The office of the UN High Commissioner for Human Rights is located in Geneva."
+                },
+                {
+                    "q": "In the constitution of Pakistan, 1973, ‘Chapter 1: Fundamental rights’ consists of Articles?",
+                    "options": [
+                        "18-38",
+                        "8-19",
+                        "8-28",
+                        "19-45"
+                    ],
+                    "a": 2,
+                    "ex": "Chapter 1: Fundamental Rights in the 1973 Constitution of Pakistan consists of Articles 8-28."
+                },
+                {
+                    "q": "Sovereignty belongs to ____",
+                    "options": [
+                        "Prophet",
+                        "Allah",
+                        "President",
+                        "None"
+                    ],
+                    "a": 1,
+                    "ex": "In the context of Pakistan's constitution, sovereignty belongs to Allah."
+                },
+                {
+                    "q": "How many members are there in Arab League?",
+                    "options": [
+                        "20",
+                        "22",
+                        "21",
+                        "23"
+                    ],
+                    "a": 1,
+                    "ex": "As of recent times, the Arab League has 22 members."
+                },
+                {
+                    "q": "Pakistan test-fired its first submarine-launched cruise missile Babur-III on 9 January 2017, has the range in kilometres?",
+                    "options": [
+                        "550 kilometres",
+                        "450 kilometres",
+                        "700 kilometres",
+                        "650 kilometres"
+                    ],
+                    "a": 3,
+                    "ex": "The Babur-III missile has a range of 450 kilometers."
+                },
+                {
+                    "q": "Which is the largest oil company of the world?",
+                    "options": [
+                        "Caltex",
+                        "PSO",
+                        "Shell",
+                        "Exxon"
+                    ],
+                    "a": 3,
+                    "ex": "ExxonMobil is one of the world's largest publicly traded international oil and gas companies."
+                },
+                {
+                    "q": "Hazrat Abu Bakr (R.A) belonged to the tribe of______?",
+                    "options": [
+                        "Banu Hashim",
+                        "Banu Taym",
+                        "Banu Sahm",
+                        "Banu Asad",
+                        "None of these"
+                    ],
+                    "a": 1,
+                    "ex": "Hazrat Abu Bakr (R.A) belonged to the tribe of Banu Taym."
+                },
+                {
+                    "q": "Bala Hisar Fort is located in ____ ?",
+                    "options": [
+                        "Mardan",
+                        "Swat",
+                        "Peshawar",
+                        "Dir"
+                    ],
+                    "a": 2,
+                    "ex": "Bala Hisar Fort is located in Peshawar."
+                },
+                {
+                    "q": "How many Surah are with the name of Prophets?",
+                    "options": [
+                        "6",
+                        "3",
+                        "2",
+                        "5",
+                        "None of these"
+                    ],
+                    "a": 4,
+                    "ex": "There are several Surahs named after Prophets including Yunus, Hud, Yusuf, Ibrahim, Muhammad, Nuh, and others. So, the count is more than the options provided."
+                },
+                {
+                    "q": "The Largest Muslim country in the world by landmass/area is ____?",
+                    "options": [
+                        "Mali",
+                        "Pakistan",
+                        "Indonesia",
+                        "Kazakhstan"
+                    ],
+                    "a": 3,
+                    "ex": "Kazakhstan is the largest Muslim-majority country by land area."
+                },
+                {
+                    "q": "For how many days Hazrat Younas remained in the abdomen of fish?",
+                    "options": [
+                        "50",
+                        "40",
+                        "30",
+                        "60"
+                    ],
+                    "a": 4,
+                    "ex": "According to Islamic tradition, Hazrat Younas (A.S) remained in the abdomen of the fish for 40 days and nights."
+                },
+                {
+                    "q": "Former Prime Minister Nawaz Sharif was disqualified by the Supreme Court of Pakistan on ______?",
+                    "options": [
+                        "July 27 2017",
+                        "July 28 2017",
+                        "July 29 2017",
+                        "July 30 2017",
+                        "None of the above"
+                    ],
+                    "a": 1,
+                    "ex": "Former Prime Minister Nawaz Sharif was disqualified by the Supreme Court of Pakistan on July 28, 2017."
+                },
+                {
+                    "q": "The synonym of DEPLETE is?",
+                    "options": [
+                        "Destroy",
+                        "Finish",
+                        "Vanish",
+                        "Reduce",
+                        "All of these"
+                    ],
+                    "a": 3,
+                    "ex": "The closest synonym for 'deplete' is 'reduce', meaning to diminish or exhaust something."
+                },
+                {
+                    "q": "When was the first Pakistani Postal Stamp issued?",
+                    "options": [
+                        "12th July, 1948",
+                        "9th July, 1947",
+                        "12th July, 1947",
+                        "9th July, 1948"
+                    ],
+                    "a": 0,
+                    "ex": "The first Pakistani Postal Stamp was issued on 12th July, 1948."
+                },
+                {
+                    "q": "Baht is the currency of which country?",
+                    "options": [
+                        "Camvodia",
+                        "Thailand",
+                        "Vietnam",
+                        "Singapore"
+                    ],
+                    "a": 1,
+                    "ex": "Baht is the currency of Thailand."
+                },
+                {
+                    "q": "When sixth Census was held in Pakistan?",
+                    "options": [
+                        "1972",
+                        "1981",
+                        "1998",
+                        "2017"
+                    ],
+                    "a": 3,
+                    "ex": "The sixth Census of Pakistan was held in 2017."
+                },
+                {
+                    "q": "The biggest export market of Pakistan.",
+                    "options": [
+                        "India-China",
+                        "USA",
+                        "Iran",
+                        "None"
+                    ],
+                    "a": 1,
+                    "ex": "The USA has traditionally been one of the biggest export markets for Pakistan."
+                },
+                {
+                    "q": "Which category of the following can be given Zakat ?",
+                    "options": [
+                        "Poor and needy",
+                        "Deeni madaris",
+                        "Debtors",
+                        "All of these"
+                    ],
+                    "a": 3,
+                    "ex": "Zakat can be given to all the categories mentioned: the poor and needy, for Islamic educational institutions (Deeni madaris), and to debtors."
+                },
+                {
+                    "q": "As of 2023, which cricket team won the most ODI men’s Cricket World Cups?",
+                    "options": [
+                        "Australia",
+                        "England",
+                        "India",
+                        "West Indies"
+                    ],
+                    "a": 0,
+                    "ex": "As of 2023, Australia has won the most ODI men's Cricket World Cups."
+                },
+                {
+                    "q": "What is the old name of Hyderabad?",
+                    "options": [
+                        "Guddu",
+                        "Rani Bagh",
+                        "Heerabad",
+                        "Naroon Kot",
+                        "Shalkot"
+                    ],
+                    "a": 3,
+                    "ex": "The old name of Hyderabad was Nerunkot or Naroon Kot."
+                },
+                {
+                    "q": "Which is the largest lake in Pakistan?",
+                    "options": [
+                        "Karambar Lake",
+                        "Attabad Lake",
+                        "Manchar Lake",
+                        "Rama Lake"
+                    ],
+                    "a": 2,
+                    "ex": "Manchar Lake is the largest natural freshwater lake in Pakistan."
+                },
+                {
+                    "q": "Which Angel is appointed providing for Rain, Food?",
+                    "options": [
+                        "Hazrat Israil A.S",
+                        "Hazrat Israfeel A.S",
+                        "Hazrat Meekail A.S",
+                        "Hazrat Jibriel A.S"
+                    ],
+                    "a": 2,
+                    "ex": "Hazrat Meekail (A.S) is the Angel appointed for providing sustenance, including rain and food."
+                },
+                {
+                    "q": "Which of the following won the mixed doubles tennis title at the 2024 Australian Open?",
+                    "options": [
+                        "Serena Williams & Piotr Zielinski",
+                        "Aryna Sabalenka & Piotr Zielinski",
+                        "Serena Williams & Novak Djokovic",
+                        "Hsieh Su-wei & Piotr Zielinski"
+                    ],
+                    "a": 3,
+                    "ex": "Hsieh Su-wei and Jan Zieliński won the mixed doubles title at the 2024 Australian Open. Piotr Zielinski is not a well-known tennis player, likely a typo in the options."
+                },
+                {
+                    "q": "Report of Montagu – Chelmsford was published in ____?",
+                    "options": [
+                        "1st August, 1919",
+                        "8th July, 1918",
+                        "23rd March, 1917",
+                        "13th February, 1916"
+                    ],
+                    "a": 1,
+                    "ex": "The Montagu-Chelmsford Report was published on 8th July, 1918."
+                },
+                {
+                    "q": "Identify the last ghazwa in which Holy prophet (PBUH) participated",
+                    "options": [
+                        "Ghazwa Hunain",
+                        "Ghazwa Mutah",
+                        "Ghazwa Ahzab",
+                        "Ghazwa tabuk"
+                    ],
+                    "a": 3,
+                    "ex": "The last Ghazwa in which the Holy Prophet (PBUH) participated was Ghazwa Tabuk."
+                },
+                {
+                    "q": "Where is the Headquarter of ASEAN located?",
+                    "options": [
+                        "Jakarta",
+                        "Geneva",
+                        "Hague",
+                        "None"
+                    ],
+                    "a": 0,
+                    "ex": "The Headquarter of ASEAN is located in Jakarta, Indonesia."
+                },
+                {
+                    "q": "The meaning of word RISALAT is________?",
+                    "options": [
+                        "Leader",
+                        "Guide",
+                        "Messenger",
+                        "Worker",
+                        "None of these"
+                    ],
+                    "a": 2,
+                    "ex": "Risalat means messengership or the mission of a Messenger (Prophet)."
+                },
+                {
+                    "q": "When the first constitution was abrogated and the first martial law was enforced?",
+                    "options": [
+                        "January 1958",
+                        "April 1958",
+                        "June 1958",
+                        "October 1958"
+                    ],
+                    "a": 3,
+                    "ex": "The first constitution of Pakistan was abrogated and the first martial law was enforced in October 1958."
+                },
+                {
+                    "q": "Test Career highest individual score record 400 runs in one innings is held by?",
+                    "options": [
+                        "ST Jaysuria",
+                        "D G Bradman",
+                        "M.Hayden",
+                        "Brain Lara"
+                    ],
+                    "a": 3,
+                    "ex": "The highest individual score in Test cricket is 400* by Brian Lara."
+                },
+                {
+                    "q": "How many total police stations in Punjab?",
+                    "options": [
+                        "237",
+                        "537",
+                        "737",
+                        "1037"
+                    ],
+                    "a": 4,
+                    "ex": "This number can change. Please refer to the most recent official data for the exact number of police stations in Punjab."
+                },
+                {
+                    "q": "Khanpur dam is situated in ____?",
+                    "options": [
+                        "Indus River",
+                        "Haro River",
+                        "Gomal River",
+                        "Mangol River"
+                    ],
+                    "a": 1,
+                    "ex": "Khanpur Dam is built on the Haro River."
+                },
+                {
+                    "q": "Who was the first governor of Province of Balochistan?",
+                    "options": [
+                        "Riaz Hussain",
+                        "Ghous Bakhsh Raisani",
+                        "Ghaus Bakhsh Bizenjo",
+                        "Akbar Bugti"
+                    ],
+                    "a": 2,
+                    "ex": "Mir Ghaus Bakhsh Bizenjo was the first civilian governor of Balochistan."
+                },
+                {
+                    "q": "British Indian Association was formed in _____?",
+                    "options": [
+                        "1872",
+                        "1851",
+                        "1881",
+                        "1876"
+                    ],
+                    "a": 1,
+                    "ex": "The British Indian Association was formed in 1851."
+                },
+                {
+                    "q": "You should adapt _____ your environment.",
+                    "options": [
+                        "With",
+                        "To",
+                        "Of",
+                        "About"
+                    ],
+                    "a": 1,
+                    "ex": "The correct preposition is 'to'. You adapt to your environment."
+                },
+                {
+                    "q": "Choose the correct spelling: Gazatte, Gazette, Gazete, Gazet",
+                    "options": [
+                        "Gazatte",
+                        "Gazette",
+                        "Gazete",
+                        "Gazet"
+                    ],
+                    "a": 1,
+                    "ex": "The correct spelling is 'Gazette'."
+                },
+                {
+                    "q": "Choose the correct spelling: Miscellaneous, Missellaneous, Misscellaneous, Misscellanious",
+                    "options": [
+                        "Miscellaneous",
+                        "Missellaneous",
+                        "Misscellaneous",
+                        "Misscellanious"
+                    ],
+                    "a": 0,
+                    "ex": "The correct spelling is 'Miscellaneous'."
+                },
+                {
+                    "q": "Choose the correct spelling: Pairallel, Peiralel, Parallel, Parrallell",
+                    "options": [
+                        "Pairallel",
+                        "Peiralel",
+                        "Parallel",
+                        "Parrallell"
+                    ],
+                    "a": 2,
+                    "ex": "The correct spelling is 'Parallel'."
+                },
+                {
+                    "q": "Choose the correct spelling: Advanturous, Addventoros, Adventurose, Adventurous",
+                    "options": [
+                        "Advanturous",
+                        "Addventoros",
+                        "Adventurose",
+                        "Adventurous"
+                    ],
+                    "a": 3,
+                    "ex": "The correct spelling is 'Adventurous'."
+                },
+                {
+                    "q": "He said, “I shall come tomorrow”. (Change into indirect speech).",
+                    "options": [
+                        "He said that he would come the following day.",
+                        "He said he would come the following day.",
+                        "He said that he would come tomorrow.",
+                        "He said that he will come the following day."
+                    ],
+                    "a": 0,
+                    "ex": "In indirect speech, 'tomorrow' changes to 'the following day' and 'shall' changes to 'would'."
+                },
+                {
+                    "q": "He said, “I passed the examination long ago”. (Change into indirect speech).",
+                    "options": [
+                        "He said I passed the examination.",
+                        "He said that he had passed the examination long before.",
+                        "He said he had passed the examination long before.",
+                        "He asked that he has passed the examination long before."
+                    ],
+                    "a": 1,
+                    "ex": "In indirect speech, the past simple ('passed') changes to the past perfect ('had passed') and 'ago' changes to 'before' or 'earlier'."
+                },
+                {
+                    "q": "Synonyms of “Disclose” is?",
+                    "options": [
+                        "Reveal",
+                        "Love",
+                        "Conceal",
+                        "Resolve"
+                    ],
+                    "a": 0,
+                    "ex": "The synonym of 'disclose' (to make known) is 'reveal'."
+                },
+                {
+                    "q": "You can’t take hot coffee. What is hot in grammar?",
+                    "options": [
+                        "Adjective",
+                        "Adverb",
+                        "Noun",
+                        "Pronoun"
+                    ],
+                    "a": 0,
+                    "ex": "'Hot' describes the noun 'coffee', so it is an adjective."
+                },
+                {
+                    "q": "The leopard runs. What is runs in grammar?",
+                    "options": [
+                        "Verb",
+                        "Word",
+                        "Noun",
+                        "Preposition"
+                    ],
+                    "a": 0,
+                    "ex": "'Runs' is an action word, so it is a verb."
+                },
+                {
+                    "q": "The officer was ______ the seat.",
+                    "options": [
+                        "In",
+                        "By",
+                        "With",
+                        "Of"
+                    ],
+                    "a": 1,
+                    "ex": "The most appropriate preposition in this context is 'by'."
+                },
+                {
+                    "q": "Hurrah! We have got the prize. Which kind of sentence is this?",
+                    "options": [
+                        "Sentence of Request",
+                        "Sentence of Order",
+                        "Exclamatory sentence",
+                        "Interrogative Sentence"
+                    ],
+                    "a": 2,
+                    "ex": "The sentence expresses strong emotion and ends with an exclamation mark, making it an exclamatory sentence."
+                },
+                {
+                    "q": "She said, “Is this your book?” (Change into indirect speech).",
+                    "options": [
+                        "She asked if that was her book.",
+                        "She asked if that was my book.",
+                        "She asked if this was her book.",
+                        "She asked if this was his book."
+                    ],
+                    "a": 1,
+                    "ex": "In indirect speech, 'this' can change to 'that', and 'your' changes based on who 'she' is talking to (assumed to be 'me' in this context, thus 'my')."
+                },
+                {
+                    "q": "Which area is called Pearl of Himalaya",
+                    "options": [
+                        "Kaghan",
+                        "Sawat",
+                        "Naran",
+                        "Chitral"
+                    ],
+                    "a": 0,
+                    "ex": "Kaghan Valley is often referred to as the 'Pearl of the Himalayas'."
+                },
+                {
+                    "q": "12% of 1200 =?",
+                    "options": [
+                        "124",
+                        "120",
+                        "140",
+                        "144"
+                    ],
+                    "a": 3,
+                    "ex": "12% of 1200 = (12/100) * 1200 = 12 * 12 = 144."
+                },
+                {
+                    "q": "(4% of 400)(3% of 300) =?",
+                    "options": [
+                        "16",
+                        "144",
+                        "12",
+                        "48"
+                    ],
+                    "a": 1,
+                    "ex": "4% of 400 = (4/100) * 400 = 16. 3% of 300 = (3/100) * 300 = 9. (16)(9) = 144."
+                },
+                {
+                    "q": "Six men earn as much as 7 women, 2 women as much as 3 boys and 4 boys as much as 5 girls. If a girl earns Rs.400.00 a week what does a man earn in a day.",
+                    "options": [
+                        "Rs.150.00",
+                        "Rs.125.00",
+                        "Rs.200.00",
+                        "Rs.175.00"
+                    ],
+                    "a": 4,
+                    "ex": "This requires a step-by-step calculation based on the ratios of earnings. Assuming a 7-day week for daily earning calculation: 5 girls = 4 boys, so 1 boy = 5/4 girls. If a girl earns Rs.400/week, a boy earns (5/4)*400 = Rs.500/week. 2 women = 3 boys, so 1 woman = 3/2 boys. A woman earns (3/2)*500 = Rs.750/week. 6 men = 7 women, so 1 man = 7/6 women. A man earns (7/6)*750 = Rs.875/week. Daily earning for a man (assuming 7 days) = 875/7 = Rs.125/day. The options seem to be based on daily earnings. If a girl earns Rs.400/week, let's assume this is for a certain number of working days. The relationships are given in terms of earning capacity over the same period (implied). Let's calculate daily earnings assuming a 7-day week. Girl's daily earning = 400/7. 4 boys earn as much as 5 girls, so 4 * (Boy's daily earning) = 5 * (400/7). Boy's daily earning = (5/4) * (400/7) = 500/7. 2 women earn as much as 3 boys, so 2 * (Woman's daily earning) = 3 * (500/7). Woman's daily earning = (3/2) * (500/7) = 750/7. 6 men earn as much as 7 women, so 6 * (Man's daily earning) = 7 * (750/7). 6 * (Man's daily earning) = 750. Man's daily earning = 750/6 = Rs. 125.00."
+                }
+            ]
+        }
+    ]
+}
