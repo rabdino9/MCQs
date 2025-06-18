@@ -1,1 +1,290 @@
-
+{
+    "meta": {
+        "title": "PPSC FPSC BPSC KPPS",
+        "description": "Multiple choice questions from the Excise and Taxation Inspector PPSC Past Paper held in the Evening, 2024.",
+        "keywords": "PPSC, Excise and Taxation Inspector, Past Paper, MCQs, 2024"
+    },
+    "subcategories": [
+        {
+            "id": "excise-taxation-inspector-ppsc",
+            "title": "Excise and Taxation Inspector PPSC Past Papers 2024 Evening",
+            "questions": [
+                {
+                    "q": "The book “A leadership Odyssey” is written by",
+                    "options": [
+                        "Sir Syed",
+                        "Stanley Wolpert",
+                        "Sikandar Hayat",
+                        "None of these"
+                    ],
+                    "a": 2,
+                    "ex": "The book 'A Leadership Odyssey' is written by Sikandar Hayat."
+                },
+                {
+                    "q": "Which city is called the Gateway of Pakistan:",
+                    "options": [
+                        "Lahore",
+                        "Islamabad",
+                        "Karachi",
+                        "Gwadar"
+                    ],
+                    "a": 2,
+                    "ex": "Karachi is often referred to as the Gateway of Pakistan."
+                },
+                {
+                    "q": "The continent of Europe is separated from Asia by:",
+                    "options": [
+                        "A. Ural mountain",
+                        "B. Part of Caspian",
+                        "C. Option A&B",
+                        "D. None of the above"
+                    ],
+                    "a": 2,
+                    "ex": "The Ural Mountains and parts of the Caspian Sea form a natural boundary between Europe and Asia."
+                },
+                {
+                    "q": "How many rings are on the Olympics?",
+                    "options": [
+                        "A. 7",
+                        "B. 4",
+                        "C. 6",
+                        "D. 5"
+                    ],
+                    "a": 3,
+                    "ex": "There are five rings on the Olympic flag."
+                },
+                {
+                    "q": "Who was the U.S. president during the U-2 crisis?",
+                    "options": [
+                        "John F. Kennedy",
+                        "Dwight D. Eisenhower",
+                        "Richard Nixon",
+                        "Harry S. Truman"
+                    ],
+                    "a": 1,
+                    "ex": "Dwight D. Eisenhower was the U.S. president during the U-2 crisis in 1960."
+                },
+                {
+                    "q": "Sharm al-Sheikh is located in:",
+                    "options": [
+                        "Saudi Arabia",
+                        "Jordan",
+                        "Egypt",
+                        "Lebanon"
+                    ],
+                    "a": 2,
+                    "ex": "Sharm al-Sheikh is a city on the southern tip of the Sinai Peninsula, in Egypt."
+                },
+                {
+                    "q": "A hybrid computer is:",
+                    "options": [
+                        "Resembles digital computer",
+                        "resembles analogue computer",
+                        "Resembles both digital and analogue",
+                        "None of these"
+                    ],
+                    "a": 2,
+                    "ex": "A hybrid computer combines features of both analog and digital computers."
+                },
+                {
+                    "q": "Brain of computer is:",
+                    "options": [
+                        "ALU",
+                        "CPU",
+                        "AU",
+                        "None"
+                    ],
+                    "a": 1,
+                    "ex": "The CPU (Central Processing Unit) is considered the brain of the computer."
+                },
+                {
+                    "q": "The members of the International court of justice shall be elected for:",
+                    "options": [
+                        "10 years",
+                        "8 years",
+                        "9 years",
+                        "None"
+                    ],
+                    "a": 2,
+                    "ex": "Judges of the International Court of Justice are elected for a term of nine years."
+                },
+                {
+                    "q": "In the sentence “He is a good athlete”, the word “athlete” is:",
+                    "options": [
+                        "Pronoun",
+                        "Adverb",
+                        "Adjective",
+                        "Noun"
+                    ],
+                    "a": 3,
+                    "ex": "The word 'athlete' is a noun, referring to a person who is proficient in sports and other forms of physical exercise."
+                },
+                {
+                    "q": "What do the 5 Olympic rings represent?",
+                    "options": [
+                        "Five cities",
+                        "Five countries",
+                        "Five people",
+                        "Five continent"
+                    ],
+                    "a": 3,
+                    "ex": "The five rings represent the five inhabited continents of the world: Africa, the Americas, Asia, Europe, and Oceania."
+                },
+                {
+                    "q": "Nandana Fort is located in:",
+                    "options": [
+                        "Punjab",
+                        "KPK",
+                        "Sind",
+                        "Baluchistan"
+                    ],
+                    "a": 0,
+                    "ex": "Nandana Fort is located in the Punjab province of Pakistan."
+                },
+                {
+                    "q": "Who was the first Secretary General of the United Nations?",
+                    "options": [
+                        "Trygve Halvdan Lie",
+                        "Dag Hammarskjold",
+                        "Kurt Walheion",
+                        "U Thant"
+                    ],
+                    "a": 0,
+                    "ex": "Trygve Halvdan Lie was the first Secretary-General of the United Nations."
+                },
+                {
+                    "q": "Mehrgarh Civilization found in:",
+                    "options": [
+                        "Balochistan",
+                        "Sind",
+                        "KPK",
+                        "None of these"
+                    ],
+                    "a": 0,
+                    "ex": "The Mehrgarh civilization is an archaeological site located in Balochistan, Pakistan."
+                },
+                {
+                    "q": "Jhangir Khan is famous in which sports?",
+                    "options": [
+                        "Squash",
+                        "Hockey",
+                        "Cricket",
+                        "Boxing"
+                    ],
+                    "a": 0,
+                    "ex": "Jahangir Khan is a legendary figure in the sport of Squash."
+                },
+                {
+                    "q": "East Germany, North Korea and Cambodia were recognized during the reign of which prime minister:",
+                    "options": [
+                        "Nawaz Sharif",
+                        "Liaqat Ali Khan",
+                        "Zulfikar Ali Bhutto",
+                        "None of these"
+                    ],
+                    "a": 2,
+                    "ex": "These countries were recognized during the premiership of Zulfikar Ali Bhutto."
+                },
+                {
+                    "q": "I can not come to see you _ tomorrow:",
+                    "options": [
+                        "By",
+                        "Till",
+                        "Until",
+                        "Unless"
+                    ],
+                    "a": 2,
+                    "ex": "'Until' or 'till' are typically used in this context to indicate a time limit. 'Until' is generally more formal than 'till'."
+                },
+                {
+                    "q": "The intensity of an earthquake is measured on:",
+                    "options": [
+                        "Beaufort scale",
+                        "Richter scale",
+                        "Mohs scale",
+                        "None of these"
+                    ],
+                    "a": 1,
+                    "ex": "The intensity of an earthquake is commonly measured on the Richter scale or the Moment Magnitude Scale."
+                },
+                {
+                    "q": "How many lakes are in the African Great Lakes?",
+                    "options": [
+                        "5",
+                        "7",
+                        "8",
+                        "5"
+                    ],
+                    "a": 2,
+                    "ex": "There are typically considered to be seven or eight major lakes in the African Great Lakes region, depending on the definition used."
+                },
+                {
+                    "q": "What is the extension for a graphical file?",
+                    "options": [
+                        "JPG",
+                        "GIF",
+                        "PNG",
+                        "All of These"
+                    ],
+                    "a": 3,
+                    "ex": "JPG, GIF, and PNG are all common file extensions for graphical files."
+                },
+                {
+                    "q": "Cape Town is a city in which country?",
+                    "options": [
+                        "Australia",
+                        "Canada",
+                        "New Zealand",
+                        "South Africa"
+                    ],
+                    "a": 3,
+                    "ex": "Cape Town is a port city on South Africa’s southwest coast."
+                },
+                {
+                    "q": "The foundation stone of Jinnah’s Mausoleum was laid by Field Marshal Mohammed Ayub Khan on:",
+                    "options": [
+                        "A. 31 August 1965",
+                        "B. 30 March 1960",
+                        "C. 25 Feb 1958",
+                        "D. 31 July 1960"
+                    ],
+                    "a": 1,
+                    "ex": "The foundation stone of Mazar-e-Quaid was laid by President Ayub Khan on March 31, 1960."
+                },
+                {
+                    "q": "Which hemisphere is warming faster than the other?",
+                    "options": [
+                        "Southern Hemisphere",
+                        "Eastern Hemisphere",
+                        "Northern Hemisphere",
+                        "Western Hemisphere"
+                    ],
+                    "a": 2,
+                    "ex": "The Northern Hemisphere is generally warming faster than the Southern Hemisphere due to the distribution of landmasses and feedback loops."
+                },
+                {
+                    "q": "What is used to access information on the Internet?",
+                    "options": [
+                        "Use a word processor",
+                        "Check a physical book",
+                        "Run a diagnostic tool",
+                        "A web browser"
+                    ],
+                    "a": 3,
+                    "ex": "A web browser is the primary software application used to access information on the Internet."
+                },
+                {
+                    "q": "How many nephrons are there _____ per kidney in humans?",
+                    "options": [
+                        "A. 5 million",
+                        "B. 3 million",
+                        "C. 1 million",
+                        "D. 10 million"
+                    ],
+                    "a": 2,
+                    "ex": "Each human kidney contains approximately 1 million nephrons."
+                }
+            ]
+        }
+    ]
+}
