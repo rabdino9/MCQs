@@ -1,1 +1,730 @@
-
+{
+    "meta": {
+        "title": "NTS Past Paper MCQs",
+        "description": "MCQs from NTS.",
+        "keywords": "cpwb, child attendant, past paper, mcqs, quiz"
+    },
+    "subcategories": [
+        {
+            "id": "cpwb-child-attendant-past-paper",
+            "title": "CPWB Child Attendant Past Paper 18-05-2025",
+            "questions": [
+                {
+                    "q": "The word Pakistan first coined by?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Allama Muhammad Iqbal",
+                        "Chaudhry Rehmat Ali",
+                        "Sir Syed Ahmed Khan"
+                    ],
+                    "a": 2,
+                    "ex": "The word 'Pakistan' was coined by Chaudhry Rehmat Ali in 1933."
+                },
+                {
+                    "q": "Which is the currency of Saudi Arabia?",
+                    "options": [
+                        "Dinar",
+                        "Dirham",
+                        "Riyal",
+                        "Pound"
+                    ],
+                    "a": 2,
+                    "ex": "The currency of Saudi Arabia is the Saudi Riyal."
+                },
+                {
+                    "q": "How can the practitioner best help a child aged 3 years to settle into the home-based setting?",
+                    "options": [
+                        "Leave the child alone to explore",
+                        "Encourage immediate interaction with other children",
+                        "Allow the child to bring a comfort item from home and stay close initially",
+                        "Introduce loud and energetic activities"
+                    ],
+                    "a": 2,
+                    "ex": "Allowing the child to have a comfort item and providing close support initially helps them feel secure and settle."
+                },
+                {
+                    "q": "Children who suffer from a disease which prevents them from eating gluten should avoid foods containing",
+                    "options": [
+                        "Dairy",
+                        "Sugar",
+                        "Wheat, barley, and rye",
+                        "Nuts"
+                    ],
+                    "a": 2,
+                    "ex": "Gluten is a protein found in wheat, barley, and rye. Children with gluten intolerance or celiac disease must avoid these grains."
+                },
+                {
+                    "q": "When setting boundaries for children aged 5 years, adults should:",
+                    "options": [
+                        "Be inconsistent to allow for flexibility",
+                        "Provide clear and simple rules with consistent enforcement",
+                        "Set boundaries but rarely enforce them",
+                        "Expect children to set their own boundaries"
+                    ],
+                    "a": 1,
+                    "ex": "Clear, simple, and consistently enforced boundaries help 5-year-olds understand expectations and feel secure."
+                },
+                {
+                    "q": "A child has vomited heavily after a hard bump on the head. Which of the following is the immediate action to take?",
+                    "options": [
+                        "Give the child water",
+                        "Put the child to bed",
+                        "Seek immediate medical attention",
+                        "Give the child pain medication"
+                    ],
+                    "a": 2,
+                    "ex": "Heavy vomiting after a head bump can indicate a concussion or more serious injury, requiring immediate medical attention."
+                },
+                {
+                    "q": "What activity can help children to learn about shape and space?",
+                    "options": [
+                        "Reading a book",
+                        "Playing with building blocks or puzzles",
+                        "Singing songs",
+                        "Running in the garden"
+                    ],
+                    "a": 1,
+                    "ex": "Activities like playing with building blocks and puzzles help children understand spatial relationships and different shapes."
+                },
+                {
+                    "q": "Which part of a child’s body is most likely to develop a verruca?",
+                    "options": [
+                        "Hands",
+                        "Face",
+                        "Feet",
+                        "Scalp"
+                    ],
+                    "a": 2,
+                    "ex": "Verrucas (plantar warts) commonly develop on the soles of the feet."
+                },
+                {
+                    "q": "A child in an early years setting slips and grazes an arm. What is the main reason for informing the child’s parents of this incident?",
+                    "options": [
+                        "To assign blame for the incident",
+                        "To keep them informed about their child's well-being and any injuries",
+                        "To request payment for first aid supplies",
+                        "To ask them to discipline the child"
+                    ],
+                    "a": 1,
+                    "ex": "It is essential to keep parents informed about any incidents or injuries involving their child for transparency and their awareness of the child's well-being."
+                },
+                {
+                    "q": "___ method of meeting special education needs in the ordinary school which is often contrasted with approaches based on ideas of deficit or defect, as in the medical model.",
+                    "options": [
+                        "Segregation",
+                        "Inclusion",
+                        "Exclusion",
+                        "Mainstreaming"
+                    ],
+                    "a": 1,
+                    "ex": "Inclusion is an approach that emphasizes supporting children with special educational needs within mainstream schools, contrasting with deficit-based models."
+                },
+                {
+                    "q": "Who is the Head of the State of Pakistan?",
+                    "options": [
+                        "Prime Minister",
+                        "Chief Justice",
+                        "President",
+                        "Army Chief"
+                    ],
+                    "a": 2,
+                    "ex": "The Head of the State of Pakistan is the President."
+                },
+                {
+                    "q": "When first constitution of Pakistan was enforced?",
+                    "options": [
+                        "14th August 1947",
+                        "23rd March 1956",
+                        "16th December 1971",
+                        "14th August 1973"
+                    ],
+                    "a": 1,
+                    "ex": "The first constitution of Pakistan was enforced on 23rd March 1956."
+                },
+                {
+                    "q": "f(x)=x ^2 −2x ^3 What is the value of f(3)?",
+                    "options": [
+                        "9",
+                        "-45",
+                        "27",
+                        "-27"
+                    ],
+                    "a": 1,
+                    "ex": "f(3) = (3)^2 - 2*(3)^3 = 9 - 2*27 = 9 - 54 = -45."
+                },
+                {
+                    "q": "Which activity is typically not expected from a toddler (around 2 years old)?",
+                    "options": [
+                        "Running and jumping",
+                        "Building complex block structures",
+                        "Speaking in short sentences",
+                        "Eating independently"
+                    ],
+                    "a": 1,
+                    "ex": "While toddlers can stack blocks, building complex structures is typically a skill that develops later."
+                },
+                {
+                    "q": "A child who can read and write well is usually around what age?",
+                    "options": [
+                        "3-4 years old",
+                        "5-6 years old",
+                        "7-8 years old",
+                        "9-10 years old"
+                    ],
+                    "a": 2,
+                    "ex": "Children typically develop fluent reading and writing skills around 7-8 years old, although this can vary."
+                },
+                {
+                    "q": "A 2-year-old child usually begins to?",
+                    "options": [
+                        "Ride a bicycle independently",
+                        "Have complex conversations",
+                        "Use two-word phrases",
+                        "Solve complex math problems"
+                    ],
+                    "a": 2,
+                    "ex": "Two-year-olds are typically beginning to combine words into short phrases."
+                },
+                {
+                    "q": "If a child is prohibited from eating gluten, which of the following foods should be avoided?",
+                    "options": [
+                        "Rice",
+                        "Corn",
+                        "Oats (unless certified gluten-free)",
+                        "Potatoes"
+                    ],
+                    "a": 2,
+                    "ex": "While oats are naturally gluten-free, they are often cross-contaminated during processing, so certified gluten-free oats should be used."
+                },
+                {
+                    "q": "A 2-year-old child who frequently leans or slides to one side might have difficulty with?",
+                    "options": [
+                        "Vision",
+                        "Hearing",
+                        "Balance and coordination",
+                        "Speech"
+                    ],
+                    "a": 2,
+                    "ex": "Leaning or sliding to one side can indicate difficulties with balance and coordination at this age."
+                },
+                {
+                    "q": "Stuttering is a difficulty in?",
+                    "options": [
+                        "Understanding language",
+                        "Producing fluent speech",
+                        "Reading comprehension",
+                        "Writing letters"
+                    ],
+                    "a": 1,
+                    "ex": "Stuttering is a speech disorder characterized by disruptions in the fluency of speech."
+                },
+                {
+                    "q": "Greenland is an autonomous territory owned by which country?",
+                    "options": [
+                        "Canada",
+                        "Iceland",
+                        "Norway",
+                        "Denmark"
+                    ],
+                    "a": 3,
+                    "ex": "Greenland is an autonomous territory within the Kingdom of Denmark."
+                },
+                {
+                    "q": "Which part of the cell is not present in both animals and plants?",
+                    "options": [
+                        "Cell membrane",
+                        "Nucleus",
+                        "Cell wall",
+                        "Mitochondria"
+                    ],
+                    "a": 2,
+                    "ex": "Animal cells do not have a cell wall; this is a characteristic of plant cells."
+                },
+                {
+                    "q": "The shortest Surah of the Holy Quran is _____?",
+                    "options": [
+                        "Surah Al-Fatiha",
+                        "Surah Al-Ikhlas",
+                        "Surah Al-Kawthar",
+                        "Surah An-Nas"
+                    ],
+                    "a": 2,
+                    "ex": "Surah Al-Kawthar is the shortest Surah of the Holy Quran."
+                },
+                {
+                    "q": "Who was the first president of All India Muslim League?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Sir Syed Ahmed Khan",
+                        "Aga Khan III",
+                        "Nawab Waqar-ul-Mulk"
+                    ],
+                    "a": 2,
+                    "ex": "Sir Agha Khan III was the first president of the All India Muslim League."
+                },
+                {
+                    "q": "Animal cells do not make their own food because they do not have _____?",
+                    "options": [
+                        "Mitochondria",
+                        "Nucleus",
+                        "Chloroplasts",
+                        "Cell membrane"
+                    ],
+                    "a": 2,
+                    "ex": "Animal cells lack chloroplasts, which are necessary for photosynthesis (making food)."
+                },
+                {
+                    "q": "Suez canal is located in ____?",
+                    "options": [
+                        "Jordan",
+                        "Egypt",
+                        "Syria",
+                        "Lebanon"
+                    ],
+                    "a": 1,
+                    "ex": "The Suez Canal is located in Egypt."
+                },
+                {
+                    "q": "Which is the most widely spoken language in Pakistan?",
+                    "options": [
+                        "Urdu",
+                        "Punjabi",
+                        "Sindhi",
+                        "Pashto"
+                    ],
+                    "a": 1,
+                    "ex": "Punjabi is the most widely spoken language in Pakistan, though Urdu is the official language."
+                },
+                {
+                    "q": "The largest Island of the world is _____?",
+                    "options": [
+                        "New Guinea",
+                        "Borneo",
+                        "Madagascar",
+                        "Greenland"
+                    ],
+                    "a": 3,
+                    "ex": "Greenland is the world's largest island."
+                },
+                {
+                    "q": "Space rockets use fuel which is liquid oxygen mixed with liquid?",
+                    "options": [
+                        "Nitrogen",
+                        "Hydrogen",
+                        "Helium",
+                        "Methane"
+                    ],
+                    "a": 1,
+                    "ex": "Space rockets often use liquid hydrogen as fuel with liquid oxygen as an oxidizer."
+                },
+                {
+                    "q": "Objects that gives out light of their own are said to be?",
+                    "options": [
+                        "Transparent",
+                        "Opaque",
+                        "Luminous",
+                        "Translucent"
+                    ],
+                    "a": 2,
+                    "ex": "Objects that emit their own light are called luminous objects."
+                },
+                {
+                    "q": "Which of the following is considered the Deepest lake of the world?",
+                    "options": [
+                        "Lake Superior",
+                        "Lake Tanganyika",
+                        "Lake Baikal",
+                        "Caspian Sea"
+                    ],
+                    "a": 2,
+                    "ex": "Lake Baikal in Russia is the deepest lake in the world."
+                },
+                {
+                    "q": "To whom Lord Mountbatten succeeded as Governor General of India?",
+                    "options": [
+                        "Lord Wavell",
+                        "Lord Linlithgow",
+                        "Lord Ripon",
+                        "Lord Curzon"
+                    ],
+                    "a": 0,
+                    "ex": "Lord Mountbatten succeeded Lord Wavell as the last Viceroy and first Governor-General of independent India."
+                },
+                {
+                    "q": "Who became the Governor General Of Pakistan after the death of Quiad-e-Azam Muhammad Ali Jinnah?",
+                    "options": [
+                        "Liaquat Ali Khan",
+                        "Khawaja Nazimuddin",
+                        "Ghulam Muhammad",
+                        "Iskander Mirza"
+                    ],
+                    "a": 1,
+                    "ex": "Khawaja Nazimuddin became the Governor-General of Pakistan after the death of Muhammad Ali Jinnah."
+                },
+                {
+                    "q": "The luminous body emits _____?",
+                    "options": [
+                        "Heat",
+                        "Sound",
+                        "Light",
+                        "Radiation"
+                    ],
+                    "a": 2,
+                    "ex": "A luminous body emits light."
+                },
+                {
+                    "q": "Qadianis were declared as Non-Muslims during the government of _____?",
+                    "options": [
+                        "Muhammad Ali Jinnah",
+                        "Zulfiqar Ali Bhutto",
+                        "Muhammad Zia-ul-Haq",
+                        "Nawaz Sharif"
+                    ],
+                    "a": 1,
+                    "ex": "Qadianis were declared as non-Muslims during the government of Zulfiqar Ali Bhutto."
+                },
+                {
+                    "q": "The major segment of “Saraiki” speaking population lives in _____?",
+                    "options": [
+                        "Sindh",
+                        "Khyber Pakhtunkhwa",
+                        "Balochistan",
+                        "Punjab"
+                    ],
+                    "a": 3,
+                    "ex": "The major segment of the Saraiki speaking population lives in South Punjab."
+                },
+                {
+                    "q": "Jahangir khan is a famous player in which game?",
+                    "options": [
+                        "Cricket",
+                        "Hockey",
+                        "Squash",
+                        "Tennis"
+                    ],
+                    "a": 2,
+                    "ex": "Jahangir Khan is a legendary professional squash player."
+                },
+                {
+                    "q": "Who was the last governor of undivided Punjab?",
+                    "options": [
+                        "Sir Evan Jenkins",
+                        "Sir Francis Mudie",
+                        "Sir Robert Lockhart",
+                        "Sir George Cunningham"
+                    ],
+                    "a": 0,
+                    "ex": "Sir Evan Jenkins was the last British Governor of the undivided Punjab."
+                },
+                {
+                    "q": "Sound cannot travel through ______?",
+                    "options": [
+                        "Air",
+                        "Water",
+                        "Vacuum",
+                        "Solids"
+                    ],
+                    "a": 2,
+                    "ex": "Sound waves require a medium to travel and cannot propagate through a vacuum."
+                },
+                {
+                    "q": "Mahathir Mohamad was the Prime Minister of which country?",
+                    "options": [
+                        "Indonesia",
+                        "Malaysia",
+                        "Singapore",
+                        "Thailand"
+                    ],
+                    "a": 1,
+                    "ex": "Mahathir Mohamad served as the Prime Minister of Malaysia."
+                },
+                {
+                    "q": "Muhammad Ali was famous for?",
+                    "options": [
+                        "Singing",
+                        "Acting",
+                        "Boxing",
+                        "Painting"
+                    ],
+                    "a": 2,
+                    "ex": "Muhammad Ali was a world-renowned professional boxer."
+                },
+                {
+                    "q": "Which of the following prayers does not include Azan?",
+                    "options": [
+                        "Fajr",
+                        "Zuhr",
+                        "Asr",
+                        "Janazah"
+                    ],
+                    "a": 3,
+                    "ex": "The Janazah (funeral) prayer does not have an Azan."
+                },
+                {
+                    "q": "By selling a watch for Rs.144, a man losses 10%. At what price should he sell it in order to gain 15%?",
+                    "options": [
+                        "Rs. 180",
+                        "Rs. 184",
+                        "Rs. 192",
+                        "Rs. 188"
+                    ],
+                    "a": 2,
+                    "ex": "Selling price = 144. Loss = 10%. Cost price = 144 / (1 - 0.10) = 144 / 0.9 = 160. To gain 15%, new selling price = 160 * (1 + 0.15) = 160 * 1.15 = 184."
+                },
+                {
+                    "q": "What is the angle between two hands of the clock at 11'0 clock?",
+                    "options": [
+                        "30 degrees",
+                        "15 degrees",
+                        "45 degrees",
+                        "0 degrees"
+                    ],
+                    "a": 0,
+                    "ex": "At 11 o'clock, the hour hand is on 11 and the minute hand is on 12. The angle between each number on a clock is 30 degrees (360/12). The angle between 11 and 12 is 30 degrees."
+                },
+                {
+                    "q": "25 is 125% of what number?",
+                    "options": [
+                        "15",
+                        "20",
+                        "25",
+                        "30"
+                    ],
+                    "a": 1,
+                    "ex": "Let the number be x. 125% of x = 25. 1.25 * x = 25. x = 25 / 1.25 = 20."
+                },
+                {
+                    "q": "If it takes a machine 1/3 of a minute to produce one item, how many items will it produce in 10 minutes?",
+                    "options": [
+                        "10",
+                        "20",
+                        "30",
+                        "40"
+                    ],
+                    "a": 2,
+                    "ex": "If it takes 1/3 minute for 1 item, then in 1 minute it produces 3 items. In 10 minutes, it will produce 10 * 3 = 30 items."
+                },
+                {
+                    "q": "Complete the sequence: CAX, FDY, IGZ, _____.",
+                    "options": [
+                        "JHA",
+                        "KIB",
+                        "LHC",
+                        "JHB"
+                    ],
+                    "a": 1,
+                    "ex": "The first letter increases by 3 (C->F->I->L), the second letter increases by 3 (A->D->G->J), and the third letter moves to the next letter in the alphabet (X->Y->Z->A). So the next term is LJA."
+                },
+                {
+                    "q": "Kalima Tauheed is at ________ number.",
+                    "options": [
+                        "First",
+                        "Second",
+                        "Third",
+                        "Fourth"
+                    ],
+                    "a": 0,
+                    "ex": "Kalima Tayyibah (Kalima Tauheed) is the first Kalima in Islam."
+                },
+                {
+                    "q": "How many seats were won by the Pakistan Peoples Party in the 1970 election?",
+                    "options": [
+                        "81",
+                        "83",
+                        "160",
+                        "167"
+                    ],
+                    "a": 1,
+                    "ex": "The Pakistan Peoples Party won 83 seats in the 1970 general election in West Pakistan."
+                },
+                {
+                    "q": "Which is the largest lake in Pakistan?",
+                    "options": [
+                        "Manchar Lake",
+                        "Keenjhar Lake",
+                        "Saif-ul-Muluk Lake",
+                        "Attabad Lake"
+                    ],
+                    "a": 0,
+                    "ex": "Manchar Lake is the largest natural freshwater lake in Pakistan."
+                },
+                {
+                    "q": "The fundamental pillar of Islam that requires both Physical and financial sacrifice is known as:",
+                    "options": [
+                        "Salat (Prayer)",
+                        "Zakat (Charity)",
+                        "Sawm (Fasting)",
+                        "Hajj (Pilgrimage)"
+                    ],
+                    "a": 3,
+                    "ex": "Hajj requires both physical travel and financial expenditure, making it the pillar that involves both types of sacrifice."
+                },
+                {
+                    "q": "Who make the final decision in our family system ?",
+                    "options": [
+                        "Children",
+                        "Mother",
+                        "Father",
+                        "Grandparents"
+                    ],
+                    "a": 2,
+                    "ex": "In many traditional family systems, the father is considered the head of the household and makes the final decisions. However, modern family dynamics can vary."
+                },
+                {
+                    "q": "Antonym: Destroy",
+                    "options": [
+                        "Demolish",
+                        "Ruin",
+                        "Create",
+                        "Break"
+                    ],
+                    "a": 2,
+                    "ex": "The antonym of destroy (to ruin or pull down) is create (to bring something into existence)."
+                },
+                {
+                    "q": "Which of the following is a tissue?",
+                    "options": [
+                        "Heart",
+                        "Blood",
+                        "Brain",
+                        "Lung"
+                    ],
+                    "a": 1,
+                    "ex": "Blood is considered a connective tissue."
+                },
+                {
+                    "q": "The mausoleum of Sheikh Baha-ud-Din Zakaraiya is located in the city of?",
+                    "options": [
+                        "Lahore",
+                        "Multan",
+                        "Karachi",
+                        "Peshawar"
+                    ],
+                    "a": 1,
+                    "ex": "The mausoleum of Sheikh Baha-ud-Din Zakariya is located in Multan."
+                },
+                {
+                    "q": "Who built tomb of Shah Abdul Latif?",
+                    "options": [
+                        "Shah Jahan",
+                        "Aurangzeb",
+                        "Ghulam Shah Kalhoro",
+                        "Mian Mir"
+                    ],
+                    "a": 2,
+                    "ex": "The tomb of Shah Abdul Latif Bhittai was built by Ghulam Shah Kalhoro."
+                },
+                {
+                    "q": "Karakorum Highway is built with the help of ----",
+                    "options": [
+                        "Russia",
+                        "India",
+                        "China",
+                        "USA"
+                    ],
+                    "a": 2,
+                    "ex": "The Karakoram Highway was built with the assistance of China."
+                },
+                {
+                    "q": "Which is the city of Shrines and Tombs?",
+                    "options": [
+                        "Lahore",
+                        "Multan",
+                        "Uch Sharif",
+                        "Peshawar"
+                    ],
+                    "a": 1,
+                    "ex": "Multan is often referred to as the 'City of Shrines and Tombs' due to the large number of Sufi shrines located there."
+                },
+                {
+                    "q": "Karakoram Range is located in which part of Himalaya range?",
+                    "options": [
+                        "Western Himalayas",
+                        "Eastern Himalayas",
+                        "Central Himalayas",
+                        "Southern Himalayas"
+                    ],
+                    "a": 0,
+                    "ex": "The Karakoram Range is located in the western part of the greater Himalayan range."
+                },
+                {
+                    "q": "The Karakoram Highway was constructed with the help of?",
+                    "options": [
+                        "Pakistan and India",
+                        "Pakistan and China",
+                        "Pakistan and Afghanistan",
+                        "Pakistan and Iran"
+                    ],
+                    "a": 1,
+                    "ex": "The Karakoram Highway was a joint venture between Pakistan and China."
+                },
+                {
+                    "q": "Siddique and --- the title given to Abu bakkar Siddique?",
+                    "options": [
+                        "Farooq",
+                        "Ghazi",
+                        "Ameer",
+                        "Al-Atiq"
+                    ],
+                    "a": 3,
+                    "ex": "Abu Bakr was given the title 'Al-Atiq' (the saved one) and 'Siddiq' (the truthful)."
+                },
+                {
+                    "q": "What is the name of the Fourth Kalima?",
+                    "options": [
+                        "Kalima Tayyibah",
+                        "Kalima Shahadah",
+                        "Kalima Tamjeed",
+                        "Kalima Tauheed"
+                    ],
+                    "a": 2,
+                    "ex": "The Fourth Kalima is called Kalima Tamjeed."
+                },
+                {
+                    "q": "What is the Capital of United Arab Emirates?",
+                    "options": [
+                        "Dubai",
+                        "Sharjah",
+                        "Abu Dhabi",
+                        "Ajman"
+                    ],
+                    "a": 2,
+                    "ex": "The capital of the United Arab Emirates is Abu Dhabi."
+                },
+                {
+                    "q": "Bhutto declared Labour Policy in which year?",
+                    "options": [
+                        "1970",
+                        "1972",
+                        "1975",
+                        "1977"
+                    ],
+                    "a": 1,
+                    "ex": "Zulfiqar Ali Bhutto announced a new Labour Policy in 1972."
+                },
+                {
+                    "q": "Antonym of ACCEPT",
+                    "options": [
+                        "Agree",
+                        "Receive",
+                        "Refuse",
+                        "Allow"
+                    ],
+                    "a": 2,
+                    "ex": "The antonym of accept (to receive willingly) is refuse (to decline to accept)."
+                },
+                {
+                    "q": "To introduce students to the rhythmic use of locomotive skill; it would be more appropriate to design pattern that include hopping rather than skipping because?",
+                    "options": [
+                        "Hopping is a more complex skill",
+                        "Skipping is a more natural movement",
+                        "Hopping involves a single leg action which can be more easily sequenced rhythmically initially",
+                        "Skipping is easier to teach"
+                    ],
+                    "a": 2,
+                    "ex": "Hopping, involving a single leg, can be easier for young children to coordinate rhythmically before progressing to the more complex alternating leg action of skipping."
+                }
+            ]
+        }
+    ]
+}
