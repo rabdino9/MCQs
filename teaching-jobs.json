@@ -1,1 +1,386 @@
+{
+  "meta": {
+    "title": "Teaching Jobs Past Paper – 100 MCQs",
+    "description": "100 real past-paper style MCQs for PST, JEST, SST and Educator jobs in Pakistan.",
+    "keywords": "teaching jobs past paper, pst jest sst mcqs, educator test pakistan, nts ppsc spsc fpsc"
+  },
+  "subcategories": [
+    {
+      "id": "past_paper_full",
+      "title": "Teaching Jobs Past Paper – Full Length (100 MCQs)",
+      "questions": [
+        {
+          "q": "Founder of Pakistan is:",
+          "options": [
+            "Allama Iqbal",
+            "Quaid-e-Azam",
+            "Liaquat Ali Khan",
+            "Sir Syed Ahmed Khan"
+          ],
+          "a": 1,
+          "ex": "Quaid-e-Azam Muhammad Ali Jinnah founded Pakistan."
+        },
+        {
+          "q": "Pakistan came into being on:",
+          "options": [
+            "23 March 1940",
+            "14 August 1947",
+            "11 September 1948",
+            "26 January 1950"
+          ],
+          "a": 1,
+          "ex": "Pakistan was established on 14 August 1947."
+        },
+        {
+          "q": "National language of Pakistan is:",
+          "options": [
+            "Punjabi",
+            "Sindhi",
+            "Urdu",
+            "English"
+          ],
+          "a": 2,
+          "ex": "Urdu is the national language of Pakistan."
+        },
+        {
+          "q": "Capital of Pakistan is:",
+          "options": [
+            "Karachi",
+            "Lahore",
+            "Islamabad",
+            "Peshawar"
+          ],
+          "a": 2,
+          "ex": "Islamabad is the capital."
+        },
+        {
+          "q": "Largest province by area is:",
+          "options": [
+            "Punjab",
+            "Sindh",
+            "KPK",
+            "Balochistan"
+          ],
+          "a": 3,
+          "ex": "Balochistan is largest by area."
+        },
+        {
+          "q": "How many provinces are there in Pakistan?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "a": 1,
+          "ex": "Pakistan has four provinces."
+        },
+        {
+          "q": "First constitution of Pakistan was enforced in:",
+          "options": [
+            "1956",
+            "1962",
+            "1973",
+            "1947"
+          ],
+          "a": 0,
+          "ex": "First constitution was enforced in 1956."
+        },
+        {
+          "q": "National flower of Pakistan is:",
+          "options": [
+            "Rose",
+            "Jasmine",
+            "Tulip",
+            "Sunflower"
+          ],
+          "a": 1,
+          "ex": "Jasmine is the national flower."
+        },
+        {
+          "q": "Indus River originates from:",
+          "options": [
+            "India",
+            "China",
+            "Afghanistan",
+            "Nepal"
+          ],
+          "a": 1,
+          "ex": "Indus River originates from Tibet (China)."
+        },
+        {
+          "q": "Minar-e-Pakistan is located in:",
+          "options": [
+            "Karachi",
+            "Islamabad",
+            "Lahore",
+            "Multan"
+          ],
+          "a": 2,
+          "ex": "Minar-e-Pakistan is in Lahore."
+        },
+        {
+          "q": "First Surah of Holy Quran is:",
+          "options": [
+            "Al-Baqarah",
+            "Al-Fatiha",
+            "Al-Nas",
+            "Al-Ikhlas"
+          ],
+          "a": 1,
+          "ex": "Al-Fatiha is the first Surah."
+        },
+        {
+          "q": "Total pillars of Islam are:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "a": 2,
+          "ex": "Islam has five pillars."
+        },
+        {
+          "q": "Last Prophet of Islam is:",
+          "options": [
+            "Hazrat Isa (A.S)",
+            "Hazrat Musa (A.S)",
+            "Hazrat Muhammad (PBUH)",
+            "Hazrat Ibrahim (A.S)"
+          ],
+          "a": 2,
+          "ex": "Hazrat Muhammad (PBUH) is the last prophet."
+        },
+        {
+          "q": "Zakat is _____ pillar of Islam.",
+          "options": [
+            "Second",
+            "Third",
+            "Fourth",
+            "Fifth"
+          ],
+          "a": 1,
+          "ex": "Zakat is the third pillar."
+        },
+        {
+          "q": "Hijri calendar is based on:",
+          "options": [
+            "Sun",
+            "Moon",
+            "Stars",
+            "Earth"
+          ],
+          "a": 1,
+          "ex": "Islamic calendar is lunar."
+        },
+        {
+          "q": "Synonym of 'Brave' is:",
+          "options": [
+            "Coward",
+            "Fearful",
+            "Courageous",
+            "Weak"
+          ],
+          "a": 2,
+          "ex": "Courageous means brave."
+        },
+        {
+          "q": "Antonym of 'Success' is:",
+          "options": [
+            "Win",
+            "Progress",
+            "Failure",
+            "Achieve"
+          ],
+          "a": 2,
+          "ex": "Failure is opposite of success."
+        },
+        {
+          "q": "Correct spelling is:",
+          "options": [
+            "Enviroment",
+            "Environment",
+            "Enveronment",
+            "Enviornment"
+          ],
+          "a": 1,
+          "ex": "Correct spelling is Environment."
+        },
+        {
+          "q": "He _____ playing cricket.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "be"
+          ],
+          "a": 0,
+          "ex": "Correct helping verb is 'is'."
+        },
+        {
+          "q": "Past tense of 'Go' is:",
+          "options": [
+            "Goed",
+            "Went",
+            "Gone",
+            "Going"
+          ],
+          "a": 1,
+          "ex": "Past tense of go is went."
+        },
+        {
+          "q": "25% of 400 is:",
+          "options": [
+            "50",
+            "100",
+            "150",
+            "200"
+          ],
+          "a": 1,
+          "ex": "25% of 400 = 100."
+        },
+        {
+          "q": "12 × 8 =",
+          "options": [
+            "86",
+            "92",
+            "96",
+            "108"
+          ],
+          "a": 2,
+          "ex": "12 × 8 = 96."
+        },
+        {
+          "q": "Square of 15 is:",
+          "options": [
+            "225",
+            "215",
+            "235",
+            "245"
+          ],
+          "a": 0,
+          "ex": "15 × 15 = 225."
+        },
+        {
+          "q": "1000 ÷ 20 =",
+          "options": [
+            "40",
+            "45",
+            "50",
+            "60"
+          ],
+          "a": 2,
+          "ex": "1000 divided by 20 equals 50."
+        },
+        {
+          "q": "Average of 10, 20 and 30 is:",
+          "options": [
+            "15",
+            "20",
+            "25",
+            "30"
+          ],
+          "a": 1,
+          "ex": "Average = (10+20+30)/3 = 20."
+        },
+        {
+          "q": "Bloom’s Taxonomy is related to:",
+          "options": [
+            "Learning objectives",
+            "Discipline",
+            "Time table",
+            "Exam rules"
+          ],
+          "a": 0,
+          "ex": "Bloom’s taxonomy categorizes learning objectives."
+        },
+        {
+          "q": "Teaching method focused on students is:",
+          "options": [
+            "Lecture",
+            "Discussion",
+            "Dictation",
+            "Rote"
+          ],
+          "a": 1,
+          "ex": "Discussion method is student-centered."
+        },
+        {
+          "q": "Lesson plan helps teacher to:",
+          "options": [
+            "Waste time",
+            "Teach effectively",
+            "Punish students",
+            "Avoid syllabus"
+          ],
+          "a": 1,
+          "ex": "Lesson plan ensures effective teaching."
+        },
+        {
+          "q": "Continuous assessment means:",
+          "options": [
+            "Annual exam",
+            "Weekly test",
+            "Ongoing evaluation",
+            "Final paper"
+          ],
+          "a": 2,
+          "ex": "It is ongoing evaluation."
+        },
+        {
+          "q": "AV aids are used to:",
+          "options": [
+            "Confuse students",
+            "Improve learning",
+            "Reduce teaching",
+            "Waste time"
+          ],
+          "a": 1,
+          "ex": "AV aids improve understanding."
+        },
+        { "q": "Who presented the Pakistan Resolution in 1940?", "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "A.K. Fazlul Haq", "Allama Iqbal"], "a": 2, "ex": "A.K. Fazlul Haq presented the resolution." },
+  { "q": "National animal of Pakistan is:", "options": ["Lion", "Markhor", "Tiger", "Deer"], "a": 1, "ex": "Markhor is the national animal." },
+  { "q": "Pakistan’s national poet is:", "options": ["Faiz Ahmed Faiz", "Josh Malihabadi", "Allama Iqbal", "Hafeez Jalandhari"], "a": 2, "ex": "Allama Iqbal is national poet." },
+  { "q": "Which city is called City of Lights?", "options": ["Lahore", "Islamabad", "Karachi", "Quetta"], "a": 2, "ex": "Karachi is City of Lights." },
+  { "q": "Pakistan shares longest border with:", "options": ["India", "Iran", "China", "Afghanistan"], "a": 0, "ex": "Pakistan shares longest border with India." },
 
+  { "q": "Total Surahs in Holy Quran are:", "options": ["112", "113", "114", "115"], "a": 2, "ex": "There are 114 Surahs." },
+  { "q": "First mosque in Islam is:", "options": ["Masjid-e-Haram", "Masjid-e-Nabvi", "Masjid-e-Quba", "Masjid-e-Aqsa"], "a": 2, "ex": "Masjid-e-Quba was first mosque." },
+  { "q": "Namaz-e-Fajr has _____ rakats.", "options": ["2", "3", "4", "5"], "a": 0, "ex": "Fajr has 2 rakats." },
+  { "q": "Which angel delivered revelations?", "options": ["Israfeel", "Jibrael", "Mikael", "Izrael"], "a": 1, "ex": "Angel Jibrael delivered revelations." },
+  { "q": "Hajj is performed in:", "options": ["Madina", "Makkah", "Taif", "Jeddah"], "a": 1, "ex": "Hajj is performed in Makkah." },
+
+  { "q": "Choose correct sentence:", "options": ["He go to school", "He goes to school", "He going school", "He gone school"], "a": 1, "ex": "Correct sentence uses 'goes'." },
+  { "q": "Antonym of 'Brave' is:", "options": ["Coward", "Strong", "Bold", "Hero"], "a": 0, "ex": "Coward is opposite of brave." },
+  { "q": "Synonym of 'Happy' is:", "options": ["Sad", "Angry", "Joyful", "Cry"], "a": 2, "ex": "Joyful means happy." },
+  { "q": "Correct plural of 'Child' is:", "options": ["Childs", "Children", "Childes", "Childer"], "a": 1, "ex": "Plural of child is children." },
+  { "q": "She _____ a book yesterday.", "options": ["read", "reads", "reading", "will read"], "a": 0, "ex": "Past tense of read (pronounced red) is read." },
+
+  { "q": "15% of 200 is:", "options": ["20", "25", "30", "35"], "a": 2, "ex": "15% of 200 = 30." },
+  { "q": "9 × 7 =", "options": ["56", "63", "72", "49"], "a": 1, "ex": "9 × 7 = 63." },
+  { "q": "Cube of 3 is:", "options": ["6", "9", "27", "81"], "a": 2, "ex": "3³ = 27." },
+  { "q": "500 ÷ 10 =", "options": ["25", "50", "100", "150"], "a": 1, "ex": "500 divided by 10 equals 50." },
+  { "q": "Which is an even number?", "options": ["3", "5", "7", "8"], "a": 3, "ex": "8 is an even number." },
+
+  { "q": "Teaching focused on learner needs is called:", "options": ["Teacher-centered", "Student-centered", "Lecture method", "Rote learning"], "a": 1, "ex": "Student-centered teaching focuses on learners." },
+  { "q": "Audio visual aids include:", "options": ["Books", "Charts", "Projector", "Notebook"], "a": 2, "ex": "Projector is AV aid." },
+  { "q": "Evaluation means:", "options": ["Punishment", "Assessment", "Teaching", "Planning"], "a": 1, "ex": "Evaluation means assessment." },
+  { "q": "Lesson objectives should be:", "options": ["Unclear", "Measurable", "Hidden", "Ignored"], "a": 1, "ex": "Objectives should be measurable." },
+  { "q": "Question-answer method is used to:", "options": ["Control class", "Check understanding", "Punish students", "Waste time"], "a": 1, "ex": "It checks students’ understanding." },
+
+  { "q": "National game of Pakistan is:", "options": ["Cricket", "Football", "Hockey", "Kabaddi"], "a": 2, "ex": "Hockey is national game." },
+  { "q": "Highest mountain of Pakistan is:", "options": ["Nanga Parbat", "K2", "Everest", "Rakaposhi"], "a": 1, "ex": "K2 is highest mountain." },
+  { "q": "Independence Day of Pakistan is celebrated on:", "options": ["23 March", "14 August", "25 December", "11 September"], "a": 1, "ex": "14 August is Independence Day." },
+  { "q": "Pakistan is an _____ country.", "options": ["Islamic", "Hindu", "Secular", "Communist"], "a": 0, "ex": "Pakistan is Islamic republic." },
+  { "q": "First Prime Minister of Pakistan was:", "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "Ayub Khan", "Iskander Mirza"], "a": 1, "ex": "Liaquat Ali Khan was first PM." },
+
+  { "q": "Which province has largest population?", "options": ["Sindh", "Punjab", "KPK", "Balochistan"], "a": 1, "ex": "Punjab has largest population." },
+  { "q": "Which sea lies south of Pakistan?", "options": ["Red Sea", "Arab Sea", "Caspian Sea", "Mediterranean Sea"], "a": 1, "ex": "Arab Sea lies south of Pakistan." },
+  { "q": "Who wrote Pakistan national anthem lyrics?", "options": ["Allama Iqbal", "Hafeez Jalandhari", "Faiz Ahmed Faiz", "Josh Malihabadi"], "a": 1, "ex": "Lyrics by Hafeez Jalandhari." },
+  { "q": "Which test body conducts Sindh teaching tests?", "options": ["PPSC", "FPSC", "SPSC", "NTS"], "a": 2, "ex": "SPSC conducts Sindh tests." },
+  { "q": "Merit-based recruitment ensures:", "options": ["Favoritism", "Corruption", "Fairness", "Delay"], "a": 2, "ex": "Merit ensures fairness." }
+      ]
+    }
+  ]
+}
