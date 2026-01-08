@@ -108,12 +108,6 @@
     "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/teaching-jobs.json"
   },
   {
-    "id": "fia-asf-nab-customs",
-    "title": "FIA / ASF / NAB / Customs",
-    "icon": "🕵️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/fia-asf-nab-customs.json"
-  },
-  {
     "id": "public-administration-management",
     "title": "Public Administration & Management",
     "icon": "🧑‍💼",
