@@ -381,6 +381,672 @@
   { "q": "Which test body conducts Sindh teaching tests?", "options": ["PPSC", "FPSC", "SPSC", "NTS"], "a": 2, "ex": "SPSC conducts Sindh tests." },
   { "q": "Merit-based recruitment ensures:", "options": ["Favoritism", "Corruption", "Fairness", "Delay"], "a": 2, "ex": "Merit ensures fairness." }
       ]
-    }
+    },
+    {
+"id": "sts_jest_001",
+"title": "STS JEST Paper New",
+"questions": [
+{
+"q": "Identify the correct article: He is ___ honest man.",
+"options": [
+"a",
+"an",
+"the",
+"no article needed"
+],
+"a": 1,
+"ex": "'Honest' starts with a vowel sound, so 'an' is the correct article."
+},
+{
+"q": "Choose the correct tense: She ___ to school every day.",
+"options": [
+"go",
+"going",
+"goes",
+"gone"
+],
+"a": 2,
+"ex": "The simple present tense 'goes' is used for daily routines with a singular third-person subject."
+},
+{
+"q": "What is the synonym of 'Abundant'?",
+"options": [
+"Scarce",
+"Plentiful",
+"Rare",
+"Limited"
+],
+"a": 1,
+"ex": "'Abundant' means existing or available in large quantities, which is synonymous with 'plentiful'."
+},
+{
+"q": "What is the antonym of 'Transparent'?",
+"options": [
+"Clear",
+"Translucent",
+"Opaque",
+"Visible"
+],
+"a": 2,
+"ex": "'Opaque' means not able to be seen through, making it the opposite of 'transparent'."
+},
+{
+"q": "In the sentence 'The quick brown fox jumps over the lazy dog', what part of speech is 'quick'?",
+"options": [
+"Noun",
+"Verb",
+"Adjective",
+"Adverb"
+],
+"a": 2,
+"ex": "'Quick' modifies the noun 'fox', making it an adjective."
+},
+{
+"q": "Fill in the correct preposition: He is very good ___ mathematics.",
+"options": [
+"in",
+"at",
+"with",
+"about"
+],
+"a": 1,
+"ex": "The correct preposition to use after 'good' when referring to skills or subjects is 'at'."
+},
+{
+"q": "Identify the voice of the sentence: 'The letter was written by Ali.'",
+"options": [
+"Active Voice",
+"Passive Voice",
+"Imperative",
+"Interrogative"
+],
+"a": 1,
+"ex": "The subject is being acted upon by the verb, which indicates the passive voice."
+},
+{
+"q": "Choose the correctly spelled word:",
+"options": [
+"Accommodate",
+"Acommodate",
+"Accomodate",
+"Acomodate"
+],
+"a": 0,
+"ex": "The correct spelling includes double 'c' and double 'm'."
+},
+{
+"q": "What is the meaning of the idiom 'A piece of cake'?",
+"options": [
+"A tasty dessert",
+"Something very easy",
+"A difficult task",
+"A small portion"
+],
+"a": 1,
+"ex": "The idiom 'a piece of cake' refers to a task that is very easy to accomplish."
+},
+{
+"q": "Complete the conditional sentence: If it rains tomorrow, we ___ inside.",
+"options": [
+"stay",
+"stayed",
+"will stay",
+"would stay"
+],
+"a": 2,
+"ex": "This is a first conditional sentence, which uses the simple present in the 'if' clause and the future tense in the main clause."
+},
+{
+"q": "Evaluate: 4 + 5 x 2",
+"options": [
+"18",
+"14",
+"13",
+"20"
+],
+"a": 1,
+"ex": "According to the BODMAS/PEMDAS rule, multiplication is performed before addition: 4 + 10 = 14."
+},
+{
+"q": "Solve for x: x + 5 = 12",
+"options": [
+"6",
+"7",
+"8",
+"17"
+],
+"a": 1,
+"ex": "Subtract 5 from both sides: x = 12 - 5, so x = 7."
+},
+{
+"q": "What is the sum of the interior angles of a triangle?",
+"options": [
+"90 degrees",
+"180 degrees",
+"360 degrees",
+"270 degrees"
+],
+"a": 1,
+"ex": "The sum of the interior angles of any triangle is always 180 degrees."
+},
+{
+"q": "A class has 20 boys and 30 girls. What is the ratio of boys to girls?",
+"options": [
+"2:3",
+"3:2",
+"2:5",
+"3:5"
+],
+"a": 0,
+"ex": "The ratio is 20:30, which simplifies to 2:3 by dividing both sides by 10."
+},
+{
+"q": "What is 20% of 150?",
+"options": [
+"20",
+"25",
+"30",
+"35"
+],
+"a": 2,
+"ex": "20% of 150 = (20/100) * 150 = 30."
+},
+{
+"q": "Add the fractions: 1/2 + 1/4",
+"options": [
+"2/6",
+"3/4",
+"1/8",
+"2/4"
+],
+"a": 1,
+"ex": "Convert 1/2 to 2/4. Then 2/4 + 1/4 = 3/4."
+},
+{
+"q": "What is the area of a rectangle with a length of 5 cm and a width of 4 cm?",
+"options": [
+"9 cm squared",
+"18 cm squared",
+"20 cm squared",
+"40 cm squared"
+],
+"a": 2,
+"ex": "Area of a rectangle = length x width = 5 cm x 4 cm = 20 cm squared."
+},
+{
+"q": "Expand the algebraic expression: (a + b)^2",
+"options": [
+"a^2 + b^2",
+"a^2 - 2ab + b^2",
+"a^2 + 2ab + b^2",
+"2a + 2b"
+],
+"a": 2,
+"ex": "The standard algebraic expansion for the square of a binomial sum is a^2 + 2ab + b^2."
+},
+{
+"q": "A shopkeeper bought an item for Rs. 100 and sold it for Rs. 120. What is his profit percentage?",
+"options": [
+"10%",
+"15%",
+"20%",
+"25%"
+],
+"a": 2,
+"ex": "Profit = 120 - 100 = 20. Profit percentage = (20 / 100) * 100 = 20%."
+},
+{
+"q": "Find the average of the numbers: 2, 4, 6, 8, 10.",
+"options": [
+"5",
+"6",
+"7",
+"8"
+],
+"a": 1,
+"ex": "Average = Sum / Count = (2+4+6+8+10) / 5 = 30 / 5 = 6."
+},
+{
+"q": "What is the SI unit of Force?",
+"options": [
+"Joule",
+"Watt",
+"Newton",
+"Pascal"
+],
+"a": 2,
+"ex": "The standard unit of force in the International System of Units (SI) is the Newton (N)."
+},
+{
+"q": "What is the approximate speed of light in a vacuum?",
+"options": [
+"3 x 10^5 m/s",
+"3 x 10^6 m/s",
+"3 x 10^7 m/s",
+"3 x 10^8 m/s"
+],
+"a": 3,
+"ex": "The speed of light in a vacuum is approximately 299,792,458 m/s, or 3 x 10^8 m/s."
+},
+{
+"q": "The energy possessed by a body due to its motion is called:",
+"options": [
+"Potential Energy",
+"Kinetic Energy",
+"Thermal Energy",
+"Chemical Energy"
+],
+"a": 1,
+"ex": "Kinetic energy is the energy that an object possesses due to its motion."
+},
+{
+"q": "Newton's First Law of Motion is also known as the Law of:",
+"options": [
+"Inertia",
+"Momentum",
+"Action and Reaction",
+"Gravitation"
+],
+"a": 0,
+"ex": "Newton's First Law states that an object at rest stays at rest, which is the definition of inertia."
+},
+{
+"q": "Which instrument is used to measure atmospheric pressure?",
+"options": [
+"Thermometer",
+"Barometer",
+"Hygrometer",
+"Anemometer"
+],
+"a": 1,
+"ex": "A barometer is a scientific instrument used to measure atmospheric pressure."
+},
+{
+"q": "Which type of mirror is primarily used in the headlights of cars?",
+"options": [
+"Convex Mirror",
+"Concave Mirror",
+"Plane Mirror",
+"Cylindrical Mirror"
+],
+"a": 1,
+"ex": "Concave mirrors are used in car headlights to reflect light in a straight, powerful beam."
+},
+{
+"q": "In which medium does sound travel the fastest?",
+"options": [
+"Vacuum",
+"Gases",
+"Liquids",
+"Solids"
+],
+"a": 3,
+"ex": "Sound waves travel fastest through solids because the particles are closely packed together."
+},
+{
+"q": "Which organelle is known as the powerhouse of the cell?",
+"options": [
+"Nucleus",
+"Ribosome",
+"Mitochondria",
+"Golgi Apparatus"
+],
+"a": 2,
+"ex": "Mitochondria generate most of the cell's supply of ATP, used as a source of chemical energy."
+},
+{
+"q": "Deoxygenated blood is carried from the heart to the lungs by the:",
+"options": [
+"Aorta",
+"Pulmonary Artery",
+"Pulmonary Vein",
+"Vena Cava"
+],
+"a": 1,
+"ex": "The pulmonary artery is the only artery that carries deoxygenated blood away from the heart to the lungs."
+},
+{
+"q": "The plant cell wall is primarily composed of:",
+"options": [
+"Protein",
+"Lipids",
+"Cellulose",
+"Starch"
+],
+"a": 2,
+"ex": "Cellulose is a complex carbohydrate that forms the structural framework of the plant cell wall."
+},
+{
+"q": "What is the basic physical and functional unit of heredity?",
+"options": [
+"Chromosome",
+"Gene",
+"Protein",
+"Cell"
+],
+"a": 1,
+"ex": "A gene is a sequence of DNA or RNA that codes for a molecule that has a function, acting as the basic unit of heredity."
+},
+{
+"q": "The process by which plants make their own food is called:",
+"options": [
+"Respiration",
+"Transpiration",
+"Photosynthesis",
+"Germination"
+],
+"a": 2,
+"ex": "Photosynthesis is the process used by plants to convert light energy into chemical energy to fuel their activities."
+},
+{
+"q": "Which vitamin is synthesized by the human skin when exposed to sunlight?",
+"options": [
+"Vitamin A",
+"Vitamin B12",
+"Vitamin C",
+"Vitamin D"
+],
+"a": 3,
+"ex": "Vitamin D is produced in the skin from cholesterol when exposed to UVB rays from the sun."
+},
+{
+"q": "How many bones are there in a normal adult human body?",
+"options": [
+"206",
+"208",
+"210",
+"300"
+],
+"a": 0,
+"ex": "The human skeleton of an adult consists of exactly 206 bones."
+},
+{
+"q": "What is the chemical formula for water?",
+"options": [
+"CO2",
+"O2",
+"H2O",
+"NaCl"
+],
+"a": 2,
+"ex": "Water is composed of two hydrogen atoms and one oxygen atom, giving it the formula H2O."
+},
+{
+"q": "What is the atomic number of Carbon?",
+"options": [
+"6",
+"8",
+"12",
+"14"
+],
+"a": 0,
+"ex": "Carbon has 6 protons in its nucleus, which defines its atomic number as 6."
+},
+{
+"q": "What is the pH value of pure water at room temperature?",
+"options": [
+"5",
+"7",
+"9",
+"14"
+],
+"a": 1,
+"ex": "Pure water is neutral, which corresponds to a pH of exactly 7."
+},
+{
+"q": "Which gas is most commonly used in fire extinguishers?",
+"options": [
+"Oxygen",
+"Nitrogen",
+"Carbon Dioxide",
+"Hydrogen"
+],
+"a": 2,
+"ex": "Carbon dioxide displaces oxygen and removes the heat from the fire triangle, making it ideal for extinguishing fires."
+},
+{
+"q": "Which subatomic particle carries a negative electrical charge?",
+"options": [
+"Proton",
+"Neutron",
+"Electron",
+"Nucleus"
+],
+"a": 2,
+"ex": "Electrons are negatively charged subatomic particles that orbit the nucleus of an atom."
+},
+{
+"q": "Which is the most abundant gas in the Earth's atmosphere?",
+"options": [
+"Oxygen",
+"Carbon Dioxide",
+"Nitrogen",
+"Argon"
+],
+"a": 2,
+"ex": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas."
+},
+{
+"q": "Which component is considered the 'brain' of a computer?",
+"options": [
+"RAM",
+"Hard Drive",
+"CPU",
+"Motherboard"
+],
+"a": 2,
+"ex": "The Central Processing Unit (CPU) executes instructions and acts as the brain of the computer."
+},
+{
+"q": "What is the MS Office keyboard shortcut to copy selected text?",
+"options": [
+"Ctrl + V",
+"Ctrl + X",
+"Ctrl + P",
+"Ctrl + C"
+],
+"a": 3,
+"ex": "Ctrl + C is the standard shortcut used to copy selected content to the clipboard."
+},
+{
+"q": "Which of the following is considered volatile memory?",
+"options": [
+"ROM",
+"Hard Disk",
+"Flash Drive",
+"RAM"
+],
+"a": 3,
+"ex": "Random Access Memory (RAM) requires power to keep its data, meaning it is volatile."
+},
+{
+"q": "What does the shortcut Ctrl + S do in MS Word?",
+"options": [
+"Selects all text",
+"Saves the document",
+"Strikes through text",
+"Opens the search bar"
+],
+"a": 1,
+"ex": "Ctrl + S is universally used in MS Office to save the current document."
+},
+{
+"q": "The physical components of a computer system are known as:",
+"options": [
+"Software",
+"Hardware",
+"Firmware",
+"Malware"
+],
+"a": 1,
+"ex": "Hardware refers to the tangible, physical parts of a computer, such as the monitor, keyboard, and motherboard."
+},
+{
+"q": "In computer networking, what does LAN stand for?",
+"options": [
+"Large Area Network",
+"Local Area Network",
+"Logical Access Node",
+"Lightweight Area Network"
+],
+"a": 1,
+"ex": "LAN stands for Local Area Network, a network that spans a small geographic area like a home or office."
+},
+{
+"q": "Software designed to damage or disrupt a computer system is called:",
+"options": [
+"Freeware",
+"Shareware",
+"Malware",
+"Firmware"
+],
+"a": 2,
+"ex": "Malware (malicious software) includes viruses, worms, and ransomware intended to harm devices."
+},
+{
+"q": "What does 'IP' stand for in 'IP Address'?",
+"options": [
+"Internet Provider",
+"Internal Process",
+"Internet Protocol",
+"Intranet Pathway"
+],
+"a": 2,
+"ex": "IP stands for Internet Protocol, which dictates the format of data sent over the internet or local network."
+},
+{
+"q": "Which networking device forwards data packets between computer networks?",
+"options": [
+"Hub",
+"Switch",
+"Router",
+"Modem"
+],
+"a": 2,
+"ex": "A router connects different networks together and directs data traffic between them."
+},
+{
+"q": "What is the keyboard shortcut to 'Undo' an action in MS Office?",
+"options": [
+"Ctrl + Y",
+"Ctrl + Z",
+"Ctrl + U",
+"Ctrl + A"
+],
+"a": 1,
+"ex": "Ctrl + Z reverses the last action performed in most software applications."
+},
+{
+"q": "Who was the first Governor-General of Pakistan?",
+"options": [
+"Liaquat Ali Khan",
+"Khawaja Nazimuddin",
+"Quaid-e-Azam Muhammad Ali Jinnah",
+"Iskander Mirza"
+],
+"a": 2,
+"ex": "Quaid-e-Azam Muhammad Ali Jinnah took the oath as the first Governor-General of Pakistan on August 15, 1947."
+},
+{
+"q": "Which Mughal Emperor built the Badshahi Mosque in Lahore?",
+"options": [
+"Akbar",
+"Jahangir",
+"Shah Jahan",
+"Aurangzeb"
+],
+"a": 3,
+"ex": "The Badshahi Mosque was commissioned by the Mughal Emperor Aurangzeb and completed in 1673."
+},
+{
+"q": "Which is the largest continent in the world by land area?",
+"options": [
+"Africa",
+"Asia",
+"North America",
+"Europe"
+],
+"a": 1,
+"ex": "Asia is the largest continent, covering about 30% of Earth's total land area."
+},
+{
+"q": "What is the first month of the Islamic calendar?",
+"options": [
+"Safar",
+"Muharram",
+"Ramadan",
+"Shawwal"
+],
+"a": 1,
+"ex": "Muharram is the first month of the Islamic lunar calendar."
+},
+{
+"q": "Who is considered the National Poet of Pakistan?",
+"options": [
+"Faiz Ahmed Faiz",
+"Mirza Ghalib",
+"Allama Muhammad Iqbal",
+"Habib Jalib"
+],
+"a": 2,
+"ex": "Allama Iqbal is celebrated as the spiritual father of Pakistan and its national poet."
+},
+{
+"q": "What is the capital city of Australia?",
+"options": [
+"Sydney",
+"Melbourne",
+"Canberra",
+"Perth"
+],
+"a": 2,
+"ex": "Canberra is the capital of Australia, chosen as a compromise between Sydney and Melbourne."
+},
+{
+"q": "The Holy Quran was revealed over a period of approximately how many years?",
+"options": [
+"10 years",
+"23 years",
+"40 years",
+"63 years"
+],
+"a": 1,
+"ex": "The Quran was revealed to Prophet Muhammad (PBUH) gradually over a period of about 23 years."
+},
+{
+"q": "When was the 1973 Constitution of Pakistan officially promulgated?",
+"options": [
+"23 March 1973",
+"14 August 1973",
+"11 September 1973",
+"25 December 1973"
+],
+"a": 1,
+"ex": "The 1973 constitution was enforced on August 14, 1973, establishing a parliamentary democracy."
+},
+{
+"q": "Which river is generally considered the longest in the world?",
+"options": [
+"Amazon River",
+"Yangtze River",
+"Mississippi River",
+"Nile River"
+],
+"a": 3,
+"ex": "The Nile River in northeastern Africa is traditionally considered the longest river globally."
+},
+{
+"q": "What is the second pillar of Islam?",
+"options": [
+"Shahada (Belief)",
+"Zakat (Charity)",
+"Salah (Prayer)",
+"Hajj (Pilgrimage)"
+],
+"a": 2,
+"ex": "Salah, or performing the five daily prayers, is the second pillar of Islam."
+}
+]
+}
   ]
 }
