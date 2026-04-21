@@ -111,6 +111,1112 @@
     {"q":"Gwadar port is in?","options":["Sindh","Punjab","Balochistan","KPK"],"a":2,"ex":"Gwadar is in Balochistan."},
     {"q":"CPEC connects?","options":["Pakistan-China","India-China","USA-Pakistan","Iran-Pakistan"],"a":0,"ex":"CPEC connects Pakistan and China."}
   ]
+},
+    {
+  "id": "fia_asi_guess_100",
+  "title": "FIA Assistant Sub Inspector (ASI) Guess Paper - 100 MCQs",
+  "questions": [
+    {
+      "q": "Choose the synonym of 'Abstain':",
+      "options": [
+        "Pursue",
+        "Refrain",
+        "Accept",
+        "Continue"
+      ],
+      "a": 1,
+      "ex": "Abstain means to refrain from doing something."
+    },
+    {
+      "q": "Choose the antonym of 'Fragile':",
+      "options": [
+        "Weak",
+        "Robust",
+        "Delicate",
+        "Brittle"
+      ],
+      "a": 1,
+      "ex": "Fragile means easily broken; robust means strong and healthy."
+    },
+    {
+      "q": "He is '___' unique person.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 0,
+      "ex": "'Unique' starts with a consonant 'y' sound, so 'a' is used."
+    },
+    {
+      "q": "Identify the correct spelling:",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acomodation",
+        "Accommadation"
+      ],
+      "a": 1,
+      "ex": "The correct spelling is 'Accommodation' (double c, double m)."
+    },
+    {
+      "q": "Change to Passive Voice: 'He opens the door.'",
+      "options": [
+        "The door is opened by him.",
+        "The door was opened by him.",
+        "The door is open by him.",
+        "The door has opened by him."
+      ],
+      "a": 0,
+      "ex": "Simple present 'opens' becomes 'is opened' in passive voice."
+    },
+    {
+      "q": "Choose the correct preposition: 'He is fond ___ music.'",
+      "options": [
+        "of",
+        "to",
+        "for",
+        "with"
+      ],
+      "a": 0,
+      "ex": "'Fond' is always followed by the preposition 'of'."
+    },
+    {
+      "q": "A person who hates mankind is called:",
+      "options": [
+        "Philanthropist",
+        "Misanthrope",
+        "Optimist",
+        "Pessimist"
+      ],
+      "a": 1,
+      "ex": "A misanthrope is someone who dislikes or avoids human society."
+    },
+    {
+      "q": "Meaning of the idiom 'To cry wolf':",
+      "options": [
+        "To be very brave",
+        "To give a false alarm",
+        "To hunt animals",
+        "To cry loudly"
+      ],
+      "a": 1,
+      "ex": "To cry wolf means to raise a false alarm."
+    },
+    {
+      "q": "Identify the part of speech: 'The cat sat SILENTLY.'",
+      "options": [
+        "Adjective",
+        "Adverb",
+        "Noun",
+        "Verb"
+      ],
+      "a": 1,
+      "ex": "'Silently' describes how the cat sat, making it an adverb."
+    },
+    {
+      "q": "Complete the sentence: 'If it rains, I ___ stay home.'",
+      "options": [
+        "will",
+        "would",
+        "shall be",
+        "am"
+      ],
+      "a": 0,
+      "ex": "This is a first conditional sentence (If + present, will + base verb)."
+    },
+    {
+      "q": "Synonym of 'Enormous':",
+      "options": [
+        "Tiny",
+        "Huge",
+        "Soft",
+        "Weak"
+      ],
+      "a": 1,
+      "ex": "Enormous means very large or huge."
+    },
+    {
+      "q": "Antonym of 'Vague':",
+      "options": [
+        "Unclear",
+        "Clear",
+        "Dull",
+        "Faint"
+      ],
+      "a": 1,
+      "ex": "Vague means unclear; clear is its opposite."
+    },
+    {
+      "q": "She is '___' best student in class.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 2,
+      "ex": "Superlative degrees ('best') take the definite article 'the'."
+    },
+    {
+      "q": "One who can neither read nor write is:",
+      "options": [
+        "Illiterate",
+        "Literate",
+        "Eligible",
+        "Ineligible"
+      ],
+      "a": 0,
+      "ex": "Illiterate is the term for someone who cannot read or write."
+    },
+    {
+      "q": "Meaning of 'Break the ice':",
+      "options": [
+        "To cool down",
+        "To start a conversation",
+        "To end a fight",
+        "To work hard"
+      ],
+      "a": 1,
+      "ex": "'Break the ice' means to initiate social interaction."
+    },
+    {
+      "q": "He is afraid '___' dogs.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "a": 0,
+      "ex": "'Afraid' is followed by the preposition 'of'."
+    },
+    {
+      "q": "Synonym of 'Precise':",
+      "options": [
+        "Accurate",
+        "Wrong",
+        "Vague",
+        "Loose"
+      ],
+      "a": 0,
+      "ex": "Precise means exact or accurate."
+    },
+    {
+      "q": "Antonym of 'Ancient':",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Antique"
+      ],
+      "a": 1,
+      "ex": "Ancient means very old; modern is the opposite."
+    },
+    {
+      "q": "I '___' working since morning.",
+      "options": [
+        "am",
+        "was",
+        "have been",
+        "had"
+      ],
+      "a": 2,
+      "ex": "Present perfect continuous ('have been') is used for actions starting in the past and continuing."
+    },
+    {
+      "q": "Plural of 'Mouse':",
+      "options": [
+        "Mouses",
+        "Mice",
+        "Mices",
+        "Mouse"
+      ],
+      "a": 1,
+      "ex": "The irregular plural of mouse is mice."
+    },
+    {
+      "q": "The headquarter of Interpol is in:",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Geneva",
+        "Brussels"
+      ],
+      "a": 1,
+      "ex": "Interpol is headquartered in Lyon, France."
+    },
+    {
+      "q": "Which is the smallest country in the world by area?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Malta"
+      ],
+      "a": 1,
+      "ex": "Vatican City is the smallest independent state in the world."
+    },
+    {
+      "q": "The currency of Turkey is:",
+      "options": [
+        "Lira",
+        "Dinar",
+        "Riyal",
+        "Euro"
+      ],
+      "a": 0,
+      "ex": "The Turkish Lira is the official currency of Turkey."
+    },
+    {
+      "q": "Which planet is known as the 'Blue Planet'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Earth",
+        "Neptune"
+      ],
+      "a": 2,
+      "ex": "Earth is called the Blue Planet due to its abundant water."
+    },
+    {
+      "q": "Who is the current Secretary-General of the UN?",
+      "options": [
+        "Ban Ki-moon",
+        "Kofi Annan",
+        "António Guterres",
+        "Donald Trump"
+      ],
+      "a": 2,
+      "ex": "António Guterres is the current UN Secretary-General."
+    },
+    {
+      "q": "The 'Great Wall' is located in which country?",
+      "options": [
+        "India",
+        "China",
+        "Japan",
+        "Russia"
+      ],
+      "a": 1,
+      "ex": "The Great Wall of China is a famous landmark in China."
+    },
+    {
+      "q": "Which is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Mississippi",
+        "Yangtze"
+      ],
+      "a": 1,
+      "ex": "The Nile is generally considered the longest river in the world."
+    },
+    {
+      "q": "The Nobel Prize is awarded in how many categories?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "a": 1,
+      "ex": "Nobel Prizes are awarded in Physics, Chemistry, Physiology/Medicine, Literature, Peace, and Economics (6 categories)."
+    },
+    {
+      "q": "The largest producer of oil in the world is:",
+      "options": [
+        "Saudi Arabia",
+        "USA",
+        "Russia",
+        "Iran"
+      ],
+      "a": 1,
+      "ex": "As of recent years, the USA has become the top oil producer."
+    },
+    {
+      "q": "Mount Everest is located in which country?",
+      "options": [
+        "India",
+        "Pakistan",
+        "Nepal",
+        "China"
+      ],
+      "a": 2,
+      "ex": "Mount Everest is located in the Himalayas on the border of Nepal and China, with the summit in Nepal."
+    },
+    {
+      "q": "The deepest ocean in the world is:",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "a": 2,
+      "ex": "The Pacific Ocean is the deepest and largest ocean."
+    },
+    {
+      "q": "The 'Statue of Liberty' was a gift from which country to the USA?",
+      "options": [
+        "UK",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "a": 1,
+      "ex": "France gifted the Statue of Liberty to the USA."
+    },
+    {
+      "q": "The capital of Russia is:",
+      "options": [
+        "Saint Petersburg",
+        "Moscow",
+        "Kiev",
+        "Minsk"
+      ],
+      "a": 1,
+      "ex": "Moscow is the capital of Russia."
+    },
+    {
+      "q": "Who is known as the 'Father of Geometry'?",
+      "options": [
+        "Pythagoras",
+        "Euclid",
+        "Archimedes",
+        "Newton"
+      ],
+      "a": 1,
+      "ex": "Euclid is often referred to as the Father of Geometry."
+    },
+    {
+      "q": "The largest continent by population is:",
+      "options": [
+        "Africa",
+        "Europe",
+        "Asia",
+        "North America"
+      ],
+      "a": 2,
+      "ex": "Asia is the most populous continent."
+    },
+    {
+      "q": "The 'Red Cross' was founded by:",
+      "options": [
+        "Florence Nightingale",
+        "Henry Dunant",
+        "Mother Teresa",
+        "Nelson Mandela"
+      ],
+      "a": 1,
+      "ex": "Henry Dunant founded the International Committee of the Red Cross."
+    },
+    {
+      "q": "Which country has the largest parliament in the world?",
+      "options": [
+        "India",
+        "China",
+        "UK",
+        "USA"
+      ],
+      "a": 1,
+      "ex": "The National People's Congress of China is the largest parliamentary body."
+    },
+    {
+      "q": "The capital of Australia is:",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "a": 2,
+      "ex": "Canberra is the capital city of Australia."
+    },
+    {
+      "q": "The 'Eiffel Tower' is in:",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Rome"
+      ],
+      "a": 1,
+      "ex": "The Eiffel Tower is located in Paris, France."
+    },
+    {
+      "q": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "a": 1,
+      "ex": "Nitrogen makes up about 78% of the atmosphere."
+    },
+    {
+      "q": "What is the shortcut key to 'Undo' in Windows?",
+      "options": [
+        "Ctrl+X",
+        "Ctrl+Y",
+        "Ctrl+Z",
+        "Ctrl+U"
+      ],
+      "a": 2,
+      "ex": "Ctrl+Z is the shortcut for Undo."
+    },
+    {
+      "q": "Which of the following is an Operating System?",
+      "options": [
+        "MS Word",
+        "Linux",
+        "Google Chrome",
+        "VLC Player"
+      ],
+      "a": 1,
+      "ex": "Linux is a famous open-source operating system."
+    },
+    {
+      "q": "1 Gigabyte (GB) is equal to:",
+      "options": [
+        "1024 MB",
+        "1000 MB",
+        "1024 KB",
+        "1024 Bits"
+      ],
+      "a": 0,
+      "ex": "1 GB = 1024 Megabytes."
+    },
+    {
+      "q": "The 'Brain' of the computer is:",
+      "options": [
+        "RAM",
+        "Hard Disk",
+        "CPU",
+        "Motherboard"
+      ],
+      "a": 2,
+      "ex": "The CPU performs all processing, hence called the brain."
+    },
+    {
+      "q": "What does 'HTTP' stand for?",
+      "options": [
+        "Hyper Text Transfer Protocol",
+        "High Text Transfer Protocol",
+        "Hyper Transfer Text Process",
+        "Hyper Tech Transfer Protocol"
+      ],
+      "a": 0,
+      "ex": "HTTP is the foundation of data communication for the WWW."
+    },
+    {
+      "q": "Which key is used to refresh a webpage?",
+      "options": [
+        "F1",
+        "F2",
+        "F5",
+        "F12"
+      ],
+      "a": 2,
+      "ex": "F5 is the standard key to refresh or reload a page."
+    },
+    {
+      "q": "Which of the following is 'Permanent' storage?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "a": 1,
+      "ex": "ROM (Read-Only Memory) is non-volatile and permanent."
+    },
+    {
+      "q": "What is the extension of an MS Word file (modern)?",
+      "options": [
+        ".txt",
+        ".xlsx",
+        ".docx",
+        ".pptx"
+      ],
+      "a": 2,
+      "ex": ".docx is the default extension for MS Word documents."
+    },
+    {
+      "q": "A computer on a network that requests files from another computer is a:",
+      "options": [
+        "Server",
+        "Client",
+        "Router",
+        "Switch"
+      ],
+      "a": 1,
+      "ex": "The client requests services, and the server provides them."
+    },
+    {
+      "q": "Which company developed Windows?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "a": 2,
+      "ex": "Microsoft developed the Windows operating system."
+    },
+    {
+      "q": "The binary system uses only two digits:",
+      "options": [
+        "1 and 2",
+        "0 and 1",
+        "A and B",
+        "9 and 0"
+      ],
+      "a": 1,
+      "ex": "Binary uses 0 (off) and 1 (on)."
+    },
+    {
+      "q": "What does 'PDF' stand for?",
+      "options": [
+        "Personal Document Format",
+        "Portable Document Format",
+        "Printable Data File",
+        "Public Document File"
+      ],
+      "a": 1,
+      "ex": "PDF stands for Portable Document Format."
+    },
+    {
+      "q": "Which device is used for connecting a computer to the internet via phone line?",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Modem",
+        "Printer"
+      ],
+      "a": 2,
+      "ex": "A modem modulates/demodulates signals for internet access."
+    },
+    {
+      "q": "The intersection of a row and a column in Excel is called a:",
+      "options": [
+        "Block",
+        "Cell",
+        "Table",
+        "Range"
+      ],
+      "a": 1,
+      "ex": "A cell is the basic unit of an Excel worksheet."
+    },
+    {
+      "q": "Which of the following is an 'Output' device?",
+      "options": [
+        "Scanner",
+        "Joystick",
+        "Monitor",
+        "Microphone"
+      ],
+      "a": 2,
+      "ex": "A monitor displays output to the user."
+    },
+    {
+      "q": "What is the shortcut key for 'Copy'?",
+      "options": [
+        "Ctrl+V",
+        "Ctrl+X",
+        "Ctrl+C",
+        "Ctrl+A"
+      ],
+      "a": 2,
+      "ex": "Ctrl+C is used to copy selected items."
+    },
+    {
+      "q": "A 'Byte' consists of how many bits?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "a": 1,
+      "ex": "1 Byte = 8 Bits."
+    },
+    {
+      "q": "Who is known as the 'Father of Computers'?",
+      "options": [
+        "Bill Gates",
+        "Charles Babbage",
+        "Alan Turing",
+        "Steve Jobs"
+      ],
+      "a": 1,
+      "ex": "Charles Babbage designed the first mechanical computer."
+    },
+    {
+      "q": "Which software is used for browsing the internet?",
+      "options": [
+        "MS Excel",
+        "Google Chrome",
+        "Photoshop",
+        "Notepad"
+      ],
+      "a": 1,
+      "ex": "Google Chrome is a popular web browser."
+    },
+    {
+      "q": "What does 'GUI' stand for?",
+      "options": [
+        "Global User Interface",
+        "Graphical User Interface",
+        "General Utility Interface",
+        "Graphic Unit Instrument"
+      ],
+      "a": 1,
+      "ex": "GUI allows users to interact with devices through visual icons."
+    },
+    {
+      "q": "How many years did the Holy Quran take for complete revelation?",
+      "options": [
+        "20",
+        "23",
+        "25",
+        "30"
+      ],
+      "a": 1,
+      "ex": "The Quran was revealed over a period of approximately 23 years."
+    },
+    {
+      "q": "The 'Battle of Badr' took place in which Hijri year?",
+      "options": [
+        "1 Hijri",
+        "2 Hijri",
+        "3 Hijri",
+        "4 Hijri"
+      ],
+      "a": 1,
+      "ex": "The Battle of Badr occurred in 2 A.H."
+    },
+    {
+      "q": "Which Prophet is known as 'Abul Bashar'?",
+      "options": [
+        "Hazrat Adam (AS)",
+        "Hazrat Nooh (AS)",
+        "Hazrat Ibrahim (AS)",
+        "Hazrat Musa (AS)"
+      ],
+      "a": 0,
+      "ex": "Hazrat Adam (AS) is called Abul Bashar (Father of Mankind)."
+    },
+    {
+      "q": "What is the meaning of 'Zakat'?",
+      "options": [
+        "Prayer",
+        "To Purify",
+        "Fasting",
+        "Faith"
+      ],
+      "a": 1,
+      "ex": "Zakat literally means to purify or grow."
+    },
+    {
+      "q": "How many 'Sajdahs' are there in the Holy Quran?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "a": 2,
+      "ex": "There are 14 mandatory Sajdah-e-Tilawat in the Quran."
+    },
+    {
+      "q": "The first Muazzin of Islam was:",
+      "options": [
+        "Hazrat Abu Bakr (RA)",
+        "Hazrat Bilal (RA)",
+        "Hazrat Umar (RA)",
+        "Hazrat Ali (RA)"
+      ],
+      "a": 1,
+      "ex": "Hazrat Bilal Habshi (RA) was the first Muazzin."
+    },
+    {
+      "q": "Which Surah is called the 'Heart of Quran'?",
+      "options": [
+        "Surah Al-Fatiha",
+        "Surah Yaseen",
+        "Surah Al-Ikhlas",
+        "Surah Al-Baqarah"
+      ],
+      "a": 1,
+      "ex": "Surah Yaseen is famously known as the Heart of the Quran."
+    },
+    {
+      "q": "The 'Treaty of Hudaibiya' was signed in:",
+      "options": [
+        "5 Hijri",
+        "6 Hijri",
+        "7 Hijri",
+        "8 Hijri"
+      ],
+      "a": 1,
+      "ex": "The treaty was signed in 6 A.H."
+    },
+    {
+      "q": "The largest Surah of the Holy Quran is:",
+      "options": [
+        "Surah Al-Baqarah",
+        "Surah Al-Imran",
+        "Surah Al-Nisa",
+        "Surah Al-Maida"
+      ],
+      "a": 0,
+      "ex": "Surah Al-Baqarah is the longest Surah."
+    },
+    {
+      "q": "How many daughters did the Holy Prophet (SAW) have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 2,
+      "ex": "The Holy Prophet (SAW) had four daughters: Zainab, Ruqayyah, Umm Kulthum, and Fatima (RA)."
+    },
+    {
+      "q": "The 'Objective Resolution' was passed in:",
+      "options": [
+        "1947",
+        "1948",
+        "1949",
+        "1950"
+      ],
+      "a": 2,
+      "ex": "It was passed on March 12, 1949."
+    },
+    {
+      "q": "Which is the highest peak of Pakistan?",
+      "options": [
+        "Nanga Parbat",
+        "K2",
+        "Rakaposhi",
+        "Broad Peak"
+      ],
+      "a": 1,
+      "ex": "K2 (8611m) is the highest in Pakistan and 2nd in the world."
+    },
+    {
+      "q": "Who was the first Prime Minister of Pakistan?",
+      "options": [
+        "Quaid-e-Azam",
+        "Liaquat Ali Khan",
+        "I.I. Chundrigar",
+        "Feroz Khan Noon"
+      ],
+      "a": 1,
+      "ex": "Liaquat Ali Khan was the first PM."
+    },
+    {
+      "q": "The 1973 Constitution of Pakistan was enforced on:",
+      "options": [
+        "23 March",
+        "14 August",
+        "25 December",
+        "6 September"
+      ],
+      "a": 1,
+      "ex": "It was enforced on 14 August 1973."
+    },
+    {
+      "q": "The largest province of Pakistan by area is:",
+      "options": [
+        "Punjab",
+        "Sindh",
+        "KPK",
+        "Balochistan"
+      ],
+      "a": 3,
+      "ex": "Balochistan covers about 44% of Pakistan's land area."
+    },
+    {
+      "q": "Which city is known as the 'City of Lights'?",
+      "options": [
+        "Lahore",
+        "Islamabad",
+        "Karachi",
+        "Faisalabad"
+      ],
+      "a": 2,
+      "ex": "Karachi is famously called the City of Lights."
+    },
+    {
+      "q": "The 'Lucknow Pact' was signed in:",
+      "options": [
+        "1912",
+        "1914",
+        "1916",
+        "1918"
+      ],
+      "a": 2,
+      "ex": "It was signed in 1916 between Muslim League and Congress."
+    },
+    {
+      "q": "Who wrote the national anthem of Pakistan?",
+      "options": [
+        "Allama Iqbal",
+        "Hafeez Jalandhari",
+        "Faiz Ahmed Faiz",
+        "Josh Malihabadi"
+      ],
+      "a": 1,
+      "ex": "Hafeez Jalandhari wrote the lyrics of the anthem."
+    },
+    {
+      "q": "The 'Tashkent Declaration' was signed in:",
+      "options": [
+        "1965",
+        "1966",
+        "1967",
+        "1968"
+      ],
+      "a": 1,
+      "ex": "It was signed after the 1965 war in January 1966."
+    },
+    {
+      "q": "Which is the national flower of Pakistan?",
+      "options": [
+        "Rose",
+        "Jasmine",
+        "Tulip",
+        "Sunflower"
+      ],
+      "a": 1,
+      "ex": "Jasmine (Chambeli) is the national flower."
+    },
+    {
+      "q": "If 'RED' is coded as 360, what is the code for 'CAT'?",
+      "options": [
+        "60",
+        "24",
+        "180",
+        "42"
+      ],
+      "a": 0,
+      "ex": "Pattern: Position in alphabet multiplied (C=3, A=1, T=20 -> 3*1*20 = 60)."
+    },
+    {
+      "q": "What is 15% of 200?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "a": 1,
+      "ex": "(15/100) * 200 = 30."
+    },
+    {
+      "q": "Find the odd one out: 3, 5, 7, 9, 11",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "a": 2,
+      "ex": "All are prime numbers except 9 (which is divisible by 3)."
+    },
+    {
+      "q": "Complete the series: 1, 4, 9, 16, 25, ___",
+      "options": [
+        "30",
+        "35",
+        "36",
+        "40"
+      ],
+      "a": 2,
+      "ex": "These are squares of 1, 2, 3, 4, 5. Next is 6^2 = 36."
+    },
+    {
+      "q": "A clock shows 3:00. What is the angle between the hands?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "180 degrees",
+        "60 degrees"
+      ],
+      "a": 1,
+      "ex": "At 3:00, the hour hand is at 3 and minute hand at 12, forming 90 degrees."
+    },
+    {
+      "q": "If 10 men can do a work in 5 days, how many days will 5 men take?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "a": 1,
+      "ex": "Inverse proportion: 10*5 = 5*x -> x = 10."
+    },
+    {
+      "q": "Which number comes next: 100, 90, 80, 70, ___",
+      "options": [
+        "50",
+        "60",
+        "65",
+        "55"
+      ],
+      "a": 1,
+      "ex": "Subtracting 10 each time."
+    },
+    {
+      "q": "If 'APPLE' is 'ELPPA', then 'MANUS' is:",
+      "options": [
+        "SUNAM",
+        "NAMUS",
+        "SUMAN",
+        "NASUM"
+      ],
+      "a": 0,
+      "ex": "The word is reversed."
+    },
+    {
+      "q": "The average of 10, 20, and 30 is:",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "a": 1,
+      "ex": "(10+20+30)/3 = 20."
+    },
+    {
+      "q": "A son's age is 1/3 of his father's. If father is 45, how old is the son?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "a": 1,
+      "ex": "45 / 3 = 15."
+    },
+    {
+      "q": "The FIA Act 1974 consists of how many sections?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "a": 1,
+      "ex": "The original Act has 10 sections."
+    },
+    {
+      "q": "Who has the power to amend the Schedule of the FIA Act?",
+      "options": [
+        "Director General",
+        "Federal Government",
+        "Supreme Court",
+        "Parliament"
+      ],
+      "a": 1,
+      "ex": "The Federal Government can amend the Schedule by notification in the official Gazette."
+    },
+    {
+      "q": "The Director General of FIA is appointed by:",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Federal Government",
+        "Chief Justice"
+      ],
+      "a": 2,
+      "ex": "Section 3(2) states the DG is appointed by the Federal Government."
+    },
+    {
+      "q": "Under Section 5, an FIA officer has the power of an 'Officer-in-Charge' of a:",
+      "options": [
+        "Court",
+        "Police Station",
+        "Jail",
+        "Customs Office"
+      ],
+      "a": 1,
+      "ex": "Section 5(1) gives powers of an officer-in-charge of a police station."
+    },
+    {
+      "q": "FIA was established to replace which organization?",
+      "options": [
+        "IB",
+        "ISI",
+        "Special Police Establishment",
+        "CID"
+      ],
+      "a": 2,
+      "ex": "FIA replaced the Pakistan Special Police Establishment (PSPE)."
+    },
+    {
+      "q": "The 'Superintendence' of the Agency vests in the:",
+      "options": [
+        "Director General",
+        "Federal Government",
+        "Interior Minister",
+        "President"
+      ],
+      "a": 1,
+      "ex": "Section 4(1) states superintendence vests in the Federal Government."
+    },
+    {
+      "q": "Which section of the FIA Act deals with 'Indemnity' (protection of action taken in good faith)?",
+      "options": [
+        "Section 7",
+        "Section 8",
+        "Section 9",
+        "Section 10"
+      ],
+      "a": 1,
+      "ex": "Section 8 provides indemnity to the Federal Government and Agency members."
+    },
+    {
+      "q": "The FIA can investigate offenses committed on:",
+      "options": [
+        "Only in Islamabad",
+        "Only in Punjab",
+        "All over Pakistan",
+        "Only in Karachi"
+      ],
+      "a": 2,
+      "ex": "The Act extends to the whole of Pakistan and also applies to citizens/public servants wherever they may be."
+    },
+    {
+      "q": "Which section deals with the 'Power to make rules'?",
+      "options": [
+        "Section 6",
+        "Section 7",
+        "Section 8",
+        "Section 9"
+      ],
+      "a": 3,
+      "ex": "Section 9 empowers the Federal Government to make rules."
+    },
+    {
+      "q": "The 'Administration' of the Agency vests in the:",
+      "options": [
+        "Federal Government",
+        "Director General",
+        "Interior Secretary",
+        "Prime Minister"
+      ],
+      "a": 1,
+      "ex": "Section 4(2) states the administration vests in the Director General."
+    }
+  ]
 }
   ]
 }
