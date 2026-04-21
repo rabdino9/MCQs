@@ -1,5 +1,11 @@
 [
   {
+  "id": "guess_papers",
+  "title": "Guess Papers (High Chance)",
+  "icon": "🎯",
+  "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/guess_papers.json"
+},
+  {
     "id": "math",
     "title": "Mathematics",
     "icon": "🧮",
