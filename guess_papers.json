@@ -1,1 +1,116 @@
 
+{
+  "meta": {
+    "title": "Guess Papers (High Chance)",
+    "description": "Practice questions on KGuess Papers High Chance.",
+    "keywords": "Guess Papers High Chance"
+  },
+  "subcategories": [
+    {
+  "id": "fia_si_guess",
+  "title": "FIA Sub Inspector Guess Paper (English)",
+  "questions": [
+    {"q":"Pakistan left CENTO in?","options":["1976","1977","1979","1980"],"a":2,"ex":"Pakistan withdrew from CENTO in 1979."},
+    {"q":"When was the Objective Resolution passed?","options":["1948","1949","1950","1952"],"a":1,"ex":"The Objective Resolution was passed in 1949."},
+    {"q":"When was the first constitution of Pakistan enforced?","options":["1954","1955","1956","1958"],"a":2,"ex":"Pakistan's first constitution was enforced in 1956."},
+    {"q":"What is the capital of Turkey?","options":["Istanbul","Ankara","Tehran","Baku"],"a":1,"ex":"The capital of Turkey is Ankara."},
+    {"q":"Which is the largest ocean in the world?","options":["Atlantic","Indian","Pacific","Arctic"],"a":2,"ex":"The Pacific Ocean is the largest."},
+    {"q":"Which blood group is universal donor?","options":["O+","O-","A+","AB+"],"a":1,"ex":"O negative is universal donor."},
+    {"q":"Normal human body temperature?","options":["36°C","37°C","38°C","35°C"],"a":1,"ex":"Normal body temperature is 37°C."},
+    {"q":"Chemical formula of water?","options":["CO2","H2O","O2","NaCl"],"a":1,"ex":"Water is H2O."},
+    {"q":"Sun rises in the?","options":["North","South","East","West"],"a":2,"ex":"Sun rises in the east."},
+    {"q":"Light year measures?","options":["Time","Distance","Speed","Energy"],"a":1,"ex":"Light year measures distance."},
+
+    {"q":"How many pillars of Islam?","options":["4","5","6","7"],"a":1,"ex":"There are five pillars."},
+    {"q":"Hijrah occurred in?","options":["620","621","622","623"],"a":2,"ex":"Hijrah occurred in 622 AD."},
+    {"q":"Total Siparas in Quran?","options":["20","25","30","35"],"a":2,"ex":"There are 30 Siparas."},
+    {"q":"First revealed Surah?","options":["Al-Fatiha","Al-Baqarah","Al-Alaq","Al-Ikhlas"],"a":2,"ex":"First revelation was Surah Al-Alaq."},
+    {"q":"Zakat made obligatory in?","options":["1 Hijri","2 Hijri","3 Hijri","4 Hijri"],"a":1,"ex":"Zakat became obligatory in 2 Hijri."},
+
+    {"q":"20% of 150?","options":["25","30","35","40"],"a":1,"ex":"20% of 150 = 30."},
+    {"q":"5 × 6 + 10 = ?","options":["30","40","50","60"],"a":1,"ex":"5×6=30 +10=40."},
+    {"q":"Square of 12?","options":["124","144","154","164"],"a":1,"ex":"12^2=144."},
+    {"q":"Half of 200?","options":["50","100","150","200"],"a":1,"ex":"Half is 100."},
+    {"q":"10% of 500?","options":["25","50","75","100"],"a":1,"ex":"10% of 500 = 50."},
+
+    {"q":"CPU stands for?","options":["Central Process Unit","Central Processing Unit","Computer Processing Unit","Control Processing Unit"],"a":1,"ex":"CPU = Central Processing Unit."},
+    {"q":"RAM is?","options":["Permanent","Volatile","External","Secondary"],"a":1,"ex":"RAM is volatile."},
+    {"q":"MS Word is?","options":["System","Application","Utility","Programming"],"a":1,"ex":"MS Word is application software."},
+    {"q":"Father of Internet?","options":["Bill Gates","Vint Cerf","Elon Musk","Steve Jobs"],"a":1,"ex":"Vint Cerf is a pioneer."},
+    {"q":"WWW stands for?","options":["World Wide Web","World Web Wide","Web World Wide","Wide Web World"],"a":0,"ex":"WWW = World Wide Web."},
+
+    {"q":"Synonym of Brave?","options":["Weak","Courageous","Lazy","Slow"],"a":1,"ex":"Brave means courageous."},
+    {"q":"Antonym of Fast?","options":["Quick","Rapid","Slow","Speed"],"a":2,"ex":"Opposite is slow."},
+    {"q":"Plural of Child?","options":["Childs","Children","Childes","Childrens"],"a":1,"ex":"Correct plural is children."},
+    {"q":"He ___ going to school.","options":["is","are","am","be"],"a":0,"ex":"Correct is 'is'."},
+    {"q":"Opposite of Hot?","options":["Warm","Cold","Cool","Heat"],"a":1,"ex":"Hot opposite is cold."},
+
+    {"q":"Largest continent?","options":["Africa","Asia","Europe","Australia"],"a":1,"ex":"Asia is largest."},
+    {"q":"Smallest continent?","options":["Europe","Australia","Antarctica","Africa"],"a":1,"ex":"Australia is smallest."},
+    {"q":"Currency of Japan?","options":["Yuan","Dollar","Yen","Won"],"a":2,"ex":"Japan uses Yen."},
+    {"q":"UN founded in?","options":["1943","1945","1947","1950"],"a":1,"ex":"UN founded in 1945."},
+    {"q":"First Governor General of Pakistan?","options":["Liaquat Ali Khan","Jinnah","Ayub Khan","Zia"],"a":1,"ex":"Quaid-e-Azam was first GG."},
+
+    {"q":"National animal of Pakistan?","options":["Lion","Markhor","Tiger","Deer"],"a":1,"ex":"Markhor is national animal."},
+    {"q":"National flower?","options":["Rose","Jasmine","Tulip","Sunflower"],"a":1,"ex":"Jasmine is national flower."},
+    {"q":"National language?","options":["Punjabi","Sindhi","Urdu","Pashto"],"a":2,"ex":"Urdu is national language."},
+    {"q":"K2 is located in?","options":["India","Nepal","Pakistan","China"],"a":2,"ex":"K2 is in Pakistan."},
+    {"q":"Indus River originates from?","options":["China","India","Tibet","Nepal"],"a":2,"ex":"Originates from Tibet."},
+
+    {"q":"Largest desert?","options":["Sahara","Thar","Gobi","Arabian"],"a":0,"ex":"Sahara is largest hot desert."},
+    {"q":"Gas used in balloons?","options":["Oxygen","Nitrogen","Helium","Hydrogen"],"a":2,"ex":"Helium is used."},
+    {"q":"Speed of light?","options":["3×10^8","3×10^6","3×10^5","3×10^7"],"a":0,"ex":"Speed is 3×10^8 m/s."},
+    {"q":"Unit of force?","options":["Joule","Watt","Newton","Pascal"],"a":2,"ex":"Force unit is Newton."},
+    {"q":"Unit of power?","options":["Joule","Watt","Newton","Volt"],"a":1,"ex":"Power unit is Watt."},
+
+    {"q":"Which planet is red?","options":["Earth","Mars","Jupiter","Saturn"],"a":1,"ex":"Mars is red planet."},
+    {"q":"Closest planet to sun?","options":["Earth","Venus","Mercury","Mars"],"a":2,"ex":"Mercury is closest."},
+    {"q":"Largest planet?","options":["Earth","Jupiter","Saturn","Mars"],"a":1,"ex":"Jupiter is largest."},
+    {"q":"Moon is satellite of?","options":["Mars","Earth","Sun","Venus"],"a":1,"ex":"Moon orbits Earth."},
+    {"q":"Earth rotates in?","options":["12h","24h","36h","48h"],"a":1,"ex":"Earth rotates in 24 hours."},
+
+    {"q":"Who discovered gravity?","options":["Einstein","Newton","Galileo","Tesla"],"a":1,"ex":"Newton discovered gravity."},
+    {"q":"Boiling point of water?","options":["90°C","100°C","110°C","120°C"],"a":1,"ex":"Water boils at 100°C."},
+    {"q":"Freezing point of water?","options":["0°C","5°C","10°C","-5°C"],"a":0,"ex":"Freezing point is 0°C."},
+    {"q":"Largest organ in human body?","options":["Heart","Skin","Brain","Liver"],"a":1,"ex":"Skin is largest organ."},
+    {"q":"Human heart chambers?","options":["2","3","4","5"],"a":2,"ex":"Heart has 4 chambers."},
+
+    {"q":"Synonym of Happy?","options":["Sad","Joyful","Angry","Tired"],"a":1,"ex":"Happy means joyful."},
+    {"q":"Antonym of Big?","options":["Large","Huge","Small","Wide"],"a":2,"ex":"Opposite is small."},
+    {"q":"Correct spelling?","options":["Recieve","Receive","Recive","Receve"],"a":1,"ex":"Correct is receive."},
+    {"q":"He ___ playing.","options":["is","are","am","be"],"a":0,"ex":"Correct is is."},
+    {"q":"They ___ going.","options":["is","are","am","be"],"a":1,"ex":"Correct is are."},
+
+    {"q":"Largest country?","options":["USA","China","Russia","India"],"a":2,"ex":"Russia is largest."},
+    {"q":"Pakistan independence year?","options":["1945","1946","1947","1948"],"a":2,"ex":"Pakistan got independence in 1947."},
+    {"q":"Allama Iqbal birth year?","options":["1875","1877","1879","1881"],"a":1,"ex":"Iqbal born in 1877."},
+    {"q":"Liaquat Ali Khan assassinated in?","options":["1950","1951","1952","1953"],"a":1,"ex":"He was assassinated in 1951."},
+    {"q":"Minar-e-Pakistan located in?","options":["Karachi","Lahore","Islamabad","Peshawar"],"a":1,"ex":"It is in Lahore."},
+
+    {"q":"2+2×2=?","options":["6","8","4","10"],"a":0,"ex":"2+4=6."},
+    {"q":"15% of 200?","options":["20","25","30","35"],"a":2,"ex":"15% of 200 = 30."},
+    {"q":"100/5=?","options":["10","20","25","30"],"a":1,"ex":"100/5=20."},
+    {"q":"Square root of 81?","options":["7","8","9","10"],"a":2,"ex":"√81=9."},
+    {"q":"7×8=?","options":["54","56","58","60"],"a":1,"ex":"7×8=56."},
+
+    {"q":"Keyboard is?","options":["Input","Output","Storage","Processing"],"a":0,"ex":"Keyboard is input device."},
+    {"q":"Monitor is?","options":["Input","Output","Storage","Processing"],"a":1,"ex":"Monitor is output device."},
+    {"q":"Hard disk is?","options":["Input","Output","Storage","Processing"],"a":2,"ex":"Hard disk stores data."},
+    {"q":"1 byte = ? bits","options":["4","8","16","32"],"a":1,"ex":"1 byte = 8 bits."},
+    {"q":"Binary digits are?","options":["0,1","1,2","2,3","3,4"],"a":0,"ex":"Binary uses 0 and 1."},
+
+    {"q":"Pakistan PM is?","options":["President","Prime Minister","Governor","Speaker"],"a":1,"ex":"Head of govt is PM."},
+    {"q":"President is?","options":["Head of State","Head of Govt","Minister","Judge"],"a":0,"ex":"President is head of state."},
+    {"q":"NA stands for?","options":["National Assembly","New Assembly","North Assembly","None"],"a":0,"ex":"NA = National Assembly."},
+    {"q":"Senate is?","options":["Upper house","Lower house","Court","Cabinet"],"a":0,"ex":"Senate is upper house."},
+    {"q":"Punjab capital?","options":["Karachi","Lahore","Quetta","Peshawar"],"a":1,"ex":"Capital is Lahore."},
+
+    {"q":"Sindh capital?","options":["Karachi","Hyderabad","Sukkur","Larkana"],"a":0,"ex":"Capital is Karachi."},
+    {"q":"KPK capital?","options":["Peshawar","Mardan","Swat","Abbottabad"],"a":0,"ex":"Capital is Peshawar."},
+    {"q":"Balochistan capital?","options":["Quetta","Gwadar","Turbat","Khuzdar"],"a":0,"ex":"Capital is Quetta."},
+    {"q":"Gwadar port is in?","options":["Sindh","Punjab","Balochistan","KPK"],"a":2,"ex":"Gwadar is in Balochistan."},
+    {"q":"CPEC connects?","options":["Pakistan-China","India-China","USA-Pakistan","Iran-Pakistan"],"a":0,"ex":"CPEC connects Pakistan and China."}
+  ]
+}
+  ]
+}
