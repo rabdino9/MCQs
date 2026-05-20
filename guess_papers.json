@@ -7,6 +7,1112 @@
   },
   "subcategories": [
   {
+    "id": "vaccinator_sindh_nts_guess_100",
+    "title": "EPI Sindh Vaccinator NTS Guess Paper - 100 MCQs",
+    "questions": [
+        {
+            "q": "What does EPI stand for?",
+            "options": [
+                "Extended Program on Immunization",
+                "Expanded Programme on Immunization",
+                "Essential Program for Infants",
+                "Extra Protection Immunization"
+            ],
+            "a": 1,
+            "ex": "EPI stands for Expanded Programme on Immunization, launched by WHO."
+        },
+        {
+            "q": "Which disease is NOT covered under the routine EPI schedule in Pakistan?",
+            "options": [
+                "Polio",
+                "Tuberculosis",
+                "Malaria",
+                "Measles"
+            ],
+            "a": 2,
+            "ex": "Malaria is not prevented by routine EPI vaccines; it is a parasitic disease."
+        },
+        {
+            "q": "BCG vaccine is given to protect against:",
+            "options": [
+                "Polio",
+                "Tuberculosis (TB)",
+                "Hepatitis B",
+                "Diphtheria"
+            ],
+            "a": 1,
+            "ex": "Bacillus Calmette-Gu\u00e9rin (BCG) protects against severe forms of TB."
+        },
+        {
+            "q": "At what age is the BCG vaccine usually administered?",
+            "options": [
+                "At birth",
+                "6 weeks",
+                "10 weeks",
+                "9 months"
+            ],
+            "a": 0,
+            "ex": "BCG is given as soon as possible after birth."
+        },
+        {
+            "q": "The OPV (Oral Polio Vaccine) is administered via which route?",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 2,
+            "ex": "OPV is given as drops in the mouth (orally)."
+        },
+        {
+            "q": "Pentavalent vaccine protects against how many diseases?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "It protects against 5 diseases: Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hib."
+        },
+        {
+            "q": "Which vaccine is given at 9 months of age in the EPI schedule?",
+            "options": [
+                "BCG",
+                "Measles-1",
+                "Pentavalent-1",
+                "OPV-0"
+            ],
+            "a": 1,
+            "ex": "The first dose of Measles vaccine is given at 9 months."
+        },
+        {
+            "q": "What is the recommended storage temperature for most vaccines in the cold chain?",
+            "options": [
+                "-20\u00b0C to -15\u00b0C",
+                "0\u00b0C to 2\u00b0C",
+                "+2\u00b0C to +8\u00b0C",
+                "+10\u00b0C to +15\u00b0C"
+            ],
+            "a": 2,
+            "ex": "Most vaccines are stored between +2\u00b0C and +8\u00b0C to maintain potency."
+        },
+        {
+            "q": "Which vaccine is extremely sensitive to freezing?",
+            "options": [
+                "OPV",
+                "Measles",
+                "Pentavalent",
+                "BCG"
+            ],
+            "a": 2,
+            "ex": "Pentavalent (and other liquid vaccines containing adjuvants) lose potency if frozen."
+        },
+        {
+            "q": "What does VVM stand for?",
+            "options": [
+                "Vaccine Viral Marker",
+                "Vaccine Vial Monitor",
+                "Visual Vaccine Monitor",
+                "Viral Vector Marker"
+            ],
+            "a": 1,
+            "ex": "VVM is a label on vaccine vials that changes color when exposed to heat."
+        },
+        {
+            "q": "If the inner square of a VVM is the same color or darker than the outer circle, what should you do?",
+            "options": [
+                "Use the vaccine immediately",
+                "Shake well before use",
+                "Do not use the vaccine",
+                "Keep it in the freezer"
+            ],
+            "a": 2,
+            "ex": "A dark inner square indicates the vaccine has been exposed to excessive heat and is no longer potent."
+        },
+        {
+            "q": "Hepatitis B vaccine protects against an infection of which organ?",
+            "options": [
+                "Heart",
+                "Lungs",
+                "Liver",
+                "Kidneys"
+            ],
+            "a": 2,
+            "ex": "Hepatitis B causes inflammation and damage to the liver."
+        },
+        {
+            "q": "Tetanus Toxoid (TT) is primarily given to pregnant women to prevent:",
+            "options": [
+                "Maternal Polio",
+                "Neonatal Tetanus",
+                "Congenital Rubella",
+                "Maternal Anemia"
+            ],
+            "a": 1,
+            "ex": "TT protects the newborn from neonatal tetanus."
+        },
+        {
+            "q": "Which disease is characterized by a 'whooping' cough?",
+            "options": [
+                "Diphtheria",
+                "Pertussis",
+                "Tetanus",
+                "Measles"
+            ],
+            "a": 1,
+            "ex": "Pertussis is commonly known as whooping cough."
+        },
+        {
+            "q": "Measles vaccine is administered via which route?",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 1,
+            "ex": "Measles vaccine is given subcutaneously (under the skin)."
+        },
+        {
+            "q": "The 'Cold Chain' refers to:",
+            "options": [
+                "A chain of hospitals",
+                "A system of storing and transporting vaccines at recommended temperatures",
+                "A method of sterilizing needles",
+                "A winter vaccination campaign"
+            ],
+            "a": 1,
+            "ex": "The cold chain ensures vaccines remain potent from manufacturer to the child."
+        },
+        {
+            "q": "IPV stands for:",
+            "options": [
+                "Inactive Polio Virus",
+                "Inactivated Polio Vaccine",
+                "Infant Polio Vaccine",
+                "Internal Polio Vaccine"
+            ],
+            "a": 1,
+            "ex": "IPV is the injectable form of the polio vaccine."
+        },
+        {
+            "q": "Rotavirus vaccine protects against:",
+            "options": [
+                "Pneumonia",
+                "Severe Diarrhea",
+                "Meningitis",
+                "Tuberculosis"
+            ],
+            "a": 1,
+            "ex": "Rotavirus is a leading cause of severe diarrhea in infants."
+        },
+        {
+            "q": "Which of the following is a live attenuated vaccine?",
+            "options": [
+                "Hepatitis B",
+                "Tetanus Toxoid",
+                "OPV",
+                "Diphtheria"
+            ],
+            "a": 2,
+            "ex": "Oral Polio Vaccine (OPV) contains live, weakened virus."
+        },
+        {
+            "q": "At 14 weeks of age, which dose of Pentavalent vaccine is given?",
+            "options": [
+                "Pentavalent-1",
+                "Pentavalent-2",
+                "Pentavalent-3",
+                "Pentavalent Booster"
+            ],
+            "a": 2,
+            "ex": "The schedule is 6 weeks (Penta-1), 10 weeks (Penta-2), and 14 weeks (Penta-3)."
+        },
+        {
+            "q": "Pneumococcal Conjugate Vaccine (PCV) protects against:",
+            "options": [
+                "Polio",
+                "Pneumonia",
+                "Tetanus",
+                "Measles"
+            ],
+            "a": 1,
+            "ex": "PCV protects against Streptococcus pneumoniae, a major cause of pneumonia."
+        },
+        {
+            "q": "What is the primary role of a Vaccinator?",
+            "options": [
+                "Prescribe medicines",
+                "Perform surgeries",
+                "Administer vaccines and maintain records",
+                "Diagnose adult diseases"
+            ],
+            "a": 2,
+            "ex": "Vaccinators safely administer vaccines and track immunization coverage."
+        },
+        {
+            "q": "Typhoid Conjugate Vaccine (TCV) was introduced in Sindh to combat:",
+            "options": [
+                "Malaria",
+                "Extensively Drug-Resistant (XDR) Typhoid",
+                "Cholera",
+                "Dengue"
+            ],
+            "a": 1,
+            "ex": "TCV was introduced to control the outbreak of XDR Typhoid in Sindh."
+        },
+        {
+            "q": "Which of the following is NOT a component of the Pentavalent vaccine?",
+            "options": [
+                "Diphtheria",
+                "Pertussis",
+                "Polio",
+                "Hepatitis B"
+            ],
+            "a": 2,
+            "ex": "Polio is given separately as OPV and IPV; it is not in the Pentavalent vaccine."
+        },
+        {
+            "q": "The route of administration for BCG vaccine is:",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 3,
+            "ex": "BCG is injected into the top layers of the skin (intradermal)."
+        },
+        {
+            "q": "A diluent is used for which purpose?",
+            "options": [
+                "To clean the skin",
+                "To reconstitute freeze-dried vaccines",
+                "To sterilize the needle",
+                "To reduce fever"
+            ],
+            "a": 1,
+            "ex": "Diluents are mixed with freeze-dried (lyophilized) vaccines like Measles or BCG before use."
+        },
+        {
+            "q": "How soon should a reconstituted Measles vaccine be used?",
+            "options": [
+                "Within 1 hour",
+                "Within 6 hours",
+                "Within 24 hours",
+                "Within 1 week"
+            ],
+            "a": 1,
+            "ex": "Reconstituted live vaccines must usually be discarded after 6 hours to prevent bacterial growth."
+        },
+        {
+            "q": "What is 'Herd Immunity'?",
+            "options": [
+                "Immunity in animals",
+                "Protection of a population when a high percentage is vaccinated",
+                "A new type of vaccine",
+                "Immunity passed from mother to child"
+            ],
+            "a": 1,
+            "ex": "High vaccination rates protect those who cannot be vaccinated."
+        },
+        {
+            "q": "Which disease causes a thick covering in the back of the throat, leading to breathing difficulty?",
+            "options": [
+                "Tetanus",
+                "Pertussis",
+                "Diphtheria",
+                "Measles"
+            ],
+            "a": 2,
+            "ex": "Diphtheria causes a pseudo-membrane in the throat."
+        },
+        {
+            "q": "AEFI stands for:",
+            "options": [
+                "Adverse Event Following Immunization",
+                "Active Event For Infants",
+                "Annual EPI Field Inspection",
+                "Adverse Effect For Immunity"
+            ],
+            "a": 0,
+            "ex": "AEFI refers to any untoward medical occurrence after vaccination."
+        },
+        {
+            "q": "Ice packs in a vaccine carrier should be:",
+            "options": [
+                "Frozen solid directly from the freezer",
+                "Conditioned (sweating) before placing vaccines",
+                "Replaced with dry ice",
+                "Warmed in the sun"
+            ],
+            "a": 1,
+            "ex": "Conditioning ice packs prevents freeze-sensitive vaccines from freezing."
+        },
+        {
+            "q": "Which vaccine leaves a permanent scar on the arm?",
+            "options": [
+                "Measles",
+                "Pentavalent",
+                "BCG",
+                "Hepatitis B"
+            ],
+            "a": 2,
+            "ex": "A successful BCG vaccination usually leaves a small scar."
+        },
+        {
+            "q": "The target age group for routine EPI vaccination in Pakistan is primarily:",
+            "options": [
+                "0 to 11 months",
+                "1 to 5 years",
+                "5 to 10 years",
+                "Adults"
+            ],
+            "a": 0,
+            "ex": "The primary schedule aims to fully immunize children before their first birthday."
+        },
+        {
+            "q": "Rubella is also known as:",
+            "options": [
+                "German Measles",
+                "Chickenpox",
+                "Smallpox",
+                "Mumps"
+            ],
+            "a": 0,
+            "ex": "Rubella is often called German Measles."
+        },
+        {
+            "q": "What is the dose volume for the Pentavalent vaccine?",
+            "options": [
+                "0.1 ml",
+                "0.5 ml",
+                "1.0 ml",
+                "2.0 ml"
+            ],
+            "a": 1,
+            "ex": "The standard dose for Pentavalent (and many intramuscular vaccines) is 0.5 ml."
+        },
+        {
+            "q": "Which of the following diseases is eradicated globally?",
+            "options": [
+                "Polio",
+                "Smallpox",
+                "Measles",
+                "Tetanus"
+            ],
+            "a": 1,
+            "ex": "Smallpox was declared globally eradicated in 1980."
+        },
+        {
+            "q": "Polio virus is primarily transmitted through:",
+            "options": [
+                "Mosquito bites",
+                "Blood transfusion",
+                "Fecal-oral route",
+                "Airborne droplets"
+            ],
+            "a": 2,
+            "ex": "Polio spreads mainly through contaminated water and food (fecal-oral route)."
+        },
+        {
+            "q": "In the EPI schedule, Measles-2 is given at what age?",
+            "options": [
+                "9 months",
+                "12 months",
+                "15 months",
+                "24 months"
+            ],
+            "a": 2,
+            "ex": "The second dose of Measles is given at 15 months of age."
+        },
+        {
+            "q": "What tool is used by vaccinators to keep track of a child's vaccination history?",
+            "options": [
+                "EPI Vaccination Card",
+                "Birth Certificate",
+                "B-Form",
+                "School ID"
+            ],
+            "a": 0,
+            "ex": "The EPI card records dates and types of vaccines received."
+        },
+        {
+            "q": "Syringes used for vaccination should be disposed of in a:",
+            "options": [
+                "Regular dustbin",
+                "Safety Box",
+                "Plastic bag",
+                "River"
+            ],
+            "a": 1,
+            "ex": "Safety boxes prevent needle-stick injuries and safe disposal of sharps."
+        },
+        {
+            "q": "Choose the correct synonym for 'Prevent':",
+            "options": [
+                "Allow",
+                "Stop",
+                "Encourage",
+                "Help"
+            ],
+            "a": 1,
+            "ex": "To prevent means to stop something from happening."
+        },
+        {
+            "q": "Antonym of 'Protect':",
+            "options": [
+                "Defend",
+                "Guard",
+                "Harm",
+                "Save"
+            ],
+            "a": 2,
+            "ex": "Harm is the opposite of protect."
+        },
+        {
+            "q": "The nurse is responsible ___ the patients.",
+            "options": [
+                "to",
+                "for",
+                "with",
+                "of"
+            ],
+            "a": 1,
+            "ex": "'Responsible for' is the correct preposition."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Vaccine",
+                "Vacine",
+                "Vaccin",
+                "Vacinne"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Vaccine'."
+        },
+        {
+            "q": "He goes to the hospital ___ bus.",
+            "options": [
+                "by",
+                "on",
+                "in",
+                "with"
+            ],
+            "a": 0,
+            "ex": "We use 'by' for modes of transport (by bus, by car)."
+        },
+        {
+            "q": "Identify the Verb: 'The baby cried loudly.'",
+            "options": [
+                "The",
+                "Baby",
+                "Cried",
+                "Loudly"
+            ],
+            "a": 2,
+            "ex": "'Cried' is the action word."
+        },
+        {
+            "q": "She ___ her medicine yesterday.",
+            "options": [
+                "takes",
+                "take",
+                "took",
+                "taking"
+            ],
+            "a": 2,
+            "ex": "Past tense 'yesterday' requires 'took'."
+        },
+        {
+            "q": "Synonym of 'Essential':",
+            "options": [
+                "Unnecessary",
+                "Crucial",
+                "Optional",
+                "Extra"
+            ],
+            "a": 1,
+            "ex": "Essential means absolutely necessary or crucial."
+        },
+        {
+            "q": "Choose the correct article: 'He is ___ honest worker.'",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "a": 1,
+            "ex": "'Honest' starts with a vowel sound, so 'an' is used."
+        },
+        {
+            "q": "Plural of 'Child' is:",
+            "options": [
+                "Childs",
+                "Childrens",
+                "Children",
+                "Childes"
+            ],
+            "a": 2,
+            "ex": "The plural of child is children."
+        },
+        {
+            "q": "Antonym of 'Healthy':",
+            "options": [
+                "Strong",
+                "Fit",
+                "Sick",
+                "Well"
+            ],
+            "a": 2,
+            "ex": "Sick is the opposite of healthy."
+        },
+        {
+            "q": "They ___ waiting for the doctor right now.",
+            "options": [
+                "is",
+                "am",
+                "are",
+                "was"
+            ],
+            "a": 2,
+            "ex": "Plural subject 'They' takes 'are' in present continuous."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Immunity",
+                "Imunity",
+                "Immunety",
+                "Emunity"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Immunity'."
+        },
+        {
+            "q": "The sun ___ in the east.",
+            "options": [
+                "rise",
+                "rises",
+                "rising",
+                "rose"
+            ],
+            "a": 1,
+            "ex": "Universal truths use simple present tense."
+        },
+        {
+            "q": "Synonym of 'Disease':",
+            "options": [
+                "Health",
+                "Illness",
+                "Cure",
+                "Medicine"
+            ],
+            "a": 1,
+            "ex": "Disease and illness are synonyms."
+        },
+        {
+            "q": "I have been working here ___ three years.",
+            "options": [
+                "since",
+                "for",
+                "from",
+                "in"
+            ],
+            "a": 1,
+            "ex": "'For' is used for a duration of time."
+        },
+        {
+            "q": "Identify the Adjective: 'He wore a white uniform.'",
+            "options": [
+                "He",
+                "Wore",
+                "White",
+                "Uniform"
+            ],
+            "a": 2,
+            "ex": "'White' describes the noun 'uniform'."
+        },
+        {
+            "q": "Meaning of 'Under the weather':",
+            "options": [
+                "Raining",
+                "Feeling sick",
+                "Standing outside",
+                "Happy"
+            ],
+            "a": 1,
+            "ex": "It is an idiom meaning feeling ill."
+        },
+        {
+            "q": "She is good ___ giving injections.",
+            "options": [
+                "in",
+                "at",
+                "on",
+                "with"
+            ],
+            "a": 1,
+            "ex": "'Good at' is the correct phrasing."
+        },
+        {
+            "q": "Antonym of 'Safe':",
+            "options": [
+                "Secure",
+                "Dangerous",
+                "Protected",
+                "Calm"
+            ],
+            "a": 1,
+            "ex": "Dangerous is the opposite of safe."
+        },
+        {
+            "q": "Who is the current Chief Minister of Sindh?",
+            "options": [
+                "Murad Ali Shah",
+                "Kamran Tessori",
+                "Syed Qaim Ali Shah",
+                "Imran Ismail"
+            ],
+            "a": 0,
+            "ex": "Syed Murad Ali Shah (as of early 2024/2026 check)."
+        },
+        {
+            "q": "The capital of Sindh province is:",
+            "options": [
+                "Hyderabad",
+                "Sukkur",
+                "Karachi",
+                "Larkana"
+            ],
+            "a": 2,
+            "ex": "Karachi is the provincial capital."
+        },
+        {
+            "q": "Which is the largest hospital in Karachi?",
+            "options": [
+                "Civil Hospital",
+                "Jinnah Postgraduate Medical Centre (JPMC)",
+                "Agha Khan Hospital",
+                "Liaquat National Hospital"
+            ],
+            "a": 1,
+            "ex": "JPMC is one of the largest public hospitals."
+        },
+        {
+            "q": "Mohenjo-daro is an ancient city located in which province?",
+            "options": [
+                "Punjab",
+                "Balochistan",
+                "KPK",
+                "Sindh"
+            ],
+            "a": 3,
+            "ex": "It is an Indus Valley Civilization site in Sindh."
+        },
+        {
+            "q": "The largest freshwater lake in Pakistan, located in Sindh, is:",
+            "options": [
+                "Keenjhar Lake",
+                "Manchar Lake",
+                "Haleji Lake",
+                "Saif-ul-Malook"
+            ],
+            "a": 1,
+            "ex": "Manchar Lake is the largest."
+        },
+        {
+            "q": "Which is the national language of Pakistan?",
+            "options": [
+                "Sindhi",
+                "Punjabi",
+                "Urdu",
+                "English"
+            ],
+            "a": 2,
+            "ex": "Urdu is the national language."
+        },
+        {
+            "q": "The shrine of Lal Shahbaz Qalandar is in:",
+            "options": [
+                "Bhit Shah",
+                "Sehwan Sharif",
+                "Multan",
+                "Thatta"
+            ],
+            "a": 1,
+            "ex": "It is located in Sehwan, Sindh."
+        },
+        {
+            "q": "Which river flows through the province of Sindh?",
+            "options": [
+                "Jhelum",
+                "Chenab",
+                "Ravi",
+                "Indus"
+            ],
+            "a": 3,
+            "ex": "The Indus River flows through Sindh into the Arabian Sea."
+        },
+        {
+            "q": "The Thar Desert is located in which part of Sindh?",
+            "options": [
+                "Northern",
+                "Western",
+                "Eastern",
+                "Southern"
+            ],
+            "a": 2,
+            "ex": "It is located in the eastern part of Sindh (Tharparkar)."
+        },
+        {
+            "q": "Who was the first Governor General of Pakistan?",
+            "options": [
+                "Liaquat Ali Khan",
+                "Quaid-e-Azam",
+                "Ayub Khan",
+                "Iskander Mirza"
+            ],
+            "a": 1,
+            "ex": "Muhammad Ali Jinnah was the first Governor General."
+        },
+        {
+            "q": "Which city is known as the 'City of Lights'?",
+            "options": [
+                "Lahore",
+                "Islamabad",
+                "Karachi",
+                "Peshawar"
+            ],
+            "a": 2,
+            "ex": "Karachi is famously known as the City of Lights."
+        },
+        {
+            "q": "How many districts are there in Sindh?",
+            "options": [
+                "25",
+                "27",
+                "29",
+                "30"
+            ],
+            "a": 3,
+            "ex": "There are 30 districts in Sindh."
+        },
+        {
+            "q": "The Gorakh Hill Station is situated in which district?",
+            "options": [
+                "Dadu",
+                "Jamshoro",
+                "Thatta",
+                "Badin"
+            ],
+            "a": 0,
+            "ex": "Gorakh Hill is located in Dadu district."
+        },
+        {
+            "q": "Pakistan's Independence Day is celebrated on:",
+            "options": [
+                "23rd March",
+                "1st May",
+                "14th August",
+                "25th December"
+            ],
+            "a": 2,
+            "ex": "Pakistan gained independence on August 14, 1947."
+        },
+        {
+            "q": "Which is the highest peak in Pakistan?",
+            "options": [
+                "Nanga Parbat",
+                "K-2",
+                "Broad Peak",
+                "Tirich Mir"
+            ],
+            "a": 1,
+            "ex": "K-2 is the highest peak in Pakistan."
+        },
+        {
+            "q": "How many Surahs are there in the Holy Quran?",
+            "options": [
+                "110",
+                "112",
+                "114",
+                "116"
+            ],
+            "a": 2,
+            "ex": "There are 114 Surahs."
+        },
+        {
+            "q": "Who was the first Caliph of Islam?",
+            "options": [
+                "Hazrat Umar RA",
+                "Hazrat Abu Bakr RA",
+                "Hazrat Usman RA",
+                "Hazrat Ali RA"
+            ],
+            "a": 1,
+            "ex": "Hazrat Abu Bakr RA was the first Caliph."
+        },
+        {
+            "q": "In which month do Muslims fast?",
+            "options": [
+                "Muharram",
+                "Safar",
+                "Ramadan",
+                "Shawwal"
+            ],
+            "a": 2,
+            "ex": "Fasting (Sawm) is observed in Ramadan."
+        },
+        {
+            "q": "How many pillars of Islam are there?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "There are 5 fundamental pillars."
+        },
+        {
+            "q": "What is the meaning of 'Zakat'?",
+            "options": [
+                "Prayer",
+                "Fasting",
+                "Purification of wealth",
+                "Pilgrimage"
+            ],
+            "a": 2,
+            "ex": "Zakat means to purify one's wealth through charity."
+        },
+        {
+            "q": "The Holy Prophet (PBUH) was born in which city?",
+            "options": [
+                "Madina",
+                "Makkah",
+                "Taif",
+                "Jerusalem"
+            ],
+            "a": 1,
+            "ex": "He was born in Makkah."
+        },
+        {
+            "q": "Which angel brought revelations to the Prophets?",
+            "options": [
+                "Hazrat Jibraeel AS",
+                "Hazrat Mikaeel AS",
+                "Hazrat Israfeel AS",
+                "Hazrat Izraeel AS"
+            ],
+            "a": 0,
+            "ex": "Hazrat Jibraeel (Gabriel) brought the revelations."
+        },
+        {
+            "q": "The Battle of Badr took place in which Hijri year?",
+            "options": [
+                "1 AH",
+                "2 AH",
+                "3 AH",
+                "4 AH"
+            ],
+            "a": 1,
+            "ex": "It occurred in 2 AH."
+        },
+        {
+            "q": "What is the first fundamental belief in Islam?",
+            "options": [
+                "Salat",
+                "Zakat",
+                "Tauheed (Oneness of Allah)",
+                "Hajj"
+            ],
+            "a": 2,
+            "ex": "Tauheed is the core belief of Islam."
+        },
+        {
+            "q": "Who is known as 'Khalilullah' (Friend of Allah)?",
+            "options": [
+                "Hazrat Adam AS",
+                "Hazrat Ibrahim AS",
+                "Hazrat Musa AS",
+                "Hazrat Isa AS"
+            ],
+            "a": 1,
+            "ex": "Hazrat Ibrahim AS holds this title."
+        },
+        {
+            "q": "How many times is Namaz obligatory in a day?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "Five daily prayers are mandatory."
+        },
+        {
+            "q": "The first mosque built by Muslims was:",
+            "options": [
+                "Masjid-e-Nabvi",
+                "Masjid-e-Haram",
+                "Masjid Quba",
+                "Masjid-e-Aqsa"
+            ],
+            "a": 2,
+            "ex": "Masjid Quba was the first mosque built in Madina."
+        },
+        {
+            "q": "Which Prophet was swallowed by a large fish/whale?",
+            "options": [
+                "Hazrat Nuh AS",
+                "Hazrat Yunus AS",
+                "Hazrat Musa AS",
+                "Hazrat Yusuf AS"
+            ],
+            "a": 1,
+            "ex": "Hazrat Yunus AS was swallowed by a whale."
+        },
+        {
+            "q": "What is the meaning of 'Islam'?",
+            "options": [
+                "War",
+                "Peace and Submission",
+                "Faith",
+                "Charity"
+            ],
+            "a": 1,
+            "ex": "Islam means peace and submission to the will of Allah."
+        },
+        {
+            "q": "(Ethics for Non-Muslims) Honesty is considered a:",
+            "options": [
+                "Bad habit",
+                "Moral virtue",
+                "Legal crime",
+                "Weakness"
+            ],
+            "a": 1,
+            "ex": "Honesty is a universal moral virtue."
+        },
+        {
+            "q": "COVID-19 is caused by which type of pathogen?",
+            "options": [
+                "Bacteria",
+                "Fungus",
+                "Virus",
+                "Parasite"
+            ],
+            "a": 2,
+            "ex": "COVID-19 is caused by the SARS-CoV-2 virus."
+        },
+        {
+            "q": "What is the normal human body temperature?",
+            "options": [
+                "35\u00b0C",
+                "37\u00b0C",
+                "39\u00b0C",
+                "41\u00b0C"
+            ],
+            "a": 1,
+            "ex": "Normal body temperature is around 37\u00b0C (98.6\u00b0F)."
+        },
+        {
+            "q": "Which organ pumps blood throughout the body?",
+            "options": [
+                "Lungs",
+                "Liver",
+                "Brain",
+                "Heart"
+            ],
+            "a": 3,
+            "ex": "The heart is responsible for pumping blood."
+        },
+        {
+            "q": "Which gas do humans inhale to survive?",
+            "options": [
+                "Carbon Dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "a": 1,
+            "ex": "Humans breathe in oxygen."
+        },
+        {
+            "q": "The World Health Organization (WHO) headquarters is located in:",
+            "options": [
+                "New York",
+                "London",
+                "Geneva",
+                "Paris"
+            ],
+            "a": 2,
+            "ex": "WHO HQ is in Geneva, Switzerland."
+        },
+        {
+            "q": "Which vitamin is naturally produced by the body when exposed to sunlight?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 3,
+            "ex": "Sunlight helps the skin synthesize Vitamin D."
+        },
+        {
+            "q": "What is the currency of Pakistan?",
+            "options": [
+                "Dinar",
+                "Riyal",
+                "Rupee",
+                "Taka"
+            ],
+            "a": 2,
+            "ex": "The Pakistani Rupee is the official currency."
+        },
+        {
+            "q": "Which country hosted the 2022 FIFA World Cup?",
+            "options": [
+                "Brazil",
+                "Russia",
+                "Qatar",
+                "France"
+            ],
+            "a": 2,
+            "ex": "Qatar hosted the 2022 World Cup."
+        },
+        {
+            "q": "The chemical formula for water is:",
+            "options": [
+                "CO2",
+                "H2O",
+                "O2",
+                "NaCl"
+            ],
+            "a": 1,
+            "ex": "Water is composed of two hydrogen atoms and one oxygen atom."
+        },
+        {
+            "q": "Who is the current Prime Minister of Pakistan?",
+            "options": [
+                "Imran Khan",
+                "Shehbaz Sharif",
+                "Nawaz Sharif",
+                "Asif Zardari"
+            ],
+            "a": 1,
+            "ex": "Shehbaz Sharif (as of early 2024/2026 check)."
+        }
+    ]
+},
+    {
     "id": "food_inspector_sindh_guess_100",
     "title": "Food Inspector Sindh Guess Paper - 100 MCQs",
     "questions": [
