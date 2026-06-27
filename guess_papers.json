@@ -1,146 +1,5646 @@
-[
+
+{
+  "meta": {
+    "title": "Guess Papers (High Chance)",
+    "description": "Practice questions on KGuess Papers High Chance.",
+    "keywords": "Guess Papers High Chance"
+  },
+  "subcategories": [
   {
-  "id": "guess_papers",
-  "title": "Guess Papers (High Chance)",
-  "icon": "🎯",
-  "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/guess_papers.json"
+    "id": "vaccinator_sindh_nts_guess_100",
+    "title": "EPI Sindh Vaccinator NTS Guess Paper - 100 MCQs",
+    "questions": [
+        {
+            "q": "What does EPI stand for?",
+            "options": [
+                "Extended Program on Immunization",
+                "Expanded Programme on Immunization",
+                "Essential Program for Infants",
+                "Extra Protection Immunization"
+            ],
+            "a": 1,
+            "ex": "EPI stands for Expanded Programme on Immunization, launched by WHO."
+        },
+        {
+            "q": "Which disease is NOT covered under the routine EPI schedule in Pakistan?",
+            "options": [
+                "Polio",
+                "Tuberculosis",
+                "Malaria",
+                "Measles"
+            ],
+            "a": 2,
+            "ex": "Malaria is not prevented by routine EPI vaccines; it is a parasitic disease."
+        },
+        {
+            "q": "BCG vaccine is given to protect against:",
+            "options": [
+                "Polio",
+                "Tuberculosis (TB)",
+                "Hepatitis B",
+                "Diphtheria"
+            ],
+            "a": 1,
+            "ex": "Bacillus Calmette-Gu\u00e9rin (BCG) protects against severe forms of TB."
+        },
+        {
+            "q": "At what age is the BCG vaccine usually administered?",
+            "options": [
+                "At birth",
+                "6 weeks",
+                "10 weeks",
+                "9 months"
+            ],
+            "a": 0,
+            "ex": "BCG is given as soon as possible after birth."
+        },
+        {
+            "q": "The OPV (Oral Polio Vaccine) is administered via which route?",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 2,
+            "ex": "OPV is given as drops in the mouth (orally)."
+        },
+        {
+            "q": "Pentavalent vaccine protects against how many diseases?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "It protects against 5 diseases: Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hib."
+        },
+        {
+            "q": "Which vaccine is given at 9 months of age in the EPI schedule?",
+            "options": [
+                "BCG",
+                "Measles-1",
+                "Pentavalent-1",
+                "OPV-0"
+            ],
+            "a": 1,
+            "ex": "The first dose of Measles vaccine is given at 9 months."
+        },
+        {
+            "q": "What is the recommended storage temperature for most vaccines in the cold chain?",
+            "options": [
+                "-20\u00b0C to -15\u00b0C",
+                "0\u00b0C to 2\u00b0C",
+                "+2\u00b0C to +8\u00b0C",
+                "+10\u00b0C to +15\u00b0C"
+            ],
+            "a": 2,
+            "ex": "Most vaccines are stored between +2\u00b0C and +8\u00b0C to maintain potency."
+        },
+        {
+            "q": "Which vaccine is extremely sensitive to freezing?",
+            "options": [
+                "OPV",
+                "Measles",
+                "Pentavalent",
+                "BCG"
+            ],
+            "a": 2,
+            "ex": "Pentavalent (and other liquid vaccines containing adjuvants) lose potency if frozen."
+        },
+        {
+            "q": "What does VVM stand for?",
+            "options": [
+                "Vaccine Viral Marker",
+                "Vaccine Vial Monitor",
+                "Visual Vaccine Monitor",
+                "Viral Vector Marker"
+            ],
+            "a": 1,
+            "ex": "VVM is a label on vaccine vials that changes color when exposed to heat."
+        },
+        {
+            "q": "If the inner square of a VVM is the same color or darker than the outer circle, what should you do?",
+            "options": [
+                "Use the vaccine immediately",
+                "Shake well before use",
+                "Do not use the vaccine",
+                "Keep it in the freezer"
+            ],
+            "a": 2,
+            "ex": "A dark inner square indicates the vaccine has been exposed to excessive heat and is no longer potent."
+        },
+        {
+            "q": "Hepatitis B vaccine protects against an infection of which organ?",
+            "options": [
+                "Heart",
+                "Lungs",
+                "Liver",
+                "Kidneys"
+            ],
+            "a": 2,
+            "ex": "Hepatitis B causes inflammation and damage to the liver."
+        },
+        {
+            "q": "Tetanus Toxoid (TT) is primarily given to pregnant women to prevent:",
+            "options": [
+                "Maternal Polio",
+                "Neonatal Tetanus",
+                "Congenital Rubella",
+                "Maternal Anemia"
+            ],
+            "a": 1,
+            "ex": "TT protects the newborn from neonatal tetanus."
+        },
+        {
+            "q": "Which disease is characterized by a 'whooping' cough?",
+            "options": [
+                "Diphtheria",
+                "Pertussis",
+                "Tetanus",
+                "Measles"
+            ],
+            "a": 1,
+            "ex": "Pertussis is commonly known as whooping cough."
+        },
+        {
+            "q": "Measles vaccine is administered via which route?",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 1,
+            "ex": "Measles vaccine is given subcutaneously (under the skin)."
+        },
+        {
+            "q": "The 'Cold Chain' refers to:",
+            "options": [
+                "A chain of hospitals",
+                "A system of storing and transporting vaccines at recommended temperatures",
+                "A method of sterilizing needles",
+                "A winter vaccination campaign"
+            ],
+            "a": 1,
+            "ex": "The cold chain ensures vaccines remain potent from manufacturer to the child."
+        },
+        {
+            "q": "IPV stands for:",
+            "options": [
+                "Inactive Polio Virus",
+                "Inactivated Polio Vaccine",
+                "Infant Polio Vaccine",
+                "Internal Polio Vaccine"
+            ],
+            "a": 1,
+            "ex": "IPV is the injectable form of the polio vaccine."
+        },
+        {
+            "q": "Rotavirus vaccine protects against:",
+            "options": [
+                "Pneumonia",
+                "Severe Diarrhea",
+                "Meningitis",
+                "Tuberculosis"
+            ],
+            "a": 1,
+            "ex": "Rotavirus is a leading cause of severe diarrhea in infants."
+        },
+        {
+            "q": "Which of the following is a live attenuated vaccine?",
+            "options": [
+                "Hepatitis B",
+                "Tetanus Toxoid",
+                "OPV",
+                "Diphtheria"
+            ],
+            "a": 2,
+            "ex": "Oral Polio Vaccine (OPV) contains live, weakened virus."
+        },
+        {
+            "q": "At 14 weeks of age, which dose of Pentavalent vaccine is given?",
+            "options": [
+                "Pentavalent-1",
+                "Pentavalent-2",
+                "Pentavalent-3",
+                "Pentavalent Booster"
+            ],
+            "a": 2,
+            "ex": "The schedule is 6 weeks (Penta-1), 10 weeks (Penta-2), and 14 weeks (Penta-3)."
+        },
+        {
+            "q": "Pneumococcal Conjugate Vaccine (PCV) protects against:",
+            "options": [
+                "Polio",
+                "Pneumonia",
+                "Tetanus",
+                "Measles"
+            ],
+            "a": 1,
+            "ex": "PCV protects against Streptococcus pneumoniae, a major cause of pneumonia."
+        },
+        {
+            "q": "What is the primary role of a Vaccinator?",
+            "options": [
+                "Prescribe medicines",
+                "Perform surgeries",
+                "Administer vaccines and maintain records",
+                "Diagnose adult diseases"
+            ],
+            "a": 2,
+            "ex": "Vaccinators safely administer vaccines and track immunization coverage."
+        },
+        {
+            "q": "Typhoid Conjugate Vaccine (TCV) was introduced in Sindh to combat:",
+            "options": [
+                "Malaria",
+                "Extensively Drug-Resistant (XDR) Typhoid",
+                "Cholera",
+                "Dengue"
+            ],
+            "a": 1,
+            "ex": "TCV was introduced to control the outbreak of XDR Typhoid in Sindh."
+        },
+        {
+            "q": "Which of the following is NOT a component of the Pentavalent vaccine?",
+            "options": [
+                "Diphtheria",
+                "Pertussis",
+                "Polio",
+                "Hepatitis B"
+            ],
+            "a": 2,
+            "ex": "Polio is given separately as OPV and IPV; it is not in the Pentavalent vaccine."
+        },
+        {
+            "q": "The route of administration for BCG vaccine is:",
+            "options": [
+                "Intramuscular",
+                "Subcutaneous",
+                "Oral",
+                "Intradermal"
+            ],
+            "a": 3,
+            "ex": "BCG is injected into the top layers of the skin (intradermal)."
+        },
+        {
+            "q": "A diluent is used for which purpose?",
+            "options": [
+                "To clean the skin",
+                "To reconstitute freeze-dried vaccines",
+                "To sterilize the needle",
+                "To reduce fever"
+            ],
+            "a": 1,
+            "ex": "Diluents are mixed with freeze-dried (lyophilized) vaccines like Measles or BCG before use."
+        },
+        {
+            "q": "How soon should a reconstituted Measles vaccine be used?",
+            "options": [
+                "Within 1 hour",
+                "Within 6 hours",
+                "Within 24 hours",
+                "Within 1 week"
+            ],
+            "a": 1,
+            "ex": "Reconstituted live vaccines must usually be discarded after 6 hours to prevent bacterial growth."
+        },
+        {
+            "q": "What is 'Herd Immunity'?",
+            "options": [
+                "Immunity in animals",
+                "Protection of a population when a high percentage is vaccinated",
+                "A new type of vaccine",
+                "Immunity passed from mother to child"
+            ],
+            "a": 1,
+            "ex": "High vaccination rates protect those who cannot be vaccinated."
+        },
+        {
+            "q": "Which disease causes a thick covering in the back of the throat, leading to breathing difficulty?",
+            "options": [
+                "Tetanus",
+                "Pertussis",
+                "Diphtheria",
+                "Measles"
+            ],
+            "a": 2,
+            "ex": "Diphtheria causes a pseudo-membrane in the throat."
+        },
+        {
+            "q": "AEFI stands for:",
+            "options": [
+                "Adverse Event Following Immunization",
+                "Active Event For Infants",
+                "Annual EPI Field Inspection",
+                "Adverse Effect For Immunity"
+            ],
+            "a": 0,
+            "ex": "AEFI refers to any untoward medical occurrence after vaccination."
+        },
+        {
+            "q": "Ice packs in a vaccine carrier should be:",
+            "options": [
+                "Frozen solid directly from the freezer",
+                "Conditioned (sweating) before placing vaccines",
+                "Replaced with dry ice",
+                "Warmed in the sun"
+            ],
+            "a": 1,
+            "ex": "Conditioning ice packs prevents freeze-sensitive vaccines from freezing."
+        },
+        {
+            "q": "Which vaccine leaves a permanent scar on the arm?",
+            "options": [
+                "Measles",
+                "Pentavalent",
+                "BCG",
+                "Hepatitis B"
+            ],
+            "a": 2,
+            "ex": "A successful BCG vaccination usually leaves a small scar."
+        },
+        {
+            "q": "The target age group for routine EPI vaccination in Pakistan is primarily:",
+            "options": [
+                "0 to 11 months",
+                "1 to 5 years",
+                "5 to 10 years",
+                "Adults"
+            ],
+            "a": 0,
+            "ex": "The primary schedule aims to fully immunize children before their first birthday."
+        },
+        {
+            "q": "Rubella is also known as:",
+            "options": [
+                "German Measles",
+                "Chickenpox",
+                "Smallpox",
+                "Mumps"
+            ],
+            "a": 0,
+            "ex": "Rubella is often called German Measles."
+        },
+        {
+            "q": "What is the dose volume for the Pentavalent vaccine?",
+            "options": [
+                "0.1 ml",
+                "0.5 ml",
+                "1.0 ml",
+                "2.0 ml"
+            ],
+            "a": 1,
+            "ex": "The standard dose for Pentavalent (and many intramuscular vaccines) is 0.5 ml."
+        },
+        {
+            "q": "Which of the following diseases is eradicated globally?",
+            "options": [
+                "Polio",
+                "Smallpox",
+                "Measles",
+                "Tetanus"
+            ],
+            "a": 1,
+            "ex": "Smallpox was declared globally eradicated in 1980."
+        },
+        {
+            "q": "Polio virus is primarily transmitted through:",
+            "options": [
+                "Mosquito bites",
+                "Blood transfusion",
+                "Fecal-oral route",
+                "Airborne droplets"
+            ],
+            "a": 2,
+            "ex": "Polio spreads mainly through contaminated water and food (fecal-oral route)."
+        },
+        {
+            "q": "In the EPI schedule, Measles-2 is given at what age?",
+            "options": [
+                "9 months",
+                "12 months",
+                "15 months",
+                "24 months"
+            ],
+            "a": 2,
+            "ex": "The second dose of Measles is given at 15 months of age."
+        },
+        {
+            "q": "What tool is used by vaccinators to keep track of a child's vaccination history?",
+            "options": [
+                "EPI Vaccination Card",
+                "Birth Certificate",
+                "B-Form",
+                "School ID"
+            ],
+            "a": 0,
+            "ex": "The EPI card records dates and types of vaccines received."
+        },
+        {
+            "q": "Syringes used for vaccination should be disposed of in a:",
+            "options": [
+                "Regular dustbin",
+                "Safety Box",
+                "Plastic bag",
+                "River"
+            ],
+            "a": 1,
+            "ex": "Safety boxes prevent needle-stick injuries and safe disposal of sharps."
+        },
+        {
+            "q": "Choose the correct synonym for 'Prevent':",
+            "options": [
+                "Allow",
+                "Stop",
+                "Encourage",
+                "Help"
+            ],
+            "a": 1,
+            "ex": "To prevent means to stop something from happening."
+        },
+        {
+            "q": "Antonym of 'Protect':",
+            "options": [
+                "Defend",
+                "Guard",
+                "Harm",
+                "Save"
+            ],
+            "a": 2,
+            "ex": "Harm is the opposite of protect."
+        },
+        {
+            "q": "The nurse is responsible ___ the patients.",
+            "options": [
+                "to",
+                "for",
+                "with",
+                "of"
+            ],
+            "a": 1,
+            "ex": "'Responsible for' is the correct preposition."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Vaccine",
+                "Vacine",
+                "Vaccin",
+                "Vacinne"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Vaccine'."
+        },
+        {
+            "q": "He goes to the hospital ___ bus.",
+            "options": [
+                "by",
+                "on",
+                "in",
+                "with"
+            ],
+            "a": 0,
+            "ex": "We use 'by' for modes of transport (by bus, by car)."
+        },
+        {
+            "q": "Identify the Verb: 'The baby cried loudly.'",
+            "options": [
+                "The",
+                "Baby",
+                "Cried",
+                "Loudly"
+            ],
+            "a": 2,
+            "ex": "'Cried' is the action word."
+        },
+        {
+            "q": "She ___ her medicine yesterday.",
+            "options": [
+                "takes",
+                "take",
+                "took",
+                "taking"
+            ],
+            "a": 2,
+            "ex": "Past tense 'yesterday' requires 'took'."
+        },
+        {
+            "q": "Synonym of 'Essential':",
+            "options": [
+                "Unnecessary",
+                "Crucial",
+                "Optional",
+                "Extra"
+            ],
+            "a": 1,
+            "ex": "Essential means absolutely necessary or crucial."
+        },
+        {
+            "q": "Choose the correct article: 'He is ___ honest worker.'",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "a": 1,
+            "ex": "'Honest' starts with a vowel sound, so 'an' is used."
+        },
+        {
+            "q": "Plural of 'Child' is:",
+            "options": [
+                "Childs",
+                "Childrens",
+                "Children",
+                "Childes"
+            ],
+            "a": 2,
+            "ex": "The plural of child is children."
+        },
+        {
+            "q": "Antonym of 'Healthy':",
+            "options": [
+                "Strong",
+                "Fit",
+                "Sick",
+                "Well"
+            ],
+            "a": 2,
+            "ex": "Sick is the opposite of healthy."
+        },
+        {
+            "q": "They ___ waiting for the doctor right now.",
+            "options": [
+                "is",
+                "am",
+                "are",
+                "was"
+            ],
+            "a": 2,
+            "ex": "Plural subject 'They' takes 'are' in present continuous."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Immunity",
+                "Imunity",
+                "Immunety",
+                "Emunity"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Immunity'."
+        },
+        {
+            "q": "The sun ___ in the east.",
+            "options": [
+                "rise",
+                "rises",
+                "rising",
+                "rose"
+            ],
+            "a": 1,
+            "ex": "Universal truths use simple present tense."
+        },
+        {
+            "q": "Synonym of 'Disease':",
+            "options": [
+                "Health",
+                "Illness",
+                "Cure",
+                "Medicine"
+            ],
+            "a": 1,
+            "ex": "Disease and illness are synonyms."
+        },
+        {
+            "q": "I have been working here ___ three years.",
+            "options": [
+                "since",
+                "for",
+                "from",
+                "in"
+            ],
+            "a": 1,
+            "ex": "'For' is used for a duration of time."
+        },
+        {
+            "q": "Identify the Adjective: 'He wore a white uniform.'",
+            "options": [
+                "He",
+                "Wore",
+                "White",
+                "Uniform"
+            ],
+            "a": 2,
+            "ex": "'White' describes the noun 'uniform'."
+        },
+        {
+            "q": "Meaning of 'Under the weather':",
+            "options": [
+                "Raining",
+                "Feeling sick",
+                "Standing outside",
+                "Happy"
+            ],
+            "a": 1,
+            "ex": "It is an idiom meaning feeling ill."
+        },
+        {
+            "q": "She is good ___ giving injections.",
+            "options": [
+                "in",
+                "at",
+                "on",
+                "with"
+            ],
+            "a": 1,
+            "ex": "'Good at' is the correct phrasing."
+        },
+        {
+            "q": "Antonym of 'Safe':",
+            "options": [
+                "Secure",
+                "Dangerous",
+                "Protected",
+                "Calm"
+            ],
+            "a": 1,
+            "ex": "Dangerous is the opposite of safe."
+        },
+        {
+            "q": "Who is the current Chief Minister of Sindh?",
+            "options": [
+                "Murad Ali Shah",
+                "Kamran Tessori",
+                "Syed Qaim Ali Shah",
+                "Imran Ismail"
+            ],
+            "a": 0,
+            "ex": "Syed Murad Ali Shah (as of early 2024/2026 check)."
+        },
+        {
+            "q": "The capital of Sindh province is:",
+            "options": [
+                "Hyderabad",
+                "Sukkur",
+                "Karachi",
+                "Larkana"
+            ],
+            "a": 2,
+            "ex": "Karachi is the provincial capital."
+        },
+        {
+            "q": "Which is the largest hospital in Karachi?",
+            "options": [
+                "Civil Hospital",
+                "Jinnah Postgraduate Medical Centre (JPMC)",
+                "Agha Khan Hospital",
+                "Liaquat National Hospital"
+            ],
+            "a": 1,
+            "ex": "JPMC is one of the largest public hospitals."
+        },
+        {
+            "q": "Mohenjo-daro is an ancient city located in which province?",
+            "options": [
+                "Punjab",
+                "Balochistan",
+                "KPK",
+                "Sindh"
+            ],
+            "a": 3,
+            "ex": "It is an Indus Valley Civilization site in Sindh."
+        },
+        {
+            "q": "The largest freshwater lake in Pakistan, located in Sindh, is:",
+            "options": [
+                "Keenjhar Lake",
+                "Manchar Lake",
+                "Haleji Lake",
+                "Saif-ul-Malook"
+            ],
+            "a": 1,
+            "ex": "Manchar Lake is the largest."
+        },
+        {
+            "q": "Which is the national language of Pakistan?",
+            "options": [
+                "Sindhi",
+                "Punjabi",
+                "Urdu",
+                "English"
+            ],
+            "a": 2,
+            "ex": "Urdu is the national language."
+        },
+        {
+            "q": "The shrine of Lal Shahbaz Qalandar is in:",
+            "options": [
+                "Bhit Shah",
+                "Sehwan Sharif",
+                "Multan",
+                "Thatta"
+            ],
+            "a": 1,
+            "ex": "It is located in Sehwan, Sindh."
+        },
+        {
+            "q": "Which river flows through the province of Sindh?",
+            "options": [
+                "Jhelum",
+                "Chenab",
+                "Ravi",
+                "Indus"
+            ],
+            "a": 3,
+            "ex": "The Indus River flows through Sindh into the Arabian Sea."
+        },
+        {
+            "q": "The Thar Desert is located in which part of Sindh?",
+            "options": [
+                "Northern",
+                "Western",
+                "Eastern",
+                "Southern"
+            ],
+            "a": 2,
+            "ex": "It is located in the eastern part of Sindh (Tharparkar)."
+        },
+        {
+            "q": "Who was the first Governor General of Pakistan?",
+            "options": [
+                "Liaquat Ali Khan",
+                "Quaid-e-Azam",
+                "Ayub Khan",
+                "Iskander Mirza"
+            ],
+            "a": 1,
+            "ex": "Muhammad Ali Jinnah was the first Governor General."
+        },
+        {
+            "q": "Which city is known as the 'City of Lights'?",
+            "options": [
+                "Lahore",
+                "Islamabad",
+                "Karachi",
+                "Peshawar"
+            ],
+            "a": 2,
+            "ex": "Karachi is famously known as the City of Lights."
+        },
+        {
+            "q": "How many districts are there in Sindh?",
+            "options": [
+                "25",
+                "27",
+                "29",
+                "30"
+            ],
+            "a": 3,
+            "ex": "There are 30 districts in Sindh."
+        },
+        {
+            "q": "The Gorakh Hill Station is situated in which district?",
+            "options": [
+                "Dadu",
+                "Jamshoro",
+                "Thatta",
+                "Badin"
+            ],
+            "a": 0,
+            "ex": "Gorakh Hill is located in Dadu district."
+        },
+        {
+            "q": "Pakistan's Independence Day is celebrated on:",
+            "options": [
+                "23rd March",
+                "1st May",
+                "14th August",
+                "25th December"
+            ],
+            "a": 2,
+            "ex": "Pakistan gained independence on August 14, 1947."
+        },
+        {
+            "q": "Which is the highest peak in Pakistan?",
+            "options": [
+                "Nanga Parbat",
+                "K-2",
+                "Broad Peak",
+                "Tirich Mir"
+            ],
+            "a": 1,
+            "ex": "K-2 is the highest peak in Pakistan."
+        },
+        {
+            "q": "How many Surahs are there in the Holy Quran?",
+            "options": [
+                "110",
+                "112",
+                "114",
+                "116"
+            ],
+            "a": 2,
+            "ex": "There are 114 Surahs."
+        },
+        {
+            "q": "Who was the first Caliph of Islam?",
+            "options": [
+                "Hazrat Umar RA",
+                "Hazrat Abu Bakr RA",
+                "Hazrat Usman RA",
+                "Hazrat Ali RA"
+            ],
+            "a": 1,
+            "ex": "Hazrat Abu Bakr RA was the first Caliph."
+        },
+        {
+            "q": "In which month do Muslims fast?",
+            "options": [
+                "Muharram",
+                "Safar",
+                "Ramadan",
+                "Shawwal"
+            ],
+            "a": 2,
+            "ex": "Fasting (Sawm) is observed in Ramadan."
+        },
+        {
+            "q": "How many pillars of Islam are there?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "There are 5 fundamental pillars."
+        },
+        {
+            "q": "What is the meaning of 'Zakat'?",
+            "options": [
+                "Prayer",
+                "Fasting",
+                "Purification of wealth",
+                "Pilgrimage"
+            ],
+            "a": 2,
+            "ex": "Zakat means to purify one's wealth through charity."
+        },
+        {
+            "q": "The Holy Prophet (PBUH) was born in which city?",
+            "options": [
+                "Madina",
+                "Makkah",
+                "Taif",
+                "Jerusalem"
+            ],
+            "a": 1,
+            "ex": "He was born in Makkah."
+        },
+        {
+            "q": "Which angel brought revelations to the Prophets?",
+            "options": [
+                "Hazrat Jibraeel AS",
+                "Hazrat Mikaeel AS",
+                "Hazrat Israfeel AS",
+                "Hazrat Izraeel AS"
+            ],
+            "a": 0,
+            "ex": "Hazrat Jibraeel (Gabriel) brought the revelations."
+        },
+        {
+            "q": "The Battle of Badr took place in which Hijri year?",
+            "options": [
+                "1 AH",
+                "2 AH",
+                "3 AH",
+                "4 AH"
+            ],
+            "a": 1,
+            "ex": "It occurred in 2 AH."
+        },
+        {
+            "q": "What is the first fundamental belief in Islam?",
+            "options": [
+                "Salat",
+                "Zakat",
+                "Tauheed (Oneness of Allah)",
+                "Hajj"
+            ],
+            "a": 2,
+            "ex": "Tauheed is the core belief of Islam."
+        },
+        {
+            "q": "Who is known as 'Khalilullah' (Friend of Allah)?",
+            "options": [
+                "Hazrat Adam AS",
+                "Hazrat Ibrahim AS",
+                "Hazrat Musa AS",
+                "Hazrat Isa AS"
+            ],
+            "a": 1,
+            "ex": "Hazrat Ibrahim AS holds this title."
+        },
+        {
+            "q": "How many times is Namaz obligatory in a day?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "Five daily prayers are mandatory."
+        },
+        {
+            "q": "The first mosque built by Muslims was:",
+            "options": [
+                "Masjid-e-Nabvi",
+                "Masjid-e-Haram",
+                "Masjid Quba",
+                "Masjid-e-Aqsa"
+            ],
+            "a": 2,
+            "ex": "Masjid Quba was the first mosque built in Madina."
+        },
+        {
+            "q": "Which Prophet was swallowed by a large fish/whale?",
+            "options": [
+                "Hazrat Nuh AS",
+                "Hazrat Yunus AS",
+                "Hazrat Musa AS",
+                "Hazrat Yusuf AS"
+            ],
+            "a": 1,
+            "ex": "Hazrat Yunus AS was swallowed by a whale."
+        },
+        {
+            "q": "What is the meaning of 'Islam'?",
+            "options": [
+                "War",
+                "Peace and Submission",
+                "Faith",
+                "Charity"
+            ],
+            "a": 1,
+            "ex": "Islam means peace and submission to the will of Allah."
+        },
+        {
+            "q": "(Ethics for Non-Muslims) Honesty is considered a:",
+            "options": [
+                "Bad habit",
+                "Moral virtue",
+                "Legal crime",
+                "Weakness"
+            ],
+            "a": 1,
+            "ex": "Honesty is a universal moral virtue."
+        },
+        {
+            "q": "COVID-19 is caused by which type of pathogen?",
+            "options": [
+                "Bacteria",
+                "Fungus",
+                "Virus",
+                "Parasite"
+            ],
+            "a": 2,
+            "ex": "COVID-19 is caused by the SARS-CoV-2 virus."
+        },
+        {
+            "q": "What is the normal human body temperature?",
+            "options": [
+                "35\u00b0C",
+                "37\u00b0C",
+                "39\u00b0C",
+                "41\u00b0C"
+            ],
+            "a": 1,
+            "ex": "Normal body temperature is around 37\u00b0C (98.6\u00b0F)."
+        },
+        {
+            "q": "Which organ pumps blood throughout the body?",
+            "options": [
+                "Lungs",
+                "Liver",
+                "Brain",
+                "Heart"
+            ],
+            "a": 3,
+            "ex": "The heart is responsible for pumping blood."
+        },
+        {
+            "q": "Which gas do humans inhale to survive?",
+            "options": [
+                "Carbon Dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "a": 1,
+            "ex": "Humans breathe in oxygen."
+        },
+        {
+            "q": "The World Health Organization (WHO) headquarters is located in:",
+            "options": [
+                "New York",
+                "London",
+                "Geneva",
+                "Paris"
+            ],
+            "a": 2,
+            "ex": "WHO HQ is in Geneva, Switzerland."
+        },
+        {
+            "q": "Which vitamin is naturally produced by the body when exposed to sunlight?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 3,
+            "ex": "Sunlight helps the skin synthesize Vitamin D."
+        },
+        {
+            "q": "What is the currency of Pakistan?",
+            "options": [
+                "Dinar",
+                "Riyal",
+                "Rupee",
+                "Taka"
+            ],
+            "a": 2,
+            "ex": "The Pakistani Rupee is the official currency."
+        },
+        {
+            "q": "Which country hosted the 2022 FIFA World Cup?",
+            "options": [
+                "Brazil",
+                "Russia",
+                "Qatar",
+                "France"
+            ],
+            "a": 2,
+            "ex": "Qatar hosted the 2022 World Cup."
+        },
+        {
+            "q": "The chemical formula for water is:",
+            "options": [
+                "CO2",
+                "H2O",
+                "O2",
+                "NaCl"
+            ],
+            "a": 1,
+            "ex": "Water is composed of two hydrogen atoms and one oxygen atom."
+        },
+        {
+            "q": "Who is the current Prime Minister of Pakistan?",
+            "options": [
+                "Imran Khan",
+                "Shehbaz Sharif",
+                "Nawaz Sharif",
+                "Asif Zardari"
+            ],
+            "a": 1,
+            "ex": "Shehbaz Sharif (as of early 2024/2026 check)."
+        }
+    ]
 },
-  {
-    "id": "math",
-    "title": "Mathematics",
-    "icon": "🧮",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/math.json"
-  },
-  {
-    "id": "physics",
-    "title": "Physics",
-    "icon": "⚛️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/physics.json"
-  },
-  {
-    "id": "chemistry",
-    "title": "Chemistry",
-    "icon": "🧪",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/chemistry.json"
-  },
-  {
-    "id": "biology",
-    "title": "Biology",
-    "icon": "🧬",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/biology.json"
-  },
-  {
-    "id": "computer-science",
-    "title": "Computer Science",
-    "icon": "💻",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/computer-science.json"
-  },
-  {
-    "id": "english",
-    "title": "English",
-    "icon": "📘",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/english.json"
-  },
-  {
-    "id": "urdu",
-    "title": "Urdu",
-    "icon": "📚",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/urdu.json"
-  },
-  {
-    "id": "gk",
-    "title": "General Knowledge",
-    "icon": "🌐",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/gk.json"
-  },
-  {
-    "id": "ca",
-    "title": "Current Affairs",
-    "icon": "📰",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/ca.json"
-  },
-  {
-    "id": "world-geography",
-    "title": "World Geography",
-    "icon": "🗺️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/world-geography.json"
-  },
-  {
-    "id": "pakistan-studies",
-    "title": "Pakistan Studies",
-    "icon": "🇵🇰",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/pakistan-studies.json"
-  },
-  {
-    "id": "islamiat",
-    "title": "Islamic Studies",
-    "icon": "☪️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/islamiat.json"
-  },
-  {
-    "id": "everyday-science",
-    "title": "Everyday Science",
-    "icon": "🔬",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/everyday-science.json"
-  },
-  {
-    "id": "pak-constitution-law",
-    "title": "Pak Constitution & Law",
-    "icon": "📖",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/pak-constitution-law.json"
-  },
-  {
-    "id": "nts-past-papers",
-    "title": "NTS Past Papers",
-    "icon": "📝",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/nts-past-papers.json"
-  },
-  {
-    "id": "ppsc-fpsc-spsc-bpsc-kppsc",
-    "title": "PPSC / FPSC / SPSC / BPSC / KPPSC",
-    "icon": "🏛️",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/ppsc-fpsc-spsc-bpsc-kppsc.json"
-  },
-  {
-    "id": "police-jobs",
-    "title": "Police Jobs",
-    "icon": "👮",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/police-jobs.json"
-  },
-  {
-    "id": "teaching-jobs",
-    "title": "Teaching Jobs",
-    "icon": "👩‍🏫",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/teaching-jobs.json"
-  },
-  {
-    "id": "public-administration-management",
-    "title": "Public Administration & Management",
-    "icon": "🧑‍💼",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/public-administration-management.json"
-  },
-  {
-    "id": "iq-analytical-reasoning",
-    "title": "Logical & Analytical Reasoning",
-    "icon": "🧠",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/iq-analytical-reasoning.json"
-  },
-  {
-    "id": "basic-arithmetic",
-    "title": "Basic Arithmetic",
-    "icon": "➗",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/basic-arithmetic.json"
-  },
-  {
-    "id": "data-interpretation",
-    "title": "Data Interpretation",
-    "icon": "📊",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/data-interpretation.json"
-  },
-  {
-    "id": "verbal-nonverbal-reasoning",
-    "title": "Verbal & Non-Verbal Reasoning",
-    "icon": "🔍",
-    "subcategoriesUrl": "https://raw.githubusercontent.com/rabdino9/MCQs/refs/heads/main/verbal-nonverbal-reasoning.json"
-  }
-]
+    {
+    "id": "food_inspector_sindh_guess_100",
+    "title": "Food Inspector Sindh Guess Paper - 100 MCQs",
+    "questions": [
+        {
+            "q": "Choose the correct synonym for 'Exempt':",
+            "options": [
+                "Free",
+                "Accountable",
+                "Responsible",
+                "Liable"
+            ],
+            "a": 0,
+            "ex": "Exempt means free from an obligation or requirement."
+        },
+        {
+            "q": "Antonym of 'Contaminated':",
+            "options": [
+                "Polluted",
+                "Pure",
+                "Dirty",
+                "Stale"
+            ],
+            "a": 1,
+            "ex": "Pure is the opposite of contaminated (polluted/impure)."
+        },
+        {
+            "q": "He is very good ___ Mathematics.",
+            "options": [
+                "in",
+                "at",
+                "with",
+                "on"
+            ],
+            "a": 1,
+            "ex": "The correct preposition is 'good at'."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Adulteration",
+                "Adulterasion",
+                "Adulteryation",
+                "Adulteretion"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Adulteration'."
+        },
+        {
+            "q": "A person who does not eat meat is called a:",
+            "options": [
+                "Carnivore",
+                "Herbivore",
+                "Vegetarian",
+                "Omnivore"
+            ],
+            "a": 2,
+            "ex": "Vegetarians do not eat meat."
+        },
+        {
+            "q": "Meaning of 'To smell a rat':",
+            "options": [
+                "To see a rat",
+                "To smell something bad",
+                "To suspect a trick",
+                "To be a detective"
+            ],
+            "a": 2,
+            "ex": "It means to suspect something is wrong or a trick is being played."
+        },
+        {
+            "q": "Identify the Part of Speech: 'The food was delicious.'",
+            "options": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+            ],
+            "a": 2,
+            "ex": "'Delicious' describes the noun 'food', so it is an adjective."
+        },
+        {
+            "q": "Choose the correct sentence:",
+            "options": [
+                "She don't like apples.",
+                "She doesn't likes apples.",
+                "She doesn't like apples.",
+                "She not like apples."
+            ],
+            "a": 2,
+            "ex": "'Doesn't like' is the correct singular present negative form."
+        },
+        {
+            "q": "The plural of 'Loaf' is:",
+            "options": [
+                "Loafs",
+                "Loaves",
+                "Loafes",
+                "Loavs"
+            ],
+            "a": 1,
+            "ex": "Nouns ending in 'f' usually change to 'ves' in plural."
+        },
+        {
+            "q": "Synonym of 'Nutritious':",
+            "options": [
+                "Tasty",
+                "Healthy",
+                "Sweet",
+                "Heavy"
+            ],
+            "a": 1,
+            "ex": "Nutritious means providing nourishment and being healthy."
+        },
+        {
+            "q": "He has been living here ___ 2010.",
+            "options": [
+                "for",
+                "since",
+                "from",
+                "by"
+            ],
+            "a": 1,
+            "ex": "'Since' is used for a specific point in time."
+        },
+        {
+            "q": "Antonym of 'Abundant':",
+            "options": [
+                "Plentiful",
+                "Scarce",
+                "Large",
+                "Heavy"
+            ],
+            "a": 1,
+            "ex": "Scarce means in short supply, the opposite of abundant."
+        },
+        {
+            "q": "One who collects and studies stamps:",
+            "options": [
+                "Philatelist",
+                "Numismatist",
+                "Ornithologist",
+                "Linguist"
+            ],
+            "a": 0,
+            "ex": "A philatelist collects stamps."
+        },
+        {
+            "q": "The word 'Fragile' means:",
+            "options": [
+                "Strong",
+                "Easily broken",
+                "Expensive",
+                "Heavy"
+            ],
+            "a": 1,
+            "ex": "Fragile items break easily."
+        },
+        {
+            "q": "Choose the correct article: 'He is ___ honest man.'",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "a": 1,
+            "ex": "'Honest' starts with a vowel sound (o), so 'an' is used."
+        },
+        {
+            "q": "Meaning of 'Break the ice':",
+            "options": [
+                "To freeze",
+                "To start a conversation",
+                "To end a fight",
+                "To work hard"
+            ],
+            "a": 1,
+            "ex": "It means to overcome initial shyness or start a conversation."
+        },
+        {
+            "q": "Synonym of 'Preserve':",
+            "options": [
+                "Destroy",
+                "Maintain",
+                "Change",
+                "Forget"
+            ],
+            "a": 1,
+            "ex": "To preserve means to keep or maintain in its original state."
+        },
+        {
+            "q": "Antonym of 'Stale' (food):",
+            "options": [
+                "Old",
+                "Fresh",
+                "Hard",
+                "Dry"
+            ],
+            "a": 1,
+            "ex": "Fresh is the opposite of stale."
+        },
+        {
+            "q": "Identify the Verb: 'They eat breakfast early.'",
+            "options": [
+                "They",
+                "Eat",
+                "Breakfast",
+                "Early"
+            ],
+            "a": 1,
+            "ex": "'Eat' is the action word (verb)."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Hygiene",
+                "Hygeine",
+                "Hygine",
+                "Higene"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Hygiene'."
+        },
+        {
+            "q": "Which vitamin is essential for blood clotting?",
+            "options": [
+                "Vitamin A",
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin K"
+            ],
+            "a": 3,
+            "ex": "Vitamin K is vital for blood coagulation."
+        },
+        {
+            "q": "Milk is a poor source of which mineral?",
+            "options": [
+                "Calcium",
+                "Iron",
+                "Phosphorus",
+                "Potassium"
+            ],
+            "a": 1,
+            "ex": "Milk contains very little iron."
+        },
+        {
+            "q": "The main component of Honey is:",
+            "options": [
+                "Glucose",
+                "Fructose",
+                "Sucrose",
+                "Maltose"
+            ],
+            "a": 1,
+            "ex": "Fructose is the primary sugar in honey."
+        },
+        {
+            "q": "Which acid is present in Vinegar?",
+            "options": [
+                "Citric Acid",
+                "Acetic Acid",
+                "Lactic Acid",
+                "Malic Acid"
+            ],
+            "a": 1,
+            "ex": "Vinegar contains acetic acid."
+        },
+        {
+            "q": "What is the pH value of pure water?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "a": 2,
+            "ex": "Pure water is neutral with a pH of 7."
+        },
+        {
+            "q": "Scurvy is caused by the deficiency of:",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 2,
+            "ex": "Vitamin C deficiency causes scurvy."
+        },
+        {
+            "q": "Which gas is used for artificial ripening of fruits?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Ethylene",
+                "Carbon Dioxide"
+            ],
+            "a": 2,
+            "ex": "Ethylene gas is used to ripen fruits artificially."
+        },
+        {
+            "q": "Pasteurization of milk is done at:",
+            "options": [
+                "63\u00b0C for 30 mins",
+                "72\u00b0C for 15 secs",
+                "Both A & B",
+                "100\u00b0C for 10 mins"
+            ],
+            "a": 2,
+            "ex": "Both low-temperature long-time and high-temperature short-time methods are used."
+        },
+        {
+            "q": "Which is the richest source of Vitamin C?",
+            "options": [
+                "Apple",
+                "Orange",
+                "Amla (Gooseberry)",
+                "Banana"
+            ],
+            "a": 2,
+            "ex": "Amla is extremely rich in Vitamin C."
+        },
+        {
+            "q": "Iodine deficiency leads to:",
+            "options": [
+                "Anemia",
+                "Goitre",
+                "Rickets",
+                "Night Blindness"
+            ],
+            "a": 1,
+            "ex": "Goitre is the enlargement of the thyroid gland due to lack of iodine."
+        },
+        {
+            "q": "The process of adding nutrients to food is called:",
+            "options": [
+                "Adulteration",
+                "Fortification",
+                "Fermentation",
+                "Preservation"
+            ],
+            "a": 1,
+            "ex": "Food fortification increases nutritional value."
+        },
+        {
+            "q": "Which vitamin is also known as Ascorbic Acid?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B12",
+                "Vitamin C",
+                "Vitamin E"
+            ],
+            "a": 2,
+            "ex": "Ascorbic acid is the chemical name for Vitamin C."
+        },
+        {
+            "q": "Which is the main protein found in Milk?",
+            "options": [
+                "Albumin",
+                "Globulin",
+                "Casein",
+                "Keratin"
+            ],
+            "a": 2,
+            "ex": "Casein makes up about 80% of milk protein."
+        },
+        {
+            "q": "What is the full form of FSSAI (relevant to food standards)?",
+            "options": [
+                "Food Safety and Standards Authority of India",
+                "Food Security and Safety Association",
+                "Federal Food Safety Agency",
+                "None"
+            ],
+            "a": 0,
+            "ex": "Though Indian, it's a standard reference for regional tests."
+        },
+        {
+            "q": "The 'Green Revolution' is associated with:",
+            "options": [
+                "Milk",
+                "Fish",
+                "Agriculture (Wheat/Rice)",
+                "Forests"
+            ],
+            "a": 2,
+            "ex": "It focused on increasing agricultural production."
+        },
+        {
+            "q": "Which organ in the human body produces Bile?",
+            "options": [
+                "Stomach",
+                "Pancreas",
+                "Liver",
+                "Gallbladder"
+            ],
+            "a": 2,
+            "ex": "The liver produces bile, which is stored in the gallbladder."
+        },
+        {
+            "q": "What is the common name for Sodium Chloride?",
+            "options": [
+                "Sugar",
+                "Salt",
+                "Baking Soda",
+                "Vinegar"
+            ],
+            "a": 1,
+            "ex": "NaCl is common table salt."
+        },
+        {
+            "q": "Which vitamin helps in the absorption of Calcium?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 3,
+            "ex": "Vitamin D is necessary for calcium absorption in the gut."
+        },
+        {
+            "q": "The unit of energy in food is:",
+            "options": [
+                "Joule",
+                "Watt",
+                "Calorie",
+                "Newton"
+            ],
+            "a": 2,
+            "ex": "Food energy is measured in Calories (kilocalories)."
+        },
+        {
+            "q": "Night blindness is caused by deficiency of:",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 0,
+            "ex": "Vitamin A is essential for vision."
+        },
+        {
+            "q": "Which bacteria is responsible for turning milk into curd?",
+            "options": [
+                "E. coli",
+                "Lactobacillus",
+                "Salmonella",
+                "Streptococcus"
+            ],
+            "a": 1,
+            "ex": "Lactobacillus ferments lactose into lactic acid."
+        },
+        {
+            "q": "The outer layer of the Earth is called:",
+            "options": [
+                "Mantle",
+                "Core",
+                "Crust",
+                "Atmosphere"
+            ],
+            "a": 2,
+            "ex": "The crust is the outermost solid shell."
+        },
+        {
+            "q": "Which is the largest planet in our solar system?",
+            "options": [
+                "Earth",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "a": 2,
+            "ex": "Jupiter is the largest planet."
+        },
+        {
+            "q": "What is the percentage of Nitrogen in the air?",
+            "options": [
+                "21%",
+                "0.03%",
+                "78%",
+                "1%"
+            ],
+            "a": 2,
+            "ex": "Air is mostly Nitrogen (78%)."
+        },
+        {
+            "q": "Which part of the plant is the Ginger we eat?",
+            "options": [
+                "Root",
+                "Stem",
+                "Leaf",
+                "Fruit"
+            ],
+            "a": 1,
+            "ex": "Ginger is a modified underground stem (rhizome)."
+        },
+        {
+            "q": "What is the chemical symbol for Iron?",
+            "options": [
+                "Ir",
+                "Fe",
+                "In",
+                "Io"
+            ],
+            "a": 1,
+            "ex": "Fe comes from the Latin word Ferrum."
+        },
+        {
+            "q": "The study of insects is called:",
+            "options": [
+                "Anthropology",
+                "Entomology",
+                "Ecology",
+                "Biology"
+            ],
+            "a": 1,
+            "ex": "Entomology is the scientific study of insects."
+        },
+        {
+            "q": "Which is the smallest bird in the world?",
+            "options": [
+                "Sparrow",
+                "Hummingbird",
+                "Parrot",
+                "Pigeon"
+            ],
+            "a": 1,
+            "ex": "The Bee Hummingbird is the smallest."
+        },
+        {
+            "q": "What is the boiling point of water in Fahrenheit?",
+            "options": [
+                "100\u00b0F",
+                "212\u00b0F",
+                "180\u00b0F",
+                "32\u00b0F"
+            ],
+            "a": 1,
+            "ex": "Water boils at 212\u00b0F (100\u00b0C)."
+        },
+        {
+            "q": "Which gas is known as Laughing Gas?",
+            "options": [
+                "Nitrous Oxide",
+                "Carbon Monoxide",
+                "Methane",
+                "Helium"
+            ],
+            "a": 0,
+            "ex": "Nitrous oxide (N2O) is laughing gas."
+        },
+        {
+            "q": "Who was the first Prime Minister of Pakistan?",
+            "options": [
+                "Quaid-e-Azam",
+                "Liaquat Ali Khan",
+                "Ayub Khan",
+                "Z.A. Bhutto"
+            ],
+            "a": 1,
+            "ex": "Liaquat Ali Khan was the first PM."
+        },
+        {
+            "q": "The largest lake in Pakistan is:",
+            "options": [
+                "Saif-ul-Malook",
+                "Manchar Lake",
+                "Hanna Lake",
+                "Keenjhar Lake"
+            ],
+            "a": 1,
+            "ex": "Manchar Lake in Sindh is the largest freshwater lake."
+        },
+        {
+            "q": "Which city of Sindh is famous for its 'Ajrak'?",
+            "options": [
+                "Karachi",
+                "Hyderabad",
+                "Sukkur",
+                "Bhit Shah"
+            ],
+            "a": 3,
+            "ex": "Bhit Shah and Hala are famous for Ajrak and Sufi culture."
+        },
+        {
+            "q": "The shrine of Shah Abdul Latif Bhittai is located in:",
+            "options": [
+                "Sehwan",
+                "Bhit Shah",
+                "Thatta",
+                "Larkana"
+            ],
+            "a": 1,
+            "ex": "It is in Bhit Shah, Sindh."
+        },
+        {
+            "q": "Who is known as the 'Founder of Pakistan'?",
+            "options": [
+                "Allama Iqbal",
+                "Sir Syed Ahmed Khan",
+                "Quaid-e-Azam",
+                "Liaquat Ali Khan"
+            ],
+            "a": 2,
+            "ex": "Muhammad Ali Jinnah is the Quaid-e-Azam."
+        },
+        {
+            "q": "The first capital of Pakistan was:",
+            "options": [
+                "Lahore",
+                "Islamabad",
+                "Karachi",
+                "Rawalpindi"
+            ],
+            "a": 2,
+            "ex": "Karachi was the capital until 1959."
+        },
+        {
+            "q": "Mohenjo-daro is located in which district?",
+            "options": [
+                "Larkana",
+                "Sukkur",
+                "Khairpur",
+                "Dadu"
+            ],
+            "a": 0,
+            "ex": "Mohenjo-daro is in Larkana, Sindh."
+        },
+        {
+            "q": "Which is the national flower of Pakistan?",
+            "options": [
+                "Rose",
+                "Tulip",
+                "Jasmine",
+                "Sunflower"
+            ],
+            "a": 2,
+            "ex": "Jasmine (Chambeli) is the national flower."
+        },
+        {
+            "q": "The highest peak of Sindh is:",
+            "options": [
+                "K-2",
+                "Gorakh Hill (Zardak)",
+                "Nanga Parbat",
+                "Rakaposhi"
+            ],
+            "a": 1,
+            "ex": "Zardak Peak in the Kirthar Mountains is the highest in Sindh."
+        },
+        {
+            "q": "Who wrote the national anthem of Pakistan?",
+            "options": [
+                "Allama Iqbal",
+                "Hafeez Jalandhari",
+                "Faiz Ahmed Faiz",
+                "Ahmad Faraz"
+            ],
+            "a": 1,
+            "ex": "Hafeez Jalandhari wrote the lyrics."
+        },
+        {
+            "q": "Which river is called the 'Life line of Pakistan'?",
+            "options": [
+                "Jhelum",
+                "Chenab",
+                "Indus",
+                "Ravi"
+            ],
+            "a": 2,
+            "ex": "The Indus River is the longest and most important."
+        },
+        {
+            "q": "The 1973 Constitution of Pakistan was passed during the era of:",
+            "options": [
+                "Ayub Khan",
+                "Yahya Khan",
+                "Zulfikar Ali Bhutto",
+                "Zia-ul-Haq"
+            ],
+            "a": 2,
+            "ex": "Z.A. Bhutto passed the 1973 Constitution."
+        },
+        {
+            "q": "Which is the national game of Pakistan?",
+            "options": [
+                "Cricket",
+                "Hockey",
+                "Squash",
+                "Kabaddi"
+            ],
+            "a": 1,
+            "ex": "Field Hockey is the national game."
+        },
+        {
+            "q": "The 'Kotri Barrage' is built on which river?",
+            "options": [
+                "Indus",
+                "Hub",
+                "Lyari",
+                "Malir"
+            ],
+            "a": 0,
+            "ex": "Kotri Barrage is on the Indus River near Hyderabad."
+        },
+        {
+            "q": "Who was the first woman Prime Minister of Pakistan?",
+            "options": [
+                "Fatima Jinnah",
+                "Benazir Bhutto",
+                "Hina Rabbani Khar",
+                "Sherry Rehman"
+            ],
+            "a": 1,
+            "ex": "Benazir Bhutto was the first female PM of a Muslim nation."
+        },
+        {
+            "q": "Which city is known as the 'City of Saints'?",
+            "options": [
+                "Lahore",
+                "Multan",
+                "Karachi",
+                "Sukkur"
+            ],
+            "a": 1,
+            "ex": "Multan is famous for its many Sufi shrines."
+        },
+        {
+            "q": "The 'Thar Desert' is located in which province?",
+            "options": [
+                "Punjab",
+                "Sindh",
+                "Balochistan",
+                "KPK"
+            ],
+            "a": 1,
+            "ex": "The Thar Desert is primarily in Sindh."
+        },
+        {
+            "q": "Which is the largest seaport of Pakistan?",
+            "options": [
+                "Gwadar",
+                "Port Qasim",
+                "Karachi Port",
+                "Pasni"
+            ],
+            "a": 2,
+            "ex": "Karachi Port is the oldest and largest."
+        },
+        {
+            "q": "How many provinces are there in Pakistan?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 1,
+            "ex": "There are 4 main provinces (Punjab, Sindh, KPK, Balochistan)."
+        },
+        {
+            "q": "The 'Mazar-e-Quaid' is located in:",
+            "options": [
+                "Lahore",
+                "Islamabad",
+                "Karachi",
+                "Peshawar"
+            ],
+            "a": 2,
+            "ex": "Jinnah's mausoleum is in Karachi."
+        },
+        {
+            "q": "Which month is the Independence month of Pakistan?",
+            "options": [
+                "March",
+                "August",
+                "September",
+                "December"
+            ],
+            "a": 1,
+            "ex": "August 14th is Independence Day."
+        },
+        {
+            "q": "The first census in Pakistan was held in:",
+            "options": [
+                "1947",
+                "1951",
+                "1961",
+                "1972"
+            ],
+            "a": 1,
+            "ex": "The first official census was in 1951."
+        },
+        {
+            "q": "Which is the smallest province of Pakistan by area?",
+            "options": [
+                "Sindh",
+                "Punjab",
+                "KPK",
+                "Balochistan"
+            ],
+            "a": 2,
+            "ex": "KPK is the smallest among the four provinces."
+        },
+        {
+            "q": "The 'Makli Necropolis' is in which city?",
+            "options": [
+                "Hyderabad",
+                "Sukkur",
+                "Thatta",
+                "Karachi"
+            ],
+            "a": 2,
+            "ex": "Makli is near Thatta, Sindh."
+        },
+        {
+            "q": "Who is the current Governor of Sindh?",
+            "options": [
+                "Kamran Tessori",
+                "Imran Ismail",
+                "Saeed-uz-Zaman Siddiqui",
+                "None"
+            ],
+            "a": 0,
+            "ex": "Kamran Tessori (as of early 2024/2026 check)."
+        },
+        {
+            "q": "How many Surahs are in the Holy Quran?",
+            "options": [
+                "110",
+                "112",
+                "114",
+                "116"
+            ],
+            "a": 2,
+            "ex": "There are 114 Surahs."
+        },
+        {
+            "q": "Who was the first Caliph of Islam?",
+            "options": [
+                "Hazrat Umar RA",
+                "Hazrat Abu Bakr RA",
+                "Hazrat Usman RA",
+                "Hazrat Ali RA"
+            ],
+            "a": 1,
+            "ex": "Hazrat Abu Bakr RA was the first Caliph."
+        },
+        {
+            "q": "The first migration of Muslims was to:",
+            "options": [
+                "Madina",
+                "Abyssinia (Ethiopia)",
+                "Taif",
+                "Syria"
+            ],
+            "a": 1,
+            "ex": "The first Hijrat was to Abyssinia."
+        },
+        {
+            "q": "In which month was the Quran first revealed?",
+            "options": [
+                "Ramadan",
+                "Shawwal",
+                "Rajab",
+                "Safar"
+            ],
+            "a": 0,
+            "ex": "It was revealed in the month of Ramadan."
+        },
+        {
+            "q": "How many times is Namaz mentioned in the Quran?",
+            "options": [
+                "500",
+                "700",
+                "900",
+                "1000"
+            ],
+            "a": 1,
+            "ex": "Prayer (Salat) is mentioned approximately 700 times."
+        },
+        {
+            "q": "What is the meaning of 'Zakat'?",
+            "options": [
+                "Prayer",
+                "Fasting",
+                "Purification",
+                "Hajj"
+            ],
+            "a": 2,
+            "ex": "Zakat means to purify wealth."
+        },
+        {
+            "q": "Who is called 'Saifullah'?",
+            "options": [
+                "Hazrat Ali RA",
+                "Hazrat Khalid bin Walid RA",
+                "Hazrat Hamza RA",
+                "Hazrat Umar RA"
+            ],
+            "a": 1,
+            "ex": "Khalid bin Walid was titled 'Sword of Allah'."
+        },
+        {
+            "q": "The Battle of Badr was fought in which year?",
+            "options": [
+                "1 AH",
+                "2 AH",
+                "3 AH",
+                "4 AH"
+            ],
+            "a": 1,
+            "ex": "It was fought in 2 AH."
+        },
+        {
+            "q": "How many pillars of Islam are there?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "There are 5 pillars (Shahada, Salat, Zakat, Sawm, Hajj)."
+        },
+        {
+            "q": "The Prophet Muhammad (PBUH) belonged to which tribe?",
+            "options": [
+                "Quraish",
+                "Aus",
+                "Khazraj",
+                "Umayyad"
+            ],
+            "a": 0,
+            "ex": "He was from the Quraish tribe (Banu Hashim)."
+        },
+        {
+            "q": "Which is the longest Surah of the Quran?",
+            "options": [
+                "Surah Yasin",
+                "Surah Al-Baqarah",
+                "Surah Al-Imran",
+                "Surah Al-Nisa"
+            ],
+            "a": 1,
+            "ex": "Surah Al-Baqarah is the longest."
+        },
+        {
+            "q": "How many Sajdas are in the Holy Quran?",
+            "options": [
+                "12",
+                "13",
+                "14",
+                "15"
+            ],
+            "a": 2,
+            "ex": "There are 14 obligatory Sajdas."
+        },
+        {
+            "q": "Who was the first woman to embrace Islam?",
+            "options": [
+                "Hazrat Aisha RA",
+                "Hazrat Fatima RA",
+                "Hazrat Khadija RA",
+                "Hazrat Sawda RA"
+            ],
+            "a": 2,
+            "ex": "Hazrat Khadija RA was the first to accept Islam."
+        },
+        {
+            "q": "The Cave of Hira is in which mountain?",
+            "options": [
+                "Jabal-e-Noor",
+                "Jabal-e-Safa",
+                "Jabal-e-Uhud",
+                "Jabal-e-Thaur"
+            ],
+            "a": 0,
+            "ex": "The cave is in Jabal-e-Noor."
+        },
+        {
+            "q": "What is the meaning of 'Islam'?",
+            "options": [
+                "Peace",
+                "Submission",
+                "War",
+                "Both A & B"
+            ],
+            "a": 3,
+            "ex": "Islam means peace and submission to Allah."
+        },
+        {
+            "q": "If 5 apples cost 100 rupees, what is the cost of 12 apples?",
+            "options": [
+                "200",
+                "240",
+                "250",
+                "300"
+            ],
+            "a": 1,
+            "ex": "1 apple = 20. 12 * 20 = 240."
+        },
+        {
+            "q": "What is 15% of 200?",
+            "options": [
+                "20",
+                "25",
+                "30",
+                "35"
+            ],
+            "a": 2,
+            "ex": "(15/100) * 200 = 30."
+        },
+        {
+            "q": "Complete the series: 2, 4, 8, 16, ___",
+            "options": [
+                "20",
+                "24",
+                "32",
+                "64"
+            ],
+            "a": 2,
+            "ex": "The number doubles each time."
+        },
+        {
+            "q": "If 'WATER' is coded as 'XBUFS', then 'BREAD' is?",
+            "options": [
+                "CSFBE",
+                "DSFCE",
+                "BSFCE",
+                "CSFCF"
+            ],
+            "a": 0,
+            "ex": "Each letter is shifted by one position (B->C, R->S, E->F, A->B, D->E)."
+        },
+        {
+            "q": "Which is the odd one out?",
+            "options": [
+                "Milk",
+                "Curd",
+                "Butter",
+                "Juice"
+            ],
+            "a": 3,
+            "ex": "Juice is from fruit, others are dairy products."
+        },
+        {
+            "q": "What is the square of 13?",
+            "options": [
+                "144",
+                "156",
+                "169",
+                "196"
+            ],
+            "a": 2,
+            "ex": "13 * 13 = 169."
+        },
+        {
+            "q": "How many minutes are in 1.5 hours?",
+            "options": [
+                "60",
+                "75",
+                "90",
+                "120"
+            ],
+            "a": 2,
+            "ex": "1.5 * 60 = 90 minutes."
+        },
+        {
+            "q": "A triangle with all three sides equal is called:",
+            "options": [
+                "Isosceles",
+                "Scalene",
+                "Equilateral",
+                "Right"
+            ],
+            "a": 2,
+            "ex": "Equilateral triangles have equal sides."
+        },
+        {
+            "q": "If today is Monday, what day will it be after 61 days?",
+            "options": [
+                "Monday",
+                "Tuesday",
+                "Saturday",
+                "Sunday"
+            ],
+            "a": 2,
+            "ex": "61 / 7 = 8 weeks and 5 days. Monday + 5 days = Saturday."
+        },
+        {
+            "q": "Find the average of 10, 20, 30, 40, 50:",
+            "options": [
+                "25",
+                "30",
+                "35",
+                "40"
+            ],
+            "a": 1,
+            "ex": "(10+20+30+40+50)/5 = 150/5 = 30."
+        }
+    ]
+},
+    {
+  "id": "fia_si_guess",
+  "title": "FIA Sub Inspector Guess Paper (English)",
+  "questions": [
+    {"q":"Pakistan left CENTO in?","options":["1976","1977","1979","1980"],"a":2,"ex":"Pakistan withdrew from CENTO in 1979."},
+    {"q":"When was the Objective Resolution passed?","options":["1948","1949","1950","1952"],"a":1,"ex":"The Objective Resolution was passed in 1949."},
+    {"q":"When was the first constitution of Pakistan enforced?","options":["1954","1955","1956","1958"],"a":2,"ex":"Pakistan's first constitution was enforced in 1956."},
+    {"q":"What is the capital of Turkey?","options":["Istanbul","Ankara","Tehran","Baku"],"a":1,"ex":"The capital of Turkey is Ankara."},
+    {"q":"Which is the largest ocean in the world?","options":["Atlantic","Indian","Pacific","Arctic"],"a":2,"ex":"The Pacific Ocean is the largest."},
+    {"q":"Which blood group is universal donor?","options":["O+","O-","A+","AB+"],"a":1,"ex":"O negative is universal donor."},
+    {"q":"Normal human body temperature?","options":["36°C","37°C","38°C","35°C"],"a":1,"ex":"Normal body temperature is 37°C."},
+    {"q":"Chemical formula of water?","options":["CO2","H2O","O2","NaCl"],"a":1,"ex":"Water is H2O."},
+    {"q":"Sun rises in the?","options":["North","South","East","West"],"a":2,"ex":"Sun rises in the east."},
+    {"q":"Light year measures?","options":["Time","Distance","Speed","Energy"],"a":1,"ex":"Light year measures distance."},
+
+    {"q":"How many pillars of Islam?","options":["4","5","6","7"],"a":1,"ex":"There are five pillars."},
+    {"q":"Hijrah occurred in?","options":["620","621","622","623"],"a":2,"ex":"Hijrah occurred in 622 AD."},
+    {"q":"Total Siparas in Quran?","options":["20","25","30","35"],"a":2,"ex":"There are 30 Siparas."},
+    {"q":"First revealed Surah?","options":["Al-Fatiha","Al-Baqarah","Al-Alaq","Al-Ikhlas"],"a":2,"ex":"First revelation was Surah Al-Alaq."},
+    {"q":"Zakat made obligatory in?","options":["1 Hijri","2 Hijri","3 Hijri","4 Hijri"],"a":1,"ex":"Zakat became obligatory in 2 Hijri."},
+
+    {"q":"20% of 150?","options":["25","30","35","40"],"a":1,"ex":"20% of 150 = 30."},
+    {"q":"5 × 6 + 10 = ?","options":["30","40","50","60"],"a":1,"ex":"5×6=30 +10=40."},
+    {"q":"Square of 12?","options":["124","144","154","164"],"a":1,"ex":"12^2=144."},
+    {"q":"Half of 200?","options":["50","100","150","200"],"a":1,"ex":"Half is 100."},
+    {"q":"10% of 500?","options":["25","50","75","100"],"a":1,"ex":"10% of 500 = 50."},
+
+    {"q":"CPU stands for?","options":["Central Process Unit","Central Processing Unit","Computer Processing Unit","Control Processing Unit"],"a":1,"ex":"CPU = Central Processing Unit."},
+    {"q":"RAM is?","options":["Permanent","Volatile","External","Secondary"],"a":1,"ex":"RAM is volatile."},
+    {"q":"MS Word is?","options":["System","Application","Utility","Programming"],"a":1,"ex":"MS Word is application software."},
+    {"q":"Father of Internet?","options":["Bill Gates","Vint Cerf","Elon Musk","Steve Jobs"],"a":1,"ex":"Vint Cerf is a pioneer."},
+    {"q":"WWW stands for?","options":["World Wide Web","World Web Wide","Web World Wide","Wide Web World"],"a":0,"ex":"WWW = World Wide Web."},
+
+    {"q":"Synonym of Brave?","options":["Weak","Courageous","Lazy","Slow"],"a":1,"ex":"Brave means courageous."},
+    {"q":"Antonym of Fast?","options":["Quick","Rapid","Slow","Speed"],"a":2,"ex":"Opposite is slow."},
+    {"q":"Plural of Child?","options":["Childs","Children","Childes","Childrens"],"a":1,"ex":"Correct plural is children."},
+    {"q":"He ___ going to school.","options":["is","are","am","be"],"a":0,"ex":"Correct is 'is'."},
+    {"q":"Opposite of Hot?","options":["Warm","Cold","Cool","Heat"],"a":1,"ex":"Hot opposite is cold."},
+
+    {"q":"Largest continent?","options":["Africa","Asia","Europe","Australia"],"a":1,"ex":"Asia is largest."},
+    {"q":"Smallest continent?","options":["Europe","Australia","Antarctica","Africa"],"a":1,"ex":"Australia is smallest."},
+    {"q":"Currency of Japan?","options":["Yuan","Dollar","Yen","Won"],"a":2,"ex":"Japan uses Yen."},
+    {"q":"UN founded in?","options":["1943","1945","1947","1950"],"a":1,"ex":"UN founded in 1945."},
+    {"q":"First Governor General of Pakistan?","options":["Liaquat Ali Khan","Jinnah","Ayub Khan","Zia"],"a":1,"ex":"Quaid-e-Azam was first GG."},
+
+    {"q":"National animal of Pakistan?","options":["Lion","Markhor","Tiger","Deer"],"a":1,"ex":"Markhor is national animal."},
+    {"q":"National flower?","options":["Rose","Jasmine","Tulip","Sunflower"],"a":1,"ex":"Jasmine is national flower."},
+    {"q":"National language?","options":["Punjabi","Sindhi","Urdu","Pashto"],"a":2,"ex":"Urdu is national language."},
+    {"q":"K2 is located in?","options":["India","Nepal","Pakistan","China"],"a":2,"ex":"K2 is in Pakistan."},
+    {"q":"Indus River originates from?","options":["China","India","Tibet","Nepal"],"a":2,"ex":"Originates from Tibet."},
+
+    {"q":"Largest desert?","options":["Sahara","Thar","Gobi","Arabian"],"a":0,"ex":"Sahara is largest hot desert."},
+    {"q":"Gas used in balloons?","options":["Oxygen","Nitrogen","Helium","Hydrogen"],"a":2,"ex":"Helium is used."},
+    {"q":"Speed of light?","options":["3×10^8","3×10^6","3×10^5","3×10^7"],"a":0,"ex":"Speed is 3×10^8 m/s."},
+    {"q":"Unit of force?","options":["Joule","Watt","Newton","Pascal"],"a":2,"ex":"Force unit is Newton."},
+    {"q":"Unit of power?","options":["Joule","Watt","Newton","Volt"],"a":1,"ex":"Power unit is Watt."},
+
+    {"q":"Which planet is red?","options":["Earth","Mars","Jupiter","Saturn"],"a":1,"ex":"Mars is red planet."},
+    {"q":"Closest planet to sun?","options":["Earth","Venus","Mercury","Mars"],"a":2,"ex":"Mercury is closest."},
+    {"q":"Largest planet?","options":["Earth","Jupiter","Saturn","Mars"],"a":1,"ex":"Jupiter is largest."},
+    {"q":"Moon is satellite of?","options":["Mars","Earth","Sun","Venus"],"a":1,"ex":"Moon orbits Earth."},
+    {"q":"Earth rotates in?","options":["12h","24h","36h","48h"],"a":1,"ex":"Earth rotates in 24 hours."},
+
+    {"q":"Who discovered gravity?","options":["Einstein","Newton","Galileo","Tesla"],"a":1,"ex":"Newton discovered gravity."},
+    {"q":"Boiling point of water?","options":["90°C","100°C","110°C","120°C"],"a":1,"ex":"Water boils at 100°C."},
+    {"q":"Freezing point of water?","options":["0°C","5°C","10°C","-5°C"],"a":0,"ex":"Freezing point is 0°C."},
+    {"q":"Largest organ in human body?","options":["Heart","Skin","Brain","Liver"],"a":1,"ex":"Skin is largest organ."},
+    {"q":"Human heart chambers?","options":["2","3","4","5"],"a":2,"ex":"Heart has 4 chambers."},
+
+    {"q":"Synonym of Happy?","options":["Sad","Joyful","Angry","Tired"],"a":1,"ex":"Happy means joyful."},
+    {"q":"Antonym of Big?","options":["Large","Huge","Small","Wide"],"a":2,"ex":"Opposite is small."},
+    {"q":"Correct spelling?","options":["Recieve","Receive","Recive","Receve"],"a":1,"ex":"Correct is receive."},
+    {"q":"He ___ playing.","options":["is","are","am","be"],"a":0,"ex":"Correct is is."},
+    {"q":"They ___ going.","options":["is","are","am","be"],"a":1,"ex":"Correct is are."},
+
+    {"q":"Largest country?","options":["USA","China","Russia","India"],"a":2,"ex":"Russia is largest."},
+    {"q":"Pakistan independence year?","options":["1945","1946","1947","1948"],"a":2,"ex":"Pakistan got independence in 1947."},
+    {"q":"Allama Iqbal birth year?","options":["1875","1877","1879","1881"],"a":1,"ex":"Iqbal born in 1877."},
+    {"q":"Liaquat Ali Khan assassinated in?","options":["1950","1951","1952","1953"],"a":1,"ex":"He was assassinated in 1951."},
+    {"q":"Minar-e-Pakistan located in?","options":["Karachi","Lahore","Islamabad","Peshawar"],"a":1,"ex":"It is in Lahore."},
+
+    {"q":"2+2×2=?","options":["6","8","4","10"],"a":0,"ex":"2+4=6."},
+    {"q":"15% of 200?","options":["20","25","30","35"],"a":2,"ex":"15% of 200 = 30."},
+    {"q":"100/5=?","options":["10","20","25","30"],"a":1,"ex":"100/5=20."},
+    {"q":"Square root of 81?","options":["7","8","9","10"],"a":2,"ex":"√81=9."},
+    {"q":"7×8=?","options":["54","56","58","60"],"a":1,"ex":"7×8=56."},
+
+    {"q":"Keyboard is?","options":["Input","Output","Storage","Processing"],"a":0,"ex":"Keyboard is input device."},
+    {"q":"Monitor is?","options":["Input","Output","Storage","Processing"],"a":1,"ex":"Monitor is output device."},
+    {"q":"Hard disk is?","options":["Input","Output","Storage","Processing"],"a":2,"ex":"Hard disk stores data."},
+    {"q":"1 byte = ? bits","options":["4","8","16","32"],"a":1,"ex":"1 byte = 8 bits."},
+    {"q":"Binary digits are?","options":["0,1","1,2","2,3","3,4"],"a":0,"ex":"Binary uses 0 and 1."},
+
+    {"q":"Pakistan PM is?","options":["President","Prime Minister","Governor","Speaker"],"a":1,"ex":"Head of govt is PM."},
+    {"q":"President is?","options":["Head of State","Head of Govt","Minister","Judge"],"a":0,"ex":"President is head of state."},
+    {"q":"NA stands for?","options":["National Assembly","New Assembly","North Assembly","None"],"a":0,"ex":"NA = National Assembly."},
+    {"q":"Senate is?","options":["Upper house","Lower house","Court","Cabinet"],"a":0,"ex":"Senate is upper house."},
+    {"q":"Punjab capital?","options":["Karachi","Lahore","Quetta","Peshawar"],"a":1,"ex":"Capital is Lahore."},
+
+    {"q":"Sindh capital?","options":["Karachi","Hyderabad","Sukkur","Larkana"],"a":0,"ex":"Capital is Karachi."},
+    {"q":"KPK capital?","options":["Peshawar","Mardan","Swat","Abbottabad"],"a":0,"ex":"Capital is Peshawar."},
+    {"q":"Balochistan capital?","options":["Quetta","Gwadar","Turbat","Khuzdar"],"a":0,"ex":"Capital is Quetta."},
+    {"q":"Gwadar port is in?","options":["Sindh","Punjab","Balochistan","KPK"],"a":2,"ex":"Gwadar is in Balochistan."},
+    {"q":"CPEC connects?","options":["Pakistan-China","India-China","USA-Pakistan","Iran-Pakistan"],"a":0,"ex":"CPEC connects Pakistan and China."}
+  ]
+},
+    {
+  "id": "fia_asi_guess_100",
+  "title": "FIA Assistant Sub Inspector (ASI) Guess Paper - 100 MCQs",
+  "questions": [
+    {
+      "q": "Choose the synonym of 'Abstain':",
+      "options": [
+        "Pursue",
+        "Refrain",
+        "Accept",
+        "Continue"
+      ],
+      "a": 1,
+      "ex": "Abstain means to refrain from doing something."
+    },
+    {
+      "q": "Choose the antonym of 'Fragile':",
+      "options": [
+        "Weak",
+        "Robust",
+        "Delicate",
+        "Brittle"
+      ],
+      "a": 1,
+      "ex": "Fragile means easily broken; robust means strong and healthy."
+    },
+    {
+      "q": "He is '___' unique person.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 0,
+      "ex": "'Unique' starts with a consonant 'y' sound, so 'a' is used."
+    },
+    {
+      "q": "Identify the correct spelling:",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acomodation",
+        "Accommadation"
+      ],
+      "a": 1,
+      "ex": "The correct spelling is 'Accommodation' (double c, double m)."
+    },
+    {
+      "q": "Change to Passive Voice: 'He opens the door.'",
+      "options": [
+        "The door is opened by him.",
+        "The door was opened by him.",
+        "The door is open by him.",
+        "The door has opened by him."
+      ],
+      "a": 0,
+      "ex": "Simple present 'opens' becomes 'is opened' in passive voice."
+    },
+    {
+      "q": "Choose the correct preposition: 'He is fond ___ music.'",
+      "options": [
+        "of",
+        "to",
+        "for",
+        "with"
+      ],
+      "a": 0,
+      "ex": "'Fond' is always followed by the preposition 'of'."
+    },
+    {
+      "q": "A person who hates mankind is called:",
+      "options": [
+        "Philanthropist",
+        "Misanthrope",
+        "Optimist",
+        "Pessimist"
+      ],
+      "a": 1,
+      "ex": "A misanthrope is someone who dislikes or avoids human society."
+    },
+    {
+      "q": "Meaning of the idiom 'To cry wolf':",
+      "options": [
+        "To be very brave",
+        "To give a false alarm",
+        "To hunt animals",
+        "To cry loudly"
+      ],
+      "a": 1,
+      "ex": "To cry wolf means to raise a false alarm."
+    },
+    {
+      "q": "Identify the part of speech: 'The cat sat SILENTLY.'",
+      "options": [
+        "Adjective",
+        "Adverb",
+        "Noun",
+        "Verb"
+      ],
+      "a": 1,
+      "ex": "'Silently' describes how the cat sat, making it an adverb."
+    },
+    {
+      "q": "Complete the sentence: 'If it rains, I ___ stay home.'",
+      "options": [
+        "will",
+        "would",
+        "shall be",
+        "am"
+      ],
+      "a": 0,
+      "ex": "This is a first conditional sentence (If + present, will + base verb)."
+    },
+    {
+      "q": "Synonym of 'Enormous':",
+      "options": [
+        "Tiny",
+        "Huge",
+        "Soft",
+        "Weak"
+      ],
+      "a": 1,
+      "ex": "Enormous means very large or huge."
+    },
+    {
+      "q": "Antonym of 'Vague':",
+      "options": [
+        "Unclear",
+        "Clear",
+        "Dull",
+        "Faint"
+      ],
+      "a": 1,
+      "ex": "Vague means unclear; clear is its opposite."
+    },
+    {
+      "q": "She is '___' best student in class.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 2,
+      "ex": "Superlative degrees ('best') take the definite article 'the'."
+    },
+    {
+      "q": "One who can neither read nor write is:",
+      "options": [
+        "Illiterate",
+        "Literate",
+        "Eligible",
+        "Ineligible"
+      ],
+      "a": 0,
+      "ex": "Illiterate is the term for someone who cannot read or write."
+    },
+    {
+      "q": "Meaning of 'Break the ice':",
+      "options": [
+        "To cool down",
+        "To start a conversation",
+        "To end a fight",
+        "To work hard"
+      ],
+      "a": 1,
+      "ex": "'Break the ice' means to initiate social interaction."
+    },
+    {
+      "q": "He is afraid '___' dogs.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "a": 0,
+      "ex": "'Afraid' is followed by the preposition 'of'."
+    },
+    {
+      "q": "Synonym of 'Precise':",
+      "options": [
+        "Accurate",
+        "Wrong",
+        "Vague",
+        "Loose"
+      ],
+      "a": 0,
+      "ex": "Precise means exact or accurate."
+    },
+    {
+      "q": "Antonym of 'Ancient':",
+      "options": [
+        "Old",
+        "Modern",
+        "Historic",
+        "Antique"
+      ],
+      "a": 1,
+      "ex": "Ancient means very old; modern is the opposite."
+    },
+    {
+      "q": "I '___' working since morning.",
+      "options": [
+        "am",
+        "was",
+        "have been",
+        "had"
+      ],
+      "a": 2,
+      "ex": "Present perfect continuous ('have been') is used for actions starting in the past and continuing."
+    },
+    {
+      "q": "Plural of 'Mouse':",
+      "options": [
+        "Mouses",
+        "Mice",
+        "Mices",
+        "Mouse"
+      ],
+      "a": 1,
+      "ex": "The irregular plural of mouse is mice."
+    },
+    {
+      "q": "The headquarter of Interpol is in:",
+      "options": [
+        "Paris",
+        "Lyon",
+        "Geneva",
+        "Brussels"
+      ],
+      "a": 1,
+      "ex": "Interpol is headquartered in Lyon, France."
+    },
+    {
+      "q": "Which is the smallest country in the world by area?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Malta"
+      ],
+      "a": 1,
+      "ex": "Vatican City is the smallest independent state in the world."
+    },
+    {
+      "q": "The currency of Turkey is:",
+      "options": [
+        "Lira",
+        "Dinar",
+        "Riyal",
+        "Euro"
+      ],
+      "a": 0,
+      "ex": "The Turkish Lira is the official currency of Turkey."
+    },
+    {
+      "q": "Which planet is known as the 'Blue Planet'?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Earth",
+        "Neptune"
+      ],
+      "a": 2,
+      "ex": "Earth is called the Blue Planet due to its abundant water."
+    },
+    {
+      "q": "Who is the current Secretary-General of the UN?",
+      "options": [
+        "Ban Ki-moon",
+        "Kofi Annan",
+        "António Guterres",
+        "Donald Trump"
+      ],
+      "a": 2,
+      "ex": "António Guterres is the current UN Secretary-General."
+    },
+    {
+      "q": "The 'Great Wall' is located in which country?",
+      "options": [
+        "India",
+        "China",
+        "Japan",
+        "Russia"
+      ],
+      "a": 1,
+      "ex": "The Great Wall of China is a famous landmark in China."
+    },
+    {
+      "q": "Which is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Mississippi",
+        "Yangtze"
+      ],
+      "a": 1,
+      "ex": "The Nile is generally considered the longest river in the world."
+    },
+    {
+      "q": "The Nobel Prize is awarded in how many categories?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "a": 1,
+      "ex": "Nobel Prizes are awarded in Physics, Chemistry, Physiology/Medicine, Literature, Peace, and Economics (6 categories)."
+    },
+    {
+      "q": "The largest producer of oil in the world is:",
+      "options": [
+        "Saudi Arabia",
+        "USA",
+        "Russia",
+        "Iran"
+      ],
+      "a": 1,
+      "ex": "As of recent years, the USA has become the top oil producer."
+    },
+    {
+      "q": "Mount Everest is located in which country?",
+      "options": [
+        "India",
+        "Pakistan",
+        "Nepal",
+        "China"
+      ],
+      "a": 2,
+      "ex": "Mount Everest is located in the Himalayas on the border of Nepal and China, with the summit in Nepal."
+    },
+    {
+      "q": "The deepest ocean in the world is:",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "a": 2,
+      "ex": "The Pacific Ocean is the deepest and largest ocean."
+    },
+    {
+      "q": "The 'Statue of Liberty' was a gift from which country to the USA?",
+      "options": [
+        "UK",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "a": 1,
+      "ex": "France gifted the Statue of Liberty to the USA."
+    },
+    {
+      "q": "The capital of Russia is:",
+      "options": [
+        "Saint Petersburg",
+        "Moscow",
+        "Kiev",
+        "Minsk"
+      ],
+      "a": 1,
+      "ex": "Moscow is the capital of Russia."
+    },
+    {
+      "q": "Who is known as the 'Father of Geometry'?",
+      "options": [
+        "Pythagoras",
+        "Euclid",
+        "Archimedes",
+        "Newton"
+      ],
+      "a": 1,
+      "ex": "Euclid is often referred to as the Father of Geometry."
+    },
+    {
+      "q": "The largest continent by population is:",
+      "options": [
+        "Africa",
+        "Europe",
+        "Asia",
+        "North America"
+      ],
+      "a": 2,
+      "ex": "Asia is the most populous continent."
+    },
+    {
+      "q": "The 'Red Cross' was founded by:",
+      "options": [
+        "Florence Nightingale",
+        "Henry Dunant",
+        "Mother Teresa",
+        "Nelson Mandela"
+      ],
+      "a": 1,
+      "ex": "Henry Dunant founded the International Committee of the Red Cross."
+    },
+    {
+      "q": "Which country has the largest parliament in the world?",
+      "options": [
+        "India",
+        "China",
+        "UK",
+        "USA"
+      ],
+      "a": 1,
+      "ex": "The National People's Congress of China is the largest parliamentary body."
+    },
+    {
+      "q": "The capital of Australia is:",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "a": 2,
+      "ex": "Canberra is the capital city of Australia."
+    },
+    {
+      "q": "The 'Eiffel Tower' is in:",
+      "options": [
+        "London",
+        "Paris",
+        "Berlin",
+        "Rome"
+      ],
+      "a": 1,
+      "ex": "The Eiffel Tower is located in Paris, France."
+    },
+    {
+      "q": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "a": 1,
+      "ex": "Nitrogen makes up about 78% of the atmosphere."
+    },
+    {
+      "q": "What is the shortcut key to 'Undo' in Windows?",
+      "options": [
+        "Ctrl+X",
+        "Ctrl+Y",
+        "Ctrl+Z",
+        "Ctrl+U"
+      ],
+      "a": 2,
+      "ex": "Ctrl+Z is the shortcut for Undo."
+    },
+    {
+      "q": "Which of the following is an Operating System?",
+      "options": [
+        "MS Word",
+        "Linux",
+        "Google Chrome",
+        "VLC Player"
+      ],
+      "a": 1,
+      "ex": "Linux is a famous open-source operating system."
+    },
+    {
+      "q": "1 Gigabyte (GB) is equal to:",
+      "options": [
+        "1024 MB",
+        "1000 MB",
+        "1024 KB",
+        "1024 Bits"
+      ],
+      "a": 0,
+      "ex": "1 GB = 1024 Megabytes."
+    },
+    {
+      "q": "The 'Brain' of the computer is:",
+      "options": [
+        "RAM",
+        "Hard Disk",
+        "CPU",
+        "Motherboard"
+      ],
+      "a": 2,
+      "ex": "The CPU performs all processing, hence called the brain."
+    },
+    {
+      "q": "What does 'HTTP' stand for?",
+      "options": [
+        "Hyper Text Transfer Protocol",
+        "High Text Transfer Protocol",
+        "Hyper Transfer Text Process",
+        "Hyper Tech Transfer Protocol"
+      ],
+      "a": 0,
+      "ex": "HTTP is the foundation of data communication for the WWW."
+    },
+    {
+      "q": "Which key is used to refresh a webpage?",
+      "options": [
+        "F1",
+        "F2",
+        "F5",
+        "F12"
+      ],
+      "a": 2,
+      "ex": "F5 is the standard key to refresh or reload a page."
+    },
+    {
+      "q": "Which of the following is 'Permanent' storage?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Cache",
+        "Register"
+      ],
+      "a": 1,
+      "ex": "ROM (Read-Only Memory) is non-volatile and permanent."
+    },
+    {
+      "q": "What is the extension of an MS Word file (modern)?",
+      "options": [
+        ".txt",
+        ".xlsx",
+        ".docx",
+        ".pptx"
+      ],
+      "a": 2,
+      "ex": ".docx is the default extension for MS Word documents."
+    },
+    {
+      "q": "A computer on a network that requests files from another computer is a:",
+      "options": [
+        "Server",
+        "Client",
+        "Router",
+        "Switch"
+      ],
+      "a": 1,
+      "ex": "The client requests services, and the server provides them."
+    },
+    {
+      "q": "Which company developed Windows?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "a": 2,
+      "ex": "Microsoft developed the Windows operating system."
+    },
+    {
+      "q": "The binary system uses only two digits:",
+      "options": [
+        "1 and 2",
+        "0 and 1",
+        "A and B",
+        "9 and 0"
+      ],
+      "a": 1,
+      "ex": "Binary uses 0 (off) and 1 (on)."
+    },
+    {
+      "q": "What does 'PDF' stand for?",
+      "options": [
+        "Personal Document Format",
+        "Portable Document Format",
+        "Printable Data File",
+        "Public Document File"
+      ],
+      "a": 1,
+      "ex": "PDF stands for Portable Document Format."
+    },
+    {
+      "q": "Which device is used for connecting a computer to the internet via phone line?",
+      "options": [
+        "Monitor",
+        "Mouse",
+        "Modem",
+        "Printer"
+      ],
+      "a": 2,
+      "ex": "A modem modulates/demodulates signals for internet access."
+    },
+    {
+      "q": "The intersection of a row and a column in Excel is called a:",
+      "options": [
+        "Block",
+        "Cell",
+        "Table",
+        "Range"
+      ],
+      "a": 1,
+      "ex": "A cell is the basic unit of an Excel worksheet."
+    },
+    {
+      "q": "Which of the following is an 'Output' device?",
+      "options": [
+        "Scanner",
+        "Joystick",
+        "Monitor",
+        "Microphone"
+      ],
+      "a": 2,
+      "ex": "A monitor displays output to the user."
+    },
+    {
+      "q": "What is the shortcut key for 'Copy'?",
+      "options": [
+        "Ctrl+V",
+        "Ctrl+X",
+        "Ctrl+C",
+        "Ctrl+A"
+      ],
+      "a": 2,
+      "ex": "Ctrl+C is used to copy selected items."
+    },
+    {
+      "q": "A 'Byte' consists of how many bits?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "a": 1,
+      "ex": "1 Byte = 8 Bits."
+    },
+    {
+      "q": "Who is known as the 'Father of Computers'?",
+      "options": [
+        "Bill Gates",
+        "Charles Babbage",
+        "Alan Turing",
+        "Steve Jobs"
+      ],
+      "a": 1,
+      "ex": "Charles Babbage designed the first mechanical computer."
+    },
+    {
+      "q": "Which software is used for browsing the internet?",
+      "options": [
+        "MS Excel",
+        "Google Chrome",
+        "Photoshop",
+        "Notepad"
+      ],
+      "a": 1,
+      "ex": "Google Chrome is a popular web browser."
+    },
+    {
+      "q": "What does 'GUI' stand for?",
+      "options": [
+        "Global User Interface",
+        "Graphical User Interface",
+        "General Utility Interface",
+        "Graphic Unit Instrument"
+      ],
+      "a": 1,
+      "ex": "GUI allows users to interact with devices through visual icons."
+    },
+    {
+      "q": "How many years did the Holy Quran take for complete revelation?",
+      "options": [
+        "20",
+        "23",
+        "25",
+        "30"
+      ],
+      "a": 1,
+      "ex": "The Quran was revealed over a period of approximately 23 years."
+    },
+    {
+      "q": "The 'Battle of Badr' took place in which Hijri year?",
+      "options": [
+        "1 Hijri",
+        "2 Hijri",
+        "3 Hijri",
+        "4 Hijri"
+      ],
+      "a": 1,
+      "ex": "The Battle of Badr occurred in 2 A.H."
+    },
+    {
+      "q": "Which Prophet is known as 'Abul Bashar'?",
+      "options": [
+        "Hazrat Adam (AS)",
+        "Hazrat Nooh (AS)",
+        "Hazrat Ibrahim (AS)",
+        "Hazrat Musa (AS)"
+      ],
+      "a": 0,
+      "ex": "Hazrat Adam (AS) is called Abul Bashar (Father of Mankind)."
+    },
+    {
+      "q": "What is the meaning of 'Zakat'?",
+      "options": [
+        "Prayer",
+        "To Purify",
+        "Fasting",
+        "Faith"
+      ],
+      "a": 1,
+      "ex": "Zakat literally means to purify or grow."
+    },
+    {
+      "q": "How many 'Sajdahs' are there in the Holy Quran?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "a": 2,
+      "ex": "There are 14 mandatory Sajdah-e-Tilawat in the Quran."
+    },
+    {
+      "q": "The first Muazzin of Islam was:",
+      "options": [
+        "Hazrat Abu Bakr (RA)",
+        "Hazrat Bilal (RA)",
+        "Hazrat Umar (RA)",
+        "Hazrat Ali (RA)"
+      ],
+      "a": 1,
+      "ex": "Hazrat Bilal Habshi (RA) was the first Muazzin."
+    },
+    {
+      "q": "Which Surah is called the 'Heart of Quran'?",
+      "options": [
+        "Surah Al-Fatiha",
+        "Surah Yaseen",
+        "Surah Al-Ikhlas",
+        "Surah Al-Baqarah"
+      ],
+      "a": 1,
+      "ex": "Surah Yaseen is famously known as the Heart of the Quran."
+    },
+    {
+      "q": "The 'Treaty of Hudaibiya' was signed in:",
+      "options": [
+        "5 Hijri",
+        "6 Hijri",
+        "7 Hijri",
+        "8 Hijri"
+      ],
+      "a": 1,
+      "ex": "The treaty was signed in 6 A.H."
+    },
+    {
+      "q": "The largest Surah of the Holy Quran is:",
+      "options": [
+        "Surah Al-Baqarah",
+        "Surah Al-Imran",
+        "Surah Al-Nisa",
+        "Surah Al-Maida"
+      ],
+      "a": 0,
+      "ex": "Surah Al-Baqarah is the longest Surah."
+    },
+    {
+      "q": "How many daughters did the Holy Prophet (SAW) have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 2,
+      "ex": "The Holy Prophet (SAW) had four daughters: Zainab, Ruqayyah, Umm Kulthum, and Fatima (RA)."
+    },
+    {
+      "q": "The 'Objective Resolution' was passed in:",
+      "options": [
+        "1947",
+        "1948",
+        "1949",
+        "1950"
+      ],
+      "a": 2,
+      "ex": "It was passed on March 12, 1949."
+    },
+    {
+      "q": "Which is the highest peak of Pakistan?",
+      "options": [
+        "Nanga Parbat",
+        "K2",
+        "Rakaposhi",
+        "Broad Peak"
+      ],
+      "a": 1,
+      "ex": "K2 (8611m) is the highest in Pakistan and 2nd in the world."
+    },
+    {
+      "q": "Who was the first Prime Minister of Pakistan?",
+      "options": [
+        "Quaid-e-Azam",
+        "Liaquat Ali Khan",
+        "I.I. Chundrigar",
+        "Feroz Khan Noon"
+      ],
+      "a": 1,
+      "ex": "Liaquat Ali Khan was the first PM."
+    },
+    {
+      "q": "The 1973 Constitution of Pakistan was enforced on:",
+      "options": [
+        "23 March",
+        "14 August",
+        "25 December",
+        "6 September"
+      ],
+      "a": 1,
+      "ex": "It was enforced on 14 August 1973."
+    },
+    {
+      "q": "The largest province of Pakistan by area is:",
+      "options": [
+        "Punjab",
+        "Sindh",
+        "KPK",
+        "Balochistan"
+      ],
+      "a": 3,
+      "ex": "Balochistan covers about 44% of Pakistan's land area."
+    },
+    {
+      "q": "Which city is known as the 'City of Lights'?",
+      "options": [
+        "Lahore",
+        "Islamabad",
+        "Karachi",
+        "Faisalabad"
+      ],
+      "a": 2,
+      "ex": "Karachi is famously called the City of Lights."
+    },
+    {
+      "q": "The 'Lucknow Pact' was signed in:",
+      "options": [
+        "1912",
+        "1914",
+        "1916",
+        "1918"
+      ],
+      "a": 2,
+      "ex": "It was signed in 1916 between Muslim League and Congress."
+    },
+    {
+      "q": "Who wrote the national anthem of Pakistan?",
+      "options": [
+        "Allama Iqbal",
+        "Hafeez Jalandhari",
+        "Faiz Ahmed Faiz",
+        "Josh Malihabadi"
+      ],
+      "a": 1,
+      "ex": "Hafeez Jalandhari wrote the lyrics of the anthem."
+    },
+    {
+      "q": "The 'Tashkent Declaration' was signed in:",
+      "options": [
+        "1965",
+        "1966",
+        "1967",
+        "1968"
+      ],
+      "a": 1,
+      "ex": "It was signed after the 1965 war in January 1966."
+    },
+    {
+      "q": "Which is the national flower of Pakistan?",
+      "options": [
+        "Rose",
+        "Jasmine",
+        "Tulip",
+        "Sunflower"
+      ],
+      "a": 1,
+      "ex": "Jasmine (Chambeli) is the national flower."
+    },
+    {
+      "q": "If 'RED' is coded as 360, what is the code for 'CAT'?",
+      "options": [
+        "60",
+        "24",
+        "180",
+        "42"
+      ],
+      "a": 0,
+      "ex": "Pattern: Position in alphabet multiplied (C=3, A=1, T=20 -> 3*1*20 = 60)."
+    },
+    {
+      "q": "What is 15% of 200?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "a": 1,
+      "ex": "(15/100) * 200 = 30."
+    },
+    {
+      "q": "Find the odd one out: 3, 5, 7, 9, 11",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "a": 2,
+      "ex": "All are prime numbers except 9 (which is divisible by 3)."
+    },
+    {
+      "q": "Complete the series: 1, 4, 9, 16, 25, ___",
+      "options": [
+        "30",
+        "35",
+        "36",
+        "40"
+      ],
+      "a": 2,
+      "ex": "These are squares of 1, 2, 3, 4, 5. Next is 6^2 = 36."
+    },
+    {
+      "q": "A clock shows 3:00. What is the angle between the hands?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "180 degrees",
+        "60 degrees"
+      ],
+      "a": 1,
+      "ex": "At 3:00, the hour hand is at 3 and minute hand at 12, forming 90 degrees."
+    },
+    {
+      "q": "If 10 men can do a work in 5 days, how many days will 5 men take?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "a": 1,
+      "ex": "Inverse proportion: 10*5 = 5*x -> x = 10."
+    },
+    {
+      "q": "Which number comes next: 100, 90, 80, 70, ___",
+      "options": [
+        "50",
+        "60",
+        "65",
+        "55"
+      ],
+      "a": 1,
+      "ex": "Subtracting 10 each time."
+    },
+    {
+      "q": "If 'APPLE' is 'ELPPA', then 'MANUS' is:",
+      "options": [
+        "SUNAM",
+        "NAMUS",
+        "SUMAN",
+        "NASUM"
+      ],
+      "a": 0,
+      "ex": "The word is reversed."
+    },
+    {
+      "q": "The average of 10, 20, and 30 is:",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "a": 1,
+      "ex": "(10+20+30)/3 = 20."
+    },
+    {
+      "q": "A son's age is 1/3 of his father's. If father is 45, how old is the son?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "a": 1,
+      "ex": "45 / 3 = 15."
+    },
+    {
+      "q": "The FIA Act 1974 consists of how many sections?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "a": 1,
+      "ex": "The original Act has 10 sections."
+    },
+    {
+      "q": "Who has the power to amend the Schedule of the FIA Act?",
+      "options": [
+        "Director General",
+        "Federal Government",
+        "Supreme Court",
+        "Parliament"
+      ],
+      "a": 1,
+      "ex": "The Federal Government can amend the Schedule by notification in the official Gazette."
+    },
+    {
+      "q": "The Director General of FIA is appointed by:",
+      "options": [
+        "President",
+        "Prime Minister",
+        "Federal Government",
+        "Chief Justice"
+      ],
+      "a": 2,
+      "ex": "Section 3(2) states the DG is appointed by the Federal Government."
+    },
+    {
+      "q": "Under Section 5, an FIA officer has the power of an 'Officer-in-Charge' of a:",
+      "options": [
+        "Court",
+        "Police Station",
+        "Jail",
+        "Customs Office"
+      ],
+      "a": 1,
+      "ex": "Section 5(1) gives powers of an officer-in-charge of a police station."
+    },
+    {
+      "q": "FIA was established to replace which organization?",
+      "options": [
+        "IB",
+        "ISI",
+        "Special Police Establishment",
+        "CID"
+      ],
+      "a": 2,
+      "ex": "FIA replaced the Pakistan Special Police Establishment (PSPE)."
+    },
+    {
+      "q": "The 'Superintendence' of the Agency vests in the:",
+      "options": [
+        "Director General",
+        "Federal Government",
+        "Interior Minister",
+        "President"
+      ],
+      "a": 1,
+      "ex": "Section 4(1) states superintendence vests in the Federal Government."
+    },
+    {
+      "q": "Which section of the FIA Act deals with 'Indemnity' (protection of action taken in good faith)?",
+      "options": [
+        "Section 7",
+        "Section 8",
+        "Section 9",
+        "Section 10"
+      ],
+      "a": 1,
+      "ex": "Section 8 provides indemnity to the Federal Government and Agency members."
+    },
+    {
+      "q": "The FIA can investigate offenses committed on:",
+      "options": [
+        "Only in Islamabad",
+        "Only in Punjab",
+        "All over Pakistan",
+        "Only in Karachi"
+      ],
+      "a": 2,
+      "ex": "The Act extends to the whole of Pakistan and also applies to citizens/public servants wherever they may be."
+    },
+    {
+      "q": "Which section deals with the 'Power to make rules'?",
+      "options": [
+        "Section 6",
+        "Section 7",
+        "Section 8",
+        "Section 9"
+      ],
+      "a": 3,
+      "ex": "Section 9 empowers the Federal Government to make rules."
+    },
+    {
+      "q": "The 'Administration' of the Agency vests in the:",
+      "options": [
+        "Federal Government",
+        "Director General",
+        "Interior Secretary",
+        "Prime Minister"
+      ],
+      "a": 1,
+      "ex": "Section 4(2) states the administration vests in the Director General."
+    }
+  ]
+},
+    {
+  "id": "fia_constable_guess_100",
+  "title": "FIA Constable (BPS-05) Guess Paper - 100 MCQs",
+  "questions": [
+    {
+      "q": "Choose the correct spelling:",
+      "options": [
+        "Comittee",
+        "Committee",
+        "Comite",
+        "Commitee"
+      ],
+      "a": 1,
+      "ex": "The correct spelling is 'Committee' (double m, double t, double e)."
+    },
+    {
+      "q": "Synonym of 'Fast':",
+      "options": [
+        "Slow",
+        "Quick",
+        "Dull",
+        "Lazy"
+      ],
+      "a": 1,
+      "ex": "Fast and quick are synonyms."
+    },
+    {
+      "q": "Antonym of 'Beautiful':",
+      "options": [
+        "Pretty",
+        "Ugly",
+        "Nice",
+        "Fair"
+      ],
+      "a": 1,
+      "ex": "Ugly is the opposite of beautiful."
+    },
+    {
+      "q": "He is '___' boy.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 0,
+      "ex": "'a' is used before consonant sounds."
+    },
+    {
+      "q": "Identify the noun: 'Ali is a good boy.'",
+      "options": [
+        "Ali",
+        "is",
+        "good",
+        "very"
+      ],
+      "a": 0,
+      "ex": "'Ali' is a proper noun."
+    },
+    {
+      "q": "Choose the correct preposition: 'The book is ___ the table.'",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "a": 1,
+      "ex": "We use 'on' for surfaces."
+    },
+    {
+      "q": "Plural of 'Box':",
+      "options": [
+        "Boxs",
+        "Boxes",
+        "Boxies",
+        "Boxe"
+      ],
+      "a": 1,
+      "ex": "Nouns ending in 'x' take 'es' for plural."
+    },
+    {
+      "q": "Opposite of 'Day':",
+      "options": [
+        "Morning",
+        "Night",
+        "Evening",
+        "Noon"
+      ],
+      "a": 1,
+      "ex": "Night is the opposite of day."
+    },
+    {
+      "q": "She '___' a song.",
+      "options": [
+        "sing",
+        "sings",
+        "singing",
+        "sung"
+      ],
+      "a": 1,
+      "ex": "Third-person singular takes 's' in present tense."
+    },
+    {
+      "q": "Meaning of 'Apple of my eye':",
+      "options": [
+        "A fruit",
+        "Very dear",
+        "Bad person",
+        "Blind"
+      ],
+      "a": 1,
+      "ex": "It means someone very precious or dear."
+    },
+    {
+      "q": "Synonym of 'Happy':",
+      "options": [
+        "Sad",
+        "Glad",
+        "Angry",
+        "Tired"
+      ],
+      "a": 1,
+      "ex": "Glad means happy."
+    },
+    {
+      "q": "Antonym of 'Cold':",
+      "options": [
+        "Cool",
+        "Hot",
+        "Freezing",
+        "Ice"
+      ],
+      "a": 1,
+      "ex": "Hot is the opposite of cold."
+    },
+    {
+      "q": "I '___' to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "a": 0,
+      "ex": "'I' takes the base form of the verb."
+    },
+    {
+      "q": "Choose the correct spelling:",
+      "options": [
+        "Grammar",
+        "Grammer",
+        "Gramar",
+        "Gramer"
+      ],
+      "a": 0,
+      "ex": "The correct spelling is 'Grammar'."
+    },
+    {
+      "q": "A person who treats patients is a:",
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Farmer",
+        "Pilot"
+      ],
+      "a": 1,
+      "ex": "A doctor treats patients."
+    },
+    {
+      "q": "The sun '___' in the East.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rose"
+      ],
+      "a": 1,
+      "ex": "Universal truths are in simple present tense."
+    },
+    {
+      "q": "Synonym of 'Large':",
+      "options": [
+        "Small",
+        "Big",
+        "Thin",
+        "Short"
+      ],
+      "a": 1,
+      "ex": "Large and big have the same meaning."
+    },
+    {
+      "q": "Antonym of 'Rich':",
+      "options": [
+        "Wealthy",
+        "Poor",
+        "Strong",
+        "Weak"
+      ],
+      "a": 1,
+      "ex": "Poor is the opposite of rich."
+    },
+    {
+      "q": "This is '___' umbrella.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "a": 1,
+      "ex": "'an' is used before vowel sounds."
+    },
+    {
+      "q": "Identify the verb: 'He runs fast.'",
+      "options": [
+        "He",
+        "runs",
+        "fast",
+        "is"
+      ],
+      "a": 1,
+      "ex": "'runs' is an action word (verb)."
+    },
+    {
+      "q": "Which is the national bird of Pakistan?",
+      "options": [
+        "Markhor",
+        "Chakor",
+        "Peacock",
+        "Eagle"
+      ],
+      "a": 1,
+      "ex": "Chakor is the national bird of Pakistan."
+    },
+    {
+      "q": "The capital of Pakistan is:",
+      "options": [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Peshawar"
+      ],
+      "a": 2,
+      "ex": "Islamabad became the capital in the 1960s."
+    },
+    {
+      "q": "Who is the founder of Pakistan?",
+      "options": [
+        "Allama Iqbal",
+        "Liaquat Ali Khan",
+        "Quaid-e-Azam",
+        "Sir Syed Ahmed Khan"
+      ],
+      "a": 2,
+      "ex": "Muhammad Ali Jinnah is the founder of Pakistan."
+    },
+    {
+      "q": "Which is the largest province of Pakistan by population?",
+      "options": [
+        "Sindh",
+        "Punjab",
+        "KPK",
+        "Balochistan"
+      ],
+      "a": 1,
+      "ex": "Punjab is the most populous province."
+    },
+    {
+      "q": "The currency of USA is:",
+      "options": [
+        "Pound",
+        "Euro",
+        "Dollar",
+        "Yen"
+      ],
+      "a": 2,
+      "ex": "The US Dollar is the official currency."
+    },
+    {
+      "q": "How many colors are in the rainbow?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "a": 2,
+      "ex": "There are 7 colors (VIBGYOR)."
+    },
+    {
+      "q": "Which is the largest animal on land?",
+      "options": [
+        "Lion",
+        "Elephant",
+        "Giraffe",
+        "Tiger"
+      ],
+      "a": 1,
+      "ex": "The African Elephant is the largest land animal."
+    },
+    {
+      "q": "The smallest continent in the world is:",
+      "options": [
+        "Asia",
+        "Europe",
+        "Australia",
+        "Africa"
+      ],
+      "a": 2,
+      "ex": "Australia is the smallest continent."
+    },
+    {
+      "q": "Which city is the capital of Punjab?",
+      "options": [
+        "Multan",
+        "Faisalabad",
+        "Lahore",
+        "Sialkot"
+      ],
+      "a": 2,
+      "ex": "Lahore is the provincial capital of Punjab."
+    },
+    {
+      "q": "How many days are in a leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "a": 2,
+      "ex": "A leap year has 366 days."
+    },
+    {
+      "q": "Which is the largest ocean in the world?",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "a": 2,
+      "ex": "The Pacific Ocean is the largest."
+    },
+    {
+      "q": "The 'Badshahi Mosque' is located in:",
+      "options": [
+        "Karachi",
+        "Islamabad",
+        "Lahore",
+        "Peshawar"
+      ],
+      "a": 2,
+      "ex": "It was built by Mughal Emperor Aurangzeb in Lahore."
+    },
+    {
+      "q": "Which is the national fruit of Pakistan in summer?",
+      "options": [
+        "Apple",
+        "Mango",
+        "Banana",
+        "Orange"
+      ],
+      "a": 1,
+      "ex": "Mango is the national fruit of Pakistan in summer."
+    },
+    {
+      "q": "Who was the first woman Prime Minister of Pakistan?",
+      "options": [
+        "Fatima Jinnah",
+        "Benazir Bhutto",
+        "Hina Rabbani Khar",
+        "Maryam Nawaz"
+      ],
+      "a": 1,
+      "ex": "Benazir Bhutto was the first female PM of any Muslim country."
+    },
+    {
+      "q": "Which is the longest river in Pakistan?",
+      "options": [
+        "Ravi",
+        "Jhelum",
+        "Indus",
+        "Chenab"
+      ],
+      "a": 2,
+      "ex": "The Indus River is the longest in Pakistan."
+    },
+    {
+      "q": "The national game of Pakistan is:",
+      "options": [
+        "Cricket",
+        "Football",
+        "Hockey",
+        "Squash"
+      ],
+      "a": 2,
+      "ex": "Field Hockey is the national game."
+    },
+    {
+      "q": "Which country is to the West of Pakistan?",
+      "options": [
+        "India",
+        "China",
+        "Iran",
+        "Afghanistan"
+      ],
+      "a": 3,
+      "ex": "Afghanistan is to the West/Northwest of Pakistan."
+    },
+    {
+      "q": "How many provinces are there in Pakistan?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": 1,
+      "ex": "There are 4 main provinces: Punjab, Sindh, KPK, and Balochistan."
+    },
+    {
+      "q": "The 'Faisal Mosque' is in:",
+      "options": [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Quetta"
+      ],
+      "a": 2,
+      "ex": "Faisal Mosque is a landmark of Islamabad."
+    },
+    {
+      "q": "Which is the tallest building in the world?",
+      "options": [
+        "Eiffel Tower",
+        "Burj Khalifa",
+        "Shanghai Tower",
+        "Empire State Building"
+      ],
+      "a": 1,
+      "ex": "Burj Khalifa in Dubai is the tallest."
+    },
+    {
+      "q": "What is the full form of RAM?",
+      "options": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Real Access Memory",
+        "Rapid Access Memory"
+      ],
+      "a": 1,
+      "ex": "RAM is temporary storage."
+    },
+    {
+      "q": "Which device is used to type text on a computer?",
+      "options": [
+        "Mouse",
+        "Keyboard",
+        "Monitor",
+        "Printer"
+      ],
+      "a": 1,
+      "ex": "Keyboard is the primary input device for text."
+    },
+    {
+      "q": "What is the shortcut key for 'Paste'?",
+      "options": [
+        "Ctrl+C",
+        "Ctrl+V",
+        "Ctrl+P",
+        "Ctrl+X"
+      ],
+      "a": 1,
+      "ex": "Ctrl+V is used to paste."
+    },
+    {
+      "q": "Which part of the computer displays the image?",
+      "options": [
+        "CPU",
+        "Monitor",
+        "Keyboard",
+        "Mouse"
+      ],
+      "a": 1,
+      "ex": "The monitor is the output screen."
+    },
+    {
+      "q": "A computer 'Mouse' is an:",
+      "options": [
+        "Input device",
+        "Output device",
+        "Storage device",
+        "Software"
+      ],
+      "a": 0,
+      "ex": "Mouse is used to give commands (input)."
+    },
+    {
+      "q": "What is the shortcut key for 'Save'?",
+      "options": [
+        "Ctrl+S",
+        "Ctrl+O",
+        "Ctrl+N",
+        "Ctrl+P"
+      ],
+      "a": 0,
+      "ex": "Ctrl+S is used to save files."
+    },
+    {
+      "q": "Which of the following is the 'Brain' of computer?",
+      "options": [
+        "RAM",
+        "CPU",
+        "Monitor",
+        "Hard Disk"
+      ],
+      "a": 1,
+      "ex": "CPU (Central Processing Unit) is the brain."
+    },
+    {
+      "q": "MS Word is used for:",
+      "options": [
+        "Calculations",
+        "Typing letters",
+        "Watching movies",
+        "Browsing"
+      ],
+      "a": 1,
+      "ex": "MS Word is a word processor for typing documents."
+    },
+    {
+      "q": "Which of the following is a storage device?",
+      "options": [
+        "Printer",
+        "Hard Disk",
+        "Monitor",
+        "Keyboard"
+      ],
+      "a": 1,
+      "ex": "Hard disk stores data permanently."
+    },
+    {
+      "q": "The 'Delete' key is used to:",
+      "options": [
+        "Save",
+        "Erase",
+        "Copy",
+        "Print"
+      ],
+      "a": 1,
+      "ex": "Delete key erases selected items."
+    },
+    {
+      "q": "What is the shortcut key to 'Print'?",
+      "options": [
+        "Ctrl+P",
+        "Ctrl+Pr",
+        "Alt+P",
+        "Shift+P"
+      ],
+      "a": 0,
+      "ex": "Ctrl+P is the standard print shortcut."
+    },
+    {
+      "q": "Google is a:",
+      "options": [
+        "Browser",
+        "Search Engine",
+        "Operating System",
+        "Hardware"
+      ],
+      "a": 1,
+      "ex": "Google is the most popular search engine."
+    },
+    {
+      "q": "Which key is used to start a new line in MS Word?",
+      "options": [
+        "Shift",
+        "Ctrl",
+        "Enter",
+        "Space"
+      ],
+      "a": 2,
+      "ex": "Enter key starts a new paragraph or line."
+    },
+    {
+      "q": "What is the full form of CPU?",
+      "options": [
+        "Central Process Unit",
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Control Process Unit"
+      ],
+      "a": 1,
+      "ex": "CPU stands for Central Processing Unit."
+    },
+    {
+      "q": "Which device is used to get a hard copy of a document?",
+      "options": [
+        "Scanner",
+        "Printer",
+        "Monitor",
+        "Keyboard"
+      ],
+      "a": 1,
+      "ex": "Printer provides hard copies on paper."
+    },
+    {
+      "q": "What is the shortcut for 'Select All'?",
+      "options": [
+        "Ctrl+S",
+        "Ctrl+A",
+        "Ctrl+L",
+        "Ctrl+Alt"
+      ],
+      "a": 1,
+      "ex": "Ctrl+A selects all content."
+    },
+    {
+      "q": "Which of the following is NOT a computer hardware?",
+      "options": [
+        "Mouse",
+        "Monitor",
+        "Windows",
+        "Keyboard"
+      ],
+      "a": 2,
+      "ex": "Windows is an Operating System (Software)."
+    },
+    {
+      "q": "1 Byte is equal to how many bits?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "a": 1,
+      "ex": "1 Byte = 8 Bits."
+    },
+    {
+      "q": "Which key is used to capitalize a single letter?",
+      "options": [
+        "Ctrl",
+        "Shift",
+        "Alt",
+        "Tab"
+      ],
+      "a": 1,
+      "ex": "Holding Shift while typing a letter makes it capital."
+    },
+    {
+      "q": "The 'Escape' key is used to:",
+      "options": [
+        "Start",
+        "Cancel/Exit",
+        "Save",
+        "Print"
+      ],
+      "a": 1,
+      "ex": "Esc key cancels or exits the current operation."
+    },
+    {
+      "q": "How many pillars of Islam are there?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": 2,
+      "ex": "There are 5 pillars (Kalma, Namaz, Roza, Zakat, Hajj)."
+    },
+    {
+      "q": "Which is the first pillar of Islam?",
+      "options": [
+        "Namaz",
+        "Zakat",
+        "Tauheed/Kalma",
+        "Hajj"
+      ],
+      "a": 2,
+      "ex": "Faith (Shahadat) is the first pillar."
+    },
+    {
+      "q": "How many times is Namaz obligatory in a day?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": 2,
+      "ex": "Five daily prayers are mandatory."
+    },
+    {
+      "q": "In which month do Muslims fast?",
+      "options": [
+        "Shawwal",
+        "Ramadan",
+        "Rajab",
+        "Safar"
+      ],
+      "a": 1,
+      "ex": "Fasting is mandatory in the month of Ramadan."
+    },
+    {
+      "q": "Where is the Holy Kaaba located?",
+      "options": [
+        "Madina",
+        "Makkah",
+        "Jerusalem",
+        "Baghdad"
+      ],
+      "a": 1,
+      "ex": "The Kaaba is in Makkah, Saudi Arabia."
+    },
+    {
+      "q": "Which is the first book of Allah?",
+      "options": [
+        "Torah",
+        "Zabur",
+        "Injeel",
+        "Quran"
+      ],
+      "a": 0,
+      "ex": "Torah was the first revealed book (to Hazrat Musa AS)."
+    },
+    {
+      "q": "Who was the first Prophet of Allah?",
+      "options": [
+        "Hazrat Ibrahim AS",
+        "Hazrat Musa AS",
+        "Hazrat Adam AS",
+        "Hazrat Isa AS"
+      ],
+      "a": 2,
+      "ex": "Hazrat Adam AS was the first human and Prophet."
+    },
+    {
+      "q": "The Holy Quran was revealed to which Prophet?",
+      "options": [
+        "Hazrat Musa AS",
+        "Hazrat Isa AS",
+        "Hazrat Muhammad SAW",
+        "Hazrat Ibrahim AS"
+      ],
+      "a": 2,
+      "ex": "The Quran was revealed to the last Prophet Muhammad SAW."
+    },
+    {
+      "q": "How many Surahs are in the Holy Quran?",
+      "options": [
+        "110",
+        "112",
+        "114",
+        "116"
+      ],
+      "a": 2,
+      "ex": "There are 114 Surahs."
+    },
+    {
+      "q": "What is the meaning of 'Islam'?",
+      "options": [
+        "Peace/Submission",
+        "War",
+        "Power",
+        "Wealth"
+      ],
+      "a": 0,
+      "ex": "Islam means peace and submission to Allah."
+    },
+    {
+      "q": "When did Pakistan come into being?",
+      "options": [
+        "1940",
+        "1947",
+        "1948",
+        "1950"
+      ],
+      "a": 1,
+      "ex": "Pakistan gained independence on 14 August 1947."
+    },
+    {
+      "q": "Who gave the idea of a separate state for Muslims?",
+      "options": [
+        "Quaid-e-Azam",
+        "Allama Iqbal",
+        "Sir Syed Ahmed Khan",
+        "Liaquat Ali Khan"
+      ],
+      "a": 1,
+      "ex": "Allama Iqbal gave the idea in his Allahabad address (1930)."
+    },
+    {
+      "q": "What is the national language of Pakistan?",
+      "options": [
+        "English",
+        "Punjabi",
+        "Urdu",
+        "Sindhi"
+      ],
+      "a": 2,
+      "ex": "Urdu is the national language."
+    },
+    {
+      "q": "Which is the national flower of Pakistan?",
+      "options": [
+        "Rose",
+        "Jasmine",
+        "Tulip",
+        "Lotus"
+      ],
+      "a": 1,
+      "ex": "Jasmine is the national flower."
+    },
+    {
+      "q": "The 'Minar-e-Pakistan' is in which city?",
+      "options": [
+        "Karachi",
+        "Islamabad",
+        "Lahore",
+        "Peshawar"
+      ],
+      "a": 2,
+      "ex": "It was built where the Pakistan Resolution was passed in Lahore."
+    },
+    {
+      "q": "Who was the first Prime Minister of Pakistan?",
+      "options": [
+        "Quaid-e-Azam",
+        "Liaquat Ali Khan",
+        "Ayub Khan",
+        "Zulfiqar Ali Bhutto"
+      ],
+      "a": 1,
+      "ex": "Liaquat Ali Khan was the first PM."
+    },
+    {
+      "q": "Which is the national animal of Pakistan?",
+      "options": [
+        "Lion",
+        "Markhor",
+        "Tiger",
+        "Deer"
+      ],
+      "a": 1,
+      "ex": "Markhor is the national animal."
+    },
+    {
+      "q": "How many stanzas are in Pakistan's National Anthem?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 1,
+      "ex": "The anthem has 3 stanzas."
+    },
+    {
+      "q": "Which is the highest civilian award of Pakistan?",
+      "options": [
+        "Nishan-e-Haider",
+        "Nishan-e-Pakistan",
+        "Sitara-e-Imtiaz",
+        "Tamgha-e-Jurat"
+      ],
+      "a": 1,
+      "ex": "Nishan-e-Pakistan is the highest civilian award."
+    },
+    {
+      "q": "In which year was the first constitution of Pakistan passed?",
+      "options": [
+        "1947",
+        "1950",
+        "1956",
+        "1962"
+      ],
+      "a": 2,
+      "ex": "The first constitution was enforced in 1956."
+    },
+    {
+      "q": "What is 2 + 2 x 2?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "10"
+      ],
+      "a": 1,
+      "ex": "According to BODMAS, multiply first: 2 + (2x2) = 2 + 4 = 6."
+    },
+    {
+      "q": "Complete the series: 2, 4, 6, 8, ___",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "a": 1,
+      "ex": "It is a sequence of even numbers."
+    },
+    {
+      "q": "Which number is the largest: 105, 150, 501, 115?",
+      "options": [
+        "105",
+        "150",
+        "501",
+        "115"
+      ],
+      "a": 2,
+      "ex": "501 is the largest value."
+    },
+    {
+      "q": "What is the next letter: A, C, E, G, ___",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "a": 1,
+      "ex": "One letter is skipped in between (B, D, F)."
+    },
+    {
+      "q": "If a dozen eggs cost 120, what is the cost of 1 egg?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "a": 0,
+      "ex": "120 / 12 = 10."
+    },
+    {
+      "q": "Find the odd one out: Apple, Orange, Potato, Banana",
+      "options": [
+        "Apple",
+        "Orange",
+        "Potato",
+        "Banana"
+      ],
+      "a": 2,
+      "ex": "Potato is a vegetable, others are fruits."
+    },
+    {
+      "q": "What is 50% of 100?",
+      "options": [
+        "25",
+        "50",
+        "75",
+        "100"
+      ],
+      "a": 1,
+      "ex": "Half of 100 is 50."
+    },
+    {
+      "q": "A triangle has how many sides?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "a": 1,
+      "ex": "A triangle always has 3 sides."
+    },
+    {
+      "q": "If today is Monday, what day was yesterday?",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Saturday",
+        "Friday"
+      ],
+      "a": 0,
+      "ex": "Sunday comes before Monday."
+    },
+    {
+      "q": "What is 100 - 45?",
+      "options": [
+        "45",
+        "55",
+        "65",
+        "75"
+      ],
+      "a": 1,
+      "ex": "100 minus 45 equals 55."
+    },
+    {
+      "q": "What does FIA stand for?",
+      "options": [
+        "Federal Investigation Agency",
+        "Federal Intelligence Agency",
+        "First Investigation Agency",
+        "Financial Investigation Agency"
+      ],
+      "a": 0,
+      "ex": "FIA is the premier federal investigation agency of Pakistan."
+    },
+    {
+      "q": "The head office of FIA is in:",
+      "options": [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Quetta"
+      ],
+      "a": 2,
+      "ex": "FIA headquarters is in Islamabad."
+    },
+    {
+      "q": "FIA works under which Ministry?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Interior",
+        "Ministry of Law",
+        "Ministry of Finance"
+      ],
+      "a": 1,
+      "ex": "FIA is under the Ministry of Interior."
+    },
+    {
+      "q": "The main job of a Constable is to:",
+      "options": [
+        "Investigate",
+        "Assist senior officers",
+        "Write laws",
+        "Judge cases"
+      ],
+      "a": 1,
+      "ex": "Constables provide operational and security support."
+    },
+    {
+      "q": "Who is the head of the FIA?",
+      "options": [
+        "IG Police",
+        "Director General (DG)",
+        "Interior Minister",
+        "Prime Minister"
+      ],
+      "a": 1,
+      "ex": "The Agency is headed by a Director General."
+    },
+    {
+      "q": "FIA was established in which year?",
+      "options": [
+        "1970",
+        "1972",
+        "1974",
+        "1975"
+      ],
+      "a": 2,
+      "ex": "FIA was established under the FIA Act 1974."
+    },
+    {
+      "q": "What should a Constable do if they see a crime?",
+      "options": [
+        "Run away",
+        "Report to senior",
+        "Take a bribe",
+        "Ignore it"
+      ],
+      "a": 1,
+      "ex": "Duty requires reporting and taking lawful action."
+    },
+    {
+      "q": "Is a Constable allowed to take money from public?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only on Eid"
+      ],
+      "a": 1,
+      "ex": "Bribery is a crime and strictly prohibited."
+    },
+    {
+      "q": "The uniform of FIA is usually:",
+      "options": [
+        "Black",
+        "Khaki/Blue",
+        "White",
+        "Green"
+      ],
+      "a": 1,
+      "ex": "Law enforcement uniforms are typically Khaki or Blue variants."
+    },
+    {
+      "q": "Which wing of FIA deals with cyber crimes?",
+      "options": [
+        "Anti-Corruption",
+        "NR3C (Cyber Crime Wing)",
+        "Immigration",
+        "Counter Terrorism"
+      ],
+      "a": 1,
+      "ex": "NR3C is the dedicated cyber crime wing of FIA."
+    }
+  ]
+},
+    {
+    "id": "prison_constable_sindh_guess_100",
+    "title": "Sindh Prison Police Constable Guess Paper - 100 MCQs",
+    "questions": [
+        {
+            "q": "Synonym of 'Abundant':",
+            "options": [
+                "Scarcity",
+                "Plentiful",
+                "Small",
+                "Rare"
+            ],
+            "a": 1,
+            "ex": "Abundant means existing in large quantities."
+        },
+        {
+            "q": "Antonym of 'Flexible':",
+            "options": [
+                "Rigid",
+                "Soft",
+                "Bending",
+                "Elastic"
+            ],
+            "a": 0,
+            "ex": "Rigid means unable to bend or be forced out of shape."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Prison",
+                "Prisen",
+                "Prizon",
+                "Prisun"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Prison'."
+        },
+        {
+            "q": "He is afraid ___ dogs.",
+            "options": [
+                "to",
+                "of",
+                "with",
+                "by"
+            ],
+            "a": 1,
+            "ex": "'Afraid' is followed by the preposition 'of'."
+        },
+        {
+            "q": "The plural of 'Knife' is:",
+            "options": [
+                "Knifes",
+                "Knive",
+                "Knives",
+                "Knifey"
+            ],
+            "a": 2,
+            "ex": "Nouns ending in 'fe' change to 'ves' in plural."
+        },
+        {
+            "q": "Identify the Adjective: 'The tall man entered the room.'",
+            "options": [
+                "Tall",
+                "Man",
+                "Entered",
+                "Room"
+            ],
+            "a": 0,
+            "ex": "'Tall' describes the noun 'man'."
+        },
+        {
+            "q": "She ___ her work yesterday.",
+            "options": [
+                "finish",
+                "finishes",
+                "finished",
+                "finishing"
+            ],
+            "a": 2,
+            "ex": "Past tense 'yesterday' requires 'finished'."
+        },
+        {
+            "q": "Synonym of 'Valuable':",
+            "options": [
+                "Cheap",
+                "Worthless",
+                "Precious",
+                "Useless"
+            ],
+            "a": 2,
+            "ex": "Precious means of great value."
+        },
+        {
+            "q": "Antonym of 'Arrival':",
+            "options": [
+                "Coming",
+                "Departure",
+                "Entry",
+                "Visit"
+            ],
+            "a": 1,
+            "ex": "Departure is the opposite of arrival."
+        },
+        {
+            "q": "Choose the correct article: 'I saw ___ elephant.'",
+            "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+            ],
+            "a": 1,
+            "ex": "'an' is used before vowel sounds."
+        },
+        {
+            "q": "He is the ___ boy in the class.",
+            "options": [
+                "smart",
+                "smarter",
+                "smartest",
+                "more smart"
+            ],
+            "a": 2,
+            "ex": "Superlative degree 'the smartest' is used for comparison among all."
+        },
+        {
+            "q": "Synonym of 'Courage':",
+            "options": [
+                "Fear",
+                "Bravery",
+                "Weakness",
+                "Cowardice"
+            ],
+            "a": 1,
+            "ex": "Bravery and courage are synonyms."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Constable",
+                "Constabel",
+                "Constebal",
+                "Constabal"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Constable'."
+        },
+        {
+            "q": "They ___ playing football now.",
+            "options": [
+                "is",
+                "am",
+                "are",
+                "was"
+            ],
+            "a": 2,
+            "ex": "Plural subject 'They' takes 'are' in present continuous."
+        },
+        {
+            "q": "The sun ___ in the west.",
+            "options": [
+                "set",
+                "sets",
+                "setting",
+                "setted"
+            ],
+            "a": 1,
+            "ex": "Universal truths use simple present tense."
+        },
+        {
+            "q": "Identify the Pronoun: 'Ali and I are friends.'",
+            "options": [
+                "Ali",
+                "and",
+                "I",
+                "friends"
+            ],
+            "a": 2,
+            "ex": "'I' is a first-person pronoun."
+        },
+        {
+            "q": "Antonym of 'Victory':",
+            "options": [
+                "Success",
+                "Win",
+                "Defeat",
+                "Gain"
+            ],
+            "a": 2,
+            "ex": "Defeat is the opposite of victory."
+        },
+        {
+            "q": "He is good ___ English.",
+            "options": [
+                "in",
+                "at",
+                "on",
+                "with"
+            ],
+            "a": 1,
+            "ex": "The correct idiom is 'good at' something."
+        },
+        {
+            "q": "Meaning of 'Break the ice':",
+            "options": [
+                "To break a window",
+                "To start a conversation",
+                "To feel cold",
+                "To end a friendship"
+            ],
+            "a": 1,
+            "ex": "It means to start a conversation in a social setting."
+        },
+        {
+            "q": "Choose the correct spelling:",
+            "options": [
+                "Syllabus",
+                "Sylabus",
+                "Syllabous",
+                "Silabus"
+            ],
+            "a": 0,
+            "ex": "The correct spelling is 'Syllabus'."
+        },
+        {
+            "q": "Who is the current IG of Sindh Police?",
+            "options": [
+                "Ghulam Nabi Memon",
+                "Mushtaq Mahar",
+                "Riffat Mukhtar",
+                "Nasir Khan Durrani"
+            ],
+            "a": 0,
+            "ex": "Ghulam Nabi Memon is the current IG Sindh (as of early 2024/2026 check)."
+        },
+        {
+            "q": "The capital of Sindh is:",
+            "options": [
+                "Hyderabad",
+                "Sukkur",
+                "Karachi",
+                "Larkana"
+            ],
+            "a": 2,
+            "ex": "Karachi is the provincial capital of Sindh."
+        },
+        {
+            "q": "Which is the largest city of Pakistan?",
+            "options": [
+                "Lahore",
+                "Islamabad",
+                "Karachi",
+                "Faisalabad"
+            ],
+            "a": 2,
+            "ex": "Karachi is the largest city by population."
+        },
+        {
+            "q": "The shrine of Lal Shahbaz Qalandar is in:",
+            "options": [
+                "Bhit Shah",
+                "Sehwan Sharif",
+                "Multan",
+                "Sukkur"
+            ],
+            "a": 1,
+            "ex": "The shrine is located in Sehwan Sharif, Sindh."
+        },
+        {
+            "q": "Which is the national language of Pakistan?",
+            "options": [
+                "Sindhi",
+                "Punjabi",
+                "Urdu",
+                "English"
+            ],
+            "a": 2,
+            "ex": "Urdu is the national language."
+        },
+        {
+            "q": "The Indus River falls into the:",
+            "options": [
+                "Bay of Bengal",
+                "Arabian Sea",
+                "Caspian Sea",
+                "Dead Sea"
+            ],
+            "a": 1,
+            "ex": "The Indus River flows through Pakistan and falls into the Arabian Sea."
+        },
+        {
+            "q": "Mohenjo-daro is located in which district of Sindh?",
+            "options": [
+                "Larkana",
+                "Khairpur",
+                "Thatta",
+                "Badin"
+            ],
+            "a": 0,
+            "ex": "Mohenjo-daro is an ancient site in Larkana district."
+        },
+        {
+            "q": "Which is the highest peak in Pakistan?",
+            "options": [
+                "Nanga Parbat",
+                "K-2",
+                "Broad Peak",
+                "Tirich Mir"
+            ],
+            "a": 1,
+            "ex": "K-2 is the highest peak in Pakistan and second highest in the world."
+        },
+        {
+            "q": "The currency of Saudi Arabia is:",
+            "options": [
+                "Dinar",
+                "Riyal",
+                "Dirham",
+                "Rupee"
+            ],
+            "a": 1,
+            "ex": "The Saudi Riyal is the official currency."
+        },
+        {
+            "q": "Who was the first Governor General of Pakistan?",
+            "options": [
+                "Liaquat Ali Khan",
+                "Quaid-e-Azam",
+                "Ayub Khan",
+                "Iskander Mirza"
+            ],
+            "a": 1,
+            "ex": "Muhammad Ali Jinnah was the first Governor General."
+        },
+        {
+            "q": "Which is the largest province of Pakistan by area?",
+            "options": [
+                "Punjab",
+                "Sindh",
+                "Balochistan",
+                "KPK"
+            ],
+            "a": 2,
+            "ex": "Balochistan is the largest by land area."
+        },
+        {
+            "q": "The 'Manchar Lake' is located in:",
+            "options": [
+                "Sindh",
+                "Punjab",
+                "KPK",
+                "Balochistan"
+            ],
+            "a": 0,
+            "ex": "Manchar Lake is the largest freshwater lake in Pakistan, located in Sindh."
+        },
+        {
+            "q": "Which country is to the East of Pakistan?",
+            "options": [
+                "Iran",
+                "Afghanistan",
+                "China",
+                "India"
+            ],
+            "a": 3,
+            "ex": "India is located to the East of Pakistan."
+        },
+        {
+            "q": "How many colors are in the flag of Pakistan?",
+            "options": [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+            ],
+            "a": 1,
+            "ex": "Green and White are the two colors."
+        },
+        {
+            "q": "Who wrote the national anthem of Pakistan?",
+            "options": [
+                "Allama Iqbal",
+                "Hafeez Jalandhari",
+                "Faiz Ahmed Faiz",
+                "Josh Malihabadi"
+            ],
+            "a": 1,
+            "ex": "Hafeez Jalandhari wrote the lyrics."
+        },
+        {
+            "q": "Which is the national game of Pakistan?",
+            "options": [
+                "Cricket",
+                "Hockey",
+                "Squash",
+                "Kabaddi"
+            ],
+            "a": 1,
+            "ex": "Field Hockey is the national game."
+        },
+        {
+            "q": "The first constitution of Pakistan was passed in:",
+            "options": [
+                "1947",
+                "1956",
+                "1962",
+                "1973"
+            ],
+            "a": 1,
+            "ex": "The first constitution was implemented in 1956."
+        },
+        {
+            "q": "Which city is known as the 'City of Lights'?",
+            "options": [
+                "Lahore",
+                "Karachi",
+                "Islamabad",
+                "Peshawar"
+            ],
+            "a": 1,
+            "ex": "Karachi is famously known as the City of Lights."
+        },
+        {
+            "q": "The largest desert of Pakistan is:",
+            "options": [
+                "Thal",
+                "Cholistan",
+                "Thar",
+                "Kharan"
+            ],
+            "a": 2,
+            "ex": "Thar desert is the largest, located in Sindh."
+        },
+        {
+            "q": "Who is the current Prime Minister of Pakistan?",
+            "options": [
+                "Imran Khan",
+                "Shehbaz Sharif",
+                "Anwaar-ul-Haq Kakar",
+                "Nawaz Sharif"
+            ],
+            "a": 1,
+            "ex": "Shehbaz Sharif (as of early 2024/2026 check)."
+        },
+        {
+            "q": "The UN headquarters is located in:",
+            "options": [
+                "London",
+                "Paris",
+                "New York",
+                "Geneva"
+            ],
+            "a": 2,
+            "ex": "The UN is headquartered in New York City."
+        },
+        {
+            "q": "Which planet is known as the Red Planet?",
+            "options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+            ],
+            "a": 1,
+            "ex": "Mars is called the Red Planet."
+        },
+        {
+            "q": "The longest river in the world is:",
+            "options": [
+                "Amazon",
+                "Nile",
+                "Indus",
+                "Yangtze"
+            ],
+            "a": 1,
+            "ex": "The Nile is generally considered the longest river."
+        },
+        {
+            "q": "How many districts are there in Sindh?",
+            "options": [
+                "25",
+                "27",
+                "29",
+                "30"
+            ],
+            "a": 3,
+            "ex": "There are 30 districts in Sindh (recent count)."
+        },
+        {
+            "q": "The shrine of Shah Abdul Latif Bhittai is in:",
+            "options": [
+                "Sehwan",
+                "Bhit Shah",
+                "Hala",
+                "Thatta"
+            ],
+            "a": 1,
+            "ex": "It is located in Bhit Shah, Sindh."
+        },
+        {
+            "q": "What is the square root of 64?",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "a": 2,
+            "ex": "8 x 8 = 64."
+        },
+        {
+            "q": "What is 20% of 500?",
+            "options": [
+                "50",
+                "100",
+                "150",
+                "200"
+            ],
+            "a": 1,
+            "ex": "(20/100) * 500 = 100."
+        },
+        {
+            "q": "A triangle with all sides equal is called:",
+            "options": [
+                "Isosceles",
+                "Scalene",
+                "Equilateral",
+                "Right-angled"
+            ],
+            "a": 2,
+            "ex": "Equilateral triangles have equal sides and angles."
+        },
+        {
+            "q": "What is the value of Pi (approx)?",
+            "options": [
+                "2.14",
+                "3.14",
+                "4.14",
+                "5.14"
+            ],
+            "a": 1,
+            "ex": "Pi is approximately 3.14159."
+        },
+        {
+            "q": "How many minutes are in 2 hours?",
+            "options": [
+                "60",
+                "100",
+                "120",
+                "150"
+            ],
+            "a": 2,
+            "ex": "2 * 60 = 120 minutes."
+        },
+        {
+            "q": "What is the boiling point of water?",
+            "options": [
+                "90\u00b0C",
+                "100\u00b0C",
+                "110\u00b0C",
+                "120\u00b0C"
+            ],
+            "a": 1,
+            "ex": "Water boils at 100\u00b0C at standard pressure."
+        },
+        {
+            "q": "Which gas do humans breathe out?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon Dioxide",
+                "Hydrogen"
+            ],
+            "a": 2,
+            "ex": "Humans inhale oxygen and exhale carbon dioxide."
+        },
+        {
+            "q": "Which is the largest organ in the human body?",
+            "options": [
+                "Liver",
+                "Heart",
+                "Skin",
+                "Lungs"
+            ],
+            "a": 2,
+            "ex": "The skin is the largest organ."
+        },
+        {
+            "q": "The center of an atom is called:",
+            "options": [
+                "Electron",
+                "Proton",
+                "Nucleus",
+                "Neutron"
+            ],
+            "a": 2,
+            "ex": "The nucleus contains protons and neutrons."
+        },
+        {
+            "q": "How many bones are in the adult human body?",
+            "options": [
+                "206",
+                "210",
+                "215",
+                "220"
+            ],
+            "a": 0,
+            "ex": "An adult human has 206 bones."
+        },
+        {
+            "q": "Which vitamin is obtained from sunlight?",
+            "options": [
+                "Vitamin A",
+                "Vitamin B",
+                "Vitamin C",
+                "Vitamin D"
+            ],
+            "a": 3,
+            "ex": "Vitamin D is synthesized by the skin in sunlight."
+        },
+        {
+            "q": "What is the formula for Area of a Circle?",
+            "options": [
+                "2\u03c0r",
+                "\u03c0r\u00b2",
+                "bh/2",
+                "l*w"
+            ],
+            "a": 1,
+            "ex": "Area = \u03c0 * radius squared."
+        },
+        {
+            "q": "The speed of light is approximately:",
+            "options": [
+                "200,000 km/s",
+                "300,000 km/s",
+                "400,000 km/s",
+                "500,000 km/s"
+            ],
+            "a": 1,
+            "ex": "Light travels at ~300,000 km per second."
+        },
+        {
+            "q": "Which metal is liquid at room temperature?",
+            "options": [
+                "Gold",
+                "Silver",
+                "Mercury",
+                "Iron"
+            ],
+            "a": 2,
+            "ex": "Mercury is the only metal liquid at room temperature."
+        },
+        {
+            "q": "The process by which plants make food is:",
+            "options": [
+                "Respiration",
+                "Digestion",
+                "Photosynthesis",
+                "Evaporation"
+            ],
+            "a": 2,
+            "ex": "Plants use sunlight to create energy via photosynthesis."
+        },
+        {
+            "q": "What is the sum of angles in a triangle?",
+            "options": [
+                "90\u00b0",
+                "180\u00b0",
+                "270\u00b0",
+                "360\u00b0"
+            ],
+            "a": 1,
+            "ex": "The interior angles of a triangle add up to 180\u00b0."
+        },
+        {
+            "q": "Which is the nearest planet to the Sun?",
+            "options": [
+                "Venus",
+                "Earth",
+                "Mercury",
+                "Mars"
+            ],
+            "a": 2,
+            "ex": "Mercury is the closest planet."
+        },
+        {
+            "q": "The force that pulls objects toward Earth is:",
+            "options": [
+                "Magnetism",
+                "Friction",
+                "Gravity",
+                "Tension"
+            ],
+            "a": 2,
+            "ex": "Gravity is the universal force of attraction."
+        },
+        {
+            "q": "What is the H2O common name?",
+            "options": [
+                "Air",
+                "Water",
+                "Salt",
+                "Sugar"
+            ],
+            "a": 1,
+            "ex": "H2O is the chemical formula for water."
+        },
+        {
+            "q": "Which part of the plant is responsible for absorbing water?",
+            "options": [
+                "Leaves",
+                "Stem",
+                "Roots",
+                "Flowers"
+            ],
+            "a": 2,
+            "ex": "Roots absorb water and nutrients from soil."
+        },
+        {
+            "q": "If 1=5, 2=10, 3=15, then 4=?",
+            "options": [
+                "16",
+                "20",
+                "25",
+                "30"
+            ],
+            "a": 1,
+            "ex": "The pattern is multiplication by 5."
+        },
+        {
+            "q": "Which word does not belong? (Dog, Cat, Cow, Car)",
+            "options": [
+                "Dog",
+                "Cat",
+                "Cow",
+                "Car"
+            ],
+            "a": 3,
+            "ex": "Car is a machine, others are animals."
+        },
+        {
+            "q": "Complete: A, B, D, G, ___",
+            "options": [
+                "H",
+                "I",
+                "J",
+                "K"
+            ],
+            "a": 3,
+            "ex": "The gap increases: 0, 1, 2, 3 letters skipped."
+        },
+        {
+            "q": "If 'RED' is coded as 'DER', then 'BLUE' is?",
+            "options": [
+                "EULB",
+                "ELUB",
+                "LEUB",
+                "BELU"
+            ],
+            "a": 0,
+            "ex": "The word is reversed."
+        },
+        {
+            "q": "What comes next in the sequence: 1, 4, 9, 16, ___",
+            "options": [
+                "20",
+                "24",
+                "25",
+                "30"
+            ],
+            "a": 2,
+            "ex": "These are squares of 1, 2, 3, 4, 5."
+        },
+        {
+            "q": "Brother is to Sister as Son is to:",
+            "options": [
+                "Father",
+                "Mother",
+                "Daughter",
+                "Aunt"
+            ],
+            "a": 2,
+            "ex": "The relationship is male-female siblings and parent-child."
+        },
+        {
+            "q": "Which number is prime? (4, 6, 8, 7)",
+            "options": [
+                "4",
+                "6",
+                "8",
+                "7"
+            ],
+            "a": 3,
+            "ex": "7 is only divisible by 1 and itself."
+        },
+        {
+            "q": "If today is Sunday, what day will it be after 8 days?",
+            "options": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+            ],
+            "a": 1,
+            "ex": "7 days makes it Sunday again, 8th day is Monday."
+        },
+        {
+            "q": "Find the odd one: (Pen, Pencil, Eraser, Plate)",
+            "options": [
+                "Pen",
+                "Pencil",
+                "Eraser",
+                "Plate"
+            ],
+            "a": 3,
+            "ex": "Plate is kitchenware, others are stationery."
+        },
+        {
+            "q": "Complete the pattern: 100, 90, 80, 70, ___",
+            "options": [
+                "65",
+                "60",
+                "55",
+                "50"
+            ],
+            "a": 1,
+            "ex": "Subtract 10 each time."
+        },
+        {
+            "q": "Light is to Eye as Sound is to:",
+            "options": [
+                "Nose",
+                "Ear",
+                "Tongue",
+                "Skin"
+            ],
+            "a": 1,
+            "ex": "Eyes perceive light, ears perceive sound."
+        },
+        {
+            "q": "If 'BOY' is 2-15-25, then 'CAT' is?",
+            "options": [
+                "3-1-20",
+                "3-2-21",
+                "4-1-20",
+                "2-1-20"
+            ],
+            "a": 0,
+            "ex": "Alphabet positions: C=3, A=1, T=20."
+        },
+        {
+            "q": "How many seconds are in 5 minutes?",
+            "options": [
+                "200",
+                "250",
+                "300",
+                "350"
+            ],
+            "a": 2,
+            "ex": "5 * 60 = 300."
+        },
+        {
+            "q": "Which is heavier: 1kg Cotton or 1kg Iron?",
+            "options": [
+                "Cotton",
+                "Iron",
+                "Both same",
+                "None"
+            ],
+            "a": 2,
+            "ex": "Both are exactly 1kg."
+        },
+        {
+            "q": "Complete the series: 5, 11, 17, 23, ___",
+            "options": [
+                "28",
+                "29",
+                "30",
+                "31"
+            ],
+            "a": 1,
+            "ex": "Add 6 each time."
+        },
+        {
+            "q": "How many Surahs are in the Quran?",
+            "options": [
+                "110",
+                "112",
+                "114",
+                "116"
+            ],
+            "a": 2,
+            "ex": "There are 114 Surahs in the Holy Quran."
+        },
+        {
+            "q": "Who was the first Caliph of Islam?",
+            "options": [
+                "Hazrat Umar RA",
+                "Hazrat Abu Bakr RA",
+                "Hazrat Usman RA",
+                "Hazrat Ali RA"
+            ],
+            "a": 1,
+            "ex": "Hazrat Abu Bakr RA was the first Caliph."
+        },
+        {
+            "q": "In which month was the Quran first revealed?",
+            "options": [
+                "Ramadan",
+                "Shawwal",
+                "Rajab",
+                "Safar"
+            ],
+            "a": 0,
+            "ex": "The revelation began in the month of Ramadan."
+        },
+        {
+            "q": "How many pillars of Islam are there?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "There are 5 fundamental pillars."
+        },
+        {
+            "q": "The Battle of Badr was fought in which Hijri year?",
+            "options": [
+                "1 AH",
+                "2 AH",
+                "3 AH",
+                "4 AH"
+            ],
+            "a": 1,
+            "ex": "The Battle of Badr took place in 2 AH."
+        },
+        {
+            "q": "What is the meaning of 'Zakat'?",
+            "options": [
+                "Prayer",
+                "Fasting",
+                "Purification",
+                "Hajj"
+            ],
+            "a": 2,
+            "ex": "Zakat means to purify one's wealth."
+        },
+        {
+            "q": "Who is called 'Saifullah' (Sword of Allah)?",
+            "options": [
+                "Hazrat Ali RA",
+                "Hazrat Khalid bin Walid RA",
+                "Hazrat Umar RA",
+                "Hazrat Hamza RA"
+            ],
+            "a": 1,
+            "ex": "Khalid bin Walid was given this title by the Prophet SAW."
+        },
+        {
+            "q": "How many times is Namaz obligatory per day?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "a": 2,
+            "ex": "Five daily prayers are mandatory."
+        },
+        {
+            "q": "Where did the Prophet SAW migrate to from Makkah?",
+            "options": [
+                "Taif",
+                "Madina",
+                "Abyssinia",
+                "Syria"
+            ],
+            "a": 1,
+            "ex": "The Hijrat was to Madina (Yathrib)."
+        },
+        {
+            "q": "Which Prophet is known as 'Abul Bashar'?",
+            "options": [
+                "Hazrat Adam AS",
+                "Hazrat Ibrahim AS",
+                "Hazrat Nuh AS",
+                "Hazrat Musa AS"
+            ],
+            "a": 0,
+            "ex": "Hazrat Adam AS is the father of all humans."
+        },
+        {
+            "q": "Sindhi language is written in which script?",
+            "options": [
+                "Arabic",
+                "Latin",
+                "Devanagari",
+                "Persian"
+            ],
+            "a": 0,
+            "ex": "Sindhi uses an extended Arabic script."
+        },
+        {
+            "q": "Who is the national poet of Pakistan?",
+            "options": [
+                "Faiz Ahmed Faiz",
+                "Allama Iqbal",
+                "Mirza Ghalib",
+                "Habib Jalib"
+            ],
+            "a": 1,
+            "ex": "Allama Muhammad Iqbal is the national poet."
+        },
+        {
+            "q": "Who is known as the 'Poet of Sindh'?",
+            "options": [
+                "Sachal Sarmast",
+                "Shah Abdul Latif Bhittai",
+                "Sheikh Ayaz",
+                "Ustad Bukhari"
+            ],
+            "a": 1,
+            "ex": "Shah Abdul Latif Bhittai is the most famous Sufi poet of Sindh."
+        },
+        {
+            "q": "Meaning of Urdu word 'Itehad':",
+            "options": [
+                "Unity",
+                "Faith",
+                "Discipline",
+                "War"
+            ],
+            "a": 0,
+            "ex": "Itehad means Unity."
+        },
+        {
+            "q": "The first book of Sindhi prose is:",
+            "options": [
+                "Shah jo Risalo",
+                "Muqadma-e-Latifi",
+                "Aina-e-Qadeem",
+                "None"
+            ],
+            "a": 0,
+            "ex": "Shah jo Risalo is the most famous collection of poetry/prose ideas."
+        },
+        {
+            "q": "Opposite of 'Din' (Day) in Urdu:",
+            "options": [
+                "Subah",
+                "Raat",
+                "Sham",
+                "Dopehar"
+            ],
+            "a": 1,
+            "ex": "Raat (Night) is the opposite of Din."
+        },
+        {
+            "q": "How many letters are in the Sindhi alphabet?",
+            "options": [
+                "36",
+                "39",
+                "52",
+                "56"
+            ],
+            "a": 2,
+            "ex": "The Sindhi alphabet has 52 letters."
+        },
+        {
+            "q": "Who wrote 'Shah jo Risalo'?",
+            "options": [
+                "Sachal Sarmast",
+                "Shah Abdul Latif Bhittai",
+                "Shah Inayat",
+                "Makhdoom Bilawal"
+            ],
+            "a": 1,
+            "ex": "It was compiled from the poetry of Shah Abdul Latif Bhittai."
+        },
+        {
+            "q": "Urdu is a word of which language?",
+            "options": [
+                "Arabic",
+                "Persian",
+                "Turkish",
+                "Hindi"
+            ],
+            "a": 2,
+            "ex": "Urdu is a Turkish word meaning 'Lashkar' (Army)."
+        },
+        {
+            "q": "National flower of Pakistan is:",
+            "options": [
+                "Rose",
+                "Jasmine",
+                "Lotus",
+                "Tulip"
+            ],
+            "a": 1,
+            "ex": "Jasmine (Chambeli) is the national flower."
+        }
+    ]
+}
+  ]
+}
